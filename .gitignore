@@ -141,3 +141,5 @@ cython_debug/
 chromedriver*
 venv_lc
 *.ipynb*
+posts
+stats
