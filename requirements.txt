@@ -1,0 +1,2 @@
+loguru==0.5.3
+selenium==3.141.0

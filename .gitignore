@@ -141,5 +141,5 @@ cython_debug/
 chromedriver*
 venv_lc/
 *.ipynb*
-posts/*.txt
-stats/*.json
+data/posts/*.json
+data/stats/*.json
