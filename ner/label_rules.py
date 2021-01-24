@@ -3,11 +3,14 @@ import re
 
 LABEL_SPECIFICATION = {
     "RE_COMPANY": re.compile(r"company\s?[:-]-?\s?([&\w\.\- ]+)"),
-    "RE_TITLE": re.compile(r"title\s?/level?[:-]-?\s?([&\w\.\-\/\+\# ]+)"),
+    "RE_TITLE": re.compile(r"title\s?(/level)?\s?[:-]-?\s?([&\w\.\-\/\+\# ]+)"),
     "RE_YOE": re.compile(
-        r"\n((yrs|years)\sof\s)?(experience|exp)\s?[:-]-?\s?([\w\.\+\~\-\s]+)\n"
+        r"(yrs|years\sof\s)(experience|exp)\s?[:-]-?\s?([\w\.\+\~\-\, ]+)\n"
     ),
-    "RE_SALARY": re.compile(r"(salary|base)\s?[:-]-?\s?([\w\,\$\.\/\- ]+)\s"),
+    "RE_SALARY": re.compile(
+        r"(salary|base|base pay)\s?[:-]-?\s?([\w\,\₹\$\.\/\- ]+)\s"
+    ),
+    "RE_LOCATION": re.compile(r"\slocation\s?[:-]-?\s?([\w\, ]+)"),
 }
 
 
@@ -45,3 +48,12 @@ def label_rule_for_salary(text: str):
         text (str): Text from posts.
     """
     return re.findall(LABEL_SPECIFICATION["RE_SALARY"], text)
+
+
+def label_rule_for_location(text: str):
+    """Labeling rule for location.
+
+    Args:
+        text (str): Text from posts.
+    """
+    return re.findall(LABEL_SPECIFICATION["RE_LOCATION"], text)
