@@ -1,9 +1,0 @@
-Education: B.Tech ECE from Tier 2 Institution
-Years of Experience: 0 months
-Company: Amazon
-Title/Level: SDE-1
-Location: Bangalore
-Salary: INR 14.5L base
-Signing Bonus: INR 3.5L(first year) + 2.25L(Second year)
-Stock bonus: 5 RSU (Vested over 4 years in standard Amazon weightage)
-Benefits: Gratuity, Standard Amazon benefits
