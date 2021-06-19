@@ -137,9 +137,9 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-.vscode
+.vscode/
 chromedriver*
-venv_lc
+venv_lc/
 *.ipynb*
-posts
-stats
+posts/
+stats/
