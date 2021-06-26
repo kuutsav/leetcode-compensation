@@ -1,35 +1,47 @@
 import re
 
 
-RE_COMPANY = r"company\s?[:-]-?\s?([&\w\.\- ]+)"
-RE_TITLE = r"title\s?/level?[:-]-?\s?([&\w\.\-\/\+\# ]+)"
-RE_YOE = (
-    r"\n((yrs|years)\sof\s)?(experience|exp)\s?[:-]-?\s?([\w\.\+\~\-\s]+)\n"
-)
+LABEL_SPECIFICATION = {
+    "RE_COMPANY": re.compile(r"company\s?[:-]-?\s?([&\w\.\- ]+)"),
+    "RE_TITLE": re.compile(r"title\s?/level?[:-]-?\s?([&\w\.\-\/\+\# ]+)"),
+    "RE_YOE": re.compile(
+        r"\n((yrs|years)\sof\s)?(experience|exp)\s?[:-]-?\s?([\w\.\+\~\-\s]+)\n"
+    ),
+    "RE_SALARY": re.compile(r"(salary|base)\s?[:-]-?\s?([\w\,\$\.\/\- ]+)\s"),
+}
 
 
-def label_rule_for_company(clean_text: str):
+def label_rule_for_company(text: str):
     """Labeling rule for companies.
 
     Args:
-        clean_text (str): Clean text from posts.
+        text (str): Text from posts.
     """
-    return re.findall(RE_COMPANY, clean_text)
+    return re.findall(LABEL_SPECIFICATION["RE_COMPANY"], text)
 
 
-def label_rule_for_title(clean_text: str):
+def label_rule_for_title(text: str):
     """Labeling rule for titles.
 
     Args:
-        clean_text (str): Clean text from posts.
+        text (str): Text from posts.
     """
-    return re.findall(RE_TITLE, clean_text)
+    return re.findall(LABEL_SPECIFICATION["RE_TITLE"], text)
 
 
-def label_rule_for_yoe(clean_text: str):
+def label_rule_for_yoe(text: str):
     """Labeling rule for years of exp.
 
     Args:
-        clean_text (str): Clean text from posts.
+        text (str): Text from posts.
     """
-    return re.findall(RE_YOE, clean_text)
+    return re.findall(LABEL_SPECIFICATION["RE_YOE"], text)
+
+
+def label_rule_for_salary(text: str):
+    """Labeling rule for salary.
+
+    Args:
+        text (str): Text from posts.
+    """
+    return re.findall(LABEL_SPECIFICATION["RE_SALARY"], text)
