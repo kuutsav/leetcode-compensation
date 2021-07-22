@@ -145,3 +145,5 @@ data/posts/*.json
 data/stats/*.json
 data/others/*
 data/model/*
+
+.DS_Store
