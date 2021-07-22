@@ -12,7 +12,7 @@ browser = webdriver.Chrome(executable_path=BROWSER_EXEC_PATH)
 
 def _get_posts(browser: webdriver.Chrome) -> List[Dict[str, str]]:
     """Posts from selenium browser element.
-    
+
     Args:
         browser (webdriver.Chrome): Selenium webdriver.
     """

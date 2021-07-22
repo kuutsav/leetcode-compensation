@@ -1,0 +1,459 @@
+location,counts,clean_location,in_india
+", india",1,na,1
+"airoli, mumbai",1,mumbai,1
+alabama,1,-,
+alphagretta ga,1,-,
+amsterdam,2,-,
+"amsterdam, netherlands",1,-,
+"amsterdam, nl",1,-,
+"andheri east, mumbai india",2,mumbai,1
+"andheri, mumbai",1,mumbai,1
+any,11,-,
+anywhere,1,-,
+arizona,1,-,
+arlington hq2,1,-,
+"arlington, va",1,-,
+"arlington, virginia",1,-,
+atlanta,3,-,
+"atlanta, ga",5,-,
+"atlanta, georgia",2,-,
+"atlanta, georgia, usa",1,-,
+austin,2,-,
+"austin, texas",5,-,
+"austin, tx",12,-,
+"austin,tx",1,-,
+banaglore,2,bangalore,1
+bangale,1,bangalore,1
+bangalore,661,bangalore,1
+"bangalore , india",1,bangalore,1
+"bangalore ,india",1,bangalore,1
+bangalore india,6,bangalore,1
+bangalore or mumbai,1,bangalore,1
+"bangalore, in",7,bangalore,1
+"bangalore, ind",1,bangalore,1
+"bangalore, india",185,bangalore,1
+"bangalore, karnataka",1,bangalore,1
+"bangalore, karnataka, india",1,bangalore,1
+"bangalore, remote",2,bangalore,1
+"bangalore,india",18,bangalore,1
+"bangalore,mumbai or pune",1,bangalore,1
+bangaluru,2,bangalore,1
+bangelore,1,bangalore,1
+bangkok,1,-,
+banglore,43,bangalore,1
+"banglore , india",1,bangalore,1
+banglore india,2,bangalore,1
+"banglore, india",9,bangalore,1
+"bangolore, india",1,bangalore,1
+barcelona,1,-,
+"barcelona, spain",2,-,
+bay area,15,-,
+"bay area , usa and tamil nadu, chennai",1,-,
+"bay area, ca",11,-,
+"bay area, california",1,-,
+beijing,1,-,
+"beijing, china",2,-,
+"belarus, minsk",1,-,
+bellevue,2,-,
+"bellevue, wa",9,-,
+"bellvue, wa",1,-,
+bengalore,3,bangalore,1
+bengaluru,88,bangalore,1
+bengaluru india,6,bangalore,1
+"bengaluru, india",34,bangalore,1
+"bengaluru, karnataka",1,bangalore,1
+"bengaluru, karnataka, india",1,bangalore,1
+"bengaluru,india",3,bangalore,1
+bengauru ka india,2,bangalore,1
+"bentonville, ar",1,-,
+"bentonville, arkansas, us",3,-,
+"bentonville,arkansas",1,-,
+berlin,2,-,
+"berlin, germant",1,-,
+bhopal,1,bhopal,1
+"bhopal,mp",1,bhopal,1
+boston,13,-,
+"boston, ma",16,-,
+"boulder, co",1,-,
+brighton,1,-,
+"brooklyn, ny",1,-,
+"budapest, hu",1,-,
+"buffalo, ny",1,-,
+"burlington, ma",1,-,
+cambridge,1,-,
+"cambridge, england",1,-,
+"cambridge, ma",1,-,
+"cambridge, uk",1,-,
+canada,3,-,
+"carlsbad, ca",1,-,
+"charlotte, north carolina",1,-,
+chennai,29,chennai,1
+"chennai , india",2,chennai,1
+"chennai, india",7,chennai,1
+"chennai, tamil nadu, india",2,chennai,1
+"chennai, tn",2,chennai,1
+"chennai,india",2,chennai,1
+"chesterbrook, pa",1,-,
+"chevy chase, md",1,-,
+chicago,4,-,
+"chicago, il",4,-,
+china,1,-,
+"choice of kansas city, mo and columbia, mo",1,-,
+coimbatore,2,coimbatore,1
+"coimbatore, bangalore",1,coimbatore,1
+"coimbatore, india",1,coimbatore,1
+"columbia, missouri",1,-,
+"columbus, oh",2,-,
+"completely remote, india",2,na,1
+cupertino,4,-,
+cupertino california,1,-,
+"cupertino, ca",6,-,
+"cupertino, ca, usa",1,-,
+dallas,5,-,
+dallas tx,1,-,
+"dallas, tx",4,-,
+"dallas, tx till covid, then seattle",1,-,
+"dearborn, mi",1,-,
+delhi,16,delhi,1
+"delhi, india",1,delhi,1
+denver,2,-,
+"denver , co",1,-,
+"detroit, mi",2,-,
+"detroit, us",1,-,
+dublin,1,-,
+dublin ireland,1,-,
+"dublin, ca, united states",1,-,
+"dublin, ireland",8,-,
+"durham, north carolina",1,-,
+"edinburgh, scotland",1,-,
+emea,1,-,
+"fairfax, va",1,-,
+fl,1,-,
+"florida, us",1,-,
+foster city,1,-,
+"foster city, ca",1,-,
+"fremont, ca",1,-,
+"gandhinagar, gujarat",1,gandhinagar,1
+"gandhinagar, india",1,gandhinagar,1
+"geneva, ch",1,-,
+"glasgow, scotland",1,-,
+"glasgow, uk",2,-,
+"grand rapids, mi",1,-,
+great seattle area,1,-,
+greater la area,1,-,
+"greater seattle area, wa",1,-,
+gudgaon,2,delhi,1
+gurgaon,101,delhi,1
+gurgaon india,3,delhi,1
+"gurgaon, hr, india",2,delhi,1
+"gurgaon, india",16,delhi,1
+"gurgaon, remote",1,delhi,1
+gurugram,26,delhi,1
+"gurugram , india",1,delhi,1
+"gurugram, harayana",1,delhi,1
+"gurugram, haryana",1,delhi,1
+"gurugram, haryana india",1,delhi,1
+"gurugram, haryana, india",3,delhi,1
+"gurugram, india",6,delhi,1
+"gurugram,india",2,delhi,1
+"haifa, israel",1,-,
+"hamburg, germany",1,-,
+hcol,1,-,
+"herndon, va",2,-,
+"herndon, virginia",1,-,
+herzliya il,1,-,
+"herzliya, israel",1,-,
+ho chi minh city,1,-,
+"ho chi minh city, vietnam",1,-,
+"hoboken, nj",1,-,
+"holdmel, new jersey",1,-,
+"holmdel, nj",1,-,
+home,1,-,
+"houston, tx",4,-,
+"houston, tx, usa",1,-,
+"huntsville, al",1,-,
+hyd,4,hyderabad,1
+hyderabad,236,hyderabad,1
+"hyderabad , india",2,hyderabad,1
+hyderabad idc,1,hyderabad,1
+hyderabad india,5,hyderabad,1
+hyderabad or bangalore or gurgaon,1,hyderabad,1
+"hyderabad, in",6,hyderabad,1
+"hyderabad, india",64,hyderabad,1
+"hyderabad, india inr",1,hyderabad,1
+"hyderabad, remote",2,hyderabad,1
+"hyderabad,india",1,hyderabad,1
+"hyderabad,telangana",1,hyderabad,1
+"hyderbad, telangana, india",1,hyderabad,1
+"hyderebad, india",1,hyderabad,1
+hydrabad,2,hyderabad,1
+i will start remote in nc and move to sunnyvale once offices re,1,-,
+idc,1,-,
+india,121,na,1
+india bangalore,1,bangalore,1
+"indianapolis, in",1,-,
+"infosys, mysore",2,mysore,1
+"initial offer detroit, michigan",1,-,
+"innopolis, ru",1,-,
+irvine,1,-,
+"irvine, ca",4,-,
+japan,1,-,
+jersey city,1,-,
+"kansas city, missouri",1,-,
+"kansas city, mo",1,-,
+"kent, wa",1,-,
+kingsport tn,1,-,
+"kirkland, seattle area",1,-,
+"kirkland, wa",3,-,
+kitchener,1,-,
+"kitchener, on",1,-,
+kolkata,1,kolkata,1
+"kolkata, india",1,kolkata,1
+kormangla banglore,1,bangalore,1
+"lehi, utah, usa",1,-,
+"lexington, ma",1,-,
+lincoln ne,1,-,
+"littleton, ma",1,-,
+london,21,-,
+"london, england",7,-,
+"london, uk",17,-,
+"london, united kingdom",1,-,
+los angeles,3,-,
+"los angeles, ca",4,-,
+"louisville, co",1,-,
+luxembourg,1,-,
+"madison, wi",1,-,
+madrid,1,-,
+"magarpatta, pune maharashtra",1,pune,1
+"malvern, philadelphia",2,-,
+"manhattan beach, ca",1,-,
+"manhattan,nyc",1,-,
+"markham, canada",1,-,
+"marlborough, ma",1,-,
+mclean,1,-,
+"mclean, va",7,-,
+"mclean, va for now",1,-,
+"melbourne, australia",1,-,
+menlo park,10,-,
+menlo park or seattle,1,-,
+"menlo park, ca",11,-,
+"menlo park, cs",1,-,
+milpitas,1,-,
+minneapolis,1,-,
+"minneapolis, mn",1,-,
+"missoula, montana",1,-,
+mohali,2,-,
+"montreal, canada",1,-,
+"montreal, qc, canada",1,-,
+mountain view,7,-,
+"mountain view, ca",17,-,
+"mountain view, california",1,-,
+"mountain view, va",1,-,
+"mountain view,ca",1,-,
+mpk or seattle,1,-,
+mtv,6,-,
+multiple uk locations,1,-,
+mumbai,37,mumbai,1
+"mumbai, in",1,mumbai,1
+"mumbai, india",18,mumbai,1
+"mumbai, maharashtra",1,mumbai,1
+mysore,12,mysore,1
+na,1,-,
+nashville,1,-,
+"nashville, tn",1,-,
+natick,2,-,
+"natick, ma",4,-,
+"natick, massachusetts",1,-,
+navi mumbai,1,-,
+"ncr, india",1,delhi,1
+new delhi,2,delhi,1
+"new delhi, india",1,delhi,1
+"new delhi,india",1,delhi,1
+new jersey,2,-,
+new york,9,-,
+new york city,6,-,
+new york city area,2,-,
+new york city metro area,1,-,
+"new york city, ny",3,-,
+"new york, new york",3,-,
+"new york, ny",12,-,
+"new york, usa",3,-,
+"newark, ca",1,-,
+"newark, nj",3,-,
+"newcastle, uk",1,-,
+newport beach,1,-,
+newyork,2,-,
+noida,54,delhi,1
+noida tech blvsd,1,delhi,1
+"noida, india",17,delhi,1
+"noida, up, india",2,delhi,1
+"noida, uttar pradesh, india",2,delhi,1
+"noida,india",2,delhi,1
+"noida,up,india",1,delhi,1
+northern virginia,3,-,
+"norwalk, ct, united states",1,-,
+not specified yet,1,-,
+"novi, mi",1,-,
+ny,3,-,
+ny metro,1,-,
+nyc,33,-,
+"nyc, ny",1,-,
+oakland,1,-,
+off,1,-,
+ohio,1,-,
+oklahoma,1,-,
+on,1,-,
+option to choose bangalore,1,-,
+option to choose in taiwan,1,-,
+oregon,1,-,
+"orlando, fl",1,-,
+"orlando, florida",1,-,
+"palmdale, ca",1,-,
+palo alto,12,-,
+"palo alto, ca",17,-,
+pan,1,-,
+pan india,6,na,1
+pasadena,1,-,
+"patras, greece",1,-,
+"pennington, nj",1,-,
+permanent work from home,1,-,
+philadelphia,1,-,
+"phoenix, arizona",2,-,
+"phoenix, az",1,-,
+"pittsburgh, pa",3,-,
+"plano, tx",5,-,
+pleasanton,1,-,
+"pleasanton, ca",2,-,
+"portland, or",1,-,
+"portland, oregon",1,-,
+"portland, oregon, us",1,-,
+"portland,or",1,-,
+"poughkeepsie, new york",1,-,
+"princeton, new jersey",1,-,
+pune,28,pune,1
+pune india,2,pune,1
+"pune, india",14,pune,1
+"pune, mh",2,pune,1
+"pune,maharastra",1,pune,1
+"raleigh, nc",5,-,
+"raleigh, north carolina, us",1,-,
+redmond,24,-,
+redmond wa usa,1,-,
+"redmond, seattle",3,-,
+"redmond, wa",28,-,
+"redmond, washington",2,-,
+redwood city,3,-,
+"redwood city, ca",4,-,
+"redwood city, ca, usa",1,-,
+"redwood, ca",2,-,
+remote,31,-,
+"research triangle park, nc, us",1,-,
+richardson,1,-,
+"richardson, tx",2,-,
+"richmond, va",1,-,
+ropar,1,ropar,1
+"roseland, nj",2,-,
+salary,5,-,
+"salt lake city, ut",2,-,
+san diego,3,-,
+"san diego, ca",6,-,
+"san diego,ca",2,-,
+san francisco,25,-,
+"san francisco , ca",1,-,
+san francisco bay area,1,-,
+"san francisco, bay area",2,-,
+"san francisco, ca",22,-,
+"san francisco, ca, usa",1,-,
+"san francisco, california",3,-,
+"san fransisco, ca",1,-,
+san jose,20,-,
+"san jose, ca",19,-,
+"san jose, california",1,-,
+"san jose,ca",2,-,
+san luis obispo ca,1,-,
+"san ramon,ca",1,-,
+"sandy springs, ga",1,-,
+sanjose,1,-,
+santa barbara,2,-,
+"santa barbara, california",1,-,
+"santa clara, ca",10,-,
+"scottsdale, az",1,-,
+"seacambridgettle,ma",1,-,
+seatle,1,-,
+seatlle,1,-,
+seattle,168,-,
+seattle or dc,1,-,
+"seattle, wa",116,-,
+"seattle, washington",6,-,
+"seattle,wa",2,-,
+sf,7,-,
+"sf , ca",1,-,
+sf bay area,2,-,
+"sf, us",1,-,
+sfo,1,-,
+"shanghai, china",1,-,
+singapore,9,-,
+"singapore,",1,-,
+sj,1,-,
+"sj, ca",1,-,
+"south san francisco, ca",1,-,
+southern california,1,-,
+st,1,-,
+st louis,1,-,
+"st louis, mo",1,-,
+"stockholm, swe",1,-,
+sunnyvale,12,-,
+"sunnyvale , ca",1,-,
+"sunnyvale, ca",21,-,
+"sunrise, fl",2,-,
+sv,1,-,
+sydney,2,-,
+"sydney, australia",1,-,
+"team in cupertino, but virtual",1,-,
+techmojo,1,-,
+"tel aviv, israel",1,-,
+"tempe, arizona",2,-,
+texas,1,-,
+"texas, austin",1,-,
+"thousand oaks, ca",1,-,
+to be assigned depending upon business requirement,1,-,
+to be finalised post training,1,-,
+to be informed 1 month prior to the start of internship,1,-,
+tokyo,3,-,
+"tokyo, japan",1,-,
+"tokyo, jp",1,-,
+toronto,9,-,
+"toronto, canada",6,-,
+"toronto, on",5,-,
+"tukwila, wa",1,-,
+"twin cities, mn",1,-,
+twitter is remote,1,-,
+uk,4,-,
+unknown until 90 days before start date,1,-,
+us,1,-,
+"us austin, tx",1,-,
+usa,1,-,
+"usa, low cost of living area",1,-,
+va,1,-,
+vancouver,8,-,
+vancouver bc,1,-,
+"vancouver, bc",2,-,
+"vancouver, bc, canada",1,-,
+"vancouver, british columbia",1,-,
+"vancouver, canada",4,-,
+virginia,1,-,
+virtual,1,-,
+washington,1,-,
+washington dc,2,-,
+"washington, d",3,-,
+washnigton dc,1,-,
+"waterloo, canada",1,-,
+"west valley city, utah",1,-,
+whf,1,-,
+"whippany, nj",4,-,
+"wilmington, de",1,-,
+work from home,4,-,
+yet to be decided,5,-,
+"yorktown heights, ny",1,-,
+"zurich, ch",1,-,
+"zürich, switzerland",1,-,

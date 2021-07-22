@@ -143,3 +143,5 @@ venv_lc/
 *.ipynb*
 data/posts/*.json
 data/stats/*.json
+data/others/*
+data/model/*
