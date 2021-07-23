@@ -3,10 +3,11 @@ import re
 
 import pandas as pd
 
-MAX_BASE_LPA = 100
+from utils.constant import MAPPING_DIR, MAX_BASE_LPA
+
 
 # Location
-df = pd.read_csv("data/mappings/lc_location.csv")
+df = pd.read_csv(MAPPING_DIR + "lc_location.csv")
 LOCATION_MAPPING = {}
 for r in df.iterrows():
     clean_loc = " ".join(re.findall(r"\w+", r[1]["location"]))
@@ -15,13 +16,11 @@ for r in df.iterrows():
         "count": r[1]["counts"],
         "india": r[1]["in_india"],
     }
-
 # Company
-with open("data/mappings/lc_company.json") as f:
+with open(MAPPING_DIR + "lc_company.json") as f:
     COMPANY_MAPPING = json.load(f)
-
 # Title
-df = pd.read_csv("data/mappings/lc_title.csv", na_filter=False)
+df = pd.read_csv(MAPPING_DIR + "lc_title.csv", na_filter=False)
 TITLE_MAPPING = dict(zip(df["title"], df["clean_title"]))
 
 
@@ -64,14 +63,14 @@ def get_clean_title(title_text: str) -> str:
     return TITLE_MAPPING.get(clean_title_text, "n/a")
 
 
-def get_clean_inr_salary(salary_text: str) -> str:
+def get_clean_inr_salary(salary_text: str) -> float:
     """Salary in INR lpa.
 
     Args:
         s (str): Salary text.
 
     Returns:
-        str: Salary in lakhs per annum.
+        float: Salary in lakhs per annum.
     """
     salary_text = re.sub(",", "", salary_text)
     salary = ""

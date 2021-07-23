@@ -2,8 +2,6 @@ import json
 import os
 from random import sample
 
-# import re
-
 from utils.constant import DATA_DIR
 
 
@@ -36,7 +34,6 @@ def clean_text(text: str) -> str:
     Returns:
         str: Clean text from the post.
     """
-    # return " ".join(re.findall(r"[\w\n\:\-\.\,\$\€\£]+", text.lower()))
     return text.lower()
 
 
