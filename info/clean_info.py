@@ -1,9 +1,17 @@
 import json
 import re
+from typing import Tuple
 
 import pandas as pd
 
-from utils.constant import MAPPING_DIR, MAX_BASE_LPA
+from utils.constant import (
+    MAPPING_DIR,
+    MAX_BASE_LPA,
+    MIN_SALARY,
+    MAX_SALARY,
+    MONTHLY_SALARY_INDICATORS,
+    YOE_SPECIFICATION,
+)
 
 
 # Location
@@ -34,7 +42,7 @@ def get_clean_location(location_text: str) -> str:
         str: Clean location.
     """
     clean_loc_text = " ".join(re.findall(r"\w+", location_text))
-    return LOCATION_MAPPING.get(clean_loc_text, {"india": "n/a"})
+    return LOCATION_MAPPING.get(clean_loc_text, {"india": 0})
 
 
 def get_clean_company(company_text: str) -> str:
@@ -61,6 +69,24 @@ def get_clean_title(title_text: str) -> str:
     """
     clean_title_text = "".join(re.findall(r"\w+", title_text))
     return TITLE_MAPPING.get(clean_title_text, "n/a")
+
+
+def filter_salary(salary_text: str, final_salary: float) -> Tuple[bool, float]:
+    """Check for valid salaries in LPA(INR).
+
+    Args:
+        salary_text (str): Original salary text.
+        final_salary (float): Processed salary in LPA(INR).
+
+    Returns:
+        Tuple[bool, float]: `is_valid_salary`, salary in LPA(INR).
+    """
+    for mo in MONTHLY_SALARY_INDICATORS:
+        if mo in salary_text:
+            return False, -1
+    if final_salary >= MIN_SALARY and final_salary <= MAX_SALARY:
+        return True, final_salary
+    return False, final_salary
 
 
 def get_clean_inr_salary(salary_text: str) -> float:
@@ -112,3 +138,36 @@ def get_clean_inr_salary(salary_text: str) -> float:
             final_salary = final_salary * 100000
 
     return final_salary
+
+
+def get_yoe(yoe_text: str) -> float:
+    """Years of experience.
+
+    Args:
+        yoe_text (str): Input yoe text.
+
+    Returns:
+        float: YOE.
+    """
+    no_match = True
+    for p in YOE_SPECIFICATION:
+        match = re.search(p, yoe_text)
+        if match:
+            no_match = False
+            years = 0
+            try:
+                years = float(match.group("years"))
+            except Exception:
+                pass
+            try:
+                years += float(match.group("months")) / 12
+            except Exception:
+                pass
+            break
+    if no_match:
+        if yoe_text.startswith("fresher"):
+            years = 0
+        else:
+            years = -1
+
+    return years
