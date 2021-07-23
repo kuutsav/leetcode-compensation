@@ -15,7 +15,7 @@ from utils.constant import (
 
 
 # Location
-df = pd.read_csv(MAPPING_DIR + "lc_location.csv")
+df = pd.read_csv(MAPPING_DIR + "lc_location.csv", na_filter=False)
 LOCATION_MAPPING = {}
 for r in df.iterrows():
     clean_loc = " ".join(re.findall(r"\w+", r[1]["location"]))
