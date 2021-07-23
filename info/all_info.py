@@ -1,7 +1,14 @@
 from typing import Tuple
 
 from ner.label_prep import _get_ner_tagging_data
-from info.clean_info import get_clean_inr_salary, get_clean_location
+from info.clean_info import (
+    get_clean_company,
+    get_clean_inr_salary,
+    get_clean_location,
+    get_clean_title,
+)
+
+import pandas as pd
 
 
 MIN_SALARY = 250000
@@ -40,15 +47,32 @@ def get_all_info():
     for d in _get_ner_tagging_data()["tags"]:
         loc, salary = "", ""
         for text, tag in d:
-            if tag == "location":
+            if tag == "company":
+                comp = get_clean_company(text)
+            elif tag == "title":
+                title = get_clean_title(text)
+            elif tag == "location":
                 loc = get_clean_location(text)
             elif tag == "salary":
                 salary = get_clean_inr_salary(text)
                 valid_salary, final_salary = filter_salary(text, salary)
-        if loc and salary and valid_salary:
+        if comp and title and loc and salary and valid_salary:
             if loc["india"] == 1.0:
-                clean_info.append((loc["clean_location"], salary))
+                loc = loc["clean_location"]
+            else:
+                loc = "n/a"
+            clean_info.append((comp, title, loc, salary, d))
+
+    return clean_info
 
 
-if __name__ == "__main__":
-    get_all_info()
+def get_info_df():
+    """DataFrame of all the info."""
+    df = pd.DataFrame(
+        get_all_info(),
+        columns=["company", "title", "location", "salary", "original_text"],
+    )
+    df["original_text"] = [
+        "".join(txt for txt, _ in txt_tag) for txt_tag in df["original_text"]
+    ]
+    return df

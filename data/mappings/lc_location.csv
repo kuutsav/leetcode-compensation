@@ -70,6 +70,7 @@ bengauru ka india,2,bangalore,1
 "bentonville,arkansas",1,-,
 berlin,2,-,
 "berlin, germant",1,-,
+"berlin, germany",1,-,
 bhopal,1,bhopal,1
 "bhopal,mp",1,bhopal,1
 boston,13,-,
@@ -115,6 +116,7 @@ dallas tx,1,-,
 "dallas, tx till covid, then seattle",1,-,
 "dearborn, mi",1,-,
 delhi,16,delhi,1
+delhi ncr,1,delhi,1
 "delhi, india",1,delhi,1
 denver,2,-,
 "denver , co",1,-,
@@ -145,7 +147,9 @@ greater la area,1,-,
 gudgaon,2,delhi,1
 gurgaon,101,delhi,1
 gurgaon india,3,delhi,1
+guragon,1,delhi,1
 "gurgaon, hr, india",2,delhi,1
+"gurgaon, haryana",1,delhi,1
 "gurgaon, india",16,delhi,1
 "gurgaon, remote",1,delhi,1
 gurugram,26,delhi,1
@@ -287,6 +291,7 @@ noida,54,delhi,1
 noida tech blvsd,1,delhi,1
 "noida, india",17,delhi,1
 "noida, up, india",2,delhi,1
+"noida, up",1,delhi,1
 "noida, uttar pradesh, india",2,delhi,1
 "noida,india",2,delhi,1
 "noida,up,india",1,delhi,1
@@ -457,3 +462,4 @@ yet to be decided,5,-,
 "yorktown heights, ny",1,-,
 "zurich, ch",1,-,
 "zürich, switzerland",1,-,
+wfh,1,-,

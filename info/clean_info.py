@@ -1,9 +1,11 @@
+import json
 import re
 
 import pandas as pd
 
 MAX_BASE_LPA = 100
 
+# Location
 df = pd.read_csv("data/mappings/lc_location.csv")
 LOCATION_MAPPING = {}
 for r in df.iterrows():
@@ -13,7 +15,14 @@ for r in df.iterrows():
         "count": r[1]["counts"],
         "india": r[1]["in_india"],
     }
-    # LOCATION_MAPPING[clean_loc] = LOCATION_MAPPING[r[1]["location"]]
+
+# Company
+with open("data/mappings/lc_company.json") as f:
+    COMPANY_MAPPING = json.load(f)
+
+# Title
+df = pd.read_csv("data/mappings/lc_title.csv", na_filter=False)
+TITLE_MAPPING = dict(zip(df["title"], df["clean_title"]))
 
 
 def get_clean_location(location_text: str) -> str:
@@ -26,7 +35,33 @@ def get_clean_location(location_text: str) -> str:
         str: Clean location.
     """
     clean_loc_text = " ".join(re.findall(r"\w+", location_text))
-    return LOCATION_MAPPING.get(clean_loc_text, "")
+    return LOCATION_MAPPING.get(clean_loc_text, {"india": "n/a"})
+
+
+def get_clean_company(company_text: str) -> str:
+    """Clean mapping for company.
+
+    Args:
+        company_text (str): Company text.
+
+    Returns:
+        str: Clean company.
+    """
+    clean_comp_text = " ".join(re.findall(r"[\w\.\-\&\é ]+", company_text))
+    return COMPANY_MAPPING.get(clean_comp_text, "n/a")
+
+
+def get_clean_title(title_text: str) -> str:
+    """Clean mapping for title.
+
+    Args:
+        title_text (str): Title text.
+
+    Returns:
+        str: Clean title.
+    """
+    clean_title_text = "".join(re.findall(r"\w+", title_text))
+    return TITLE_MAPPING.get(clean_title_text, "n/a")
 
 
 def get_clean_inr_salary(salary_text: str) -> str:
