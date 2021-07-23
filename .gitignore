@@ -141,8 +141,6 @@ cython_debug/
 chromedriver*
 venv_lc/
 *.ipynb*
-data/posts/*.json
-data/stats/*.json
 data/model/*
 
 .DS_Store
