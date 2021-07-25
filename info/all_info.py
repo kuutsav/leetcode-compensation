@@ -15,7 +15,7 @@ def get_all_info():
     """Clean info from posts."""
     clean_info = []
     for d in _get_ner_tagging_data()["tags"]:
-        loc, salary = "", ""
+        loc, salary, yoe = "", "", -1
         for text, tag in d:
             if tag == "company":
                 comp = get_clean_company(text)

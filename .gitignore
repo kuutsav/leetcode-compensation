@@ -140,7 +140,7 @@ cython_debug/
 .vscode
 chromedriver*
 venv_lc/
-*.ipynb*
+labe_rules.ipynb
 data/model/*
 
 .DS_Store

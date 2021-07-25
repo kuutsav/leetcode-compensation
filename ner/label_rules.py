@@ -5,7 +5,7 @@ LABEL_SPECIFICATION = {
     "RE_COMPANY": re.compile(r"company\s?[:-]-?\s?([&\w\.\- ]+)"),
     "RE_TITLE": re.compile(r"title\s?(/level)?\s?[:-]-?\s?([&\w\.\-\/\+\# ]+)"),
     "RE_YOE": re.compile(
-        r"(yrs|years\sof\s)(experience|exp)\s?[:-]-?\s?([\w\.\+\~\-\, ]+)\n"
+        r"((yrs|years\sof\s)(experience|exp)|yoe)\s?[:-]-?\s?([\w\.\+\~\-\, ]+)"
     ),
     "RE_SALARY": re.compile(
         r"(salary|base|base pay)\s?[:-]-?\s?([\w\,\₹\$\.\/\- ]+)\s"
