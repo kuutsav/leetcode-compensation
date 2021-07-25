@@ -1,18 +1,8 @@
 # Leetcode compensations report
 Scraping and analysis of leetcode-compensations page.
 
-## Sample reports
-`Salary distribution`
+`Salary Distribution`
 ![Salary](data/imgs/all_lpa.png)
-
-`Salary by company`
-![Salary](data/imgs/comp_lpa.png)
-
-`Salary by title`
-![Salary](data/imgs/title_lpa.png)
-
-`Salary by experience`
-![Salary](data/imgs/yoe_lpa.png)
 
 
 ## Directory structure
