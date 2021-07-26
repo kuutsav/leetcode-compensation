@@ -4,13 +4,18 @@ Scraping and analysis of leetcode-compensations page.
 `Salary Distribution`
 ![Salary](data/imgs/all_lpa.png)
 
+## Report
+[report](data/reports/report.md)
+
 
 ## Directory structure
 - data
+    - imgs - images for reports
     - mappings - standardized company, location and title mappings
     - ner - data for NER models
     - out - data for compensation analysis
     - posts - actual posts
+    - reports - salary analysis by companies, titles and experience
     - stats - scraping stats
 - info - functions to get tagged data as well as final data in tabular format
 - lc - scraper
