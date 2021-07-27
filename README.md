@@ -5,7 +5,7 @@ Scraping and analysis of leetcode-compensations page.
 ![Salary](data/imgs/all_lpa.png)
 
 ## Report
-[Jan 2019 - July 2021](data/reports/report.md)
+[INDIA - Jan 2019 - July 2021](data/reports/report.md)
 
 
 ## Directory structure
