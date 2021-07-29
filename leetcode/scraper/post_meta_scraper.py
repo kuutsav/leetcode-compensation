@@ -9,7 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 from utils.constant import BROWSER_EXEC_PATH, LEETCODE_COMPENSATIONS_URL
 
-# Stop loading the page when posts are available
+# stop loading the page when posts are available
 capa = DesiredCapabilities.CHROME
 capa["pageLoadStrategy"] = "none"
 

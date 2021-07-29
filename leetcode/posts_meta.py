@@ -6,7 +6,7 @@ import time
 
 from loguru import logger
 
-from lc.scraper.post_meta_scraper import (
+from leetcode.scraper.post_meta_scraper import (
     driver,
     get_compensation_posts,
 )

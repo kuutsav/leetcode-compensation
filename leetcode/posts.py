@@ -4,7 +4,7 @@ import time
 
 from loguru import logger
 
-from lc.scraper.post_text_scraper import (
+from leetcode.scraper.post_text_scraper import (
     driver,
     get_text_from_post,
 )
