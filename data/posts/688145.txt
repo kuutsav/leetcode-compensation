@@ -1,0 +1,14 @@
+Education: BE CS
+Years of Experience: 6
+Prior Experience: Startup
+Date of the Offer: 2020
+Company: VMware
+Title/Level: MTS3
+Location: Bangalore
+Salary: 22L
+Relocation/Signing Bonus:0
+Stock bonus:24L
+Bonus:4L
+Total comp (Salary + Bonus + Stock):26+(24/4)=26+6=32
+Benefits:NA
+Other details:NA

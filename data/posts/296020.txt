@@ -1,0 +1,13 @@
+Company: Walmart labs
+Title/Level: SDE - Machine learning
+Education: MS in Computer Science
+Years of Experience: No relevant experience
+Prior Experience: Interned at one of top 5 companies
+Date of the Offer: march 2019
+Location: Sunnyvale, CA
+Salary: $145,000
+Relocation: $15,000
+Signing Bonus: $30,000
+Stock bonus: $80K stock grant vested over 4 years
+Bonus: Performance-based bonus up to 23% of salary every year
+Total comp (Salary + Bonus + Stock): ~$195K

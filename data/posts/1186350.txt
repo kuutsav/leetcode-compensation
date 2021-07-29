@@ -1,0 +1,18 @@
+Education: MS in CS (in Top-10 US Univ.)
+Years of Experience: 2
+Prior Experience: MLE at a fast-growth Bay area startup (prior to that, 2 internships at Microsoft and IBM Research)
+For fresh grad, any related Internship/coop experience? N/A
+Date of the Offer: April-2021
+Company: Microsoft
+Title/Level: Applied Scientist 2 (L62)
+Location: Seattle, WA
+Base Salary: $155,000
+Signing Bonus: $100,000
+Stock bonus: $225,000 over 4 years
+Perf. Bonus: 10% (minimum)
+Total comp (Salary + Bonus + Stock): $252,000 (total 4 years compensation divided by 4)
+Benefits: Standard Microsoft benefits
+Interview Experience: https://leetcode.com/discuss/interview-experience/1179986/Microsoft-or-Applied-Scientist-2-or-SDE-2-or-L62-or-Seattle-WA-Offer
+Competing offers:
+Amazon offer (Bay area): https://leetcode.com/discuss/compensation/1128973/amazon-l5-mle-san-francisco/889467
+Google offer (Bay area): https://leetcode.com/discuss/compensation/1186441/Google-or-ML-SWE-(L4)-or-Mountain-View

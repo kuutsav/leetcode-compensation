@@ -1,0 +1,15 @@
+Education: BS in Computer Engineering
+Years of Experience: 5
+Prior Experience: Tier-1 Company In Japan
+Date of the Offer: 2/21
+Company: Indeed
+Title/Level: Software Engineer II (L2)
+Location: Japan
+Salary: 12.5M Yen
+Relocation/Signing Bonus: 3.25M (1st year)
+Stock bonus: LTips 50K (Estimate to be 8M yen or more depends on Company performance, receive in 4th year)
+Bonus: Aniversary Bonus 3.25M (2nd and 3rd year) + 10-15% Target Bonus
+Total comp (Salary + Bonus + Stock): 18.7 (17.6M First Three Years, 22.3M 4th year)
+Benefits: 401K (5%)
+Other details: Recruiter told me the offer was out of band for SDE II. I declined since I got a better competing offer in terms of both career growth and TC.
+Interview Experience: https://leetcode.com/discuss/interview-experience/510816/NDA-Indeed-or-L2-or-Japan-or-Offer

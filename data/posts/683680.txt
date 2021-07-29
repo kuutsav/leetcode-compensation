@@ -1,0 +1,15 @@
+Education: Bachelor in CS
+Years of Experience: 10
+Prior Experience: Brazilian companies
+Date of the Offer: June 2020
+Company: Amazon
+Title/Level: Android SDE II
+Location: Toronto, Canada
+Salary: CAD 140,000
+Relocation: Relocation package (temporary housing, flight, goods shipment and other benefits) + USD 2500
+Signing Bonus: CAD 50,000 + CAD 35,000
+Stock bonus: 32 RSU (~USD 80,000) over 4 years
+Total comp (Salary + Bonus + Stock): CAD 193,000 Year 1
+Benefits: 15 paid vacation days + 2 paid sick leave days + 11 paid Canada holidays + 10% discount in Amazon.ca (up to CAD 150 discount/year) + 3% RRSP matching + covered health/dental/vision
+Other details: Did not negotiate. Received the positive feedback 7 days after onsite interview and the offer 14 days after onsite interview
+Interview Experience: https://leetcode.com/discuss/interview-experience/712272/Amazon-or-Android-SDE-2-or-Toronto-Canada-or-June2020-Offer

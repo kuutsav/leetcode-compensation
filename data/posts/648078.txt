@@ -1,0 +1,9 @@
+Education: Masters in Non-CS
+Experience: 10 years in the IT industry
+Date of the Offer: May 2020
+Company: Amazon
+Title/Level: SDE-2/Level 5
+Location: Seattle
+Total comp (Salary + Bonus + Stock): $245K
+Benefits: Standard Amazon benefits
+Interview experience: https://leetcode.com/discuss/interview-experience/646712/NDA-Amazon-or-SDE2-or-Seattle-or-May-2020-Offer

@@ -1,0 +1,10 @@
+Education: Bachelor's in C.S. from a tier-2 university in India.
+Years of Experience: 2.5
+Prior Experience: Reputed MNC.
+Date of the Offer: March 2020
+Company: Paytm
+Title/Level: Software Engineer
+Location: Noida
+Salary: INR 20,00,000 (Base)
+Variable: 200000
+Total comp (Salary + Var): INR 22,00,000

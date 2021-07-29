@@ -1,0 +1,8 @@
+During a LLD design round,
+What are the criterion used to judge a candiate (specifically for LLD round), like use of SOLID principle etc.
+Is interviewee expected to run the code end to end or white board design is enough?(Yes/No/Depends from company to company)
+If answer to the previous question is yes
+then does the interviewee needs to prepare boiler plate code.
+How is the input taken, CLI, files or test cases?
+How realistic it is to write and run 400-500 lines of code and run it within 60-90 mins?
+This thread can be used to track the list of companies which has LLD rounds. Folks who had LLD round can mention the name of the company in the comments.

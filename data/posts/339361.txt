@@ -1,0 +1,15 @@
+Education: MS in Computer Science
+Years of Experience: 1.5
+Prior Experience: 2.5 yoe in another non-cs engineering domain
+Date of the Offer: Fall 2019
+Company: Microsoft
+Title/Level: Software Engineer/Not sure, maybe 60 or 61
+Location: Redmond, WA
+Salary: $135,000 USD
+Relocation: $23,500 if is_homeowner == True else $13,500
+Signing Bonus: $20,000
+Stock bonus: $80K stock grant vested over 4 years (1st year 25%, then quarterly 6.25%)
+Bonus: annual individual-performance-based bonus up to 20% of qualified salary, eligible for annual stock refresh rewards
+Total comp (Salary + Bonus + Stock): up to $182K
+Benefits: 12 weeks of fully paid parental leave + 15 paid vacation days + 10 paid sick leave days + 10 paid U.S. holidays + 2 paid personal days + 10% discount ESPP with up to 15% of your paycheck contribution + 50% match 401K/Roth up to $9,500 /yr (assuming IRS annual limit $19,000) + 100% covered health(you+your family)/dental/vision
+Other details: Negotiated twice, but unfortunately no competing offer, original offer 130K base with 50K stock. Was given 5 business days to accept/decline.

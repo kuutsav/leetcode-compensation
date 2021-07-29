@@ -1,0 +1,13 @@
+Education: BTech Tier 2
+Years of Experience: 4
+Prior Experience: Amazon SDE2
+Company: Zeta
+Title/Level: SDE2
+Location: Bangalore
+Salary: 38L
+Relocation Bonus : 1L
+Signing Bonus: 5L (for 2 years)
+Stock bonus: 19L over 4 years (vesting 10%,20%,30% and 40%)
+Total comp (Salary + Bonus + Stock): 45.9L (38 + 5 + 1 + 1.9)
+Benefits: Standard Zeta Benfits
+Prev TC : 40L (30L base + 10L stocks)

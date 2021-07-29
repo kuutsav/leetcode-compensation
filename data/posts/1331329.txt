@@ -1,0 +1,17 @@
+Education: BTech non-CS background
+Years of Experience: 5.5
+Prior Experience: SDE 2 at product MNC
+Date of the Offer: June 2021
+Company: Tekion
+Title/Level: Senior Software Engineer
+Location: Bangalore
+Base Salary: 34L
+Relocation bonus: 2L
+Joining bonus: 3L
+Stock: 4000 units (for 4 years vesting at 25% each year)
+Total comp (Salary + Bonus + Stock): 39L + stock
+Benefits: N/A
+
+Note: already had an offer from Adobe (https://leetcode.com/discuss/compensation/1331337/adobe-computer-scientist-banglore/1006602)
+
+Previous Compensation - (15 fixed + 25L(stocks in 3 years) + 2L(bonus)) = approx 24L/year

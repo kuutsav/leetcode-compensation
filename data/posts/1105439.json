@@ -1,1 +1,0 @@
-{"text": "from collections import Counter\nclass Solution:\ndef canConstruct(self, ransomNote: str, magazine: str) -> bool:\nd1 = Counter(magazine)\nd2 = Counter(ransomNote)\nfor i in d2:\nif d2[i] > d1[i]:\nreturn False\nreturn True"}

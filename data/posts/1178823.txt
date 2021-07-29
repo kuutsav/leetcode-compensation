@@ -1,0 +1,21 @@
+Education: Tier 3 College (Computer Science)
+Years of Experience: 9 month (in a Fintech Startup)
+Title/Level: SDE-1
+Date of offer: April 2021
+Location: Bangalore, India
+Salary: 19 LPA
+Signing Bonus: N/A
+Performance Based: 1.9 LPA
+ESOPS: 6LPA (vesting 25 percent per year).
+Total comp (Salary + Bonus + Stock): ~ 20.9 LPA + 6/4 = 22.4 LPA for first year
+Other details:
+Previous CTC: 5 LPA
+Recently I got offers from Amazon too, but I am very confused which one to choose. So all those who have idea about these companies can you please help me chose one out of them based on these criteria:
+Work Life Balance
+Growth
+Amazon offering stocks (7LPA) while flipkart offering ESOC(6LPA)
+Promotion to SDE-2 level
+Oversea opportunities
+Looking forward to read your amazing experiences.
+It will be a hell lot of confusing for me after I will get offer from Amazon, so I request experienced folks please guide me here, which one to chose?
+Other offer: https://leetcode.com/discuss/compensation/1180920/Amazon-or-SDE1-or-India

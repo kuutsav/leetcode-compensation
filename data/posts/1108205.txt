@@ -1,0 +1,10 @@
+'''
+def twoSum(self, nums: List[int], target: int) -> List[int]:
+complement_map = {}
+for index, element in enumerate(nums):
+if complement_map.get(element) is not None:
+return [complement_map.get(element), index]
+complement = target - element
+complement_map.update({complement: index})
+return []
+'''

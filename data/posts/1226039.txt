@@ -1,0 +1,9 @@
+Education: Btech in Computer Science
+Years of Experience: 3.5
+Company: Oracle (OCI)
+Title/Level: Software Developer 2
+Location: Bangalore, India
+Salary: ~2800000
+Relocation/Signing Bonus: 600000
+Stock bonus: 500 RSU vested over 4 years
+Total comp (Salary + Bonus + Stock): 3600000

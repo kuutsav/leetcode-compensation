@@ -1,0 +1,17 @@
+Education: BE in Computer Engineering from tier-1 college
+Years of Experience: 3yrs 10 months
+Prior Experience: Big Mncs
+Date of offer: June 2020
+Company: Microsoft
+Title: SDE 2
+Location: Hyderabad
+Salary: 31,00,000
+Relocation bonus: No bonus but gives 1 month hotel stay, Free food and driver for 1 month
+Stock bonus: 90K USD over 4 years ~ (15.75L per year)
+Joining Bonus : 4L (1st year), 2L (2nd year)
+Performance Bonus : 0-20% (at max 6L)
+Total Comp(Salary + Bonus + Stock): 50.75 excluding performance bonus
+Benefits: Standard Microsoft benefits
+Other Details: Previous comp 36LPA
+Had competing offer of 52.80. No negotiation showed the other offer. This was take it or leave it offer.
+Interview Experience : https://leetcode.com/discuss/interview-experience/694893/Microsoft-or-SDE2-or-Microsoft

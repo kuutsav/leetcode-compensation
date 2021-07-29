@@ -1,0 +1,14 @@
+Years of Experience: 5yrs 2 months
+Date of offer: Sept 2020
+Company: Microsoft
+Title: SDE 2
+Level: 62
+Location: Hyderabad
+Basic Salary: INR 35,50,000
+Relocation bonus: INR 1,39,000
+Stock bonus: 60K USD over 4 years (INR 11,05,942 per year)
+Performance Bonus : 0-20% of Basic
+Total Comp(Salary + Bonus + Stock): INR 48L excluding performance bonus
+Benefits: Standard Microsoft benefits
+Other Details: Previous comp 34LPA
+Interview Experience :https://leetcode.com/discuss/interview-experience/865904/Microsoft-or-Offer-or-SDE-II-or-L62-or-Hyderabad

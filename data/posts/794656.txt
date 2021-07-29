@@ -1,0 +1,14 @@
+Education: B. Tech Computer Science(Tier 3 College, India)
+Years of Experience: 0
+Prior Experience: 0
+Date of the Offer: July 2020
+Company: Gameskraft
+Title/Level: Software Engineer Intern
+Location:Bangalore, India
+Salary: Rs 40, 000 stipend per month
+Relocation/Signing Bonus: NA
+Stock bonus: NA
+Bonus: NA
+Total comp (Salary + Bonus + Stock): Rs 40,000 stipend per month
+Benefits: 15 days accomodation + flight charges
+Other details: Oncampus. They took a coding round then 3 interviews. Last interview was HR interview and rest 2 technical with DSA, OOPs & System Design Only. (Difficulty level - Leetcode Medium/Hard)

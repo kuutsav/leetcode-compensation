@@ -1,0 +1,8 @@
+Education: B.S. Computer Science
+Years of Experience (formal): 0
+Company: CGI
+Location: Maine
+Title: Jr. Python Dev
+Salary (yearly): 65,000 USD (Negotiated from 60,000 USD original offer)
+Benefits: 3% salary stock matching, 4% salary 401k matching, medical/dental insurance, performance-based bonus
+Total Comp (includes matching values + expected average bonus): ~72,500 USD

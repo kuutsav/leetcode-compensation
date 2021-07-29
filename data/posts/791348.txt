@@ -1,0 +1,14 @@
+Education: B.Tech in CS (Tier 1)
+Years of Experience: 5 years 9 months
+Prior Experience: Senior Software Engineer at a startup
+Date of the Offer: May 2020
+Company: Amazon
+Title/Level: SDE2
+Location: Chennai
+Salary: ₹33,00,000
+Relocation/Signing Bonus: ₹10,00,000 (First year) + ₹6,00,000 (Second year)
+Stock bonus: 15 RSUs ~ ₹35,00,000 (5/15/40/40 over 4 years)
+Total comp (Salary + Bonus + Stock): ~₹45,00,000
+Benefits: Standard Amazon Benefits
+Other details : Tried to negotiate, they did not increase. They mentioned that my TC has to be in parity with others in the team I was being hired for. Overall I see that other locations of Amazon in India pay a lot more than Chennai. Ended up not taking the offer.
+Interview Experience: https://leetcode.com/discuss/interview-experience/792740/Amazon-or-SDE2-or-Chennai-or-May-2020-Offer

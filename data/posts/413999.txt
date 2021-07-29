@@ -1,0 +1,20 @@
+Education: BS in CS
+Years of Experience: 2.5
+Prior Experience: FAANG
+Date of the Offer: Fall 2019
+Company: Zulily
+Title/Level: Software Engineer II
+Location: Seattle, WA
+Salary: $140,000
+Relocation: $5,000
+Signing Bonus: $15000/2
+Stock bonus: $96K RSU over 4 years (25% a year vest)
+Total comp (Salary + Bonus + Stock): ($176500 first year) ($165k recurring)
+Benefits: 401k up to 4% after 1 year, basic health/vision/dental, one-time $1k for desk setup, employee discount on the website (heard of it but not sure), commuter benefits, $40 data card/month etc.
+Interviews:
+1 30 minute HR phone screen
+1 1hr tech phone screen with LC medium
+5 rounds including lunch interview.
+2 rounds of FE design
+2 rounds of BE design (one of the rounds had a LC easy prob)
+Didn't negotiate because I had another offer that was more than 50%+ this one. (I think there max range for SDE 2 is $200k TC).

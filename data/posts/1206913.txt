@@ -1,0 +1,16 @@
+Education: CS in Tier 1
+Years of Experience: 1 year 9 months
+Prior Experience: Backend developer (14 lpa (includes pf, retirals, etc) + 3 perfomance bonus (year end) ).
+Date of the Offer: May 2021
+Company: Amazon
+Title/Level: SDE-1
+Location: Banglore
+Base Salary: 18 lpa
+Relocation: 1.5 lakh
+Signing Bonus: 6 lpa first year + 3.4 lpa second year ( paid in 12 installments every month)
+Stock bonus: 5 RSU over 4 years ( 5 + 15 + 40 + 40)
+In hand cash per year : 24 lpa ( assuming that my base will increase to 20.5 in second year)
+Benefits: Standard Amazon benefits.
+Other details: Negotitated for more base and less sign-on bonus, but did not budge.
+I wanted to change domain (tech stack) and got rejected for SDE-2 else where citing work experience. I should have asked for more base but 1-2 lakh won't make much difference in long run.
+Interview https://leetcode.com/discuss/interview-experience/1206961/Amazon-or-SDE1-or-Banglore-or-Offer

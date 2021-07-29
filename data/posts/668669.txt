@@ -1,0 +1,17 @@
+Education: B.A. CS at Ivy League College
+YOE: 1~
+Prior Experience: Startup
+Date of Offer: June 1 2020
+Company: Amazon
+Level: SDE1, L4
+Location: Los Angeles, CA
+Salary: 130k
+Sign on: 36k (this year), 30k (next year)
+Relocation: 7k
+Stock Bonus: 100k (backloaded vesting schedule over 4 years)
+Benefits: Regular Benefits
+Total Comp (Not factoring any raises or bonuses, purely based off of current contract)
+Year 1: 178k
+Year 2: 175k
+Year 3: 170k
+Year 4: 170k

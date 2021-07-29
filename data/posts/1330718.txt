@@ -1,0 +1,17 @@
+Education: B.Tech from Tier-1 College
+Years of Experience: 0
+Date of the Offer: June 2021
+Company: Urban Company
+Title/Level: SDE - 1
+Location: Gurugram
+Salary: 14L (Base)
+Signing Bonus: 4L
+Stock bonus: NA
+Retention Bonus: 4L
+Total comp (Salary + Bonus + Stock): 18L
+Benefits: Standard UC benefits
+Other details: Applied through referral (off campus drive)
+Total rounds: 3
+1st round: 4 questions in 2 hours (LC easy, DP - LIS (NlogN version), 2D Rain water trapping and Floyd-Warshall).
+2nd round: DSA based interview, 2 question -> Discussion of 2D rain water trapping from OA and Maximal Square (DP).
+3rd round: Personal project based round(Mostly backend and mongodb), some questions from OOPs and a machine coding question (Similar to questions available on leetcode).

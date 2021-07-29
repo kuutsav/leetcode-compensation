@@ -1,0 +1,16 @@
+Education: Bachelor of Software Engineering
+Years of Experience: 10
+Company: Amazon
+Title/Level: Software Development Engineer Level 2
+Location: Seattle
+Salary: $150000
+Relocation/Signing Bonus: 90k / 74k
+Stock bonus: 80 units
+Benefits: Standard Amazon Benefits
+Other details: Negotiated once, first offer among other FAANG interviews
+Interview Process
+Online Assesment: 1 MED, 1 HARD
+Onsite Interview - LP + System Design
+Onsite Interview - LP + Coding (Algo / DS): 1 MED
+Onsite Interview - LP + Coding (OOP)
+Onsite Interview - LP + Coding (Algo / DS): 1 MED

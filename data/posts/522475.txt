@@ -1,0 +1,12 @@
+Education: Technical BS
+Years of Experience: ~1.5
+Prior Experience: Some freelance work and 1 year at small startup
+Date of the Offer: Feb 2020
+Company: Oracle
+Title/Level: Software Developer 3
+Location: Seattle, WA
+Salary: $140,000
+Signing Bonus: $15,000
+Stock bonus: ~$150K stock grant vested over 4 years
+Total comp (Salary + Bonus + Stock): ~$180K
+Leetcode was the single most important tool for my interview prep. Without it I highly doubt I could have pulled this off. Thanks everyone!

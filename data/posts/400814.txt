@@ -1,0 +1,19 @@
+Education: BS in CS
+Years of Experience: 1.1 (Over 2.25 years including internships and co-op)
+Prior Experience: Multiple internships, startup fullstack experience
+Date of the Offer: Fall 2019
+Company: Zulily
+Title/Level: Software Engineer I
+Location: Seattle, WA
+Salary: $118,000
+Relocation: 0
+Signing Bonus: $10,000 (even split over two years)
+Stock bonus: $43K RSUs with a 25% cliff every 12 months
+Bonus: Not sure.
+Total comp (Salary + Bonus + Stock): $134K
+Benefits: 401k up to 4% after 1 year, basic health/vision/dental, one-time $1k for desk setup, employee discount on the website (heard of it but not sure), commuter benefits, $40 data card/month etc.
+Interviews:
+1 30 minute HR phone screen +
+1 1hr tech phone screen with LC medium +
+the usual 5 round onsite with System design, leetcode (starting with easy and adding complexity to make it a medium) and leadership questions +
+2-3 offer conversations.

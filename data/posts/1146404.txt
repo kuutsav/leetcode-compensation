@@ -1,0 +1,14 @@
+Education: Btech in KIIT (not from IIT/NIT/IIITs)
+Years of Experience: 1.5 years
+Date of the Offer: Feb 2021
+Company: Turvo Inc
+Level: Associate Software Engineer
+Location: Hyderabad
+Salary: INR 14,00,000
+Performance Bonus: INR 1,40,000
+Long Term Bonus: INR 2,00,000(1st year anniversary : 1,00,000 , 2nd year Anniversary : 1,00,000)
+Relocation Reimbursement: 50,000
+Benefits: ~56,000(including Gratuity, Insurance etc)
+Equity: 500 units over 4 years (Valuation pending as company isn't registered)
+Total comp (Salary + Bonus + Stock): INR 16,96,000
+Tech Stack : Java, Spring, Redis, Elastic Search, MySql, MongoDB

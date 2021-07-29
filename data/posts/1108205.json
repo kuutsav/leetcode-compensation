@@ -1,1 +1,0 @@
-{"text": "'''\ndef twoSum(self, nums: List[int], target: int) -> List[int]:\ncomplement_map = {}\nfor index, element in enumerate(nums):\nif complement_map.get(element) is not None:\nreturn [complement_map.get(element), index]\ncomplement = target - element\ncomplement_map.update({complement: index})\nreturn []\n'''"}

@@ -1,0 +1,9 @@
+I interviewd with Amazon (AWS) for a SDE II role. The virtual onsite round didn't go as well as I expected (messed up a round pretty bad), so ended up getting an offer for SDE I. I've received a written commnication that an offer will be made, but I don't have the detailes yet. I'm still going to accept the offer as it will definiely be better than my present TC and quality of work,
+How much can I expect the offer to be? And will I have any room for negotiation?
+Company - Amazon AWS
+Education - Masters in CS
+YOE - 2.5 after Masters
+Location - Arlington,VA, USA (HQ2)
+Competing offers - None
+Current TC - $85k
+(Please don't ask for the problems I got here. I'll make a separate post about my interview experience after I'm done with this.)

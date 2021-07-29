@@ -1,0 +1,8 @@
+Year: 2019
+Position: SDE 1
+Company: Media.net
+Location: Mumbai
+CTC: 1250000 PA
+Bonus: 50000 Annually
+ESOPS: None
+YOE: 1

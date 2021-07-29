@@ -1,0 +1,12 @@
+Education: Masters in Computer Science
+Years of Experience: 2
+Date of the Offer: Mar 2020
+Company: Amazon
+Title/Level: SDE 2
+Location: Seattle
+Salary: 160k
+Relocation/Signing Bonus: 7k relocation, 140k (80/60 first, second year) signing on bonus
+Stock bonus: 95 RSUs at 1.9k strike price (~180k)
+Bonus: N/A
+Total comp (Salary + Bonus + Stock): ~250k (first year)
+Benefits: Typical AMZN benefits

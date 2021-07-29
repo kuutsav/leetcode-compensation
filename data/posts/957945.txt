@@ -1,0 +1,22 @@
+Education: B.E (IT) from a Tier-1 College
+Years of Experience: 2Y 2M
+Prior Experience: Startup (17.3LPA)
+Date of the Offer: Oct 2020
+Company: Oracle Cloud Infrastructure
+Title/Level: SDE-3
+Location: Bangalore
+Salary: 26.5L
+Relocation/Signing Bonus: 4L (2+2)
+Stock bonus: 17.5 L vested in 4 years
+Total comp (Salary + Bonus + Stock) in first year: ~33L
+Did not negotiate as this was already pretty high compared to previous employement. The total compensation has taken 5 folds from my first ever employment and almost doubled from previous one.
+I had a similar offer from Amazon, but I wanted to join Cloud Computing company.
+Interview brief:
+There were a total of 6 rounds. Every round has a section devoted to cultural fitment in the end.
+Round 1: Machine coding - Leetcode medium
+Round 2: DSA - Linked List
+Round 3: DSA - DAG + Topological Sort
+Round 4: DSA - Backtracking + Maths Fundamentals (Theory + coding of Permutation & Combination)
+Round 5: Design - URL Shortner (Started off fairly simple, but then privacy, scalability, and security questions were added)
+Round 6: Cultural Fitment - Talked about previous projects, interests, and vision as an individual.
+Questions were from Leetcode medium.

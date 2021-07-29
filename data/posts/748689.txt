@@ -1,0 +1,16 @@
+Education: BE in Computer Science
+Years of Experience: 0
+Prior Experience: Interned at Center for Data Science and Machine Learning
+Date of the Offer: Summer 2020
+Company: Wipro Limited
+Title/Level: Data Analyst Intern
+Location: Bangalore, India
+Stipend: INR 10,000
+Relocation: NA
+Signing Bonus: NA
+Stock bonus: NA
+Bonus: NA
+Total comp (Salary + Bonus + Stock): INR 10K
+Benefits: PPO/PPI
+Other details: 2 months data analysis internship based on user activity data. Work from home set-up.
+The interview coding questions I solved were some that I practiced on Leet. That was really useful.

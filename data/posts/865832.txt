@@ -1,0 +1,9 @@
+Experience: 3 years
+Education: B.E Computer Science
+Base Salary: 27,00,000 INR
+Relocation Bonus: 1,50,000 INR
+RSUs: 15 (~45k USD) vested over 4 years
+Signon Bonus: 12,00,000 INR (First year) + 6,90,000 INR (Second year)
+Total compensation, 1st year: 40,50,000 INR + 5% of 15 RSUs
+Previous compensation: 18,50,000 INR
+Interview experience: https://leetcode.com/discuss/interview-experience/865645/Amazon-or-SDE2-Offer-or-Chennai-or-July-2020

@@ -1,0 +1,15 @@
+Education: B. Tech CSE from IIT
+Years of Experience: 0
+Prior Experience: 0
+Date of the Offer: Feb 2020
+Company: Salesforce
+Title/Level: Software Engineer Intern (Summer)
+Location: India (Hyderabad)
+Salary: 75K stipend per month + 2 month stay at 3-star hotel + flight charges
+Relocation/Signing Bonus: NA
+Stock bonus: NA
+Bonus: NA
+Total comp (Salary + Bonus + Stock): 75K stipend per month
+Benefits: 2 month stay at 3 star hotel + 11K worth Headphones
+Other details: Applied offcampus. They took a coding round then 3 interviews. Last interview was HR interview and rest 2 technical with DSA and OOPs only. Medium level leetcode questions.
+Edit: I came to know about it through LinkedIn. I applied on the Salesforce job portal in December (through referral) and got a call in mid-Jan after 15-20 days. Search for open internships on LinkedIn daily to stay updated.

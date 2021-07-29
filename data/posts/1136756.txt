@@ -1,0 +1,14 @@
+Im showing how to add an compensation this is the basic format
+Education: MS in Computer Science
+Years of Experience: 0
+Prior Experience: Interned at Amazon twice
+Date of the Offer: Fall 2018
+Company: Microsoft
+Title/Level: Software Dev. I
+Location: Seattle/Redmond, WA
+Salary: $107,000 (please specify the currency!)
+Relocation: $5,000
+Signing Bonus: $5,000
+Stock bonus: $120K stock grant vested over 3.5 years
+Bonus: Performance-based bonus up to 20% of salary every year
+Total comp (Salary + Bonus + Stock): ~$150K

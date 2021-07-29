@@ -1,0 +1,14 @@
+Education: Bachlers in mathematics from an Ivy Leage university.
+Years of Experience: 10
+Prior Experience: I've worked as a cryptography engineer at another major Silicon
+Valley comapny (not FANG). I am also the sole inventor on several widely cited cryptography patents.
+Date of the Offer: January 2021
+Company: Apple
+Title/Level: Cryptography Engineer (ICT 4)
+Location: Cupertino California
+Salary: $205k USD
+Relocation/Signing Bonus: $75k USD
+Stock bonus: $150k USD vesting over four years
+Bonus: Not stated, but I understand a typical bonus target is about 40% of base salary
+Total comp (Salary + Bonus + Stock): ~$320k USD
+Benefits: Typical Apple benefits (not that great compared to other FANG).

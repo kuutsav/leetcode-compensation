@@ -1,0 +1,19 @@
+Education: Master
+Years of Experience: 2
+Prior Experience: MLE
+Company: Nvidia
+Title/Level: Solution Architect
+Location: SV
+Salary: 170k
+Relocation/Signing Bonus: 15k
+Stock bonus: 500 shares (4 years vesting 25% each year)
+Bonus: depends on performance
+Total comp (Salary + Bonus + Stock): 210k
+Does this seem realistic? Should I negotiate and how? I have a (higher) competing offer, but this role seems very interesting.
+Interview experience:
+Initial call with HM, after being sent a linkedin message
+second call with principal SA
+3rd call with both HM and principal
+Phone calls are technical discussions but not coding. Additionally you should do some research about the software Nvidia builds to make GPUs useful for many, and be prepared to talk about them and apply them to specific problems.
+Onsite: full day of interviews. Some rounds are more customer facing explanations of the role, some are regular coding questions (easy / medium LC), some are ML / NLP oriented (review your fundamentals, and be able to roughly code SGD on a simple task), and one is a presentation you give to the team on a subject you choose.
+All interviewers were nice, and happy to discuss the cool projects they are working on.

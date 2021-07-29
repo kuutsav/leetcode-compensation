@@ -1,0 +1,3 @@
+Base: 110k,
+Stock Options: 25000 shares / 4 years
+Relocation: 9650

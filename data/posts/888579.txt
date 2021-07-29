@@ -1,0 +1,11 @@
+Education: MS in Computer Engineering
+Years of Experience: 9 (non-FAANG companies)
+Date of the Offer: Oct 2020
+Company: Amazon
+Title/Level: SDE II - AWS team
+Location: Seattle
+Salary: $160k
+Signing Bonus: $105k (1st year), $80k (2nd year)
+Stock bonus: 75 RSU
+TC: ~275k first year, 280(year 2), 285(year 3), 285(year 4) (PS: Considering stocks will appriciate at 15% every year)
+Other details: Initial offer was around 250K I had another competing offer so they bumped up the offer and also considered me for high range on SDE2 based on years of experience

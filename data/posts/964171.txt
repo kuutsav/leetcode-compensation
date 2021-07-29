@@ -1,0 +1,6 @@
+Base: 175k
+1st year signon: 95k
+2nd year signon: 65k
+stocks: 64 units (vesting schedule: 5%, 15%, 40%, 40%)
+TC for first 2 years based on current stock price: 280k
+my years of experience in US: ~4 (after MS)

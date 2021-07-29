@@ -1,0 +1,14 @@
+Education: BE in Computer Computer Engineering
+Years of Experience: 3
+Prior Experience: SDE1 at product startup
+Date of the Offer: June 2021
+Company: Ola
+Title/Level: Software Development Engineer I
+Location: Bangalore, India
+Salary: INR 2,000,000
+Signing Bonus: NA
+Stock Bonus: NA
+Performance-based Bonus: INR 200,000
+Total comp (Salary + Bonus + Stock): ~INR 2,200,000 after first year
+Benefits: Insurance
+Other details: Didn't negotiated and declined the offer as I got had SDE-2 offer from other startup (prev comp: 18.5LPA)

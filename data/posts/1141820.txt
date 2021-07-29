@@ -1,0 +1,11 @@
+Education: B.Tech in Information Technology
+Years of Experience:21 Months
+Prior Experience: Service based
+Date of Offer: 31st March 2021
+Company: Freecharge
+Title/Level: SDE
+Location: Gurugram
+Salary: INR 15 LPA
+Total comp (Salary): 15 LPA (Fixed)
+1.Two Round were fully DSA ,questions were asked from binary tree , two pointer , linkedlist , stack
+2.one round was completely focused on java concepts like. oops , exception , multithreading(concurrency) , all concepts related to thread safety

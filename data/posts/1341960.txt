@@ -1,0 +1,15 @@
+Hello, Everyone!
+Hope you all are doing well and staying safe. Recently, I cracked the Flipkart SDE-I position at Bengaluru, India. Just to help the LC Community, below is the Compensation details which they offered me with a very brief background about me -
+Education: B.Tech in Computer Science from a Private University in India
+Years of Experience: 1.5
+Prior Experience: Amazon
+Date of the Offer: Feb 2021
+Company: Flipkart
+Title/Level: SDE-I
+Location: Bengaluru, India
+Base Salary: INR 19,50,000
+Bonus: INR 1,95,000 per year (10% of Base Salary)
+ESOPs: INR 6,24,090 (25% can be vested every year)
+Benefits: General benefits of a good company
+I will also try to post my complete interview experience with Flipkart, Bengaluru very soon.
+Cheers to the Amazing LC Community!

@@ -1,0 +1,17 @@
+Education: B.S. in Math and CS
+Years of Experience: 8 total, 5 in SWE roles
+Experience: Startups
+Date of the Offer: April 2020
+Company: Amazon
+Title/Level: SDE2
+Location: Seattle, WA
+Salary: $160000
+Relocation/Signing Bonus: Full relocation package
+Stock bonus: 125 RSUs
+Bonus: $65000 FY, $60000 SY
+Total comp (Salary + Bonus + Stock): ~$243000
+Benefits: Full
+Facebook, Amazon, and Google all made offers. My negotiation "strategy" was to be very open and honest with all recruiters, keeping them informed about what everyone else was saying.
+Amazon was the first to make an offer; their initial offer was about $223000/year TC.
+After I let the Amazon recruiter know that Google and Facebook had given significantly higher offers, they were able to increase theirs to what is shown above (which is still significantly lower than the others).
+Also, note that the vesting schedule at Amazon is significantly worse than the other two. At Amazon, you get 5% after 1 year, 15% after 2, then 20% every six months thereafter. So if you quit after two years, you lose 80% of your equity. (I am certain Amazon designed this vesting schedule based on the average employee tenure, which likely tells you something about working there.)

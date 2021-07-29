@@ -1,0 +1,16 @@
+Education: BE in IT from a top university in India
+Years of Experience: 5.5
+Company: Oracle OCI
+Title/Level: IC3
+Location: Bangalore
+Salary: INR 32,30,000 (Inclusive of gratuity)
+Signing Bonus: INR 3,00,000 first year. INR 3,00,000 second year.
+Stock bonus: 900 units over 4 years (approx INR 49,47,000 stocks over 4 years split as 25%, 25%, 25%, 25%)
+Total comp (Salary (excluding gratuity) + Bonus + Stock): INR 46,86,000 first year
+Benefits: Standard Oracle benifits
+Prev Comp: INR 22,00,000 (Fixed)
+Interview Experience : LINK
+Have another offer from Amazon SDE2 of around INR 51,00,000. Planning to join Amazon.
+Amazon offer details : Link
+DOES ANYONE KNOW WHY IS THIS POST BEING DOWNVOTED?
+Obviously, I did not post this for getting upvotes. It is to help other people on leetcode. These posts have helped me a lot in knowing what the companies are currently offering and I could negotiate based on these kinds of posts on Leetcode. Downvoting it will not help anyone.

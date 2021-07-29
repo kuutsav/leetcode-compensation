@@ -1,0 +1,28 @@
+Education: B.tech from Tier 2 College
+Years of Experience: 4.5 Year
+Prior Experience: Oracle
+Company: Cisco
+Title/Level: Software Engineer 3 (Grade 08)
+Location: Bangalore,India
+Salary: 18.6 LPA
+Relocation/Signing Bonus: 2.6LPA
+Yearly Bonus : 2.1 LPA
+Total comp (Salary + Bonus): 20.7 LPA (without joining bonus)
+Benefits: All standard Cisco benefits.
+Another Offer ::
+Company: Morgan Stanley
+Title/Level: Manager
+Location: Bangalore,India
+Salary: 20.14 LPA
+Relocation/Signing Bonus: 2.5LPA
+Yearly Bonus : 2.8 LPA
+Total comp (Salary + Bonus): 22.9 LPA (without joining bonus)
+Previous salary - 9.32 LPA All Fixed.
+What u guys suggest? Which should be the better option to choose?
+Interview Exp -
+I had a total of 5 rounds.
+Coding assessment - HackerRank ( 2 coding ques to complete in 90 mins)
+Virtual onsite coding round 1(1 hr) - Leetcode Medium 2
+Virtual onsite coding round 2(1 hr) - Leetcode Medium 1 + System Design
+Virtual onsite coding round 3(1 hr) -Full System Design Round
+managerial round (1:15 hr)- asked 1 coding ques (leetcode medium ques ) + project-related ques + some behavioral ques + Puzzle

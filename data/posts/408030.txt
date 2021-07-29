@@ -1,0 +1,12 @@
+Education: Senior in B.S. degree, Computer Science
+Years of Experience: 2
+Prior Experience: USAA
+Date of the Offer: 10/18/2019
+Company: JPMorgan Chase
+Title/Level: Software Engineering Intern
+Location: Plano, TX
+Salary: 40/hr
+Relocation/Signing Bonus: $1,500
+Stock bonus: N/A
+Bonus: N/A
+Other details: https://leetcode.com/problems/happy-number/
