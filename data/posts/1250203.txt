@@ -1,0 +1,14 @@
+Education: B.Tech NIT
+YOE: NIL
+Company: Amazon
+Role: SDE Intern
+Location: Bangalore
+Compensation:
+Basic: 60K per month
+Food coupon: 1,100 per month
+Reimbursements upto
+Installation for Internet: 1200 one time
+Internet usage: 1200 per month
+RSU: NIL
+Sign-on: NIL
+Laptop for work: MacBook Pro

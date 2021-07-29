@@ -1,0 +1,18 @@
+Education: IIT
+Years of Experience: 2-3 yr
+Date of the Offer: Oct '20
+Company: Rubrik
+Title/Level: Software Engineer Grade 6 (L4 equivalent of Google)
+Location: Bangalore
+Base Salary: 38L
+Relocation/Signing Bonus: 3(join)
+Stock bonus: 5000 RSUs / 4yr
+Bonus: 15% of base
+Total comp (Salary + Bonus + Stock): ~ 65L CTC. (not including joining)
+Benefits: Standard
+Other details:
+Company is not public currently.
+Keep these numbers in back of mind in negotiations. Advisable not to bring up other's compensation in negotiations.
+Edit[1]:
+Rubrik has a rigorous interview process [DS/Algo + multi-threading/concurrency + design]
+I got a very good raise, mainly due to interview performances and this base is not uncommon at my level.

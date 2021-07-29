@@ -1,0 +1,8 @@
+Education: Bachelors in Computer Science at State School
+Prior Experience: 1 inter in Facebook, 1 intern in Amazon
+Company: Microsoft
+Title/Level: SWE
+Location: San Francisco
+Salary: 135k
+Signing Bonus: 27k
+Stock bonus: 150k over 3.5 years

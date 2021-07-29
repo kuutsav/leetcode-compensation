@@ -1,0 +1,13 @@
+Education: MS in Computer Science
+Years of Experience: 4-5yoe
+Date of the Offer: Jan 2020
+Company: Yelp
+Title/Level: Software Engineer IC3
+Location: Hamburg, Germany
+Salary: 65,000 Euros
+Signing Bonus: 10,000 Euros
+Stock bonus: $90K stock grant vested over 4 years
+Bonus: not mentioned in the offer.
+Total comp (Salary + Stock + Signon) : ~95K Euros for 1st year
+Benefits: 30 paid vacation days, 15% off ESPP, 65 Euros for monthly fittness
+Interview: 1 coding challenge -> 1 HR Screen -> 1 phone interview -> 4 onsite interviews (2 behavioral, 1 coding, 1 system design)

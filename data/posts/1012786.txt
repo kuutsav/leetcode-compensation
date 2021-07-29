@@ -1,0 +1,22 @@
+Education: Btech from Tier 1
+Years of Experience: 3.5 yrs
+Prior Experience: Qualcomm
+Prior CTC:- 17.5 LPA (Fixed) + 45K stocks (3 yrs ) + 1.6lpa bonus
+Date of the Offer: Jan 2021
+Company: Microsoft
+Title/Level: Software Dev. 2 (level 61)
+Location: Hyderabad IDC
+Salary: 2500000/-
+Relocation: None as i was in qualcomm Hyderabad campus
+Signing Bonus: 300000 ( 2Lakh in 1yr, 1 lakh in 2nd)
+Stock bonus: $80K vesting in 4 yrs
+Bonus: Performance-based bonus up to 20% of salary every year
+Total comp (Salary + Bonus + Stock): 40 Lakhs(fixed + stocks) + Performace bonus (10-20% ~ 3lakhs avg ) = 43 Lakhs
+Benefits: PTO, gym membership, insurance, gratuity.
+Other details: Negotiated once, It was take or leave. Accepted the offer.
+Interview Experience:-
+Round 1 and 2 were coding rounds which contained coding questions on queues, trees and arrays.
+Round 3 was system design in which i had to design a system which can avoid thrashing, by limting the number of threads being spawned in past given time frame. Also the interviewer asked about the difficult issues and features solved in previous company.
+There were some question on OS.
+Round 4 was more of a non-technical round in which the interviewer checked the leadership qualities. Also asked some questions of operating system.
+HR confirmed on that itself i was selected, and got the offer letter within 3 weeks.

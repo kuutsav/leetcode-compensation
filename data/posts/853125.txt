@@ -1,0 +1,11 @@
+Education: Bachelor in Computer Engineering
+Years of Experience: 4
+Date of the Offer: mid 2020
+Company: Amazon
+Title/Level: SDE II
+Location: Seattle
+Salary: $160k
+Signing Bonus: $85k (1st year), $65k (2nd year)
+Stock bonus: 55 RSU
+TC: ~255k first year
+Other details: Negotiated once, original offer was low on signon bonus.

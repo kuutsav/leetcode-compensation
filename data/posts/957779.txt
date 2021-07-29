@@ -1,0 +1,15 @@
+Education: MS in Computer Science
+Years of Experience: ~3
+Date of the Offer: Oct 2020
+Company: Microsoft
+Title/Level: Software Engineer L61
+Location: Seattle/Redmond, WA
+Salary: $137,000
+Relocation: $6,000
+Signing Bonus: $40,000
+Stock bonus: $120K stock grant vested over 4 years
+Bonus: Performance-based bonus up to 20% of salary every year
+Total comp (Salary + Bonus + Stock): ~$173K
+Benefits: 15 paid vacation days + 10 paid sick leave days + 10 paid U.S. holidays + 2 paid personal days
+Other details: Had the Amazon offer and they matched up.
+Interview Experience: https://leetcode.com/discuss/interview-experience/958772/Amazon-SDE1-Offer-or-Microsoft-SDE2-Offer-or-Oct-2020

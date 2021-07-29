@@ -1,0 +1,8 @@
+Education :- MS CS
+Company :- Microsoft
+Title :- Software Engineer
+Location :- Redmond
+Salary :- 117K
+SignOn :- 25K
+Stocks :- 120K (3.5 Yrs)
+Total Comp(1st Year) :- 172K

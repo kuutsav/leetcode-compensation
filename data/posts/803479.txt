@@ -1,0 +1,13 @@
+Education: BS is Computer Science
+Years of Experience: 3
+Prior Experience: 3 years at technical consulting company
+Date of the Offer: August 2020
+Company: Amazon
+Title/Level: SDE 2
+Location: Seattle, WA
+Salary: $145,000
+Relocation/Signing Bonus: $59,000 (1st year) and $47,000 (2nd year)
+Stock bonus: 52 RSU's vested over 4 years (5%, 15%, 40%, 40%)
+Total comp (Salary + Bonus + Stock): $212,500 (1st year)
+Other details: Did not negotiate as I was surprised I got the offer
+My interview experience: https://leetcode.com/discuss/interview-experience/804563/Amazon-or-SDE2-or-Seattle-or-August-2020-Offer

@@ -1,0 +1,14 @@
+I will add some noise to the numbers below so as to remain anonymous.
+Education: PhD in AI
+Company: Amazon
+Title/Level: Applied Scientist
+Salary: $180000
+Signing Bonus: Year 1: $195000, Year 2: $130000
+Stock bonus: 150 shares vesting as 5/15/40/40 across 4 years
+Interview Process:
+Gave an hour-long presentation about a line of research that I pursued during my PhD. In the past 6 months I have continuously been updating the slides and presenting the work for different groups to train, so I was very confident about this piece. I decided to aggressively cut fancy equations and too much technicality in favor of clarity. I also spent a lot of time on Amazon leadership principles (LP), and made sure I referred to two of my favorite ones during my presentation, but also do so in a context that made sense. I highly recommend reading the LPs, as many of them are definitely thought provoking.
+I had 5 rounds, which mostly probed my breadth of knowledge in AI and my depth of knowledge in my specific area within AI. I was also asked three coding questions, and many behavioral ones. The most important interview was with the team manager, but my impression was that he was quite happy with my job talk, so we ended up talking a lot about how my work will look like if I joined the team.
+Overall, if you have done the hard work during your undergrad and PhD, you don't have to worry too much about coming across as knowledgable because the questions are fair, interesting, and fun, and their goal is not to "catch" you. That said, I suggest refreshing your memory on basic AI algorithms, as well as recent deep learning advancements. Obviously, you need to know ~everything in your own area.
+In terms of coding preparation, LeetCode is the best tool to help you Ace this piece. I had not done any coding interview recently, so eventhough I code a lot, I was a bit nervous. I solved ~100 LeetCode questions in two months with a focus on those questions that are more frequently asked by Amazon. It helped a ton.
+One other piece of advice pertains to our mental well-being during these difficult times. Since the market is in an uncertain situation, it is totally understandable for you to be stressed out. I had to a) re-adjust my expectations b) exercise a lot and c) do a ton of meditation including on the morning of my interview. I highly recommend using apps such as Headspace if you are a newbie in terms of meditation.
+Best of luck everybody.

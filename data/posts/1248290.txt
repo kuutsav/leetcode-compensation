@@ -1,0 +1,23 @@
+2 salary brackets
+Education: B.Tech from IITs/BITs/Top NITs
+YOE: Fresh Grad
+Company: Oracle
+Role: Member Technical Staff
+Location: Bangalore/Hyderabad
+Compensation:
+Salary: 15.5 LPA
+Rellocation: 2.14 L
+Sign-on: 6L, clawback 24 months
+RSU: 600 units, 25% each year
+Education: B.Tech from Other NITs/ other colleges
+YOE: Fresh Grad
+Comoany: Oracle
+Role: Member Technical Staff
+Location: Bangalore/Hyderabad
+Compensation:
+Salary: 11 LPA
+Rellocation: 2.14 L
+Sign-on: NIL
+RSU: NIL
+All compensation are in INR
+Edit: Both the profiles for Server Tech and no compensation difference in ST or App Dev at same college.

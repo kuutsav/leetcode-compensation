@@ -1,0 +1,9 @@
+Education: B.Tech
+YOE: NIL
+Company: BNY Mellon
+Role: SDE Intern
+Location: Pune
+Compensation:
+Basic: 60K per month
+RSU: NIL
+Sign-on: NIL

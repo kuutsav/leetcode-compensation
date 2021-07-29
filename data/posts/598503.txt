@@ -1,0 +1,15 @@
+Education: B.Tech in Computer Science (2017 Batch)
+Years of Experience: 3 years
+Prior Experience: SDE 1 in a Software Firm
+Date of the Offer: April 2020
+Company: Microsoft
+Title/Level: SDE 2
+Location: Noida
+Salary: INR 25 LPA
+Relocation/Signing Bonus: - 5 lakhs
+Stock bonus: $25000 (4 years vest 25%/25%/25%/25%)
+Bonus: Performance-based bonus up to 20% of salary every year
+Benefits: 20 paid vacation days + 12 paid sick leave days + yearly sports stipend to spend on sports stuff or free gym membership + covered health/dental/vision + cabs + food
+Other details: Negotiated once, original offer did not have signing bonus. Was given a week to accept or decline the offer.
+coding question
+System Design

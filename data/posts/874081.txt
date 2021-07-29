@@ -1,0 +1,13 @@
+Education: B.Tech from Tier-1
+Years of Experience: 6
+Date of the Offer: Sep 2020
+Company: Microsoft
+Title/Level: L62
+Location: Hyderabad
+Salary: 35,00,000
+Relocation/Signing Bonus: 7,00,000(4 + 3)
+Stock bonus: $90,000 / 4 years
+Bonus: 5.25 (avg -15% , best case - 20%)
+Total comp (Salary + Bonus + Stock): 61L
+Benefits: Standard MS benifits
+Previous TC - 42L + 60L(ESOPS) in a startup. Had a competing offer from Atlassian for 68L for SDE-3

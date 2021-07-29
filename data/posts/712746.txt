@@ -1,0 +1,14 @@
+Education: B.E in Computer Science Engineering
+Years of Experience: 0
+Prior Experience: None
+Date of the Offer: October 2019
+Company: Infosys
+Title/Level: Power Programmer
+Location: Infosys, Mysore
+Total Compensation: INR 8,00,000
+Bonus: Performance-based bonus up to 15% of salary every year
+Interview Process:
+Totally three rounds - Two online coding rounds and One Screen share Interview with Design Question and Devops interview Questions.
+First round - Cleared the InfyTQ test which had two medium difficulty questions and 20 MCQ questions based on python ,OOPS concepts and databases.
+Second round - Three questions were based on arrays and digit DP which ranged from medium to hard difficulty.
+Screen Share Interview - Was asked a Design question where I had to create a System which the end-to-end system solved the required problem and supports some end-user product. After that, the interviewer asked questions based on Devops as well as common aptitude puzzles.

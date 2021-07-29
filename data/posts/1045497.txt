@@ -1,0 +1,25 @@
+Education: PhD in Computer Science
+Years of Experience: 5 YOE in SWE
+Prior Experience: Interned at Visa with the Research Data Science team
+Date of the Offer: Spring 2021
+Company: Microsoft
+Title/Level: Data Scientist
+Location: Redmond, WA
+Salary: $133,000
+Relocation: $10,000
+Signing Bonus: $60,000 (Half paid after 1 mth of resumption; other half after 1 year)
+Stock bonus: $150K stock grant vested over 3.5 years
+Bonus: Performance-based bonus up to 20% of salary every year
+Benefits: General Microsoft perks - Gym, 401K...
+Other details: Recruiter suggested might be able to make base 150K, however, this is too small compared to other companies.
+Any thoughts?
+Interview Experience
+Was stragihtforward. Had 4 interviews with 4 people on the Data science team, mostly managers. Most questions were data science questions, mostly based on what I did in my past internship and what I'm doing for my research. Such questions included:
+i. How do you preprocess your data - cleaning, dealing with outliers...?
+ii. How do you determine what model to go with? Based on the task on hand...regression. classification...
+iii. What metrics are you using? Is it accuracy only or are you considering others? Other metrics include precision, recall, F1...
+iv. Handling imbalance in the dataset.
+v. How do you determine if your approach is good enough? For instance, you want to deploy a model and want to determine if the new model is better than your previous model? - A/B testing (hypothesis testing.)..using tests of significance, such as the t-test and comparing it with your alpha threshhold.
+v. I was asked 2 coding questions:
+Reverse a linked list
+Determine the missing number of a list of contiguous numbers that are sorted. i.e. 2, 3, 4, 6. Ans - 5. Use binary search.

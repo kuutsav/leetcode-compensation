@@ -1,0 +1,10 @@
+Education: MS in CS
+Company: Facebook
+Title/Level: Frontend Engineer Intern
+Location: Menlo Park
+Salary: $8400
+Relocation/Signing Bonus: N/A
+Stock bonus: N/A
+Bonus: N/A
+Total comp (Salary + Bonus + Stock): $8400
+Benefits: Corporate housing

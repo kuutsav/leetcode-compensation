@@ -1,0 +1,15 @@
+Education: MCA , Tier 1 College
+Prior Experience: Citibank
+Date of the Offer: July 2021
+Company: Microsoft
+Total exp: 5 years
+Title/Level: Software Engineer II (L61)
+Location: Bangalore
+Base Salary: 2150000
+Stock bonus: $30,000 vesting over 4 years
+Performance Bonus: 20% Base
+Joining Bonus: 0
+Total comp (Salary + Bonus + Stock): 3100000
+Benefits: Standard Benefits
+Prev TC: 19 LPA
+interview Experience: https://leetcode.com/discuss/interview-experience/1254448/Microsoft-or-FEE(Frontend-Engineer)-or-Bangalore

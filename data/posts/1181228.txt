@@ -1,0 +1,18 @@
+Education: B.Tech ECE Tier 3 College
+Years of Experience: 0 (Fresh Graduate)
+Date of the Offer: April 2021
+Company: Frontdoor Inc
+Title/Level: Software Engineer
+Location: Pune
+Salary: 12.5 LPA basic
+Relocation/Signing Bonus: None
+Stock bonus: 7500 $ RSU vesting evenly over 3 years
+Bonus: 5%
+Total comp (Salary + Bonus): 12.5 lpa
+Benefits: Standard Frontdoor Benefits
+Other details: Had a better offer from another company, so declined the offer
+Interview Process
+Applied through referral and got a call on the same day.
+Round 1 : Basic discussion on project and achievements. Then a bit manipulation question was given on hackerEarth and I had 45 minutes to solve it. Question was Leetcode Medium problem and I solved it.
+Round 2: Interview with Team lead/Hiring Manager. Revolved around my project and a simple question to find second largest in an array. He tried to trick me with various conditions, still solved it easily. Very easy interview.
+Round 3 : Techno Managerial round with mostly behaviour questions and few questions on project and technologies used.

@@ -1,0 +1,13 @@
+Education: M.Tech in CS
+Experience: 7 years (2 before, 5 after mtech)
+Date of the Offer: September 2020
+Level: L4
+Base Salary: 36,00,000 INR
+Yearly Bonus: 15% of base
+Signing Bonus: 5L
+Stock bonus: $120,000 USD vesting over 4 years
+Benefits: 3L Standard google benefits ( PF + Gratuity + Insurance + Cab + Internet)
+Total: 64L (Base + 15% bonus + stock/4)
+Previous Compensation: 48L base + 5L stock (Startup)
+Edit: Some people are asking for preparation strategy and interview process. Here is another post in detail about that
+https://leetcode.com/discuss/interview-experience/862967/Amazon-Google-or-AS-SWE-ML-or-L4-orSep-2020-Reject-Offer

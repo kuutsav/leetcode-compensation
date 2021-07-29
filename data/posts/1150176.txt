@@ -1,0 +1,7 @@
+Education: Columbia University
+Years Of Experience: 0 year
+Company: None
+Title: Leetcode Solution
+Location: AnyWhere
+Salary: None
+Total: None

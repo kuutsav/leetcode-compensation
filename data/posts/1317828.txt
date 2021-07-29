@@ -1,0 +1,5 @@
+Education: B.E,MCA,Msc(CS)
+Experience: 0-2
+Location: Bangalore
+Base pay: INR 600000
+Benefits: standard benefits like insurance, lunch, etc

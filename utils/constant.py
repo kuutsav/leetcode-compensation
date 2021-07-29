@@ -2,12 +2,17 @@ BROWSER_EXEC_PATH = (
     "/Users/kuutsav/Documents/leetcode-compensation/chromedriver"
 )
 
+TOTAL_RETRIES = 3
+LAST_PAGE_NO = 274
+
+POSTS_META_FNAME = "posts_meta"
+
 DATA_DIR = "data/posts/"
-STATS_DIR = "data/stats/"
-NER_DATA_DIR = "data/ner/"
+META_DIR = "data/meta/"
 MAPPING_DIR = "data/mappings/"
 
-URL = "https://leetcode.com/discuss/compensation?currentPage={}&orderBy=newest_to_oldest&query="
+LEETCODE_COMPENSATIONS_URL = "https://leetcode.com/discuss/compensation?currentPage={}&orderBy=newest_to_oldest&query="
+LEETCODE_POSTS_URL = "https://leetcode.com/discuss/compensation/{}"
 
 MIN_SALARY = 250000
 MAX_BASE_LPA = 100
@@ -22,7 +27,7 @@ MONTHLY_SALARY_INDICATORS = [
 ]
 
 YOE_SPECIFICATION = [
-    "^(\~\s?)?(?P<years>\d{1,2}(\.\d{1,2})?)\s?\+?$",
-    "^(\~\s?)?(?P<years>\d{1,2}(\.\d{1,2})?)\+?\s?(years|year|yrs|yr|yoe|y)((\sand)? (?P<months>\d{1,2})\s?(months?|m))?",
-    "^(?P<months>\d{1,2}) (months?)",
+    r"^(\~\s?)?(?P<years>\d{1,2}(\.\d{1,2})?)\s?\+?$",
+    r"^(\~\s?)?(?P<years>\d{1,2}(\.\d{1,2})?)\+?\s?(years|year|yrs|yr|yoe|y)((\sand)? (?P<months>\d{1,2})\s?(months?|m))?",
+    r"^(?P<months>\d{1,2}) (months?)",
 ]

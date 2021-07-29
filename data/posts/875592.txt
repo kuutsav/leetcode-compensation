@@ -1,0 +1,11 @@
+Education: B.tech, CSE
+Years of Experience: 2
+Date of the Offer: 1/10/2020
+Company: Amazon
+Title/Level: SDE-1
+Location: Hyderabad
+Salary: 17LPA(Fixed)
+Signing Bonus: 6.3L(1st year) + 5L(2nd year)
+Stock bonus: 7 RSUs distributed over 4 years
+Relocation Bonus: 1.5L
+Total comp (Salary + Bonus + Stock): 25L for 1st year

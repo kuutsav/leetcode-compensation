@@ -1,0 +1,12 @@
+Education: BE in Computer Science | Anna University
+Years of Experience: 6 Months
+Prior Experience: Software Developer At Freshworks Inc.
+Date of the Offer: 28/11/2019
+Company: Amazon
+Title/Level: Software Dev. Engineer in Test
+Location: Chennai, India
+Salary: Rs. 13 Lakhs
+Signing Bonus: Rs 4 Lakhs in First Year and Rs 3 Lakhs in Second Year
+Stock bonus: 7 RSU stock grant vested over 5 years (Rs 9 Lakhs as of today)
+Total comp (Salary + Bonus + Stock): Rs 29 Lakhs
+Note : The interview was for SDE. But I was given SDET Role. But same compensation was given. Didn't negotiate.

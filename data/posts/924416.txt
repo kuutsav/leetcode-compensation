@@ -1,0 +1,22 @@
+Education: BTech in Computer Science
+Years of Experience: 7
+Prior Experience: SDE 3 at a startup
+Date of the Offer: 01/11/2020
+Company: InMobi
+Title/Level: SDE 4 (Senior Tech Lead)
+Location: Bangalore
+Salary: 55,00,000 Base
+Signing Bonus: 8,00,000 (4,00,000 first year + 4,00,000 second year)
+Stock bonus: 50,00,000 vested over 4 years.
+Total comp (Salary + Bonus + Stock): 71,00,000 (With stocks)
+Benefits: Standard
+
+Current TC: 44,00,000
+Other details: Didn't negotiate yet. Don't have any competing offers as all my interviews are lined up in the next few weeks. This was supposed to be my "warm up" interview.
+But I think, this offer is good and will most probably accept.
+
+A couple of people have commented asking about my experience, career path and advice for juniors. I'm adding some more details and my thoughts here,
+In my 7 YOE, I spent 4.5 years in a very early stage no-name startup. Though I was paid less here, my learnings were huge. I was responsible for whole end to end tech stack and it helped me get so much experience which would not be possible in big companies/startups. This was the main reason I was able to clear system design interviews with ease. As I had hands-on experience in each system design aspect, I did not need much preparation for that. So, in early career, join a startup with good engineering foundation and learn. It does not matter if startup fails or succeeds, you are still very young and can try out different paths at this stage.
+This is not an outlier offer. This is standard for SDE 4 and above in many companies. As you could see the breakup, stocks take up a good amount of portion. InMobi is going for IPO next year. So I belive stocks would appreciate later.
+Please do proper research about market standard on bli-d and other salary discussion threads. InMobi is a good company as they did not try to low-ball me and compensated me purely based on interview feedback. I was surprised to hear this number but I got to know later from bli-d posts that this was a standard offer. If I had competing offers, this number would have gone even higher.
+Before a few years, I was on the same path as most of you, reading compensation threads and wondering even if they were real. But as I progressed on my career, I came to know that these numbers are very real and they are not out of reach for anybody. Just focus on your career and the money follows.

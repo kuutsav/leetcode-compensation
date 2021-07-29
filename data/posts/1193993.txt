@@ -1,0 +1,16 @@
+Education: Btech in Computer Science-Tier 3
+Years of Experience: 2.9
+Prior Experience: 1 year at a start-up with 7 people, 1.9 years at another with 32 people.
+Date of the Offer: January, 2021
+Company: Hypersonix Inc (Hypersonix AI)
+Title/Level: Data Engineer
+Location: Completely Remote, India
+Salary: INR 22.5 Lac
+Relocation: 0
+Signing Bonus: 50k
+Stock bonus: 0
+Bonus: Performance-based bonus up to 10% of salary every year
+Total comp (Salary + Bonus + Stock): ~25LPA
+Benefits: 12 paid vacation days + unlimited sick leaves + WFH Allowance + reimbursements for education certification and internet bills + covered medical insurance
+Other details: Accepted because previous compensation was 13.8 Lacs and I was just giving an interview to check how much upto date am I acc to industry standards.
+PS: The company is hiring aggressively from >1 YOE right now (UI, Python Dev, DE, DS All). And the questions asked are domain specific and Leetcode easy/medium for Data Structures and Algorithms. Feel free to post your queries here :)

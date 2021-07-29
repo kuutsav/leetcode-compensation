@@ -1,0 +1,17 @@
+class Solution {
+public String getSmallestString(int n, int k) {
+char[] res = new char[n];
+Arrays.fill(res,'a'); // filling the whole array with starting alphabet a
+    // now update the k as we have fill the array with  character a
+    k = k-n;
+    
+    while(k>0)
+    {
+        res[n-1] += Math.min(25, k); // like this-- a+25 = z
+        n--;
+        k = k- Math.min(25,k);
+    }
+    
+    return String.valueOf(res);
+}
+}

@@ -1,0 +1,14 @@
+Education: MS in Computer Engineering from NYU
+Years of Experience: 1.5
+Prior Experience: Tata Consultancy Services (System Engineer)
+Date of the Offer: October 25, 2019
+Company: Amazon
+Title/Level: SDE1(L4)
+Location: Detroit, MI
+Salary: $112000
+Relocation: $6800
+Signing Bonus: $26,000 first year, $22,000 second year
+Stock bonus: $80,000 (vesting 5%, 15%, 40%, 40% over 4 years)
+Total comp (Salary + Bonus + Stock): 112 + 26 + 4 + 6.8 = $149000 first year
+Benefits: Standard Amazon benefits Including 401k and Leaves.
+Interview Ex: https://leetcode.com/discuss/interview-experience/411246/amazon-sde1-seattle-oct-2019-offer/376331

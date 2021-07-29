@@ -1,0 +1,17 @@
+Hi,
+I am a fresher and I have got two job offers to choose from
+Oracle SDE1, Bangalore, India
+Tech stack has Java, Hibernate, Spring, Application Development, RESTful API Services.
+TC - 28 L (Base -16 Lakh, Stocks - 9 Lakh/Year, rest joining bonus)
+JP Morgan Chase Quantitative Research Analyst, Mumbai
+Tech Stack - Financial Modelling, Machine Learning
+TC - 31 L (Base - 21 Lakh, Variables - 10 Lakh/year, 1 Lakh Relocation, 1 Lakh Signon Bonus)
+Career Questions
+How hard is it to switch to an SDE 2 role from a Quant Role in 2 Years? Does it depend on the previous role or having sufficient knowledge of CS Concepts, Competitive Coding, System design and relevant tech is Good enough?
+I wanted to know what are the cons of going for Quant role as a lot of my corporate experience is in Software Development?
+How is WLB comparable for Both Companies?
+What is the Career path for a Quantitative Analyst?
+Education Qualifications - BTech in Computer Science (Tier 1 Institute in India)
+Past Internships - Media.net, Oracle, Citrix
+Basically, the core question is how much does IT industry will take into account my QR Role into account while I apply for an SDE 2 after couple of years or my proficiency in core CS concepts, Competitive Programming, System Design and knowlege of relevant tech stack is good enough.
+Hoping to get some advice on these offers. Thanks!!

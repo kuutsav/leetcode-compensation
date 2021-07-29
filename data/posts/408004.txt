@@ -1,0 +1,20 @@
+Education:
+* Bachelor's - CS
+* Master's - IS
+Years of Experience: 5
+Prior Experience: Full Stack at Small to Mid level companies + Research assistant for 2 years
+Date of the Offer: 3rd week of October 2019
+Company: Microsft
+Title/Level: L62
+Location: Redmond
+Salary: $150k
+Signing Bonus: First year - 45k, Second year 45k
+Stock bonus: 240k
+Total comp (Salary + Bonus + Stock): $255k (150k + 45k + 60k)
+Phone interview - Talked about team, no interview questions
+On site: 4 rounds
+Multiply all in array except current index
+Tic Tac Toe - (Used bit masking)
+Hiring Manager - One System design - Keep track of number of active users at a time
+Talked about team's vision
+Status: Had competing offer from Amazon, $270k, but took MS offer because team was very interesting and no on-calls, and yearly refreshers (up to 20% bonus on base sal + more stocks based on performance)

@@ -1,0 +1,21 @@
+Education: MS in Computer Science
+Years of Experience: 12
+Company: Facebook
+Title/Level: E5
+Location: NYC
+Salary: 195k
+Relocation/Signing Bonus: 75k
+Stock bonus: 500 over 4 years
+Bonus: 15%
+Total comp (Salary + Bonus + Stock): year 1 ~ 424k, year 2 ~ 345k
+Benefits: Usual facebook benefits.
+Other details:
+edit also please don't forget to upvote and let me know if anyone has any questions.
+Sharing to help others. Turned them down for Stripe. Will post Stripe as well. Also, will share interview details in a later post.
+requested update a lot going on for me to put a detailed interview experience but will put what i did to study -
+Brushed up on basic algorithms + DS using leetcode platform.
+Top 50 FB tagged problems
+Daily leetcode problem for 1 month.
+gk sd
+codeKarle on youtube.
+Spent about 2.5 months preparing, did about ~ 120 problems (50 FB + 40 daily + 30 random ones), sdi's about 12.

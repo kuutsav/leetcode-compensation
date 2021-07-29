@@ -1,0 +1,17 @@
+Amazon
+3 rounds total
+On phone tech screen
+OA (two questions, given 90 minutes, finished all in 1 hour)
+Onsite. 4 rounds. Each round is 50 minutes. Around 20 minutes BQ and 30 minutes tech questions. 1 round was system design and other 3 were coding.
+Signed NDA, cannot provide too much details. Overall, I don't think L5 is very hard.
+I only prepared 3 months on leetcode (2 - 3 hours a day) and got offer from both Amazon and Microsoft.
+My suggestion for Amazon and Microsoft intervewee is "ace 3 problem sets: Amazon, Microsoft, and Most Popular Medium". You need to be able to write beat 90% solution in less than 20 minutes. Just keep reviewing these 3 problem sets, only 150-ish problems total, not need to eager on new problems.
+8 YOE totaly, 6 years in a small company, 2 years in a medium size company.
+base 155,000
+sign on 79,000 + 60,000
+stock 89
+on avg about 230k TC
+Microsoft
+Onphone + Onsite
+Onsite has 4 rounds, 45 minutes each.
+Only 190k TC, forgot the detail numbers. Decided to go to Amazon.

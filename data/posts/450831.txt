@@ -1,0 +1,8 @@
+Position - Technical Leader 1 (Grade 11)
+Technology - Full Stack Software engineer . Ruby on Rails , Java, Spring Boot , Microservices, PostGress
+Location - San Francisco, CA, U.S
+Compensation - 180 K USD + 10 % bonus + 80K Stock / 4 years
+Experience - 8 Years
+Education - B.Tech (India) , MS ( Comp Sci , USA)
+Interview - 1 coder pad (BFS/ DFS . Trie)
+Onsite - California . 4 rounds discussions.

@@ -1,0 +1,11 @@
+Education: MS in Computer Science
+Years of Experience: 2
+Date of the Offer: Spring 2021
+Company: Amazon
+Title/Level: Software Dev. I
+Location: Seattle, WA
+Salary: $140,000
+Relocation: $7,000
+Signing Bonus: $35,000+ $28,000(1st year and 2nd year)
+Stock bonus: 23 RSU vested over 4 years
+Benefits: Standard Amazon benefits that are available to SDE's

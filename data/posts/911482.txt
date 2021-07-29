@@ -1,0 +1,11 @@
+Education: B.Tech in Computer Science and Engineering in top tier IIT
+Years of Experience: 0
+Date of the Offer: September 2020
+Company: Flipkart
+Title/Level: Software Development Engineering Intern
+Location: Bangalore, India
+Salary: 50,000/month
+Total comp (Salary + Bonus + Stock): 50,000/month
+Benefits: Flight charges, two weeks accommodation
+Other details: On Campus Offer
+Update: I have also compiled my interview experience on leetcode here.

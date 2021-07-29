@@ -1,0 +1,9 @@
+Education: Bachelor's in CS from a tier-1 university in India (IITs/BITS)
+Years of Experience: 1.5
+Company: Amazon
+Title/Level: SDE1 (L4)
+Location: Bangalore
+Salary: INR 15,50,000
+Signing Bonus: INR 3,50,000 first year. INR 2,75,000 second year.
+Stock bonus: 7 units over 4 years
+Total comp (Salary + Bonus + Stock): INR 20,00,000 first year

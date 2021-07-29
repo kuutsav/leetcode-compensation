@@ -1,0 +1,18 @@
+Education: B.TECH from Tier3
+Years of Experience: 7
+Title/Level: Senior software engineer
+Location: Hyderabad
+Salary: 28L
+Signing Bonus: 1.5L
+Stock bonus: 39000 USD over 4 years
+Perfomance Bonus: 15% (3.6L)
+Others : PF : 1.15L + gradudity 50K
+Total comp (Salary + Bonus + Stock): 40L(1st year)
+Company: Walmart
+Title/Level: IN3
+Location: Bangalore, India
+Fixed: 25L
+Bonus: 15% of Fixed
+RSUs: 15% of Fixed (comes out to ~1L per year)
+Note : In servicenow most of the work is in javascript and java.
+techstack is limited and old in servicenow. We need to leverage servicenow plateform.

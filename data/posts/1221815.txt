@@ -1,0 +1,20 @@
+Education: B.Tech from tier 3 college
+Years of Experience: <1
+Prior Experience: A product-based company
+Previous compensation: 8L
+Company: Amazon
+Title/Level: SDE-1
+Location: Bangalore
+Salary: 14.5 L
+Relocation/Signing Bonus: NA
+Stock bonus: 5 RSU over 4 years
+Bonus: Year 1 - 4.5L, Year 2 - 3.5L
+Total comp (Salary + Bonus + Stock): 19L
+Benefits: Standard benefits
+Company: Flipkart
+Title/Level: SDE-1
+Location: Bangalore
+Salary: 19L
+Relocation/Signing Bonus: NA
+Stock bonus: 6L over 4 years
+Total comp (Salary + Bonus + Stock): 19L + 1.9L + 1.55L = 22.45L

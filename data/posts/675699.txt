@@ -1,0 +1,19 @@
+Education: Masters in Computer Science from top 10 public university in USA
+Years of Experience: 2 as analyst in Asia, 2 years as SDE in USA
+Company: Amazon
+Title/Level: Software Development Engineer L4
+Location: Seattle
+Salary: $137000
+Relocation : $7K
+Joining Bonus : $41K first year, $28K 2nd year given prorated with each pay cheque
+Stock bonus: 35 units breakup (year 1: 5% ; year2:15% ; year 3 and 4 :20% every 6 months)
+Benefits: Standard Amazon Benefits
+Other details: Couldnt negotiate as I didnt have any other offers
+Interview Process
+Online Assesment: 1 MED, 1 HARD
+Onsite Interview - LP + Coding (Algo / DS): Zig Zag level order traversal
+Onsite Interview - LP + Coding (Algo / DS): Queue reconstruction by height
+Onsite Interview - LP + Class Design : design parking lot
+Onsite Interview - LP + Coding (Algo / DS): Longest substring without repeatign characters
+The interview questions were framed like a real world problems and not the way we see in leetcode, so there is some effort required to correctly map it to a real leetcode problem but after that it was a breez. The interviewers were nice and helpful.
+I would suggest practicing LP questions out loud in front of a mirror or with friends.

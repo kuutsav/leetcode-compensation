@@ -1,0 +1,15 @@
+Education: MS in Computer Science
+Years of Experience: ~1
+Prior Experience: consultant positions
+Date of the Offer: Spring 2019
+Company: GoDaddy.com LLC
+Title/Level: Software Engineer II
+Location: Kirkland, WA
+Salary: $120,000
+Relocation: $0
+Signing Bonus: $0
+Stock bonus: $40K stock grant vested over 4 years (First two years 30% later each quarter 5%)
+Bonus: Performance-based bonus up to 10% of salary every year
+Total comp (Salary + Bonus + Stock): ~$144K
+Benefits: Flexible PTOs + Upto 3.5% 401k/Roth match + covered health/dental/vision, ESPP(Employee Stock Purchase Program)- Up to 15% annualy
+Other details: Negotiated once, original offer was SDE-I with $100K base with no bonus. Was given 3 days to accept or decline the offer.

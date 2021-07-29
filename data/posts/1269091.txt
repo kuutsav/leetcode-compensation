@@ -1,0 +1,9 @@
+Role : android dev
+exp: 7+
+college : tier 3
+prev exp: unicorn startup
+prev comp: 30LPA + stock(30 lakhs)
+Base: 36LPA
+Joining bonus : 3LPA
+stocks : 30 lakhs stock(10,30,30,30)
+total year 1 : 36+3 +3 = 42 lakhs

@@ -1,0 +1,10 @@
+Education: Bachelor's in Information Technology
+YoE: 3+ years
+Title/Level: Software Development Engineer I(L4)
+Location: Dresden, Germany
+Salary: €65k
+Sign on Bonus : €20K first year, €12.5K 2nd year
+Stock bonus: 18 units (approx €40k), Breakup (year 1: 5% ; year 2:15% ; year 3 and 4 :40%)
+Relocation: $7500
+Benefits: 28 days vacation, Standard Amazon Benefits
+Interview Experience: https://leetcode.com/discuss/interview-experience/700796/amazon-sde1-germany-offer/593602

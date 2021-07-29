@@ -1,0 +1,12 @@
+Education: B.S. Computational Physics
+Years of Experience: ~ 1 yr
+Date of the Offer: April 2020
+Company: Amazon
+Title/Level: Software Development Engineer I
+Location: Austin, Texas
+Salary: $132k
+Signing Bonus: $27k (first year) and 20k (second year)
+Stock bonus: 38 RSU ~92k 5/15/40/40 over 4 years
+AVG Total Comp over 4 Years: $167K
+Benefit: Regular Amazon benefits
+Other: My interview experience: https://leetcode.com/discuss/interview-experience/582437/amazon-sde-1-apr-2020-offer/513857

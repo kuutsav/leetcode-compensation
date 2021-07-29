@@ -1,0 +1,25 @@
+Education: BTech in Chemical Engineering from tier 1 College
+Years of Experience: 10 months in a Core Chemical Company.
+Prior Experience : Core Chemical Engineering
+Date of the Offer: Apr 2021
+Company: Oracle
+Title/Level: Application Engineer
+Location: Banglore
+Salary: 15,00,000 INR
+Relocation/Signing Bonus: 250,000 INR
+CTC : 17,50,000
+Benefits: Standard Oracle Benefits
+other Interviews attempted : CV rejected from 10+ companies including Nutanix, Amazon, Paytm, standard chartered, got offer from Oracle only.
+other details : practiced LC for about 125 questions over 6 months ~(65 easy+ 50 medium + 10 hard).
+Interview :
+Round 1 :
+Online Test : oops( JAVA ), Aptitude, logical reasoning, SQL
+Round 2 :
+Zoom Call, (they asked mostly from my CV, i had riddles and puzzles in hobby :P )
+Puzzles from gfg(candle burning, 1000 bottle wine, rats and poison, Pay your employee by using a gold rod ) || (I Nailed all of them )
+coding : 2.1) shortest word(lexicographically) in a sentence 2.2) print the longest common substring || ( I was asked to explain complexity and code clarity, i did some corrections on the spot, variable names, splitting my code into 2 methods, the interviewer was happy with this. )
+OOPS basics
+Round 3:
+3.1) More OOPs and SQL questions(Joins, nested queries)
+3.2) Interviewer asked me to write a code on Elevator scheduling problem (np problem) : i had no clue on this so wrote a basic pseudo code with the idea of people traffic proportional to position of lifts in the building. After that i started building my classes and methods. He stopped me after 20-25 mins and asked me to explain the pseudo code. In the end he explained me that it was a np problem and how one can solve it and said he was only looking to see how i would approach the problem. He discussed salary afterwards !!
+a few days later HR confirmed the salary and the offer.

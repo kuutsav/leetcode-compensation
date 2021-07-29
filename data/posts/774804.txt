@@ -1,0 +1,10 @@
+Education: M Tech in Computer Science
+Years of Experience: 5
+Company: InMobi
+Title/Level: SDE III
+Location: Bangalore
+Salary: 33,00,000
+Signing Bonus: 2,00,000 + 2,00,000
+Stock bonus: 600 Units vested over 4 years
+Bonus: 0
+Total comp (Salary + Bonus + Stock): 35,00,000

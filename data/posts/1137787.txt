@@ -1,0 +1,32 @@
+Education: High School Diploma (Didn't have high enough GPA for any University to accept me), Art Program (Didn't gradudate)
+Years of Experience: 9 years, 5 years professionally employed
+Prior Experience: Amazon Software Engineer (L4)
+For experienced engineer, what's your current and past experience?
+Amazon, worked in a lot of web agencies, contracts and 4 start ups
+Date of the Offer: Roughly end of March for all companies I've reached an offer from
+Company: Amazon, Twitter, LinkedIn, 2 startups
+Title / Level:
+Senior JS Engineer for Twitter (Perhaps Senior SWE for tierlist, unsure of tier)
+L5 FEE2 for Amazon, Edit They re-offered for L6
+Senior Full Stack for 2 startups (No levels.fyi tier for these companies)
+LinkedIn Senior Full Stack
+Location:
+Twitter is Remote (US based team)
+Amazon is Canada
+LinkedIn is in California
+2 startups are California and Remote
+Salary:
+Twitter US 160 salary, 100 stock, 30 bonus, 0 moving bonus, 0 signing bonus
+Amazon Canada 150 salary, 80 stock, 15 bonus, 10 moving bonus, 0 signing bonus
+LinkedIn 175 salary, 50 stock, 30 bonus, 20 signing, 5 moving bonus (no repayment)
+Start up 1 Canada: 160 salary, no stock, unknown bonus structure
+Start up 2 US: 200 re-offer* (original offer at 140) salary, no stock, 10-20 bonus struct. Edit: They re-offered me at 200k USD after I told them about my other offers from 140k
+Benefits: Twitter and Amazon have very intensive benefits ranging to everything, never really bothered to look at these too deeply except for eye wear + massages. I'm relatively young so I don't have any health issues. The other 2 startups never mentioned it but I'm sure you guys don't care.
+Other details:
+Twitter interviews for JS specific jobs look more like old school vanilla based questions. Tested on many JS fundementals like the special objects, coercions, "this", class and functional functions, event loops, timers, async code.. its quite indepth, can't really list everything without making this post a literal wall of text.
+Amazon, your typical cookie cutter interviews but since this is FEE specific, it includes less medium-hard questions and more easy algo / data struct problems + more practical JS code (maybe cause its a L5 FEE2 position). It really depends but you could get a React based question or vanilla JavaScript questions, I guess it depends on the interviewer, I got both types. As a previous Amazon employee their vest period 5 years, you get more as you stay. The first 1-2 years you get the least. Your moving bonus is not free, you pay it back, I've heard if you stay more than 1+ years its written off but I've never stayed for >=1 year.
+New results after the initial post LinkedIn focuses more on medium to hard questions, probably the hardest one in the list related to algorithms and data structs. They pretty much cover all the hard topics like dynamic programming, matrixes, graphs, etc. If you find those easy for medium - hard, then you'll clear this easily. There was also a lot of regular expression related questions so that was a curve ball for sure, at least for me.
+I know at Leetcode people only care about FAANG type companies but I'd like to shed some light on startups since they're hardly mentioned. Some of the startup questions are harder if you don't have a huge experience in systems design, AWS/Google/Microsoft services, microservices, monolithic services (gross), security, CDNs, FE + BE design architecture or even have experience giving examples. I think they focus more on experience and less evidence of your skills (cause its evident in your experience, if any).
+Decision:
+The interviews I've had with Twitter were more pleasant and didn't feel like I was clearing stages to get a position like Amazon. The startups were less than cookie cutter interviews and focused more on architecture and "what would you do" questions. Twitter is my decision company. LinkedIn interviewers were friendly but not helpful getting me across the finish line, they almost want to enforce their solution and you have to conform to that, but if you don't know how to get there it completely destroys your alternative solution, they push you in their direction which is definitely challenging but very fulfilling when complete. Amazon was friendly, the questions were modern + practical, they present problems and don't care about how you solve it (cause they ask at the end how you would optimize it later, opposite of LinkedIns approach).
+Edit: Just added LinkedIn (basically Microsoft), they were late for the offer but I'll present it now with the details

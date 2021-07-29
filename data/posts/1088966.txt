@@ -1,0 +1,10 @@
+Offer: Feb 2019
+Years of Experience: 5
+Location: Palo Alto, CA
+Education: MS in Computer Engineering
+Salary: $180k
+Signing Bonus: $90k 1st year + $71k 2nd year
+Stock bonus: 78 amazon stocks vested over 4 years
+References:
+System Design: System Design Interview by Alex Xu
+Coding: Leetcode's company specific problems (premium subscription)

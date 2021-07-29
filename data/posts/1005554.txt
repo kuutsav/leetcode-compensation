@@ -1,0 +1,15 @@
+Education: Bachelors, CS
+Years of Experience: 0
+Prior Experience: None, my 1st internship
+Date of the Offer: Nov 2020
+Company: Microsoft
+Title/Level: Intern
+Location: Boston
+Salary: $7366 USD per month, paid semi-monthly (twice per month)
+Relocation/Signing Bonus: Housing stipend $3500 total for the entire duration
+Stock bonus: $0
+Bonus: $0
+Total comp (Salary + Bonus + Stock): $7366*3 + $3500 = $25598 over summer or $8532 per month
+Benefits: Health insurance, employee discounts
+Other details: They removed the transportation stipend (normally $1200) and halved the housing stipend (normally $7000) for obvious reasons (COVID/remote). They pay your tax for the housing stipend, so it's actually better than $3500 pre-tax.
+2 interviews: 1 technical LC Medium, ~week later 2nd interview consisting of two rounds - 1 technical LC medium and 1 behavioral with the hiring manager.

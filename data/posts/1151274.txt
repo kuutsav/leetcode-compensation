@@ -1,0 +1,19 @@
+Education: BTech in ETC from Tier-2 (IIITs)
+Years of Experience: 9 months as Software Engineer (full-time) + 6 months Software Engineer Intern
+Prior Experience: Full time at a Y Combinator backed statup, internship at a big startup
+Date of the Offer: 9th April, 2021
+Company: CleverTap
+Title/Level: Backend Engineer (equivalent to SDE-1 elsewhere)
+Location: Mumbai, India
+Salary: -
+Relocation/Signing Bonus: 1L if joined within 15 days, 0 otherwise
+Stock bonus: NA
+Bonus: -
+Total comp (Salary + Bonus + Stock): -
+Benefits: Free food when in office, medical insurance worth 5L for self and family, 1K rupees internet allowance
+Other details: 2 paid leaves per month + 14 days mandatory holidays per year + holiday on the 2nd Friday of every month. (24 + 14 + 12 = 50 leaves per year, excluding Indian national holidays)
+Previous Compensation: 15LPA + ESOPs.
+Interview Experience: (Two links because LC kinda deletes my interview experience posts automatically)
+https://www.notion.so/CleverTap-Backend-Engineer-Mumbai-March-2021-Offer-5c60dd612af74b91a299dac796dfe936
+https://leetcode.com/discuss/interview-experience/1159737
+Competing Offer: Productiv | Software Engineer | Bengaluru, India

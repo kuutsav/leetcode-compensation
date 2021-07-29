@@ -1,0 +1,14 @@
+I interviewed with Flipkart for the role of SDE-1(Bangalore).
+I am a B.Tech from ECE branch Tier-1 College. (2020 passout).
+Previous Experience - Natwest Group (Software Engineer) (Previous Compensation -9 lac fixed)
+Current Offer from Flipkart -
+18lac fixed pay ( this includes both pf deductions (employer and employee))
+1.8 performance bonus (This is a variable Component)
+5.07 lacs worth of ESOPS vesting 25 percent per year.
+Apart from this they provide 40k worth of relocation reimbursement
+40k worth of (15 days hotel stay and flight tickets (one way))
+12k per annum mobile reimbursement.
+12k per annum broadband reimbursement.
+So the total Compensation for each year becomes. = 18 + 1.8 + (5.07/4) ~ 21 lacs.
+Hope this helps.
+Interview Experience : https://leetcode.com/discuss/interview-experience/1073259/Flipkart-or-SDE-1-or-Bangalore-or-16-Jan-2021-(Offer)

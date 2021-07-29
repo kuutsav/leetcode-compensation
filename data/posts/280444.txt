@@ -1,0 +1,10 @@
+Company: Amazon
+Role: New Grad SDE
+Base salary: 108000
+Stocks : 70000 (5%, 15%, 40%, 40% over 4 years)
+Bonus: 10%
+Relocation: 10000
+Signing Bonus: 20k in year 1, 24k in year 2
+Location: None
+TC: 152300 year 1
+Offer Time: Feb

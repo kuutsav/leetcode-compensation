@@ -1,0 +1,15 @@
+Education:  BS in computer science
+Years of Experience: 2
+Prior Experience:
+    Bash/C developer at DXC
+Date of the Offer:  11/16/2020
+Company: Microsoft
+Title/Level: SWE
+Location: Atlanta
+Salary: 105,000
+Relocation/Signing Bonus: 6,000/15,000
+Stock bonus: 75,000
+Bonus: Performance-based bonus up to 20% of salary every year
+Total comp (Salary + Bonus + Stock): 200,000 
+Benefits: 37 days PTO, $800 reimbursment on fitness related fees, 50% 401k/Roth match + covered health/dental/vision
+Other details: Negotiated from 185,000 TC
