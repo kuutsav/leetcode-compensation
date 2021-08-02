@@ -1,1 +1,1854 @@
-{"sde1": {"title": "sde 1", "count": 300}, "sde2": {"title": "sde 2", "count": 291}, "softwareengineer": {"title": "sde 1", "count": 284}, "seniorsoftwareengineer": {"title": "sde 2", "count": 111}, "sdeintern": {"title": "sde intern", "count": 76}, "softwaredeveloper": {"title": "sde 1", "count": 76}, "softwaredevi": {"title": "sde 1", "count": 60}, "sde": {"title": "sde 1", "count": 59}, "analyst": {"title": "analyst", "count": 51}, "sdeii": {"title": "sde 2", "count": 46}, "intern": {"title": "sde intern", "count": 43}, "softwareengineer2": {"title": "sde 2", "count": 43}, "softwaredevelopmentengineer": {"title": "sde 1", "count": 41}, "softwareengineerintern": {"title": "sde intern", "count": 39}, "softwaredevelopmentengineer1": {"title": "sde 1", "count": 36}, "softwareengineeringintern": {"title": "sde intern", "count": 35}, "sdei": {"title": "sde 1", "count": 35}, "sde3": {"title": "sde 3", "count": 33}, "softwareengineerii": {"title": "sde 2", "count": 32}, "associatesoftwareengineer": {"title": "sde 1", "count": 31}, "softwareengineer1": {"title": "sde 1", "count": 28}, "softwareengineeri": {"title": "sde 1", "count": 27}, "associate": {"title": "sde 1", "count": 24}, "softwaredevelopmentengineeri": {"title": "sde 1", "count": 23}, "sweintern": {"title": "sde intern", "count": 22}, "mts3": {"title": "mts 3", "count": 21}, "memberoftechnicalstaff": {"title": "mts 1", "count": 20}, "l4": {"title": "l4", "count": 20}, "sse": {"title": "sde 2", "count": 20}, "softwaredevii": {"title": "sde 2", "count": 19}, "smts": {"title": "mts 2", "count": 17}, "softwaredevelopmentengineer2": {"title": "sde 2", "count": 17}, "engineer": {"title": "sde 1", "count": 16}, "softwaredeveloperintern": {"title": "sde intern", "count": 15}, "systemengineer": {"title": "systems engineer", "count": 15}, "mts2": {"title": "mts 2", "count": 14}, "softwaredev2": {"title": "sde 2", "count": 14}, "l3": {"title": "l3", "count": 14}, "sde1l4": {"title": "sde 1", "count": 14}, "ic2": {"title": "ic2", "count": 13}, "se2": {"title": "sde 2", "count": 13}, "projectengineer": {"title": "project engineer", "count": 13}, "softwareengineeriii": {"title": "sde 3", "count": 12}, "mts": {"title": "mts 1", "count": 12}, "softwaredevelopmentengineerintern": {"title": "sde intern", "count": 12}, "datascientist": {"title": "data scientist", "count": 12}, "e4": {"title": "e4", "count": 11}, "softwaredevelopmentengineerii": {"title": "sde 2", "count": 11}, "seniorengineer": {"title": "sde 2", "count": 10}, "se": {"title": "sde 1", "count": 10}, "seniormemberoftechnicalstaff": {"title": "mts 2", "count": 10}, "softwaredeveloper2": {"title": "sde 2", "count": 9}, "technologyanalyst": {"title": "techonology analyst", "count": 9}, "softwaredevelopmentintern": {"title": "sde intern", "count": 9}, "productengineer": {"title": "product engineer", "count": 9}, "l62": {"title": "l62", "count": 9}, "systemsoftwareengineer": {"title": "systems engineer", "count": 8}, "l60": {"title": "l60", "count": 8}, "l5": {"title": "l5", "count": 8}, "applicationdeveloper": {"title": "application developer", "count": 8}, "softwaredevengineeri": {"title": "sde 1", "count": 8}, "l61": {"title": "l61", "count": 8}, "softwaredeveloperengineeri": {"title": "sde 1", "count": 8}, "sdeiii": {"title": "sde 3", "count": 8}, "dataengineer": {"title": "data engineer 1", "count": 8}, "softwaredevintern": {"title": "sde intern", "count": 7}, "technicalanalyst": {"title": "technical analyst", "count": 7}, "manager": {"title": "manager", "count": 7}, "seniorsoftwaredeveloper": {"title": "sde 2", "count": 7}, "softwaredev": {"title": "sde 1", "count": 7}, "backendengineer": {"title": "sde 1", "count": 7}, "deanofcodingacademicslife": {"title": "dean", "count": 7}, "softwareengineerbackend": {"title": "sde 1", "count": 6}, "se3": {"title": "sde 3", "count": 6}, "consultant": {"title": "consultant", "count": 6}, "systemsengineer": {"title": "systems engineer", "count": 6}, "softwareengineer3": {"title": "sde 3", "count": 6}, "softwaredevelopmentengineeringintern": {"title": "sde intern", "count": 6}, "mts1": {"title": "mts 1", "count": 6}, "swe": {"title": "sde 1", "count": 6}, "ic3": {"title": "ic3", "count": 6}, "seniordataengineer": {"title": "data engineer 2", "count": 6}, "mtsintern": {"title": "mts intern", "count": 6}, "summeranalyst": {"title": "summer analyst", "count": 5}, "technologysummeranalyst": {"title": "technology summer analyst", "count": 5}, "e5": {"title": "e5", "count": 5}, "sde1newgrad": {"title": "sde 1", "count": 5}, "technologyintern": {"title": "technology intern", "count": 5}, "staffsoftwareengineer": {"title": "staff sde", "count": 5}, "newgradsoftwareengineer": {"title": "sde 1", "count": 5}, "seniorsoftwareengineer1": {"title": "sde 2", "count": 5}, "sde2backend": {"title": "sde 2", "count": 5}, "summerintern": {"title": "summer intern", "count": 5}, "associatedeveloper": {"title": "sde 1", "count": 5}, "associatesoftwaredeveloper": {"title": "sde 1", "count": 5}, "leadengineer": {"title": "sde 3", "count": 5}, "sweii": {"title": "sde 2", "count": 5}, "leadsoftwareengineer": {"title": "sde 3", "count": 5}, "l63": {"title": "l63", "count": 5}, "applicationsengineer": {"title": "applications engineer", "count": 5}, "datascienceintern": {"title": "data scientist intern", "count": 5}, "softwaredevelopmentengineerintest": {"title": "sdet", "count": 5}, "mts4": {"title": "mts 4", "count": 5}, "powerprogrammer": {"title": "power programmer", "count": 5}, "p4": {"title": "p4", "count": 5}, "studenttrainee": {"title": "student trainee", "count": 4}, "associatesoftwaredevelopmentengineer": {"title": "sde 1", "count": 4}, "softwareengineerl3": {"title": "l3", "count": 4}, "fullstackdeveloper": {"title": "full stack developer", "count": 4}, "softwareintern": {"title": "sde intern", "count": 4}, "juniorsoftwareengineer": {"title": "sde 1", "count": 4}, "vp": {"title": "vp", "count": 4}, "seniorsde": {"title": "sde 2", "count": 4}, "sde2l5": {"title": "l5", "count": 4}, "sdetii": {"title": "sdet 2", "count": 4}, "sde1level60": {"title": "l60", "count": 4}, "seniormts": {"title": "mts 2", "count": 4}, "applicationengineer": {"title": "applications engineer", "count": 4}, "developerassociate": {"title": "developer associate", "count": 4}, "memberoftechnicalstaff2": {"title": "mts 2", "count": 4}, "swe1": {"title": "sde 1", "count": 4}, "srsoftwareengineer": {"title": "sde 2", "count": 4}, "fullstackengineer": {"title": "full stack developer", "count": 4}, "newgradsde": {"title": "sde 1", "count": 4}, "assistantsystemengineer": {"title": "systems engineer", "count": 4}, "vicepresident": {"title": "vp", "count": 4}, "swe2": {"title": "sde 2", "count": 4}, "technologyanalystintern": {"title": "technology analyst intern", "count": 4}, "l59": {"title": "l59", "count": 4}, "sdel4": {"title": "l4", "count": 4}, "associateprofessionalsoftwareengineer": {"title": "sde 1", "count": 3}, "asde2": {"title": "sde 2", "count": 3}, "sde2equivalent": {"title": "sde 2", "count": 3}, "swel3": {"title": "l3", "count": 3}, "internsoftwareengineer": {"title": "sde intern", "count": 3}, "sdet2": {"title": "sdet 2", "count": 3}, "membertechnicalstaff": {"title": "mts 1", "count": 3}, "dataanalystintern": {"title": "data analyst intern", "count": 3}, "computerscientist1": {"title": "computer scientist 1", "count": 3}, "seniormembertechnicalstaff": {"title": "mts 2", "count": 3}, "softwaredevelopmentengineeriii": {"title": "sde 3", "count": 3}, "technicallead": {"title": "sde 3", "count": 3}, "seniorsoftwaredevelopmentengineer": {"title": "sde 2", "count": 3}, "principalengineer": {"title": "principal engineer", "count": 3}, "sdet": {"title": "sdet 1", "count": 3}, "membertechnical": {"title": "mts", "count": 3}, "engineeringintern": {"title": "sde intern", "count": 3}, "engineeriii": {"title": "sde 3", "count": 3}, "sd2": {"title": "sde 2", "count": 3}, "productintern": {"title": "product intern", "count": 3}, "associateengineer": {"title": "sde 1", "count": 3}, "associateapplicationdeveloper": {"title": "associate application developer", "count": 3}, "cloudsupportassociate": {"title": "cloud support assocaite", "count": 3}, "softwaredevelopmentengineerll": {"title": "sde 2", "count": 3}, "seniorassociate": {"title": "senior assocaite", "count": 3}, "memberoftechincalstaff2": {"title": "mts 2", "count": 3}, "srswe": {"title": "sde 2", "count": 3}, "in3": {"title": "in3", "count": 3}, "l3softwareengineer": {"title": "l3", "count": 3}, "graduateengineertrainee": {"title": "graduate engineer trainee", "count": 3}, "summerinternship": {"title": "summer intern", "count": 3}, "softwaredeveloperengineer": {"title": "sde 1", "count": 3}, "techlead": {"title": "sde 3", "count": 3}, "appliedscientist": {"title": "applied scientist", "count": 3}, "backenddeveloper": {"title": "sde 1", "count": 3}, "get": {"title": "graduate engineer trainee", "count": 3}, "specialistprogrammer": {"title": "specialist programmer", "count": 2}, "solutionarchitect": {"title": "solutions architect", "count": 2}, "frontendengineer": {"title": "frontend engineer", "count": 2}, "softwaredevnewgrad": {"title": "sde 1", "count": 2}, "softwaredevengineer": {"title": "sde 1", "count": 2}, "softwaredevelopmentengineerlevel2": {"title": "sde 2", "count": 2}, "softwaredevelopementengineer": {"title": "sde 1", "count": 2}, "sdeinandroid": {"title": "sde android", "count": 2}, "sde2l61": {"title": "l61", "count": 2}, "developer": {"title": "sde 1", "count": 2}, "softwaredeveloperengineerii": {"title": "sde 2", "count": 2}, "csa": {"title": "csa", "count": 2}, "appliedscientistintern": {"title": "applied scientst intern", "count": 2}, "seniorfrontendengineer": {"title": "senior frontend engineer", "count": 2}, "technologyconsultant": {"title": "technology consultant", "count": 2}, "engineeringlead": {"title": "sde 3", "count": 2}, "ic4": {"title": "ic4", "count": 2}, "sde4": {"title": "sde 4", "count": 2}, "seniorbackendengineer": {"title": "sde 2", "count": 2}, "edgengineer": {"title": "edge engineer", "count": 2}, "systemsengineeringradec1": {"title": "n/a", "count": 2}, "ict3": {"title": "n/a", "count": 2}, "memberoftechnicalstaff4": {"title": "n/a", "count": 2}, "graduatesoftwareengineer": {"title": "n/a", "count": 2}, "iosdeveloper": {"title": "n/a", "count": 2}, "softwareengineerl2": {"title": "n/a", "count": 2}, "seniorsoftwareengineer2": {"title": "n/a", "count": 2}, "machinelearningengineer": {"title": "n/a", "count": 2}, "fte": {"title": "n/a", "count": 2}, "newgradswe": {"title": "n/a", "count": 2}, "juniorsoftwaredeveloper": {"title": "n/a", "count": 2}, "se3in3": {"title": "n/a", "count": 2}, "softwaredevelopmentengineerbigdatabackend": {"title": "n/a", "count": 2}, "memberoftechnicalstaff1": {"title": "n/a", "count": 2}, "airesident": {"title": "n/a", "count": 2}, "assistantvicepresident": {"title": "n/a", "count": 2}, "platformengineer": {"title": "n/a", "count": 2}, "sdenewgrad": {"title": "n/a", "count": 2}, "tdpswe": {"title": "n/a", "count": 2}, "staffengineer1": {"title": "n/a", "count": 2}, "seniorconsultant": {"title": "n/a", "count": 2}, "backendengineeri": {"title": "n/a", "count": 2}, "softwareengineeringresident": {"title": "n/a", "count": 2}, "rotationalengineer": {"title": "n/a", "count": 2}, "softwareengineerl59": {"title": "n/a", "count": 2}, "associateprofessor": {"title": "n/a", "count": 2}, "softwaredev3": {"title": "n/a", "count": 2}, "computerscientist": {"title": "n/a", "count": 2}, "engineeringmanager": {"title": "n/a", "count": 2}, "softwaredevl4": {"title": "n/a", "count": 2}, "mentoratgeeksclasses": {"title": "n/a", "count": 2}, "applicationdeveloperanalyst": {"title": "n/a", "count": 2}, "applicationsupportengineer": {"title": "n/a", "count": 2}, "enterprisetechnologyintern": {"title": "n/a", "count": 2}, "datascientistintern": {"title": "n/a", "count": 2}, "softwaredevengineernewgrad": {"title": "n/a", "count": 2}, "interndeveloper": {"title": "n/a", "count": 2}, "memberoftechincalstaff": {"title": "n/a", "count": 2}, "applicationdeveloper2": {"title": "n/a", "count": 2}, "newanalyst": {"title": "n/a", "count": 2}, "projectleader": {"title": "n/a", "count": 2}, "softwareengineerentrylevel": {"title": "n/a", "count": 2}, "seniordatascientist": {"title": "n/a", "count": 2}, "l64": {"title": "n/a", "count": 2}, "traineetechnology": {"title": "n/a", "count": 2}, "swe3": {"title": "n/a", "count": 2}, "softwareengineerfullstack": {"title": "n/a", "count": 2}, "swee3": {"title": "n/a", "count": 2}, "sseg4level": {"title": "n/a", "count": 2}, "senioranalyst": {"title": "n/a", "count": 2}, "softwaredevelopementengineeri": {"title": "n/a", "count": 2}, "srassoicate": {"title": "n/a", "count": 2}, "engineeri": {"title": "n/a", "count": 2}, "swel4": {"title": "n/a", "count": 2}, "ic5": {"title": "n/a", "count": 2}, "developmentarchitect": {"title": "n/a", "count": 2}, "srsde": {"title": "n/a", "count": 2}, "l4softwareengineer": {"title": "n/a", "count": 2}, "dataanalyst": {"title": "n/a", "count": 2}, "softwaredeveloperi": {"title": "n/a", "count": 2}, "mtsic2": {"title": "n/a", "count": 2}, "dataengineer2level5": {"title": "n/a", "count": 2}, "sdel3": {"title": "n/a", "count": 2}, "se3t24": {"title": "n/a", "count": 2}, "softwaredev1": {"title": "n/a", "count": 2}, "seniorsoftwareengg": {"title": "n/a", "count": 2}, "swel61": {"title": "n/a", "count": 2}, "traineesoftwareengineer": {"title": "n/a", "count": 2}, "techanalyst": {"title": "n/a", "count": 2}, "technicalsolutionsengineer": {"title": "n/a", "count": 2}, "machinelearningintern": {"title": "n/a", "count": 2}, "softwaredeveloper3": {"title": "n/a", "count": 2}, "techcradre": {"title": "n/a", "count": 2}, "softwaredeveloperengineer1": {"title": "n/a", "count": 2}, "softwareengineerll": {"title": "n/a", "count": 2}, "sde1l60": {"title": "n/a", "count": 2}, "softwaredevelopmentengineerl4": {"title": "n/a", "count": 2}, "javadeveloper": {"title": "n/a", "count": 2}, "softwareengineerl4": {"title": "n/a", "count": 2}, "researchintern": {"title": "n/a", "count": 2}, "softwareengineerl1": {"title": "n/a", "count": 2}, "softwaredeveloper1": {"title": "n/a", "count": 2}, "softwareengineerl61": {"title": "n/a", "count": 2}, "60": {"title": "n/a", "count": 2}, "e5swe": {"title": "n/a", "count": 2}, "implementationengineer": {"title": "n/a", "count": 2}, "se2l61": {"title": "n/a", "count": 2}, "sitereliabilityengineer": {"title": "n/a", "count": 2}, "staffengineer": {"title": "n/a", "count": 2}, "associatememberoftechnicalstaff": {"title": "n/a", "count": 2}, "sse1": {"title": "n/a", "count": 2}, "sdesummerintern": {"title": "n/a", "count": 2}, "softwareengineerl60": {"title": "n/a", "count": 2}, "ase": {"title": "n/a", "count": 2}, "sde3equivalent": {"title": "n/a", "count": 2}, "smtsic3": {"title": "n/a", "count": 1}, "l4seniorsoftwareengineerbackend": {"title": "n/a", "count": 1}, "seniorsoftwaredev": {"title": "n/a", "count": 1}, "airesearchengineerintern": {"title": "n/a", "count": 1}, "softwareengineerstocklevel62": {"title": "n/a", "count": 1}, "softwareengineeringspecialist": {"title": "n/a", "count": 1}, "softwareengii": {"title": "n/a", "count": 1}, "softwaredesignengineer": {"title": "n/a", "count": 1}, "lmts": {"title": "n/a", "count": 1}, "seniorsoftwareegineerl64": {"title": "n/a", "count": 1}, "machinelearningdataengineer": {"title": "n/a", "count": 1}, "501": {"title": "n/a", "count": 1}, "technologistintern": {"title": "n/a", "count": 1}, "uiengineer2": {"title": "n/a", "count": 1}, "e5seniordeveloper": {"title": "n/a", "count": 1}, "mlintern": {"title": "n/a", "count": 1}, "seniorengg": {"title": "n/a", "count": 1}, "technicalleader1": {"title": "n/a", "count": 1}, "technicalapprentice": {"title": "n/a", "count": 1}, "seniorstaffengineer": {"title": "n/a", "count": 1}, "softwareengineerp2": {"title": "n/a", "count": 1}, "e4swe": {"title": "n/a", "count": 1}, "sde2atoracle": {"title": "n/a", "count": 1}, "principalmemberoftechnicalstaff": {"title": "n/a", "count": 1}, "softwareengineeringdevelopernetworkengineersdataanalytics": {"title": "n/a", "count": 1}, "enterprisesystemsengineer": {"title": "n/a", "count": 1}, "webdevelopmentengineer": {"title": "n/a", "count": 1}, "lead": {"title": "n/a", "count": 1}, "sde5": {"title": "n/a", "count": 1}, "softwaredeveloperandfrontenddeveloper": {"title": "n/a", "count": 1}, "softwareengineer5": {"title": "n/a", "count": 1}, "mtsiv": {"title": "n/a", "count": 1}, "technicalleade3": {"title": "n/a", "count": 1}, "seniorappliedscientistl6": {"title": "n/a", "count": 1}, "softwaredevelopmentengineerinternship": {"title": "n/a", "count": 1}, "seniormanager": {"title": "n/a", "count": 1}, "softwaredevelopementengineerintestii": {"title": "n/a", "count": 1}, "seniorengineeringmanager": {"title": "n/a", "count": 1}, "gamedeveloper": {"title": "n/a", "count": 1}, "aidevelopertechnologyintern": {"title": "n/a", "count": 1}, "studenttechnology": {"title": "n/a", "count": 1}, "softwareengineerict2": {"title": "n/a", "count": 1}, "performanceengineerintern": {"title": "n/a", "count": 1}, "swe1l59": {"title": "n/a", "count": 1}, "seniorapplicationsecurityengineerseniorlevel": {"title": "n/a", "count": 1}, "technicalgraduateprogramme": {"title": "n/a", "count": 1}, "sdeplatformengg": {"title": "n/a", "count": 1}, "scientist": {"title": "n/a", "count": 1}, "mtsiii": {"title": "n/a", "count": 1}, "productengineerintern": {"title": "n/a", "count": 1}, "applicationengineerintern": {"title": "n/a", "count": 1}, "memberoftechnicalstaffservertechnology": {"title": "n/a", "count": 1}, "dataengineerseniorlevel": {"title": "n/a", "count": 1}, "pe2": {"title": "n/a", "count": 1}, "digital": {"title": "n/a", "count": 1}, "seniorprincipalsoftwareengineer": {"title": "n/a", "count": 1}, "trainee": {"title": "n/a", "count": 1}, "2monthssdesummerinternship": {"title": "n/a", "count": 1}, "srsoftwaredev": {"title": "n/a", "count": 1}, "srsoftwaredevl63": {"title": "n/a", "count": 1}, "appliedscientist2": {"title": "n/a", "count": 1}, "softwareengineering": {"title": "n/a", "count": 1}, "juniorassociate": {"title": "n/a", "count": 1}, "iosengineerse2": {"title": "n/a", "count": 1}, "softwareengineer2level61": {"title": "n/a", "count": 1}, "pmts": {"title": "n/a", "count": 1}, "fullstackdevelopercloudband7": {"title": "n/a", "count": 1}, "advancedsoftwareengineer": {"title": "n/a", "count": 1}, "aspireassociate": {"title": "n/a", "count": 1}, "associatesoftwaredev": {"title": "n/a", "count": 1}, "salesforcedeveloper": {"title": "n/a", "count": 1}, "seniormembertechnical": {"title": "n/a", "count": 1}, "softwaredevl60": {"title": "n/a", "count": 1}, "leadfullstack": {"title": "n/a", "count": 1}, "sreentry": {"title": "n/a", "count": 1}, "softwareengineeringprofessional": {"title": "n/a", "count": 1}, "srswengg": {"title": "n/a", "count": 1}, "seniorfullstackengineer": {"title": "n/a", "count": 1}, "softwareperformanceengineer": {"title": "n/a", "count": 1}, "applicationdevelopersenior": {"title": "n/a", "count": 1}, "softwareengineeer3": {"title": "n/a", "count": 1}, "asicengineer": {"title": "n/a", "count": 1}, "engineeringmanagerii": {"title": "n/a", "count": 1}, "sed3": {"title": "n/a", "count": 1}, "sde1sdenewgrad": {"title": "n/a", "count": 1}, "sdeinternsummer2020": {"title": "n/a", "count": 1}, "swei": {"title": "n/a", "count": 1}, "memberoftechnicalstaffi": {"title": "n/a", "count": 1}, "assodean": {"title": "n/a", "count": 1}, "systemengineerspecialist": {"title": "n/a", "count": 1}, "senioesoftwareengineer": {"title": "n/a", "count": 1}, "sde1level4": {"title": "n/a", "count": 1}, "associatesoftwaredevelopementengineeri": {"title": "n/a", "count": 1}, "frontendengineerintern": {"title": "n/a", "count": 1}, "webappsoftwaredeveloper": {"title": "n/a", "count": 1}, "summer2019graduateintern": {"title": "n/a", "count": 1}, "softwaredevelopersde2": {"title": "n/a", "count": 1}, "grade7": {"title": "n/a", "count": 1}, "softwareengineernewgrad": {"title": "n/a", "count": 1}, "businesstechnologyanalyst": {"title": "n/a", "count": 1}, "softwareengineerapplication": {"title": "n/a", "count": 1}, "softwaredeveloperband7": {"title": "n/a", "count": 1}, "seniorassoicatedeveloper": {"title": "n/a", "count": 1}, "digitalcadre": {"title": "n/a", "count": 1}, "memberoftechnicalstaffservertech": {"title": "n/a", "count": 1}, "level60": {"title": "n/a", "count": 1}, "softwaredataenginee": {"title": "n/a", "count": 1}, "itanalyst": {"title": "n/a", "count": 1}, "jrsoftwareengineerjrdataengineerjrdatascientist": {"title": "n/a", "count": 1}, "datadeveloper": {"title": "n/a", "count": 1}, "softwaredevelopmentengineerl60": {"title": "n/a", "count": 1}, "sde2atsharechat": {"title": "n/a", "count": 1}, "associateswe": {"title": "n/a", "count": 1}, "fullstackdeveloperintern": {"title": "n/a", "count": 1}, "softwaredevelopmentengineer3": {"title": "n/a", "count": 1}, "emergingleadersprogram": {"title": "n/a", "count": 1}, "softwareleaddeveloper": {"title": "n/a", "count": 1}, "teachingassistant": {"title": "n/a", "count": 1}, "fullstackarchitect": {"title": "n/a", "count": 1}, "leadengineere3": {"title": "n/a", "count": 1}, "ds1": {"title": "n/a", "count": 1}, "softwaredevelopment": {"title": "n/a", "count": 1}, "swemll3": {"title": "n/a", "count": 1}, "seniorassociateplatforml1": {"title": "n/a", "count": 1}, "mlmodeller": {"title": "n/a", "count": 1}, "srsoftwareengg": {"title": "n/a", "count": 1}, "level59": {"title": "n/a", "count": 1}, "technicaldevelopmentprogram": {"title": "n/a", "count": 1}, "softwaredeviil61": {"title": "n/a", "count": 1}, "seniorsoftwaredevelopmentengineerdeputymanager": {"title": "n/a", "count": 1}, "senior": {"title": "n/a", "count": 1}, "l3orsoftwareengineer2": {"title": "n/a", "count": 1}, "associateintegrationconsultant": {"title": "n/a", "count": 1}, "productdevelopmentengineerrd": {"title": "n/a", "count": 1}, "dataengineer2": {"title": "n/a", "count": 1}, "sdeiiawsteam": {"title": "n/a", "count": 1}, "fee1": {"title": "n/a", "count": 1}, "pmtsic4": {"title": "n/a", "count": 1}, "tse": {"title": "n/a", "count": 1}, "staffsoftwaretestengineer": {"title": "n/a", "count": 1}, "softwaredeveloperrdengineer": {"title": "n/a", "count": 1}, "phdintern": {"title": "n/a", "count": 1}, "networkengineer1": {"title": "n/a", "count": 1}, "designengineerspecialist": {"title": "n/a", "count": 1}, "edgintern": {"title": "n/a", "count": 1}, "cloudsupporteng1": {"title": "n/a", "count": 1}, "srsoftwareengr": {"title": "n/a", "count": 1}, "associatetechnicallead": {"title": "n/a", "count": 1}, "androidsdeii": {"title": "n/a", "count": 1}, "sdeiil5": {"title": "n/a", "count": 1}, "summeranalyst2020": {"title": "n/a", "count": 1}, "srsoftwaredesignengineeri": {"title": "n/a", "count": 1}, "principalenginner": {"title": "n/a", "count": 1}, "backendsoftwareengineeringintern": {"title": "n/a", "count": 1}, "teachingassistantatgeeksclasses": {"title": "n/a", "count": 1}, "technologyassociate": {"title": "n/a", "count": 1}, "productdevelopmentengineertrainee": {"title": "n/a", "count": 1}, "quantanalyst": {"title": "n/a", "count": 1}, "engineeringdevelopmentprogramtechrotationalprogram": {"title": "n/a", "count": 1}, "l10": {"title": "n/a", "count": 1}, "softwaredevengineerintern": {"title": "n/a", "count": 1}, "datascientistcomputervisionintern": {"title": "n/a", "count": 1}, "sdeinternfte": {"title": "n/a", "count": 1}, "swdeveloperpositionlevel10": {"title": "n/a", "count": 1}, "dataintegrationanalyst": {"title": "n/a", "count": 1}, "uiengineeri": {"title": "n/a", "count": 1}, "dataanalysti": {"title": "n/a", "count": 1}, "p5": {"title": "n/a", "count": 1}, "t4": {"title": "n/a", "count": 1}, "applicationsengineeringintern": {"title": "n/a", "count": 1}, "sal2": {"title": "n/a", "count": 1}, "sweiii": {"title": "n/a", "count": 1}, "rd1": {"title": "n/a", "count": 1}, "softwaredeve3": {"title": "n/a", "count": 1}, "informationsystemsgradintern": {"title": "n/a", "count": 1}, "systemdebuglead": {"title": "n/a", "count": 1}, "advsoftwareengineeri": {"title": "n/a", "count": 1}, "softwaredevelopmentengineer4": {"title": "n/a", "count": 1}, "contentintern": {"title": "n/a", "count": 1}, "softwaredeveloperconsultant": {"title": "n/a", "count": 1}, "seniorsoftwaredevi": {"title": "n/a", "count": 1}, "qaanalyst": {"title": "n/a", "count": 1}, "quantandstrats": {"title": "n/a", "count": 1}, "diagnosticsoftwarearchitectureengineer": {"title": "n/a", "count": 1}, "senioruiengineer": {"title": "n/a", "count": 1}, "wde2": {"title": "n/a", "count": 1}, "developmentconsultant": {"title": "n/a", "count": 1}, "backendintern": {"title": "n/a", "count": 1}, "softwaredeveloperatpositionlevel10": {"title": "n/a", "count": 1}, "modelinganalyst": {"title": "n/a", "count": 1}, "cryptographyengineer": {"title": "n/a", "count": 1}, "appdevintern": {"title": "n/a", "count": 1}, "websolutionsengineer": {"title": "n/a", "count": 1}, "applicationsengineerapplicationsdeveloper2": {"title": "n/a", "count": 1}, "softwareprogrammer": {"title": "n/a", "count": 1}, "swesre": {"title": "n/a", "count": 1}, "batchtechnicalanalyst": {"title": "n/a", "count": 1}, "senioriosengineer": {"title": "n/a", "count": 1}, "sdeiil62": {"title": "n/a", "count": 1}, "softwareengg3": {"title": "n/a", "count": 1}, "applicationdevelopmentassociate": {"title": "n/a", "count": 1}, "fullstack": {"title": "n/a", "count": 1}, "developercoop": {"title": "n/a", "count": 1}, "productdevelopmentengineer1": {"title": "n/a", "count": 1}, "softwareengineerassociate": {"title": "n/a", "count": 1}, "e3": {"title": "n/a", "count": 1}, "backendengineerintern": {"title": "n/a", "count": 1}, "softwareengineernewgrad2021": {"title": "n/a", "count": 1}, "engineerintechnologyteam": {"title": "n/a", "count": 1}, "dean": {"title": "n/a", "count": 1}, "technicalassociatesoftwareengineer": {"title": "n/a", "count": 1}, "sde1fresher": {"title": "n/a", "count": 1}, "backenddevelopersummerintern": {"title": "n/a", "count": 1}, "softwareengineertrainee": {"title": "n/a", "count": 1}, "dataappliedscientistintern": {"title": "n/a", "count": 1}, "researchdevelopmentengineeri": {"title": "n/a", "count": 1}, "ssde1": {"title": "n/a", "count": 1}, "techconsultant": {"title": "n/a", "count": 1}, "graduateengineertraineeentrylevel": {"title": "n/a", "count": 1}, "softwareengineeric3": {"title": "n/a", "count": 1}, "productdevelopmentengineer": {"title": "n/a", "count": 1}, "chiefengineer": {"title": "n/a", "count": 1}, "technicalrotationandcareerknowledge": {"title": "n/a", "count": 1}, "backenddeveloperintern": {"title": "n/a", "count": 1}, "softwareengineersummerintern": {"title": "n/a", "count": 1}, "seniormachinelearningengineer": {"title": "n/a", "count": 1}, "sde5960": {"title": "n/a", "count": 1}, "coresoftwaredeveloper": {"title": "n/a", "count": 1}, "flcsengineer": {"title": "n/a", "count": 1}, "traineeanalyst": {"title": "n/a", "count": 1}, "setupdevelopertrack": {"title": "n/a", "count": 1}, "pythonplacementdeveloper": {"title": "n/a", "count": 1}, "sde1backend": {"title": "n/a", "count": 1}, "assistantmanagerdatascience": {"title": "n/a", "count": 1}, "sweinternfor6monthduration": {"title": "n/a", "count": 1}, "seniorsoftwaredevelopmentengineer1": {"title": "n/a", "count": 1}, "sdeinternship": {"title": "n/a", "count": 1}, "researcher": {"title": "n/a", "count": 1}, "sdetiii": {"title": "n/a", "count": 1}, "deeplearningintern": {"title": "n/a", "count": 1}, "deeplearningengineer": {"title": "n/a", "count": 1}, "quantitativestrategist": {"title": "n/a", "count": 1}, "sdeinternbackend": {"title": "n/a", "count": 1}, "amazontechnicalapprentice": {"title": "n/a", "count": 1}, "digitalconsltant": {"title": "n/a", "count": 1}, "greaduateengineertrainee": {"title": "n/a", "count": 1}, "l8": {"title": "n/a", "count": 1}, "softwaredevengineertest": {"title": "n/a", "count": 1}, "seniorsoftwaredevelopmentengineerfrontend": {"title": "n/a", "count": 1}, "softwareengineeringprogram": {"title": "n/a", "count": 1}, "softwareengineere5": {"title": "n/a", "count": 1}, "marketingdataanalyst": {"title": "n/a", "count": 1}, "entrylevelsoftwareengineer": {"title": "n/a", "count": 1}, "t22": {"title": "n/a", "count": 1}, "sdet3": {"title": "n/a", "count": 1}, "devops": {"title": "n/a", "count": 1}, "datascientistlevelii": {"title": "n/a", "count": 1}, "sdeii61": {"title": "n/a", "count": 1}, "advisorysystemanalyst": {"title": "n/a", "count": 1}, "seniorswe": {"title": "n/a", "count": 1}, "researchscientiste4": {"title": "n/a", "count": 1}, "seniorsoftwareengineerl63": {"title": "n/a", "count": 1}, "dataengineeringintern": {"title": "n/a", "count": 1}, "telecomdomain": {"title": "n/a", "count": 1}, "e3newgrad": {"title": "n/a", "count": 1}, "qualityengineer3in3": {"title": "n/a", "count": 1}, "seniorwebapplicationsengineer": {"title": "n/a", "count": 1}, "principalassociatesoftwaredeveloper": {"title": "n/a", "count": 1}, "pythondeveloper": {"title": "n/a", "count": 1}, "seniorsoftwareassociate": {"title": "n/a", "count": 1}, "seniorapplicationsengineer": {"title": "n/a", "count": 1}, "applicationsdevelopmentassociate": {"title": "n/a", "count": 1}, "applicationdevelopmentanalyst": {"title": "n/a", "count": 1}, "seniorcloudsoftwaredeveloper": {"title": "n/a", "count": 1}, "sdemlengineer": {"title": "n/a", "count": 1}, "softwareengineer1productengineer1": {"title": "n/a", "count": 1}, "l3iesde1": {"title": "n/a", "count": 1}, "sitereliabityengineer": {"title": "n/a", "count": 1}, "graduatesoftwareengineertrainee": {"title": "n/a", "count": 1}, "programasociateb": {"title": "n/a", "count": 1}, "softwareengineert4": {"title": "n/a", "count": 1}, "associatelevel2": {"title": "n/a", "count": 1}, "seniorsolutionarchitect": {"title": "n/a", "count": 1}, "contentdevelopmentintern": {"title": "n/a", "count": 1}, "associatetechnologyl2": {"title": "n/a", "count": 1}, "softwaredevlopmentengineer": {"title": "n/a", "count": 1}, "appdeveloper": {"title": "n/a", "count": 1}, "softwareengineerleadconsultant": {"title": "n/a", "count": 1}, "qualityengineeriii": {"title": "n/a", "count": 1}, "techstartprogramintern": {"title": "n/a", "count": 1}, "computerscientist2": {"title": "n/a", "count": 1}, "generalistsoftwareengineerintern": {"title": "n/a", "count": 1}, "productionengineere3": {"title": "n/a", "count": 1}, "sdell": {"title": "n/a", "count": 1}, "graduateintern": {"title": "n/a", "count": 1}, "scientist2": {"title": "n/a", "count": 1}, "sde1l1": {"title": "n/a", "count": 1}, "technologyengineer": {"title": "n/a", "count": 1}, "researchdevelopmentengineerii": {"title": "n/a", "count": 1}, "softwaredevelpper": {"title": "n/a", "count": 1}, "entry": {"title": "n/a", "count": 1}, "stratsintern": {"title": "n/a", "count": 1}, "softwaredevelopmentengineeringtraineeengineer": {"title": "n/a", "count": 1}, "asde": {"title": "n/a", "count": 1}, "softwareengineert3": {"title": "n/a", "count": 1}, "engineerii": {"title": "n/a", "count": 1}, "softwareengineergrade": {"title": "n/a", "count": 1}, "2019softwareengineer": {"title": "n/a", "count": 1}, "associateconsultant": {"title": "n/a", "count": 1}, "programassociatea": {"title": "n/a", "count": 1}, "technicalstaffmember": {"title": "n/a", "count": 1}, "tipprogramintern": {"title": "n/a", "count": 1}, "technicalsupportl3": {"title": "n/a", "count": 1}, "associatesoftwareengineerentrylevel": {"title": "n/a", "count": 1}, "principalsoftwareengineer": {"title": "n/a", "count": 1}, "technologybusinessanalyst": {"title": "n/a", "count": 1}, "aiengineerintern": {"title": "n/a", "count": 1}, "softwaredevengineer1": {"title": "n/a", "count": 1}, "sdemachinelearning": {"title": "n/a", "count": 1}, "l3orwebsolutionsengineer": {"title": "n/a", "count": 1}, "phdsweinternship": {"title": "n/a", "count": 1}, "rdengineer1": {"title": "n/a", "count": 1}, "ict2swe": {"title": "n/a", "count": 1}, "programmer": {"title": "n/a", "count": 1}, "softwareengineeriv": {"title": "n/a", "count": 1}, "graduatetechnologyanalyst": {"title": "n/a", "count": 1}, "memebertechnical": {"title": "n/a", "count": 1}, "srsoftwareengineeri": {"title": "n/a", "count": 1}, "cloudsoftwareengineerg10": {"title": "n/a", "count": 1}, "productengineer2": {"title": "n/a", "count": 1}, "in3sde3": {"title": "n/a", "count": 1}, "engineer1": {"title": "n/a", "count": 1}, "swengineer": {"title": "n/a", "count": 1}, "graduateanalysttechnology": {"title": "n/a", "count": 1}, "softwareengineermts": {"title": "n/a", "count": 1}, "sweinternrd": {"title": "n/a", "count": 1}, "frontendengineer1": {"title": "n/a", "count": 1}, "softwareengine": {"title": "n/a", "count": 1}, "memberoftechnicalstaff3": {"title": "n/a", "count": 1}, "sde1downlevedfromsde2": {"title": "n/a", "count": 1}, "sweband7": {"title": "n/a", "count": 1}, "sdeinternl4": {"title": "n/a", "count": 1}, "gradsde2020": {"title": "n/a", "count": 1}, "infotainmentdeveloperintern": {"title": "n/a", "count": 1}, "teachingassistantatinterviewbitacademy": {"title": "n/a", "count": 1}, "bankofamericaglobaltechnologyanalyst": {"title": "n/a", "count": 1}, "associateapplicationsdeveloper": {"title": "n/a", "count": 1}, "securitysweintern": {"title": "n/a", "count": 1}, "level4": {"title": "n/a", "count": 1}, "softwareengineergrade6": {"title": "n/a", "count": 1}, "supervisingassociate": {"title": "n/a", "count": 1}, "level61": {"title": "n/a", "count": 1}, "softwaredevelopmentengineerinternshipsummer2020": {"title": "n/a", "count": 1}, "seniornetcdeveloper": {"title": "n/a", "count": 1}, "softwareengineer2level62": {"title": "n/a", "count": 1}, "internundergraduate": {"title": "n/a", "count": 1}, "seniorsoftwareengineerl5": {"title": "n/a", "count": 1}, "asde1": {"title": "n/a", "count": 1}, "l3swe": {"title": "n/a", "count": 1}, "softwarequalityengineeric2": {"title": "n/a", "count": 1}, "machinelearningswe": {"title": "n/a", "count": 1}, "associatesde": {"title": "n/a", "count": 1}, "softwareengineeranalyst": {"title": "n/a", "count": 1}, "technicalprojectmanagerintern": {"title": "n/a", "count": 1}, "wsel3": {"title": "n/a", "count": 1}, "c1band": {"title": "n/a", "count": 1}, "softwareengineerios": {"title": "n/a", "count": 1}, "taxtechnologyintern": {"title": "n/a", "count": 1}, "associatesoftwaredevii": {"title": "n/a", "count": 1}, "scientificassistant": {"title": "n/a", "count": 1}, "machinelearningengineerl5": {"title": "n/a", "count": 1}, "t3": {"title": "n/a", "count": 1}, "associateseniordeveloper": {"title": "n/a", "count": 1}, "seniordevelopmentengineer": {"title": "n/a", "count": 1}, "softwareengineerdevelopernetworksrd": {"title": "n/a", "count": 1}, "softwaredevl62": {"title": "n/a", "count": 1}, "softwaredevengineerintest": {"title": "n/a", "count": 1}, "frontendengineerlevel5": {"title": "n/a", "count": 1}, "seniorengineer1": {"title": "n/a", "count": 1}, "contractorseniorsde": {"title": "n/a", "count": 1}, "assistantmanager42": {"title": "n/a", "count": 1}, "productengineeringintern": {"title": "n/a", "count": 1}, "seniorcloudsolutionsengineer": {"title": "n/a", "count": 1}, "seniorsolutionconsultant": {"title": "n/a", "count": 1}, "leetcodesolution": {"title": "n/a", "count": 1}, "systemsdevelopmentengineer": {"title": "n/a", "count": 1}, "m": {"title": "n/a", "count": 1}, "emeaentrylevelengineering": {"title": "n/a", "count": 1}, "softwaredeveloper5": {"title": "n/a", "count": 1}, "associatesoftwaredevelopmentengineertraineeengineer": {"title": "n/a", "count": 1}, "cl9": {"title": "n/a", "count": 1}, "newgradsoftwaredeveloper": {"title": "n/a", "count": 1}, "dataengg": {"title": "n/a", "count": 1}, "sdml6": {"title": "n/a", "count": 1}, "dataengineerii": {"title": "n/a", "count": 1}, "fullstackjavadeveloper": {"title": "n/a", "count": 1}, "reasearchanddevelopmentengineer2": {"title": "n/a", "count": 1}, "seniorproductengineer": {"title": "n/a", "count": 1}, "softwaretestengineer": {"title": "n/a", "count": 1}, "deanofcodingacademics": {"title": "n/a", "count": 1}, "pythondjangobackenddeveloper": {"title": "n/a", "count": 1}, "associatesoftwareproductengineer": {"title": "n/a", "count": 1}, "embeddedsoftwareengineer": {"title": "n/a", "count": 1}, "qaeii": {"title": "n/a", "count": 1}, "applicationandsupportengineer": {"title": "n/a", "count": 1}, "qaengineer": {"title": "n/a", "count": 1}, "analystinsoftwareengineerprogram": {"title": "n/a", "count": 1}, "programanalyst": {"title": "n/a", "count": 1}, "securityengineer": {"title": "n/a", "count": 1}, "softwaredevl3": {"title": "n/a", "count": 1}, "principaldataengineeric4": {"title": "n/a", "count": 1}, "fulltime": {"title": "n/a", "count": 1}, "swel62": {"title": "n/a", "count": 1}, "associateenginner": {"title": "n/a", "count": 1}, "entrylevelautomationtestingengineer": {"title": "n/a", "count": 1}, "itintegrationintern": {"title": "n/a", "count": 1}, "softwareengineerjuniorcandidate": {"title": "n/a", "count": 1}, "appliedscientist1": {"title": "n/a", "count": 1}, "l7": {"title": "n/a", "count": 1}, "systemdevelopmentengineerl5": {"title": "n/a", "count": 1}, "engineerdesignanddevelopment": {"title": "n/a", "count": 1}, "sdedidn": {"title": "n/a", "count": 1}, "softwaredevelopper": {"title": "n/a", "count": 1}, "systemengineergradec1": {"title": "n/a", "count": 1}, "toolongtoremember": {"title": "n/a", "count": 1}, "testengineersenior": {"title": "n/a", "count": 1}, "srteachlead": {"title": "n/a", "count": 1}, "sde1atprimevideoteam": {"title": "n/a", "count": 1}, "associatesoftwaredevelopmentengineer1": {"title": "n/a", "count": 1}, "softwareengineertechnicalleadvp": {"title": "n/a", "count": 1}, "t22developer": {"title": "n/a", "count": 1}, "quant": {"title": "n/a", "count": 1}, "productionengineerl3": {"title": "n/a", "count": 1}, "mdp": {"title": "n/a", "count": 1}, "l3newgrad": {"title": "n/a", "count": 1}, "srsdet": {"title": "n/a", "count": 1}, "summersoftwaredeveloperintern": {"title": "n/a", "count": 1}, "softwareengineernotsure": {"title": "n/a", "count": 1}, "softwaredevelopmentengineerintest2": {"title": "n/a", "count": 1}, "softwaredevelopmenttrainee": {"title": "n/a", "count": 1}, "seii": {"title": "n/a", "count": 1}, "graduatesoftwareengineeri": {"title": "n/a", "count": 1}, "seniortechnicaldeveloper": {"title": "n/a", "count": 1}, "nlpengineercoop": {"title": "n/a", "count": 1}, "uiengineer": {"title": "n/a", "count": 1}, "softwaredevassociatelevel": {"title": "n/a", "count": 1}, "graphicssoftwareengineer": {"title": "n/a", "count": 1}, "softwaredeveloperii": {"title": "n/a", "count": 1}, "softwareengineerg6": {"title": "n/a", "count": 1}, "postgraduatetrainee": {"title": "n/a", "count": 1}, "summersdeintern": {"title": "n/a", "count": 1}, "newgradsoftwareengineer2021": {"title": "n/a", "count": 1}, "cdeveloper": {"title": "n/a", "count": 1}, "bta": {"title": "n/a", "count": 1}, "seniorsoftwaredevengineer": {"title": "n/a", "count": 1}, "principlefrontendengr": {"title": "n/a", "count": 1}, "sweic3": {"title": "n/a", "count": 1}, "softwaredevelopmentengineere4": {"title": "n/a", "count": 1}, "seniorse": {"title": "n/a", "count": 1}, "softwaredeveloperlevel2": {"title": "n/a", "count": 1}, "appliedrdengineer": {"title": "n/a", "count": 1}, "21": {"title": "n/a", "count": 1}, "artificialintelligencedeveloper": {"title": "n/a", "count": 1}, "seniorqa": {"title": "n/a", "count": 1}, "swefulltime": {"title": "n/a", "count": 1}, "levelnotdefined": {"title": "n/a", "count": 1}, "lseniorengineer": {"title": "n/a", "count": 1}, "softwareengineerl62": {"title": "n/a", "count": 1}, "graduateitsoftwaredeveloper": {"title": "n/a", "count": 1}, "l5sde2": {"title": "n/a", "count": 1}, "sde2grade6": {"title": "n/a", "count": 1}, "sapl1": {"title": "n/a", "count": 1}, "cloudplatformdeveloper": {"title": "n/a", "count": 1}, "seniorsoftwareegineerl63": {"title": "n/a", "count": 1}, "juniorengineer": {"title": "n/a", "count": 1}, "executivegraduatetrainee": {"title": "n/a", "count": 1}, "professor": {"title": "n/a", "count": 1}, "academysoftwareengineer": {"title": "n/a", "count": 1}, "midlevel": {"title": "n/a", "count": 1}, "sproductengineer": {"title": "n/a", "count": 1}, "operationsengineer": {"title": "n/a", "count": 1}, "softwaredevelopmentengineerl": {"title": "n/a", "count": 1}, "engineeringdevelopmentgroupintern": {"title": "n/a", "count": 1}, "sde1inandroid": {"title": "n/a", "count": 1}, "appliedscientistii": {"title": "n/a", "count": 1}, "in4": {"title": "n/a", "count": 1}, "researchanddevelopmentmanager": {"title": "n/a", "count": 1}, "sd": {"title": "n/a", "count": 1}, "summertechanalyst": {"title": "n/a", "count": 1}, "webdevelopmentta": {"title": "n/a", "count": 1}, "sdeinternsdefulltime": {"title": "n/a", "count": 1}, "l60softwareengineer": {"title": "n/a", "count": 1}, "softwareengineer3t24": {"title": "n/a", "count": 1}, "sotwareengineer": {"title": "n/a", "count": 1}, "technicalhead": {"title": "n/a", "count": 1}, "l4se": {"title": "n/a", "count": 1}, "l61sde2": {"title": "n/a", "count": 1}, "entrylevel": {"title": "n/a", "count": 1}, "techologysummeranalyst": {"title": "n/a", "count": 1}, "datascientistii": {"title": "n/a", "count": 1}, "srsoftwaredeveloperintern": {"title": "n/a", "count": 1}, "techmojo": {"title": "n/a", "count": 1}, "softwareengieer": {"title": "n/a", "count": 1}, "appliedscientistl4": {"title": "n/a", "count": 1}, "qualityengineeri": {"title": "n/a", "count": 1}, "ic1": {"title": "n/a", "count": 1}, "fdeii": {"title": "n/a", "count": 1}, "ict4": {"title": "n/a", "count": 1}, "businessanalyst": {"title": "n/a", "count": 1}, "ressearchintern": {"title": "n/a", "count": 1}, "androiddeveloper": {"title": "n/a", "count": 1}}
+{
+    "sde1": {
+        "title": "sde 1",
+        "count": 300
+    },
+    "sde2": {
+        "title": "sde 2",
+        "count": 291
+    },
+    "softwareengineer": {
+        "title": "sde 1",
+        "count": 284
+    },
+    "seniorsoftwareengineer": {
+        "title": "sde 2",
+        "count": 111
+    },
+    "sdeintern": {
+        "title": "sde intern",
+        "count": 76
+    },
+    "softwaredeveloper": {
+        "title": "sde 1",
+        "count": 76
+    },
+    "softwaredevi": {
+        "title": "sde 1",
+        "count": 60
+    },
+    "sde": {
+        "title": "sde 1",
+        "count": 59
+    },
+    "analyst": {
+        "title": "analyst",
+        "count": 51
+    },
+    "sdeii": {
+        "title": "sde 2",
+        "count": 46
+    },
+    "intern": {
+        "title": "sde intern",
+        "count": 43
+    },
+    "softwareengineer2": {
+        "title": "sde 2",
+        "count": 43
+    },
+    "softwaredevelopmentengineer": {
+        "title": "sde 1",
+        "count": 41
+    },
+    "softwareengineerintern": {
+        "title": "sde intern",
+        "count": 39
+    },
+    "softwaredevelopmentengineer1": {
+        "title": "sde 1",
+        "count": 36
+    },
+    "softwareengineeringintern": {
+        "title": "sde intern",
+        "count": 35
+    },
+    "sdei": {
+        "title": "sde 1",
+        "count": 35
+    },
+    "sde3": {
+        "title": "sde 3",
+        "count": 33
+    },
+    "softwareengineerii": {
+        "title": "sde 2",
+        "count": 32
+    },
+    "associatesoftwareengineer": {
+        "title": "sde 1",
+        "count": 31
+    },
+    "softwareengineer1": {
+        "title": "sde 1",
+        "count": 28
+    },
+    "softwareengineeri": {
+        "title": "sde 1",
+        "count": 27
+    },
+    "associate": {
+        "title": "sde 1",
+        "count": 24
+    },
+    "softwaredevelopmentengineeri": {
+        "title": "sde 1",
+        "count": 23
+    },
+    "sweintern": {
+        "title": "sde intern",
+        "count": 22
+    },
+    "mts3": {
+        "title": "mts 3",
+        "count": 21
+    },
+    "memberoftechnicalstaff": {
+        "title": "mts 1",
+        "count": 20
+    },
+    "l4": {
+        "title": "sde 2",
+        "count": 20
+    },
+    "sse": {
+        "title": "sde 2",
+        "count": 20
+    },
+    "softwaredevii": {
+        "title": "sde 2",
+        "count": 19
+    },
+    "smts": {
+        "title": "mts 2",
+        "count": 17
+    },
+    "softwaredevelopmentengineer2": {
+        "title": "sde 2",
+        "count": 17
+    },
+    "engineer": {
+        "title": "sde 1",
+        "count": 16
+    },
+    "softwaredeveloperintern": {
+        "title": "sde intern",
+        "count": 15
+    },
+    "systemengineer": {
+        "title": "systems engineer",
+        "count": 15
+    },
+    "mts2": {
+        "title": "mts 2",
+        "count": 14
+    },
+    "softwaredev2": {
+        "title": "sde 2",
+        "count": 14
+    },
+    "l3": {
+        "title": "sde 1",
+        "count": 14
+    },
+    "sde1l4": {
+        "title": "sde 2",
+        "count": 14
+    },
+    "ic2": {
+        "title": "ic2",
+        "count": 13
+    },
+    "se2": {
+        "title": "sde 2",
+        "count": 13
+    },
+    "projectengineer": {
+        "title": "project engineer",
+        "count": 13
+    },
+    "softwareengineeriii": {
+        "title": "sde 3",
+        "count": 12
+    },
+    "mts": {
+        "title": "mts 1",
+        "count": 12
+    },
+    "softwaredevelopmentengineerintern": {
+        "title": "sde intern",
+        "count": 12
+    },
+    "datascientist": {
+        "title": "data scientist 1",
+        "count": 12
+    },
+    "e4": {
+        "title": "sde 2",
+        "count": 11
+    },
+    "softwaredevelopmentengineerii": {
+        "title": "sde 2",
+        "count": 11
+    },
+    "seniorengineer": {
+        "title": "sde 2",
+        "count": 10
+    },
+    "se": {
+        "title": "sde 1",
+        "count": 10
+    },
+    "seniormemberoftechnicalstaff": {
+        "title": "mts 2",
+        "count": 10
+    },
+    "softwaredeveloper2": {
+        "title": "sde 2",
+        "count": 9
+    },
+    "technologyanalyst": {
+        "title": "techonology analyst",
+        "count": 9
+    },
+    "softwaredevelopmentintern": {
+        "title": "sde intern",
+        "count": 9
+    },
+    "productengineer": {
+        "title": "product engineer 1",
+        "count": 9
+    },
+    "l62": {
+        "title": "sde 2",
+        "count": 9
+    },
+    "systemsoftwareengineer": {
+        "title": "systems engineer",
+        "count": 8
+    },
+    "l60": {
+        "title": "sde 1",
+        "count": 8
+    },
+    "l5": {
+        "title": "sde 3",
+        "count": 8
+    },
+    "applicationdeveloper": {
+        "title": "application developer 1",
+        "count": 8
+    },
+    "softwaredevengineeri": {
+        "title": "sde 1",
+        "count": 8
+    },
+    "l61": {
+        "title": "sde 2",
+        "count": 8
+    },
+    "softwaredeveloperengineeri": {
+        "title": "sde 1",
+        "count": 8
+    },
+    "sdeiii": {
+        "title": "sde 3",
+        "count": 8
+    },
+    "dataengineer": {
+        "title": "data engineer 1",
+        "count": 8
+    },
+    "softwaredevintern": {
+        "title": "sde intern",
+        "count": 7
+    },
+    "technicalanalyst": {
+        "title": "technical analyst",
+        "count": 7
+    },
+    "manager": {
+        "title": "manager",
+        "count": 7
+    },
+    "seniorsoftwaredeveloper": {
+        "title": "sde 2",
+        "count": 7
+    },
+    "softwaredev": {
+        "title": "sde 1",
+        "count": 7
+    },
+    "backendengineer": {
+        "title": "sde 1",
+        "count": 7
+    },
+    "deanofcodingacademicslife": {
+        "title": "dean",
+        "count": 7
+    },
+    "softwareengineerbackend": {
+        "title": "sde 1",
+        "count": 6
+    },
+    "se3": {
+        "title": "sde 3",
+        "count": 6
+    },
+    "consultant": {
+        "title": "consultant",
+        "count": 6
+    },
+    "systemsengineer": {
+        "title": "systems engineer",
+        "count": 6
+    },
+    "softwareengineer3": {
+        "title": "sde 3",
+        "count": 6
+    },
+    "softwaredevelopmentengineeringintern": {
+        "title": "sde intern",
+        "count": 6
+    },
+    "mts1": {
+        "title": "mts 1",
+        "count": 6
+    },
+    "swe": {
+        "title": "sde 1",
+        "count": 6
+    },
+    "ic3": {
+        "title": "ic3",
+        "count": 6
+    },
+    "seniordataengineer": {
+        "title": "data engineer 2",
+        "count": 6
+    },
+    "mtsintern": {
+        "title": "mts intern",
+        "count": 6
+    },
+    "summeranalyst": {
+        "title": "summer analyst",
+        "count": 5
+    },
+    "technologysummeranalyst": {
+        "title": "summer analyst",
+        "count": 5
+    },
+    "e5": {
+        "title": "sde 3",
+        "count": 5
+    },
+    "sde1newgrad": {
+        "title": "sde 1",
+        "count": 5
+    },
+    "technologyintern": {
+        "title": "technology intern",
+        "count": 5
+    },
+    "staffsoftwareengineer": {
+        "title": "staff sde",
+        "count": 5
+    },
+    "newgradsoftwareengineer": {
+        "title": "sde 1",
+        "count": 5
+    },
+    "seniorsoftwareengineer1": {
+        "title": "sde 2",
+        "count": 5
+    },
+    "sde2backend": {
+        "title": "sde 2",
+        "count": 5
+    },
+    "summerintern": {
+        "title": "summer intern",
+        "count": 5
+    },
+    "associatedeveloper": {
+        "title": "sde 1",
+        "count": 5
+    },
+    "associatesoftwaredeveloper": {
+        "title": "sde 1",
+        "count": 5
+    },
+    "leadengineer": {
+        "title": "sde 3",
+        "count": 5
+    },
+    "sweii": {
+        "title": "sde 2",
+        "count": 5
+    },
+    "leadsoftwareengineer": {
+        "title": "sde 3",
+        "count": 5
+    },
+    "l63": {
+        "title": "sde 3",
+        "count": 5
+    },
+    "applicationsengineer": {
+        "title": "applications engineer",
+        "count": 5
+    },
+    "datascienceintern": {
+        "title": "data scientist intern",
+        "count": 5
+    },
+    "softwaredevelopmentengineerintest": {
+        "title": "sdet",
+        "count": 5
+    },
+    "mts4": {
+        "title": "mts 4",
+        "count": 5
+    },
+    "powerprogrammer": {
+        "title": "power programmer",
+        "count": 5
+    },
+    "p4": {
+        "title": "p4",
+        "count": 5
+    },
+    "studenttrainee": {
+        "title": "student trainee",
+        "count": 4
+    },
+    "associatesoftwaredevelopmentengineer": {
+        "title": "sde 1",
+        "count": 4
+    },
+    "softwareengineerl3": {
+        "title": "sde 1",
+        "count": 4
+    },
+    "fullstackdeveloper": {
+        "title": "full stack developer 1",
+        "count": 4
+    },
+    "softwareintern": {
+        "title": "sde intern",
+        "count": 4
+    },
+    "juniorsoftwareengineer": {
+        "title": "sde 1",
+        "count": 4
+    },
+    "vp": {
+        "title": "vp",
+        "count": 4
+    },
+    "seniorsde": {
+        "title": "sde 2",
+        "count": 4
+    },
+    "sde2l5": {
+        "title": "sde 3",
+        "count": 4
+    },
+    "sdetii": {
+        "title": "sdet 2",
+        "count": 4
+    },
+    "sde1level60": {
+        "title": "sde 1",
+        "count": 4
+    },
+    "seniormts": {
+        "title": "mts 2",
+        "count": 4
+    },
+    "applicationengineer": {
+        "title": "applications engineer",
+        "count": 4
+    },
+    "developerassociate": {
+        "title": "developer associate",
+        "count": 4
+    },
+    "memberoftechnicalstaff2": {
+        "title": "mts 2",
+        "count": 4
+    },
+    "swe1": {
+        "title": "sde 1",
+        "count": 4
+    },
+    "srsoftwareengineer": {
+        "title": "sde 2",
+        "count": 4
+    },
+    "fullstackengineer": {
+        "title": "full stack developer",
+        "count": 4
+    },
+    "newgradsde": {
+        "title": "sde 1",
+        "count": 4
+    },
+    "assistantsystemengineer": {
+        "title": "systems engineer",
+        "count": 4
+    },
+    "vicepresident": {
+        "title": "vp",
+        "count": 4
+    },
+    "swe2": {
+        "title": "sde 2",
+        "count": 4
+    },
+    "technologyanalystintern": {
+        "title": "technology analyst intern",
+        "count": 4
+    },
+    "l59": {
+        "title": "sde 1",
+        "count": 4
+    },
+    "sdel4": {
+        "title": "sde 2",
+        "count": 4
+    },
+    "associateprofessionalsoftwareengineer": {
+        "title": "sde 1",
+        "count": 3
+    },
+    "asde2": {
+        "title": "sde 2",
+        "count": 3
+    },
+    "sde2equivalent": {
+        "title": "sde 2",
+        "count": 3
+    },
+    "swel3": {
+        "title": "sde 1",
+        "count": 3
+    },
+    "internsoftwareengineer": {
+        "title": "sde intern",
+        "count": 3
+    },
+    "sdet2": {
+        "title": "sdet 2",
+        "count": 3
+    },
+    "membertechnicalstaff": {
+        "title": "mts 1",
+        "count": 3
+    },
+    "dataanalystintern": {
+        "title": "data analyst intern",
+        "count": 3
+    },
+    "computerscientist1": {
+        "title": "computer scientist 1",
+        "count": 3
+    },
+    "seniormembertechnicalstaff": {
+        "title": "mts 2",
+        "count": 3
+    },
+    "softwaredevelopmentengineeriii": {
+        "title": "sde 3",
+        "count": 3
+    },
+    "technicallead": {
+        "title": "sde 3",
+        "count": 3
+    },
+    "seniorsoftwaredevelopmentengineer": {
+        "title": "sde 2",
+        "count": 3
+    },
+    "principalengineer": {
+        "title": "principal engineer",
+        "count": 3
+    },
+    "sdet": {
+        "title": "sdet 1",
+        "count": 3
+    },
+    "membertechnical": {
+        "title": "mts 1",
+        "count": 3
+    },
+    "engineeringintern": {
+        "title": "sde intern",
+        "count": 3
+    },
+    "engineeriii": {
+        "title": "sde 3",
+        "count": 3
+    },
+    "sd2": {
+        "title": "sde 2",
+        "count": 3
+    },
+    "productintern": {
+        "title": "product intern",
+        "count": 3
+    },
+    "associateengineer": {
+        "title": "sde 1",
+        "count": 3
+    },
+    "associateapplicationdeveloper": {
+        "title": "application developer 1",
+        "count": 3
+    },
+    "cloudsupportassociate": {
+        "title": "cloud support assocaite",
+        "count": 3
+    },
+    "softwaredevelopmentengineerll": {
+        "title": "sde 2",
+        "count": 3
+    },
+    "seniorassociate": {
+        "title": "senior assocaite",
+        "count": 3
+    },
+    "memberoftechincalstaff2": {
+        "title": "mts 2",
+        "count": 3
+    },
+    "srswe": {
+        "title": "sde 2",
+        "count": 3
+    },
+    "in3": {
+        "title": "in3",
+        "count": 3
+    },
+    "l3softwareengineer": {
+        "title": "sde 1",
+        "count": 3
+    },
+    "graduateengineertrainee": {
+        "title": "graduate engineer trainee",
+        "count": 3
+    },
+    "summerinternship": {
+        "title": "summer intern",
+        "count": 3
+    },
+    "softwaredeveloperengineer": {
+        "title": "sde 1",
+        "count": 3
+    },
+    "techlead": {
+        "title": "sde 3",
+        "count": 3
+    },
+    "appliedscientist": {
+        "title": "applied scientist",
+        "count": 3
+    },
+    "backenddeveloper": {
+        "title": "sde 1",
+        "count": 3
+    },
+    "get": {
+        "title": "graduate engineer trainee",
+        "count": 3
+    },
+    "specialistprogrammer": {
+        "title": "specialist programmer",
+        "count": 2
+    },
+    "solutionarchitect": {
+        "title": "solutions architect",
+        "count": 2
+    },
+    "frontendengineer": {
+        "title": "sde 1",
+        "count": 2
+    },
+    "softwaredevnewgrad": {
+        "title": "sde 1",
+        "count": 2
+    },
+    "softwaredevengineer": {
+        "title": "sde 1",
+        "count": 2
+    },
+    "softwaredevelopmentengineerlevel2": {
+        "title": "sde 2",
+        "count": 2
+    },
+    "softwaredevelopementengineer": {
+        "title": "sde 1",
+        "count": 2
+    },
+    "sdeinandroid": {
+        "title": "sde android 1",
+        "count": 2
+    },
+    "sde2l61": {
+        "title": "sde 2",
+        "count": 2
+    },
+    "developer": {
+        "title": "sde 1",
+        "count": 2
+    },
+    "softwaredeveloperengineerii": {
+        "title": "sde 2",
+        "count": 2
+    },
+    "csa": {
+        "title": "csa",
+        "count": 2
+    },
+    "appliedscientistintern": {
+        "title": "applied scientst intern",
+        "count": 2
+    },
+    "seniorfrontendengineer": {
+        "title": "sde 2",
+        "count": 2
+    },
+    "technologyconsultant": {
+        "title": "technology consultant",
+        "count": 2
+    },
+    "engineeringlead": {
+        "title": "sde 3",
+        "count": 2
+    },
+    "ic4": {
+        "title": "ic4",
+        "count": 2
+    },
+    "sde4": {
+        "title": "sde 4",
+        "count": 2
+    },
+    "seniorbackendengineer": {
+        "title": "sde 2",
+        "count": 2
+    },
+    "edgengineer": {
+        "title": "edge engineer",
+        "count": 2
+    },
+    "e3": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "fullstackdeveloperintern": {
+        "title": "full stack developer 1",
+        "count": 1
+    },
+    "softwaredevl4": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "sweband7": {
+        "title": "senior staff sde",
+        "count": 1
+    },
+    "softwareengine": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "programasociateb": {
+        "title": "associate programmer",
+        "count": 1
+    },
+    "juniorsoftwaredeveloper": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "datadeveloper": {
+        "title": "data developer",
+        "count": 1
+    },
+    "staffsoftwaretestengineer": {
+        "title": "staff sde",
+        "count": 1
+    },
+    "itanalyst": {
+        "title": "analyst",
+        "count": 1
+    },
+    "seniorproductengineer": {
+        "title": "product engineer 2",
+        "count": 1
+    },
+    "e5seniordeveloper": {
+        "title": "sde 3",
+        "count": 1
+    },
+    "androidsdeii": {
+        "title": "sde android 2",
+        "count": 1
+    },
+    "swesre": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "batchtechnicalanalyst": {
+        "title": "technical analyst",
+        "count": 1
+    },
+    "sdeii61": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "swe1l59": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "softwaredevelopmentengineeringtraineeengineer": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "datascientistintern": {
+        "title": "data scientist intern",
+        "count": 1
+    },
+    "softwareengineerjuniorcandidate": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "associatesoftwareproductengineer": {
+        "title": "product engineer 1",
+        "count": 1
+    },
+    "srsde": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "qaanalyst": {
+        "title": "qa analyst",
+        "count": 1
+    },
+    "mlintern": {
+        "title": "mle intern",
+        "count": 1
+    },
+    "seniorsoftwareengineerl5": {
+        "title": "sde 3",
+        "count": 1
+    },
+    "traineeanalyst": {
+        "title": "trainee analyst",
+        "count": 1
+    },
+    "principalsoftwareengineer": {
+        "title": "principal sde",
+        "count": 1
+    },
+    "sdemlengineer": {
+        "title": "mle 1",
+        "count": 1
+    },
+    "seii": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "systemengineergradec1": {
+        "title": "systems engineer",
+        "count": 1
+    },
+    "productdevelopmentengineerrd": {
+        "title": "product engineer",
+        "count": 1
+    },
+    "softwaredeveloper3": {
+        "title": "sde 3",
+        "count": 1
+    },
+    "associateprofessor": {
+        "title": "associate professor",
+        "count": 1
+    },
+    "techanalyst": {
+        "title": "technical analyst",
+        "count": 1
+    },
+    "executivegraduatetrainee": {
+        "title": "graduate engineer trainee",
+        "count": 1
+    },
+    "coresoftwaredeveloper": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "c1band": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "appliedscientist2": {
+        "title": "applied scientist 2",
+        "count": 1
+    },
+    "qaengineer": {
+        "title": "qa engineer",
+        "count": 1
+    },
+    "fte": {
+        "title": "fte",
+        "count": 1
+    },
+    "softwareengineerlocation": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "2019softwareengineer": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "deeplearningengineer": {
+        "title": "deep learning engineer",
+        "count": 1
+    },
+    "seniorfullstackengineer": {
+        "title": "full stack developer 2",
+        "count": 1
+    },
+    "swel61": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "sdel3": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "sweic3": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "sdenewgrad": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "memberoftechnicalstaffservertechnology": {
+        "title": "mts server technology",
+        "count": 1
+    },
+    "productdevelopmentengineertrainee": {
+        "title": "product development engineer trainee",
+        "count": 1
+    },
+    "sitereliabilityengineer": {
+        "title": "sre 1",
+        "count": 1
+    },
+    "backenddevelopersummerintern": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "se3in3": {
+        "title": "sde 3",
+        "count": 1
+    },
+    "designengineerspecialist": {
+        "title": "design engineer specialist",
+        "count": 1
+    },
+    "softwaredevengineernewgrad": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "memberoftechnicalstaffi": {
+        "title": "mts 1",
+        "count": 1
+    },
+    "frontendengineerlevel5": {
+        "title": "sde 3",
+        "count": 1
+    },
+    "ic1": {
+        "title": "ic1",
+        "count": 1
+    },
+    "ase": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "dataengineer2": {
+        "title": "data engineer 2",
+        "count": 1
+    },
+    "assodean": {
+        "title": "associate dean",
+        "count": 1
+    },
+    "dataanalysti": {
+        "title": "data analyst 1",
+        "count": 1
+    },
+    "srsoftwaredeveloperintern": {
+        "title": "sde intern",
+        "count": 1
+    },
+    "softwareengineerl2": {
+        "title": "sde 1",
+        "count": 2
+    },
+    "applicationdeveloper2": {
+        "title": "application developer 2",
+        "count": 1
+    },
+    "internundergraduate": {
+        "title": "graduate engineer trainee",
+        "count": 1
+    },
+    "appdeveloper": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "associatesoftwaredevelopementengineeri": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "edgintern": {
+        "title": "edg intern",
+        "count": 1
+    },
+    "webappsoftwaredeveloper": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "softwaredevelopmentengineerl4": {
+        "title": "sde 2",
+        "count": 2
+    },
+    "seniorsitereliabilityengineer": {
+        "title": "sre 2",
+        "count": 1
+    },
+    "associatelevel2": {
+        "title": "associate level 2",
+        "count": 1
+    },
+    "testengineersenior": {
+        "title": "senior test engineer",
+        "count": 1
+    },
+    "seniorapplicationsecurityengineerseniorlevel": {
+        "title": "senior application security engineer",
+        "count": 1
+    },
+    "entry": {
+        "title": "entry",
+        "count": 1
+    },
+    "softwareengineergrade": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "sdeiil62": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "softwaredevinternlocation": {
+        "title": "sde intern",
+        "count": 1
+    },
+    "t22developer": {
+        "title": "t22",
+        "count": 1
+    },
+    "sdeplatformengg": {
+        "title": "platform engineer",
+        "count": 1
+    },
+    "dataengineerseniorlevel": {
+        "title": "data engineer 2",
+        "count": 1
+    },
+    "sdeinternfte": {
+        "title": "sde intern",
+        "count": 1
+    },
+    "interndeveloper": {
+        "title": "sde intern",
+        "count": 1
+    },
+    "engineeringmanager": {
+        "title": "engineering manager",
+        "count": 1
+    },
+    "e5swe": {
+        "title": "sde 3",
+        "count": 1
+    },
+    "l4softwareengineer": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "softwaredevassociatelevel": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "systemengineerspecialist": {
+        "title": "systems engineer",
+        "count": 1
+    },
+    "seniorsolutionarchitect": {
+        "title": "senior solutions architect",
+        "count": 1
+    },
+    "sproductengineer": {
+        "title": "product engineer",
+        "count": 1
+    },
+    "dataintegrationanalyst": {
+        "title": "data integration analyst",
+        "count": 1
+    },
+    "applicationdeveloperanalyst": {
+        "title": "application developer analyst",
+        "count": 1
+    },
+    "seniorsoftwaredevelopmentengineerdeputymanager": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "webdevelopmentengineer": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "softwaredevelopmentengineere4": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "graduateitsoftwaredeveloper": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "marketingdataanalyst": {
+        "title": "marketing data analyst",
+        "count": 1
+    },
+    "memberoftechincalstaff": {
+        "title": "mts 1",
+        "count": 1
+    },
+    "softwaredevengineerintest": {
+        "title": "sdet",
+        "count": 1
+    },
+    "scientificassistant": {
+        "title": "scientific assistant",
+        "count": 1
+    },
+    "enterprisesystemsengineer": {
+        "title": "enterprise systems engineer",
+        "count": 1
+    },
+    "level60": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "swee3": {
+        "title": "sde 3",
+        "count": 1
+    },
+    "softwaredeveloperii": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "seniorappliedscientistl6": {
+        "title": "applied scientist 2",
+        "count": 1
+    },
+    "associatesoftwareengineerentrylevel": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "swemll3": {
+        "title": "mle 1",
+        "count": 1
+    },
+    "fee1": {
+        "title": "fee1",
+        "count": 1
+    },
+    "graduatesoftwareengineer": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "projectleader": {
+        "title": "project lead",
+        "count": 1
+    },
+    "qualityengineer3in3": {
+        "title": "quality engineer 3",
+        "count": 1
+    },
+    "softwareengineerp2": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "softwareengineer5": {
+        "title": "sde 5",
+        "count": 1
+    },
+    "phdintern": {
+        "title": "phd intern",
+        "count": 1
+    },
+    "sreentry": {
+        "title": "sre 1",
+        "count": 1
+    },
+    "softwareenginneringintern": {
+        "title": "sde intern",
+        "count": 1
+    },
+    "graduatesoftwareengineertrainee": {
+        "title": "graduate engineer trainee",
+        "count": 1
+    },
+    "sde5": {
+        "title": "sde 5",
+        "count": 1
+    },
+    "l10": {
+        "title": "l10",
+        "count": 1
+    },
+    "seniorapplicationsengineer": {
+        "title": "senior applications engineer",
+        "count": 1
+    },
+    "mlmodeller": {
+        "title": "ml modeller",
+        "count": 1
+    },
+    "sapl1": {
+        "title": "sap l1",
+        "count": 1
+    },
+    "sal2": {
+        "title": "sa l2",
+        "count": 1
+    },
+    "softwareengineerg6": {
+        "title": "sde g6",
+        "count": 1
+    },
+    "softwareengineeringresident": {
+        "title": "sde president",
+        "count": 1
+    },
+    "reasearchanddevelopmentengineer2": {
+        "title": "reasearch and development engineer2",
+        "count": 1
+    },
+    "juniorassociate": {
+        "title": "junior assocaite",
+        "count": 1
+    },
+    "juniorengineer": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "senioriosengineer": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "staffengineer": {
+        "title": "staff sde",
+        "count": 1
+    },
+    "softwareengineerict2": {
+        "title": "sde ict2",
+        "count": 1
+    },
+    "pythondjangobackenddeveloper": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "sdeiiawsteam": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "teachingassistantatinterviewbitacademy": {
+        "title": "teaching assistantat",
+        "count": 1
+    },
+    "amazontechnicalapprentice": {
+        "title": "amazon technical apprentice",
+        "count": 1
+    },
+    "seniorsoftwaredevi": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "technicalprojectmanagerintern": {
+        "title": "technical project manager intern",
+        "count": 1
+    },
+    "softwareengineer3t24": {
+        "title": "sde 3",
+        "count": 1
+    },
+    "t22": {
+        "title": "t22",
+        "count": 1
+    },
+    "deanofcodingacademics": {
+        "title": "dean of coding academics",
+        "count": 1
+    },
+    "sse1": {
+        "title": "sde 2",
+        "count": 2
+    },
+    "associateseniordeveloper": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "engineeri": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "uiengineeri": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "softwareengineertechnicalleadvp": {
+        "title": "tech lead vp",
+        "count": 1
+    },
+    "newgradsoftwaredeveloper": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "asde1": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "rd1": {
+        "title": "rd1",
+        "count": 1
+    },
+    "greaduateengineertrainee": {
+        "title": "graduate engineer trainee",
+        "count": 1
+    },
+    "principalassociatesoftwaredeveloper": {
+        "title": "principal associate software developer",
+        "count": 1
+    },
+    "sde2backendlocation": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "technicalapprentice": {
+        "title": "technical apprentice",
+        "count": 1
+    },
+    "srsoftwareengr": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "deeplearningintern": {
+        "title": "deep learning intern",
+        "count": 1
+    },
+    "engineerintechnologyteam": {
+        "title": "engineer",
+        "count": 1
+    },
+    "swei": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "productdevelopmentengineer": {
+        "title": "product development engineer",
+        "count": 1
+    },
+    "associatesoftwaredevelopmentengineertraineeengineer": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "se2l61": {
+        "title": "sde 2",
+        "count": 2
+    },
+    "entrylevelautomationtestingengineer": {
+        "title": "automation testing engineer",
+        "count": 1
+    },
+    "softwareengineerl61": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "mentoratgeeksclasses": {
+        "title": "mentor",
+        "count": 1
+    },
+    "ressearchintern": {
+        "title": "ressearch intern",
+        "count": 1
+    },
+    "pythondeveloper": {
+        "title": "python developer",
+        "count": 1
+    },
+    "sde2level5": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "technicaldevelopmentprogram": {
+        "title": "application developer",
+        "count": 1
+    },
+    "seniorsoftwareengg": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "rotationalengineer": {
+        "title": "rotational engineer",
+        "count": 1
+    },
+    "softwaredevelopementengineeri": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "programmer": {
+        "title": "programmer",
+        "count": 1
+    },
+    "midlevel": {
+        "title": "mid level",
+        "count": 1
+    },
+    "backendsoftwareengineeringintern": {
+        "title": "sde intern",
+        "count": 1
+    },
+    "principaldataengineeric4": {
+        "title": "principal engineer ic4",
+        "count": 1
+    },
+    "scientist": {
+        "title": "scientist",
+        "count": 1
+    },
+    "academysoftwareengineer": {
+        "title": "academy software engineer",
+        "count": 1
+    },
+    "cryptographyengineer": {
+        "title": "cryptography engineer",
+        "count": 1
+    },
+    "seniorassociateplatforml1": {
+        "title": "senior associate platform l1",
+        "count": 1
+    },
+    "professor": {
+        "title": "professor",
+        "count": 1
+    },
+    "technicalleade3": {
+        "title": "tech lead e3",
+        "count": 1
+    },
+    "softwareengineersummerintern": {
+        "title": "sde intern",
+        "count": 1
+    },
+    "sdemachinelearning": {
+        "title": "mle 1",
+        "count": 1
+    },
+    "softwareengineernotsure": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "pmts": {
+        "title": "pmts",
+        "count": 1
+    },
+    "researchdevelopmentengineerii": {
+        "title": "research development engineer 2",
+        "count": 1
+    },
+    "nlpengineercoop": {
+        "title": "nlp engineer",
+        "count": 1
+    },
+    "srsoftwaredev": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "softwareengineere5": {
+        "title": "sde e5",
+        "count": 1
+    },
+    "softwaredevl60": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "sdeinternsummer2020": {
+        "title": "summer intern",
+        "count": 1
+    },
+    "androidappdeveloperintern": {
+        "title": "android app developer intern",
+        "count": 1
+    },
+    "securityengineer": {
+        "title": "security engineer",
+        "count": 1
+    },
+    "seniorcloudsoftwaredeveloper": {
+        "title": "senior cloud software developer",
+        "count": 1
+    },
+    "sweiii": {
+        "title": "sde 3",
+        "count": 1
+    },
+    "assistantvicepresident": {
+        "title": "assistant vp",
+        "count": 1
+    },
+    "ic5": {
+        "title": "staff sde",
+        "count": 1
+    },
+    "softwareengineertrainee": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "fullstack": {
+        "title": "full stack developer 1",
+        "count": 1
+    },
+    "researchscientiste4": {
+        "title": "research scientist e4",
+        "count": 1
+    },
+    "modelinganalyst": {
+        "title": "modeling analyst",
+        "count": 1
+    },
+    "l4se": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "associateconsultant": {
+        "title": "associate consultant",
+        "count": 1
+    },
+    "wsel3": {
+        "title": "wsel3",
+        "count": 1
+    },
+    "srsoftwareengineeri": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "ict2swe": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "softwareengineerl59": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "softwaredeveloperatpositionlevel10": {
+        "title": "software developer level10",
+        "count": 1
+    },
+    "softwaredataenginee": {
+        "title": "data engineer 1",
+        "count": 1
+    },
+    "graduateengineertraineeentrylevel": {
+        "title": "graduate engineer trainee",
+        "count": 1
+    },
+    "dataappliedscientistintern": {
+        "title": "applied scientst intern",
+        "count": 1
+    },
+    "javadeveloper": {
+        "title": "java developer",
+        "count": 1
+    },
+    "mtsic2": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "quantitativestrategist": {
+        "title": "quantitative strategist",
+        "count": 1
+    },
+    "sde1l60": {
+        "title": "sde 1",
+        "count": 2
+    },
+    "fulltimeanalyst": {
+        "title": "analyst",
+        "count": 1
+    },
+    "newanalyst": {
+        "title": "analyst",
+        "count": 1
+    },
+    "autonomousdrivingintern": {
+        "title": "autonomous driving intern",
+        "count": 1
+    },
+    "platformengineer": {
+        "title": "platform engineer",
+        "count": 1
+    },
+    "dataengg": {
+        "title": "data engineer 1",
+        "count": 1
+    },
+    "graduatesoftwareengineeri": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "e4swe": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "sde1location": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "swefulltime": {
+        "title": "sde1 1",
+        "count": 1
+    },
+    "iosdeveloper": {
+        "title": "ios developer",
+        "count": 1
+    },
+    "softwareengineert4": {
+        "title": "sde t4",
+        "count": 1
+    },
+    "softwaredeviil61": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "softwaredeveloperrdengineer": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "se3t24": {
+        "title": "sde t24",
+        "count": 2
+    },
+    "aiengineerintern": {
+        "title": "ai engineer intern",
+        "count": 1
+    },
+    "newgradsoftwareengineer2021": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "backenddeveloperintern": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "softwareengg3": {
+        "title": "sde 3",
+        "count": 1
+    },
+    "implementationengineer": {
+        "title": "implementation engineer",
+        "count": 1
+    },
+    "softwareengineer2level62": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "memberoftechnicalstaffservertech": {
+        "title": "mts server technology",
+        "count": 1
+    },
+    "senior": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "memberoftechnicalstaff1": {
+        "title": "mts 1",
+        "count": 1
+    },
+    "programanalyst": {
+        "title": "program analyst",
+        "count": 1
+    },
+    "frontendengineer1": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "softwareengineerassociate": {
+        "title": "software engineer associate",
+        "count": 1
+    },
+    "seniorassoicatedeveloper": {
+        "title": "senior assoicate developer",
+        "count": 1
+    },
+    "softwaredevelopmentengineer3": {
+        "title": "sde 3",
+        "count": 1
+    },
+    "softwaredevelopmentengineerl60": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "associateenginner": {
+        "title": "associate enginner",
+        "count": 1
+    },
+    "sdesummerintern": {
+        "title": "summer intern",
+        "count": 1
+    },
+    "cloudsupporteng1": {
+        "title": "cloud support engineer 1",
+        "count": 1
+    },
+    "seniorwebapplicationsengineer": {
+        "title": "senior web applications engineer",
+        "count": 1
+    },
+    "datascientistlevelii": {
+        "title": "applied scientist 2",
+        "count": 1
+    },
+    "softwaredeveloper1": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "scientist2": {
+        "title": "scientist 2",
+        "count": 1
+    },
+    "fdeii": {
+        "title": "fde 2",
+        "count": 1
+    },
+    "productdevelopmentengineer1": {
+        "title": "product development engineer",
+        "count": 1
+    },
+    "softwaredevelopmentengineerinternship": {
+        "title": "sde intern",
+        "count": 1
+    },
+    "mtsiii": {
+        "title": "mts 3",
+        "count": 1
+    },
+    "smtsic3": {
+        "title": "smts ic3",
+        "count": 1
+    },
+    "taxtechnologyintern": {
+        "title": "technology intern",
+        "count": 1
+    },
+    "systemsdevelopmentengineer": {
+        "title": "systems engineer",
+        "count": 1
+    },
+    "jrpythondev": {
+        "title": "python developer",
+        "count": 1
+    },
+    "swdeveloperpositionlevel10": {
+        "title": "sde l10",
+        "count": 1
+    },
+    "swel62": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "dataengineerii": {
+        "title": "data engineer 2",
+        "count": 1
+    },
+    "softwareengineeric3": {
+        "title": "sde ic3",
+        "count": 1
+    },
+    "applicationandsupportengineer": {
+        "title": "application and support engineer",
+        "count": 1
+    },
+    "sdetiii": {
+        "title": "sdet 3",
+        "count": 1
+    },
+    "softwareengineering": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "t4": {
+        "title": "t4",
+        "count": 1
+    },
+    "l3orsoftwareengineer2": {
+        "title": "sde 2",
+        "count": 1
+    },
+    "sdetintern": {
+        "title": "sde intern",
+        "count": 1
+    },
+    "softwaredevelopmentengineerl": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "technicalassociatesoftwareengineer": {
+        "title": "technical associate software engineer",
+        "count": 1
+    },
+    "traineetechnology": {
+        "title": "trainee technology",
+        "count": 1
+    },
+    "softwaredevelopmentengineeril4": {
+        "title": "sde l4",
+        "count": 1
+    },
+    "productengineerintern": {
+        "title": "product engineer intern",
+        "count": 1
+    },
+    "developercoop": {
+        "title": "developer co op",
+        "count": 1
+    },
+    "softwaredevlopmentengineer": {
+        "title": "sde 1",
+        "count": 1
+    },
+    "softwareengineert3": {
+        "title": "sde t3",
+        "count": 1
+    },
+    "softwaredev3": {
+        "title": "sde 3",
+        "count": 1
+    }
+}

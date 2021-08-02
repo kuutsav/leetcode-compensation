@@ -3350,5 +3350,537 @@
     "amamzon": {
         "company": "amazon",
         "count": 1
+    },
+    "hexadgmbh": {
+        "company": "hexad gmbh",
+        "count": 1
+    },
+    "newgensoftware": {
+        "company": "newgen software",
+        "count": 1
+    },
+    "goldman": {
+        "company": "goldman sachs",
+        "count": 1
+    },
+    "analysedai": {
+        "company": "analysed.ai",
+        "count": 1
+    },
+    "mentorgraphicssiemenseda": {
+        "company": "siemens",
+        "count": 1
+    },
+    "hcltechnology": {
+        "company": "hcl technology",
+        "count": 1
+    },
+    "microsofttitle": {
+        "company": "microsoft",
+        "count": 1
+    },
+    "games24x7": {
+        "company": "games24x7",
+        "count": 1
+    },
+    "tyfone": {
+        "company": "tyfone",
+        "count": 1
+    },
+    "microsoftodsp": {
+        "company": "microsoft",
+        "count": 1
+    },
+    "ebaypaymentsgroup": {
+        "company": "ebay",
+        "count": 1
+    },
+    "abb": {
+        "company": "abb",
+        "count": 1
+    },
+    "citicscpune": {
+        "company": "citi",
+        "count": 1
+    },
+    "oracleindiapvtltdidc": {
+        "company": "oracle",
+        "count": 1
+    },
+    "unthinkablesolutionsdaffodil": {
+        "company": "unthinkable solutions",
+        "count": 1
+    },
+    "dialpad": {
+        "company": "dialpad",
+        "count": 1
+    },
+    "bigtreeltdbookmyshow": {
+        "company": "bookmyshow",
+        "count": 1
+    },
+    "dreamxdream11": {
+        "company": "dream11",
+        "count": 1
+    },
+    "robertboschrbei": {
+        "company": "robert bosch engineering and business solutions pvt ltd",
+        "count": 1
+    },
+    "crestdatasystem": {
+        "company": "crest data system",
+        "count": 1
+    },
+    "microsoftazure": {
+        "company": "microsoft",
+        "count": 1
+    },
+    "oraclesde3": {
+        "company": "oracle",
+        "count": 1
+    },
+    "infoedgenaukricom": {
+        "company": "naukri.com",
+        "count": 1
+    },
+    "ernstyounggdsindiallp": {
+        "company": "ernst & young",
+        "count": 1
+    },
+    "edcastsoftwaredevi": {
+        "company": "edcast",
+        "count": 1
+    },
+    "samsungrdnoida": {
+        "company": "samsung",
+        "count": 1
+    },
+    "bookmyshow": {
+        "company": "bookmyshow",
+        "count": 1
+    },
+    "productmnc": {
+        "company": "product based company",
+        "count": 1
+    },
+    "amazonlab126": {
+        "company": "amazon",
+        "count": 1
+    },
+    "samsungrdinstitutedelhi": {
+        "company": "samsung",
+        "count": 1
+    },
+    "mypersonalhelthrecordexpressmphrxpvtltd": {
+        "company": "mphrx",
+        "count": 1
+    },
+    "anarock": {
+        "company": "anarock",
+        "count": 1
+    },
+    "productbasedcompanynonfaang": {
+        "company": "product based company",
+        "count": 1
+    },
+    "irissoftware": {
+        "company": "iris software",
+        "count": 1
+    },
+    "amazonwebservicesinc": {
+        "company": "amazon",
+        "count": 1
+    },
+    "goldmansachslondon": {
+        "company": "goldman sachs",
+        "count": 1
+    },
+    "nationalinformaticscentergovtofindia": {
+        "company": "national informatics center govt of india",
+        "count": 1
+    },
+    "bhartiairtelairtelxlabs": {
+        "company": "airtel",
+        "count": 1
+    },
+    "walmartglobaltechindia": {
+        "company": "walmart",
+        "count": 1
+    },
+    "infosyssystemengineer": {
+        "company": "infosys",
+        "count": 1
+    },
+    "tataconsultancyserviceslimitedtcs": {
+        "company": "tata consultancy services limited",
+        "count": 1
+    },
+    "innominds": {
+        "company": "innominds",
+        "count": 1
+    },
+    "techmojostartupbarclaysbank": {
+        "company": "techmojo",
+        "count": 1
+    },
+    "impetustechnology": {
+        "company": "impetus technology",
+        "count": 1
+    },
+    "disneyplushotstar": {
+        "company": "hotstar",
+        "count": 1
+    },
+    "arcesiumdeshawcompany": {
+        "company": "arcesium",
+        "count": 1
+    },
+    "samsungresearchinstitutebangaloresrib": {
+        "company": "samsung",
+        "count": 1
+    },
+    "towerresearch": {
+        "company": "tower research capital",
+        "count": 1
+    },
+    "trell": {
+        "company": "trell",
+        "count": 1
+    },
+    "tidebusinesshquk": {
+        "company": "tide",
+        "count": 1
+    },
+    "oraclecloudinfrastructureoci": {
+        "company": "oracle",
+        "count": 1
+    },
+    "apisero": {
+        "company": "apisero",
+        "count": 1
+    },
+    "tactai": {
+        "company": "tact.ai",
+        "count": 1
+    },
+    "srisamsungresearchinstitutedelhi": {
+        "company": "samsung",
+        "count": 1
+    },
+    "hypersonixinchypersonixai": {
+        "company": "hypersonix",
+        "count": 1
+    },
+    "grabdigibank": {
+        "company": "grab",
+        "count": 1
+    },
+    "policybazaar": {
+        "company": "policybazaar",
+        "count": 1
+    },
+    "harmansamsungsubsidiaryownerof": {
+        "company": "harman",
+        "count": 1
+    },
+    "deliveryhero": {
+        "company": "delhivery hero",
+        "count": 1
+    },
+    "azuga": {
+        "company": "azuga",
+        "count": 1
+    },
+    "paytmoncampus": {
+        "company": "paytm",
+        "count": 1
+    },
+    "anitechnologiespvtltdolaelectrical": {
+        "company": "ani technologies pvt ltd",
+        "count": 1
+    },
+    "guidewiresoftware": {
+        "company": "guidewire",
+        "count": 1
+    },
+    "majidalfuttaimcarrefour": {
+        "company": "majid al futtaim carrefour",
+        "count": 1
+    },
+    "tataunistoreltdtul": {
+        "company": "tata unistore ltd",
+        "count": 1
+    },
+    "salesken": {
+        "company": "salesken",
+        "count": 1
+    },
+    "falabella": {
+        "company": "fallebella",
+        "count": 1
+    },
+    "noodleanalytics": {
+        "company": "noodle analytics",
+        "count": 1
+    },
+    "kpittechnologiesltd": {
+        "company": "kpi technologies ltd",
+        "count": 1
+    },
+    "amazonadvertising": {
+        "company": "amazon",
+        "count": 1
+    },
+    "glanceinmobi": {
+        "company": "inmobi",
+        "count": 2
+    },
+    "teradata": {
+        "company": "teradata",
+        "count": 1
+    },
+    "advancedsemiconductormaterialslithographyasml": {
+        "company": "asml",
+        "count": 1
+    },
+    "salesforcecom": {
+        "company": "salesforce",
+        "count": 1
+    },
+    "kvantumtitle": {
+        "company": "kvantum",
+        "count": 1
+    },
+    "ibmcic": {
+        "company": "ibm",
+        "count": 1
+    },
+    "urbancompanyurbanclaptechnologiesindiaprivatelimited": {
+        "company": "urban company",
+        "count": 1
+    },
+    "microsofthyderabad": {
+        "company": "microsoft",
+        "count": 1
+    },
+    "barco": {
+        "company": "barco",
+        "count": 1
+    },
+    "urbanladder": {
+        "company": "urbanladder",
+        "count": 1
+    },
+    "optym": {
+        "company": "optym",
+        "count": 1
+    },
+    "westerndigitalakasandisk": {
+        "company": "western digital",
+        "count": 1
+    },
+    "automatetechnologiesbharathhyundai": {
+        "company": "automate technologies bharath hyundai",
+        "count": 1
+    },
+    "awsamazon": {
+        "company": "amazon",
+        "count": 1
+    },
+    "dassaultsystemespune": {
+        "company": "dassault systemes",
+        "count": 1
+    },
+    "mplmobilepremierleague": {
+        "company": "mobile premier league",
+        "count": 1
+    },
+    "gaincreditformerlyglobalanalytics": {
+        "company": "gain credit",
+        "count": 1
+    },
+    "rivianautomotive": {
+        "company": "rivian automotive",
+        "count": 1
+    },
+    "lidolearning": {
+        "company": "lido learning",
+        "count": 1
+    },
+    "oraclebangalore": {
+        "company": "oracle",
+        "count": 1
+    },
+    "timesinternet": {
+        "company": "times internet",
+        "count": 1
+    },
+    "oraclecorpoci": {
+        "company": "oracle",
+        "count": 1
+    },
+    "arcesiumspinoffbydeshawco": {
+        "company": "arcesium",
+        "count": 1
+    },
+    "cred": {
+        "company": "cred",
+        "count": 1
+    },
+    "learpediauprep": {
+        "company": "learnpedia",
+        "count": 1
+    },
+    "paypalafternegotitation": {
+        "company": "paypal",
+        "count": 1
+    },
+    "amazonamazonpay": {
+        "company": "amazon",
+        "count": 1
+    },
+    "mentorgraphicssiemens": {
+        "company": "siemens",
+        "count": 1
+    },
+    "amazonalexa": {
+        "company": "amazon",
+        "count": 1
+    },
+    "curefitrenamedascultfitnow": {
+        "company": "cure.fit",
+        "count": 1
+    },
+    "q3technologiesq3infotechpvtltd": {
+        "company": "q3 infotech pvt ltd",
+        "count": 1
+    },
+    "helpshiftinc": {
+        "company": "help shift inc",
+        "count": 1
+    },
+    "wheelseyetechnologyindiaprivatelimitedtitle": {
+        "company": "wheelseye technology india pvt ltd",
+        "count": 1
+    },
+    "zetadirecti": {
+        "company": "zeta",
+        "count": 1
+    },
+    "adobesystem": {
+        "company": "adobe",
+        "count": 1
+    },
+    "ibmlabsgts": {
+        "company": "ibm",
+        "count": 1
+    },
+    "infosyspowerprogrammer": {
+        "company": "infosys",
+        "count": 1
+    },
+    "bnymellontechnologyindia": {
+        "company": "bny mellon",
+        "count": 1
+    },
+    "foxconninctaiwan": {
+        "company": "fox conn inc taiwan",
+        "count": 1
+    },
+    "productbasedmnc": {
+        "company": "product based company",
+        "count": 1
+    },
+    "amadeussoftwarelabsindiapvtltd": {
+        "company": "amadeus",
+        "count": 1
+    },
+    "plivo": {
+        "company": "plivo",
+        "count": 1
+    },
+    "naukricominfoedge": {
+        "company": "naukri.com",
+        "count": 1
+    },
+    "walmartglobaltechbangaloreindia": {
+        "company": "walmart",
+        "count": 1
+    },
+    "lbmindiasoftwarelabs": {
+        "company": "ibm",
+        "count": 1
+    },
+    "nokiasolutionsandnetworks": {
+        "company": "nokia",
+        "count": 1
+    },
+    "bidgelyindia": {
+        "company": "bidgely india",
+        "count": 1
+    },
+    "oracleociteam": {
+        "company": "oracle",
+        "count": 1
+    },
+    "btbritishtelecommunications": {
+        "company": "british telecommunications",
+        "count": 1
+    },
+    "glowroadcom": {
+        "company": "glowroad",
+        "count": 1
+    },
+    "hevodata": {
+        "company": "hevo data",
+        "count": 1
+    },
+    "sumologic": {
+        "company": "sumo logic",
+        "count": 1
+    },
+    "prudentialtechnologyandservicesindia": {
+        "company": "prudential technology and services india",
+        "count": 1
+    },
+    "squarecashapp": {
+        "company": "cash app",
+        "count": 1
+    },
+    "eygbsindiallp": {
+        "company": "eygbs india llp",
+        "count": 1
+    },
+    "wiprohrservicesnoidasector126": {
+        "company": "wipro",
+        "count": 1
+    },
+    "zestmoneycamdentowntechnologies": {
+        "company": "zestmoney",
+        "count": 1
+    },
+    "pingerinc": {
+        "company": "pinger inc",
+        "count": 1
+    },
+    "flockdirecti": {
+        "company": "flock",
+        "count": 1
+    },
+    "philips": {
+        "company": "philips",
+        "count": 1
+    },
+    "tescotechnology": {
+        "company": "tesco technology",
+        "count": 1
+    },
+    "samsungresearchinstitutenoida": {
+        "company": "samsung",
+        "count": 1
+    },
+    "vinculumsolutions": {
+        "company": "vinculum solutions",
+        "count": 1
     }
 }

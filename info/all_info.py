@@ -12,10 +12,11 @@ from info.clean_info import (
     get_clean_text,
 )
 from info.label_rules import label_rule_for_company, label_rule_for_others
+from info.suggestions import get_company_suggestions, get_title_suggestions
 from utils.constant import DATA_DIR, MAPPING_DIR, META_DIR, POSTS_META_FNAME
 
 
-def _save_unmapped_labels(df: pd.DataFrame, label: str) -> dict:
+def _save_unmapped_labels(df: pd.DataFrame, label: str, suggest: bool=False) -> dict:
     """Saves unmapped labels for manual labeling.
 
     Args:
@@ -25,15 +26,23 @@ def _save_unmapped_labels(df: pd.DataFrame, label: str) -> dict:
     Returns:
         dict: Unmapped labels.
     """
-    unmapped = set(df[df[label] == "n/a"][f"raw_{label}"].values.tolist())
+    unmapped_txts = set(df[df[label] == "n/a"][f"raw_{label}"].values.tolist())
     unmapped_labels = {}
-    for txt in unmapped:
+    for txt in unmapped_txts:
         if txt:
             clean_txt = get_clean_text(txt)
             if clean_txt in unmapped_labels:
                 unmapped_labels[clean_txt]["count"] += 1
             else:
                 unmapped_labels[clean_txt] = {label: "", "count": 1}
+    
+    if suggest:
+        if label == "company":
+            unmapped_labels = get_company_suggestions(unmapped_labels)
+        elif label == "title":
+            unmapped_labels = get_title_suggestions(unmapped_labels)
+    
+    logger.warning(f"{len(unmapped_labels)} unmapped {label} saved")
 
     with open(f"{MAPPING_DIR}/unmapped_{label}.json", "w") as f:
         json.dump(unmapped_labels, f)
@@ -69,7 +78,7 @@ def get_raw_records() -> pd.DataFrame:
                 )
             )
 
-    df = pd.DataFrame( data, dtype="str",
+    df = pd.DataFrame(data, dtype="str",
                       columns=["href", "post_title", "post", "raw_company",
                                "raw_title", "raw_yoe", "raw_salary", "raw_location"])
 
@@ -91,6 +100,6 @@ def get_clean_records() -> pd.DataFrame:
     df["title"] = df["raw_title"].apply(lambda x: clean_title(x))
     df["location"] = df["raw_location"].apply(lambda x: clean_location(x))
     # unmapped labels
-    _save_unmapped_labels(df, "company")
-    _save_unmapped_labels(df, "title")
+    _save_unmapped_labels(df, "company", True)
+    _save_unmapped_labels(df, "title", True)
     return df
