@@ -5,8 +5,38 @@ import re
 from loguru import logger
 import pandas as pd
 
+from info.clean_info import (
+    clean_company,
+    clean_location,
+    clean_title,
+    clean_text,
+)
 from info.label_rules import label_rule_for_company, label_rule_for_others
-from utils.constant import DATA_DIR, META_DIR, POSTS_META_FNAME
+from utils.constant import DATA_DIR, MAPPING_DIR, META_DIR, POSTS_META_FNAME
+
+
+def _save_unmapped_labels(df: pd.DataFrame, label: str) -> dict:
+    """Saves unmapped labels for manual labeling.
+
+    Args:
+        df (pd.DataFrame): Input df with labels.
+        label (str): Label to filter.
+
+    Returns:
+        dict: Unmapped labels.
+    """
+    comps = set(df[df[label] == "n/a"][f"raw_{label}"].values.tolist())
+    unmapped_labels = {}
+    for c in comps:
+        if c:
+            clean_c = clean_text(c)
+            if clean_c in unmapped_labels:
+                unmapped_labels[clean_c]["count"] += 1
+            else:
+                unmapped_labels[clean_c] = {label: "", "count": 1}
+
+    with open(f"{MAPPING_DIR}/unmapped_{label}.json", "w") as f:
+        json.dump(unmapped_labels, f)
 
 
 def get_raw_records() -> pd.DataFrame:
@@ -32,6 +62,7 @@ def get_raw_records() -> pd.DataFrame:
                 (
                     posts_meta[post_id]["href"],
                     posts_meta[post_id]["title"],
+                    txt,
                     label_rule_for_company(formatted_txt),
                     label_rule_for_others(formatted_txt, "title"),
                     label_rule_for_others(formatted_txt, "yoe"),
@@ -40,20 +71,39 @@ def get_raw_records() -> pd.DataFrame:
                 )
             )
 
-    df = pd.DataFrame(data, dtype="str")
-    cols = [
-        "href",
-        "post_title",
-        "company",
-        "title",
-        "yoe",
-        "salary",
-        "location",
-    ]
-    df.columns = cols
+    df = pd.DataFrame(
+        data,
+        dtype="str",
+        columns=[
+            "href",
+            "post_title",
+            "post",
+            "raw_company",
+            "raw_title",
+            "raw_yoe",
+            "raw_salary",
+            "raw_location",
+        ],
+    )
 
     logger.info(f"n records: {df.shape[0]}")
     if missing_post_ids:
         logger.warning(f"missing post_ids: {missing_post_ids}")
 
+    return df
+
+
+def get_clean_records() -> pd.DataFrame:
+    """Posts along with the extracted info.
+
+    Returns:
+        pd.DataFrame: Records with labels in a pandas dataframe.
+    """
+    df = get_raw_records()
+    df["company"] = df["raw_company"].apply(lambda x: clean_company(x))
+    df["title"] = df["raw_title"].apply(lambda x: clean_title(x))
+    df["location"] = df["raw_location"].apply(lambda x: clean_location(x))
+    # unmapped labels
+    _save_unmapped_labels(df, "company")
+    _save_unmapped_labels(df, "title")
     return df
