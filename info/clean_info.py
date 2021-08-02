@@ -12,7 +12,7 @@ with open(f"{MAPPING_DIR}/lc_location.json", "r") as f:
     LOCATION_MAPPING = json.load(f)
 
 
-def clean_text(text: str) -> str:
+def get_clean_text(text: str) -> str:
     """Alphanumeric text for mapping.
 
     Args:
@@ -34,7 +34,7 @@ def clean_company(company_text: str) -> str:
         str: Final company string.
     """
     return COMPANY_MAPPING.get(
-        clean_text(company_text), {"company": MISSING_TEXT}
+        get_clean_text(company_text), {"company": MISSING_TEXT}
     )["company"]
 
 
@@ -47,7 +47,7 @@ def clean_title(title_text: str) -> str:
     Returns:
         str: Final title string.
     """
-    return TITLE_MAPPING.get(clean_text(title_text), {"title": MISSING_TEXT})[
+    return TITLE_MAPPING.get(get_clean_text(title_text), {"title": MISSING_TEXT})[
         "title"
     ]
 
@@ -61,7 +61,7 @@ def clean_location(location_text: str) -> str:
     Returns:
         str: Final location string.
     """
-    clean_loc = clean_text(location_text)
+    clean_loc = get_clean_text(location_text)
     if clean_loc in LOCATION_MAPPING:
         if LOCATION_MAPPING[clean_loc]["in_india"]:
             loc = LOCATION_MAPPING[clean_loc]["location"]

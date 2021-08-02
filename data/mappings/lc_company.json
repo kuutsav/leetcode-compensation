@@ -223,6 +223,10 @@
         "company": "directi",
         "count": 2
     },
+    "directimedianet": {
+        "company": "directi",
+        "count": 1
+    },
     "ciscosystems": {
         "company": "cisco",
         "count": 3
@@ -298,6 +302,10 @@
     "oracleoci": {
         "company": "oracle",
         "count": 26
+    },
+    "oraclecloudinfra": {
+        "company": "oracle",
+        "count": 1
     },
     "ibm": {
         "company": "ibm",
@@ -398,6 +406,10 @@
     "jpmorganchase": {
         "company": "jp morgan",
         "count": 14
+    },
+    "jpmc": {
+        "company": "jp morgan",
+        "count": 1
     },
     "intuit": {
         "company": "intuit",
@@ -611,12 +623,16 @@
         "company": "wells fargo",
         "count": 12
     },
+    "fareye": {
+        "company": "fareye",
+        "count": 1
+    },
     "browserstack": {
         "company": "browserstack",
         "count": 1
     },
     "mediatekindiatechnologypvtltd": {
-        "company": "mediatek india technology pvt. ltd",
+        "company": "mediatek india technology pvt ltd",
         "count": 2
     },
     "capgemini": {
@@ -712,7 +728,7 @@
         "count": 2
     },
     "anitechnologiespvtltd": {
-        "company": "ani technologies pvt. ltd",
+        "company": "ani technologies pvt ltd",
         "count": 3
     },
     "americanexpress": {
@@ -1079,6 +1095,10 @@
         "company": "l & t technology services",
         "count": 6
     },
+    "ltiltinfotech": {
+        "company": "l & t infotech",
+        "count": 1
+    },
     "shell": {
         "company": "shell",
         "count": 2
@@ -1348,6 +1368,10 @@
         "count": 1
     },
     "lyft": {
+        "company": "lyft",
+        "count": 1
+    },
+    "lyftlevel5selfdriving": {
         "company": "lyft",
         "count": 1
     },
@@ -1787,6 +1811,10 @@
         "company": "ibm",
         "count": 1
     },
+    "ibmindiasoftwarelabs": {
+        "company": "ibm",
+        "count": 1
+    },
     "tomtom": {
         "company": "tomtom",
         "count": 1
@@ -1940,7 +1968,7 @@
         "count": 1
     },
     "hitachiconsulting": {
-        "company": "lti",
+        "company": "hitachi consulting",
         "count": 1
     },
     "googleinc": {
@@ -2236,6 +2264,10 @@
         "count": 1
     },
     "optuminsights": {
+        "company": "optum",
+        "count": 1
+    },
+    "optuminsightindiapvtltdformerlyabcoindia": {
         "company": "optum",
         "count": 1
     },
@@ -2600,7 +2632,7 @@
         "count": 1
     },
     "lti": {
-        "company": "lti",
+        "company": "l & t infotech",
         "count": 2
     },
     "locus": {
@@ -2708,7 +2740,7 @@
         "count": 1
     },
     "rategaintraveltechnologiespvtltd": {
-        "company": "rategain travel technologies pvt. ltd",
+        "company": "rategain travel technologies pvt ltd",
         "count": 1
     },
     "trifacta": {
@@ -2939,6 +2971,10 @@
         "company": "mcdonald",
         "count": 1
     },
+    "mckinseycompany": {
+        "company": "mckinsey",
+        "count": 1
+    },
     "suprdaily": {
         "company": "suprdaily",
         "count": 1
@@ -3107,6 +3143,10 @@
         "company": "square",
         "count": 2
     },
+    "cashsquarehttps": {
+        "company": "cash, square",
+        "count": 1
+    },
     "newtonschool": {
         "company": "newton school",
         "count": 1
@@ -3117,6 +3157,10 @@
     },
     "creditvidya": {
         "company": "creditvidya",
+        "count": 1
+    },
+    "vkcommailrugroup": {
+        "company": "vk.com",
         "count": 1
     },
     "unbxd": {
