@@ -1,57 +1,59 @@
+import json
+import os
+import re
+
+from loguru import logger
 import pandas as pd
 
-from info.clean_info import (
-    filter_salary,
-    get_clean_company,
-    get_clean_inr_salary,
-    get_clean_location,
-    get_clean_title,
-    get_yoe,
-)
-from ner.label_prep import _get_ner_tagging_data
+from info.label_rules import label_rule_for_company, label_rule_for_others
+from utils.constant import DATA_DIR, META_DIR, POSTS_META_FNAME
 
 
-def get_all_info():
-    """Clean info from posts."""
-    clean_info = []
-    for d in _get_ner_tagging_data()["tags"]:
-        loc, salary, yoe = "", "", -1
-        for text, tag in d:
-            if tag == "company":
-                comp = get_clean_company(text)
-            elif tag == "title":
-                title = get_clean_title(text)
-            elif tag == "location":
-                loc = get_clean_location(text)
-            elif tag == "salary":
-                salary = get_clean_inr_salary(text)
-                valid_salary, final_salary = filter_salary(text, salary)
-            elif tag == "yoe":
-                yoe = get_yoe(text)
-        if comp and title and loc and salary and valid_salary:
-            if loc["india"]:
-                loc = loc["clean_location"]
-            else:
-                loc = "n/a"
-            clean_info.append((comp, title, loc, salary, yoe, d))
+def get_raw_records() -> pd.DataFrame:
+    """Raw records with entities extracted using rules.
 
-    return clean_info
+    Returns:
+        pd.DataFrame: Records in a pandas dataframe.
+    """
+    with open(f"{META_DIR}/{POSTS_META_FNAME}.json", "r") as f:
+        posts_meta = json.load(f)
 
+    data = []
+    missing_post_ids = []
+    for f in os.listdir(DATA_DIR):
+        post_id = f.split(".")[0]
+        if post_id not in posts_meta:
+            missing_post_ids.append(post_id)
+            continue
+        with open(f"{DATA_DIR}/{f}", "r") as f:
+            txt = f.read()
+            formatted_txt = re.sub(r"\s{2,}", " ", txt.lower())
+            data.append(
+                (
+                    posts_meta[post_id]["href"],
+                    posts_meta[post_id]["title"],
+                    label_rule_for_company(formatted_txt),
+                    label_rule_for_others(formatted_txt, "title"),
+                    label_rule_for_others(formatted_txt, "yoe"),
+                    label_rule_for_others(formatted_txt, "salary"),
+                    label_rule_for_others(formatted_txt, "location"),
+                )
+            )
 
-def get_info_df():
-    """DataFrame of all the info."""
-    df = pd.DataFrame(
-        get_all_info(),
-        columns=[
-            "company",
-            "title",
-            "location",
-            "salary",
-            "yoe",
-            "original_text",
-        ],
-    )
-    df["original_text"] = [
-        "".join(txt for txt, _ in txt_tag) for txt_tag in df["original_text"]
+    df = pd.DataFrame(data, dtype="str")
+    cols = [
+        "href",
+        "post_title",
+        "company",
+        "title",
+        "yoe",
+        "salary",
+        "location",
     ]
+    df.columns = cols
+
+    logger.info(f"n records: {df.shape[0]}")
+    if missing_post_ids:
+        logger.warning(f"missing post_ids: {missing_post_ids}")
+
     return df

@@ -1,7 +1,7 @@
 import argparse
 from datetime import datetime
 import json
-from pathlib import Path
+import os
 import time
 
 from loguru import logger
@@ -55,8 +55,8 @@ while True and page_no <= LAST_PAGE_NO:
 
 
 # save data
-posts_meta_path = Path(META_DIR) / f"{POSTS_META_FNAME}.json"
-if posts_meta_path.exists():
+posts_meta_path = f"{META_DIR}/{POSTS_META_FNAME}.json"
+if os.path.exists(posts_meta_path):
     with open(posts_meta_path, "r") as f:
         data = json.load(f)
     with open(posts_meta_path, "w") as f:
