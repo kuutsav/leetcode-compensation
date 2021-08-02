@@ -32,6 +32,7 @@ def get_raw_records() -> pd.DataFrame:
                 (
                     posts_meta[post_id]["href"],
                     posts_meta[post_id]["title"],
+                    txt,
                     label_rule_for_company(formatted_txt),
                     label_rule_for_others(formatted_txt, "title"),
                     label_rule_for_others(formatted_txt, "yoe"),
@@ -40,17 +41,20 @@ def get_raw_records() -> pd.DataFrame:
                 )
             )
 
-    df = pd.DataFrame(data, dtype="str")
-    cols = [
-        "href",
-        "post_title",
-        "company",
-        "title",
-        "yoe",
-        "salary",
-        "location",
-    ]
-    df.columns = cols
+    df = pd.DataFrame(
+        data,
+        dtype="str",
+        columns=[
+            "href",
+            "post_title",
+            "post",
+            "company",
+            "title",
+            "yoe",
+            "salary",
+            "location",
+        ],
+    )
 
     logger.info(f"n records: {df.shape[0]}")
     if missing_post_ids:
