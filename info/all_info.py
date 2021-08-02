@@ -101,5 +101,5 @@ def get_clean_records() -> pd.DataFrame:
     df["location"] = df["raw_location"].apply(lambda x: clean_location(x))
     # unmapped labels
     _save_unmapped_labels(df, "company", True)
-    _save_unmapped_labels(df, "title", True)
+    _save_unmapped_labels(df, "title")
     return df
