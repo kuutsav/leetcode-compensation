@@ -103,7 +103,8 @@ Total comp (Salary + Bonus + Stock): Total CTC: INR 26,57,695; First year: INR 2
 Other details: Standard Offer for On-Campus Hire
 Allowed Branches: B.Tech CSE/IT (6.0 CGPA & above)
 Process consisted of Coding test & 3 rounds of interviews. I don't remember questions exactly. But they vary from topics such as Graph(Topological Sort, Bi-Partite Graph), Trie based questions, DP based questions both recursive and dp approach, trees, Backtracking.<br>
----
+
+
 title : Cloudera | SSE | Bangalore | 2019<br>
 url : https://leetcode.com/discuss/compensation/388432/Cloudera-or-SSE-or-Bangalore-or-2019<br>
 company : `cloudera`<br>
@@ -125,7 +126,8 @@ PF & Gratuity: Rs 1,88,272
 Stock bonus: 5000 units over 4 years ($9 per unit)
 Other Benefits: Rs 4,00,000 (Health, Term Life and Personal Accident Insurance, Annual Medical Health Checkup, Transportation, Education Reimbursement)
 Total comp (Salary + Bonus + Stock): Rs 4070572<br>
----
+
+
 title : Amadeus Labs | MTS | Bengaluru<br>
 url : https://leetcode.com/discuss/compensation/1109046/Amadeus-Labs-or-MTS-or-Bengaluru<br>
 company : `amadeus labs`<br>
@@ -147,4 +149,3 @@ Stock bonus: None
 Bonus: 137,000
 Total comp (Salary + Bonus + Stock): ~₹1,887,000
 Benefits: Employee and family Insurance<br>
----
