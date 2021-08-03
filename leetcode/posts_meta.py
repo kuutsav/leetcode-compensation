@@ -23,7 +23,8 @@ logger.add(f"data/logs/{POSTS_META_FNAME}.log")
 my_parser = argparse.ArgumentParser()
 my_parser.add_argument("--till_date", type=str, required=True)
 args = my_parser.parse_args()
-till_datetime = datetime.strptime(args.till_date, "%Y/%m/%d")
+till_datetime = args.till_date
+# till_datetime = datetime.strptime(args.till_date, "%Y/%m/%d")
 
 
 # get all the meta info from leetcode compensations page.

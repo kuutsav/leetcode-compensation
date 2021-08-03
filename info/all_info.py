@@ -107,13 +107,13 @@ def get_clean_records_for_india() -> pd.DataFrame:
     df["salary"] = df["raw_salary"].apply(lambda x: clean_salary(x))
     # unmapped labels
     _save_unmapped_labels(df, "company", True)
-    _save_unmapped_labels(df, "title")
+    _save_unmapped_labels(df, "title", True)
     # remove rows not from india
     n_rows_before = df.shape[0]
     df = df[df["location"] != "n/a"]
     n_rows_dropped = n_rows_before - df.shape[0]
     if n_rows_dropped:
-        logger.warning(f"{n_rows_dropped} rows dropped(location=india)")
+        logger.warning(f"{n_rows_dropped} rows dropped(location!=india)")
     # remove rows with missing company or yoe
     n_rows_before = df.shape[0]
     df = df[(df["company"] != "n/a") & (df["yoe"] != -1) & (df["salary"] != -1)]
