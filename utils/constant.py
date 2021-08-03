@@ -24,27 +24,21 @@ LEETCODE_COMPENSATIONS_URL = "https://leetcode.com/discuss/compensation?currentP
 LEETCODE_POSTS_URL = "https://leetcode.com/discuss/compensation/{}"
 
 LABEL_SPECIFICATION = {
-    "RE_COMPANY_PRIMARY": re.compile(
-        r"company\s?[:-]-?\s?(?P<label>[&\w\.\-\(\)\, ]+)"
-    ),
+    "RE_COMPANY_PRIMARY": re.compile(r"company\s?[:-]-?\s?(?P<label>[&\w\.\-\(\)\, ]+)"),
     "RE_COMPANY_SECONDARY": re.compile(r"\scompany (?P<label>[&\w\.\- ]+)"),
-    "RE_TITLE": re.compile(
-        r"title\s?(/level)?\s?[:-]-?\s?(?P<label>[&\w\.\-\/\+\# ]+)"
-    ),
-    "RE_YOE": re.compile(
-        r"((yrs|years\sof\s)(experience|exp)|yoe)\s?[:-]-?\s?(?P<label>[\w\.\+\~\-\, ]+)"
-    ),
-    "RE_SALARY": re.compile(
-        r"(salary|base|base pay)\s?[:-]-?\s?(?P<label>[\w\,\₹\$\.\/\- ]+)\s"
-    ),
+    "RE_TITLE": re.compile(r"title\s?(/level)?\s?[:-]-?\s?(?P<label>[&\w\.\-\/\+\# ]+)"),
+    "RE_YOE": re.compile(r"((yrs|years\sof\s)(experience|exp)|yoe)\s?[:-]-?\s?(?P<label>[\w\.\+\~\-\, ]+)"),
+    "RE_SALARY": re.compile(r"(salary|base|base pay)\s?[:-]-?\s?(?P<label>[\w\,\₹\$\.\/\- ]+)\s"),
     "RE_LOCATION": re.compile(r"\slocation\s?[:-]-?\s?(?P<label>[\w\, ]+)"),
 }
+
 YOE_SPECIFICATION = [
-    re.compile(r"^(\~\s?)?(?P<years>\d{1,2}(\.\d{1,2})?)\s?\+?$"),
-    re.compile(
-        r"^(\~\s?)?(?P<years>\d{1,2}(\.\d{1,2})?)\+?\s?(years|year|yrs|yr|yoe|y)((\sand)? (?P<months>\d{1,2})\s?(months?|m))?"
-    ),
-    re.compile(r"^(?P<months>\d{1,2}) (months?)"),
+    (re.compile(r"^((?P<years>\d{1,2}(\.\d{1,2})?)(years?|yrs?))?((?P<months>\d{1,2})(months?|mnths?|m))"), 1),
+    (re.compile(r"^(?P<years>\d{1,2}(\.\d{1,2})?)(years?|yrs?|yoe)"), 1),
+    (re.compile(r"^almost(?P<years>\d{1,2}(\.\d{1,2})?)"), 1),
+    (re.compile(r"(?P<years>fresh*|none|nil|na|newgrad|nofulltime|202[01]graduate)"), 0),
+    (re.compile(r"^(?P<weeks>\d{1,2})(weeks)"), 0),
+    (re.compile(r"^(?P<years>\d{1,2}(\.\d{1,2})?)"), 1)
 ]
 
 MIN_SALARY = 250000

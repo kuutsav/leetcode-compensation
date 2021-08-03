@@ -9,6 +9,7 @@ from info.clean_info import (
     clean_company,
     clean_location,
     clean_title,
+    clean_yoe,
     get_clean_text,
 )
 from info.label_rules import label_rule_for_company, label_rule_for_others
@@ -99,6 +100,7 @@ def get_clean_records() -> pd.DataFrame:
     df["company"] = df["raw_company"].apply(lambda x: clean_company(x))
     df["title"] = df["raw_title"].apply(lambda x: clean_title(x))
     df["location"] = df["raw_location"].apply(lambda x: clean_location(x))
+    df["yoe"] = df["raw_yoe"].apply(lambda x: clean_yoe(x))
     # unmapped labels
     _save_unmapped_labels(df, "company", True)
     _save_unmapped_labels(df, "title")

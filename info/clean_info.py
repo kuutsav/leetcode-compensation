@@ -1,7 +1,7 @@
 import json
 import re
 
-from utils.constant import MAPPING_DIR, MISSING_TEXT
+from utils.constant import MAPPING_DIR, MISSING_TEXT, YOE_SPECIFICATION
 
 # mapping data
 with open(f"{MAPPING_DIR}/lc_company.json", "r") as f:
@@ -22,6 +22,18 @@ def get_clean_text(text: str) -> str:
         str: Alphanumeric text.
     """
     return "".join(re.findall(r"\w+", text))
+
+
+def get_clean_yoe(yoe_text: str) -> str:
+    """Clean the yoe text
+    
+    Args:
+        yoe_text (str): Raw yoe text.
+    
+    Returns:
+        str: Clean yoe text.
+    """
+    return "".join(re.findall(r"\w[\w\.\-\~\+]*", yoe_text))
 
 
 def clean_company(company_text: str) -> str:
@@ -47,9 +59,9 @@ def clean_title(title_text: str) -> str:
     Returns:
         str: Final title string.
     """
-    return TITLE_MAPPING.get(get_clean_text(title_text), {"title": MISSING_TEXT})[
-        "title"
-    ]
+    return TITLE_MAPPING.get(
+        get_clean_text(title_text), {"title": MISSING_TEXT}
+    )["title"]
 
 
 def clean_location(location_text: str) -> str:
@@ -75,3 +87,33 @@ def clean_location(location_text: str) -> str:
         return "india"
     else:
         return "n/a"
+
+
+def clean_yoe(yoe_text: str) -> float:
+    """Raw yoe standardization.
+
+    Args:
+        yoe_text (str): Raw yoe string.
+
+    Returns:
+        float: Final yoe.
+    """
+    clean_yoe_text = get_clean_yoe(yoe_text)
+    has_match = False
+    for pattern, is_numeric_year in YOE_SPECIFICATION:
+        match = re.match(pattern, clean_yoe_text)
+        if match:
+            has_match = True
+            if not is_numeric_year:
+                try:
+                    return float(match.group("weeks")) / (4 * 12)
+                except Exception:
+                    return 0
+            years = float(match.group("years")) if match.group("years") else 0
+            try:
+                years += float(match.group("months")) / 12
+            except Exception:
+                pass
+            return years
+    if not has_match:
+        return -1
