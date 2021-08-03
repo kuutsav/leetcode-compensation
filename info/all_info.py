@@ -8,6 +8,7 @@ import pandas as pd
 from info.clean_info import (
     clean_company,
     clean_location,
+    clean_salary,
     clean_title,
     clean_yoe,
     get_clean_text,
@@ -15,6 +16,7 @@ from info.clean_info import (
 from info.label_rules import label_rule_for_company, label_rule_for_others
 from info.suggestions import get_company_suggestions, get_title_suggestions
 from utils.constant import DATA_DIR, MAPPING_DIR, META_DIR, POSTS_META_FNAME
+from utils.utils import get_datetime_from_date
 
 
 def _save_unmapped_labels(df: pd.DataFrame, label: str, suggest: bool=False) -> dict:
@@ -70,7 +72,8 @@ def get_raw_records() -> pd.DataFrame:
             formatted_txt = re.sub(r"\s{2,}", " ", txt.lower())
             data.append(
                 (
-                    posts_meta[post_id]["href"], posts_meta[post_id]["title"], txt,
+                    posts_meta[post_id]["href"], posts_meta[post_id]["title"],
+                    get_datetime_from_date(posts_meta[post_id]["date"]), txt,
                     label_rule_for_company(formatted_txt),
                     label_rule_for_others(formatted_txt, "title"),
                     label_rule_for_others(formatted_txt, "yoe"),
@@ -80,7 +83,7 @@ def get_raw_records() -> pd.DataFrame:
             )
 
     df = pd.DataFrame(data, dtype="str",
-                      columns=["href", "post_title", "post", "raw_company",
+                      columns=["href", "post_title", "date", "post", "raw_company",
                                "raw_title", "raw_yoe", "raw_salary", "raw_location"])
 
     logger.info(f"n records: {df.shape[0]}")
@@ -90,8 +93,8 @@ def get_raw_records() -> pd.DataFrame:
     return df
 
 
-def get_clean_records() -> pd.DataFrame:
-    """Posts along with the extracted info.
+def get_clean_records_for_india() -> pd.DataFrame:
+    """Posts along with the extracted info(filtered for `India`).
 
     Returns:
         pd.DataFrame: Records with labels in a pandas dataframe.
@@ -101,7 +104,26 @@ def get_clean_records() -> pd.DataFrame:
     df["title"] = df["raw_title"].apply(lambda x: clean_title(x))
     df["location"] = df["raw_location"].apply(lambda x: clean_location(x))
     df["yoe"] = df["raw_yoe"].apply(lambda x: clean_yoe(x))
+    df["salary"] = df["raw_salary"].apply(lambda x: clean_salary(x))
     # unmapped labels
     _save_unmapped_labels(df, "company", True)
     _save_unmapped_labels(df, "title")
+    # remove rows not from india
+    n_rows_before = df.shape[0]
+    df = df[df["location"] != "n/a"]
+    n_rows_dropped = n_rows_before - df.shape[0]
+    if n_rows_dropped:
+        logger.warning(f"{n_rows_dropped} rows dropped(location=india)")
+    # remove rows with missing company or yoe
+    n_rows_before = df.shape[0]
+    df = df[(df["company"] != "n/a") & (df["yoe"] != -1) & (df["salary"] != -1)]
+    n_rows_dropped = n_rows_before - df.shape[0]
+    if n_rows_dropped:
+        logger.warning(f"{n_rows_dropped} rows dropped(incomplete info)")
+    # remove internships(some escape the per/month filter in salary regex speficification)
+    n_rows_before = df.shape[0]
+    df = df[~df["raw_title"].apply(lambda x: "intern" in x)]
+    n_rows_dropped = n_rows_before - df.shape[0]
+    if n_rows_dropped:
+        logger.warning(f"{n_rows_dropped} rows dropped(internships)")
     return df

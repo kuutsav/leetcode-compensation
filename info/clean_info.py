@@ -1,7 +1,12 @@
 import json
 import re
 
-from utils.constant import MAPPING_DIR, MISSING_TEXT, YOE_SPECIFICATION
+from utils.constant import (
+    MAPPING_DIR,
+    MISSING_TEXT,
+    SALARY_SPECIFICATION,
+    YOE_SPECIFICATION
+)
 
 # mapping data
 with open(f"{MAPPING_DIR}/lc_company.json", "r") as f:
@@ -25,7 +30,7 @@ def get_clean_text(text: str) -> str:
 
 
 def get_clean_yoe(yoe_text: str) -> str:
-    """Clean the yoe text
+    """Cleans the yoe text.
     
     Args:
         yoe_text (str): Raw yoe text.
@@ -34,6 +39,18 @@ def get_clean_yoe(yoe_text: str) -> str:
         str: Clean yoe text.
     """
     return "".join(re.findall(r"\w[\w\.\-\~\+]*", yoe_text))
+
+
+def get_clean_salary(yoe_text: str) -> str:
+    """Cleans the salary text.s
+    
+    Args:
+        salary_text (str): Raw salary text.
+    
+    Returns:
+        str: Clean salary text.
+    """
+    return "".join(re.findall(r"[\w\.\-]", yoe_text))
 
 
 def clean_company(company_text: str) -> str:
@@ -117,3 +134,27 @@ def clean_yoe(yoe_text: str) -> float:
             return years
     if not has_match:
         return -1
+
+
+def clean_salary(salary_text: str) -> float:
+    """Raw salary standardization.
+
+    Args:
+        salary_text (str): Raw salary string.
+
+    Returns:
+        float: Final salary.
+    """
+    clean_salary_text = get_clean_salary(salary_text)
+    has_match = False
+    for pattern, lakhs_multiplier in SALARY_SPECIFICATION:
+        match = re.match(pattern, clean_salary_text)
+        if match:
+            has_match = True
+            try:
+                return float(match.group("lakhs")) * lakhs_multiplier
+            except Exception:
+                # per month (internships, etc.)
+                pass
+            break
+    return -1

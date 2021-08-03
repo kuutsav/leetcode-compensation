@@ -10,6 +10,7 @@ if not os.path.exists(BROWSER_EXEC_PATH):
     raise FileNotFoundError("chromedriver not present in the utils path")
 
 MISSING_TEXT = "n/a"
+OUT_DATE_FORMAT = "%Y/%m/%d"
 TOTAL_RETRIES = 3
 LAST_PAGE_NO = 274
 
@@ -41,14 +42,15 @@ YOE_SPECIFICATION = [
     (re.compile(r"^(?P<years>\d{1,2}(\.\d{1,2})?)"), 1)
 ]
 
-MIN_SALARY = 250000
-MAX_BASE_LPA = 100
-MAX_SALARY = MAX_BASE_LPA * 100000
-MONTHLY_SALARY_INDICATORS = [
-    "per month",
-    "pm",
-    "p.m",
-    "p.m.",
-    "/month",
-    "/ month",
+SALARY_SPECIFICATION = [
+    (re.compile(r"(?P<per_month>([\w\.\s]+)(month|pm|p\.m\.?))$"), 1),
+    (re.compile(r"(inr\.?|rs\.?|ctc|base)?(?P<lakhs>\d{1,2}(\.\d{1,2})?)(lpa|lakhs?|lacs?|l|base|basepay|fixed)"), 100000),
+    (re.compile(r"(inr\.?|rs\.?|ctc|base)?(?P<lakhs>\d{6,7}(\.\d{1,2})?)(\-)?(lpa|lakhs?|lacs?|base|perannum|ctc|fixed|rupees|peranum|peryear)"), 1),
+    (re.compile(r"^(inr\.?|rs\.?|ctc|base)?(?P<lakhs>\d{6,7}(\.\d{1,2})?)(\-)?$"), 1),
+    (re.compile(r"^(?P<lakhs>\d{6,7})(\-)?(inr\.?|rs\.?|ctc|base)?$"), 1),
+    (re.compile(r"^(?P<lakhs>\d{1,2}(\.\d{1,2})?)$"), 100000),
+    (re.compile(r"(?P<lakhs>[1-9]?\d0{5})"), 1)
 ]
+
+MIN_SALARY = 250_000
+MAX_SALARY = 1_000_000
