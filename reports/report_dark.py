@@ -16,7 +16,6 @@ with open(f"{REPORTS_DIR}/report_{min_date}_to_{max_date}_dark.md", "w") as f:
     f.write("\n\n`Salary Distribution`")
     f.write(f"\n![salary](../imgs/salary_distribution_dark.png)")
 
-
     f.write("\n\n`Company Counts`")
     f.write(f"\n![salary](../imgs/company_distribution_dark.png)")
 
