@@ -40,8 +40,8 @@ p75, p95, p99 = (
 pdf = pd.DataFrame({'p75': [p75], 'p95': [p95], 'p99': [p99]})
 
 # salary distribution ----------------------------------------------------------
-bar = alt.Chart(df).mark_bar(size=30).encode(
-    x=alt.X('lpa', bin=alt.Bin(maxbins=40), title="₹ LPA"),
+bar = alt.Chart(df).mark_bar(size=23).encode(
+    x=alt.X('lpa', bin=alt.Bin(maxbins=35), title="₹ LPA"),
     y=alt.Y('count()', axis=alt.Axis(title="Count of Records")),
     color=alt.value(LIGHT_BAR),
 ).properties(width=900, height=350)
@@ -52,8 +52,8 @@ final_bar = (bar + rule1 + rule2 + rule3)
 final_bar.save(f'{IMGS_DIR}/salary_distribution_total.png')
 
 # dark mode
-bar = alt.Chart(df).mark_bar(size=30).encode(
-    x=alt.X('lpa', bin=alt.Bin(maxbins=40), title="₹ LPA"),
+bar = alt.Chart(df).mark_bar(size=23).encode(
+    x=alt.X('lpa', bin=alt.Bin(maxbins=35), title="₹ LPA"),
     y=alt.Y('count()', axis=alt.Axis(title="Count of Records")),
     color=alt.value(DARK_BAR),
 ).properties(width=900, height=350)

@@ -4,6 +4,7 @@ from utils.constant import IMGS_DIR, REPORTS_DIR
 
 # data
 df = get_clean_records_for_india()
+df = df.loc[df["salary_total"] != -1, :]
 min_date, max_date = df["date"].min().replace("/", "_"), df["date"].max().replace("/", "_")
 
 with open(f"{REPORTS_DIR}/report_{min_date}_to_{max_date}_tc.md", "w") as f:
