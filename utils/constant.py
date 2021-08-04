@@ -34,6 +34,7 @@ LABEL_SPECIFICATION = {
     "RE_YOE": re.compile(r"((yrs|years\sof\s)(experience|exp)|yoe)\s?[:-]-?\s?(?P<label>[\w\.\+\~\-\, ]+)"),
     "RE_SALARY": re.compile(r"(salary|base|base pay)\s?[:-]-?\s?(?P<label>[\w\,\₹\$\.\/\- ]+)\s"),
     "RE_LOCATION": re.compile(r"\slocation\s?[:-]-?\s?(?P<label>[\w\, ]+)"),
+    "RE_SALARY_TOTAL": re.compile(r"\ntot?al (1st year\s)?(comp[e|a]nsation|comp|ctc)(\sfor 1st year)?(\s?\(\s?(salary|base).+?\))?(?P<label>.+)")
 }
 
 YOE_SPECIFICATION = [
@@ -53,6 +54,12 @@ SALARY_SPECIFICATION = [
     (re.compile(r"^(?P<lakhs>\d{6,7})(\-)?(inr\.?|rs\.?|ctc|base)?$"), 1),
     (re.compile(r"^(?P<lakhs>\d{1,2}(\.\d{1,2})?)$"), 100000),
     (re.compile(r"(?P<lakhs>[1-9]?\d0{5})"), 1)
+]
+
+TOTAL_SALARY_SPECIFICATION = [
+    (re.compile(r"\d{6,7}"), 1),
+    (re.compile(r"(\d{1,2}\.\d{1,3})(lpa|lacks|l)"), 100000),
+    (re.compile(r"(\d{1,2})(lpa|lacks|l)"), 100000)
 ]
 
 MIN_SALARY = 250_000

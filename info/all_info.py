@@ -9,6 +9,7 @@ from info.clean_info import (
     clean_company,
     clean_location,
     clean_salary,
+    clean_salary_total,
     clean_title,
     clean_yoe,
     get_clean_text,
@@ -84,13 +85,15 @@ def get_raw_records() -> pd.DataFrame:
                     label_rule_for_others(formatted_txt, "title"),
                     label_rule_for_others(formatted_txt, "yoe"),
                     label_rule_for_others(formatted_txt, "salary"),
+                    label_rule_for_others(formatted_txt, "salary_total"),
                     label_rule_for_others(formatted_txt, "location"),
                 )
             )
 
     df = pd.DataFrame(data, dtype="str",
                       columns=["href", "post_title", "date", "post", "raw_company",
-                               "raw_title", "raw_yoe", "raw_salary", "raw_location"])
+                               "raw_title", "raw_yoe", "raw_salary", "raw_salary_total",
+                               "raw_location"])
 
     logger.info(f"n records: {df.shape[0]}")
     if missing_post_ids:
@@ -111,6 +114,7 @@ def get_clean_records_for_india() -> pd.DataFrame:
     df["location"] = df["raw_location"].apply(lambda x: clean_location(x))
     df["yoe"] = df["raw_yoe"].apply(lambda x: clean_yoe(x))
     df["salary"] = df["raw_salary"].apply(lambda x: clean_salary(x))
+    df["salary_total"] = df["raw_salary_total"].apply(lambda x: clean_salary_total(x))
     # unmapped labels
     _save_unmapped_labels(df, "company", True)
     _save_unmapped_labels(df, "title", True)
@@ -132,4 +136,6 @@ def get_clean_records_for_india() -> pd.DataFrame:
     n_rows_dropped = n_rows_before - df.shape[0]
     if n_rows_dropped:
         logger.warning(f"{n_rows_dropped} rows dropped(internships)")
+    # remove salary_total where salary_ctc < salary
+    df.loc[df["salary_total"]<df["salary"], "salary_total"] = MISSING_NUMERIC
     return df

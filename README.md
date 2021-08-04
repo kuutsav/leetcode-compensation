@@ -5,9 +5,13 @@ Scraping and analysis of leetcode-compensations page.
 ![Salary](data/imgs/salary_distribution_dark.png)
 
 ## Report
-[INDIA : Jan 2019 - July 2021](data/reports/report_2019_01_05_to_2021_08_04.md)
+[INDIA : Jan 2019 - July 2021 / fixed salary](data/reports/report_2019_01_05_to_2021_08_04.md)
 
-[INDIA : Jan 2019 - July 2021 / dark mode](data/reports/report_2019_01_05_to_2021_08_04_dark.md)
+[INDIA : Jan 2019 - July 2021 / fixed salary, dark mode](data/reports/report_2019_01_05_to_2021_08_04_dark.md)
+
+[INDIA : Jan 2019 - July 2021 / total salary](data/reports/report_2019_01_05_to_2021_08_04_tc.md)
+
+[INDIA : Jan 2019 - July 2021 / total salary, dark mode](data/reports/report_2019_01_05_to_2021_08_04_dark_tc.md)
 
 
 ## Directory structure
@@ -79,9 +83,13 @@ Out[3]: (1963, 14)
 
 ## Report
 ```python
-$ python reports/plots.py # generate plots
-$ python reports/report.py
-$ python reports/report_dark.py # dark mode
+$ python reports/plots.py # generate fixed comp. plots
+$ python reports/report.py # fixed comp.
+$ python reports/report_dark.py # fixed comp., dark mode
+
+$ python reports/plots_tc.py # generate total comp. plots
+$ python reports/report_tc.py # total comp.
+$ python reports/report_dark.py # total comp., dark mode
 ```
 
 ## Samples

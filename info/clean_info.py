@@ -6,6 +6,7 @@ from utils.constant import (
     MISSING_NUMERIC,
     MISSING_TEXT,
     SALARY_SPECIFICATION,
+    TOTAL_SALARY_SPECIFICATION,
     YOE_SPECIFICATION
 )
 
@@ -159,3 +160,28 @@ def clean_salary(salary_text: str) -> float:
                 pass
             break
     return MISSING_NUMERIC
+
+
+def clean_salary_total(salary_total_text: str) -> float:
+    """Raw salary_total standardization.
+
+    Args:
+        salary_total_text (str): Raw salary_total string.
+
+    Returns:
+        float: Final salary_total.
+    """
+    has_match = False
+    salary_total_text = salary_total_text.replace(",", "").replace(" ", "")
+    for pattern, lakhs_multiplier in TOTAL_SALARY_SPECIFICATION:
+        match = re.findall(pattern, salary_total_text)
+        if match:
+            has_match = True
+            salary = match[-1]
+            if type(salary) == str:
+                salary = float(salary)
+            else:
+                salary = float(salary[0]) * lakhs_multiplier
+            return salary
+    if not has_match:
+        return MISSING_NUMERIC
