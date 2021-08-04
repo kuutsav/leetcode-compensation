@@ -2,7 +2,7 @@
 Scraping and analysis of leetcode-compensations page.
 
 `Salary Distribution`
-![Salary](data/imgs/all_lpa.png)
+![Salary](data/imgs/salary_distribution_dark.png)
 
 ## Report
 [INDIA - Jan 2019 - July 2021](data/reports/report.md)
@@ -26,6 +26,7 @@ Scraping and analysis of leetcode-compensations page.
 2. Put the `chromedriver` in the utils directory.
 3. Setup virual enviroment `python -m venv leetcode`.
 3. Install necessary packages `pip install -r requirements.txt`.
+4. To create the reports(needed to save altair plots), `npm install vega-lite vega-cli canvas`.
 
 ## Scraping
 ```python
@@ -72,6 +73,13 @@ In [2]: df = get_clean_records_for_india()
 2021-08-03 19:41:37.906 | WARNING  | info.all_info:get_clean_records_for_india:128 - 6 rows dropped(internships)
 In [3]: df.shape                                                                                                            
 Out[3]: (1887, 14)
+```
+
+## Report
+```python
+$ python reports/plots.py # generate plots
+$ python reports/report.py
+$ python reports/report_dark.py # dark mode
 ```
 
 ## Samples

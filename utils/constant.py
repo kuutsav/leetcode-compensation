@@ -10,6 +10,7 @@ if not os.path.exists(BROWSER_EXEC_PATH):
     raise FileNotFoundError("chromedriver not present in the utils path")
 
 MISSING_TEXT = "n/a"
+MISSING_NUMERIC = -1
 OUT_DATE_FORMAT = "%Y/%m/%d"
 TOTAL_RETRIES = 3
 LAST_PAGE_NO = 274
@@ -20,6 +21,8 @@ DATA_DIR = "data/posts/"
 META_DIR = "data/meta/"
 MAPPING_DIR = "data/mappings/"
 OUT_DIR = "data/out/"
+IMGS_DIR = "data/imgs/"
+REPORTS_DIR = "data/reports/"
 
 LEETCODE_COMPENSATIONS_URL = "https://leetcode.com/discuss/compensation?currentPage={}&orderBy=newest_to_oldest&query="
 LEETCODE_POSTS_URL = "https://leetcode.com/discuss/compensation/{}"

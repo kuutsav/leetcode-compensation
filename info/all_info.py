@@ -15,7 +15,13 @@ from info.clean_info import (
 )
 from info.label_rules import label_rule_for_company, label_rule_for_others
 from info.suggestions import get_company_suggestions, get_title_suggestions
-from utils.constant import DATA_DIR, MAPPING_DIR, META_DIR, POSTS_META_FNAME
+from utils.constant import (
+    DATA_DIR, MAPPING_DIR,
+    META_DIR,
+    MISSING_NUMERIC,
+    MISSING_TEXT,
+    POSTS_META_FNAME
+)
 from utils.utils import get_datetime_from_date
 
 
@@ -29,7 +35,7 @@ def _save_unmapped_labels(df: pd.DataFrame, label: str, suggest: bool=False) -> 
     Returns:
         dict: Unmapped labels.
     """
-    unmapped_txts = set(df[df[label] == "n/a"][f"raw_{label}"].values.tolist())
+    unmapped_txts = set(df[df[label] == MISSING_TEXT][f"raw_{label}"].values.tolist())
     unmapped_labels = {}
     for txt in unmapped_txts:
         if txt:
@@ -110,13 +116,13 @@ def get_clean_records_for_india() -> pd.DataFrame:
     _save_unmapped_labels(df, "title", True)
     # remove rows not from india
     n_rows_before = df.shape[0]
-    df = df[df["location"] != "n/a"]
+    df = df[df["location"] != MISSING_TEXT]
     n_rows_dropped = n_rows_before - df.shape[0]
     if n_rows_dropped:
         logger.warning(f"{n_rows_dropped} rows dropped(location!=india)")
     # remove rows with missing company or yoe
     n_rows_before = df.shape[0]
-    df = df[(df["company"] != "n/a") & (df["yoe"] != -1) & (df["salary"] != -1)]
+    df = df[(df["company"] != MISSING_TEXT) & (df["salary"] != MISSING_NUMERIC)]
     n_rows_dropped = n_rows_before - df.shape[0]
     if n_rows_dropped:
         logger.warning(f"{n_rows_dropped} rows dropped(incomplete info)")

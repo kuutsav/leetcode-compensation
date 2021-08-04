@@ -3,6 +3,7 @@ import re
 
 from utils.constant import (
     MAPPING_DIR,
+    MISSING_NUMERIC,
     MISSING_TEXT,
     SALARY_SPECIFICATION,
     YOE_SPECIFICATION
@@ -94,16 +95,16 @@ def clean_location(location_text: str) -> str:
     if clean_loc in LOCATION_MAPPING:
         if LOCATION_MAPPING[clean_loc]["in_india"]:
             loc = LOCATION_MAPPING[clean_loc]["location"]
-            if loc == "n/a":
+            if loc == MISSING_TEXT:
                 return "india"
             else:
                 return loc
         else:
-            return "n/a"
+            return MISSING_TEXT
     elif "india" in clean_loc.lower():
         return "india"
     else:
-        return "n/a"
+        return MISSING_TEXT
 
 
 def clean_yoe(yoe_text: str) -> float:
@@ -133,7 +134,7 @@ def clean_yoe(yoe_text: str) -> float:
                 pass
             return years
     if not has_match:
-        return -1
+        return MISSING_NUMERIC
 
 
 def clean_salary(salary_text: str) -> float:
@@ -157,4 +158,4 @@ def clean_salary(salary_text: str) -> float:
                 # per month (internships, etc.)
                 pass
             break
-    return -1
+    return MISSING_NUMERIC

@@ -142,5 +142,6 @@ chromedriver
 venv_lc/
 label_rules.ipynb
 data/model/*
+node_modules
 
 .DS_Store
