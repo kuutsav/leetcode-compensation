@@ -5,7 +5,9 @@ Scraping and analysis of leetcode-compensations page.
 ![Salary](data/imgs/salary_distribution_dark.png)
 
 ## Report
-[INDIA - Jan 2019 - July 2021](data/reports/report.md)
+[INDIA : Jan 2019 - July 2021](data/reports/report_2019_01_05_to_2021_08_04.md)
+
+[INDIA : Jan 2019 - July 2021 / dark mode](data/reports/report_2019_01_05_to_2021_08_04_dark.md)
 
 
 ## Directory structure
@@ -26,7 +28,7 @@ Scraping and analysis of leetcode-compensations page.
 2. Put the `chromedriver` in the utils directory.
 3. Setup virual enviroment `python -m venv leetcode`.
 3. Install necessary packages `pip install -r requirements.txt`.
-4. To create the reports(needed to save altair plots), `npm install vega-lite vega-cli canvas`.
+4. To create the reports `npm install vega-lite vega-cli canvas`(needed to save altair plots).
 
 ## Scraping
 ```python
