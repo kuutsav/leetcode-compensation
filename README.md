@@ -66,15 +66,15 @@ $ ipython
 
 In [1]: from info.all_info import get_clean_records_for_india                                                               
 In [2]: df = get_clean_records_for_india()                                                                                  
-2021-08-03 19:41:37.813 | INFO     | info.all_info:get_raw_records:89 - n records: 4134
-2021-08-03 19:41:37.813 | WARNING  | info.all_info:get_raw_records:91 - missing post_ids: ['1347044', '1193859', '1208031', '1352074', '1308645', '1206533', '1309603', '1308672', '1271172', '214751', '1317751', '1342147', '1308728', '1138584']
-2021-08-03 19:41:37.888 | WARNING  | info.all_info:_save_unmapped_labels:48 - 35 unmapped company saved
-2021-08-03 19:41:37.896 | WARNING  | info.all_info:_save_unmapped_labels:48 - 353 unmapped title saved
-2021-08-03 19:41:37.903 | WARNING  | info.all_info:get_clean_records_for_india:116 - 1779 rows dropped(location!=india)
-2021-08-03 19:41:37.905 | WARNING  | info.all_info:get_clean_records_for_india:122 - 462 rows dropped(incomplete info)
-2021-08-03 19:41:37.906 | WARNING  | info.all_info:get_clean_records_for_india:128 - 6 rows dropped(internships)
+2021-08-04 15:47:11.615 | INFO     | info.all_info:get_raw_records:95 - n records: 4134
+2021-08-04 15:47:11.616 | WARNING  | info.all_info:get_raw_records:97 - missing post_ids: ['1347044', '1193859', '1208031', '1352074', '1308645', '1206533', '1309603', '1308672', '1271172', '214751', '1317751', '1342147', '1308728', '1138584']
+2021-08-04 15:47:11.696 | WARNING  | info.all_info:_save_unmapped_labels:54 - 35 unmapped company saved
+2021-08-04 15:47:11.705 | WARNING  | info.all_info:_save_unmapped_labels:54 - 353 unmapped title saved
+2021-08-04 15:47:11.708 | WARNING  | info.all_info:get_clean_records_for_india:122 - 1779 rows dropped(location!=india)
+2021-08-04 15:47:11.709 | WARNING  | info.all_info:get_clean_records_for_india:128 - 385 rows dropped(incomplete info)
+2021-08-04 15:47:11.710 | WARNING  | info.all_info:get_clean_records_for_india:134 - 7 rows dropped(internships)
 In [3]: df.shape                                                                                                            
-Out[3]: (1887, 14)
+Out[3]: (1963, 14)
 ```
 
 ## Report
