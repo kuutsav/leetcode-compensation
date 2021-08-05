@@ -1,10 +1,10 @@
 from info.all_info import get_clean_records_for_india
-from utils.constant import IMGS_DIR, REPORTS_DIR
+from utils.constant import IMGS_DIR, MISSING_NUMERIC, REPORTS_DIR
 
 
 # data
 df = get_clean_records_for_india()
-df = df.loc[df["salary_total"] != -1, :]
+df = df.loc[df["salary_total"] != MISSING_NUMERIC, :]
 min_date, max_date = df["date"].min().replace("/", "_"), df["date"].max().replace("/", "_")
 
 with open(f"{REPORTS_DIR}/report_{min_date}_to_{max_date}_dark_tc.md", "w") as f:

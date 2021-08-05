@@ -21,7 +21,8 @@ from utils.constant import (
     META_DIR,
     MISSING_NUMERIC,
     MISSING_TEXT,
-    POSTS_META_FNAME
+    POSTS_META_FNAME,
+    POSTS_TO_DROP
 )
 from utils.utils import get_datetime_from_date
 
@@ -79,7 +80,7 @@ def get_raw_records() -> pd.DataFrame:
             formatted_txt = re.sub(r"\s{2,}", " ", txt.lower())
             data.append(
                 (
-                    posts_meta[post_id]["href"], posts_meta[post_id]["title"],
+                    post_id, posts_meta[post_id]["href"], posts_meta[post_id]["title"],
                     get_datetime_from_date(posts_meta[post_id]["date"]), txt,
                     label_rule_for_company(formatted_txt),
                     label_rule_for_others(formatted_txt, "title"),
@@ -91,9 +92,9 @@ def get_raw_records() -> pd.DataFrame:
             )
 
     df = pd.DataFrame(data, dtype="str",
-                      columns=["href", "post_title", "date", "post", "raw_company",
-                               "raw_title", "raw_yoe", "raw_salary", "raw_salary_total",
-                               "raw_location"])
+                      columns=["post_id", "href", "post_title", "date", "post",
+                               "raw_company", "raw_title", "raw_yoe", "raw_salary",
+                               "raw_salary_total", "raw_location"])
 
     logger.info(f"n records: {df.shape[0]}")
     if missing_post_ids:
@@ -138,4 +139,6 @@ def get_clean_records_for_india() -> pd.DataFrame:
         logger.warning(f"{n_rows_dropped} rows dropped(internships)")
     # remove salary_total where salary_ctc < salary
     df.loc[df["salary_total"]<df["salary"], "salary_total"] = MISSING_NUMERIC
+    # manually remove wrong info
+    df = df.loc[~df["post_id"].isin(POSTS_TO_DROP), :]
     return df

@@ -10,6 +10,6 @@ Relocation: 0
 Signing Bonus: 0
 Stock bonus: 0
 Bonus: NA
-Total comp (Salary + Bonus + Stock): 9,35,000+ 1,65,000 (Variable) = INR 11,00,0000
+Total comp (Salary + Bonus + Stock): 9,35,000+ 1,65,000 (Variable) = INR 11,00,000
 Benefits: Infosys usual benefits
 Other details: NA

@@ -9,6 +9,6 @@ Base Salary: 40 L
 Relocation/Signing Bonus: 20 L (year1), 12 L (year2)
 Stock bonus: 18 units, standard Amazon vesting schedule
 Bonus: --
-Total comp (Salary + Bonus + Stock): 60 L for year 1, 52 L for year 2 (excluding stocks)
+Total comp (Salary + Bonus + Stock): 60 L for 1st year, 52 L for 2nd year (excluding stocks)
 Benefits: Standard Amazon benefits
 Opinions welcome on the numbers. IMO the stock units could be more.

@@ -9,6 +9,7 @@ if not os.path.exists(BROWSER_EXEC_PATH):
     logger.error("chromedriver not present in utils path")
     raise FileNotFoundError("chromedriver not present in the utils path")
 
+POSTS_TO_DROP = ["884535"]
 MISSING_TEXT = "n/a"
 MISSING_NUMERIC = -1
 OUT_DATE_FORMAT = "%Y/%m/%d"
@@ -57,9 +58,9 @@ SALARY_SPECIFICATION = [
 ]
 
 TOTAL_SALARY_SPECIFICATION = [
-    (re.compile(r"\d{6,7}"), 1),
-    (re.compile(r"(\d{1,2}\.\d{1,3})(lpa|lacks|l)"), 100000),
-    (re.compile(r"(\d{1,2})(lpa|lacks|l)"), 100000)
+    (re.compile(r"\d{6,8}"), 1),
+    (re.compile(r"(\d{1,3}\.\d{1,3})(lpa|lacks|l)"), 100000),
+    (re.compile(r"(\d{1,3})(lpa|lacks|l)"), 100000)
 ]
 
 MIN_SALARY = 250_000
