@@ -42,6 +42,7 @@ with open(f"{REPORTS_DIR}/report_{min_date}_to_{max_date}.md", "w") as f:
         r = r[1]
         f.write(f'\n\ntitle : {r["post_title"]}<br>')
         f.write(f'url : {r["href"]}<br>')
+        f.write(f'date : `{r["date"]}`<br>')
         f.write(f'company : `{r["company"]}`<br>')
         f.write(f'title : `{r["title"]}`<br>')
         f.write(f'yoe : `{r["yoe"]}` years<br>')
