@@ -19,11 +19,11 @@ Scraping and analysis of leetcode-compensations page.
     - `imgs` - images for reports
     - `logs` - scraping logs
     - `mappings` - standardized company, location and title mappings as well as unmapped entities
-    - `meta` - meta information for the posts like post_id, date, title, href.
+    - `meta` - meta information for the posts like post_id, date, title, href
     - `out` - data from `info.all_info.get_clean_records_for_india()`
     - `posts` - text from the post
     - `reports` - salary analysis by companies, titles and experience
-- `info` - functions to posts data(along with the standardized entities) in a tabular format
+- `info` - functions to parse data from posts(along with the standardized entities) in a tabular format
 - `leetcode` - scraper
 - `utils` - constants and helper methods
 
