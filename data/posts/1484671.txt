@@ -1,0 +1,12 @@
+The selection process was a little lengthy with 2 levels of coding tests and that was followed by 2 Interviews (1 HR and 1 Technical)
+Both the tests had 10 questions each and 2.5 hours to solve, where the first one was quite easy with 6 basic questions and 3 medium level and 1 hard. Anyone who cleared 6 questions was selected.
+Total 45 students passed this test.
+The round as a little tough with 3 easy, 4 medium and 3 hard questions
+Anyone who solved 8 questions passed this one.
+Only 4 students were selected for the next round.
+Then there were 2 interviews. The HR was 15 minutes where the typical HR questions like strengths,goals,etc. were asked.
+The technical one was a lenghty one. Questions on DSA were asked and there were 2 coding questions:
+One was converting a BST to doubly Linked-List
+A Map question (easy)
+Finally 2 students were selected for the Intern and I was one of them.
+I would prefer students to preppare from Leetcode as many questions were from here only.

@@ -1,0 +1,19 @@
+Education: B.Tech ECE Tier - 1
+Years of Experience: 0
+Prior Experience: Dunzo Backend Intern
+Date of the Offer: July 2021
+Company: Dunzo
+Title/Level: SDE-1
+Location: Bangalore
+Salary: 15.5
+Relocation: 0
+Signing Bonus: 1
+Stock bonus: 1
+Target Bonus: 1
+Total comp (Salary + Bonus + Stock): 18
+Benefits: Internet , Medical Insurance
+Other details: Offer Rejected
+Other Offers:
+Amazon: https://leetcode.com/discuss/compensation/1402442/Amazon-or-SDE-1-or-Hyderabad
+Nurture: https://leetcode.com/discuss/compensation/1402456/Nurture.farm-or-SDE-1-or-Bangalore
+Nagarro: https://leetcode.com/discuss/compensation/1402446/Nagarro-or-Trainee-or-Gurugram

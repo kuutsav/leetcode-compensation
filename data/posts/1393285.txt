@@ -1,0 +1,17 @@
+Education: BS Computer Science at midsize university
+Years of Experience: 2
+Prior Experience: eCommerce Developer for Retail/Grocery Company
+Date of the Offer: August 2021
+Company: Amazon
+Title/Level: SDE 1
+Location: Seattle, WA
+Salary: $140k USD
+Relocation bonus: $7k USD plus reimbursement on hotel/gas during move
+Signing payment: $103k USD -> $62k USD (year one), $41k USD (year two)
+Stock bonus: 35 RSU (~$120k USD) vested over four years
+Total comp (Salary + Bonus + Stock): ~$205k in year one
+Benefits: https://www.amazon.jobs/en/landing_pages/benefitsoverview-us
+Other details: Negotiated once for about ~20k more
+Overall: The money is insane from what I was coming from. The benefits are ok and 401k match is ok. This makes sense as they shove a bunch of money at you anyways. Advice: ALWAYS NEGOTIATE
+Prep Advice:
+https://leetcode.com/discuss/interview-experience/1393385/Amazon-or-SDE-1-or-Seattle-or-August-2021-Offer

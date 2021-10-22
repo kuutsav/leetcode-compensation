@@ -1,0 +1,18 @@
+Education Tier 2 College
+Years of Experience 7.5
+Prior Experience Product Based MNC
+Company ServiceNow
+Title/Level Sr. Software Engineer (IC3)
+Location Hyderabad
+Fixed Salary Rs 27,53,000
+Signing Bonus Rs. 3,00,000 (1st year)
+Provident Fund Rs. 1,32,000
+Gratuity Rs. 53,000
+Target Bonus / Variables Rs. 2,75,300 [10% of fixed]
+Relocation Bonus Rs. 40,000
+Stocks/RSUs USD 55,700 (vested over 4 years) [ Rs. 10.3L yearly ]
+Total Comp (Fixed + Signing Bonus + Variables + RSUs) ~ 43.59 L in 1st year
+Current Comp (Fixed + Bonus + RSUs) ~30 L
+Competing Offers:
+Atlassian - P4
+Paypal - SDE3

@@ -1,0 +1,37 @@
+Company Intuit
+Years of Experience 4 years
+Prior Experience Service based company, FAANG
+Education B.E
+Title/Level Software Engineer-2
+Fixed Salary 26.5 Lac
+Signon Bonus 3 + 2 lac ( 1st and 13th month)
+Gratuity 10 %
+Relocation Bonus complete relocation taken care including 14 days stay
+Target Bonus / Variable 10% (2.65 lac)
+Stock bonus/RSU 46,000 $ (vested over 4 years 20% first year)
+Total Comp
+(Salary + Bonus + Stock) 40 LPA
+Current Comp
+(Salary + Bonus + Stock): 17 LPA (SDE- 1)
+Other Benefits :
+medical insurance.
+free food.
+fitness reimbursed.
+Other lot of standard benefits.
+Initial numbers provided by the HR was low, provided the details of the competing offer https://leetcode.com/discuss/compensation/1461067/zynga-games-sse-sde-ii-bangalore , still they couldn't match the base pay, but Accepted the offer, since intuit is a great place to work in terms of culture and other factors.
+other offer : https://leetcode.com/discuss/compensation/1461212/Walmart-or-SDE-2-or-IN3-or-Bangalore-or-Declined
+PS: Please upvote this post if you find it useful :)
+update :
+Interview Experience :
+Round 1 : (phone screen)
+This round focused more on the DS the interviwer started with a Medium LC problem I was able to code up in 10 min post that the interviwer asked this same question https://leetcode.com/discuss/interview-question/1392946/Intuit-or-SDE-2-or-Onsite First I couldn't come with the approch after few hints I was able to get the logic and code the same. At the end the interviewer asked few questions on system design , java concepts , multi threading etc.
+couple of days , I got to know I cleared the phone screen and they invited me for on-site and it happened in a single day.
+Onsite Round
+Round 2 : (craft assignment)
+We will share the Craft/Question with you a day in advance. We expect you to prepare solution and put it on any tech platform/PPT/log that you are comfortable with. (We are interested in your approach to the problem. It is alright if you don’t have a beautiful PPT. Pics of design done using pen and paper, description in a word doc are acceptable)
+So a LLD question was sent to me one day before, The question was very open-ended asked a lot of clarifying questions to the HR, and she reverted the answers from the team. Presented the assignment to the panel of interviwers, Presented my LLD design with the assumptions being made , the code should be production level, should follow SOLID principles, include logging as necessary, the code should have unit test cases as well.
+we had a one hour long discussion, on the take away assignment , what design patterns being used and the logic of using behind it, and some questions on the design patterns I know and at the end the team was interested in the projects that I been working on in my current company so presented the same to them post this.
+Round 3 : (DB design + DSA question)
+The interviewer had asked me to design a cricket game score board DB design. post that the team asked a DP problem https://leetcode.com/problems/interleaving-string/ first came up with a recursive approch and memoized it with the array.
+Round 4 : (Manager / Culture fit round)
+This was a normal Behavioural round , we had long discussion on my past projects, some scenario based questions.

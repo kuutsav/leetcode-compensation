@@ -1,0 +1,15 @@
+Education: B.Tech CSE Tier 3
+Years of Experience: 3.4
+Prior Experience:Application Developer @ ThoughtWorks
+Date of the Offer: August 2021
+Company: VMware
+Title/Level: MTS-2
+Location: Bangalore
+Salary: 25 LPA INR
+Relocation: 2 Lacs INR
+Signing Bonus: 5 Lacs INR
+Stock bonus: 14.8 Lacs woth of stocks
+Bonus: 3 LPA INR (minimum fixed)
+Total comp (Salary + Bonus + Stock): 25 lacs + 3 lacs + 3.7 lacs = 31.7 LPA INR
+Benefits: Standard benefits like PF, insurance, WFH reimburments etc.
+Other details: Will most probably be joining VMWare over Amazon's SDE1 offer posted here (https://leetcode.com/discuss/compensation/1390723/Amazon-or-SDE-1-or-Bangalore)

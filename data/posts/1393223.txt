@@ -1,0 +1,17 @@
+Education: Bachelor's in CS from a tier-1 university in India
+Years of Experience: 3
+Prior Experience: Associate at a Fintech company
+Prior Total Comp: 20.5L(16.5L base+4L bonus)
+Company: Dunzo
+Title/Level: Backend developer 2
+Location: Bangalore
+Date of Offer: July 2021
+Salary: INR 30,00,000
+Signing Bonus: INR 2,00,000
+Performance Bonus: INR 3,00,000
+Stock bonus: approx INR 4,50,000 over 4 years (25 % each year)
+Relocation Bonus : upto INR 75,000
+Total comp (Salary + Bonus + Stock): INR 36,12,500 first year
+Other details: Accepted the offer for now and attending other interviews as well
+Thoughts? Is the comp just par as I have seen other startups giving much more base to people of my experience.
+Interview Experience : https://leetcode.com/discuss/interview-experience/1393307/Dunzo-or-SE-2-or-Backend-or-Banglore

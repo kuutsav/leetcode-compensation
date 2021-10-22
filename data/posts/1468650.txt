@@ -1,0 +1,21 @@
+Hello Fellow Leetcoders,
+Recently got offer from GoldmanSachs for Associate role(Java Dev)
+Compensation Details:
+Education: NIT Computer Science
+Years of Experience: 4+ years
+Prior Experience: Java Dev, financial data firm
+Date of the Offer: July 2021
+Company: Goldman Sachs
+Title/Level: Associate
+Location: Hyderabad
+Salary: 25,00,000 ₹
+Relocation/Signing Bonus: 0
+Stock bonus: 0
+Bonus: 4,00,000 ₹
+Total comp (Salary + Bonus + Stock): 29,00,000 ₹
+Benefits: SickLeaves are given on demand.
+Other details: Good pay. Given two days time to accept the offer and background checks might take time.
+Previous TC: 11.3 LPA
+Competing offers: https://leetcode.com/discuss/compensation/1456696/arcesiumssehyderabad/1079979
+PS: Will post my interview experience soon.
+Thanks

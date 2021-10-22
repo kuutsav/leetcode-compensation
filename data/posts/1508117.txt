@@ -1,0 +1,16 @@
+Education: B.Tech from Tier-2
+Years of Experience: 4.5 years
+Prior Experience: Oracle
+Current Salary : 11 LPA
+Date of the Offer: SEP, 2021
+Company: Visa
+Title/Level: Senior Software Engineer
+Location: Bangalore
+Salary: 2400000 INR
+Stock bonus: null
+Variable Bonus: 264000 INR
+Total comp (Salary + Bonus + Stock): 2664000 INR / year
+Having offer from LensKart- 2200000 (1 LPA for 3 yr as bonus).
+Could you help me to understand .
+The offer from visa is lesser than the VISA salary standards.Should I go for negotiation or not?
+INTERVIEW Experience: https://leetcode.com/discuss/interview-experience/1510140/Visa-SSE-(4%2B-YR)-BLR

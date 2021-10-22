@@ -1,0 +1,13 @@
+Education: Btech CE
+Years of Experience: 7.2
+Prev comp: 38L
+Company: Cisco
+Title/Level: Software Dev
+Location: Bangalore
+Salary: 36L
+Relocation: 0
+Signing Bonus: 3L
+Stock bonus: $45k stock grant vested over 4 years
+Bonus: 5L
+Total comp (Salary + Bonus + Stock): ~50L
+Benefits: Normal cisco benefits

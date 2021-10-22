@@ -1,0 +1,5 @@
+Package : 7.2 LPA
+Location : Bangalore
+Experience : 0
+Difficulty : Moderate
+3 Interviews (2 Technical and 1 HR)

@@ -1,0 +1,16 @@
+Education: B Tech in Computer Science (Tier 3 college)
+Years of Experience: 4
+Prior Experience: Flipkart (SDE II)
+Previous TC : 27 LPA
+Date of the Offer: July 2021
+Company: Uber
+Title/Level: L4 / SDE II
+Location: Bangalore, India
+Salary: 3500000 INR Base (35 LPA)
+Stock bonus: $60K stock grant vested over 4 years
+Bonus: 580000 INR (Can go upto 0-1.5x )
+Total comp (Salary + Bonus + Stock): ~5100000 INR per year
+Benefits: ~49 $ monthly Uber ride credit. ~50$ monthly wellness reimbursement (include any fitness program or equipment reimbursement)
+Other details: No Negotiation done.
+Interview experience:
+https://leetcode.com/discuss/interview-experience/1453593/Uber-or-L4-or-SDE-II-or-Bangalore

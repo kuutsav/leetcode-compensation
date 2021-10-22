@@ -1,0 +1,33 @@
+Education: Tier 2 college (ECE)
+Years of Experience: 2
+Prior Experience: Service based company
+Prev CTC: 7.6 LPA
+Date of the Offer: 30 July 2021
+Company: Redbus
+Title/Level: Backend Developer
+Location: Bangalore
+Salary: 12.5L(11.25 fixed and 1.25 variable)
+Relocation/Signing Bonus: -
+Stock bonus: -
+Bonus: - 50k
+Total comp (Salary + Bonus + Stock): 13L
+Date of the Offer: 02 Aug 2021
+Company: Siemens Healthineers
+Title/Level: Full Stack Developer(.Net Core and angular)
+Location: Bangalore
+Salary: 13L
+Relocation/Signing Bonus: -
+Stock bonus: -
+Bonus: - 1 L
+Total comp (Salary + Bonus + Stock): 14L
+Date of the Offer: 25 July 2021
+Company: Ciber
+Title/Level: Full Stack Developer(.Net Core and angular)
+Location: Bangalore
+Salary: 13.5LPA(including 27k variable)
+Relocation/Signing Bonus: -
+Stock bonus: -
+Bonus: -
+Total comp (Salary + Bonus + Stock): 13.5L
+Ive liked projects in Redbus and Siemens.
+Thinkin to join Siemens. Any suggestions are welcome.

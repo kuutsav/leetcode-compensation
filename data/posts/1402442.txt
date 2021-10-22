@@ -1,0 +1,18 @@
+Education: B.Tech ECE Tier - 1
+Years of Experience: 0
+Prior Experience: Dunzo Backend Intern 
+Date of the Offer: July 2021
+Company: Amazon
+Title/Level: SDE-1
+Location: Hyderabad
+Salary: 14.5
+Relocation:  1.5
+Signing Bonus: 3.6(First Year) + 2.4 (Second Year)
+Stock bonus: 12 Lakhs ( 5% + 15% + 40% + 40%)
+Total comp (Salary + Bonus + Stock): 19.5
+Benefits: 15K Work From Home Setup, Medical Insurance, 1400 Meal Card
+Other details: Offer Accepted
+Other Offers:
+Dunzo: https://leetcode.com/discuss/compensation/1402450/Dunzo-or-SDE-1-or-Bangalore
+Nurture.farm: https://leetcode.com/discuss/compensation/1402456/Nurture.farm-or-SDE-1-or-Bangalore
+Nagarro: https://leetcode.com/discuss/compensation/1402446/Nagarro-or-Trainee-or-Gurugram

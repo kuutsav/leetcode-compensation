@@ -1,0 +1,14 @@
+YOE: 4.5
+College: Tier 2
+Prev Compensation: 18 Lakhs Base + 1 lakh Variable + 2.5 Lakhs Share (to be vested in 3 years)
+This company is a pre-ipo unicorn.
+New Compensation:
+Base: 27 Lakhs
+Joining Bonus: 1.5 Lakhs
+Shares: 5000 units to be vested in 4 years. This is pre-ipo. In grey market current price is $20
+Retention Bonus: 1.5 Lakhs at first year, 3 Lakhs in second year.
+Overall 1 year compensation: 27 + 1.5 + 1.5 = 30 lakhs.
+1 year share price = 1250 * 20 * 70 INR = 17.5 Lakhs
+= 47.5 Lakhs.
+My question is, are pre-ipo shares worth it? If I want to leave after an year I will have to buy the share at $10 strike rate which would mean my total benefit would be 7~8 lakhs every year which makes my total comp around 35 lakhs an year. Also there is no guarantee when the IPO would be.
+Is this a decent offer?

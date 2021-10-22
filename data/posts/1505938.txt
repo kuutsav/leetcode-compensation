@@ -1,0 +1,21 @@
+Education: BTech in Computer Science and Engineering
+Years of Experience: 10 months
+Prior Experience: Engineer at Samsung Research & Devlopment Institute
+Date of the Offer: 13th August, 2021
+Company: Arcesium
+Title/Level: Software Engineer
+Location: Hyderabad
+Salary: 16 Lpa
+Relocation/Signing Bonus: 2L
+Stock bonus: NIL
+Bonus: 1.5L - 2.5L
+Total comp (Salary + Bonus + Stock): 17.5L - 18.5L
+Benefits: LTI Plan - 10L over first 4 years i.e. 2.5L on completion of each year, medical and other employee benefits
+Other details: NA
+Preparation: I was already in touch with coding, so just went through the interview archives and prepared accordingly.
+Rounds:
+Online Assesment - 3 coding questions (medium level)
+Technical I - 2 coding questions (1 medium, 1 hard)
+Technical II - 1 coding question (hard) related to Dijkstra in a 2D array, questions on OS, Java and SQL.
+Hiring Manager - Behavorial questions
+The entire process took around 2 weeks from online assesment to offer letter.

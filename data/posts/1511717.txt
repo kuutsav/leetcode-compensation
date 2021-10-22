@@ -1,0 +1,16 @@
+Hey guys, I've just received an offer from Amazon Luxembourg:
+YoE: 5
+Title/Level: Data Engineer. Level: Not specified
+Location: Luxembourg
+Salary: 77K EUR
+Relocation/Sign-on Bonus: Relocation 7.5K USD + Sign-on bonus 13K EUR first year + 11K EUR second year
+Stock bonus: 15 RSU (5% | 15% | 20% * 4 )
+Bonus: Not specified
+Benefits: standard Amazon Lux benefits (medical, lunch vouchers, etc.)
+Other details: Hoping to negotiate for better TC
+Hope to get you guys' opinions on the below
+Overall, how is it for a job in Lux? What level do you think this is? Any chance for negotiation?
+If I can't manage to nego the offer, net pay will end up around 4.2-4.5K/month (I realise the income tax is super heavy). Will this be a decent pay for a single person? Rent is around 1.5K+ and what about other living expenses?
+How is it like to live in Lux? Is it happening and vibrant? Or quiet and stable?
+How is data engineering like in Amazon? Judging from the interviews, the role is quite heavy on SQL and a bit on Python but not much on anything else. A bit limited imo. My background is more about building data platforms on open-source distributed systems. Any chance to expand the scope?
+What is the common yearly hike for this role? I'm hoping it's gonna be at least 3%

@@ -1,0 +1,13 @@
+Interview Experience at Navi
+Technical Round 1 | 1 hour | Easy -
+1 problem on Array.
+1 problem on Binary Tree.
+Android Fundamentals, Kotlin Fundamentals, Highlevel Concepts on ViewModel, Coroutines
+Technical Round 2 | 1 hour | Easy -
+2 easy problems on array.
+1 Design Question.
+Android Fundamentals, Deep diving concepts on threads, coroutines, view model
+Technical Round 3 | 1 hour | Medium -
+1 Design question throughout the interview
+Managerial Round 4 | 1 hour | Easy -
+Focus was on past projects, challenges faced, solutions implemented, personal values.

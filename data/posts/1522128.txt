@@ -1,0 +1,9 @@
+Education: B.Tech in Information Technology
+Years of Expereience: 7
+Company: Facebook
+Title/Level: Software Engineer
+Location: London
+Salary: 84,000 pounds
+Relocation: 16,000 pounds
+Stock bonus: $150K stock grant vested over 4 years
+This is my last post on leetcode and I would like to say thanks to Wallmart, Ajio, Morgan Stanley & few others for rejecting me :P

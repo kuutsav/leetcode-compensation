@@ -1,0 +1,15 @@
+Hi Guys,
+I'm Currently working with Gojek @ L3 as a Mobile Dev.
+CCTC: 26L base + 2.6L benefits/Insurance/term etc.
+Exp: 4.5+yrs
+I've got offers from :
+HotStar [ 32L base + 3L JB + 3L year completion + 11k Disney stocks vested 3yrs ]
+Zeta [ 40L base + 8L JB + 8L year completion + 20L esops ] = 56L --> SDE-2 (location: BLR)
+Swiggy [ couldnt match zeta's]
+ShareChat [ 50L base + 5L variable + 3L JB + 48L esops] = 58L --> Tech Lead (location: remote)
+Which offer to consider I'm super confused between Zeta & ShareChat.
+Update v1.1: Mostly this is the pattern for the interviews.
+R1 -> PSDS [ easy - medium ]
+R2 -> Platform->Mobile [iOS / Android ]
+R3 -> Mobile Architectural Design
+R4 -> Bar-raiser -> tech/non-tech behavioural

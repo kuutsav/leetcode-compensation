@@ -1,0 +1,30 @@
+Education: B.Tech(CSE) from Tier 3 Instititution
+Prior Experience: 2 years (~1.7 year at Byju's and ~5 months at Grab as Backend Engineer)
+Company: Amazon India
+Position: Software Development Engineer 2
+Location: Gurgaon
+Mode: Recruiter approached to me
+CTC
+Base: INR 30,00,000
+Bonus: INR 25,00,000 (16,00,000 in Year 1, 9,00,000 in Year 2) - monthly payment
+RSU: ~ INR 38Lakhs (vested over 4 years, 5%, 15% over the first 2 years and 20% thereafter each 6 months)
+Relocation: INR 1,50,000
+Total Compensation: (Salary+Bonus+Relocation) ~ INR 47,50,000 (for 1st year)
+Other Offers Received
+Below offers received after getting Amazon SDE 2 offer by negotiating hard.
+1. Anar.Biz
+Base: INR 40,00,000
+Bonus: None
+RSU: ~ INR 8 Lakhs (vested over 4 years. 15%, 20%, 25%, 40% over the years)
+Relocation: None
+Total Compensation: (Salary+Bonus) ~ INR 40,00,000
+2. ShareChat
+Base: INR 38,00,000
+Variable: INR 3.8 Lakhs
+Bonus: 4 Lakhs (Claw off Period: 1 Year)
+RSU: ~ INR 34 Lakhs (vested over 4 years, equally)
+Relocation: None
+Total Compensation: (Salary+Bonus) ~ INR 45,80,000 (for first year)
+Interviewed But Not Selected:: Google (Couldn't provide optimal solution in one of the 3 DSA rounds), Tekion Corp (Rejected after Managerial Round)
+Other Interview Calls Received: Atlassian (Late call after joining at Amazon), Tessian (Stopped interview process without prior notice just an hour before the scheduled interview), and many other startup firms (through Cutshot, Instahyre and Linkedin)
+P.S: Joined at Amazon considering different factors which I cannot reveal.

@@ -1,0 +1,19 @@
+Education: B. Tech in Computer Science
+Years of Experience: 1 month remote internship
+Date of the Offer: Oct, 2021
+Company: Wipro Turbo
+Title/Level: Project Engineer
+Location: India
+Basic INR 18,340
+HRA : INR 9,170
+Bonus: INR 3,500
+Wipro Benefits Plan (WBP): INR 8,757
+Total Fixed Cash: INR 39,767 (Basic + HRA + Bonus + Wipro Benefits)
+PF (Employer Contribution): INR 2,201
+Gratuity (5.31% of Basic): INR 974
+Total Fixed Compensation: INR 42,942 (Total fixed cash + PF + Gratuity)
+Health benefit (Medical): INR 600
+Target Variable Pay: INR 2,292
+Target Cost to Company per month: INR 45,834 (Total fixed compensation + health benefit + target variable pay)
+Total Cost to Company per annum : INR 5,50,008
+Interview Experience : https://leetcode.com/discuss/interview-experience/1503400/Wipro-or-Product-Engineer-or-Sept-2021-Offer

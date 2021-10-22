@@ -1,0 +1,20 @@
+Education: BTech in CSE from old IIT
+Years of Experience: 1.5 - 2
+Prior Experience: HFT firm
+Date of the Offer: 2021
+Company: Zomato
+Title/Level: SDE 2
+Location: Gurgaon, India
+Prev Salary: INR 45 lakhs
+Base Salary: INR 40 lakhs
+Relocation: NA
+Signing Bonus: INR 10 lakhs in 1st year, INR 10 lakhs in 2nd year
+Stock bonus: 35 lakhs stock grant vested over 4 years (vesting schedule: 5:15:30:50)
+Bonus: NA
+Total comp (Salary + Bonus + Stock): ~ INR 51.75 lakhs for first year (40 base + 10 jb + 1.75 stocks). (Note: Stocks at the valuation in March pre-ipo). Post IPO salary would have been b/w 55 - 60 for 1st year.
+Benefits: Standard Zomato benefits
+Other details: Declined offer.
+Linkedin Offer: https://leetcode.com/discuss/compensation/1385522/Linkedin-or-SWE-or-Bengaluru
+Google Offer: https://leetcode.com/discuss/compensation/1385508/Google-or-L3-or-Bengaluru
+Amazon Offer: https://leetcode.com/discuss/compensation/1385537/Amazon-or-SDE-2-or-Bengaluru
+Uber Offer: https://leetcode.com/discuss/compensation/1385584/Uber-or-SDE-2-or-Bengaluru

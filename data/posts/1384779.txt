@@ -1,0 +1,23 @@
+Education: Tier 1 in India
+Years of Experience: 3
+Prior Experience: MNC in Bangalore
+Date of offer: August 2021
+Company: Uber
+Title: SDE-2
+Location: Bangalore
+Salary: INR 35L (fixed)
+Target Bonus: INR 5.8L
+Stock Bonus: USD 50k vested over 4 years
+Total comp (Salary + Bonus + Stock): ~ INR 50 lpa
+Benefits: Standard Uber Benefits
+Previous Total Compensation: INR 22 lpa
+Other Details: Didn't negotiate
+Edit
+Brief Interview Experience -
+Online test - 2 LC Medium-Hard (Did both 100 %)
+Coding round - 1 LC Easy , 1 LC Hard (Did both 100 %)
+Machine Coding Round - Hard question; included concurrency ; hard variation of pub-sub (Did 90% ; couldn't finish time constraint ; but the interviewer was happy with my OOPs concept and algorithmic solution)
+System Design - Medium round ; Generic problem (Did well I think )
+Hiring Manager - Medium - Project deep dive, some system design concepts and behavioural. (Did well)
+Bar Raiser - Medium - Another project deep dive and behavioural. (Did well)
+LC questions solved - 350+ (E - 50+ , M - 200+ , H - 60+)

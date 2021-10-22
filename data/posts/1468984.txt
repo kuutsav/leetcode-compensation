@@ -1,0 +1,14 @@
+Education: B. Tech CSE (3rd Year)
+Years of Experience: 0 years
+Prior Experience: Couple of Internships
+Date of the Offer: September 2021
+Company: Motorq
+Title/Level: SDE/SDET Intern
+Location: Chennai, India
+Salary: 1.6L Stipend per month
+Total comp (Salary + Bonus + Stock): 1.6L Stipend per month
+Interview Process: Interview process consisted of
+1 coding round (easy-med) through which candidates were shortlisted.
+Then there were 2 face to face technical rounds, a DSA (2 easy-med LC questions) round and then an Interactive Problem Solving (System Design) round (basics were expected about system design and patterns).
+The qualified candidates were then called for the final cultural fit round with the CTO.
+Other Details: For SDE/SDET full time role CTC is 1.07 Cr with 27L Base Pay + 80L Stock Options and for Application Engineer Internship is 1.2L/mo with a potential PPO offer with a CTC of 68L which is 18L Base Pay + 50L Stock Options.

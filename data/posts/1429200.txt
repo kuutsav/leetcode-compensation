@@ -1,0 +1,15 @@
+Which one would you choose?
+BlackRock Title: Associate, Software Engineer
+Base Salary: £85,000
+Bonus: first year £0, second year+: £13,337*
+TC: first year: £85,000, second year+: £98337*
+.....
+Bloomberg Title: Software Engineer
+Base Salary: £72,000
+Bonus: £4,000
+Relocation Bonus: £7,000
+TC: first year: £83,000 , second year+: £76,000
+.....
+YOE: 2 years
+*BlackRock Bonus calculated from Glassdoor's average BlackRock bonus for Associate here:
+https://www.glassdoor.co.uk/Bonuses/BlackRock-Bonuses-E9331.htm

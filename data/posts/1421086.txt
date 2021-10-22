@@ -1,0 +1,25 @@
+Education: Tier 2 college (CSE)
+Years of Experience: 2.2
+Prior Experience: Product based company
+For fresh grad, any related Internship/coop experience?
+For experienced engineer, what's your current and past experience?
+Company: Paytm
+Title/Level: SDE1
+Location: Bangalore
+Salary: 20L
+Relocation/Signing Bonus: -
+Stock bonus: -
+Bonus: -
+Total comp (Salary + Bonus + Stock): 20L
+Company: Flipkart
+Title/Level: SDE1
+Location: Bangalore
+Salary: 20L
+Relocation/Signing Bonus: -
+Stock bonus: - 6L
+Bonus: - 2L
+Total comp (Salary + Bonus + Stock): 28L
+Company: Amazon
+Title/Level: SDE1
+Received a verbal call that I'm selected (yet to receive compensation details)
+Please help me decide which one to choose. I am majorly confused between Flipkart and Amazon

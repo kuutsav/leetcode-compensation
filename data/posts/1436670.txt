@@ -1,0 +1,15 @@
+Education: BTech in Computer Science from Private College
+Years of Experience: 2 years
+Prior Experience: Software Engineer at a well funded StartUp
+Date of the Offer: Aug 2021
+Company: Oracle Cloud Infra (OCI)
+Title/Level: IC2
+Location: Bangalore, India.
+Salary: Rs: 27 LPA Base (including EPF, Gratuity)
+Relocation: None
+Signing Bonus: 8 Lakhs * (4) 1st month + (4 ) 18th month*
+Stock bonus: 600RSU vested over 4 years (~ 10 Lakh/ year) {as per the current stock price}.
+Total comp (Salary + Bonus + Stock): ~Rs: 41LPA [for first year]
+Previous CTC: 24LPA.
+Benefits: Standard Oracle benefits.
+interview experience -> https://leetcode.com/discuss/interview-experience/1436649/OCI-(Oracle-Cloud-Infrastructure-)-or-IC-2-SDE-or-Bangalore-or-Selected

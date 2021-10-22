@@ -1,0 +1,28 @@
+Education B.Tech (CSE - 2021 Graduate) - Tier 3
+Years of Experience 5 months
+Prior Experience Associate Software Engineer at ServiceNow
+Date of the Offer Oct 2021
+Company Swiggy
+Title SDE - 1 (Backend)
+Location Bangalore, India
+Base 22L
+Signing Bonus 2L
+Stock bonus - ESOPS 7L vested equally over 4 years
+Bonus No Annual Bonus
+Total comp (Salary + Bonus + Stock)
+25.75 L (for the 1st year)
+Benefits Standard Swiggy Benefits
+Current Compensation 18L (Base 11L)
+Interview Highlights:
+Total 4 Rounds
+Online Coding Assessment (hard) -> Problems
+Low-level Design Round -> Task
+This lasted for 2.5 hours. Had to design an application similar to Splitwise
+DSA based technical Round
+Hiring Manager round: Discussed about current company project
+Offer Status: Rejected this offer due to other competing ones
+Other Competing offers:
+Amazon offer Details
+PhonePe Offer Details
+Sharechat offer Details
+**Please upvote if you want me to write a detailed company interview experience

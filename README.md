@@ -5,27 +5,27 @@ Scraping and analysis of leetcode-compensations page.
 ![Salary](data/imgs/salary_distribution_dark.png)
 
 ## Report
-[INDIA : 5th Jan 2019 - 5th Aug 2021 / fixed salary](data/reports/report_2019_01_05_to_2021_08_05.md)
+[INDIA : 5th Jan 2019 - 23rd Oct 2021 / fixed salary](data/reports/report_2019_01_05_to_2021_10_23.md)
 
-[INDIA : 5th Jan 2019 - 5th Aug 2021 / fixed salary, dark mode](data/reports/report_2019_01_05_to_2021_08_05_dark.md)
+[INDIA : 5th Jan 2019 - 23rd Oct 2021 / fixed salary, dark mode](data/reports/report_2019_01_05_to_2021_10_23_dark.md)
 
-[INDIA : 5th Jan 2019 - 5th Aug 2021 / total salary](data/reports/report_2019_01_05_to_2021_08_05_tc.md)
+[INDIA : 5th Jan 2019 - 23rd Oct 2021 / total salary](data/reports/report_2019_01_05_to_2021_10_23_tc.md)
 
-[INDIA : 5th Jan 2019 - 5th Aug 2021 / total salary, dark mode](data/reports/report_2019_01_05_to_2021_08_05_dark_tc.md)
+[INDIA : 5th Jan 2019 - 23rd Oct 2021 / total salary, dark mode](data/reports/report_2019_01_05_to_2021_10_23_dark_tc.md)
 
 
 ## Directory structure
-- `data`
-    - `imgs` - images for reports
-    - `logs` - scraping logs
-    - `mappings` - standardized company, location and title mappings as well as unmapped entities
-    - `meta` - meta information for the posts like post_id, date, title, href
-    - `out` - data from `info.all_info.get_clean_records_for_india()`
-    - `posts` - text from the post
-    - `reports` - salary analysis by companies, titles and experience
-- `info` - functions to parse data from posts(along with the standardized entities) in a tabular format
-- `leetcode` - scraper
-- `utils` - constants and helper methods
+- data
+    - imgs - images for reports
+    - logs - scraping logs
+    - mappings - standardized company, location and title mappings as well as unmapped entities
+    - meta - meta information for the posts like post_id, date, title, href
+    - out - data from `info.all_info.get_clean_records_for_india()`
+    - posts - text from the post
+    - reports - salary analysis by companies, titles and experience
+- info - functions to parse data from posts(along with the standardized entities) in a tabular format
+- leetcode - scraper
+- utils - constants and helper methods
 
 ## Setup
 1. Clone the repo.
@@ -34,7 +34,7 @@ Scraping and analysis of leetcode-compensations page.
 3. Install necessary packages `pip install -r requirements.txt`.
 4. To create the reports `npm install vega-lite vega-cli canvas`(needed to save altair plots).
 
-## Scraping
+## Scraping (sample runs)
 ```python
 $ export PTYHONPATH=<project_directory>
 $ python leetcode/posts_meta.py --till_date 2021/08/03

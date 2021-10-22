@@ -1,0 +1,18 @@
+Education: B Tech - Tier 3
+Years of Experience: 4.5 YOE
+Current CTC: 10.5 fixed + 1.5 Bonus
+Company: Ola
+Title/Level: SDE2
+Location: Banglore
+Salary: 30,00,000
+Signing Bonus: 1,00,000
+Variable Bonus: 3,00,000
+Total comp (Salary + Bonus + Stock): 34,00,000
+Interview Experience -
+Rejected : Already had a better offer which they couldnt match but still I would have joined but had a very bad experience with my recruiters manager regarding compensation.
+Other Offers In order :
+Morgan Stanley - Other Offer : https://leetcode.com/discuss/compensation/1332719/morgan-stanley-manager-sde2/1009782
+Soroco - https://leetcode.com/discuss/compensation/1426196/Soroco-or-SDE2
+Azuga - https://leetcode.com/discuss/compensation/1426203/Azuga-or-SDE2
+Snapdeal - Verbal Offer of 25,00,000. Not willing to pay more than that.
+Zscaler - https://leetcode.com/discuss/compensation/1426211/Zscaler-or-SDE2

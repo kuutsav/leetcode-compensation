@@ -1,0 +1,10 @@
+College : tier 3
+YOE: 3
+Current Company: Deloitte
+Current CTC: 9LPA(fixed)
+Offer From: Jp Morgan
+Ctc Base : 21LPA
+Bonus: As per performance
+Technology: Java FullStack Development
+Joining Bonus: None
+Negotiated as I am having offer of 20lpa from other company. Previously 15lpa.

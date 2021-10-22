@@ -1,0 +1,9 @@
+YOE - 6 years
+current company - product based
+Current compenstation
+20 L fixed + 3 L variable + 2 L RSUs
+Innovaccer SDE-3
+39 L including PF + no variable + no stocks
+interview process is very very easy. They focused more on current work, projects in every interview. More about infrastructure, devops, AWS, python, django in the first round. In the second more about kafka, rabbitmq, celery. In the third round they asked simple database design question.
+Just very basics of kafka, rabbitmq vs kafka, why zookeepr etc... also on AWS fundamentals and basics of distributed systems. Regarding database design, it's a simple order management system. like say you have a system where there are products and there are sales people. Customers place orders through sales people. How do you design database schema for this considering I need to get reports every month. For example, number of orders placed in a month, orders placed through a particular sales person and so on...
+can somebody tell me how is the company and work ?

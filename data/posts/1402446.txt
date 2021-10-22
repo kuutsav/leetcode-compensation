@@ -1,0 +1,17 @@
+Education: B.Tech ECE Tier - 1
+Years of Experience: 0
+Prior Experience: Dunzo Backend Intern
+Date of the Offer: June 2021
+Company: Nagarro
+Title/Level: Trainee
+Location: Gurugram
+Salary: 7.6
+Pf: 40k
+Signing Bonus: 0
+Stock bonus: 0
+Total comp (Salary + Pf): 8
+Other details: Offer Rejected
+Other Offers:
+Amazon: https://leetcode.com/discuss/compensation/1402442/Amazon-or-SDE-1-or-Hyderabad
+Nurture: https://leetcode.com/discuss/compensation/1402456/Nurture.farm-or-SDE-1-or-Bangalore
+Dunzo: https://leetcode.com/discuss/compensation/1402450/Dunzo-or-SDE-1-or-Bangalore

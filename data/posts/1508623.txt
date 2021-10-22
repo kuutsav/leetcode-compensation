@@ -1,0 +1,23 @@
+Education: B.Tech in University of Mumbai (Tier 3 College)
+Years of Experience: 2+ year (Full Time) and 1 Year (internship)
+Prior Experience: iOS Development at product based company.
+Previous CTC: INR 5.5 Lakhs per annum (All fixed)
+Company: Dream11
+Title/Level: SDE1 - iOS
+Location: Mumbai
+Base Salary: INR 18,00,000
+Stock bonus: INR 9 Lakhs over 4 years (4 years split as 20%, 20%, 30%, 30%)
+Relocation Bonus : N/A (Since I live in Mumbai)
+Promixity Allowance : 4.5 Lakhs maximum per year
+Signing Bonus : 4.5 Lakhs with clause of 2 years (Did not take it since stocks given to me would be only 4.5 Lakhs if I opt for signing bonus)
+Total compensation : INR 31.5 Lakhs
+Total 1st year compensation: 24.3 Lakhs (Base + 20% Stocks + Proximity Allowance).
+Benefits:
+International offsite to Europe this year.
+Maximum INR 40000 of learning wallet.
+Stadium pass of INR 1500 per month.
+INR 10 Lakhs of health insurance including family.
+Unlimited Leaves.
+Other Details : had others offers of 20 Lakhs , 16 lakhs , 15 lakhs per annum from startups.
+I dont know why my base salary is low. Others Dream11 offer that I checked had higher base. Anyone could point out why?
+Interview Questions Link: https://leetcode.com/discuss/interview-experience/1508692/Dream11-SDE-1-iOS

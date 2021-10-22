@@ -1,0 +1,20 @@
+Education: B Tech Tier 1
+Years of Experience: 2
+Prior Experience: Product based company
+Previous CTC: 18 LPA
+Date of the Offer: June 2nd Week, 2021
+Company: Zeta
+Title/Level: SDE II
+Location: Bangalore
+Salary: 32L
+Relocation/Signing Bonus: 3L
+Stock bonus: 9.6L esop over 4 years
+2nd Year Bonus: 3L
+Total comp (Salary + Bonus + Stock): 32 + 3 + 0.96 : 35.96L
+Competing offer: Had an offer from Ola, and a product based startup
+Interview experience : Signed NDA
+Interview overview:
+Round 1 : DSA round 2 LC medium + 1 LC hard (60mins)
+Round 2 : Profile/ Resume round (45 mins)
+Round 3 : LLD round (60 mins)
+Round 4: Hiring manager round (40mins)

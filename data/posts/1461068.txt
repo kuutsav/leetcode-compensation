@@ -1,0 +1,21 @@
+Education: Tier 2 college
+Years of Experience: 2.2 years
+Prior Experience: Product based company
+Company: Flipkart
+Title/Level: SDE1
+Location: Bangalore
+Salary: 20.5L
+Relocation/Signing Bonus: - N/A
+Stock bonus: 6L
+Bonus: - 2L
+Total comp (Salary + Bonus + Stock): 22.5L + 25% Esops (First year)
+Company: Amazon
+Title/Level: SDE1
+Location: Bangalore
+Salary: 16.5L
+Relocation/Signing Bonus: - 6.5L + 3.5L (over 2 years)
+Stock bonus: - 5 units vested as 5%, 15%, 40%, 40%
+Bonus - N/A
+Total comp (Salary + Bonus + Stock): 23L (First year)
+I intend to do Masters in CS from US or directly relocate abroad as Software Engineer after 1-2 years (Just relocate for a couple of years not permanently). What seems like a good option for now?? Really confused between Amazon being FAANG + variety of services to learn like AWS and might help in Masters/applying for jobs abroad but also Flipkart is in startup phase so I think there will be lots to learn there too.
+If someone's working in these companies, please help. Really appreciated!! Thanks!!
