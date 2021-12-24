@@ -15,17 +15,17 @@ Scraping and analysis of leetcode-compensations page.
 
 
 ## Directory structure
-- data
-    - imgs - images for reports
-    - logs - scraping logs
-    - mappings - standardized company, location and title mappings as well as unmapped entities
-    - meta - meta information for the posts like post_id, date, title, href
-    - out - data from `info.all_info.get_clean_records_for_india()`
-    - posts - text from the post
-    - reports - salary analysis by companies, titles and experience
-- info - functions to parse data from posts(along with the standardized entities) in a tabular format
-- leetcode - scraper
-- utils - constants and helper methods
+1. data
+    1. imgs - images for reports
+    2. logs - scraping logs
+    3. mappings - standardized company, location and title mappings as well as unmapped entities
+    4. meta - meta information for the posts like post_id, date, title, href
+    5. out - data from `info.all_info.get_clean_records_for_india()`
+    6. posts - text from the post
+    7. reports - salary analysis by companies, titles and experience
+2. info - functions to parse data from posts(along with the standardized entities) in a tabular format
+3. leetcode - scraper
+4. utils - constants and helper methods
 
 ## Setup
 1. Clone the repo.
