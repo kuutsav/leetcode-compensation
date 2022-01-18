@@ -15,14 +15,6 @@ Scraping and analysis of leetcode-compensations page.
 
 [INDIA : 5th Jan 2019 - 18th Jan 2022 / total salary, dark mode](data/reports/report_2019_01_05_to_2022_01_18_dark_tc.md)
 
-[INDIA : 5th Jan 2019 - 23rd Oct 2021 / fixed salary](data/reports/report_2019_01_05_to_2021_10_23.md)
-
-[INDIA : 5th Jan 2019 - 23rd Oct 2021 / fixed salary, dark mode](data/reports/report_2019_01_05_to_2021_10_23_dark.md)
-
-[INDIA : 5th Jan 2019 - 23rd Oct 2021 / total salary](data/reports/report_2019_01_05_to_2021_10_23_tc.md)
-
-[INDIA : 5th Jan 2019 - 23rd Oct 2021 / total salary, dark mode](data/reports/report_2019_01_05_to_2021_10_23_dark_tc.md)
-
 ## Directory structure
 
 1. data
