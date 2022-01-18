@@ -9,7 +9,7 @@ Salary: INR 1, 450, 000
 Relocation: INR 150, 000
 Signing Bonus: INR 360,000 first year. INR 225,000 second year
 Stock bonus: 5 RSU vested over 4 years (5 + 15 + 40 + 40)
-Total comp (Salary + Bonus + Stock): ~INR 32, 000, 000
+Total comp (Salary + Bonus + Stock): ~INR 3, 200, 000
 Benefits: Standard Amazon Benefits
 Other details: Tried to negotiate but the recruiter didn't budge.
 Final: Accepted the offer :)
