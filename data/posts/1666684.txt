@@ -1,0 +1,14 @@
+Education: B.Tech in Chemical from Tier 1 college
+Years of Experience: 2
+Prior Experience: SDE 2 at a product based company
+Current CTC: (16 fixed + 2 esops + 3 variable) = 21
+Date of the Offer: 2021 January
+Company: Cure.fit
+Title/Level: Backend Engineer
+Location: Banglore
+Salary: 28LPA INR
+Relocation: 40k
+ESPOs: 8 Lakh INR vested over 4 years
+Total comp (Salary + Stock):  36
+Other details: Did not negotiate
+interview experience: https://leetcode.com/discuss/interview-experience/1665065/cure.fit-or-Backend-Engineer-or-Banglore-or-Dec-2021-or-Offer

@@ -1,0 +1,54 @@
+Need help in offer evaluation.
+Education: Tier 2
+Years of Experience: 3.5+
+Current Company: Amazon | SDE | current comp: 24LPA
+Company: Razorpay
+Title/Level: SSE
+Location: Banglore
+Salary(base): 35L + 3.5 variable = 38.5
+Stock bonus: 25L in 4 years = 6L/year
+JB: 7L
+Retention Bonus : 3L
+Total comp w/o esops (Salary + Bonus ): 35 + 3.5 + 7 = ~46LPA for first year | ~42LPA for 2nd year (assuming no hike)
+Benefits: Recruiter / offer letter didn't had anything mentioned about benifits.
+Razorpay is pre IPO startup and they're thinking about IPO in next ~5 years.
+Hikes in razorpay lies in between 10-25% and are given once a year.
+Company: Curefit
+Title/Level: Software Engineer
+Location: Banglore
+Salary(base): 38L
+Stock bonus: 15L in 4 years = ~3.75L/year
+JB: 5L
+Total comp w/o esops (Salary + Bonus + 10% hike after 6 months): 38 + 5JB + 3.8 = ~46.8LPA fixed + 3.75stocks
+Benefits: Relocation Bonus (40K) + CultPass black membership + 50K (food coupons) + No leave policy
+I've been told that curefit gives hike in every 6 months and 99% folks get it around 10%
+Is the info correct / accurate?
+No titles in curefit | flat hierarchy.
+curefit ESOPs are barely of any use. Company have never done any buybacks and I don't think they'll even think for IPO in next 7-8 years. Hence, this is just paper money.
+My Priority:
+Pay >= Engineering work (Good problems to solve) > WLB and culture matters > company brand (help me for next switch :) > smart folks in the team
+Edit1: As of now I am inclined towards joining Curefit. Scale is high but comparatively lower than Razorpay. But their is considerable monetory difference (after 3 yrs) , which I don't want to miss :) But again, will decide in before EOW.
+Edit2:
+Base/Fixed (Calculating based on standards given by each company) as many people might not consider monetory motivation for these offers.
+Razorpay(base+variable) -- Taking avg 12% for Razorpay
+Y1 ~42.9LPA
+Y2 ~47.9LPA
+Y3 ~52.9LPA
+Y4 ~ 59LPA
+CureFit (Taking 10% for CureFit in every 6 months)
+Y1: 45LPA
+Y2: 52.6LPA
+Y3: 60LPA
+Y4: 70LPA
+Edit3: Other offers:
+GoJek (~57LPA total compensation)
+I have learnt that GoJek transport team is also very good, also the culture is good in GoJek. The only problem is attrition is high (which I believe is everywhere)
+Hence, the decision now becomes more difficult :P
+Edit4:
+Curefit revised offer
+Base: 42L
+JB: 5L
+Esops: 20L
+TC : ~51 LPA/year
+Rejected Razorpay as the pay was quite less and team was not exciting. I had to work on migration part from PHP -> Go. Need to decide between Gojek & CureFit. Work at Gojek is in transport team (Uber/Ola) and I'll will be working on a new project from scratch.
+Requesting leetcode fam to help :)

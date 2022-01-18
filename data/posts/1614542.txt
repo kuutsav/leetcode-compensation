@@ -1,0 +1,17 @@
+Hi,
+I have got the following offer from BharatPe :
+Compensation Details:
+Education: B.Tech In CSE from Tier 1 College
+Years of Experience: 3.5 yrs
+Current Company : SDE 1 at one of the good companies.
+Title/Level: SDE2
+Location: WFH
+Base Salary: 33L
+Signing Bonus: NA
+Stock bonus: 16L equal distribution for 4 years.
+Total compensation First year compensation - 37LPA
+Current CTC: 25.5LPA
+Interview Process
+One round with InterviewVector guy asking DS/Algo + 1 easy SQL question.
+Second round with CTO asking basic CS/Backend questions
+and then tells the comp in same call.

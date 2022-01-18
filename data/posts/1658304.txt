@@ -1,0 +1,13 @@
+What is the expected salary for **Manager Business Intelligence Engineer- L6 at Amazon ** Hyderabad?
+Current salary
+Base 30L
+Bonus= 0-20% range
+Stocks: 15L / year
+Exp : Total 13 years ( 5 years in Teir 1 company) .
+Current Role : Software Engineer but working on Data Engineering.
+Is it a bad move to Business Intelligence Engineer? heard SDE, DE and BI and not same in Amazon and have different salaries in same band.
+Please advise.
+Update 1:
+Received 50L Base. 20L Bonus and 20 RSUs -> Percentage each year 5-15->40->40 Split.
+Negotiating the offer. Seems like a low ball to me.
+Update 2: No change after negotiation so rejected the offer. Prefer to continue looking for DE or SWE roles with good TC.

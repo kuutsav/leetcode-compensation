@@ -1,0 +1,23 @@
+Education: B.Tech from Tier 1 college
+Years of Experience: 5+ yrs
+Prior Experience: Doesn't matter
+Current TC : 27lpa(10% variable)
+Company: Freshworks
+Title/Level: Lead Software Engineer
+Location: Permanent WFH
+Salary: Rs. 40,00,000
+Signing Bonus : 4,00,000 INR
+Variable: NA
+Stock bonus: Rs. 40,00,000 over 4 years
+Total comp (Salary + Stock): Rs. 54,00,000 for first year
+Benefits: Standard Benefits Group Insurance and etc.
+Other details: Negotiated once with counter
+Offer 1: https://leetcode.com/discuss/compensation/1560816/MindTickle-or-SDE2-or-Pune
+Offer 2: https://leetcode.com/discuss/compensation/1631791/Arcesium-or-Engineering-Lead-or-Bangalore
+Interview Experience :
+ Round 1 :  DS/PS Leetcode Hard 
+ Round 2 :  LLD+HLD 
+ Round 3 :  Matrix Manipulation (LC Hard) + Lots of theoritical questions + Project Discussion
+                  Lots of question on distributed sytem and microservice architecture
+ Round 4 :  Hiring Manager  
+ Round 5 :  HR

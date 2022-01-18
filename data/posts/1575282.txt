@@ -1,0 +1,12 @@
+Education: BS
+Years of Experience: 1
+Prior Experience: Internships at other companies in Beijing, China
+Company: Lucy, Inc
+Title/Level: SDE
+Location: Minneapolis
+Base Salary: $66000
+Signing Bonus: no
+Performance Bonus: 6% of base salary
+Stocks: 0
+Benefits: Dental, Medical, Perks, 15PTO, Remote
+Total comp (Salary + Bonus + Stock): $70000

@@ -1,0 +1,18 @@
+Education: BE in CS from Tier-1 Institute
+Years of Experience: 2
+Prior Experience: SE-2 at a FAANG company.
+Date of the Offer: Q4 2021
+Company: Microsoft
+Title/Level: SDE-2 (L62)
+Location: Noida, India
+Salary(Base) : 34L
+Relocation: 1.5L
+Signing Bonus: 3L (1st year) + 3L (2nd year)
+Stock bonus: $100K stock grant vested over 4 years
+Bonus: Performance-based bonus up to 20% of salary every year
+Total comp (Salary + Bonus + Stock): 60L
+Benefits: Standard MS benefits
+Adding some miscellaneous details below to cover some of the queries being raised in the comments section.
+My TC at my current/prior role is 40 LPA. (Base Pay - 32 LPA)
+I had 4 technical rounds of interviews wherein a couple of them were focussed on DSA and Problem Solving, while the remaining two were design oriented. (one each for LLD and HLD respectively). The questions asked in the DSA rounds were a mixture of Leetcode medium and hard levels. I intend to cover more on this in a separate post.
+I come from a non-IIT Tier-1 institute.

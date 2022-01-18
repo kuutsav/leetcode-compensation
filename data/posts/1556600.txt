@@ -1,0 +1,24 @@
+Hi,
+I have got the following offer from Microsoft :
+Compensation Details:
+Education: B.Tech In CSE from Tier 1 College
+Years of Experience: 8+
+Prior Experience:
+Current Company: Adobe, Bangalore
+Title: Computer Scientist
+Date of the Offer: October 2021
+Company: Microsoft
+Title/Level: Senior Software Engineer / L64
+Location: Hyderabad
+Base Salary: 48L
+Signing Bonus: 5L+3L
+Stock bonus: 100K USD (4 yr vesting)
+Bonus: 0-30%
+Total compensation (Salary + Bonus + Stock): ~78L (assuming 15% bonus)
+Benefits: Standard Microsoft Benefits
+Previous TC: 65L
+Other offers -
+AWS SDE2 (https://leetcode.com/discuss/compensation/1536508/aws-sde2-bangalore)
+Hotstar SSE2 (Base - 48L, Stocks - 12L, Joining Bonus - 10L + 5L)
+Microsoft seems to have just matched my AWS offer. I feel that i can definitely do better in terms of stocks. How can i negotiate this offer?
+Thanks

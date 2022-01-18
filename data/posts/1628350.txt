@@ -1,0 +1,22 @@
+Education: BTech from old IIT
+Years of Experience: 0
+Internships: 2 - (SWE and ML Intern)
+Date of the Offer: 2021 - Campus placements
+Company: Zomato
+Title/Level: Product Engineer (SDE-1)
+Location: Gurgaon/Bangalore - (not final yet)
+Base Salary: INR 20 lakhs
+Signing Bonus: INR 10 lakhs (with a 2 year bond)
+Stock bonus: INR 20 lakhs worth of esops - most probably 4 year vesting period
+Total comp (Salary + Bonus + Stock): ~ INR 50 lakhs
+Benefits: Standard Zomato benefits
+Other details: Accepted offer.
+Interview Experience: Only 1 technical round - 45 mins.
+Brief Introduction of myself
+One coding question to seggregate even and odd numbers in an array such that odds appear after even numbers.
+Also asked the variant to do this task in O(1) memory
+Asked another variant to do this task keeping the relative order of elements same in O(1) space
+A question similar to rotten tomatoes - BFS based
+Discussion on Internship Project
+What is microservice archietecture and its advantages
+Finally 5 students were given offer.

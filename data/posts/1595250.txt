@@ -1,0 +1,14 @@
+Education: B.Tech from Tier 3
+Years of Experience: 3 years 5 months
+Prior Experience: MNC
+Previous Compensation: 17 Lpa
+Company: Cleartrip
+Title: SDE 2
+Location: Bangalore
+Base Salary: 25 LPA(INR)
+Relocation: NA
+Signing bonus: NA
+Perf. Bonus: 2.5 LPA(10% of Salary)
+Stock bonus: 12.4 LPA(25% vested over 4 years)(ESOPs are of Flipkart)
+Total Compensation(1st Year): (25 Base + 2.5 Perf. Bonus + 3.1 stock) -> 30.6 LPA
+https://leetcode.com/discuss/interview-experience/1596602/Cleartrip-or-SDE-2-or-Bangalore

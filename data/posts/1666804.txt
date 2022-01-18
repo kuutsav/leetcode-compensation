@@ -1,0 +1,9 @@
+Stipend : 10K
+Company : (Startup) -IRS
+Funding: A pre series seed funding 1 Million$
+after internship : 7LPA (CTC)
+location : Ahmedabad
+Interview process : 3 rounds
+1 Online assessment
+2 Technical Interview (DS Algo + Core Concepts)
+3 HR

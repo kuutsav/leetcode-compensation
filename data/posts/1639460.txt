@@ -1,0 +1,24 @@
+Education: Tier 1 college(Not from IIT/NIT) (ECE)
+Years of Experience: 1.4
+Prior Experience: Product based company
+Company: Flipkart
+Title/Level: SDE1
+Location: Bangalore
+Salary: 19.5L
+Relocation/Signing Bonus: - N/A
+Stock bonus: - 7L(vested over 4 years)
+Bonus: - 1.95L
+Total comp (Salary + Bonus + Stock): 23L (1st Year)
+Company: Ajio
+Title/Level: SDE1
+Location: Bangalore
+Salary: 19.5L
+Relocation/Signing Bonus: - 1.5L (Lock in Period of 1 year)
+Retention Bonus:- 1.5L (After Completing 1 year)
+Stock bonus: - N/A
+Bonus: - 2.1L
+Total comp (Salary + Bonus + Stock): 23.5L (1st Year)
+Teams: In Flipkart - FGS Team whereas AJIO- Seller Onboarding Team.
+Q1. Please help me decide which one to choose. Team wise, Tech Stack and in long run which would be best?
+Q2. Also, Should I update Flipkart about my another offer holding and increase base, as read on glassdoor they have 20LPA as avg base salary for sde-1. I have already accepted their offer.
+Any help would be appreciated.

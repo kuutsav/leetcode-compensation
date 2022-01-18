@@ -1,0 +1,12 @@
+Education: MS in Computer Science
+Years of Experience: 1
+Date of the Offer: October 2021
+Company: Oracle Cloud Infrastructure
+Title/Level: IC2
+Location: Seattle, WA
+Salary: $136,500
+Relocation: $10,000
+Signing Bonus: $15,000 (per year for first two years
+Stock bonus: 2500 stocks (25% each year for 4 years)
+Total comp (Salary + Bonus + Stock): ~(136500 + 15000 + ~60000) = $211500 (year one compensation)
+[Standard OCI offer]

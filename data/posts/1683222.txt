@@ -1,0 +1,16 @@
+Education: BTech in Computer Science
+Years of Experience: 3
+Prior Experience: SDE-2 at Indian Unicorn
+Date of the Offer: December 2021
+Company: Mindtickle
+Title/Level: SDE-2 Backend
+Location: Pune, Maharashtra: India
+Salary: Rs.34LPA
+Relocation: Rs.35,000 when I relocate (currently WFH)
+Signing Bonus: Rs.1,00,000
+Stock bonus: Rs. 24Lac worth ESOPs grant vested over 4 years. It was 2000 units, not sure if the mentioned value is trustable :)
+Bonus: Performance-based 10% of base salary every year. Can be more than that based on performance.
+Total comp (Salary + Bonus + Stock): ~Rs. 34LPA (First year: 30+3+1) - excluding ESOPS
+Benefits: General benefits, free breakfast, lunch and snacks, insurance etc.,
+Other details: Negotiated once, original offer was 33.9(29+2.9+2), They didn't agree to extend much on , so I settled to 34LPA (30+3+1)
+Interview Experience: https://leetcode.com/discuss/interview-experience/1684427/MindTickle-or-SDE-2-or-Pune-or-Dec-2021-Offer

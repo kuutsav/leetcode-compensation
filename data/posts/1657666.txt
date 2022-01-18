@@ -1,0 +1,25 @@
+Education : Btech (2021) | Tier 3 college
+Years of Experience : 6 months Internship + 5 months Full time
+Date of the Offer: 23th Dec 2021
+Current CTC: 9 Lpa
+Current Compamy: Top healthcare startup
+Company: DealShare
+Title/Level: SDE -1
+Location: Bangalore
+Salary: 13 Lpa fixed with 2 hikes a year.
+Signing Bonus: 1 Lakh
+Total comp (Salary + Bonus): 14 lpa (was offered based on my prev. CTC)
+Benefits: Flight and 14 days accommodation on Joining,Standard Startup Benefits
+Rounds :
+1st Round : Hackerrank Round
+2 Medium level questions in 90 mins.
+2nd Round : DSA round
+Ques 1. Serialize and Deserialize binary tree.
+Ques 2. Merge N sorted arrays.
+Ques 3. Basic bucket based question(Not any specific algorithm)
+3rd Round : HM round
+Ques 1. https://leetcode.com/problems/trapping-rain-water/
+Ques 2. https://leetcode.com/problems/rotting-oranges/
+Ques 3. Design a Movie Booking system.
+Finally got the call after 2 days and I cleared all the rounds.
+Any reviews on DealShare i.e engineering culture,work life balance?

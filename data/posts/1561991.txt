@@ -1,0 +1,18 @@
+MICROSOFT | SDE2 | Bangalore
+Education: BTech in Computer Science
+Years of Experience: 5+
+Prior Experience: SDE2 at PayPal
+Date of the Offer: November 2021
+Company: Microsoft
+Title/Level: Software Dev. 2
+Location: Bangalore, India
+Salary: INR 35,00,000/- (after negotiation)
+Relocation: 0
+Signing Bonus: 0
+Stock bonus: USD 60K stock grant vested over 4 years (after negotiation)
+Bonus: Performance-based bonus up to 20% of salary every year
+Total comp (Salary + Bonus + Stock): ~INR 49L (expected performance bonus around 10%)
+Benefits: MS standard
+Other details: Negotiated once, original offer had a Salary around INR 32,00,000/- and stock USD 45K. Was given a 2 days to accept or decline the offer. No competing offers for negotiation. Take it or leave it
+Interview Experience - https://leetcode.com/discuss/interview-question/1558174/Microsoft-Azure-or-SSE-or-Bangalore-or-Oct-2021-or-OFFER
+PS - Corrected the title from SSE to SDE 2

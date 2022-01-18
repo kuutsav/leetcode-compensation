@@ -1,0 +1,21 @@
+Education: B.Tech (Tier 2 college)
+Years of Experience: 4.1
+Company: Walmart
+Title/Level: IN3
+Location: Bengaluru
+Salary: 28LPA(base)
+Joining Bonus: 3L (paid in 2 years)
+Stock bonus: 4.2L vested over 4 years
+Varaible: 20% of base(5.6L)
+Total comp (Salary + Bonus + Stock): ~ 36.1
+Company: Razorpay
+Title/Level: Senior Software Engineer
+Location: Bangalore
+Salary: 31LPA(base)
+Stock bonus: 15L vested over 4 years
+Bonus: 10% of base(3.1L)
+Joining Bonus: 3 Lakhs
+Total comp (Salary + Bonus + Stock): ~ 40.5
+Which one should I choose? Walmart is not ready to negotiate further.
+Walmart is a big brand, known all across the world.
+Walmart core tech is Java, Razorpay I am hearing has some code in PHP as well.

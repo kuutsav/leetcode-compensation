@@ -1,0 +1,14 @@
+Education: BS. Computer Science
+Years of Experience: 0
+Prior Experience: 3 Years of summer internships
+Date of the Offer: October 2020
+Company: Fast Enterprises LLC
+Title/Level: Tech Team Member
+Location: Denver, Colorado , USA
+Salary: $83,000
+Relocation bonus: $6000
+Benefits: Standard Benefits like Health Insurance, Parental Leave, WFH Allowance
+First there was a phone call asking about my past experiences and describing what I liked and disliked. I believe the goal of this is to see the level of enthusiasm you have and if you are a person to talk bad about a project you had.
+Next, if they liked you they would schedule a Microsoft Teams interview with you and a HR rep, and there you're asked more situational questions in the work environment. These questions are like "If you and John Doe have a negative interaction, how would you handle XYZ situation". You are also asked basic comp science questions like what are the different types of loops, and whats the differences between them.
+Finally, if the HR rep likes you, you are scheduled for another meeting where you talk to a few developers. They give you an online assessment where you finish as much problems as you can, these are codding problemes, but more like brain teasers. Your action/reaction to these are monitored an you have 40 minutes to answer them. Then you meet the developers again where you have to finish code that has been pre-built and find its previous flaws. Then you are given a brain teaser SQL question. After that, they ask you to talk to the developer , so the developer can understand what type of person you are. And I believe the developer gives the final YAY or NAY on you.
+Give a thumbs up if this is helpful :) Glad to help!

@@ -1,0 +1,19 @@
+Hi,
+I have got the following offer from BharatPe Delhi :
+Compensation Details:
+Education: B.Tech In CSE from Tier 1 College
+Years of Experience: 2.4 yrs
+Current Company : SDE 2 at one of the good companies.
+Title/Level: SDE3
+Location: Delhi
+Base Salary: 36L
+Signing Bonus: NA
+Stock bonus: 16L equal distribution for 4 years.
+Total compensation First year compensation - 40LPA
+Current TC: 32LPA + 16L stocks(4 years distribution)
+Should i consider switching? Appraisals at my current company is very good, good WLB, great appraisals. Also by next appraisal (mid next year) compensation will likely surpass BharatPe offer by similar difference ~ 4LPA?
+Also i heard people getting 50 ~ 70LPA at Bharatpe, is that true and should i try to negotiate?
+Interview Process
+One round with InterviewVector guy asking DS/Algo + 1 easy SQL question.
+Second round with CTO asking basic CS/Backend questions
+and then tells the comp in same call.

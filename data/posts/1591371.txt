@@ -1,0 +1,14 @@
+Education: B.E in Computer Engineering
+Years of Experience: 8+
+Prior Experience: Less known SAP product based MNC
+Company: GroupOn
+Title/Level: SDE 2
+Location: Bengaluru
+Salary: INR 25,50,000
+Performance Bonus: 10% of Salary = INR 2,55,000
+Joining Bonus: INR 1,00,000
+Stock bonus: INR 3,00,000 over 3 years(1/2, 1/3 and 1/6)
+Total comp (Salary + Bonus + Stock): INR 30,55,000 first year
+Benifits: Standard
+Thanks to community, feel free to ask question and do upvote if found useful.
+Interview Experiance: https://leetcode.com/discuss/interview-experience/1591361/GroupOn-or-SDE-3-or-Bengaluru-or-Offer

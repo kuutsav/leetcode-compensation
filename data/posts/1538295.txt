@@ -1,0 +1,9 @@
+Google» Strategic Cloud Engineer— Big Data and ML
+Rejected
+Total Rounds: 4
+Round 1: Initial Technical Screening based on knowledge of the domain in ML and tools like Airlfow, Google Compute, IaaS etc
+Round 2: Coding Round: Was asked to code a medium level question of finding the peak element within a given seq of elements. What happens if there is a plateau? I solved it. Was asked some edge cases. Easy
+Round 3: Was asked to build a schema of an app for booking movie ticket. Given some task to write a query based on your schema. I struggled on this one. Couldn't clear it due to lack of practice.
+Few Questions on technical troubleshooting, webtech. I was decent in answers. However, knew that I botched up my interview within this round itself.
+Round 4: Behavioural: Basic. Follow STAR method, typical 'TAAM' questions.
+Hope this helps!

@@ -1,0 +1,19 @@
+Education: B.Tech from tier 2 college
+Years of Experience: 2.5 years
+Current ctc : 18L
+Swiggy
+Title/Level: SDE-2
+Location: Bangalore
+Base Salary: INR 33L
+Signing Bonus: INR 3L first year only.
+Stocks(ESOPs): INR 18L over 4 years (25% each)
+CRED
+Title/Level: Backend Engineer (L-4)
+Location: Bangalore
+Base Salary: INR 36L
+Signing Bonus: no signing bonus
+Stocks(ESOPs): INR 27L over 4 years (10%, 20%, 30% and 40%)
+I request the community here to help me decide which company to join. Both companies have a roughly equal valuation currently and a good engineering culture.
+Interview Experience
+Swiggy: https://leetcode.com/discuss/interview-experience/1627619/Swiggy-or-SDE-2-or-Bengaluru-or-Dec-2021-Offer
+CRED: https://leetcode.com/discuss/interview-experience/1627624/CRED-or-Backend-Engineer-or-Bengaluru-or-Dec-2021-Offer

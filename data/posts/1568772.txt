@@ -1,0 +1,23 @@
+Education: B.Tech in Computer Science
+Years of Experience: 8
+Date of the Offer: Nov 2021
+Company: Cred
+Title/Level: Software Engineer
+Location: Bengaluru, India
+Total comp (Current): ~ INR 34,00,000
+Tech Stack : iOS, Swift, Mobile Apps
+Total Rounds : 4 (2 Tech Interview + 1 Assignment + 1 HM)
+Other Details: Had 2 other competing offers
+Round 1 :
+More than 2.5 hour of screen share interview round for iOS with basic to almost every topic.
+Round 2 :
+More than 3.0 hour of screen share interview round with
+Min Stack Question
+Design Notes App
+LRU Cache Design
+Round 3 : (Declined)
+Small Cred like iOS app to be made in 1 week.
+I declined further as the proccess is unrealistic, mediocre judges nothing and designation given is Software Engineer to everyone.
+P.S.
+HR had this weired logic for designation and comapred it with industry, this already was a red flag which i should not have ignored resulting in wasting my time.
+Verdict: I Declined After 2 Rounds

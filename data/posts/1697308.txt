@@ -1,0 +1,16 @@
+Education: Tier 3 college
+Years of Experience: 5 months
+Prev ctc= 800000 fixed
+Prior Experience: Software Engineer at a product based company
+Date of the Offer: 3rd January 2022
+Company: Coinswitch Kuber
+Title/Level: SDE1
+Location: Bangalore
+Salary: INR 1800000 fixed
+Signing Bonus: INR 200000
+Variable: 100000
+Total comp (Salary + Minimum Performace Bonus + Relocation + Sign On + Stock): INR 2100000
+other perks and benefits.
+*Had another offer of 16 lpa from a India bulls company- yaari digital integrated, so I negotiated with them.
+I have written about my interview experience also.
+https://leetcode.com/discuss/interview-experience/1699836/Coinswitch-SDE-1-off-campus

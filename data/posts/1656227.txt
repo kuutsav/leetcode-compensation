@@ -1,0 +1,24 @@
+Education : Btech (2019) | Tier 2 college
+Years of Experience : 2.6 years
+Date of the Offer: 20th Dec 2021
+Company: Flipkart
+Title/Level: SDE -1
+Location: Bangalore
+Salary: 23 lpa fixed
+Relocation/Signing Bonus: 0
+Stock bonus: 6.3 lpa (44 units) vested over 4 years
+Bonus: 10% based on performance
+Total comp (Salary + Bonus + Stock): 27 lpa per year
+Benefits: 26,400 for food + usual flipkart benefits
+Did not negotiate with other offers
+Rounds :
+1st Round : Machine Coding round
+Was asked to write restaurant rating system with user having the ability to give reviews and rate food items in the restaurants.
+Needed working code at the end of 1.5 hours . Code extensibility , modularity and SOLID principles checked.
+2nd Round : DSA round
+Ques 1. Sort an array consisting of 0's ,1's and 2's.[Use Dutch National flag method]
+Ques 2. Find the number of ways of traversing a matrix from (0,0) to (n.n) going only down and right.
+Used backtracking then improved with dfs and then solved with dp.
+3rd Round : HM round
+Was asked behavioral questions, Whether we are culturally fit for the company and the tech stack used in the prev company along with the projects worked on.
+My current CTC : 13.93(base) + 1.53(bonus) + 4 units of RSU ( 1.072 lpa{current market price} ) + ESPP program {1.57 lpa}[mentioned in ESPP purchase] = 18 lpa overall

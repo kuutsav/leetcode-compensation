@@ -1,0 +1,13 @@
+Education: M.Tech in tier 1 college
+Years of Experience: 4+ Years
+Prior Experience: Tier 1 Product
+Previous Compensation : 20L INR per year
+Company: UiPath
+Title/Level: SDE2
+Location : Bangalore
+Fixed Compensation (FC): INR 27,00,000 LPA
+Variable Bonus(VB): 15 to Upto 30% of Fixed Compensation (4.05 LPA to 8.1 LPA)
+Stock bonus(SB): 100k USD vested over 4 years (approx. 18.5 LPA)
+Total comp (Salary + Bonus + stocks): ~ 49.5 LPA - 53.5 LPA INR [Including variable bonus]
+Competing offers : KLA - https://leetcode.com/discuss/compensation/1574499/KLA-or-SDE-3-or-Chennai
+Details : Accepted the offer

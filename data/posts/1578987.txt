@@ -1,0 +1,6 @@
+yoe : 3+
+previous : 10.5lpa(initially got 17 but after getting mutiple offer reched at that point)
+Fixed ctc : 22lpa
+joining bonus : 1.5lpa
+retention : 1.5 lpa
+note : updated

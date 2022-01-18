@@ -1,0 +1,8 @@
+Company: Grab
+Location: Singapore
+Role: Senior SWE Backend
+Base: 10.8k SGD/Month
+Bonus: 15% of yearly base.
+Stock compensation: 42k USD
+Joining bonus: 1 month
+YOE: 7.

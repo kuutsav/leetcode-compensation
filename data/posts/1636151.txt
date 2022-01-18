@@ -1,0 +1,41 @@
+Recently I have decided to switch companies. I have been working as a software engineer for the past 2.5 years at a big indian fintech startup.
+Microsoft-IDC - L61
+Base: 28 lpa
+Sign on bonus - 4 lakhs for 1st year and 3 lakhs for 2nd year
+Perf bonus - 0-20% of base
+RSUs: 60K USD over 4 years(25% vesting per year)
+Perks: Good perks have been offered by Microsoft.
+Total Comp(yearly): 32 - 37.6 lpa cash + 15K USD stocks per year.
+Salesforce - MTS
+Base: 33 lpa
+Sign on bonus: 1 lakhs
+Perf bonus: 10 - 20% of base
+RSUs: 40K USD over 4 years (25% vesting per year)
+Benefits: Great benefits are being offered by Salesforce.
+Total Comp(yearly): 37.3 - 40.6 lpa cash + 10K USD stocks per year.
+Flipkart - SDE 2
+Base: 32 lpa
+Sign on bonus: 2 lakhs
+Perf bonus: 0-20% of base
+ESOPs: 12.4 lakhs over 4 years(25% vesting per year).
+Benefits: Standard
+Total comp(yearly): 34-40.4 lpa + 3.1 lakhs of ESOPs
+Zepto Now - SDE 2
+Base: 27 lpa
+Sign on: 2 lakhs
+Esops: 10 lakhs Series C esops(25% vesting per year)
+Benefits: Standard
+Total Comp(yearly): 29 lpa + 2.5 lakh Series C Esops.
+Stealth Startup - SDE 2
+Base: 40 lpa
+Esops: 20 lakhs Seed round Esops(0.2% company valuation)
+Benefits: Standard
+Total comp(yearly): 40 lpa fixed + 5 lakhs seed esops.
+Joining in the founding team.
+Uber - L4
+Base - 37 lpa + 2.2 lpa PF
+Perf bonus: 583000
+RSUs: 75000 USD over 4 years(25% vesting)
+Benefits: Ride credits + Gym and welness + Mobile/Wifi reimbursement
+Total comp(yearly): 39.2 - 45.03 lpa fixed + 18750 USD RSUs.
+Requesting the leetcode community to please provide feedback on the existing offers and valuable suggestions on which one to accept.

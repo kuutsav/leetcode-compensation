@@ -1,0 +1,12 @@
+Education: B.E Computer Engineering, NSIT, Delhi
+Years of Experience: 5 Months
+Date of the Offer: 7th December 2021
+Company: Amazon
+Title/Level: SDE 1
+Location: Berlin
+Salary: 62000 EUR
+Relocation: 7500$
+Signing Bonus: 14000 EUR (Year 1) + 10000 EUR (Year 2)
+Stock bonus: 36000 EUR (Vested over 4 years)
+Benefits: 28 days of paid leaves and a certain percentage of discount on Amazon Products.
+Interview Experience : https://leetcode.com/discuss/interview-experience/1639399/Amazon-or-SDE-1-(New-Grad)-or-Berlin-or-Dec-2021-Offer

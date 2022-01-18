@@ -1,0 +1,26 @@
+Education: Tier 3 Graduate - B.Tech. IT Branch
+Years of Experience: 2.5y
+Prior Experience: SaaS Company
+Previous CTC: 10.5 LPA (9L Base)
+Date of the Offer: June 2021
+Company: MoEngage India Pvt. Ltd.
+Title/Level: Software Dev. 2 - UI
+Location: Bangalore
+Salary: 30,00,000 INR
+Signing Bonus: 1,00,000 INR
+Total comp (Salary + Bonus): 30,00,000 + 1,00,000 = 31,00,000 INR
+Benefits: 18 Paid Leave + 7 Sick Leave + 7 days accomodation + Health insurance + free lunch and snacks + free gym membership + Free team outing every quater + Free Health checkup every year.
+Interview Rounds:
+Coding Assignment: SPA with API calls using React with moderate styling. (3 Days deadline)
+1st Round: UI/JS
+Topics Coverred: HTML CSS Basics, JS In-Depth, Polyfils, Standard o/p based JS Questions
+2nd Round: ReactJS
+Topics Covered: React Hooks, Lifecycle methods, Implementing Advanced Redux Architecture for Shopping Cart Application
+3rd Round: Design - HLD
+Topics Covered: Puzzels, React Advanced Questions, Designing Component Breakdown and Redux Arch for Crypto Exchange Application, JS Concepts
+Resources:
+https://github.com/leonardomso/33-js-concepts
+Namaste JS (YT)
+https://github.com/learning-zone/react-interview-questions
+https://gist.github.com/vishnu-saini/d60fdde3a59e42368b447dc2c712fdf9
+There are other open source Websites to learn from like Medium, dev.to, etc.

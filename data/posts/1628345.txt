@@ -1,0 +1,21 @@
+Education: BTech from old IIT
+Years of Experience: 0
+Internships: 2 - (SWE and ML Intern)
+Date of the Offer: 2021 - Campus placements
+Company: Wells Fargo
+Title/Level: SDE-1
+Location: Chennai/Bangalore/Hyderabad
+Base Salary: INR 20 lakhs
+Signing Bonus: INR 3 lakhs
+Variable Pay: INR 2 lakhs
+Retention Bonus: INR 5 lakhs (1.25 Year 1, 1.25 Year 2, 2.5 Year 3)
+Total comp (Salary + Bonus): ~ INR 30 lakhs
+Other details: Declined offer - (preferred Zomato SDE).
+Interview Experience: 1 technical round - 90 minutes and 1 HR round - 15 minutes.
+Brief Introduction of myself
+Stack based question on valid parenthesis
+Applications of dfs/bfs, which to use when
+What is MST? Algorithms to find MST in a graph
+Discussion Dijkstra's Algorithm
+Design CHESS
+Suggest algorithm for Checkmate - told an OOPS based solution

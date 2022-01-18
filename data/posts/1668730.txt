@@ -1,0 +1,22 @@
+Education: Tier 2
+Years of Experience: 4.5+
+Company: Razorpay
+Title/Level: SSE
+Location: Bangalore
+Salary(base): 33.5L + 3.35L variable ~ 37L
+Stock bonus: 20L in 4 years = 5L/year
+JB: 5L
+Total comp w/o esops (Salary + Bonus ): 37 + 5 + 5 = ~ 47LPA for first year | ~ 42LPA for 2nd year (assuming no hike)
+Razorpay is pre IPO startup and they're thinking about IPO in next ~5 years.
+Current Work is in PHP and migration to GO is only planned.
+Company has never laid off. Funding game is strong.
+Company: Stock X
+Title/Level: SSE
+Location: Bangalore
+Salary(base): 37L + 3L variable = 40L
+Stock bonus: 50L in 4 years = 12.5L/year
+Total comp w/o esops (Salary + Bonus ): 40 + 12.5 = ~52.5LPA for first year | ~52.5LPA for 2nd year (assuming no hike)
+StockX is pre IPO startup and they're thinking about IPO as soon as possible next ~2 years.
+Much work in Go, although some work in PHP as well.
+Company laid off 12% off its staff in 2020 Pandemic. With another one looming I am worried.
+For me work > Pay. I was inclined towards Razorpay as I have heard about it's culture but the current work there is in PHP. Please help me choose.

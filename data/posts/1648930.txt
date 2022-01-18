@@ -1,0 +1,21 @@
+Education: B.E from IIT/NIT/BITS
+Years of Experience: 4.5 years
+Prior Experience: IN3 at Walmart Bangalore
+Date of the Offer: 21st December 2021
+Company: Yelp
+Title/Level: Application Backend Engineer (Level 2)
+Location: London
+Salary: 75k GBP
+Relocation/Signing Bonus: 8k + 7k = 15000 GBP
+Stock bonus: 75k GBP
+Bonus: 5%
+Joining bonus + relocation = 15k GBP (one time)
+Total comp (Salary + Bonus + Stock ): 93k GBP
+Benefits: Usual Yelp Benefits like private health insurance, ESPP, etc
+Current Compensation - 27 lpa
+Edit: Updating interview experience
+I applied via referral. Recruiter contacted me after almost 20 days. The process was:
+Initial hackerrank test. Questions were mainly related to simple DS like map and lists.
+On clearing had brief chat with recruiter to discuss background and interests to apply.
+Phone screen where I had to discuss some of my past projects (which projects you led, what was your team structure, who took the decisions, why particular technology was used) and a bit of behavioral questions as well.
+Onsites - 4 rounds - 2 problem solving (again easy-medium difficulty), 1 system design, 1 behavioral round( past conflicts, how do you receive/give feedback, mentorship, why yelp) . System design was something related to internal system of Yelp. It won't be like designing facebook, instagram or youtube but something which you could run into designing on your day to day job.

@@ -1,0 +1,13 @@
+Education: MS CS at Top 30 University
+Years of Experience: 0
+Prior Experience: Intern at Small Startup, Research experience at Undergrad
+Date of the Offer: 11/19
+Company: Amazon
+Title/Level: SDE Intern
+Location: Greater Seattle Area
+Salary: 8500 USD
+Relocation/Signing Bonus: $2425 per month post tax
+Bonus: N/A
+Total comp (Salary + Bonus + Stock): 8500 + 2425 = 10925 USD
+Benefits: Standard Amazon benefits
+Other details: was asked LC Hard in the final interview

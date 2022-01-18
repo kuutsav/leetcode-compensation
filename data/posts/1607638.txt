@@ -1,0 +1,21 @@
+Education: B.Tech in CSE from Tier 3
+Years of Experience: 6.3 years
+Prior Experience: product based companies
+Date of the Offer: 01 December 2021
+Company: Microsoft
+Title/Level: L62 equivalant to SDE-2
+Location: Bangalore
+Salary: 38,00,000
+Variable: upto 20% (average say 15%) - between 5,70,000 - 7,60,000
+Relocation/Signing Bonus: 2,00,000 + 1,50,000 for relocation
+Stock bonus: 60,000 USD over 4 years. after 1 year, 25%, from 2nd year 6.25% every quarter
+Total comp (Salary + Bonus + Stock): 55,00,000
+Benefits: standard MS benefits
+I joined a D2C startup recently as SDE-3 two weeks back. Before joining I gave interview at Microsoft but they come up with an offer after I joined this startup. So yesterday I came up with this offer please suggest is it a good idea to switch to Microsoft now ?
+Compensation in current D2C startup
+Fixed - 44,50,000
+Variable - 2,00,000
+Joining Bonus - 2,00,000 with 2 year clawback
+Role and Work wise it is good in current company. I was given a lead SDE-3 position. Work is good. I am responsible for building some critical features.
+I am not sure about the work at microsoft. They said it is into Microsoft 365 team, but not sure about the work.
+Please suggest. Thanks in advance!

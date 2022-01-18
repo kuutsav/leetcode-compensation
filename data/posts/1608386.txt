@@ -1,0 +1,11 @@
+Paytm:
+Experience 4 years
+Current - 20
+fixed - 28
+Variable - 1.5(signing) + 1.5(retention)
+total: 31
+Clevertap:
+fixed: 33
+variable: 3.3
+Total: 36.3
+Which to choose

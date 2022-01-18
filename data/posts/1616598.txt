@@ -1,0 +1,12 @@
+Education: B.Tech in Information Technology (Tier 1 college)
+Years of Experience: 3
+Prior Experience: Service based startup
+Company: Goldman Sachs
+Title/Level: Associate/SDE 2
+Location: Bengaluru
+Salary: 30LPA(base)
+Relocation/Signing Bonus: 1.5L
+Stock bonus: NA
+Bonus: 6L
+Total comp (Salary + Bonus + Stock): 36L
+Other details: Other offer - https://leetcode.com/discuss/compensation/1616599/Flipkart-or-SDE-2-or-Bengaluru

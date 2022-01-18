@@ -1,0 +1,11 @@
+Education: BTech in Computer Science from Tier 3 College
+Years of Experience: 1.5
+Company: Urbancompany
+Title/Level: SDE 1
+Location: Gurgaon
+Prev TC: ~₹17,00,000
+Salary: ₹17,00,000
+Signing Bonus: ₹6,00,000 (3L for first year, 3L for second year)
+Stock bonus: NA
+Total comp (Salary + Bonus + Stock): ₹23,00,000
+Benefits: Insurance, Gratuity

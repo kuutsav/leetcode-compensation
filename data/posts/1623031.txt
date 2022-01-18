@@ -1,0 +1,27 @@
+Hi Guys,
+I am a 4 yrs experienced java backend dev, help me by providing your valuable inputs, below are 4 offers i am expecting soon.
+Amazon:
+role: SDE2
+base: 33.50
+sign on: 17 + 13.5
+stock 1+3+8+8
+first yr total: 53
+paypal:
+role: SE2
+base: 25
+performance bonus: 2.5
+stocks: 21k $ over 3 yrs
+vmware:
+role: MTS3
+base: 26.15
+fixed 21.60
+target bonus: 12% of base
+relocation: 1.8
+joining bonus: 3
+stocks: 31500$ over 4 yrs
+airtel
+role: senior software engineer
+base 29
+what should be the right choice
+current ctc: 18
+current company: mnc

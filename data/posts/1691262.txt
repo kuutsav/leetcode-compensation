@@ -1,0 +1,12 @@
+Education: B.Tech in software engineering from tier 1 college (2022 graduate)
+Prior Experience: Summer SDE intern in mid company
+Date of the Offer: October 2021 (Oncampus)
+Company: Slice
+Title/Level: SDE-1
+Location: Bangalore
+Salary: 23LPA CTC (21 LPA Base + 2 lakhs joining bonus)
+Relocation: 0
+Stock bonus: 0
+Total comp: (Salary + Bonus + Stock): 23LPA INR (Indian National Rupees)
+Benefits: Annual leave: 15 days per year, Sick leave: 12 days per year, Statutory leave: 10 days for festival and holidays, Medical Insurance
+Procedure: Online coding and aptitude test (2 coding + 10-15 mcq aptitude), followed by 2 technical interviews and 1 hr interview. Each round was elimination round.

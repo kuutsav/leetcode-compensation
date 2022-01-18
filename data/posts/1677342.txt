@@ -1,0 +1,13 @@
+Education: B. Tech CSE (3rd Year)
+Years of Experience: 6 months
+Prior Experience: Full Stack Engineer Intern
+Date of the Offer: September 2021
+Company: Motorq
+Title/Level: SDE/SDET Intern
+Location: Chennai, India
+Salary: 1.6L Stipend per month
+Total comp (Salary + Bonus + Stock): 1.6L Stipend per month
+Interview Process
+Shortlisting: Online Coding Assessment
+Technical rounds, 1) DSA 2) Interactive Problem Solving (System Design)
+Cultural Fit round

@@ -1,0 +1,15 @@
+Education: B.Tech CS
+Years of Experience: 7 years
+Current TC - 40 LPA (34l base + 4l perf + 2l ESOPS)
+Date of the Offer: Dec 2021
+Company: Google
+Organization: Google Cloud
+Title/Level: L4
+Location: Bangalore
+Base Salary: INR 36 lakhs
+Equity: 116k USD in 4 years (33-33-22-12)%
+Signing bonus: 3 lakhs first year
+Perf bonus : 15% of Base
+Total comp (Base Salary + Stock + Perf Bonus + Retirals): INR ~73 LPA ( first 2 years)
+Other Details: No other offers. Negotiated once for the stocks as the initial offer had lesser stocks.
+Interview Experience: https://leetcode.com/discuss/interview-experience/1645907/Google-L4-Offer-or-Bangalore-or-Dec-2021-or-Accepted

@@ -1,0 +1,19 @@
+Education: B.Tech computer science from tier-3 college
+Years of Experience: 6
+Prior Experience: Product based
+Date of the Offer: 3 Oct, 2021
+Company: Discovery
+Title/Level: SDE-2
+Location: Bangalore
+Salary: 35,00,000 Base salary
+Relocation/Signing Bonus: N/A
+Stock bonus: N/A
+Bonus: upto 5,25,000
+Total comp (Salary + Bonus + Stock): 40,25,000
+Previous compensation : 20L fixed + 3L variable + 2L RSU
+Benefits: Standard
+Other details: Though I have a competing offer of 39L fixed, they said it's not a public listed company, so they don't match.
+Verdict : Asked them to match 45L fixed + joining bonus + variable. Waiting for their response
+Competing offers
+https://leetcode.com/discuss/compensation/1482231/Innovaccer-SDE-3-Bangalore
+https://leetcode.com/discuss/compensation/1541202/KooApp-Software-Engineer-Backend

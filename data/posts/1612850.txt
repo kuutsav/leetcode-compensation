@@ -1,0 +1,15 @@
+Education: BTech CSE (one of the older IITs)
+Years of Experience: 1.5-2
+Current TC: 46L
+Date of the Offer: Nov 2021
+Company: Google
+Title/Level: Software Engineer - L3
+Location: Bangalore
+Salary: 23.5L + 2L(retirals)
+Signing Bonus: 7L
+Stock bonus: $107k over 4 years(front loaded) = 26.3L first year
+Bonus: 15% target bonus = 3.5L
+Total comp (Salary + Bonus + Stock): 62.3L
+Benefits: Standard Google benefits, Relocation benefits are separate from this compenstation
+Other details: Accepted the offer, had competing offers of similar range
+Interview Experience: https://leetcode.com/discuss/interview-experience/1614825/google-l3-bangalore-nov-2021-offer

@@ -1,0 +1,17 @@
+Education: B.Tech in Computer Science from Tier 2 College
+Years of Experience: 2
+Prior Experience: 2 yrs in a service based company
+Date of the Offer: August 2021
+Company: MPL
+Title/Level: SDE-1
+Location: Bengaluru, India
+Salary: Rs. 20,00,000 ( 20LPA)
+Relocation: 0
+Signing Bonus: 0
+Stock bonus: 0
+Bonus: Performance-based bonus up to 10% of salary every year
+Total comp (Salary + Bonus + Stock): ~ 22 LPA
+Benefits: Standard Benefits like free food
+Other details: Negotiated once, was given 3 days to accept or decline the offer.
+Interview Experience: https://leetcode.com/discuss/interview-experience/1550664/MPL-or-SDE-1-or-Bengaluru-India-Offer
+UPDATE: Interview Experience posted in comments as well, no idea why the link is broken.

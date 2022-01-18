@@ -1,0 +1,16 @@
+Education: B.Tech - tier 1
+Years of Experience: 4+
+Company: Amazon
+Title/Level: SDE2 (L5)
+Location: Bangalore
+Compensation:
+Salary: INR 33,00,000
+Signing Bonus: INR 11,00,000 first year. INR 8,00,000 second year.
+Stock bonus: 41K USD 4 years (Vested stocks over 4 years split as 5%, 15%, 40%, 40%)
+Total comp (Salary + Bonus + RSUs): ~44 LPA first year/ ~47 LPA second year.
+Benifits: Amazon benifits
+Current company: Tech lead in a startup (co-founder)
+Current Comp: (Salary + bonus + Stocks) --> ~6 LPA
+Interview process and experience is shared here:
+https://leetcode.com/discuss/interview-experience/1634524/Amazon-or-SDE2-or-Banglore-Offer
+Note: I have been working as a co founder at my current organisation so current compensation is not really that relevant.

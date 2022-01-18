@@ -1,0 +1,16 @@
+Education: Masters from Bits Pilani
+Years of Experience: 4
+Prior Experience: A German company
+Prior Salary : 13LPA
+Date of the Offer: Nov 2021
+Company: Microsoft
+Title/Level: SDE 1(Level 60)
+Location: Bengaluru
+Salary: 20 lacs
+Relocation/Signing Bonus: -
+Stock bonus: 60k USD
+Performance Bonus : 0-20%
+Total comp (Salary + Stock): around 35L
+Non Negociable offer : 3 days to accept
+Interviews:
+4 Rounds of technical interview (DSA (medium level) + OOPS + SQL)

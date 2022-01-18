@@ -1,0 +1,12 @@
+Education: B.Tech from tier 1 institute
+Years of Experience: fresher
+Company: Swiggy
+Title/Level: SDE-1
+Location: India
+Salary: INR 18 L
+Joining Bonus: INR 1 L,
+Retention Bonus: INR 2 L
+ESOP: INR 10.84 L (4 years)
+Total comp (Salary + Bonus + ESOP) ~ INR 23.7 L
+Other details: On-campus Offer
+note: 1 L = 1,00,000

@@ -1,0 +1,14 @@
+Education: B.A. Computer Science
+Years of Experience: 0
+Prior Experience: 2 summer internships
+Date of the Offer: November 2nd 2021
+Company: Amazon
+Title/Level: Software Development Engineer 1
+Location: New York, NY
+Salary: $132,000
+Signing Bonus: $30,500
+Stock bonus: $101,000 RSU vested over 4 years
+Bonus: N/A
+Total comp (Salary + Bonus + Stock): ~ $170,000
+Benefits: 401k, PTO, Flexible Work Schedule
+Interview: https://leetcode.com/discuss/interview-experience/1555547/Amazon-or-SDE1-or-NYC-or-October-2021-Offer

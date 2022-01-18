@@ -1,0 +1,8 @@
+Company: Sportmaster LAB
+Position: Software engineer
+Salary: 3000$ per month + 3000$ per year
+Interview coding:
+Task#1
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+Task#2
+https://leetcode.com/problems/permutations-ii/
