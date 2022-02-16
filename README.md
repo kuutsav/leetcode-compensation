@@ -1,7 +1,8 @@
 # Leetcode compensations report
 
-Check out https://github.com/kuutsav/LeetComp for interactive version of the report.
 Scraping and analysis of leetcode-compensations page.
+
+** Check out https://github.com/kuutsav/LeetComp for interactive version of the report.
 
 `Salary Distribution`
 ![Salary](data/imgs/salary_distribution_dark.png)
