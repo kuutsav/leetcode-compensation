@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 from info.all_info import get_clean_records_for_india
-from utils.constant import IMGS_DIR, MISSING_NUMERIC, MISSING_TEXT, OUT_DIR
+from utils.constant import IMGS_DIR, MISSING_NUMERIC, MISSING_TEXT
 
 alt.renderers.set_embed_options(theme='dark')
 MISSING_TEXT_UPPER = MISSING_TEXT.upper()
@@ -39,7 +39,7 @@ p75, p95, p99 = (
 )
 pdf = pd.DataFrame({'p75': [p75], 'p95': [p95], 'p99': [p99]})
 
-# salary distribution ----------------------------------------------------------
+# salary distribution --------------------------------------------------------------------
 bar = alt.Chart(df).mark_bar(size=38).encode(
     x=alt.X('lpa', bin=alt.Bin(maxbins=30), title="₹ LPA"),
     y=alt.Y('count()', axis=alt.Axis(title="Count of Records")),
@@ -64,7 +64,7 @@ final_bar = (bar + rule1_dark + rule2 + rule3).configure(background=DARK_BACKGRO
     .configure_axisBottom(labelColor='white', titleColor='white')
 final_bar.save(f'{IMGS_DIR}/salary_distribution_dark_total.png')
 
-# company distribution ---------------------------------------------------------
+# company distribution -------------------------------------------------------------------
 comp_counter = Counter(df["company"])
 top_companies = [comp[0] for comp in comp_counter.most_common(32) if comp[0] != MISSING_TEXT_UPPER]
 
@@ -83,7 +83,7 @@ alt.Chart(df[df.company.isin(top_companies)]).mark_bar(size=25).encode(
     .configure_axisBottom(labelColor='white', titleColor='white')\
     .save(f'{IMGS_DIR}/company_distribution_dark_total.png')
 
-# company x salary distribution ------------------------------------------------
+# company x salary distribution ----------------------------------------------------------
 bar = alt.Chart(df[df["company"].isin(top_companies)]).mark_circle(size=50).encode(
     x=alt.X('lpa', axis=alt.Axis(title="₹ LPA")),
     y=alt.Y('company', axis=alt.Axis(title=None),
@@ -104,7 +104,7 @@ bar = alt.Chart(df[df["company"].isin(top_companies)]).mark_circle(size=50).enco
     .configure_axisBottom(labelColor='white', titleColor='white')\
     .save(f'{IMGS_DIR}/company_salary_distribution_dark_total.png')
 
-# title x salary distribution --------------------------------------------------
+# title x salary distribution ------------------------------------------------------------
 title_counter = Counter(df["title"])
 top_titles = [title[0] for title in title_counter.most_common(21) if title[0] != MISSING_TEXT_UPPER]
 
@@ -127,7 +127,7 @@ bar = alt.Chart(df[df["title"].isin(top_titles)]).mark_boxplot(size=25, color="g
     .configure_axisBottom(labelColor='white', titleColor='white')\
     .save(f'{IMGS_DIR}/title_salary_distribution_dark_total.png')
 
-# yoe x salary -----------------------------------------------------------------
+# yoe x salary ---------------------------------------------------------------------------
 alt.Chart(df[(df["Years of Experience"]!=MISSING_NUMERIC)]).mark_point(color="black", size=10).encode(
     x='Years of Experience',
     y=alt.Y('lpa', title="₹ LPA"),
@@ -145,7 +145,7 @@ alt.Chart(df[(df["Years of Experience"]!=MISSING_NUMERIC)]).mark_point(color="wh
     .save(f'{IMGS_DIR}/yoe_salary_distribution_dark_total.png')
 
 
-# yoe_bucket x salary ----------------------------------------------------------
+# yoe_bucket x salary --------------------------------------------------------------------
 alt.Chart(df[(df["Years of Experience"]!=MISSING_NUMERIC)&(df['Years of Experience (bucket)']!="15+")])\
     .mark_boxplot(color="grey", size=40).encode(
         x='Years of Experience (bucket)',
@@ -163,7 +163,7 @@ alt.Chart(df[(df["Years of Experience"]!=MISSING_NUMERIC)&(df['Years of Experien
     .configure_axisBottom(labelColor='white', titleColor='white')\
     .save(f'{IMGS_DIR}/yoebucket_salary_distribution_dark_total.png')
 
-# top_companies x salary -------------------------------------------------------
+# top_companies x salary -----------------------------------------------------------------
 top_c = ['GOOGLE', 'AMAZON', 'MICROSOFT', 'UBER']
 
 alt.Chart(df[(df["Years of Experience"]!=MISSING_NUMERIC)&

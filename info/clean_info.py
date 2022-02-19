@@ -43,8 +43,8 @@ def get_clean_yoe(yoe_text: str) -> str:
     return "".join(re.findall(r"\w[\w\.\-\~\+]*", yoe_text))
 
 
-def get_clean_salary(yoe_text: str) -> str:
-    """Cleans the salary text.s
+def get_clean_salary(salary_text: str) -> str:
+    """Cleans the salary text.
     
     Args:
         salary_text (str): Raw salary text.
@@ -52,7 +52,7 @@ def get_clean_salary(yoe_text: str) -> str:
     Returns:
         str: Clean salary text.
     """
-    return "".join(re.findall(r"[\w\.\-]", yoe_text))
+    return "".join(re.findall(r"[\w\.\-]", salary_text))
 
 
 def clean_company(company_text: str) -> str:

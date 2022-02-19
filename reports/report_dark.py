@@ -1,5 +1,5 @@
 from info.all_info import get_clean_records_for_india
-from utils.constant import IMGS_DIR, REPORTS_DIR
+from utils.constant import REPORTS_DIR
 
 
 # data

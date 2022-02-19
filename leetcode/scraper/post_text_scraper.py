@@ -20,7 +20,6 @@ def get_text_from_post(url: str) -> str:
     """Text from the offer post.
 
     Args:
-        driver (webdriver.Chrome): Selenium webdriver.
         url (str): A `leetcode compensations` offer post.
 
     Returns:

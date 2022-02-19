@@ -26,8 +26,8 @@ def _get_info_from_post(
     """Information from post object for the `post` class.
 
     Args:
-        href_obj ([webdriver.remote.webelement.WebElement]): href object
-        time_obj ([webdriver.remote.webelement.WebElement]): time object
+        href_obj ([webdriver.remote.webelement.WebElement]): Href object.
+        time_obj ([webdriver.remote.webelement.WebElement]): Time object.
 
     Returns:
         Dict[str, str]: Meta information for a `post`.
@@ -62,7 +62,7 @@ def get_compensation_posts(page_no: int) -> List[Dict[str, str]]:
     """Compensation posts from the current page.
 
     Args:
-        url (str): A `leetcode compensations` page.
+        page_no (int): A `leetcode compensations` page.
 
     Returns:
         List[Dict[str, str]]: List of information from the `posts`.

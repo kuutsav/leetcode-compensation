@@ -29,6 +29,7 @@ def label_rule_for_others(text: str, label_type: str) -> str:
 
     Args:
         text (str): Text from posts.
+        label_type (str): A label from LABEL_SPECIFICATION.
 
     Returns:
         str: Raw `label` match.
