@@ -8,29 +8,24 @@ Scraping and analysis of the `leetcode-compensations` page (for India).
 
 ## Reports
 
-[fixed salary - 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18.md)
-
-[total salary - 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_tc.md)
-
-[fixed salary, dark mode - 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_dark.md)
-
-[total salary, dark mode - 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_dark_tc.md)
+  - [fixed salary - 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18.md)
+  - [total salary - 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_tc.md)
+  - [fixed salary, dark mode - 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_dark.md)
+  - [total salary, dark mode - 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_dark_tc.md)
 
 ## Directory structure
 
-| Folder        | Description                                                                                  |
-| ------------- | -------------------------------------------------------------------------------------------- |
-| 1. `data`     |                                                                                              |
-| 1.1. imgs     | images for reports                                                                           |
-| 1.2. logs     | scraping logs                                                                                |
-| 1.3. mappings | standardized company, location and title mappings as well as unmapped entities               |
-| 1.4. meta     | meta information for the posts like post_id, date, title, href                               |
-| 1.5. out      | data from `info.all_info.get_clean_records_for_india()`                                      |
-| 1.6. posts    | text from the post                                                                           |
-| 1.7. reports  | salary analysis by companies, titles and experience                                          |
-| 2. `info`     | functions to parse data from posts(along with the standardized entities) in a tabular format |
-| 3. `leetcode` | scraper                                                                                      |
-| 4. `utils`    | constants and helper methods                                                                 |
+  - data
+    - imgs: images for reports
+    - logs: scraping logs
+    - mappings: standardized company, location and title mappings as well as unmapped entities
+    - meta: meta information for the posts like post_id, date, title, href
+    - out: data from `info.all_info.get_clean_records_for_india()`
+    - posts: text from the post 
+    - reports: salary analysis by companies, titles and experience 
+  - info: functions to parse data from posts(along with the standardized entities) in a tabular format
+  - leetcode: scraper
+  - utils: helper methods
 
 ## Setup
 
