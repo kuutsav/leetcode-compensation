@@ -74,19 +74,32 @@ final_bar.save(f"{IMGS_DIR}/salary_distribution_dark.png")
 comp_counter = Counter(df["company"])
 top_companies = [comp[0] for comp in comp_counter.most_common(32) if comp[0] != MISSING_TEXT_UPPER]
 
-alt.Chart(df[df.company.isin(top_companies)]).mark_bar(size=25).encode(
-    x=alt.X("company", sort="-y", axis=alt.Axis(title=None)),
-    y=alt.Y("count()", axis=alt.Axis(title="Count of Records")),
-    color=alt.value(LIGHT_BAR),
-).properties(width=900, height=350).save(f"{IMGS_DIR}/company_distribution.png")
+chart = (
+    alt.Chart(df[df.company.isin(top_companies)])
+    .mark_bar(size=25)
+    .encode(
+        x=alt.X("company", sort="-y", axis=alt.Axis(title=None)),
+        y=alt.Y("count()", axis=alt.Axis(title="Count of Records")),
+        color=alt.value(LIGHT_BAR),
+    )
+    .properties(width=900, height=350)
+)
+chart.save(f"{IMGS_DIR}/company_distribution.png")
 
-alt.Chart(df[df.company.isin(top_companies)]).mark_bar(size=25).encode(
-    x=alt.X("company", sort="-y", axis=alt.Axis(title=None)),
-    y=alt.Y("count()", axis=alt.Axis(title="Count of Records")),
-    color=alt.value(DARK_BAR),
-).properties(width=900, height=350).configure(background=DARK_BACKGROUND).configure_axisLeft(
-    labelColor="white", titleColor="white"
-).configure_axisBottom(labelColor="white", titleColor="white").save(f"{IMGS_DIR}/company_distribution_dark.png")
+chart = (
+    alt.Chart(df[df.company.isin(top_companies)])
+    .mark_bar(size=25)
+    .encode(
+        x=alt.X("company", sort="-y", axis=alt.Axis(title=None)),
+        y=alt.Y("count()", axis=alt.Axis(title="Count of Records")),
+        color=alt.value(DARK_BAR),
+    )
+    .properties(width=900, height=350)
+    .configure(background=DARK_BACKGROUND)
+    .configure_axisLeft(labelColor="white", titleColor="white")
+    .configure_axisBottom(labelColor="white", titleColor="white")
+)
+chart.save(f"{IMGS_DIR}/company_distribution_dark.png")
 
 # company x salary distribution ----------------------------------------------------------------------------------------
 bar = (
@@ -101,7 +114,8 @@ bar = (
     )
     .properties(width=850, height=800)
 )
-(bar + rule1 + rule2 + rule3).save(f"{IMGS_DIR}/company_salary_distribution.png")
+chart = bar + rule1 + rule2 + rule3
+chart.save(f"{IMGS_DIR}/company_salary_distribution.png")
 
 bar = (
     alt.Chart(df[df["company"].isin(top_companies)])
@@ -115,9 +129,14 @@ bar = (
     )
     .properties(width=850, height=800)
 )
-(bar + rule1_dark + rule2 + rule3).configure(background=DARK_BACKGROUND).configure_axis(grid=False).configure_axisLeft(
-    labelColor="white", titleColor="white"
-).configure_axisBottom(labelColor="white", titleColor="white").save(f"{IMGS_DIR}/company_salary_distribution_dark.png")
+chart = (
+    (bar + rule1_dark + rule2 + rule3)
+    .configure(background=DARK_BACKGROUND)
+    .configure_axis(grid=False)
+    .configure_axisLeft(labelColor="white", titleColor="white")
+    .configure_axisBottom(labelColor="white", titleColor="white")
+)
+chart.save(f"{IMGS_DIR}/company_salary_distribution_dark.png")
 
 # title x salary distribution ------------------------------------------------------------------------------------------
 title_counter = Counter(df["title"])
@@ -133,7 +152,8 @@ bar = (
     )
     .properties(width=800, height=600)
 )
-(bar + rule1 + rule2 + rule3).configure_point(size=8).save(f"{IMGS_DIR}/title_salary_distribution.png")
+chart = (bar + rule1 + rule2 + rule3).configure_point(size=8)
+chart.save(f"{IMGS_DIR}/title_salary_distribution.png")
 
 bar = (
     alt.Chart(df[df["title"].isin(top_titles)])
@@ -145,80 +165,116 @@ bar = (
     )
     .properties(width=800, height=600)
 )
-(bar + rule1_dark + rule2 + rule3).configure_point(size=8).configure(background=DARK_BACKGROUND).configure_axis(
-    grid=False
-).configure_axisLeft(labelColor="white", titleColor="white").configure_axisBottom(
-    labelColor="white", titleColor="white"
-).save(f"{IMGS_DIR}/title_salary_distribution_dark.png")
+chart = (
+    (bar + rule1_dark + rule2 + rule3)
+    .configure_point(size=8)
+    .configure(background=DARK_BACKGROUND)
+    .configure_axis(grid=False)
+    .configure_axisLeft(labelColor="white", titleColor="white")
+    .configure_axisBottom(labelColor="white", titleColor="white")
+)
+chart.save(f"{IMGS_DIR}/title_salary_distribution_dark.png")
 
 # yoe x salary ---------------------------------------------------------------------------------------------------------
-alt.Chart(df[(df["Years of Experience"] != MISSING_NUMERIC)]).mark_point(color="black", size=10).encode(
-    x="Years of Experience",
-    y=alt.Y("lpa", title="₹ LPA"),
-    color=alt.condition('datum.company=="AMAZON"', alt.ColorValue("orange"), alt.ColorValue("black")),
-).properties(width=800, height=600).save(f"{IMGS_DIR}/yoe_salary_distribution.png")
+chart = (
+    alt.Chart(df[(df["Years of Experience"] != MISSING_NUMERIC)])
+    .mark_point(color="black", size=10)
+    .encode(
+        x="Years of Experience",
+        y=alt.Y("lpa", title="₹ LPA"),
+        color=alt.condition('datum.company=="AMAZON"', alt.ColorValue("orange"), alt.ColorValue("black")),
+    )
+    .properties(width=800, height=600)
+)
+chart.save(f"{IMGS_DIR}/yoe_salary_distribution.png")
 
-alt.Chart(df[(df["Years of Experience"] != MISSING_NUMERIC)]).mark_point(color="white", size=10).encode(
-    x="Years of Experience",
-    y=alt.Y("lpa", title="₹ LPA"),
-    color=alt.condition('datum.company=="AMAZON"', alt.ColorValue("orange"), alt.ColorValue("white")),
-).properties(width=800, height=600).configure(background=DARK_BACKGROUND).configure_axis(grid=False).configure_axisLeft(
-    labelColor="white", titleColor="white"
-).configure_axisBottom(labelColor="white", titleColor="white").save(f"{IMGS_DIR}/yoe_salary_distribution_dark.png")
+chart = (
+    alt.Chart(df[(df["Years of Experience"] != MISSING_NUMERIC)])
+    .mark_point(color="white", size=10)
+    .encode(
+        x="Years of Experience",
+        y=alt.Y("lpa", title="₹ LPA"),
+        color=alt.condition('datum.company=="AMAZON"', alt.ColorValue("orange"), alt.ColorValue("white")),
+    )
+    .properties(width=800, height=600)
+    .configure(background=DARK_BACKGROUND)
+    .configure_axis(grid=False)
+    .configure_axisLeft(labelColor="white", titleColor="white")
+    .configure_axisBottom(labelColor="white", titleColor="white")
+)
+chart.save(f"{IMGS_DIR}/yoe_salary_distribution_dark.png")
 
 
 # yoe_bucket x salary --------------------------------------------------------------------------------------------------
-alt.Chart(
-    df[(df["Years of Experience"] != MISSING_NUMERIC) & (df["Years of Experience (bucket)"] != "15+")]
-).mark_boxplot(color="grey", size=40).encode(
-    x="Years of Experience (bucket)",
-    y=alt.Y("lpa", title="₹ LPA"),
-    color=alt.value(LIGHT_BAR),
-).properties(width=800, height=500).save(f"{IMGS_DIR}/yoebucket_salary_distribution.png")
-
-alt.Chart(
-    df[(df["Years of Experience"] != MISSING_NUMERIC) & (df["Years of Experience (bucket)"] != "15+")]
-).mark_boxplot(color="grey", size=40).encode(
-    x="Years of Experience (bucket)",
-    y=alt.Y("lpa", title="₹ LPA"),
-    color=alt.value(DARK_BAR),
-).properties(width=800, height=500).configure(background=DARK_BACKGROUND).configure_axisLeft(
-    labelColor="white", titleColor="white"
-).configure_axisBottom(labelColor="white", titleColor="white").save(
-    f"{IMGS_DIR}/yoebucket_salary_distribution_dark.png"
+chart = (
+    alt.Chart(df[(df["Years of Experience"] != MISSING_NUMERIC) & (df["Years of Experience (bucket)"] != "15+")])
+    .mark_boxplot(color="grey", size=40)
+    .encode(
+        x="Years of Experience (bucket)",
+        y=alt.Y("lpa", title="₹ LPA"),
+        color=alt.value(LIGHT_BAR),
+    )
+    .properties(width=800, height=500)
 )
+chart.save(f"{IMGS_DIR}/yoebucket_salary_distribution.png")
+
+chart = (
+    alt.Chart(df[(df["Years of Experience"] != MISSING_NUMERIC) & (df["Years of Experience (bucket)"] != "15+")])
+    .mark_boxplot(color="grey", size=40)
+    .encode(
+        x="Years of Experience (bucket)",
+        y=alt.Y("lpa", title="₹ LPA"),
+        color=alt.value(DARK_BAR),
+    )
+    .properties(width=800, height=500)
+    .configure(background=DARK_BACKGROUND)
+    .configure_axisLeft(labelColor="white", titleColor="white")
+    .configure_axisBottom(labelColor="white", titleColor="white")
+)
+chart.save(f"{IMGS_DIR}/yoebucket_salary_distribution_dark.png")
 
 # top_companies x salary -----------------------------------------------------------------------------------------------
 top_c = ["GOOGLE", "AMAZON", "MICROSOFT", "UBER"]
 
-alt.Chart(
-    df[
-        (df["Years of Experience"] != MISSING_NUMERIC)
-        & (df["company"].isin(top_c))
-        & (df["Years of Experience (bucket)"] != "15+")
-    ]
-).mark_boxplot(color="grey", size=10).encode(
-    x=alt.X("company", title=None),
-    y=alt.Y("lpa", title="₹ LPA"),
-    color="company",
-    column=alt.Column("Years of Experience (bucket)"),
-).properties(width=150, height=500).save(f"{IMGS_DIR}/top_companies_salary_distribution.png")
-
-alt.Chart(
-    df[
-        (df["Years of Experience"] != MISSING_NUMERIC)
-        & (df["company"].isin(top_c))
-        & (df["Years of Experience (bucket)"] != "15+")
-    ]
-).mark_boxplot(color="grey", size=10).encode(
-    x=alt.X("company", title=None),
-    y=alt.Y("lpa", title="₹ LPA"),
-    color="company",
-    column=alt.Column("Years of Experience (bucket)"),
-).properties(width=150, height=500).configure(background=DARK_BACKGROUND).configure_legend(
-    labelColor="white", titleColor="white"
-).configure_axisLeft(labelColor="white", titleColor="white").configure_axisBottom(
-    labelColor="white", titleColor="white"
-).configure_axisTop(labelColor="white", titleColor="white").save(
-    f"{IMGS_DIR}/top_companies_salary_distribution_dark.png"
+chart = (
+    alt.Chart(
+        df[
+            (df["Years of Experience"] != MISSING_NUMERIC)
+            & (df["company"].isin(top_c))
+            & (df["Years of Experience (bucket)"] != "15+")
+        ]
+    )
+    .mark_boxplot(color="grey", size=10)
+    .encode(
+        x=alt.X("company", title=None),
+        y=alt.Y("lpa", title="₹ LPA"),
+        color="company",
+        column=alt.Column("Years of Experience (bucket)"),
+    )
+    .properties(width=150, height=500)
 )
+chart.save(f"{IMGS_DIR}/top_companies_salary_distribution.png")
+
+chart = (
+    alt.Chart(
+        df[
+            (df["Years of Experience"] != MISSING_NUMERIC)
+            & (df["company"].isin(top_c))
+            & (df["Years of Experience (bucket)"] != "15+")
+        ]
+    )
+    .mark_boxplot(color="grey", size=10)
+    .encode(
+        x=alt.X("company", title=None),
+        y=alt.Y("lpa", title="₹ LPA"),
+        color="company",
+        column=alt.Column("Years of Experience (bucket)"),
+    )
+    .properties(width=150, height=500)
+    .configure(background=DARK_BACKGROUND)
+    .configure_legend(labelColor="white", titleColor="white")
+    .configure_axisLeft(labelColor="white", titleColor="white")
+    .configure_axisBottom(labelColor="white", titleColor="white")
+    .configure_axisTop(labelColor="white", titleColor="white")
+)
+chart.save(f"{IMGS_DIR}/top_companies_salary_distribution_dark.png")
