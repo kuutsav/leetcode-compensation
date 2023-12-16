@@ -8,15 +8,15 @@ Scraping and analysis of the `leetcode-compensations` page (for India).
 
 ## Reports
 
-  - [Fixed salary: 29th Dec 2022 - 17th Dec 2023](data/reports/report_2022_12_29_to_2023_12_17.md)
-  - [Total salary: 29th Dec 2022 - 17th Dec 2023](data/reports/report_2022_12_29_to_2023_12_17_tc.md)
-  - [Fixed salary(Dark mode): 29th Dec 2022 - 17th Dec 2023](data/reports/report_2022_12_29_to_2023_12_17_dark.md)
-  - [Total salary(Dark mode): 29th Dec 2022 - 17th Dec 2023](data/reports/report_2022_12_29_to_2023_12_17_dark_tc.md)
+-- [Fixed salary: 29th Dec 2022 - 17th Dec 2023](data/reports/report_2022_12_29_to_2023_12_17.md)<br>
+-- [Total salary: 29th Dec 2022 - 17th Dec 2023](data/reports/report_2022_12_29_to_2023_12_17_tc.md)<br>
+-- [Fixed salary(Dark mode): 29th Dec 2022 - 17th Dec 2023](data/reports/report_2022_12_29_to_2023_12_17_dark.md)<br>
+-- [Total salary(Dark mode): 29th Dec 2022 - 17th Dec 2023](data/reports/report_2022_12_29_to_2023_12_17_dark_tc.md)
 
-  - [Fixed salary: 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18.md)
-  - [Total salary: 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_tc.md)
-  - [Fixed salary(Dark mode): 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_dark.md)
-  - [Total salary(Dark mode): 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_dark_tc.md)
+-- [Fixed salary: 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18.md)<br>
+-- [Total salary: 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_tc.md)<br>
+-- [Fixed salary(Dark mode): 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_dark.md)<br>
+-- [Total salary(Dark mode): 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_dark_tc.md)
 
 ## Setup
 
