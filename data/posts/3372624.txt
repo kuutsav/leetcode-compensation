@@ -1,0 +1,8 @@
+Education: MS Stats Top 10 US
+Years of Experience: NG
+Company: Microsoft
+Title/Level: Data Scientist
+Location: Sunnyvale
+Salary: 140000
+Joining bonus: 70000
+RSU: 140000 USD over four years

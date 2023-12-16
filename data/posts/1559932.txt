@@ -1,3 +1,0 @@
-Base: 145k
-RSU: 150k in 4 years
-Bonus: 12-15%

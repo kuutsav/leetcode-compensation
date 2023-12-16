@@ -1,9 +1,0 @@
-Education: BTech Tier 3
-Prior Experience: Service & Product startup
-Previous CTC: 15 LPA fixed + 10% variable
-Date of Offer: Aug 2021
-YOE: 2.1
-Role: Frontend developer
-Offer: 17 LPA fixed
-Status: Rejected as had better offer from AirtelXLabs
-https://leetcode.com/discuss/compensation/1453135/senior-software-engineer-frontend-airtel-x-labs/1077390

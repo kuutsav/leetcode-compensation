@@ -1,0 +1,28 @@
+Interview / Salary Structure :
+College/Course : Btech ( Tier 1)
+Experience : 0 Years
+Post : Trainee Software Engineer ( Java - Backend Developer )
+Tech Stack - JAVA , Spring , SpringBoot
+Location : Gurgaon CyberCity (Hybrid - 2 days/week in office)
+CTC : 15 LPA (13 Base + 2 Joining Bonus) + Incentives ( monthly wifi+internet reimbursements , parking reim , Cult+Fitternity membership + free food + macbook pro + much more )
+Interview Experience :
+                                   1st Round - Online Assessment (90 mins) ( 4 DSA Questions - Medium-Hard)
+
+                                   2nd Round - Technical Round 1 (60 mins) ( Leetcode Medium 2 DSA Questions +  
+           Core ( Multithreading , Sql Queries , DBMS , OOPS))
+           
+           3rd Round - Technical Round 2 (60 mins) ( Purely Focused on JAVA/ SpringBoot(if  
+           you know) else only JAVA - Core JAVA , OOPS , Inheritence Output Questions ,  
+           Multithreading , Collection Framework based Implementation , etc) 1 DSA leetcode  
+           Medium Question and some SQL Queries)
+           
+           4th Round - Managerial Round (45mins - 1hr) ( Project Based Questions From 
+           Resume and Tech Stack Mentioned in Resume , Some Puzzles (can refer GFG 
+           puzzles + some extra) , Managerial Situation Based Questions , Culture Fit 
+           Questions)
+           
+           5th Round - HR Round ( 15 mins ) (Easy HR based Questions and some Introduction)
+           
+           Verdict - Selected
+           
+           Feel free to ask any doubts in comments

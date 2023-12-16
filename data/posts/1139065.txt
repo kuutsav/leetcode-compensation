@@ -1,9 +1,0 @@
-Education: BE in Information Technology
-Years of Experience: 0
-Prior Experience: Web Developer Intern @ HSPM Solutions
-Date of the Offer: 23rd November, 2019
-Company: WinZO Games
-Title/Level: SDE Intern
-Location: New Delhi, India
-Stipend: 25,000 INR monthly
-Duration: Jan'2020-May'2020 (Approx 5 months)

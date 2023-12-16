@@ -1,0 +1,15 @@
+Education: Masters in Physics
+Years of Experience: 10
+Prior Experience: SRE at non-FAANG 7 years, Meta 3 years
+Date of the Offer: March 2023
+Company: Google
+Title/Level: SRE L4
+Location: London, UK
+Salary: 95k GBP
+Relocation/Signing Bonus: 10k GBP sign-on
+Stock bonus: 170k USD over 4 years
+Bonus: 15%
+Total comp (Salary + Bonus + Stock): around 150k GBP, I guess
+Benefits: standard Google package
+Other details: Negotiated once. Got much better offers, but they managed to go only a little bit higher (90k -> 95k base, and a bit more stocks). Also team match lasted a few months, not many teams are hiring. Did a regular coding interview, not the SRE-specific one, 100% of questions were from Leetcode
+Quite a lowball offer for my experience, so didn't accept it. Don't blame Google, my interview performance was mediocre.

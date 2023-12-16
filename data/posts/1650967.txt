@@ -1,9 +1,0 @@
-College: Tier-1
-Years of Experience: 12 years
-Current Organisation : FAANG
-Base Salary: INR 60 lakhs
-Equity: 275k USD in 4 years (33-33-22-12)%
-Signing bonus: 10 lakhs first year
-Target bonus : 15% of Base
-Total comp (Base Salary + Stock + Perf Bonus + Employer PF): ~INR 1.45cr 1st year
-Interview Experience : https://leetcode.com/discuss/interview-experience/1618053/google-l5-india-dec-2021-offer/1194845

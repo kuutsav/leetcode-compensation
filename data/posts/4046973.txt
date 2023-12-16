@@ -1,0 +1,21 @@
+Education: B.Tech
+Years of Experience: 5
+Current :
+Company: Thoughtworks
+Title/Level: Senior Software Engineer
+Location: India
+Salary: 19.6 Lakhs INR
+Microsoft Banglore :
+Level: L61
+Base 32 Lakhs
+Stock bonus: $100K stock grant vested over 4 years ==> ~20 Lakhs per year
+Bonus: Performance-based bonus up to 10% of salary every year
+Sign-on bonus : 6 Lakhs for first year and 6 Lakhs for second year
+Total comp (Salary + Stock + Sign-on bonus + performance Bonus ): (32 + 20 + 6 + 3) = 61 Lakhs per year.
+Stripe Banglore :
+Base: 45 Lakhs
+Stock bonus: $36K stock grant (YEARLY RECURRING GRANT) ==> ~29 Lakhs per year
+Bonus: Performance-based bonus up to 10% of salary every year
+Total comp (Salary + Stock + performance Bonus ): (45 + 29 + 4.5) = ~ 78 Lakhs per year.
+Can someone please share if the Microsoft offer is good for 5 years of experience ?
+Also if anyone has worked at Stripe ? Is it worth joining ? I have heard very mixed/bad reviews about Stripe being hectic and all.

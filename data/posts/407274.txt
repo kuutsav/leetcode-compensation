@@ -1,9 +1,0 @@
-Education: BS in Computer Science
-Years of Experience: 0
-Prior Experience: 1 year of internship experience
-Company: Microsoft
-Title/Level: SDE1
-Location : Redmond, Seattle
-Base : $110K with potential 20% annual bonus
-Signing Bonus : $45K
-Stocks : $120K vested over 3.5 years

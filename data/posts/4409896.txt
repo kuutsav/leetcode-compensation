@@ -1,0 +1,10 @@
+SWE Intern Offer (team undecided)
+Pay: 42.26/hr with 63.26/hr overtime
+HCOL
+Benefits: Orientation Program, Intern Outings ( Sports, Museums, Parks), Discounts for Tourists Attractions(think theatres, museums, concerts), and company merch.
+Interview Process:
+Cover Letter, Resume,
+OA: 2 Leetcode problems (1 easy, 1 medium) commented a walkthrough of my though process throughout my code (done through hackerrank)
+Hackathon
+Thoughts:
+Whole process took about 4 months (OA through offer took about 2 months). Recruiting team was friendly and happy to walk through the process with anyone who had questions. From other peoples notes on the internet the hackathon was used to access your ability to work with a team, presentation/standup skills, quality of work contributed to team efforts. I personally would note that it's work making connections with your team, mentors, and recruiters.

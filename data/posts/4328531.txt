@@ -1,0 +1,3 @@
+Hi guys,
+Recently, I have been impacted by lay offs in my organization. I am actively looking for SDE-2 Role. I was working as Senior Software Engineer-Backend with around 3.5 year of work experience. My tech stack includes Node, Python, Docker, Django, ElasticSearch, MySQL, DynamoDb, AWS etc. If you know about any opening or you can refer me. Please let me know..
+Looking forward to hear from the Leetcode community in this tough time. :)

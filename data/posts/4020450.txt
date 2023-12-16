@@ -1,0 +1,5 @@
+qualifications : btech passouts 2025
+branches : all
+cg : 7
+stipend : 1.25 lakh per month
+role : 2 month swe summer intern

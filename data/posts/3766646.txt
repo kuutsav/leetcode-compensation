@@ -1,0 +1,12 @@
+Years of Experience - 2 years
+Company: Payu Credit
+Title : SE (backend)
+Offer Date : July 2023
+Location : Banglore
+Base Salary : 16.5 LPA
+Bonus : 10% of base
+Previous Experience : Startup
+Previous Title : SDE 1
+Previous Salary: 8.6 LPA(base)
+Is payu worth it to join ?
+Interview-experience: https://leetcode.com/discuss/interview-experience/4265940/Payu-oror-Software-Engineer-oror-July-2023-oror-Accepted

@@ -1,8 +1,0 @@
-Education: 4 years BE
-Joining: March 2020
-Company: Salesforce.com
-Position: Senior Technical Consultant
-Experience: 2.8 years
-Compensation: 20.34LPA
-Bonus: 2 Lakhs
-Stoks: 15lakhs RSU vested over 4years

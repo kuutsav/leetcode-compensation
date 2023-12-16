@@ -1,0 +1,16 @@
+AMDOCS ONCAMPUS HIRING
+online coding question:
+2 question leetcode easy-medium
+Technical Interview 1
+2 question
+Q1. find the number of consecutive number of 0's subarray in given array
+Q2. LEVEL order traversal of BT followed by ZIG-ZAG traversal
+Technical Interview 2
+Basic CS fundamentals
+Questions about framework that i've used
+1 medium DS based question
+HR
+Typical HR type Question
+why do you want to join, What changes you'll bring to company
+situation based question
+verdict : SELECTED

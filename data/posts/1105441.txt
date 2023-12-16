@@ -1,9 +1,0 @@
-from collections import Counter
-class Solution:
-def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-d1 = Counter(magazine)
-d2 = Counter(ransomNote)
-for i in d2:
-if d2[i] > d1[i]:
-return False
-return True

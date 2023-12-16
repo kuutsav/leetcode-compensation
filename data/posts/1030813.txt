@@ -1,9 +1,0 @@
-Education: B.Tech in CS
-Years of Experience: 0
-Prior Experience: 1 internship
-Date of the Offer: January 2020
-Company: Harness
-Title/Level: SDE Intern
-Location: India
-Salary: ₹70K/mo
-Benefits: N/A

@@ -1,0 +1,14 @@
+Education: B.Tech from IIIT
+Years of Experience: 0 years
+Company: ZScaler
+Title: Developer C/C++
+Level: Internship+FTE
+Location: Bangalore
+Base Salary: INR 14,00,000
+Bonus: INR 2,00,000
+Stock bonus: 15K USD RSU's
+Total: ~ INR 26,50,000
+Bond: No
+Mode: Online
+Selection process
+Pre-Placement Talk-> Hacker Rank Test-> 2-3 Technical Interview Rounds-> HR round

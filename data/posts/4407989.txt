@@ -1,0 +1,8 @@
+Education : Btech in CSE
+Prior Experience : Internships
+Type : Intern + Performance based PPO
+Salary : 30k INR per month
+College : Tier 2.5 (GFTI)
+Date : 2023
+Location : Gurugram (Hybrid)
+We were asked to apper for in office SWE test (DSA based), on successful completion of which we would be given PPOs. Around 72 out of 151 of us completed the test, but only 21 were given PPO due to recession. Their joining is yet to be announced.

@@ -1,0 +1,2 @@
+Hi , i have an technical interview coming up with Heroku (salesforce) team for Lead MTS , and they didnt give any information about it , but its 2 hours pair programming session , anyone went through this , or what type of questions will be asked, any leads would be appreciated
+#salesforce #heroku # #interviewprep

@@ -1,0 +1,15 @@
+Education: Computer Engineering, BS (Low Tier UC)
+Years of Experience: 0
+Prior Experience: 1 technical marketing internship
+Company: Amazon
+Title/Level: SDE 1
+Location: Unknown until 90 days before start date (Most likely Seattle)
+Salary: $108,000
+Relocation/Signing Bonus: $10k lump sum or $2.5 stipend + Amazon pays for your move
+Stock bonus: $70,000 vested on a 4 year schedule of 5%/15%/40%/40%
+Bonus:
+$24,000 for 1st year.
+$20,000 for 2nd year.
+Total comp (Salary + Bonus + Stock): $145,000 ($10k reloc)/$138,000/$136,000/$136,000
+Benefits: 401k, health and welfare, vacation
+Other details: Completed 75 Leetcode questions in preparation for the interview.

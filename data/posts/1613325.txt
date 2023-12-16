@@ -1,9 +1,0 @@
-Education: BS in Electrical Engineering and Computer Science at T10 University
-Years of Experience: 1
-Prior Experience: Intern at AWS
-Date of the Offer: December 2021
-Company: Coinbase
-Title/Level: Software Engineer Intern
-Location: Remote-first, but option to work at any office
-Salary: $50/hr
-Benefits: $75 monthly wellness stipend, $125 monthly internet stipend, $500 one time WFH stipend

@@ -1,0 +1,2 @@
+Many people use binary searches from childhood without being aware of it.
+For Example, when you search for words in a dictionary ,list , set tuple, all variable , you dont review all the words you just check one word in the middle and thus narrow down the set of remaining words tocheck

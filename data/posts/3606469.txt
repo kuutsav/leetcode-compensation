@@ -1,0 +1,8 @@
+Company: Infosys
+Title/Level: Specialist Programmer
+Location: Bangalore/WFH
+Salary: 950000 rupees
+Relocation: 0 rupees
+Bonus: Performance-based bonus 58% fixed of 11000 every quatar
+Total comp (Salary + Bonus): 950000 rupees
+Benefits: Health insurance, Soft loan, Other offer on Infy Advantage

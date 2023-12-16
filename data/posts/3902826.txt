@@ -1,0 +1,13 @@
+I gave the IBM interview on campus. Lets share experiences.
+OA-->Aptitute,OS,COA,CN,3 coding questions
+Interview->
+Technichal-->Interviewer asked me to
+1)Transpose of matrix(just told me to compete function)
+2) Reverse linked list
+3) Find missing number without extraa space(number from 0 to n) one number is missing.
+3)Different stage of compiler and little bit explanation
+4)Little endian and Big endian
+5)all above programming question is availiable onleetcode
+HR--
+As expected,introduce yourself(prepare well in advance),puzzle 3 bulb and find switch of each bulb(availible on internet).
+Thanks.

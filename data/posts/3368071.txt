@@ -1,0 +1,69 @@
+I received this problem on-site at Atlassian for an SWE intern position. We spent about half an hour on this problem.
+I want to contribute this question because there are multiple solutions using different techniques (i.e. dsu, math) that perform better than the brute force solution. I think this question would be a LeetCode Medium.
+Description
+Given an array A of size n, where A[i] denotes the student number (A[i]=i, for all 1<=i<=n). Given another array B of size n such that i­­­­th student of array A is the friend of the ith student of array B ( i.e, A[i] and B[i] are friends) and a student can ask doubt his friend. You have to tell that is the doubt of student ‘K’ will be solved in less than T minutes or not? (If a student ‘X’ asks doubt to student ‘Y’, it takes one minute time and if student ‘Y’ don’t know the answer, he can ask his friend.
+If any student asks the doubt to himself, then he got the answer in just one minute.
+Note
+Note that Time will be consumed only in asking the doubt, not in answering.
+Example:
+Given n=7,A = [1,2,3,4,5,6,7,8], B=[5,1,1,3,7,5,7,7],K=4 and T=6
+Output will be 1.
+Explanation
+Given array A is 1 2 3 4 5 6 7 8
+Given array B is 5 1 1 3 7 5 7 7
+      K=4 and T=6
+Now,
+At T= 0, student 4 will ask doubt to student 3 because 3 is the friend of 4.
+At T= 1, student 3 will ask doubt to student 1 because 1 is the friend of 3.
+At T= 2, student 1 will ask doubt to student 5 because 5 is the friend of 1.
+At T= 4, student 5 will ask doubt to student 7 because 7 is the friend of 5.
+At T= 5, student 7 will ask doubt to student 7 because 7 is the friend of 7 and as student 7 is friend of itself he gets the answer and pas back to student K(4) through the friends of friend.
+So, the student K will get his answer within T(6) minutes because he takes only 5 minutes to solve his doubt.
+Hence, result will be 1.
+Solutions
+Use the concept of disjoint set and try to find a student who is friend of itself.
+If you get such student within T minutes, return 1, otherwise return -1.
+#include
+#include<bits/stdc++.h>
+using namespace std;
+bool find(int K,int B[],int cnt,int T)
+{
+if(K == B[K])
+{
+if(cnt<T)
+return true;
+else
+return false;
+}
+if(cnt>=T)
+return false;
+return find(B[K],B,cnt+1,T);
+}
+int doubtSolver(int n,int A[],int B[],int K,int T)
+{
+bool res=find(K,B,1,T);
+if(res==true)
+return 1;
+else
+return -1;
+}
+int main()
+{
+int n;
+cin>>n;
+int A[n+1],B[n+1];
+for(int i=1;i<=n;i++)
+cin>>A[i];
+for(int i=1;i<=n;i++)
+cin>>B[i];
+int K,T;
+cin>>K>>T;
+int res=doubtSolver(n,A,B,K,T);
+cout<<res;
+return 0;
+}
+Test Cases
+Input: n=7,A = [1,2,3,4,5,6,7,8], B=[5,1,1,3,7,5,7,7],K=4 and T=6
+Output: 1
+Input: n=6,A = [1,2,4,3,5,6], B=[1,3,2,1,5,6],K=3 and T=2
+Output: -1

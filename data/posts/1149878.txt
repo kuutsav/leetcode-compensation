@@ -1,9 +1,0 @@
-Education: BE
-Years of Experience: 2.9 yr
-Company: IBM ISL
-Title/Level: Senior Cloud Software Developer
-Location: Bangalore
-Salary: 21.4L fixed
-Relocation/Signing Bonus: 2 Lakh
-Bonus: Not included in offer
-Total comp (Salary + Bonus + Stock): 23L

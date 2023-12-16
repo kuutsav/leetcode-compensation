@@ -1,0 +1,7 @@
+Company : ThoughtSpot
+Type: Summer Intern
+Eligible Batch : 2024
+Role : Developer - Engineering Trainee
+Stipend : 40k/month
+BRANCH : B.Tech - CSE, ECE, EE
+Eligibility: CGPA 7+

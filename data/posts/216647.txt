@@ -1,9 +1,0 @@
-Education: BS + MS in Tsinghua University
-Years of Experience: New grad
-Prior Experience: Internship at Bytedance
-Company: indeed.com
-Title/Level: SDE
-Location: Tokyo, JP
-Salary: around 100k
-Relocation: CN to Tokyo, JP
-Stock bonus: None

@@ -1,0 +1,25 @@
+Year passout 2021
+Prior Exp : 6 Months at some company
+Salary offered
+18LPA base + 35k Variable + 11LPA ESOPS (for 4 years , 25% vesting each year)
+Free Food
+Office Cab
+Medical insurance and other benefits
+Interview Exp ---
+Online Round (Platform I'm not able to re-call but it was not Hackerearth/Hackerrank)
+MCQ (CS fundamentals)
+2 DS Algo Question ( Medium Leetcode)
+Also, there were questions about Javascript, HTML, CSS.
+Coding Round -1
+Leetcode Medium Problem - https://leetcode.com/problems/asteroid-collision/description/
+Dynamic Programming Problem - Longest Palindromic Substring
+Coding Round -2
+Some Tree Question Node Able to Re-call but was Medium
+https://leetcode.com/problems/copy-list-with-random-pointer/
+Hiring Manager Round
+1 DS problem not able to re-call
+Project Discussion
+Situational and behavioural question
+HR - Round
+2 Situational and behavioural question were asked
+I hope it helps!!

@@ -1,0 +1,5 @@
+Base: 18lpa
+Signon Bonus: 50k
+Location: Bangalore
+YOE: 3.5
+total Compenstation:18 fixed+1lakh variable+50 bonus

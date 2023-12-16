@@ -1,8 +1,0 @@
-Education: B.Tech. Computer Engineering from Tier 3 college
-Years of Experience: 9 months
-Prior Experience: Worked at a FinTech firm as a fresher
-Title/Level: SDE I (L4)
-Fixed Salary: ₹1,550,000
-Joining Bonus: ₹450,000 (1st year), ₹260,000 (2nd year)
-Stocks: 5 RSUs (5%, 10%, 40%, 40%)
-Total comp (Salary + Bonus + Stock): ₹2,050,000 (1st year)

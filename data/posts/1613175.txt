@@ -1,9 +1,0 @@
-Education: CSE
-YOE: 1.5
-Company: Google
-Level: L3
-Base: 22,00,000
-Bonus: 10% of base
-Stock: 90k over 4 years and frontloaded
-Joining: 2,20,000
-Relocation: Got a mail from Cartus with relocation package / cash out option.

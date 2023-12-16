@@ -1,0 +1,3 @@
+Base salary : 40lacs
+Bonus : 10lacs
+Total CTC : 40 + 10 = 50

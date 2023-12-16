@@ -1,0 +1,21 @@
+Total YOE: 8 Years
+College: Tier 5
+Prev Org: Product Based E-Commerce
+Prev Comp
+Base: 36
+Variable: 6
+Stocks : $5K
+Salary Offered
+Company: Mckinsey
+Position : Senior Engineer 2
+Base Pay: 48 LPA
+Variable : 6 LPA
+Sign-on: 5.24 Lacs ( 2Y Pro-rata clawback clause )
+Total Comp for 12 Months: ~59 LPA
+Decided to join as there's nothing much going on and current org doesn't want to shed more money.
+Preparation
+Leetcode : 150+
+System Design: Alex Xu, Designing Data Intensive Applications, Blogs
+Setbacks along the way
+Was looking to join Index Exchange but India counter part said I haven't cleared the last round after US Team scheduled the meeting. Strange time to live in.
+Already prepared for Amazon Canada while they decided to cancel the process midway.

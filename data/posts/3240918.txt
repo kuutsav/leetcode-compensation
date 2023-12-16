@@ -1,0 +1,11 @@
+Education: B.Tech
+Current experience: NIL/
+Date of the Offer: Sept 2022
+Company: Paytm
+Title: Software Engineer
+Location: Bangalore/Noida
+Total comp : INR 12 LPA
+Benefits: Meal Coupons, Mediclaim, Stocks
+Total rounds: 4(1 Coding round+ 2 Technical Rounds of Interviews+ HR round)
+Difficulty Level: Easy to Medium
+Topics asked: DSA coding question, OOPS, OS, DBMS, Projects.

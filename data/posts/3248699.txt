@@ -1,0 +1,17 @@
+All offer posts must follow this template:
+Education: 2020
+Years of Experience: 2.5 years
+Prior Experience: Top MNCs
+Date of the Offer: March 2023
+Company: Service now
+Title/Level: IC2
+Location: Hyderabad
+Salary: 23 base 1.6 PF 10% Performance Bonus
+Relocation/Signing Bonus: nil
+Stock bonus: 35k USD ( 4 years vesting, 25% each year)
+Total comp (Salary + Bonus + Stock): around 35 lpa for first year
+Benefits: standard service now benefits
+**
+Interview experience - https://leetcode.com/discuss/interview-experience/3248673/Service-Now-IC2-interview-experience-Feb-2023
+Other details: I am yet to share the offer of a startup for 30 base (36 TC) It would be great if
+someone can provide insights how much can I ask after showing the competing offer. **

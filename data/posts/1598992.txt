@@ -1,7 +1,0 @@
-College: CSE, Tier 1
-YOE: 0
-Basic pay: 17 lpa
-Signing bonus: 3 L
-Variable bonus: 1 L
-Stock: 9 L ( 4 year vest period )
-Other Benefits: Medican Insurance upto 3L , free transport

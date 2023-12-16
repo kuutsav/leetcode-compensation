@@ -1,9 +1,0 @@
-Education: MS in CS
-Experience: 3-Months Summer Internship at ADP , 6 month Fall-Spring Internship at a startup
-Date of the Offer(Start Date): Feb 2021
-Company: ADP
-Title/Level: Associate Application Developer
-Location: Roseland, NJ
-Salary: $80,000
-Signing Bonus: $10,000
-Bonus: Performance-based bonus average 2-5% of salary every year

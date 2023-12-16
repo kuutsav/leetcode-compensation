@@ -1,0 +1,9 @@
+Education: Bachelor from Tier-1
+Years of Experience: 0
+Company: Societe Generale
+Title/Level: SDE 1
+Location: bangalore,India
+Salary: INR 16,00,000 (Base)
+Variable Bonus: INR 4,00,000
+PF, Gratuity and others: INR 1,70,000
+Total Compensation: 16 (Base) + 4 (Variable) + others(1.7) = 21.7LPA

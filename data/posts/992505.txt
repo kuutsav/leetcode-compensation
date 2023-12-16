@@ -1,5 +1,0 @@
-PMTS - In Bellevue
-base : 225k
-stock : 550K for 4 years
-sign on : 100 split in to 2 years
-bonus : 20%

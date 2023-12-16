@@ -1,0 +1,11 @@
+Experience: 2.5 years from a FINTECH firm.
+College: Tier-1 (Non-Circuital)
+Graduated: 2020
+Prev CTC: 25.7 (20.5 base+5Variable+BS)
+Current CTC: 25.5 (base)+2lakh JB + 25lakhs ESOPs(4 years)
+First year CTC: 25.5+2+6.25 => 33.75
+P.S:- I know that I am lowballed heavily. But I had to accept because my previous 2.5 years of exp has been an utter waste of time. 0 learning curve as I was moved into a b.s project. I started applying without even preparing.
+Interview Exp:- First Round -> DSA (2 questions. Medium and easy). Little bit of Design Patterns
+Second Round: Design ROund (HLD + LLD):- was asked question related to LFU cache and Feed Desig of twitter
+Third Round: Hiring Manager Round : Past experience based questions and why you want to work at the company.
+Edit: I am joining because the company offered a better tech stack and startup environment. Tech Stack=> Spring Boot + python along with Postgre/MongoDB, Kafka and Elastic Search. All these cool technologies were not present in my current firm. Plus Embibe deals with millions with users so I will learn how to scale and manage lare user base systems. It is an opportunity to start from fresh. Atleast I hope so. Also in the CTC variable component is not mentioned. So maybe my first year CTC is more than what I am expecting :).

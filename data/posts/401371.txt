@@ -1,8 +1,0 @@
-Education: MSCS
-Prior Experience: 2 years software engineering
-Company: Amazon
-Title/Level: SDE
-Location: Seattle
-Salary: 112K
-Relocation/Signing Bonus: 26k (first year), 22k (second year)
-Stock bonus: 80k for 4 years

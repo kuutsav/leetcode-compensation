@@ -1,9 +1,0 @@
-Education: B. Tech in Computer Science (Tier 3)
-Years of Experience: 0 (Fresher)
-Prior Experience: Full Stack Developer Internship at 2 Early Stage Startups, GSoC Student
-Date of the Offer: September 2021
-Internship period - September 2021 - February 2021
-Company: Trell
-Title/Level: SDE Intern
-Location: Remote
-Stipend: ₹40,000 per month

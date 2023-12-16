@@ -1,0 +1,9 @@
+Respected community seniors, peers and fellow members. Writing this post to get a rough idea on what my salary structure should look like keeping in mind the details shared below. Kindly spare some time and guide me. I have started using leetcode couple of days back.
+[ Recently few events had happened that has forced me to relook and enhance my salary. I am facing rejections quoting that Engineers of your age are earning 3x/4x/5x of your current. I never thought that I have to write such a post and I was content with my current salary, but i believe now my salary needs to change. Kindly Ignore the post if its Inappropriate for you and not the right place for seeking answers and advice ]
+YOE: 4 years
+Current title: Software Engineer
+Current compensation(INR): 14 LPA (13lpa fixed + 1lakh yearly bonus), No other bonuses.
+Tech stack: Backend technologies - Java, Springboot, Microservices , Kafka etc
+Graduation: Btech in Computer Science , 2019 passout (tier 3 college)
+Age: 28 years male
+Is 3x/4x/5x of current salary expected out of 4YOE candidate with skilled mentioned above as an ideal compensation in 2023 ?

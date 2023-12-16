@@ -1,0 +1,6 @@
+College: Tier-lI
+selection : on-campus
+compensation : 1,14,000 per month.
+mode : offline
+perks : free food and accommodation for the entire duration of the internship I guess.
+Interview rounds : 2

@@ -1,9 +1,0 @@
-Education: Bachelors in CS, tier 1 college
-Experience: 6 month intern experience
-date of the Offer: July, 2021
-Title/Level: Software Engineer (SDE equivalent)
-Location: Bangalore
-Salary: 14 LPA
-Relocation/Signing Bonus: 50k reimbursement for hotel/flight bills, no signing bonus
-Stock Bonus: ~2.5L divided equally over 4 years
-Total Comp: ~14.6L for the first year

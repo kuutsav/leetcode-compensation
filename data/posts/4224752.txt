@@ -1,0 +1,15 @@
+All offer posts must follow this template:
+Education: University of Washington
+Years of Experience: 3
+Prior Experience: Google, Accenture, Atlassian Internship
+Date of the Offer: Just over a week ago
+Company: Boeing
+Title/Level: Software Development Engineer in Test
+Location: Oklahoma City, USA
+Salary: 70k
+Relocation/Signing Bonus: 10k
+Stock bonus: 70k/year over 5 years
+Bonus: 10k per year
+Total comp (Salary + Bonus + Stock): 140k this year
+Benefits: Healthcare, Food, Housing Stipend, Relocation
+Other details: Received after referral. Previous internships at Google, Accenture, and Atlassian.

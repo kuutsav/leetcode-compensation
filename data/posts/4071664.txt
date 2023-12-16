@@ -1,0 +1,11 @@
+YOE: 5
+Prev Prod based company comp:
+Base: 36
+Bonus: 11
+MSFT:
+Base: 40
+JB: 8
+Perfomance bonus: 4 (10% of base)
+Relocation: 5.5
+Stock: 90K USD for 4 years.
+Can someone please help me if there is any chance of negotiation further ?

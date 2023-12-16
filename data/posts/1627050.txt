@@ -1,8 +1,0 @@
-Education: B.Tech IIIT CSE
-Years of Experience: 0
-Company: Zeotap
-Titlel: Software Engineer Intern
-Location: Remote
-Stipend: INR 65,000 per month
-Tax Deduction: INR 0
-Duration: 6 Months

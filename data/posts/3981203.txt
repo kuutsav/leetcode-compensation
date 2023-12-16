@@ -1,0 +1,12 @@
+Education:B Tech CS
+Years of Experience: 1 year
+Prior Experience: MNC
+Company: Wells Fargo
+Title/Level: SDE 1
+Location: Hyderabad, IN
+Salary: INR 13,00,000 CTC
+Variable : INR 1,50,000
+Joining Bonus: INR 1,50,000
+Retention Bonus : 1-2 lac
+Total comp (Salary + Variable + Bonus + Retention): ~ INR 17,00,000
+Benefits: insurance, free transport

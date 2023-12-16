@@ -1,0 +1,22 @@
+It was a College placement.
+It included total of 3 interview. Before interview there was coding exam having question around medium-semi hard level. Then interviews first was core technical interview, second was also technical interview and lastly the most known HR interview.
+Lets discuss each of them in brief
+1st tech round:- was total of 1 hr adn 30 minutes of interview,
+questions were on :-
+project details and explanation
+technical knowledge
+core cs fundamentals
+os
+coding quetions (*2-3)
+2nd tech round :- review of first round
+was around 45 minutes discussing and QnA session
+coding questions topic :- arrays, string, hasmap
+core cs fundamentals
+3rd and last HR round:- With good review from last two rounds reached 3rd round
+was around 45 minutes (with simple and easy tech questions too)
+questions :- Basic hr
+Behaviour questions
+team work
+extra carricular
+etc.
+Finally recieved call in night at 11pm that i got selected for the interview. after day long process was happy to get the news.

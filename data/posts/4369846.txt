@@ -1,0 +1,29 @@
+Interviewing for Role
+Engineering Manager | Bengaluru | December 2023
+Current Stats
+Status: Lead Engineer at B2B based startup
+Location: Bengaluru
+Interview process:
+Round-1: Technical Round 
+a. Video call with Lead Engineer
+b. General tech discussion on Golang fundamentals, etc.
+c. Design Uber-like ride sharing app. HLD and database schema design.
+d. Time taken: 60 mins
+
+Round-2: Technical Interview -- Technical Round
+a. Interview call with one of their Engineers.
+b. Deep dive into most complex work project, architecture design decisions taken, most complex bugs solved etc
+c. General questions around managerial situations, fundamental questions about distributed architectures, OS internals, Golang internals.
+d. Time taken: 60 mins
+
+Round-3: Technical interview
+a. Interview call again with their Head of Engineering.
+b. Work review and deep dive.
+c. Design Reward system for Ecommerce platform. HLD, LLD, Data modelling etc.
+f. Time taken: 90 mins
+Verdict: [Rejected]
+Reason:
+Was selected for TL role.
+Were ready to offer me less than my current compensation and were having problem with my long notice period [ 2 months ].
+Take-aways:
+Not sure what went wrong here. :(

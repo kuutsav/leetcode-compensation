@@ -1,0 +1,6 @@
+Base: 189k
+RSU: 140 (4 years)
+Signon Bonus: 40k
+Yearly Bonus: Base Inc depends on performance[max 30%];
+Location: Remote
+YOE: 5

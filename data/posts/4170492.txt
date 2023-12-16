@@ -1,0 +1,12 @@
+Education: B.Tech. in Computer Science
+Years of Experience: 6 months
+Prior Experience: Interned at Amazon
+Date of the Offer: Oct 2023
+Company: Motive
+Title/Level: Software Engineer I
+Location: Remote
+Salary: ₹16,00,000
+Stock bonus: 3200 units RSU equally vested over 4 years (~5 lakhs/yr)
+Total comp (Salary + Stock): ~₹21,00,000
+Benefits: 18 paid vacation leaves + 12 paid sick leaves + 3 paid family care leaves + ₹1000 monthly Wellness/Gym reimbursement + ₹2500 monthly Internet/Wifi reimbursement + ₹30,000 one time allowance for home setup + covered health/dental/vision insurance
+Interview Experience: https://leetcode.com/discuss/interview-experience/4174549/Motive-or-SDE-1-or-Remote(India)-or-Oct-2023-Offer

@@ -1,0 +1,20 @@
+Education: BSc (IT)
+Years of Experience: 3.8 yrs
+Prior Experience: SDE - 2 at a Product Based FinTech
+Previous CTC: 14,5 + 0.5 LPA (fixed + variable) (expecting appraisal this month)
+Date of the Offer: June 2023
+Company: LendingKart
+Title/Level: Senior Software Engineer
+Location: Bangalore
+Salary: ₹20,00,000 INR
+Performance Bonus: ₹2,00,000 INR
+Stock bonus: 5 Lakhs over 4 yrs
+Total comp (Salary + Bonus): ₹23,25,000 in First year
+Relocation: 15 days temporary stay, travel reimbursement
+Interview Experience: https://leetcode.com/discuss/interview-experience/3722067/LendingKart-or-SSE-or-June-2023-Offer
+Special thanks to @parassharma8041 for mentioning about the opening in [this post]
+Other details: Looking at other compensation on leetcode and glassdoor, I already knew they can offer around 30 as fixed but at the same time I also got to know that they offer only 50% hike on the current compensation.
+When recruiter came up with the above number, I argued with her that just because my current salary is low, that doesn't mean my next salary also has to be low. I also told her that we all know how it works, if you lowball then I'll go get another offer and ask you to counter it and you'll do it happily then why not directly give the better offer so that I can directly join your org by negotiating my notice period my current org (this might sound rude here but I conveyed my points very politely).
+I also told her that the number provided can easily be retained by current employer. After going on about 10 mins, at the end I told her at least give 25 as fixed. She said she'll get back with approval. Next day I received the "On Hold" mail XD. It hurts that just because of my current salary, orgs are lowballing when they can provide good compensation :(
+Please provide your suggestions what I could have done better here?
+Also, please drop referrals if any, I'm actively looking for a change :)

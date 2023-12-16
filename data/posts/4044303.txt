@@ -1,0 +1,15 @@
+Education: B.S. in Computer Science
+Years of Experience: 12
+Prior Experience: 5 Years as Senior SWE at various start ups.
+Date of the Offer: Spring 2021
+Company: Box
+Title/Level: Senior Software Engineer
+Location: Redwood City, CA
+Salary: USD 235,000
+Relocation: 0
+Signing Bonus: USD 15,000
+Stock bonus: $400,000 over 4 years.
+Bonus: None
+Total comp (Salary + Bonus + Stock): ~$150K
+Benefits: Unlimited PTO. No 401k matching. $12 lunch stipend.
+Very easy interview. Not many Leetcode questions. Know your priority queue, rate limiter, DB transactions, elevator algorithm.

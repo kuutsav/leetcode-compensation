@@ -1,0 +1,10 @@
+Education: B.E from Tier 2
+Year of Experience: Fresher undergrad
+Prior Experience: 6 month internship
+Date of the Offer: November 2022
+Title/Level: SRE
+Location: Bangalore
+Salary: Approx 14 lakh
+Relocation/Signing Bonus: Rs. 2 lakh on first time basic (joining bonus)
+Total comp (Salary + Bonus + Relocation ): Rs 14,50,000
+Other details: Interview was medium level. 1 OA + 2 technical rounds (1 DSA + 1 LLD, Core CS) + 1 HR round

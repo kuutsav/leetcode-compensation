@@ -1,0 +1,2 @@
+@leetcode_admin please add notes button on solutions page solutions as well. It really helps to add notes while going through the posts of other authors.
+It was a great feature in Old UI. Please bring it back in New UI.

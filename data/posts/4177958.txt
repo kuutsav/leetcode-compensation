@@ -1,0 +1,28 @@
+35K PM during Internship
+Full Time:Intern+Full Time
+Education:B.Tech(2024)
+Years of Experience:Fresher
+Prior Experience:N/A
+Company:Kickdrum
+Title/Level:SDE
+Location:Bangalore
+Salary:16LPA
+Relocation/Signing Bonus:N/A
+Salary: Rs. 10 LPA
+Variable: Rs. 2 LPA
+Bonus: Rs. 2 L post completion of 1 year.
+Benefits: Worth 2 LPA
+CTC:(10LPA+2LPA+2LPA+2LPA)=16LPA
+Other details:Hiring Process
+Round 1:Make a video of 3 minutes and answer 2 questions(1How did you get into this field?2 Time when you felt the lowest in your life and how did you recover?)
+Round 2: MCQ+2 coding question(Medium level)
+Round 3. Technical Round focused on problem solving skill.I was given to solve a question that stated Given a binary tree and a linkedlist .Return true if all the nodes of a linklist are present in the tree in the same order and each node should be the child of the other.
+eg linkedlist-[1,2,4]
+...........................................4
+...................................1............6
+............................2.......3......9.....5
+.......................5 .......4
+True
+Then I was told to draw an ER diagram of a Library Management System and was given some of the conditions.
+Several questions were asked to me related to that and I was told to pseudocode some of the functionalities.
+Round 4:Culture Round :It was more of an HR round.

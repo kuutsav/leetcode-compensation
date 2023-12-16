@@ -1,0 +1,13 @@
+So, I need help from someone who knows a bit or two about startup ESOPs.
+I was fired around January 2023. At my time of joining in early 2020, my offer letter mentioned ESOPs worth Rs 500,000 would be granted. During my 2 appraisals, my document showed that I had 3000 units of stock that were currently vesting. I was never given any details about them though. I was told, I would be given access to a portal, where I could view details of my stock but that never happened.
+Fast forward to January 2023, when I was fired, I was told by HR that 1700 / 3000 stocks have vested, and they will pay me Rs 90000 if I choose not to exercise my options, else I would have to pay them Rs 90000 to exercise my options. I have 30 days to decide. This seemed completely absurd, as more than half (1700) units had vested, so their value should easily be more than Rs 2,50,000. (half of Rs 500,000)
+Upon communicating this, the HR says that there was a slight "error", and the cost to exercise them is Rs 30000. Their offer of paying me Rs 90000 still remains. I did some research, and asked them to clearly mention the following regarding my stock options:
+Fair Market Value (FMV) of the stocks at the time of allotment
+Current FMV as per the latest valuation
+Clearly stating the worth and the no. of stocks that were alloted to me at the time of my joining,
+They panicked and went haphazard, and said we will need some time, we will get back to you in a week. But that never happened. Also worth mentioning, they had held back my salary for 1 month of notice period after firing, and only after me consulting a lawyer and telling them it is not legal, did they release it. Now a few days back, after more than 7 months, they get back saying the FMV of the stocks are Rs 2,83,333. And the cost to exercise them is still Rs 30000. Their offer of Rs 90000 remains.
+On doing some simple calculation:
+(Vested / Allocated) * Worth at the time of allocation
+ => (1700 / 3000) * 500000 = Rs 2,83,333. 
+Meaning, there has neither been increase or decrease in their value of the stocks since 2020 - 2023. This is absurd as 2021 was a great year for them, and they grew rapidly, more than 2x, both in team and customers. The work pressure was enormous as well. Their stock should be worth much more. I can clearly smell something fishy here.
+Any advice?

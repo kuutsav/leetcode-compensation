@@ -1,0 +1,34 @@
+Hi Leetcode squad. I have been offered the following :
+Position : Team Lead
+Company: PolicyBazaar (UAE)
+Location: Abu Dhabi, UAE
+Compensation:
+Base salary = > 30,000 AED per month
+Other expenses + benefits => company will take care of expenses like :
+Accommodation (1 BHK provided to employees)
+Relocation expenses
+Electricity expenses
+Shuttle service to & from : office - accomodation
+Health Insurance
+Wifi/TV expenses
+Total compensation :
+=> 360,000 AED per year (80,00,000 INR) + expenses covered by company(accomadation, electricity, commute, etc.)
+Taxes => tax free income
+Current Profile :
+Education: B.Tech / B.E (Tier 1 college)
+Position: Team Lead
+Company: MNC, non-FAANG, a major payment company
+Location: India
+Years of experience : 6.5 years (graduated in 2016)
+Compensation:
+* base: 45 LPA (INR)
+* performance bonus: 15% of base => 6.75 LPA (INR)
+* stocks: $35,000: 8 - 10 LPA (INR)
+* total compensation: 60 - 62 LPA (INR)
+Taxes : 30%
+Other offers:
+Staff Engineer - Agoda (Bangkok, Thiland)
+Senior Software Engineer - Adyen (Mumbai, India)
+https://leetcode.com/discuss/compensation/2990033/agoda-bangkok-thailand-staff-engineer-vs-adyen-mumbai-india-senior-software-engineer/1741585
+The compensation from PolicyBazaar is the highest. I am also considering other parameters such as brand name, global presence, stability, culture, etc. where Agoda / Adyen scores better. (even though their compensation is relatively lower than that from PolicyBazaar)
+I would love to hear the your feedback on the same.

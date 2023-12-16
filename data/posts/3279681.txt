@@ -1,0 +1,14 @@
+Education: B.Tech, Electronics Engineering (IIT BHU)
+Company: Jio
+Title/Level: SDE intern
+Location: Mumbai, India
+Stipend : 50,000 INR per month
+Stock bonus: NA
+Job Experience: N/A
+Joining Date: 1st May, 2023
+A bit about the process:
+=> OA had 2 questions to be solve in 1.5 hours (I was able to solve one, and partial testcases ran on the other question)
+=> Interview had 3 rounds (2 technical + 1HR).
+Technical rounds were based on some DSA questions (I was lucky to get easy ones, but my friends were asked standard hard questions, like Trapping Rain water, and KMP).
+Basic questions on OOPS and OS were asked. My projects were discussed in detail. Even though they had come for SDE profile, they seemed very interested in one of my ML projects, and surprisingly asked ML questions in great depth. The HR round was more like a general interaction.
+HOPE IT HELPS! DO UPVOTE👍

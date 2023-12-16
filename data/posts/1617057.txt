@@ -1,8 +1,0 @@
-Initial offer:
-base: 120
-sign on bonus: 25k 1st year + 16k 2nd
-stock: 18 stock over 3 years ( 5,15,20,20%)
-Negotiated offer:
-base: 130
-sign on bonus: 35k 1st year + 24k 2nd
-stock: 19 stock over 3 years ( 5,15,20,20%)

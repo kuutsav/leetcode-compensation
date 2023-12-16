@@ -1,0 +1,14 @@
+YOE: 9+
+Current Salary ~ 36 LPA (all fixed)
+Current Org : Service based MNC
+Current city: Mumbai
+Offer from : Tesco bengaluru
+Level: SDE3/WL2
+Location: Bangalore, India
+Base/Fixed: 52 LPA
+Variable: 10.4 LPA
+Gratuity + Insurance: 1.68 LPA
+Total CTC: (Base + Variable + Gratuity + Insurance) = 64 LPA
+Benefit: Relocation coverage and other standard benefits.
+Tech Stack: Java Spring boot and micro services.
+Accepted the offer letter as I dont have any other.

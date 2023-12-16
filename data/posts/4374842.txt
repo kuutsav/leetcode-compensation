@@ -1,0 +1,14 @@
+YOE: 4.5
+Education: MTech from IITB
+Current company: Microsoft
+current comp: 25 base, 5 stocks, 5 variable. (always got around half)
+Salesforce:
+Org: Service cloud
+Base: 35
+Stocks: $65k (13.5L per year)
+Variable: 3.5L
+TC: 52L
+Benefits: 60k fitness reimbursement. Iphone 14. No cab or WFH setup.
+Competing Offer:
+https://leetcode.com/discuss/compensation/4374562/Nutanix-or-MTS-3-or-Bangalore
+Please help evaluating both offers in terms of WLB, work quality and growth.

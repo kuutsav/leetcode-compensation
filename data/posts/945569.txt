@@ -1,9 +1,0 @@
-Education : Btech in Computer Science (Tier 2 college)
-Years of Experience : <1
-Prior Experience : Startup
-Date of Offer : 2019
-Company: Hike Messenger
-Title : SDE in Android
-Location : Delhi
-Base Salary : Rs 1800000
-Total CTC : Rs 18LPA

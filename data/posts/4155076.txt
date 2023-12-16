@@ -1,0 +1,16 @@
+Education: From Tier 1 college
+Years of Experience: 3
+Prior Experience: Software Engineer at Product Based MNC
+Total Compensation at time of interview: INR 20,00,000 (16L Base + 4L RSU )
+Date of the Offer: October 2023
+Company: Salesforce
+Title/Level: MTS / SDE-2
+Location: Hyderabad
+Base Compensation: INR 32,00,000
+Stock: $50,000 for 4 years
+Bonus: 10%
+Relocation: 0
+Total Compensation: (32 + 3.2 + 10) ~ INR 45 LPA
+Benefits: Standard Salesforce benefits
+Accepted this offer.
+Interview Experience: https://leetcode.com/discuss/interview-experience/4172711/Salesforce-MTS-Onsite-or-Hyderabad

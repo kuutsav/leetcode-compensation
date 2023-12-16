@@ -1,8 +1,0 @@
-Education: master of Computer Science
-Years of Experience: 2
-Prior Experience: 0
-For fresh grad, any related Internship/coop experience? Woked as a software tester before
-Company: JustWorks.Inc
-Title/Level: SDE intern
-Location: New York
-Salary: 30/h

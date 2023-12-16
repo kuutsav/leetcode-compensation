@@ -1,0 +1,18 @@
+Education: B.Tech, 2023 Batch
+Years of Experience: Fresher
+Date of the Offer: 7 June 2022
+Company: TCS
+Title/Level: Entry Level
+Location: Not Mentioned
+Salary: 7 LPA
+Interview Experience:
+Round 1- (Through TCS CodeVita Season 10)- In first round they give 6 Coding Question. Out of 6 coding question I have solved 2 coding questions.
+Round 2- It was the Technical Interview Round + Hr Interview + Mr Interview(MR( Managerial Round)) in same Panel they asked some basics to intermediate question from subject and one basic coding question they give to solve.
+Technical Question:-
+what is OOPs & Its type ?
+What is abstraction in Java ?
+Abstraction vs Encapsulation?
+what is linked list?
+Operation of Stack?
+What is Frame in Html ?
+And Some questions they asked according to my Resume. It was basically of 30-40 minutes.

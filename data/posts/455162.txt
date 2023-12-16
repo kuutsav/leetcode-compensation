@@ -1,9 +1,0 @@
-Education: Master of Science
-Years of Experience: 4
-Date of the Offer: Dec 16, 2019
-Company: Salesforce
-Title/Level: Software Engineering Intern
-Location: Louisville, CO
-Salary: $44.22/hr
-Relocation/Signing Bonus: $8000 Lumpsum
-Benefits: Discounts at shops, Gym reimbursement of 100$/month

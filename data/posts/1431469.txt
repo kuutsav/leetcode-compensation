@@ -1,7 +1,0 @@
-Education: B.E. Computer Engineering, TIET
-Years of Experience: New grad
-Company: Amazon
-Title/Level: Software Development Engineer 1
-Location: Bangalore
-Internship start date: January 2021
-Stipend: INR 60,000

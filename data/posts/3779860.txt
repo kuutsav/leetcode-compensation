@@ -1,0 +1,9 @@
+Education: BTech from IIIT
+YOE: 4
+Base: 3700000
+PF + Gratuity: 335245
+Variable Pay: [20% of the Base per year] 740000
+Total Compensation - 4750942
+Role: Senior Software Engineer (Data Platform)
+Location: Bangalore
+Other Details: Rejected

@@ -1,0 +1,26 @@
+offline OA
+Process date : mid sept 2022
+4 questions were asked 1 hour 30 minutes where given
+1 easy 2 medium 1 hard
+easy was based on set count (all test cases passed)
+1st medium was to check if a point is inside the triangle or not (49/50 test cases passed)
+another medium question is present on gfg archive you can check there (all test cases passed)
+1 hard it was kinda digit dp but I was not sure if I will be able to code it properly so I coded knapsack and I was able to pass it partially (12/15 test cases passed)
+There was a set of questions my friends got different questions
+so I was shortlisted for Personal Interview Rounds total of 30 students were shortlisted from my clg so there were a total of 3 rounds 2 technical and 1 hr
+All the rounds where offline company visited the clg
+Round 1 ->
+So he went through my resume and OA test score. As my testscore was good so he said he will not ask many coding questions. So he started asking questions based on projects and my 2 internships. So I have done projects in web development. He asked REST API, and MVC how rest API sends the request to the server. He asked me to code some functionalities that I have made in my internship and projects. He asked about dockers and Jenkins as I have worked on them as one of my interns. So basically he asked each and every word mentioned on my resume.
+So the result came around 17 people cleared 1st round and I was one of them.
+Round 2->
+So In this round as well projects-related stuff was asked and internship-related stuff. But he focussed more on databases and routes. he asked about MongoDB schema, queries, oops-related concepts, DBMS, and a bit of os thread-related stuff. he asked me to code some javascript functionalities that I have made in one of my intern on paper. then he started asking about DBMS theory and SQL queries were also asked. Overall the round went well. I was able to answer almost everything. So the result came for me in 15 minutes. Round 2 and Round 3 were going on parallelly from here on. So I got selected for 3rd round
+Round3->
+It was hr round he asked general questions from me. Easy puzzles were also asked in this round. General discussion about my future goals. As I'm from a non-circuital branch so he asked me why I want to switch to the software field that's it. Then I asked a few questions from him round ended in 30 minutes ig
+So after a long wait of around 3 hours as PI's were going on for others. All the interviewees came into the common sitting hall to announce the results. I was a bit nervous as I was rejected before in oracle after the hr round. But this time the case was different they announced my name and I was 1 of the 12 students selected from clg.
+Thank you for reading hope you find it useful. If you have any doubts you can drop a comment.
+compensation:
+base: 17L
+bonus: 8L
+relocation: 50k
+PF: 1.14L
+other standard benefits of bny : Transportation, meal, health insurance

@@ -1,0 +1,2 @@
+35 LPA - 32 fixed + 3 variable
+for java backend developer

@@ -1,7 +1,0 @@
-Education: B.Tech
-YOE: NIL
-Prior Experience: Intern at Amazon
-Company: BNY Mellon
-Title: SDE Intern
-Location: India
-Stipend: 60K/month

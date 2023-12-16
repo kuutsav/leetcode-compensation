@@ -1,0 +1,1 @@
+My interview had taken question which includes dead lock avoidance and its algorithms,Also about sorting of the given elements which i had done by using data structures in C and some databases creation and applying some queries on those databases.

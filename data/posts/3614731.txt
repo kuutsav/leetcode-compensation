@@ -1,0 +1,7 @@
+So, there are two types of roles available for you as a Educator.
+Part-Time
+Full-Time
+As a part-Time Employee you are expected to work 4-6 hours a day, Each class is of 45 mins - 1 hour.
+As a Full-Time expected time is 6-8 hours.
+The compensation is total variable component, you don't have a fixed-amount as salary.
+For Demo classes you'll get 50 INR per Class, for Paid class you'll get 250 INR per class.

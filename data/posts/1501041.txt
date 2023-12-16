@@ -1,2 +1,0 @@
-I got a Flutter App Development internship from Lapron Technologies after they reviewed my resume and took a telephonic interview.
-It had just one technical interview on Flutter, Dart and API.

@@ -1,9 +1,0 @@
-Education: BA in Baruch College
-Years of Experience: New grad
-Prior Experience: none
-Company: wayfair
-Title/Level: software engineer
-Location: Boston
-Salary: 100k
-Relocation: New York to Boston
-Stock bonus: 10% performance

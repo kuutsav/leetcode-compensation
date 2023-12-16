@@ -1,8 +1,0 @@
-Education: MS in Computer Science
-Years of Experience: 1.5
-Prior Experience: SDE at Toshiba Software India
-Date of the Offer: Nov 2019
-Company: Amazon
-Title/Level: SDE
-Location: Seattle, WA
-Salary: $112,000

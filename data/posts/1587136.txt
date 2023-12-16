@@ -1,8 +1,0 @@
-Education: B.Tech in Computer Science, India
-Years of Expereience: 8
-Company: Shopify
-Title/Level: Senior Software Engineer
-Location: London
-Salary: 85,000 pounds
-Relocation: Support
-Stock bonus: $150K stock grant vested over 3 years

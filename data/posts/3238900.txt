@@ -1,0 +1,18 @@
+Education: B.Tech, CSE (Tier 3 college)
+Year of Graduation: 2022
+Years of Experience: 6months
+Prior Experience: 0
+Internship experience - Worked as SDE Intern at Capillary Technologies for 4 months
+Date of the Offer: July, 2022
+Company: Amazon
+Title/Level: Software Development Engineer 1
+Location: Hyderabad
+Fixed Salary: 16,50,000
+Relocation/Signing Bonus: 1,50,000
+Stock bonus: 13,00,000
+Bonus: 9,50,000 for 1st year, 6,00,000 for 2nd year
+Total comp (Salary + Bonus + Stock): ~46,50,000
+Other details:
+Applied through Amazon wow off campus
+Hiring Process: 1 online assessment + 3 TR s
+Interviews are mostly on DSA

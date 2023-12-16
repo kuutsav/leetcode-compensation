@@ -1,9 +1,0 @@
-Education: Bachelors in Computer Science at State School
-Prior Experience: 3 internships in school
-Company: MindTickle
-Title/Level: Software Development Engineer
-Location: Pune, India
-Salary: 17.5 L
-Retention Bonus: 7 L [2.8 L for 1st year + 4.2 L for 2nd year]
-Stock bonus: 7.5 L
-Total Compensation: 31.5 L

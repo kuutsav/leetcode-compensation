@@ -1,0 +1,19 @@
+Education: B.Tech CSE
+Years of Experience: 0 (Batch 2021)
+Prior Experience: 0 (3 Internship)
+Date of the Offer: Mar 21
+Company: Nagarro
+Title/Level: SDE Intern
+Location: Gururgram
+Duration: 6 Month + FTE (Based on PPO)
+Salary: Rs. 25k/Month
+Relocation/Signing Bonus: 0
+Stock bonus: NA
+Other Benefits : NA
+Total comp (Salary): Rs. 25k / MONTH
+PPO Opportunity : Yes (On the basis of performance)
+PPO CTC : 12 LPA (As of now, may get revised)
+Hiring Process :
+Coding test (OA) : 10 MCQ + 2 DSA [1 LC Medium + 1 LC Hard]
+Interview round - 1 : (Problem solving & data structure) - 60 Mins [LC-HARD]
+Interview round - 2 : (Overall fitment) - 60 Mins [Project Discussion]

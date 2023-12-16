@@ -1,0 +1,15 @@
+Education: BCA
+Years of Experience: 7
+Prior Experience: SDE-III at Tier 1 product company
+Date of the Offer: Dec 2022
+Company: Adobe
+Title/Level: Computer Scientist - I
+Location: Noida
+Salary: ₹42,00,000 (Including PF)
+Stock bonus: $90,000 USD (RSUs vested over 4 years - 25% at 1st year, quarterly 6.25% for rest 3 years)
+Bonus: ₹6,30,000 i.e 15% every year
+Joining Bonus: ₹5,00,000 (one time)
+Total comp (Salary + Bonus + Stock): ~ 72 LPA (First Year)
+Benefits: Standard Adobe Benefits
+Other details: Had competing offer of 45L . Happily accepted Offer
+Interview Experience : https://leetcode.com/discuss/interview-experience/3277266/Adobe-or-CS1-(SDE3)-or-Noida-or-Frontend-or-Offer

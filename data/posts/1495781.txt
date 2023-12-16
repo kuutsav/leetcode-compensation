@@ -1,1 +1,0 @@
-You are given a big strip(as string) made of two colours red and blue. S[i] = 'R' means red and S[i] = 'B' means blue. You are given a vector of small blue strips of different sizes. Return the maximum number of red cells you can cover on the bigger strip using these miltiple small blue strips.

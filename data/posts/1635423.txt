@@ -1,9 +1,0 @@
-Education: B.E in Computer Science
-Years of Experience: 0
-Company: Schneider Electric India Private Limited
-Title/Level: SDE
-Location: Chennai
-Salary: 7.5PA(base)
-Relocation/Signing Bonus: 50000
-Total comp (Salary + Bonus ): ~8L
-Benefits: Standard

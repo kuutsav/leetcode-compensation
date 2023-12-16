@@ -1,9 +1,0 @@
-Education: B.E in Computer Science tier3 college
-Years of Experience: 0
-Date of the Offer: August 2021
-Company: Onlinesales.ai
-Title/Level: Software Development Engineer
-Location: Pune
-Salary: INR 1000000
-Bonus: Performance-based bonus up to 10% of salary every half year
-Benefits: Standard

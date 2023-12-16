@@ -1,8 +1,0 @@
-Education: Bachelors in Computer Science at State School
-Prior Experience: 3 internships in school, then 1 year at Amazon as New Grad
-Company: Linkedin
-Title/Level: Software Engineer
-Location: San Francisco
-Salary: 155k
-Signing Bonus: 43k
-Stock bonus: 150k over 4 years

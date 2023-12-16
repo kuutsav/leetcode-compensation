@@ -1,0 +1,27 @@
+Education: MCA
+Years of Experience: None
+Prior Experience: Startup
+For fresh grad, any related Internship/coop experience? Internship experience with IBM
+For experienced engineer, what's your current and past experience?
+Company: IBM
+Title/Level: Software Engineer Full Stack Developer
+Location: Banglore
+Salary: 150,000 per Month
+Stock bonus: None
+Bonus:None
+Benefits:None
+Other details:
+Objects Round (60 Minutes):
+First part of my IBM interview was about coding and stuff. They gave me two coding questions to solve. Not too hard, just basic DSA stuff. They told me I had 60 minutes to finish them. It was a bit of a race against the clock, but I did my best.
+Tech Questions Round:
+Next, they started throwing tech questions at me. They really wanted to know how much I knew about tech stuff. It was kinda tough, but I tried my best to answer. They also gave me another coding challenge. This one was trickier than the first one. This round took like 45 minutes to an hour.
+HR Round (Chat About Job and Offer):
+After all that, we had a chat about the job they wanted to offer me. IBM's HR team talked money, benefits, and all those job things. I asked a bunch of questions about the job just to make sure I got it. Then I said, "Yeah, I want the job!"
+NOTE
+Mention one project in your resume otherwise you will get rejected in this round even without an interview.
+Familiarise yourself with the core subjects.
+Try some coding contests for practice.
+Don't feel bad if coding isn't easy for you.
+If you're stuck for a long time, don't be shy.
+Don’t make a pre-mindset.
+Keep Cool.

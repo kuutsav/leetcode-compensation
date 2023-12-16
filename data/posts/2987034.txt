@@ -1,0 +1,16 @@
+Education: B.Tech
+Branch: Computer Science And Engineering
+College: Tier-3
+Designation: Infosys
+Years of Experience: Internship at infosys
+Company: Infosys Ltd.
+Position: Specialist Programmer
+Location: India
+Base Pay Per Annum: 7.35 Lakh INR
+Performance Bonus Per Annum: 1.42 Lakh INR
+PF+Gratuity Per Annum: 67,800 INR
+Medical Insurance Per Annum: 5 Lakh INR
+Total Cost to Company per annum: 9.5 Lakh INR
+Benefits: Medical benefits
+Other Benefits: Health insurance, Soft loan, Other offer on Infy Advantage
+For Interview Experience : https://leetcode.com/discuss/interview-experience/2987311/Infosys-or-Specialist-Programmer-or-2023-batch

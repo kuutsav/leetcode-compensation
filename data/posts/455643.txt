@@ -1,8 +1,0 @@
-Education: MCA
-Years of Experience: 4
-Prior Experience: SDE at Microsoft
-Date of the Offer: Oct 2019
-Company: VMware
-Title/Level: MTS III
-Location: Bengaluru
-Salary: Rs. 23.5 lcas

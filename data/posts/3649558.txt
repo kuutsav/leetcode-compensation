@@ -1,0 +1,15 @@
+YOE : 2 Years
+Current Compensation Details
+Current Company : Unicorn startup
+Title : SDE 1
+Base : 24L
+Bonus : 4L
+Performance Bonus : 10% Base
+Stocks : 30 L ESOPS
+Offer Details
+Company : Flipkart
+Title : SDE 2
+Base : 30L
+Performance Bonus : 10%
+Stocks : 14 L ESOPS(4 years)
+Should I join the new company or wait for another year and then try?

@@ -1,0 +1,12 @@
+So I got offers from Twilio and Avalara and I cannot decide which to join, joining date is within a week,
+Education : B.tech from Tier 3
+Exp : 3 yrs in service based MNC(not WITCH).
+Current CTC: ~15 LPA
+Twilio L2:
+24 L (Base) + 8 L (RSU vested quarterly) ~ 32 L
+Tech stack -> Java
+Avalara SSE:
+31.5 L (Base) + 2 L (Joining Bonus) + 3 L (Variable) ~ 35 L for first year
+Tech stack -> Golang
+Any suggestion which one to join? in terms of growth, work culture, domain of work offered etc.
+I am still leaned towards more on Twilio because of tech sack and brand value.

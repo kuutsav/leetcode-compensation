@@ -1,0 +1,11 @@
+Education: B.Tech Computer Science from Tier 2
+Prior experience: 0
+Company: Oracle
+Position: Project Intern-Member Technical Staff for Server Technology Intern
+Date: July 2023
+Location: Bangalore / Remote
+Duration: May - June 2024 (2-months)
+Stipend: 1 lac p.m
+Benefits: Standard Oracle benefits
+Process: On-campus - Online Assessment + 3 Technical Rounds + HR round
+For interview experience refer to this post: https://leetcode.com/discuss/interview-question/3973406/Oracle-or-SWE-Intern-or-Bangalore-or-On-campus

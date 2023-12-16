@@ -1,9 +1,0 @@
-Education: B.E in Computer Science
-Years of Experience: 0
-Company: Visa Inc
-Title/Level: SDE 1
-Location: Bengaluru
-Salary: 15LPA(base)
-Relocation/Signing Bonus: 1.5L
-Stock bonus: 6.6L vested over 4 years
-Total comp (Salary + Bonus + Stock): ~23.1

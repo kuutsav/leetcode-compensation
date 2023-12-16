@@ -1,9 +1,0 @@
-Education: B.Tech. CS NIT
-Years of Experience ~Fresher
-Date of the Offer: May 2021
-Company: Jio Platforms
-Title: SDE1
-Location: Navi Mumbai
-Salary: 5.25L
-Fixed: 4.2L
-Benefits: Free Food, Communition (Call/ Data)

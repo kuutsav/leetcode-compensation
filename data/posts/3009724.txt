@@ -1,0 +1,32 @@
+#include
+#include <bits/stdc++.h>
+#include
+#include
+#include
+#include
+#include <math.h>
+#include
+#include
+#include
+#include
+#include
+#include
+#define ll long long
+using namespace std ;
+int f(int n)
+{
+if (n==0 || n==1) {
+return n ;
+}
+else
+   return f(n-1) + f(n-2);
+}
+int main () {
+ios_base::sync_with_stdio(false);
+cin.tie(NULL);
+cout.tie(NULL);
+int x ;
+cin >> x ;
+cout<<f(x);
+return 0;
+}

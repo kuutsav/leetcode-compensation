@@ -1,9 +1,0 @@
-Education: MS in Computer Science
-Years of Experience: 4
-Company: eBay
-Location: San Jose
-Base: $160,000 USD
-Relocation: $0
-Signing Bonus: $40k
-Stock bonus: $90k - 25% each year for 4 years.
-Total comp (Base + Bonus + Stock for year 1): ~$222,500

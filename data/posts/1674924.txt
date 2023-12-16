@@ -1,6 +1,0 @@
-Education: BE tier 1
-previous company: TCS Digital
-YOE: 2.5
-current CTC: 7.83L (all fixed)
-offered CTC: 14.5L fixed + 1L variable
-interview experience:https://leetcode.com/discuss/interview-experience/1674917/Ninjacart-or-Software-Engineer

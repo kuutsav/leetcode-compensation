@@ -1,6 +1,0 @@
-Location: Seattle
-Salary: 108000$
-RSU: 70k/ 4 yrs
-Bonus yr 1: 35000
-Bonus yr w: 20000
-Relocation: 10000

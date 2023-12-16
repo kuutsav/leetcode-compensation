@@ -1,0 +1,11 @@
+Education: Diploma in Information Technology
+Years of Experience: 0
+Date of the Offer: Jan 2022
+Company: Infosys
+Title/Level: Operations Excecutive
+Location: Mysore, India
+Salary: INR 18,581 + PA INR 461
+Bonus: 20% of basic salary every year
+Benefits: 15 paid vacation days (20 after probation period) + covered health insurance of INR 500,000 + life insurance of INR 6,200,000
+More Details : The whole selection procedure comprised of 2 rounds about aptitude [held online of about 2-3 hrs] and an technical + HR interview
+Questions asked in the interview were based on concepts of OOPs, DSA and MySQL

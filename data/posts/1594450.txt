@@ -1,5 +1,0 @@
-Location: Hyderabad
-Base: 17lpa
-Bonus: 10% base
-Stocks: 1.5 unit per month vested quarterly
-Experience 3 years

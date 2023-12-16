@@ -1,8 +1,0 @@
-Education: MS in Math
-Prior experience: >10y but most of it as a data engineer
-Company: Bloomberg
-Location: NYC
-Date of the Offer: Nov 2020, 1 year contract
-Title: Contractor/Senior SDE
-Salary: $1000/day (corp to corp)
-I work through a third party and don't have any benefits at all.

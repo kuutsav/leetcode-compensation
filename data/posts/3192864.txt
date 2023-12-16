@@ -1,0 +1,22 @@
+Education : Mtech CSE
+Role in cisco : Software Engineer
+I got offer from cisco, job location is bengalore and the post is Software Engineer.
+Interview Experience:
+OA : around 30 mcq on the standard topics ( dsa, c programming, networking, etc) and two graph are also present one is medium level and other one is hard. I am able to solve hard one and all the mcq. one the 3 test case pass for the medium level (using simple if else) because i don't have enough time to solve that one.
+Interview Round 1:
+Introduction
+a bit manipulation question is asked
+some standard question on networking eg. what happens when we enter www.google.com in browser.
+question about my projects.
+Interview Round 2:
+this round is more like a casual talk how you got in nit calicut difficulty during preparation of the entrance exam. some hr question also asked
+Interview Round 3:
+In this 3 members are in panel. Asked about my project and some question about management and software development.
+Interview Round 4
+HR round
+If you are preparing for cisco focus on the core subject and foundation, go through the project deeply.
+so question on graph is always asked in OA, so solve some medium-hard question on graph.
+pakage ~ 30lpa
+base ~ 18lpa
+bonus ~ 6lpa
+Please UpVote this, if you find this helpfull

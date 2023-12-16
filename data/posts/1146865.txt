@@ -1,9 +1,0 @@
-Education: BTech from State University
-Years of Experience: 2
-Company: Amazon
-Title/Level: SDE1
-Location: Bangalore
-Salary: INR 19 L
-Signing Bonus: INR 4L first year. INR 3 second year.
-Stock bonus: 9 units over 4 years (stocks over 4 years split as 5%, 15%, 40%, 40%)
-Benefits: Standard Amazon benifits

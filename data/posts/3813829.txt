@@ -1,0 +1,14 @@
+Below is the code through which you can find the length of any string java, without using any inbuilts, this code uses a simple try-catch approach. In this we iterate the while loop over the true condition and under try we increase the count and if index out of bound error occurs (will be handeled under catch), we will break the loop and return the count.
+public static int String_Len(String s){
+    int c = 0;
+    while(true){
+        try{
+            s.charAt(c);
+            c++;
+        }
+        catch(IndexOutOfBoundsException e){
+            break;
+        }
+    }
+    return c;
+}

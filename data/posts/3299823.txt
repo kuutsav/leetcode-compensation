@@ -1,0 +1,31 @@
+from collections import deque
+class TreeNode:
+def init(self, val=0, left=None, right=None):
+self.val = val
+self.left = left
+self.right = right
+class Solution:
+def isCompleteTree(self, root: TreeNode) -> bool:
+if root is None:
+return True
+    queue = deque([root])
+    is_last_level = False
+    
+    while queue:
+        node = queue.popleft()
+        
+        if node.left is not None:
+            if is_last_level:
+                return False
+            queue.append(node.left)
+        else:
+            is_last_level = True
+        
+        if node.right is not None:
+            if is_last_level:
+                return False
+            queue.append(node.right)
+        else:
+            is_last_level = True
+            
+    return True

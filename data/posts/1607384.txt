@@ -1,6 +1,0 @@
-I am the first student from my college to get a paid intership in my first year of B.tech.
-company name:-IHA consulting services.
-position :- Frontend web developer
-Duration :- 2 months
-project :- Webinar hosting website (AI based)
-compensation :- 10,000 per months

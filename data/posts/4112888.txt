@@ -1,0 +1,12 @@
+Current Company(Semi-Conductor):
+Exp:8+years
+Base : 2834880
+Bonus:12%
+RSU: $15/yr
+Tech Stack: NIC device driver
+New Comp(Revised):(Cisco)- Mobility Divison(Telco)-Tech stack: DPDK
+Base:4500000
+Bonus:10%
+RSU:$55K for 3years
+No competing offer
+Please suggest what should be done, Work is not that good.

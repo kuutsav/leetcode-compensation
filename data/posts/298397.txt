@@ -1,8 +1,0 @@
-Degree: Master from top - 30 schools
-Status: New grad, interned at Apple
-Title: ICT3 Software Engineer (ML profile), Cupertino
-Base: 150K
-RSU Stock: 200k (4x25%)
-Sign on: 50K
-Refreshers: ~50k(after performance review)
-Bouns: ~10% of base(after performance review)

@@ -1,9 +1,0 @@
-Education: Masters in Computer Science
-Prior Experience: 6 months
-Date of the Offer: Nov 27 2019
-Company: Amazon
-Title/Level: SDE1
-Location: Arlington HQ2
-Salary: 112k
-Signing Bonus: 26k +22K (After 1 year)
-Stock bonus: 80k over 4 years

@@ -1,2 +1,0 @@
-What's the expected salary range for Software Architect with 12+ Years Experience?
-I've been primarily an IC, having built fairly large data lakes (micsoservices and distributed systems) in JVM stack.

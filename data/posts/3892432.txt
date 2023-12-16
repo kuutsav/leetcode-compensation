@@ -1,0 +1,11 @@
+Interview Time - 60 Minutes.
+Question - 1) https://leetcode.com/problems/linked-list-cycle/
+Follow-up question:- https://leetcode.com/problems/linked-list-cycle-ii/description/
+Question- 3) https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+Question - 4) https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+Gave two approaches for each of the problem.
+First approach- Only explanation.
+Second appraoch- Explanation with code
+No Need to write the full code(Taking input and then printing output), a function is enough.
+Verdict - Selected
+Stipend details:- https://leetcode.com/discuss/compensation/3892365/Amazon-or-Intern-or-Bengaluru

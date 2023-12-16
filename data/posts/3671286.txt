@@ -1,0 +1,14 @@
+Education: BTech in IT from Tier-2 College
+Years of Experience: 5 years
+Prior Experience: Indian unicorn
+Date of the Offer: May 2023
+Company: RingCentral
+Title/Level: Software Development Engineer III
+Location: Bengaluru, India
+Base Salary: INR 37,10,000 + INR 37,600 (medical insurance) per annum
+Signing Bonus: INR 2,00,000
+Stock bonus: NA
+Variable Pay: INR 3,50,000 (100% paid quarterly)
+Total comp (Salary + Bonus + Variable): INR 42,97,600
+Other Details: Signing Bonus was added after negotiation
+Interview Details: https://leetcode.com/discuss/interview-experience/3671248/RingCentral-or-SDE3-or-India-or-May-2023-Offer

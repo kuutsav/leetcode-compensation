@@ -1,7 +1,0 @@
-UC Berkeley, 4.0 GPA
-First year (Freshman) with 3 year graduation plan & Sophomore standing
-No prior experience
-Salary: 45.76$/hr (Sophomore level)
-Housing: 6000$ stipend
-Benefits: https://www.getsalesforcebenefits.com/en
-2 rounds of interviews for a DevOps position on Heroku/Salesforce. Both behavioral & project related questions. Manager was impressed by AWS SAA certificate.

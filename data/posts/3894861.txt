@@ -1,0 +1,11 @@
+Company - TCS
+Compensation - 7lpa
+After 1 year - 8.1lpa
+In Hand - 48k-54k/month
+location - Banglore
+Years of experience prior to this - 4 months
+Work life Balance - Absolutely Chill
+hiring process - 1 coding round (high level oops), 1 technical round, 1 Hr
+preparation -
+Coding Round - this was the crux of the hiring process (most difficult of all the rounds). One must prepare Oops concept in depth and be assured that advanced data structures will not be asked. One can refer previous interview questions. Test will be conducted on hackerrank.
+Interview round was very easy. Since it is a service based company they will ask overview from different technology and fields rather than asking questions in depth about a certain topic. For example i was asked what is cloud computing, what are oops concepts, what is AR and VR, what is AI. difference between an algorithm and function. etc

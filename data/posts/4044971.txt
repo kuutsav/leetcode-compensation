@@ -1,0 +1,16 @@
+Education: Tier 3 Institute in India
+Years of Experience: 2
+Prior Experience: Unicorn startup
+Date of the Offer: Sep 2023
+Company: Grab Bank
+Title/Level: SE(G3)
+Location: Bangalore
+Salary: 1800000
+Relocation/Signing Bonus: 217000 (67000(Relocation) + 150000(Sign On))
+Stock bonus: Around 8L INR (Vesting as 40%,30%,20%,10%)
+Bonus: 270000 (15% of Base).
+Total comp for first year (Salary + Bonus + Stock + Sign On): 2535000
+Benefits: GrabFlex worth 50000/year + Medical Insurance + Life Insurance + Accident Insurance
+Other details: The relocation bonus and sign on has a 1 year clawback
+Any suggestion from leetcode community?
+Have some competitive offers, will negotitate for sure.

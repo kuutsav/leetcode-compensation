@@ -1,0 +1,9 @@
+Education: BTECH in CSE (Tier - 2)
+Date of the Offer: November 2023
+Company: Texas Instruments
+Title/Level: SDE
+Location: Banglore
+Salary: ₹1800000
+Bonus: ₹682060
+Gross: ₹2842000
+Total comp (Salary + Bonus + Stock): ₹3642000

@@ -1,3 +1,0 @@
-Internship Stipend = 60000
-Mode of Internship = Virtual/Work From Home
-Locations = Bangalore, Pune, Chennai

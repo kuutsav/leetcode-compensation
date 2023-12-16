@@ -1,0 +1,83 @@
+What is TypeScript?
+Microsoft created and maintains TypeScript, an object-oriented programming language.
+It's a syntactical superset of JavaScript with the addition of optional static typing.
+TypeScript can be used to create JavaScript applications that run on
+both the server and the client. The most popular TypeScript programs are also JavaScript
+programs.
+What is JavaScript?
+JavaScript, shortened as JS, is a scripting language that follows the ECMAScript
+standard. JavaScript is a just-in-time compiled language with a high level of abstraction
+and multi-pattern support.
+JavaScript is a programming language that allows users to interact with web pages and is
+a necessary component of web applications
+Although JavaScript engines were once only found in web browsers, they are now used
+on a wide range of servers, most notably via Node.js. JavaScript derivatives include
+TypeScript, CoffeeScript, Dart, and Kotlin
+Why Use TypeScript?
+Typescript is a superset of JavaScript. This means Typescript is a combination of
+JavaScript and a few more characteristics. Developers will find it easier to work with
+JavaScript due to the language.
+Here are some more instances of what TypeScript is used for:
+Improve IDE Support:
+TypeScript development is a significant improvement over JavaScript development.
+Atom, Sublime, Visual Studio Code, and WebStorm are just a few of the JavaScript
+IDEs that offer excellent support for both TypeScript and JavaScript.
+Interoperability:
+TypeScript is strongly linked to JavaScript. As a result, it has high interoperability
+capabilities, although it requires some additional work to work with JS libraries in
+TypeScript.
+Static Typing:
+JavaScript is tightly typed, so it doesn't know what kind of variable it's dealing with
+until it's practically created at runtime. JavaScript now has type support due to
+TypeScript.
+Strict Null Examination:
+In JavaScript software programming, errors, like cannot to read property 'x' of
+undefined, are common. Since a variable that is unknown to the TypeScript compiler
+cannot be used, you can avoid most of these errors.
+Supports New ECMAScript:
+-TypeScript can trans-pile unique ECMAScript criteria to ECMAScript objectives of
+your choice. As a result, you can use lambda, modules, functions, the spread
+operator, de-structuring, and classes, which are all features of ES2015 and beyond.
+Type Inference:
+The use of type inference in TypeScript makes typing easier and less confusing. Even
+if you don't use the interface, TypeScript can help you avoid mistakes that could
+cause runtime issues.
+Why Use JavaScript?
+JavaScript is in high demand these days, as it is supported by the majority of browsers
+and web-based applications. In addition to the web, it's utilized in servers, applications,
+and embedded hardware controllers.
+The following are some basic reasons why designing a JavaScript application is
+preferable:
+Foundational Language :
+The event-driven software design style organizes the movement of your code by
+system events or user events, and JavaScript supports it.
+Fun and Interactive Language :
+You'll have immediate access to a complete user interface. JavaScript has a
+graphical user interface that is both entertaining and simple to use. Early in the
+learning process, you can construct browser-based scripts to create interactive
+projects.
+Learning Support :
+Each browser has to source code viewing features that allow you to learn from the
+live coding of others. In addition, JavaScript has the largest and most dynamic
+library code repository in the ecosystem. Individuals in the JavaScript community
+are extremely helpful and active in sharing and repurposing one another's code.
+Low Requirements to Start :
+Browsers use a programming language called JavaScript. It's a lot simpler to
+understand, and you can get started right away. Unlike other languages, JavaScript
+does not require you to install a large number of programs before you can begin
+using it.
+Rich Interfaces :
+To provide a rich interface to your website users, you can use JavaScript to include
+features like sliders and drag-and-drop components.
+Superior Debugging Tools :
+The web browser has a collaborative JavaScript interpreter that allows you to
+explore and receive immediate feedback, allowing you to learn more quickly.
+** Conclusion:
+After reviewing all of the information presented in this article, we can conclude that both
+languages have advantages and disadvantages.
+TypeScript is designed for developers who desire to write understandable, well-
+organized code. We're not even going to mention what TypeScript has to provide, such as
+live-bug checking and static typing.
+Although JavaScript is not a complete programming language, it can be used in
+combination with HTML to improve web page quality. You'll also find a lot of seasoned
+engineers who know how to code in JavaScript.

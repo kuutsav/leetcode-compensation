@@ -1,0 +1,15 @@
+Education: CS Engineering
+Years of Experience: 2Years 3months
+Prior Experience: Product Base
+Date of the Offer: April 2022
+Company: No Broker
+Title/Level: SDE
+Previous Compensation: 20 LPA (Took a 3 month break after the last job due to health issues)
+Total comp offered: 15L base + 1L joining bonus first yearBenefits: Standard
+Benifits : They would reimbursing the flight tickets
+No Competing offers.
+Am I lowballed?
+Interview questions:-
+Round 1 Reverse a linked list, check if linked list is palindrome, hashmap internal working, autowiring, bean scopes, lifecycle of bean, some basic oops concepts, java basics
+Round 2 LLD Chess Board game
+Round 3 Technomanagerial round Discuss about projects, and HR discussion.

@@ -1,7 +1,0 @@
-me: Tell ne about yourself
-interviewer: Given an aptitude problem with time constraints
-problem: A boy has one bread and eats half of the bread remaining of the previous day.find the bread remaining on 8th day.
-use GP to find ans
-next: Asked to explain the concept of oops in any language
-interviewer:Asked stack data structures concepts
-done and finally selected after few

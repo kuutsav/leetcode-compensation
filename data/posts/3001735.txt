@@ -1,0 +1,14 @@
+Education: Tier 2 Engineering College
+Years of Experience: 7
+Date of the Offer: November 2022
+Company: Egnyte
+Title: Software Engineer
+Location: Remote
+Salary: 34,00,000
+Variable Pay: 3,40,000 (paid quarterly based on company performance)
+PF & Gratuity: 2,60,000
+Stock Bonus: 3000 equity vested over 4 years
+Total compensation: 40 LPA + Equity
+Other details: Previous Compensation was 25 LPA
+Previous Company: Top MNC
+Interview Experience: https://leetcode.com/discuss/interview-experience/3003435/Egnyte-or-SDE-3-or-Remote

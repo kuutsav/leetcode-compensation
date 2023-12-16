@@ -1,0 +1,12 @@
+Education: MS in CS
+Years of Experience: 5
+Date of the Offer: Jan 2023
+Company: Nvidia
+Title/Level: Senior Software Engineer, IC3
+Location: Bay Area (Santa Clara)
+Base Pay: 190,000
+Signing Bonus: 0
+Stock bonus: 320,000 (vesting over 4 years)
+Sign on Bonus: 60,000, focal performance yearly (not sure)
+ESPP: 25,000 with 15% discount from 2 year window
+Total comp (Salary + Bonus + Stock): 301,000 per annum

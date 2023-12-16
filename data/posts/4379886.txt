@@ -1,0 +1,5 @@
+Base: 22LPA
+Stocks: 35K
+YOE: 4.5
+Level: 61
+Is it worth staying in this company?

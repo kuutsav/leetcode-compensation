@@ -1,6 +1,0 @@
-Education: BSc Software Engineering
-Location: Manchester, UK
-Salary: £45,000 GDP
-Performance Bonus: 10%
-Pension: 3%
-YOE: 3

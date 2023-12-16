@@ -1,8 +1,0 @@
-Education: Bachelors degree
-Years of Experience: 12
-Company: Amazon
-Title: SDE2
-Location: Seattle, WA
-Salary: $150,000
-Signing Bonus: $184,000
-Stock bonus: 73 units vested over 4 years

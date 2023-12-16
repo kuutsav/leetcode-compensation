@@ -1,0 +1,9 @@
+Education : some Tier 2 college
+Year of Experience: No experience
+Date of Offer: May 2023
+Company: Uptycs
+Title: SDE intern( will be converted to full time based on performance.)
+Location: Pune (remote as of now)
+Salary: 25k as intern, if converted full time then 12LPA
+Benefits: kindly helping people, good enviormnet.
+others: Interview process was so smooth, first test which is of coding question+MCQ, then 2 technical round which includes DSA, OOPS, DBMS, after that 1 discussion round.

@@ -1,0 +1,10 @@
+Status: 1.7 yoe | Passout from Tier 3
+Position: SDE1 at a Fin-tech product based company (Java Backend)
+Location: Noida
+CTC: 5.2 lpa
+I resigned from there in April because of personal health reasons plus the work environment and the pay did not suit me well. I was confident to find a better pay as compared to how/the amount of work I got done there in comparison to my peers but unfortunately I feel lost now.
+From last two months I am focussing on my DSA concepts, and now feel a bit confident to start interviewing again.
+One of my concern is will this type of career break impact seriously or is that acceptable to companies.
+Secondly, sometimes I also get confused on should I focus on the core subjects again thoroghly or just grind leetcode properly first and then maybe a week or so on OS, DBMS, OOPS, Java, Spring Boot (based on my last project at work).
+Kindly give some assistance on time partitioning since I am getting overwhelmed in order to get myself "fully prepared".
+Also pls help me with referrals, if any.

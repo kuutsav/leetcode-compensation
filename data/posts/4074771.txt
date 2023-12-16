@@ -1,0 +1,12 @@
+Education -> BTech CSE from Tier-1 College
+Job role -> 2 months Intern | Appdevelopment / Server Technology
+Year of study -> 3rd
+Company -> Oracle
+Location -> Banaglore/Hyderabad
+Stipend -> 1,00,000 per month
+Total Rounds -> 4
+First Online Test (32 Questions) [ 1 DSA coding question, Rest MCQ's on mental ability, CS fundamentals, ]
+Test platform -> Hackerrank
+Second round -> Screening interview round (short)
+Third round -> technical interview
+Fourth round -> HR round

@@ -1,0 +1,13 @@
+College: Tier 1 (IIT/NIT)
+YOE: 1.5 years
+Role: Senior Software Engineer (Backend + Devops)
+Company: Telecom MNC
+Current CTC: 17L (all fixed)
+WLB: Poor
+Offer:
+Company: Singapore/Amsterdam based startup with office in India
+Role: Devops Engineer
+CTC: 23.5L (all fixed)
+Office: Remote/Hybrid - Wework
+Should I switch to a pure Devops position this early in my career (what are pros and cons)?
+Should I consider accepting this offer (I have already rejected few 18-21L range offers)?

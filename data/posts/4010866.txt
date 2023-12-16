@@ -1,0 +1,15 @@
+Education: B.tech in Computer Science ( Tier -1 )
+Years of Experience: 9
+Prior Experience: SDE 2 at FAANGMULA
+Date of the Offer: Apr 2023
+Company: Expedia
+Title/Level: SDE 3
+Location: Gurgaon, India
+Salary: Rs 3950000 ( PF + gratuity included )
+Relocation: N/A
+Signing Bonus: Rs 1400000 ( 1st year : Rs 700000 , 2nd year: 700000 )
+Stock bonus: $40000 stock grant vested over 4 years, front loaded (40,30,20,10)
+Performance bonus: Rs 4 lacs
+Total comp (Salary + Bonus + Stock): approx Rs 65 lacs
+Benefits ( worth Rs 2.3 lac ) : Transportation, Wellness , Dental , Health check, Meal, Mobile/Wifi, Leisure travel , OPD
+Interview Experience : https://leetcode.com/discuss/interview-experience/4010484/Expedia-or-SDE-3-or-Gurgaon-or-Apr-2023-Offer

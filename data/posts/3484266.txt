@@ -1,0 +1,27 @@
+Education: B.Tech + M.Tech (Dual Degree) in Information Technology
+Years of Experience: 1.9
+Prior Experience: Nutanix
+Prior Compensation (all in INR): 23,00,000 (Fixed) + 1,50,000 (Bonus) + (~4,00,000 Stock per year)
+Date of the Offer: May 2023
+Company: Globalization Partners (GP)
+Title/Level: Software Engineer II
+Location: Remote
+Salary: 24,00,000 (INR)
+Relocation: NA
+Signing Bonus: 2,40,000 (10% annual salary)
+Stock bonus: LTI offering = 840,000 ( 35% of base salary over 5 years) = 1,68,000 per year
+Bonus: NA
+Total comp (Salary + Bonus + Stock): 28,08,000
+Benefits: Unknown
+Other details: Negotiated once, based on another offer. Didn't hear back yet.
+Edits:
+Negotiation worked. Updated offer details,
+Salary: 28,00,000 (INR)
+Relocation: NA
+Signing Bonus: 2,80,000 (10% annual salary)
+Stock bonus: LTI offering = 980,000 ( 35% of base salary over 5 years) = 1,96,000 per year
+Bonus: NA
+Total comp:
+First year (Salary + Bonus + Stock): 32,76,000
+Second year onwards (Salary + Stock): 29,96,000
+Interview Exp: https://leetcode.com/discuss/interview-experience/3513524/Globalization-Partners-G-P-or-SDE-II-or-Remote-or-May-2023-Offer

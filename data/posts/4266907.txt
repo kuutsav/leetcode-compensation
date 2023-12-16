@@ -1,0 +1,12 @@
+Education: Btech (tire-4)
+Years of Experience: 3
+Prior Experience: service based MNC
+Company: zscaler
+Title/Level: software developer -React
+Location: Banglore
+Salary: 21LPA
+Relocation Bonus: 125000
+Stock bonus: 15000USD (vested for 4 years with 1 year lock in)
+Total comp (Salary + Stock): 17 LPA(Fixed) + 4LPA(stocks)
+Benefits: standard zscaler benefit
+Is this good offer to take for 3 years of experience for frontend developer ?

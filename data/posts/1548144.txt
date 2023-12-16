@@ -1,9 +1,0 @@
-Education: Pursuing B.Tech in Computer Science
-Years of Experience: 0
-Salary: INR 14,00,000
-Title/Level: C++/ Java Developer
-Date of the Offer: October 2021
-Location: Bangalore, India
-Bonus: Performance-based bonus 7% of salary every year
-Total Comp: INR 15,00,000 (approximately)
-Other Details: Standard Benefits (Insurance, Food Coupons, Reimburesments)

@@ -1,0 +1,12 @@
+YOE: 0
+COMPANY: Barclays Global Services Pvt Ltd
+Stipend: 1,00,000
+Title: Technology (Engineering)
+Hiring Process
+2 Rounds + 1 HR round
+Online Assessment & Coding
+2 medium questions were given in 1 hour.
+Interview -1
+Normal java realted questions were asked
+Interview -2
+Hr round

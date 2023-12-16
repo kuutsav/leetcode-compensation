@@ -1,9 +1,0 @@
-Education : Tier 2 College
-Experience : 8 years
-Position : VP
-Currency : INR
-Base : 50,000,00 PA
-Bonus : 15,000,00 PA (Variable)
-Joining Bonus : 500,000
-Stock : 500,000
-Total CTC : (50Base+15Bonus+5+5) = 7500,000 PA

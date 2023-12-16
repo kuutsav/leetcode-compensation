@@ -1,0 +1,20 @@
+Education: Tier 3 College
+Years of Experience: 7 Years
+Prior Experience: Product-Based MNC
+Company: Viacom18 (Jio Cinema)
+Title/Level: Senior Software Development Engineer – I (Backend)
+Location: Bangalore
+Fixed Salary: Rs 30,50,000
+Signing Bonus: 0
+Provident Fund: Rs. 1,50,000
+Total Insurance Premium: Rs. 50,000
+Target Bonus / Variables: Rs. 3,50,000
+Total Comp: Rs. 36,00,000
+Current Comp: Rs. 26 LPA (All Fixed)
+Offer Accepted.
+Interview Rounds:
+Round 1: DSA Problem Solving - 2 easy/medium questions on Array and String
+Round 2: System Design Round - Design Instagram
+Round 3: Bar Raiser - Couple of Behavioral questions and also a design question (real-time analytics of data coming from devices)
+Round 4: Cultural Fitment - Discussion with HRBP
+Post this, I got a call from the recruiting HR for a salary discussion.

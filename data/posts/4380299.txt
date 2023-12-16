@@ -1,0 +1,11 @@
+Off-Campus Selection
+Qualifications : B.Tech Passouts-2025
+Branches : ALL
+CGPA : 7 or Above
+Stipend : 1.25 Lacs per Month
+Role : SWE Summer Intern
+Duration : 2 months
+Interview Rounds:
+1. Coding Test - 2 Questions(Array & Trie Based)
+2. Technical Interview ( 45 mins)
+3. Managerial Round (50 mins)

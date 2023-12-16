@@ -1,3 +1,0 @@
-I got Flutter App Developer internship from Pina Systems after they reviewed my resume and took a telephonic interview.
-They took 2 telephonic technical interview on flutter,dart,firebase database.
-The internship Duration was 6months.

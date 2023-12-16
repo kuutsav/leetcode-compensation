@@ -1,0 +1,7 @@
+Per Month
+Basic: 11,925
+HRA: 7155
+Conveyance Allowance: 800
+Medical Allowance: 1250
+Special Allowance: 9132
+Advance Statutory Bonus: 2000

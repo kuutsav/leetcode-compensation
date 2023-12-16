@@ -1,0 +1,11 @@
+Basic - 1,35,000
+HRA - 54,000
+Conveyance Allowance - 19,200
+Medical Allowance - 15,000
+Special Allowance - 76,800
+Total Gross Salary - 3,00,000
+PF contribution by employee - 16,200
+ESI contribution by employee - 0
+Professional Tax (Different for each state) - 1,800
+Total Deduction - 18,000
+Net Salary - 2,82,000
