@@ -18,30 +18,16 @@ from leetcode.utils.constants import (
 
 
 def _save_unmapped_labels(df: pd.DataFrame, label: str, suggest: bool = False) -> None:
-    """Saves unmapped labels for manual labeling.
-
-    Args:
-        df (pd.DataFrame): Input df with labels.
-        label (str): Label to filter.
-
-    Returns:
-        dict: Unmapped labels.
-    """
-    unmapped_txts = set(df[df[label] == MISSING_TEXT][f"raw_{label}"].values.tolist())
-    unmapped_labels = {}
+    unmapped_txts, unmapped_labels = set(df[df[label] == MISSING_TEXT][f"raw_{label}"].values.tolist()), {}
     for txt in unmapped_txts:
         if txt:
             clean_txt = clean_info.clean_text(txt)
-            if clean_txt in unmapped_labels:
-                unmapped_labels[clean_txt]["count"] += 1
-            else:
-                unmapped_labels[clean_txt] = {label: "", "count": 1}
+            if clean_txt in unmapped_labels: unmapped_labels[clean_txt]["count"] += 1
+            else: unmapped_labels[clean_txt] = {label: "", "count": 1}
 
     if suggest:
-        if label == "company":
-            unmapped_labels = suggestions.company_suggestions(unmapped_labels)
-        elif label == "title":
-            unmapped_labels = suggestions.title_suggestions(unmapped_labels)
+        if label == "company": unmapped_labels = suggestions.company_suggestions(unmapped_labels)
+        elif label == "title": unmapped_labels = suggestions.title_suggestions(unmapped_labels)
 
     logger.warning(f"{len(unmapped_labels)} unmapped {label} saved")
 
@@ -49,38 +35,24 @@ def _save_unmapped_labels(df: pd.DataFrame, label: str, suggest: bool = False) -
 
 
 def get_raw_records() -> pd.DataFrame:
-    """Raw records with entities extracted using rules.
-
-    Returns:
-        pd.DataFrame: Records in a pandas dataframe.
-    """
     posts_meta, data, missing_post_ids = load_json(POSTS_METADATA_F), [], []
 
     for f in os.listdir(POSTS_DIR):
         post_id = f.split(".")[0]
-        if post_id not in posts_meta:
-            missing_post_ids.append(post_id)
-            continue
+        if post_id not in posts_meta: missing_post_ids.append(post_id); continue
         with open(POSTS_DIR / f, "r") as f:
             txt = f.read()
             formatted_txt = re.sub(r"\s{2,}", " ", txt.lower())
             data.append(
                 (
-                    post_id,
-                    posts_meta[post_id]["href"],
-                    posts_meta[post_id]["title"],
-                    datetime_from_posts_date(posts_meta[post_id]["date"]),
-                    txt,
-                    label_rule_for_company(formatted_txt),
-                    label_rule_for_others(formatted_txt, "title"),
-                    label_rule_for_others(formatted_txt, "yoe"),
-                    label_rule_for_others(formatted_txt, "salary"),
-                    label_rule_for_others(formatted_txt, "salary_total"),
-                    label_rule_for_others(formatted_txt, "location"),
+                    post_id, posts_meta[post_id]["href"], posts_meta[post_id]["title"],
+                    datetime_from_posts_date(posts_meta[post_id]["date"]), txt,
+                    label_rule_for_company(formatted_txt), label_rule_for_others(formatted_txt, "title"),
+                    label_rule_for_others(formatted_txt, "yoe"), label_rule_for_others(formatted_txt, "salary"),
+                    label_rule_for_others(formatted_txt, "salary_total"), label_rule_for_others(formatted_txt, "location")
                 )
             )
 
-    # fmt: off
     df = pd.DataFrame(
         data, dtype="str",
         columns=[
@@ -88,22 +60,15 @@ def get_raw_records() -> pd.DataFrame:
             "raw_title","raw_yoe", "raw_salary", "raw_salary_total", "raw_location"
         ],
     )
-    # fmt: on
 
     logger.info(f"n records: {df.shape[0]}")
 
-    if missing_post_ids:
-        logger.warning(f"n missing post_ids: {len(missing_post_ids)}, {missing_post_ids[:10]} ...")
+    if missing_post_ids: logger.warning(f"n missing post_ids: {len(missing_post_ids)}, {missing_post_ids[:10]} ...")
 
     return df
 
 
 def get_clean_records_for_india() -> pd.DataFrame:
-    """Posts along with the extracted info(filtered for `India`).
-
-    Returns:
-        pd.DataFrame: Records with labels in a pandas dataframe.
-    """
     df = get_raw_records()
 
     df["company"] = df["raw_company"].apply(lambda x: clean_info.clean_company(x))
