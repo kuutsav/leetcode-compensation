@@ -5,7 +5,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 from leetcode.utils.commons import load_json
 from leetcode.utils.constants import MAPPINGS_DIR
 
-
 company_mapping = load_json(MAPPINGS_DIR / "lc_company.json")
 companies = list(company_mapping.keys())
 cv_company = CountVectorizer(analyzer="char")
@@ -18,7 +17,6 @@ base_titles = cv_title.fit_transform(titles)
 
 
 def company_suggestions(unmapped_companies: dict) -> dict:
-    """Suggestions for unmapped companies."""
     unmapped_vecs = cv_company.transform(list(unmapped_companies.keys()))
     scores = cosine_similarity(unmapped_vecs, base_companies)
     reco_ixs = np.argmax(scores, axis=1)
@@ -28,7 +26,6 @@ def company_suggestions(unmapped_companies: dict) -> dict:
 
 
 def title_suggestions(unmapped_titles: dict) -> dict:
-    """Suggestions for unmapped titles."""
     unmapped_vecs = cv_title.transform(list(unmapped_titles.keys()))
     scores = cosine_similarity(unmapped_vecs, base_titles)
     reco_ixs = np.argmax(scores, axis=1)
