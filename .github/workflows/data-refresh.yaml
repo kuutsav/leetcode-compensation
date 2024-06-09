@@ -57,7 +57,5 @@ jobs:
             repo,
             head: '${{ github.ref_name }}',
             base: 'main',
-            body: [
-              'Automatic LeetCode data update',
-            ]
+            body: 'Automatic LeetCode data update'
           });
