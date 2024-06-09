@@ -20,8 +20,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python -m pip install uv
-        uv pip install -r requirements.txt
+        pip install -r requirements.txt
 
     - name: Data Refresh...
       run: python leetcomp/refresh.py
