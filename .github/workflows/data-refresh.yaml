@@ -43,7 +43,15 @@ jobs:
         git config --global user.name github-actions
         git config --global user.email github-actions@github.com
         git add .
-        git commit -m "action: daily data refresh"
+        git diff --staged --exit-code || has_changes=$?
+        if [ "$has_changes" == "1" ]; then
+          echo "Changes detected, committing..."
+          git commit -m "action: daily data refresh"
+          git push
+        else
+          echo "No changes to commit."
+          exit 1
+        fi
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v4
