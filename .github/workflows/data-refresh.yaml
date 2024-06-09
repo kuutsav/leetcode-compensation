@@ -1,4 +1,4 @@
-name: Daily Data Refresh from LeetCode
+name: automatic-data-update
 
 on:
   schedule:
