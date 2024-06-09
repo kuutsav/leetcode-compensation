@@ -3,7 +3,7 @@ name: automatic-data-update
 on:
   schedule:
     # Runs at 1 PM UTC, which is 6:30 PM IST
-    - cron: '*/15 * * * *'
+    - cron: '00 16 * * *'
 
 jobs:
   automatic-data-update:
