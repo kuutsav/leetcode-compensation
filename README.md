@@ -5,13 +5,17 @@
 
 Analysing compensations mentioned on the Leetcode forums.
 
-> Note: Only supports posts from `India` at the moment.
+> Only supports posts from `India` at the moment.
 
-`Leetcode compensation` works by regularly fetching new posts from the [leetcode compensations page](https://leetcode.com/discuss/compensation). The `leetcomp` directory contains python scripts to fetch and parse new posts. We use LLMs to parse structured information from the scraped posts.
+`Leetcode compensation` works by regularly fetching new posts from the [leetcode compensations page](https://leetcode.com/discuss/compensation).
+
+The `leetcomp` directory contains python scripts to fetch and parse new posts. We use LLMs to parse structured information from the scraped posts.
 
 ---
 
 The app is hosted at https://kuutsav.github.io/leetcode-compensation/ using github pages.
+
+![image info](./assets/leetcomp.png)
 
 ## Getting Started
 
