@@ -39,6 +39,7 @@ jobs:
         python leetcomp/parse.py
 
     - name: Commit files
+      id: commit-files
       run: |
         git config --global user.name github-actions
         git config --global user.email github-actions@github.com
@@ -50,10 +51,11 @@ jobs:
           git push
         else
           echo "No changes to commit."
-          exit 1
+          echo "skipnext=true" >> $GITHUB_OUTPUT
         fi
 
     - name: Create Pull Request
+      if: (steps.commit-files.outputs.skipnext != 'true') 
       uses: peter-evans/create-pull-request@v4
       with:
         token: ${{ secrets.GH_TOKEN }}
