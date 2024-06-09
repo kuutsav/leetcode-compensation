@@ -47,15 +47,12 @@ jobs:
         git push
 
     - name: Create Pull Request
-      uses: actions/github-script@v6
+      uses: peter-evans/create-pull-request@v4
       with:
-        script: |
-          const { repo, owner } = context.repo;
-          const result = await github.rest.pulls.create({
-            title: 'Automatic Data Update',
-            owner,
-            repo,
-            head: '${{ github.ref_name }}',
-            base: 'main',
-            body: 'Automatic LeetCode data update'
-          });
+        token: ${{ secrets.GH_TOKEN }}
+        commit-message: Update content
+        title: "Automated PR to refresh data"
+        body: "This is an automated pull request to refresh the data."
+        branch: "data-refresh"
+        delete-branch: true
+        draft: false
