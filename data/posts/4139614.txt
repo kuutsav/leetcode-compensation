@@ -1,5 +1,0 @@
-salary of sde 1
-ctc=32 lakhs
-base=16 lakhs
-joining bonus=4 lakhs
-12 lakhs stock vested for 4 years

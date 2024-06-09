@@ -1,8 +1,0 @@
-Education: B.Tech
-Years of Experience: 0
-Prior Experience: 0
-Date of the Offer: jan-2024
-Company: Optum
-Title/Level: sde-1
-Location:hyderabad
-Salary: 14lpa

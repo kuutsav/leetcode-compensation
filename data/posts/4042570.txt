@@ -1,6 +1,0 @@
-Degree: CS Major from Tier-1
-Role: Product Engineer
-Location: Gurgaon, Haryana
-Stipend: 2lpm
-Duration: 8 weeks
-Relocation: Unknown

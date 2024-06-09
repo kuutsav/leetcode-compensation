@@ -1,7 +1,0 @@
-I have two offers ,
-Comp A :
-19L
-Comp B:
-19L + 2L bonus
-I have seen Comp A pay 22 and more base on leetcode. How do I negotiate with compA to get to that number of 22ish?
-Please help...

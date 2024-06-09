@@ -1,7 +1,0 @@
-Salesforce AMTS compensation:
-Position: New Grad campus hire (Tier 1 college)
-Base: 17L
-Stocks: $25000 (vested over 4 years)
-Sign on Bonus: 4L
-Wellness: 60k/annum + other benefits
-Bonus: 10% of base

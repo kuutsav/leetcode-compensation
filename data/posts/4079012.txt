@@ -1,6 +1,0 @@
-Base:685452
-Pf:64000
-Shares:43000
-total ctc:784272
-Location:Bengaluru
-experience:intern at cgi

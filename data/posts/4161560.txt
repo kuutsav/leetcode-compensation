@@ -1,7 +1,0 @@
-Hello everyone,
-Link: Placewise-India
-I’ve been working on a project called Placewise-India, a platform designed to provide information about the companies visiting various campuses for recruitment. As a third-year student, I found myself curious about the companies visiting our campus, which led me to create this platform.
-Currently, we have data for the companies visiting IIT Bombay.
-I’m inviting all of you to contribute to this project by adding information about the companies visiting your respective institutions. This will not only help in expanding the database but also benefit students across the country by giving them insights into the recruitment landscape.
-If you encounter any bugs or issues while using the platform, please let me know. Your feedback is invaluable in improving and refining Placewise-India.
-Looking forward to your contributions!

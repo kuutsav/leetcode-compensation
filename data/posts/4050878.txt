@@ -1,8 +1,0 @@
-Education: B-Tech IT in Tier 3
-YOE: 0
-Company: Seclore
-Position: Product Engineer Trainee
-Location: Mumbai
-Salary (Basic + HRA + Special Allownace + Provident Fund): 10LPA
-Retention Bonus (After 2 Years of Completion): 2 Lacs
-Total CTC: 12

@@ -1,8 +1,0 @@
-NEED ADVICE ( Flutter Developer )
-Hii Leetcoder's ,
-I'm a fresher ,I recently started working at a startup as a FLUTTER DEVELOPER ,I'm curious about the FUTURE of a CAREER IN FLUTTER , Are there many companies that use Flutter? Is Flutter still in high demand?
-I'm also wondering if there are plenty of job opportunities in Flutter, or if I should start learning other frameworks too. Any advice you could provide would be really helpful.
-Will my Experience in Flutter help to land a job with good package .
-If anyone have any idea , please respond !
-Thankyou !
-Note : Recently My Offer of SDE ( MERN ) of one PBC has been revoked , so Joined one small startup

@@ -1,2 +1,0 @@
-hash table implementation using cpp
-unordered_map<int,int> h;

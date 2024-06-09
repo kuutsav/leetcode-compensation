@@ -1,7 +1,0 @@
-Education: B.E. in Computer Science
-Years of Experience: 1
-Company: Xome
-Title/Level: Software Dev. I
-Location: Chennai
-Salary: 1500000
-Other details: None

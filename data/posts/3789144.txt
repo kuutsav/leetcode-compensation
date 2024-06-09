@@ -1,9 +1,0 @@
-Base - 61L
-Retirals - 3L
-Variable - 25%
-New Hire RSU - 45%
-Joining Bonus - 12L
-Still have a room for negotiation? How decent the offer looks?
-yoe: 10
-designation: senior mgr1
-counter offer: 55 fixed

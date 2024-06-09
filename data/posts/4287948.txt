@@ -1,9 +1,0 @@
-Salary - 8,00,004
-Basic Salary - 400008
-HRA - 160008
-Conveyance Allowance - 19200
-Medical Reimbursement - 15,000
-Mobile Reimbursement - 24,000
-Fitness Allowance - 36,000
-Special Allowance - 1,45,788
-Total comp (Salary + Bonus + Stock) - 8,00,004

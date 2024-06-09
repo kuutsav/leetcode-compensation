@@ -1,8 +1,0 @@
-Company Name: Dolat Capitals
-Position Name: Quantitative Analyst
-Location: Mumbai.
-CTC is 26,00,000
-Fixed Component = 14,00,000
-Retention Bonus = 6,00,000
-Variable Bonus = 6,00,000
-Total CTC = 26,00,000

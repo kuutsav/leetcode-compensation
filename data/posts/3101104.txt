@@ -1,5 +1,0 @@
-Batch: 2023, 2024
-Company ICMS
-Location Hyderabad
-Req ID 3971
-Languages - Python/Java/JavaScript

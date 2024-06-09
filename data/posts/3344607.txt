@@ -1,4 +1,0 @@
-First round was MCQ's from CS core concepts(DS, DBMS, OOPS, CN, OS) and quantitative aptitude on Pravesh.
-Second round was like a design round, they expect SOLID principle's in your code.
-Third round was technical round in my case there were two interviewers, they evenly focused on (DS, DBMS, OOPS, CN, OS) and projects.
-Final round was general HR with question's like are you Ok with company like things.

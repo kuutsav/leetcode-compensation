@@ -1,7 +1,0 @@
-int BS(int *arr,int s,int e,int target){
-if(s>e) return -1;
-int mid= (s+e)/2;
-if(arr[mid]==target) return mid;
-else if(arr[mid]>target) return BS(arr,s,mid-1,target);
-else return BS(arr,mid+1,e,target);
-}

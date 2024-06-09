@@ -1,3 +1,0 @@
-Education: MCA
-certificate: proffesional cyber security analyst certification
-skill: azur,aws, neworking,linux,python,sql,git,github,javascript,c,c++

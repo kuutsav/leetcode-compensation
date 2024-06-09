@@ -1,5 +1,0 @@
-Aptitude and Coding problems (Online mode)
-assessment round
-An Assessment will be sent via mail to top-percentile students and others won’t be notified whether they are rejected or selected.
-The test was 120 minutes long consisting of three sections, namely Quantitative Aptitude, Logical Reasoning, and Verbal English. Each section had 20 questions (10 marks each) of 200 marks. Among all the three sections, the Crypt arithmetic questions in the logical reasoning questions were the most difficult yet important part of the test. The total number of questions in it was 4 to 5, and the suggested time to complete the same was 10 to 12 minutes per question. If one is successful in solving, then he or she might be able to increase their percentile by about 40%.
-Coding questions where related to the Linked list, Stacks and Dynamic Programming.

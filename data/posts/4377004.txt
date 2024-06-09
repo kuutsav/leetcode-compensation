@@ -1,8 +1,0 @@
-Got an offer for SMTS Salesforce. Please evaluate ?
-Tc : 69.6L (48 base + 14 stocks + 7 bonus)
-Current tc : 46L (33 base + 9L stocks + 3 bonus ) Current level : 62
-Yoe: 6.5. Attended the bangalore drive on 25'th November.
-1st Round : Leetcode Medium (2 problems)
-2nd Round : LLD. Easy known problem
-3rd Round: HLD, Focus on System Design Concepts.
-4'th Round : HM, mostly project discussions. HM was impressed with a project i did in amazon.

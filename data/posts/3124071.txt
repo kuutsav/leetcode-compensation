@@ -1,3 +1,0 @@
-Prefix Sum
-N - queen
-Suduko solver

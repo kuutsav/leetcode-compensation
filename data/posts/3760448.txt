@@ -1,8 +1,0 @@
-Education: B.Tech in CSE (2019-23)
-Years of Experience: 0
-Prior Experience: Interned at MAQ Software
-Company: Inncircles
-Title: Quality Analyst
-Location: Hyderbad
-Salary: 6lpa
-Total rounds: 3 [Two technical and one managerial] {DSA}

@@ -1,9 +1,0 @@
-Hey Guys,
-Company : MNC
-Position : AWS Developer (language used python)
-CTC : 5 LPA
-YOE : 1.7
-Skills : certified AWS Solutions architect, python, DSA (2.5 out of 5), panning to do AWS Developer certificate. **** (pls, mention any other skill required for the role)****
-I am planning to switch the company, but want to know how to look for companies hiring for AWS and Python for a developer role? and for 2 YOE what will be the max aprox salary for AWS Developer?
-Pls, provide your thoughts and the company you got selected as AWS developer.
-Thanks!!

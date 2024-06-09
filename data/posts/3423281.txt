@@ -1,7 +1,0 @@
-Education: M.Sc.
-Years of Experience: 1
-Offer Company: Deutsche Boerse
-Title: Software Developer
-Location: Frankfurt am Main, Germany
-Offered Comp: 60,000 Euros/year + ~10% bonus
-Benefits: 30 days paid vacation + Lunch + Job ticket + extra insurance

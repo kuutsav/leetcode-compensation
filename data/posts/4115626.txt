@@ -1,8 +1,0 @@
-Education: KL University
-Years of Experience: 1
-Prior Experience: Intern at AWS Cloud.
-Date of the Offer: October 10th, 2023
-Company: LinkedIn
-Title/Level: Intern
-Location: Bangalore
-Salary: 50,000 INR per month

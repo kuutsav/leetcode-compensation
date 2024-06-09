@@ -1,58 +1,70 @@
-# Leetcode Compensations report
+# leetcode compensation
 
-Scraping and analysis of the `leetcode-compensations` page (for India).
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
 
-> Check out https://github.com/kuutsav/LeetComp for an interactive version of this report.
+Analysing compensations mentioned on the Leetcode forums.
 
-![Salary](data/imgs/salary_distribution_dark.png)
+> Note: Only supports posts from `India` at the moment.
 
-## Reports
+`Leetcode compensation` works by regularly fetching new posts from the [leetcode compensations page](https://leetcode.com/discuss/compensation). The `leetcomp` directory contains python scripts to fetch and parse new posts. We use LLMs to parse structured information from the scraped posts.
 
--- [Fixed salary: 29th Dec 2022 - 17th Dec 2023](data/reports/report_2022_12_29_to_2023_12_17.md)<br>
--- [Total salary: 29th Dec 2022 - 17th Dec 2023](data/reports/report_2022_12_29_to_2023_12_17_tc.md)<br>
--- [Fixed salary(Dark mode): 29th Dec 2022 - 17th Dec 2023](data/reports/report_2022_12_29_to_2023_12_17_dark.md)<br>
--- [Total salary(Dark mode): 29th Dec 2022 - 17th Dec 2023](data/reports/report_2022_12_29_to_2023_12_17_dark_tc.md)
+---
 
--- [Fixed salary: 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18.md)<br>
--- [Total salary: 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_tc.md)<br>
--- [Fixed salary(Dark mode): 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_dark.md)<br>
--- [Total salary(Dark mode): 5th Jan 2019 - 18th Jan 2022](data/reports/report_2019_01_05_to_2022_01_18_dark_tc.md)
+The app is hosted at https://kuutsav.github.io/leetcode-compensation/ using github pages.
 
-## Setup
+## Getting Started
 
-```bash
-$ git clone <repo>
-$ python3 -m venv .venv
-$ source .venv/bin/activate
-$ pip install -r requirements.txt
+Install uv with our standalone installers, or from [PyPI](https://pypi.org/project/uv/):
+
+```shell
+# On macOS and Linux.
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# On Windows.
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# For a specific version.
+curl -LsSf https://astral.sh/uv/0.2.9/install.sh | sh
+powershell -c "irm https://astral.sh/uv/0.2.9/install.ps1 | iex"
+
+# With pip.
+pip install uv
+
+# With pipx.
+pipx install uv
+
+# With Homebrew.
+brew install uv
 ```
 
-<!-- 5. To create the reports - `npm install vega-lite vega-cli canvas`(needed to save altair plots). -->
+To create a virtual environment:
 
-## Data update
-
-First we need to fetch the posts metadata. This inlvolves fetching the post ids from each page (till_date -> today).
-```bash
-$ source .venv/bin/activate
-$ PYTHONPATH=. python leetcode/posts_meta.py --till_date 2023/01/01
+```shell
+uv venv  # Create a virtual environment at .venv.
 ```
 
-The next step if to fetch the actual post content for each of the post ids from the previous step.
-```bash
-$ source .venv/bin/activate
-$ PYTHONPATH=. python leetcode/posts.py --posts_meta F
+To activate the virtual environment:
+
+```shell
+# On macOS and Linux.
+source .venv/bin/activate
+
+# On Windows.
+.venv\Scripts\activate
 ```
 
-## Generating the reports
+To install a package into the virtual environment:
+
+```shell
+uv pip install -r requirements.txt  # Install from a requirements.txt file.
+```
+
+## Updating data
+
+> Make sure you have complete the steps above and are in a venv
 
 ```bash
-$ source .venv/bin/activate
-
-$ python scripts/plots.py  # generate fixed comp. plots
-$ python scripts/report.py  # fixed comp.
-$ python scripts/report_dark.py  # fixed comp., dark mode
-
-$ python scripts/plots_total.py  # generate total comp. plots
-$ python scripts/report_total.py  # total comp.
-$ python scripts/report_dark_total.py  # total comp., dark mode
+$ python leetcomp/refresh.py
+$ python leetcomp/parse.py
 ```

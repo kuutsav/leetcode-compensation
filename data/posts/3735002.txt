@@ -1,5 +1,0 @@
-Hi Leetcode community,
-I am 2 YOE software developer currently located in Delhi NCR. Recently started looking out for switch. I have worked on Golang, Kafka, Java, CassandraDB, redis, GCP, docker, Kubernetes. I have solved around 500 ques over different programming sites. Recently started learning system design too.
-My current CTC is 18LPA ( All fixed )
-I want to ask what should i say when a recruiter reach out to me and ask my expected CTC ? Should I ask for a fixed number ? If yes then what it should be considering my skillset and experience ? Or should i not tell them any number and try to dodge the question, If yes then how ? Almost every recruiter asks for current CTC, should I disclose it to them or try to avoid this ques as well ?
-Please guide me as to how to deal with these questions and what should be the ideal and polite replies.

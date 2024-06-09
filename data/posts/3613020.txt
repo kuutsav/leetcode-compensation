@@ -1,7 +1,0 @@
-Education: B.E from Private college in Chennai
-Company: Virtusa
-Title: Full Stack Developer
-Base: 5L
-Variable: 50k
-Total: 5.5L
-Process: On Campus (1 coding&MCQ round + 1 technical interview + 1 hr interview) evrything done in OnLine

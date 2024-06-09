@@ -1,7 +1,0 @@
-Education: BTech in Computer Science
-Years of Experience: 0
-Prior Experience: None
-Company: Nexgle Inc
-Title/Level: Fullstack Web Developer
-Location: Remote
-Salary: Unpaid

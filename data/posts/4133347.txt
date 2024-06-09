@@ -1,8 +1,0 @@
-Education: BTech in Computer Science
-YOE: Final Year
-Date of the Joining: 12th August 2021
-Company: PwC AC
-Title/Level: Associate Software Engineer
-Location: Bangalore, India
-Salary: ₹600000
-Benefits: Standard PwC Benefits ( Insurance etc. )

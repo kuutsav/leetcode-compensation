@@ -1,5 +1,0 @@
-passed out in 2023
-YOE: fresher
-Salary: 4.5lpa
-Role: Associate Software Engineer
-Bonus: 25000

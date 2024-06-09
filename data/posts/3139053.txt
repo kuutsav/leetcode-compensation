@@ -1,7 +1,0 @@
-Education: Cummins college of engineering for women
-Years of Experience: 0
-Company: Oracle
-Location: Banglore
-Role: SDE-2
-Stipend for Intern: ₹50k/month
-PPO : 17.97 LPA

@@ -1,9 +1,0 @@
-Education: IIT, 2021 grad
-Years of Experience: 2 years
-Prior Experience: SDE1 backend at Razorpay
-Company: Opendoor
-Title: L3 engineer backend (similar to SDE2)
-Location: Banglore (2days a week)
-Salary: 30LPA
-Stock bonus: 24.5L RSU vested over 2 years
-Other offer: SDE2 backend Headout

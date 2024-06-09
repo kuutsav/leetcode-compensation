@@ -1,7 +1,0 @@
-Compensation:
-Month: July , Year: 2022
-CTC: 6LPA
-Bond: 2 Years
-Type: On-Campus
-Location: Chennai, India
-Rounds: 2(Technical, Managerial)

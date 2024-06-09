@@ -1,3 +1,0 @@
--
-Hi there!
-Is development necessary to get into Google or a strong grasp on Data Structures and Algorithms and some theory subjects like Computer Networking , OOPS is enough?

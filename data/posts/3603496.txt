@@ -1,7 +1,0 @@
-YOE: 8 years
-Tech Stack: Java, SpringBoot, Microservice, Kafka
-Current CTC: 34.4 LPA
-Offer Nagarro:
-Fixed CTC: 36LPA
-Bonus + Pf = 4LPA
-Total CTC: 40LPA

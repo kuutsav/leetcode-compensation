@@ -1,3 +1,0 @@
-I am following the Striver in Youtube and getting confidence lately on how to approach the problem and how to evaluate what process needs to be taken while doing so,it's necessary to analyze in before hand even solving it.
-I recommend all to go through what is the given statement and what needs to be done in order to acheive that.
-#striverDP.

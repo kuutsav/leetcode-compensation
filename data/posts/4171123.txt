@@ -1,9 +1,0 @@
-Education: Tier 1 BTech CS (3rd year)
-Company: Amazon
-Title/Level: SDE Intern
-Duration: Summer 2024 (2 months)
-Location: Bangalore
-Salary: 1.10L/month
-Relocation/Signing Bonus: 400 USD/month
-Total comp (Salary + Bonus + Stock): 1.43L/month
-Other details: oncampus offer

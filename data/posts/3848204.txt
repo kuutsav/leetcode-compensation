@@ -1,9 +1,0 @@
-Years Of Experience: 1.9 Years
-Prior Experience: Front-end developer in a startup
-Title: Specialist Programmer
-Location: Bengaluru, India
-Salary: 10 LPA
-Bonus: 2 LPA
-Stocks/Joining Bonus: None.
-Total: 12 LPA
-Interview Experience: https://leetcode.com/discuss/interview-experience/3848219/Infosys-Specialist-Programmer-1.9-Years-(MEANMERN)

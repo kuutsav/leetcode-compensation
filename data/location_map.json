@@ -1,0 +1,117 @@
+[
+    {
+        "cluster_name": "Ahmedabad",
+        "cluster": [
+            "ahmedabad"
+        ]
+    },
+    {
+        "cluster_name": "Bangalore",
+        "cluster": [
+            "bangalore",
+            "banglore",
+            "bengalore",
+            "bengaluru",
+            "bengalurue",
+            "bglr",
+            "blr",
+            "blore"
+        ]
+    },
+    {
+        "cluster_name": "Chennai",
+        "cluster": [
+            "chennai"
+        ]
+    },
+    {
+        "cluster_name": "Hyderabad",
+        "cluster": [
+            "hyd",
+            "hyderabad",
+            "hyderbad",
+            "hydrabad"
+        ]
+    },
+    {
+        "cluster_name": "India",
+        "cluster": [
+            "india",
+            "pan india"
+        ]
+    },
+    {
+        "cluster_name": "Indore",
+        "cluster": [
+            "indore"
+        ]
+    },
+    {
+        "cluster_name": "Kolkata",
+        "cluster": [
+            "kolkata"
+        ]
+    },
+    {
+        "cluster_name": "Kochi",
+        "cluster": [
+            "kochi"
+        ]
+    },
+    {
+        "cluster_name": "Mumbai",
+        "cluster": [
+            "mumbai",
+            "navi-mumbai"
+        ]
+    },
+    {
+        "cluster_name": "Mysore",
+        "cluster": [
+            "mysore",
+            "mysuru"
+        ]
+    },
+    {
+        "cluster_name": "N/A",
+        "cluster": [
+            "n/a",
+            "not selected yet"
+        ]
+    },
+    {
+        "cluster_name": "NCR",
+        "cluster": [
+            "ncr",
+            "noida",
+            "delhi",
+            "delhi noida",
+            "new delhi",
+            "gurgaon",
+            "gurgaon or wfh",
+            "gurugram"
+        ]
+    },
+    {
+        "cluster_name": "Pune",
+        "cluster": [
+            "pune"
+        ]
+    },
+    {
+        "cluster_name": "Remote/WFH",
+        "cluster": [
+            "completely remote",
+            "gurgaon or wfh",
+            "remote",
+            "wfh",
+            "work fom home"
+        ]
+    },
+    {
+        "cluster_name": "Multiple Locations",
+        "cluster": [
+            "multiple location to opt"
+        ]
+    }
+]

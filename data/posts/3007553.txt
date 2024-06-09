@@ -1,9 +1,0 @@
-Education: B.Tech
-Years of Experience: 3
-Company: Lenskart
-Title/Level: SDE - 1
-Location: Gurugram, India
-Salary: 12 LPA
-Signing Bonus: 2 LPA
-Total comp (Salary + Bonus): 14 LPA
-Benefits: 25 paid vacation days + 12 sick leave.

@@ -1,9 +1,0 @@
-Education: B.Tech. in Computer Science and Engineering (IIT)
-Years of Experience: 0
-Recruitment type: On-campus
-Date of the Offer: August 2022
-Company: Arista Networks
-Title/Level: SDE Intern
-Location: Not yet specified
-Stipend: INR 75,000 / month
-Relocation: INR 50,000

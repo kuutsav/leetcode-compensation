@@ -1,9 +1,0 @@
-Education: BTech Tier 1
-Years of Experience: 0
-Prior Experience: SDE Intern at an Engineering Simulation Software Company, GSoC
-Date of the Offer: April 2023
-Company: Razorpay
-Title/Level: Software Development Engineer Intern
-Location: Bangalore/Remote
-Stipend: INR 75,000/month
-Benefits: Internet Reimbursement

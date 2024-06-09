@@ -1,8 +1,0 @@
-Tier 2 College
-1 OA + 1 Technical round + 1 Techno Managerial round (With CTO)
-OA - 2 question, Dynamic programming and Graph
-Technical round - 1 Math question + 1 graph question (easy to medium) | All leetcode question
-Techno Mangaerial Round they ask about projects and CS Fundamentals
-The above is their general interview Process
-Question asked: 1. 24 Game leetcode, 2. Celebrity Problem leetcode
-Compansation post: https://leetcode.com/discuss/compensation/3071447/LetsTransport-or-SDE-Backend-or-Bangalore

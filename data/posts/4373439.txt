@@ -1,8 +1,0 @@
-Education: B.Tech in Computer Science
-Years of Experience: ~3
-Company: Juspay
-Title/Level: SDE-1
-Location: Bengaluru
-Salary: 20 LPA
-Bonus: 2 LPA
-Total comp (Salary + Bonus + Stock): 22 LPA

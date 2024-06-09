@@ -1,7 +1,0 @@
-Education: B.E. Computer Science from Tier-3 college
-Years of Experience: 5.4
-Previous experience: Sr. Software Engineer at Unicorn Startup(EdTech)
-Company: AJIO
-Title/Level: Senior Full Stack Developer
-Location: Bangalore
-Salary: 37LPA
