@@ -3,17 +3,15 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
 
-Analysing compensations mentioned on the Leetcode forums.
+https://kuutsav.github.io/leetcode-compensation/
 
-> Only supports posts from `India` at the moment.
+Analysing compensations mentioned on the Leetcode forums (only supports posts from `India` at the moment).
 
 `Leetcode compensation` works by regularly fetching new posts from the [leetcode compensations page](https://leetcode.com/discuss/compensation).
 
 The `leetcomp` directory contains python scripts to fetch and parse new posts. We use LLMs to parse structured information from the scraped posts.
 
 ---
-
-The app is hosted at https://kuutsav.github.io/leetcode-compensation/ using github pages.
 
 ![image info](./assets/leetcomp.png)
 
