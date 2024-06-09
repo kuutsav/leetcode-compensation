@@ -44,7 +44,6 @@ jobs:
         git config --global user.email github-actions@github.com
         git add .
         git commit -m "action: daily data refresh"
-        git push
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v4
