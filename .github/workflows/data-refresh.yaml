@@ -29,10 +29,14 @@ jobs:
         pip install -r requirements.txt
 
     - name: Data Refresh...
-      run: python leetcomp/refresh.py
+      run: |
+        export PYTHONPATH=.
+        python leetcomp/refresh.py
 
     - name: Parsing Data...
-      run: python leetcomp/parse.py
+      run: |
+        export PYTHONPATH=.
+        python leetcomp/parse.py
 
     - name: Commit files
       run: |
