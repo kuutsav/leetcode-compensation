@@ -9,9 +9,7 @@ https://kuutsav.github.io/leetcode-compensation/
 
 Analysing compensations mentioned on the Leetcode forums (only supports posts from `India` at the moment).
 
-`Leetcode compensation` works by regularly fetching new posts from the [leetcode compensations page](https://leetcode.com/discuss/compensation).
-
-The `leetcomp` directory contains python scripts to fetch and parse new posts. We use LLMs to parse structured information from the scraped posts.
+The `leetcomp` directory contains python scripts to fetch and parse new posts from [https://leetcode.com/discuss/compensation](https://leetcode.com/discuss/compensation).<br>We use LLMs to parse structured information from the scraped posts, which is then satisied and aggregated for reporting.
 
 ---
 
@@ -66,7 +64,7 @@ uv pip install -r requirements.txt  # Install from a requirements.txt file.
 
 ## Updating data
 
-> Make sure you have complete the steps above and are in a venv
+> Make sure you have completed the steps above and are in a venv
 
 ```bash
 $ python leetcomp/refresh.py
