@@ -9,7 +9,7 @@ https://kuutsav.github.io/leetcode-compensation/
 
 Analysing compensations mentioned on the Leetcode forums (only supports posts from `India` at the moment).
 
-The `leetcomp` directory contains python scripts to fetch and parse new posts from [https://leetcode.com/discuss/compensation](https://leetcode.com/discuss/compensation).<br>We use LLMs to parse structured information from the scraped posts, which is then satisied and aggregated for reporting.
+The `leetcomp` directory contains scripts to fetch new posts from [https://leetcode.com/discuss/compensation](https://leetcode.com/discuss/compensation).<br>We use LLMs to parse structured information from the scraped posts, which is then satisied and aggregated.
 
 ---
 
