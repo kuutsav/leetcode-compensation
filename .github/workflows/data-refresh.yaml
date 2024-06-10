@@ -47,7 +47,6 @@ jobs:
         if [ "$has_changes" == "1" ]; then
           echo "Changes detected, committing..."
           git commit -m "action: daily data refresh"
-          git push
         else
           echo "No changes to commit."
           echo "skipnext=true" >> $GITHUB_OUTPUT
