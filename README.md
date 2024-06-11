@@ -70,3 +70,9 @@ uv pip install -r requirements.txt  # Install from a requirements.txt file.
 $ python leetcomp/refresh.py
 $ python leetcomp/parse.py
 ```
+
+## Roadmap
+
+- Search for Companies and Roles
+- Filters for Yoe, Date, Compensation, Location
+- Sort by Compensation
