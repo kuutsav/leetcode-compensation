@@ -39,9 +39,16 @@
         </div>
         <div id="statsStr" class="row m-0 mt-3 p-2 border-top border-bottom bg-light justify-content-center">
         </div>
-        <div class=" row justify-content-end m-0 mt-3">
-            <button id="prevPage" class="col-1 btn btn-secondary btn-sm">Previous</button>
-            <button id="nextPage" class="ms-2 col-1 btn btn-primary btn-sm">Next</button>
+        <div class="row">
+            <div class="row justify-content-left m-0 mt-3" style="width: 50%;">
+                <input type="text" id="searchInput" class="form-control form-control-sm" placeholder="Company Name"
+                    style="width: 300px; height: 30px;">
+                <button id="searchButton" class="ms-2 col-2 btn btn-primary btn-sm">Search</button>
+            </div>
+            <div class="row justify-content-end m-0 mt-3" style="width: 50%;">
+                <button id="prevPage" class="col-2 btn btn-secondary btn-sm">Previous</button>
+                <button id="nextPage" class="ms-2 col-2 btn btn-primary btn-sm">Next</button>
+            </div>
         </div>
         <div id="offersTable"></div>
     </div>

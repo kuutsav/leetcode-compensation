@@ -205,29 +205,32 @@ function plotBoxPlot(jsonData, baseOrTotal, docId, roleOrCompany, validItems) {
 document.addEventListener('DOMContentLoaded', async function () {
     let currentPage = 1;
     let offers = [];
+    let filteredOffers = []; // New variable to hold filtered data
 
     // Fetch your JSONL data converted to JSON array
     async function fetchOffers() {
         const response = await fetch('data/parsed_comps.json');
         const data = await response.json();
         offers = data;
+
+        filteredOffers = [...offers];
         displayOffers(currentPage);
     }
 
     await fetchOffers();
 
     let statsInfo = statsStr(offers);
-    document.getElementById('statsStr').textContent = statsInfo;
 
-    plotHistogram(offers, 'total');
-    mostOfferCompanies(offers);
-    plotBoxPlot(offers, 'total', 'companyBoxPlot', 'company', new Set([]));
-    plotBoxPlot(offers, 'total', 'roleBoxPlot', 'mapped_role', validRoles);
+    document.getElementById('statsStr').textContent = statsInfo;
+    plotHistogram(filteredOffers, 'total');
+    mostOfferCompanies(filteredOffers);
+    plotBoxPlot(filteredOffers, 'total', 'companyBoxPlot', 'company', new Set([]));
+    plotBoxPlot(filteredOffers, 'total', 'roleBoxPlot', 'mapped_role', validRoles);
 
     function displayOffers(page) {
         const startIndex = (page - 1) * offersPerPage;
         const endIndex = startIndex + offersPerPage;
-        const paginatedOffers = offers.slice(startIndex, endIndex);
+        const paginatedOffers = filteredOffers.slice(startIndex, endIndex);
 
         const table = document.createElement('table');
         table.classList.add('table');
@@ -294,6 +297,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         const container = document.getElementById('offersTable');
         container.innerHTML = '';
         container.appendChild(table);
+
+
     }
 
     document.getElementById('prevPage').addEventListener('click', () => {
@@ -307,6 +312,40 @@ document.addEventListener('DOMContentLoaded', async function () {
         if ((currentPage * offersPerPage) < offers.length) {
             currentPage++;
             displayOffers(currentPage);
+        }
+    });
+
+    // Function to filter offers by company name
+    function filterOffersByCompany(companyName) {
+        if (companyName.trim() === '') {
+            filteredOffers = [...offers]; // Reset filteredOffers to all data if search input is empty
+
+        } else {
+            filteredOffers = offers.filter(offer => offer.company.toLowerCase().includes(companyName.toLowerCase()));
+
+        }
+
+        // Update graphs with filtered data
+        plotHistogram(filteredOffers, 'total');
+        mostOfferCompanies(filteredOffers);
+        plotBoxPlot(filteredOffers, 'total', 'companyBoxPlot', 'company', new Set([]));
+        plotBoxPlot(filteredOffers, 'total', 'roleBoxPlot', 'mapped_role', validRoles);
+
+        // Update offers table with filtered data
+        displayOffers(currentPage);
+    }
+
+    // Search by button
+    document.getElementById('searchButton').addEventListener('click', () => {
+        const searchInput = document.getElementById('searchInput').value;
+        filterOffersByCompany(searchInput);
+    });
+
+    // Search By enter
+    document.getElementById('searchInput').addEventListener('keypress', (event) => {
+        if (event.key === 'Enter') {
+            const searchInput = document.getElementById('searchInput').value;
+            filterOffersByCompany(searchInput);
         }
     });
 });
