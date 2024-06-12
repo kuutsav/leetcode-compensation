@@ -74,5 +74,5 @@ $ python leetcomp/parse.py
 ## Roadmap
 
 - [ ] Sort by Compensation
-- [ ] Search for Companies and Roles
+- [ ] ~~Search for Companies~~ and Roles
 - [ ] Filters for Yoe, Date, Compensation, Location

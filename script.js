@@ -297,8 +297,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         const container = document.getElementById('offersTable');
         container.innerHTML = '';
         container.appendChild(table);
-
-
     }
 
     document.getElementById('prevPage').addEventListener('click', () => {
@@ -319,10 +317,8 @@ document.addEventListener('DOMContentLoaded', async function () {
     function filterOffersByCompany(companyName) {
         if (companyName.trim() === '') {
             filteredOffers = [...offers]; // Reset filteredOffers to all data if search input is empty
-
         } else {
             filteredOffers = offers.filter(offer => offer.company.toLowerCase().includes(companyName.toLowerCase()));
-
         }
 
         // Update graphs with filtered data
