@@ -76,3 +76,7 @@ $ python leetcomp/parse.py
 - [ ] Sort by Compensation
 - [ ] ~~Search for Companies~~ and Roles
 - [ ] Filters for Yoe, Date, Compensation, Location
+
+## Contributions
+
+PRs as welcome but please go through [CONTRIBUTING.md](CONTRIBUTING.md) before raising a PR.

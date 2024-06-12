@@ -15,4 +15,6 @@ Our project follows a specific design language and aesthetic to ensure a cohesiv
 
 ## JavaScript Dependencies
 
-We aim to keep the ui as lightweight and dependency free as possible. If you believe a new dependency is absolutely necessary, please start a discussion by opening an issue or pull request. Include your rationale for the addition and any potential alternatives you've considered.
+We aim to keep the ui as lightweight and dependency free as possible.
+
+If you believe a new dependency is absolutely necessary, please start a discussion by opening an issue or pull request. Include your rationale for the addition and any potential alternatives you've considered.
