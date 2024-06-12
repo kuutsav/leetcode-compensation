@@ -321,11 +321,10 @@ document.addEventListener('DOMContentLoaded', async function () {
      function filterOffersByCompany(companyName) {
         if (companyName.trim() === '') {
             filteredOffers = [...offers]; // Reset filteredOffers to all data if search input is empty
-            console.log("empty");
+           
         } else {
             filteredOffers = offers.filter(offer => offer.company.toLowerCase().includes(companyName.toLowerCase()));
-            console.log("filter is on");
-            console.log(filteredOffers);
+           
         }
         
         // Update graphs with filtered data
