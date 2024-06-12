@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         const response = await fetch('data/parsed_comps.json');
         const data = await response.json();
         offers = data;
-      
+
         filteredOffers = [...offers];
         displayOffers(currentPage);
     }
@@ -227,8 +227,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     plotBoxPlot(filteredOffers, 'total', 'companyBoxPlot', 'company', new Set([]));
     plotBoxPlot(filteredOffers, 'total', 'roleBoxPlot', 'mapped_role', validRoles);
 
-
-   
     function displayOffers(page) {
         const startIndex = (page - 1) * offersPerPage;
         const endIndex = startIndex + offersPerPage;
@@ -300,7 +298,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         container.innerHTML = '';
         container.appendChild(table);
 
-   
+
     }
 
     document.getElementById('prevPage').addEventListener('click', () => {
@@ -317,26 +315,26 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
     });
 
-     // Function to filter offers by company name
-     function filterOffersByCompany(companyName) {
+    // Function to filter offers by company name
+    function filterOffersByCompany(companyName) {
         if (companyName.trim() === '') {
             filteredOffers = [...offers]; // Reset filteredOffers to all data if search input is empty
-           
+
         } else {
             filteredOffers = offers.filter(offer => offer.company.toLowerCase().includes(companyName.toLowerCase()));
-           
+
         }
-        
+
         // Update graphs with filtered data
         plotHistogram(filteredOffers, 'total');
         mostOfferCompanies(filteredOffers);
         plotBoxPlot(filteredOffers, 'total', 'companyBoxPlot', 'company', new Set([]));
         plotBoxPlot(filteredOffers, 'total', 'roleBoxPlot', 'mapped_role', validRoles);
-    
-        // update offers table with filtered data
+
+        // Update offers table with filtered data
         displayOffers(currentPage);
     }
-    
+
     // Search by button
     document.getElementById('searchButton').addEventListener('click', () => {
         const searchInput = document.getElementById('searchInput').value;
@@ -350,6 +348,4 @@ document.addEventListener('DOMContentLoaded', async function () {
             filterOffersByCompany(searchInput);
         }
     });
-
-
 });

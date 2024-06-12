@@ -251,8 +251,6 @@
             "swe-2, l3",
             "swe-ii",
             "swe2 / l3",
-            "system development engineer i/l4",
-            "system development engineer l4",
             "technical lead",
             "validation engineer - l61"
         ]
@@ -302,7 +300,6 @@
             "sse l64",
             "swe 3",
             "swe iii",
-            "system development engineer l4",
             "tech lead 2",
             "technical lead"
         ]
@@ -366,6 +363,14 @@
             "associate software engineer/tp1",
             "associate technical consultant",
             "assoicate (601)"
+        ]
+    },
+    {
+        "cluster_name": "Others",
+        "cluster": [
+            "system development engineer i/l4",
+            "system development engineer l4",
+            "system development engineer l4"
         ]
     },
     {

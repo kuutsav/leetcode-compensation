@@ -547,7 +547,7 @@
         "location": "Bangalore",
         "base": 20.0,
         "total": 24.6,
-        "mapped_role": "SDE III"
+        "mapped_role": "Others"
     },
     {
         "id": "5258429",
@@ -4276,7 +4276,7 @@
         "location": "NCR",
         "base": 16.62,
         "total": 23.29,
-        "mapped_role": "SDE II"
+        "mapped_role": "Others"
     },
     {
         "id": "4865822",
