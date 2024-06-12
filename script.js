@@ -224,89 +224,22 @@ document.addEventListener('DOMContentLoaded', async function () {
     plotBoxPlot(offers, 'total', 'companyBoxPlot', 'company', new Set([]));
     plotBoxPlot(offers, 'total', 'roleBoxPlot', 'mapped_role', validRoles);
 
-    function displayOffers(page) {
-        const startIndex = (page - 1) * offersPerPage;
-        const endIndex = startIndex + offersPerPage;
-        const paginatedOffers = offers.slice(startIndex, endIndex);
-
-        const table = document.createElement('table');
-        table.classList.add('table');
-        const emptyRow = table.insertRow();
-        emptyRow.innerHTML = `
-        <th style="width: 5%"></th><th style="width: 15%"></th>
-        <th style="width: 30%"></th><th style="width: 25%"></th>
-        <th style="width: 5%"></th><th style="width: 20%"></th>
-        `;
-        const headerRow = table.insertRow();
-        headerRow.style.border = 'none';
-        const indexHeader = headerRow.insertCell();
-        indexHeader.innerHTML = '<b style="font-size: 13px;">#</b>';
-        const idHeader = headerRow.insertCell();
-        idHeader.innerHTML = '<b style="font-size: 13px;">ID</b>';
-        const companyHeader = headerRow.insertCell();
-        companyHeader.innerHTML = `
-        <b style="font-size: 13px;">Company<br>
-        <span class="text-secondary">Location | Date</span></b>
-        `;
-        const roleHeader = headerRow.insertCell();
-        roleHeader.innerHTML = '<b style="font-size: 13px;">Role</b>';
-        const yoeHeader = headerRow.insertCell();
-        yoeHeader.innerHTML = '<b style="font-size: 13px;">Yoe</b>';
-        const salaryHeader = headerRow.insertCell();
-        salaryHeader.innerHTML = `
-        <p class="text-end" style="margin-bottom: 0px;">
-        <b style="font-size: 13px;">Total<br>
-        <span class="text-secondary">Base</span></b></p>
-        `;
-
-        paginatedOffers.forEach((offer, index) => {
-            const row = table.insertRow();
-            const indexCell = row.insertCell();
-            indexCell.innerHTML = `<p>${startIndex + index + 1}</p>`;
-            const idCell = row.insertCell();
-            idCell.innerHTML = `
-            <p><abbr title="attribute">
-            <a class="link-secondary" href="https://leetcode.com/discuss/compensation/${offer.id}">
-            ${offer.id}
-            </a></abbr></p>
-            `;
-            const companyCell = row.insertCell();
-            companyCell.innerHTML = `
-            <b style="font-size: 13px;">${offer.company}</b>
-            <br><span class="text-secondary">
-            ${offer.location} | ${offer.creation_date}
-            </span>`;
-            const roleCell = row.insertCell();
-            roleCell.innerHTML = `
-            <b style="font-size: 13px;">${offer.mapped_role}</b>
-            <br><span class="text-secondary">${offer.role}</span>`;
-            const yoeCell = row.insertCell();
-            yoeCell.textContent = offer.yoe;
-            const salaryCell = row.insertCell();
-            salaryCell.innerHTML = `
-            <p class="text-end" style="margin-bottom: 0px;">
-            <b style="font-size: 13px;">${formatSalaryInINR(offer.total)}</b>
-            <br><span class="text-secondary" style="font-size: 13px;">
-            ${formatSalaryInINR(offer.base)}</span></p>
-            `;
-        });
-
-        const container = document.getElementById('offersTable');
-        container.innerHTML = '';
-        container.appendChild(table);
-    }
-
-    document.getElementById('prevPage').addEventListener('click', () => {
-        if (currentPage > 1) {
-            currentPage--;
-            displayOffers(currentPage);
-        }
-    });
-
-    document.getElementById('nextPage').addEventListener('click', () => {
-        if ((currentPage * offersPerPage) < offers.length) {
-            currentPage++;
-            displayOffers(currentPage);
-        }
+    const table = new Tabulator("#offersTable", {
+        data: offers, // Load data into table
+        layout: "fitColumns", // Fit columns to width of table
+        columns: [
+            {title: "ID", field: "id", sorter: "number", headerFilter: true},
+            {title: "Creation Date", field: "creation_date", sorter: "date", headerFilter: true},
+            {title: "Company", field: "company", sorter: "string", headerFilter: true},
+            {title: "Role", field: "role", sorter: "string", headerFilter: true},
+            {title: "Years of Experience", field: "yoe", sorter: "number", headerFilter: true},
+            {title: "Location", field: "location", sorter: "string", headerFilter: true},
+            {title: "Base Salary (in LPA)", field: "base", sorter: "number", headerFilter: true},
+            {title: "Total Compensation (in LPA)", field: "total", sorter: "number", headerFilter: true},
+            {title: "Mapped Role", field: "mapped_role", sorter: "string", headerFilter: true}
+        ],
+        initialSort: [
+            {column: "id", dir: "asc"} // Initial sort by ID column
+        ],
     });
 });
