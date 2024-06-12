@@ -211,7 +211,26 @@ document.addEventListener('DOMContentLoaded', async function () {
         const response = await fetch('data/parsed_comps.json');
         const data = await response.json();
         offers = data;
-        displayOffers(currentPage);
+        const table = new Tabulator("#offersTable", {
+            data: offers, // Load data into table
+            layout: "fitColumns", // Fit columns to width of table
+            pagination: "local", // Enable pagination
+            paginationSize: 15, // Number of rows per page
+            columns: [
+                {title: "ID", field: "id", sorter: "number", headerFilter: true},
+                {title: "Creation Date", field: "creation_date", sorter: "date", headerFilter: true},
+                {title: "Company", field: "company", sorter: "string", headerFilter: true},
+                {title: "Role", field: "role", sorter: "string", headerFilter: true},
+                {title: "Years of Experience", field: "yoe", sorter: "number", headerFilter: true},
+                {title: "Location", field: "location", sorter: "string", headerFilter: true},
+                {title: "Base Salary (in LPA)", field: "base", sorter: "number", headerFilter: true},
+                {title: "Total Compensation (in LPA)", field: "total", sorter: "number", headerFilter: true},
+                {title: "Mapped Role", field: "mapped_role", sorter: "string", headerFilter: true}
+            ],
+            initialSort: [
+                {column: "id", dir: "asc"} // Initial sort by ID column
+            ],
+        });
     }
 
     await fetchOffers();
@@ -224,22 +243,5 @@ document.addEventListener('DOMContentLoaded', async function () {
     plotBoxPlot(offers, 'total', 'companyBoxPlot', 'company', new Set([]));
     plotBoxPlot(offers, 'total', 'roleBoxPlot', 'mapped_role', validRoles);
 
-    const table = new Tabulator("#offersTable", {
-        data: offers, // Load data into table
-        layout: "fitColumns", // Fit columns to width of table
-        columns: [
-            {title: "ID", field: "id", sorter: "number", headerFilter: true},
-            {title: "Creation Date", field: "creation_date", sorter: "date", headerFilter: true},
-            {title: "Company", field: "company", sorter: "string", headerFilter: true},
-            {title: "Role", field: "role", sorter: "string", headerFilter: true},
-            {title: "Years of Experience", field: "yoe", sorter: "number", headerFilter: true},
-            {title: "Location", field: "location", sorter: "string", headerFilter: true},
-            {title: "Base Salary (in LPA)", field: "base", sorter: "number", headerFilter: true},
-            {title: "Total Compensation (in LPA)", field: "total", sorter: "number", headerFilter: true},
-            {title: "Mapped Role", field: "mapped_role", sorter: "string", headerFilter: true}
-        ],
-        initialSort: [
-            {column: "id", dir: "asc"} // Initial sort by ID column
-        ],
-    });
+    
 });
