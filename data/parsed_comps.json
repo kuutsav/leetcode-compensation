@@ -1,5 +1,104 @@
 [
     {
+        "id": "5303661",
+        "creation_date": "2024-06-12",
+        "company": "Zepto",
+        "role": "Senior Software Engineer",
+        "yoe": 7,
+        "location": "Bangalore",
+        "base": 70.0,
+        "total": 95.0,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "5303258",
+        "creation_date": "2024-06-12",
+        "company": "Tesco",
+        "role": "SDE2",
+        "yoe": 10,
+        "location": "Bangalore",
+        "base": 58.0,
+        "total": 58.0,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "5303082",
+        "creation_date": "2024-06-12",
+        "company": "Telus international ai",
+        "role": "SDE3",
+        "yoe": 7,
+        "location": "Bangalore",
+        "base": 42.0,
+        "total": 45.36,
+        "mapped_role": "SDE III"
+    },
+    {
+        "id": "5302822",
+        "creation_date": "2024-06-12",
+        "company": "Google",
+        "role": "Software Engineer University Graduate (L3)",
+        "yoe": 0,
+        "location": "Bangalore",
+        "base": 21.0,
+        "total": 40.0,
+        "mapped_role": "Software engineer university graduate (l3)"
+    },
+    {
+        "id": "5302512",
+        "creation_date": "2024-06-12",
+        "company": "Google",
+        "role": "Software Engineer L3",
+        "yoe": 0,
+        "location": "Mountain view",
+        "base": 15.3,
+        "total": 22.5,
+        "mapped_role": "Software engineer l3"
+    },
+    {
+        "id": "5302460",
+        "creation_date": "2024-06-12",
+        "company": "Lg soft india",
+        "role": "Research Engineer",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 15.5,
+        "total": 18.75,
+        "mapped_role": "Research engineer"
+    },
+    {
+        "id": "5301743",
+        "creation_date": "2024-06-12",
+        "company": "Microsoft",
+        "role": "L60",
+        "yoe": 2,
+        "location": "N/A",
+        "base": 20.0,
+        "total": 39.0,
+        "mapped_role": "SDE I"
+    },
+    {
+        "id": "5296309",
+        "creation_date": "2024-06-11",
+        "company": "EPAM Systems",
+        "role": "full stack developer",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 18.0,
+        "total": 18.0,
+        "mapped_role": "SDE I"
+    },
+    {
+        "id": "5291219",
+        "creation_date": "2024-06-10",
+        "company": "DE Shaw",
+        "role": "Technology Developer / MTS",
+        "yoe": 0,
+        "location": "Hyderabad",
+        "base": 31.0,
+        "total": 42.0,
+        "mapped_role": "Technology developer / mts"
+    },
+    {
         "id": "5285854",
         "creation_date": "2024-06-09",
         "company": "Google",
