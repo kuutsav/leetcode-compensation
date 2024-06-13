@@ -5,17 +5,15 @@ from typing import Any, Iterator
 
 import requests  # type: ignore
 
-from leetcomp.consts import DATA_DIR, DATE_FMT
 from leetcomp.errors import FetchContentException, FetchPostsException
 from leetcomp.queries import COMP_POST_CONTENT_DATA_QUERY as content_query
 from leetcomp.queries import COMP_POSTS_DATA_QUERY as posts_query
 from leetcomp.utils import (
+    config,
     latest_parsed_date,
     retry_with_exp_backoff,
     sort_and_truncate,
 )
-
-LEETCODE_GRAPHQL_URL = "https://leetcode.com/graphql"
 
 
 @dataclass
@@ -42,10 +40,10 @@ def get_content_query(post_id: int) -> dict[Any, Any]:
     return query
 
 
-@retry_with_exp_backoff(retries=3)  # type: ignore
+@retry_with_exp_backoff(retries=config["app"]["n_api_retries"])  # type: ignore
 def post_content(post_id: int) -> str:
-    content_query = get_content_query(post_id)
-    response = requests.post(LEETCODE_GRAPHQL_URL, json=content_query)
+    query = get_content_query(post_id)
+    response = requests.post(config["app"]["leetcode_graphql_url"], json=query)
 
     if response.status_code != 200:
         raise FetchContentException(
@@ -61,10 +59,10 @@ def post_content(post_id: int) -> str:
     return str(data["topic"]["post"]["content"])
 
 
-@retry_with_exp_backoff(retries=3)  # type: ignore
+@retry_with_exp_backoff(retries=config["app"]["n_api_retries"])  # type: ignore
 def parsed_posts(skip: int, first: int) -> Iterator[LeetCodePost]:
     query = get_posts_query(skip, first)
-    response = requests.post(LEETCODE_GRAPHQL_URL, json=query)
+    response = requests.post(config["app"]["leetcode_graphql_url"], json=query)
 
     if response.status_code != 200:
         raise FetchPostsException(
@@ -110,7 +108,7 @@ def get_latest_posts(comps_path: str, till_date: datetime) -> None:
 
                 post_dict = asdict(post)
                 post_dict["creation_date"] = post.creation_date.strftime(
-                    DATE_FMT
+                    config["app"]["date_fmt"]
                 )
                 f.write(json.dumps(post_dict) + "\n")
                 fetched_posts += 1
@@ -134,7 +132,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--comps_path",
         type=str,
-        default=DATA_DIR / "raw_comps.jsonl",
+        default=config["app"]["data_dir"] / "raw_comps.jsonl",
         help="Path to the file to store posts.",
     )
     parser.add_argument(

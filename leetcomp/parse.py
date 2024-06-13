@@ -3,17 +3,17 @@ import os
 from datetime import datetime
 from typing import Any, Generator
 
-from leetcomp.consts import DATA_DIR, DATE_FMT, PARSING_PROMPT
+from leetcomp.consts import PARSING_PROMPT
 from leetcomp.utils import (
+    config,
+    get_model_predict,
     latest_parsed_date,
     mapping,
-    openrouter_predict,
     parse_json_markdown,
     sort_and_truncate,
 )
 
-MIN_BASE_OFFER, MAX_BASE_OFFER = 2, 120
-MIN_TOTAL_OFFER, MAX_TOTAL_OFFER = 3, 200
+llm_predict = get_model_predict("ollama")
 
 
 def post_should_be_parsed(post: dict[Any, Any]) -> bool:
@@ -25,19 +25,20 @@ def post_should_be_parsed(post: dict[Any, Any]) -> bool:
     )
 
 
+def has_crossed_till_date(
+    creation_date: str, till_date: datetime | None = None
+) -> bool:
+    if till_date is None:
+        return False
+
+    dt = datetime.strptime(creation_date, config["app"]["date_fmt"])
+    return dt <= till_date
+
+
 def comps_posts_iter(comps_path: str) -> Generator[dict[Any, Any], None, None]:
     with open(comps_path, "r") as f:
         for line in f:
             yield json.loads(line)
-
-
-def has_crossed_till_date(
-    creation_date: str, till_date: datetime | None = None
-) -> bool:
-    if till_date is not None:
-        dt = datetime.strptime(creation_date, DATE_FMT)
-        return dt <= till_date
-    return False
 
 
 def parsed_content_is_valid(parsed_content: list[dict[Any, Any]]) -> bool:
@@ -48,9 +49,17 @@ def parsed_content_is_valid(parsed_content: list[dict[Any, Any]]) -> bool:
         try:
             assert isinstance(item, dict)
             assert isinstance(item["base_offer"], (int, float))
-            assert MIN_BASE_OFFER <= item["base_offer"] <= MAX_BASE_OFFER
+            assert (
+                config["parsing"]["min_base_offer"]
+                <= item["base_offer"]
+                <= config["parsing"]["max_base_offer"]
+            )
             assert isinstance(item["total_offer"], (int, float))
-            assert MIN_TOTAL_OFFER <= item["total_offer"] <= MAX_TOTAL_OFFER
+            assert (
+                config["parsing"]["min_total_offer"]
+                <= item["total_offer"]
+                <= config["parsing"]["max_total_offer"]
+            )
             assert isinstance(item["company"], str)
             assert isinstance(item["role"], str)
             assert isinstance(item["yoe"], (int, float))
@@ -59,7 +68,7 @@ def parsed_content_is_valid(parsed_content: list[dict[Any, Any]]) -> bool:
         except (KeyError, AssertionError):
             return False
 
-    return True
+    return True  # Parsed content is valid if no assertions fail
 
 
 def get_parsed_posts(
@@ -96,7 +105,6 @@ def parse_posts(
     till_date: datetime | None = None,
 ) -> None:
     n_skips = 0
-    parsed_posts = []
     parsed_ids = parsed_ids or set()
 
     for i, post in enumerate(comps_posts_iter(in_comps_path), start=1):
@@ -112,18 +120,17 @@ def parse_posts(
 
         input_text = f"{post['title']}\n---\n{post['content']}"
         prompt = PARSING_PROMPT.substitute(leetcode_post=input_text)
-        response = openrouter_predict(prompt)
+        response = llm_predict(prompt)
         parsed_content = parse_json_markdown(response)
 
         if parsed_content_is_valid(parsed_content):
             fill_yoe(parsed_content)
-            parsed_posts += get_parsed_posts(post, parsed_content)
+            parsed_posts = get_parsed_posts(post, parsed_content)
+            with open(out_comps_path, "a") as f:
+                for post in parsed_posts:
+                    f.write(json.dumps(post) + "\n")
         else:
             n_skips += 1
-
-    with open(out_comps_path, "a") as f:
-        for post in parsed_posts:
-            f.write(json.dumps(post) + "\n")
 
 
 def get_parsed_ids(out_comps_path: str) -> set[int]:
@@ -170,9 +177,9 @@ def map_location(location: str, location_map: dict[str, str]) -> str:
 
 
 def jsonl_to_json(jsonl_path: str, json_path: str) -> None:
-    company_map = mapping(DATA_DIR / "company_map.json")
-    role_map = mapping(DATA_DIR / "role_map.json")
-    location_map = mapping(DATA_DIR / "location_map.json")
+    company_map = mapping(config["app"]["data_dir"] / "company_map.json")
+    role_map = mapping(config["app"]["data_dir"] / "role_map.json")
+    location_map = mapping(config["app"]["data_dir"] / "location_map.json")
     records = []
 
     with open(jsonl_path, "r") as file:
@@ -199,19 +206,19 @@ if __name__ == "__main__":
     parser.add_argument(
         "--in_comps_path",
         type=str,
-        default=DATA_DIR / "raw_comps.jsonl",
+        default=config["app"]["data_dir"] / "raw_comps.jsonl",
         help="Path to the file to store posts.",
     )
     parser.add_argument(
         "--out_comps_path",
         type=str,
-        default=DATA_DIR / "parsed_comps.jsonl",
+        default=config["app"]["data_dir"] / "parsed_comps.jsonl",
         help="Path to the file to store parsed posts.",
     )
     parser.add_argument(
         "--json_path",
         type=str,
-        default=DATA_DIR / "parsed_comps.json",
+        default=config["app"]["data_dir"] / "parsed_comps.json",
         help="Path to the file to store parsed posts in JSON format.",
     )
     args = parser.parse_args()
@@ -230,7 +237,7 @@ if __name__ == "__main__":
         if os.path.exists(args.out_comps_path)
         else None
     )
-    parse_posts(args.in_comps_path, args.out_comps_path, parsed_ids, till_date)
 
+    parse_posts(args.in_comps_path, args.out_comps_path, parsed_ids, till_date)
     sort_and_truncate(args.out_comps_path, truncate=True)
     jsonl_to_json(args.out_comps_path, args.json_path)

@@ -53,7 +53,7 @@ jobs:
         fi
 
     - name: Create Pull Request
-      if: (steps.commit-files.outputs.skipnext != 'true') 
+      if: (steps.commit-files.outputs.skipnext != 'true')
       uses: peter-evans/create-pull-request@v4
       with:
         token: ${{ secrets.GH_TOKEN }}

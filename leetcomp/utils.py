@@ -1,7 +1,9 @@
 import json
+import os
 import random
 import re
 import time
+import tomllib
 from datetime import datetime
 from functools import wraps
 from pathlib import Path
@@ -9,19 +11,48 @@ from typing import Any, Callable
 
 import ollama
 import requests  # type: ignore
+from dotenv import load_dotenv
 
-from leetcomp.consts import DATE_FMT, MAX_RECS, OPENROUTER_API_KEY
-
-REQ_PER_MIN = 20
+load_dotenv(override=True)
 
 
-def ollama_predict(
-    prompt: str, model: str = "llama3:8b-instruct-q5_K_M"
-) -> str:
+with open("config.toml", "rb") as f:
+    config = tomllib.load(f)
+
+config["app"]["data_dir"] = Path(config["app"]["data_dir"])
+
+
+def ollama_predict(prompt: str) -> str:
     response = ollama.chat(
-        model=model, messages=[{"role": "user", "content": prompt}]
+        model=config["llms"]["ollama_model"],
+        messages=[{"role": "user", "content": prompt}],
     )
     return response["message"]["content"]  # type: ignore
+
+
+def openrouter_predict(prompt: str) -> str:
+    response = requests.post(
+        url=config["llms"]["openrouter_url"],
+        headers={"Authorization": f"Bearer {os.environ['OPENROUTER_API_KEY']}"},
+        data=json.dumps(
+            {
+                "model": config["llms"]["openrouter_model"],
+                "messages": [{"role": "user", "content": prompt}],
+            }
+        ),
+    )
+    time.sleep(60 / config["llms"]["openrouter_req_per_min"])
+    return str(response.json()["choices"][0]["message"]["content"])
+
+
+def get_model_predict(inf_engine: str) -> Callable[[str], str]:
+    match inf_engine.lower():
+        case "ollama":
+            return ollama_predict
+        case "openrouter":
+            return openrouter_predict
+        case _:
+            raise ValueError("Invalid inference engine")
 
 
 def retry_with_exp_backoff(retries: int):  # type: ignore[no-untyped-def]
@@ -46,25 +77,13 @@ def retry_with_exp_backoff(retries: int):  # type: ignore[no-untyped-def]
     return decorator
 
 
-def openrouter_predict(prompt: str) -> str:
-    response = requests.post(
-        url="https://openrouter.ai/api/v1/chat/completions",
-        headers={"Authorization": f"Bearer {OPENROUTER_API_KEY}"},
-        data=json.dumps(
-            {
-                "model": "meta-llama/llama-3-8b-instruct:free",
-                "messages": [{"role": "user", "content": prompt}],
-            }
-        ),
-    )
-    time.sleep(60 / REQ_PER_MIN)
-    return str(response.json()["choices"][0]["message"]["content"])
-
-
 def latest_parsed_date(comps_path: str) -> datetime:
     with open(comps_path, "r") as f:
         top_line = json.loads(f.readline())
-    return datetime.strptime(top_line["creation_date"], DATE_FMT)
+
+    return datetime.strptime(
+        top_line["creation_date"], config["app"]["date_fmt"]
+    )
 
 
 def parse_json_markdown(json_string: str) -> list[dict[Any, Any]]:
@@ -96,12 +115,14 @@ def sort_and_truncate(comps_path: str, truncate: bool = False) -> None:
         records = [json.loads(line) for line in file]
 
     records.sort(
-        key=lambda x: datetime.strptime(x["creation_date"], DATE_FMT),
+        key=lambda x: datetime.strptime(
+            x["creation_date"], config["app"]["date_fmt"]
+        ),
         reverse=True,
     )
 
     if truncate:
-        records = records[:MAX_RECS]
+        records = records[: config["app"]["max_recs"]]
 
     with open(comps_path, "w") as file:
         for record in records:
