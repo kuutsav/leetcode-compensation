@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from datetime import datetime
 from typing import Any, Generator
 
@@ -13,7 +14,7 @@ from leetcomp.utils import (
     sort_and_truncate,
 )
 
-llm_predict = get_model_predict("ollama")
+llm_predict = get_model_predict(config["app"]["llm_predictor"])
 
 
 def post_should_be_parsed(post: dict[Any, Any]) -> bool:
@@ -63,8 +64,12 @@ def parsed_content_is_valid(parsed_content: list[dict[Any, Any]]) -> bool:
             assert isinstance(item["company"], str)
             assert isinstance(item["role"], str)
             assert isinstance(item["yoe"], (int, float))
+
             if "non_indian" in item:
                 assert item["non_indian"] != "yes"
+
+            # offers as amounts are per month, need a modified prompt for these
+            assert "intern" not in item["role"].lower()
         except (KeyError, AssertionError):
             return False
 
@@ -152,8 +157,19 @@ def cleanup_record(record: dict[Any, Any]) -> None:
     record.pop("total_offer", None)
 
 
-def mapped_record(item: str, mapping: dict[str, str]) -> str:
-    return mapping.get(item.lower(), item.capitalize())
+def mapped_record(
+    item: str,
+    mapping: dict[str, str],
+    default: str | None = None,
+    extras: list[str] | None = None,
+) -> str:
+    item = item.lower()
+    if extras:
+        for role_str in extras:
+            if role_str in item:
+                return role_str.capitalize()
+
+    return mapping.get(item, default or item.capitalize())
 
 
 def map_location(location: str, location_map: dict[str, str]) -> str:
@@ -187,7 +203,13 @@ def jsonl_to_json(jsonl_path: str, json_path: str) -> None:
             record = json.loads(line)
             cleanup_record(record)
             record["company"] = mapped_record(record["company"], company_map)
-            record["mapped_role"] = mapped_record(record["role"], role_map)
+            role_to_map = "".join(re.findall(r"\w+", record["role"]))
+            record["mapped_role"] = mapped_record(
+                role_to_map,
+                role_map,
+                default=record["role"],
+                extras=["analyst", "intern", "associate"],
+            )
             record["location"] = map_location(record["location"], location_map)
             records.append(record)
 

@@ -4,6 +4,7 @@ max_recs = 2000
 date_fmt = "%Y-%m-%d %H:%M:%S"
 leetcode_graphql_url = "https://leetcode.com/graphql"
 n_api_retries = 3
+llm_predictor = "openrouter"
 
 [parsing]
 min_base_offer = 2
@@ -13,6 +14,8 @@ max_total_offer = 200
 
 [llms]
 ollama_model = "llama3:8b-instruct-q6_K"
-openrouter_model = "meta-llama/llama-3-8b-instruct:free"
 openrouter_url = "https://openrouter.ai/api/v1/chat/completions"
+openrouter_model = "meta-llama/llama-3-8b-instruct:free"
 openrouter_req_per_min = 20
+vllm_url = "http://localhost:8000/v1/completions"
+vllm_model = "meta-llama/Meta-Llama-3-8B-Instruct"

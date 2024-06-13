@@ -2,10 +2,9 @@ from string import Template
 
 PARSING_PROMPT = Template("""
 You are a helpful assistant tasked with extracting job offer details from posts on LeetCode.
-Your goal is to parse the content of a given job offer post and structure the information into a specified JSON format.
+Below is the expected output format.
 
-## Output Format:
-
+## Output Format
 The output should be a JSON array containing one or more dictionaries, each representing a job offer.
 Each dictionary must include the following keys with their respective values:
 - company (str): The name of the company offering the job.
@@ -20,16 +19,18 @@ Each dictionary must include the following keys with their respective values:
 - location (str): The location of the job. Only output the city name (e.g., "Bangalore" instead of "Bangalore, India").
 - non_indian (optional str): If the offer is outside of India, set this value to "yes"; otherwise, omit this key.
 
-If a key is not present in the post, set its value to "n/a".
-For posts with multiple job offers, include a dictionary for each offer.
-Sometimes users metion details about their current role and salary, ignore these details.
+## Instructions
+- If a key is not present in the post, set its value to "n/a".
+- For posts with multiple job offers, include a dictionary for each offer.
+- Sometimes users metion details about their current role and salary, ignore these details.
+
+Your goal is to parse the content of the post below and structure the information into a specified JSON format by
+following the "Output Format" and "Instructions" mentioned above.
 
 ## Post
 $leetcode_post
 
-Output the JSON inside triple backticks (```). The format is [{...}, {...}, ...].
-
-## Output
+## Parsed Job Offer (Output the JSON inside triple backticks (```). The format is [{...}, {...}, ...])
 """)
 
 COMPANY_CLUSTER_PROMPT = Template("""
@@ -41,9 +42,7 @@ Your output format should be [{"cluster_name": ..., "companies": [...]}, ...].
 ## Companies
 $companies
 
-Output the JSON inside triple backticks (```). Again, the output format is [{"cluster_name": ..., "companies": [...]}, ...].
-
-## Output
+## Output (Output the JSON inside triple backticks (```). Again, the output format is [{"cluster_name": ..., "companies": [...]}, ...])
 """)
 
 ROLE_CLUSTER_PROMPT = Template("""
@@ -57,7 +56,5 @@ Your output format should be [{"cluster_name": ..., "roles": [...]}, ...].
 ## Roles
 $roles
 
-Output the JSON inside triple backticks (```). Again, the output format is [{"cluster_name": ..., "roles": [...]}, ...].
-
-## Output
+## Output (Output the JSON inside triple backticks (```). Again, the output format is [{"cluster_name": ..., "roles": [...]}, ...])
 """)

@@ -45,12 +45,27 @@ def openrouter_predict(prompt: str) -> str:
     return str(response.json()["choices"][0]["message"]["content"])
 
 
+def vllm_predict(prompt: str) -> str:
+    response = requests.post(
+        config["llms"]["vllm_url"],
+        json={
+            "model": config["llms"]["vllm_model"],
+            "prompt": prompt,
+            "max_tokens": 256,
+            "temperature": 0.3,
+        },
+    )
+    return str(response.json()["choices"][0]["text"])
+
+
 def get_model_predict(inf_engine: str) -> Callable[[str], str]:
     match inf_engine.lower():
         case "ollama":
             return ollama_predict
         case "openrouter":
             return openrouter_predict
+        case "vllm":
+            return vllm_predict
         case _:
             raise ValueError("Invalid inference engine")
 
@@ -104,7 +119,7 @@ def parse_json_markdown(json_string: str) -> list[dict[Any, Any]]:
     json_str = json_str.strip()
     try:
         parsed_content = eval(json_str)
-    except (NameError, SyntaxError, TypeError):
+    except Exception:
         return []
 
     return parsed_content  # type: ignore
