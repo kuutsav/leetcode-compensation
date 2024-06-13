@@ -1,11 +1,8 @@
 import json
 from typing import Any
 
-from leetcomp.consts import (
-    COMPANY_CLUSTER_PROMPT,
-    DATA_DIR,
-    ROLE_CLUSTER_PROMPT,
-)
+from leetcomp.consts import COMPANY_CLUSTER_PROMPT, ROLE_CLUSTER_PROMPT
+from leetcomp.utils import config
 
 
 def cluster_companies_prompt(records: list[dict[Any, Any]]) -> str:
@@ -31,7 +28,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--json_path",
         type=str,
-        default=DATA_DIR / "parsed_comps.json",
+        default=config["app"]["data_dir"] / "parsed_comps.json",
         help="Path to the file where parsed posts are stored in JSON format.",
     )
     args = parser.parse_args()
@@ -39,6 +36,5 @@ if __name__ == "__main__":
     with open(args.json_path, "r") as f:
         records = json.load(f)
 
-    # cluster_companies_prompt_ = cluster_companies_prompt(records)
     cluster_roles_prompt_ = cluster_roles_prompt(records)
     print(cluster_roles_prompt_)

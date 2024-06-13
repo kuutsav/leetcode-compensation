@@ -1,5 +1,126 @@
 [
     {
+        "id": "5306482",
+        "creation_date": "2024-06-13",
+        "company": "Google",
+        "role": "L3",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 23.0,
+        "total": 39.0,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "5306158",
+        "creation_date": "2024-06-13",
+        "company": "Apple",
+        "role": "SDE-1",
+        "yoe": 0,
+        "location": "Bangalore",
+        "base": 20.0,
+        "total": 34.05,
+        "mapped_role": "SDE I"
+    },
+    {
+        "id": "5305742",
+        "creation_date": "2024-06-13",
+        "company": "Infoblox",
+        "role": "Software Engineer-II",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 18.5,
+        "total": 30.83,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "5303661",
+        "creation_date": "2024-06-13",
+        "company": "Zepto",
+        "role": "Senior Software Engineer",
+        "yoe": 7,
+        "location": "Bangalore",
+        "base": 70.0,
+        "total": 95.0,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "5303387",
+        "creation_date": "2024-06-12",
+        "company": "Flipkart",
+        "role": "SDE 2",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 29.0,
+        "total": 35.4,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "5303258",
+        "creation_date": "2024-06-12",
+        "company": "Tesco",
+        "role": "SDE2",
+        "yoe": 10,
+        "location": "Bangalore",
+        "base": 58.0,
+        "total": 58.0,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "5303082",
+        "creation_date": "2024-06-12",
+        "company": "Telus international ai",
+        "role": "SDE3",
+        "yoe": 7,
+        "location": "Bangalore",
+        "base": 42.0,
+        "total": 45.36,
+        "mapped_role": "SDE III"
+    },
+    {
+        "id": "5302822",
+        "creation_date": "2024-06-12",
+        "company": "Google",
+        "role": "SWE University Graduate (L3)",
+        "yoe": 0,
+        "location": "Bangalore",
+        "base": 21.0,
+        "total": 40.0,
+        "mapped_role": "SWE University Graduate (L3)"
+    },
+    {
+        "id": "5302460",
+        "creation_date": "2024-06-12",
+        "company": "Lg soft india",
+        "role": "Research Engineer",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 15.5,
+        "total": 17.5,
+        "mapped_role": "Research Engineer"
+    },
+    {
+        "id": "5301743",
+        "creation_date": "2024-06-12",
+        "company": "Microsoft",
+        "role": "L60",
+        "yoe": 2,
+        "location": "N/A",
+        "base": 20.0,
+        "total": 39.0,
+        "mapped_role": "SDE I"
+    },
+    {
+        "id": "5296309",
+        "creation_date": "2024-06-11",
+        "company": "EPAM Systems",
+        "role": "full stack developer",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 18.0,
+        "total": 18.0,
+        "mapped_role": "Others"
+    },
+    {
         "id": "5291219",
         "creation_date": "2024-06-10",
         "company": "DE Shaw",
@@ -8,7 +129,18 @@
         "location": "Hyderabad",
         "base": 28.0,
         "total": 42.0,
-        "mapped_role": "Technology developer / mts"
+        "mapped_role": "Others"
+    },
+    {
+        "id": "5291219",
+        "creation_date": "2024-06-10",
+        "company": "DE Shaw",
+        "role": "Technology Developer / MTS",
+        "yoe": 0,
+        "location": "Hyderabad",
+        "base": 28.0,
+        "total": 42.0,
+        "mapped_role": "Others"
     },
     {
         "id": "5285854",
@@ -19,18 +151,18 @@
         "location": "Bangalore",
         "base": 36.0,
         "total": 69.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE III"
     },
     {
         "id": "5285674",
         "creation_date": "2024-06-09",
         "company": "N/A",
-        "role": "Senior software",
+        "role": "Senior Software Engineer",
         "yoe": 6,
         "location": "Bangalore",
         "base": 44.0,
         "total": 44.0,
-        "mapped_role": "Senior software"
+        "mapped_role": "SDE II"
     },
     {
         "id": "5285039",
@@ -52,7 +184,7 @@
         "location": "Bangalore",
         "base": 5.5,
         "total": 5.5,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "5282240",
@@ -61,9 +193,9 @@
         "role": "Software associate (SDE-1)",
         "yoe": 0,
         "location": "Bangalore",
-        "base": 15.43,
-        "total": 15.71,
-        "mapped_role": "SDE I"
+        "base": 6.43,
+        "total": 15.0,
+        "mapped_role": "Associate"
     },
     {
         "id": "5281550",
@@ -77,50 +209,6 @@
         "mapped_role": "SDE I"
     },
     {
-        "id": "5281182",
-        "creation_date": "2024-06-09",
-        "company": "EPAM Systems",
-        "role": "Data Engineer",
-        "yoe": 3,
-        "location": "Any epam india office",
-        "base": 20.0,
-        "total": 21.0,
-        "mapped_role": "Data Engineer"
-    },
-    {
-        "id": "5281182",
-        "creation_date": "2024-06-09",
-        "company": "Hsbc",
-        "role": "Data Engineer",
-        "yoe": 3,
-        "location": "Kolkata",
-        "base": 16.0,
-        "total": 16.0,
-        "mapped_role": "Data Engineer"
-    },
-    {
-        "id": "5281182",
-        "creation_date": "2024-06-09",
-        "company": "Hsbc",
-        "role": "Data Engineer",
-        "yoe": 3,
-        "location": "Bangalore",
-        "base": 18.0,
-        "total": 18.0,
-        "mapped_role": "Data Engineer"
-    },
-    {
-        "id": "5281182",
-        "creation_date": "2024-06-09",
-        "company": "Phdata",
-        "role": "Data Engineer",
-        "yoe": 3,
-        "location": "Remote/WFH",
-        "base": 15.0,
-        "total": 16.0,
-        "mapped_role": "Data Engineer"
-    },
-    {
         "id": "5281046",
         "creation_date": "2024-06-09",
         "company": "Intel",
@@ -132,28 +220,6 @@
         "mapped_role": "SDE I"
     },
     {
-        "id": "5279501",
-        "creation_date": "2024-06-08",
-        "company": "Ubs",
-        "role": "Summer Intern",
-        "yoe": 0,
-        "location": "Pune",
-        "base": 40.0,
-        "total": 40.0,
-        "mapped_role": "Summer intern"
-    },
-    {
-        "id": "5278733",
-        "creation_date": "2024-06-08",
-        "company": "Samsung R&D",
-        "role": "Advanced Developer",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 19.0,
-        "total": 26.0,
-        "mapped_role": "Advanced developer"
-    },
-    {
         "id": "5278203",
         "creation_date": "2024-06-08",
         "company": "Gameskraft",
@@ -162,18 +228,7 @@
         "location": "Bangalore",
         "base": 18.0,
         "total": 22.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5277766",
-        "creation_date": "2024-06-08",
-        "company": "Tekion",
-        "role": "Applied scientist-1",
-        "yoe": 1,
-        "location": "Bangalore",
-        "base": 22.0,
-        "total": 22.0,
-        "mapped_role": "Data Scientist"
+        "mapped_role": "Software Engineer - DevOps"
     },
     {
         "id": "5277324",
@@ -184,7 +239,7 @@
         "location": "Hyderabad",
         "base": 60.0,
         "total": 118.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "SSE L64"
     },
     {
         "id": "5276937",
@@ -195,18 +250,7 @@
         "location": "Hyderabad",
         "base": 28.0,
         "total": 30.0,
-        "mapped_role": "Data Scientist"
-    },
-    {
-        "id": "5273284",
-        "creation_date": "2024-06-07",
-        "company": "Agoda",
-        "role": "Senior Software Engineer",
-        "yoe": 4,
-        "location": "Bangkok",
-        "base": 52.0,
-        "total": 59.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Senior Data Scientist (A3)"
     },
     {
         "id": "5270175",
@@ -215,9 +259,9 @@
         "role": "Front end Engineer",
         "yoe": 5,
         "location": "Bangalore",
-        "base": 28.0,
-        "total": 38.0,
-        "mapped_role": "SDE I"
+        "base": 45.0,
+        "total": 50.0,
+        "mapped_role": "Front end Engineer"
     },
     {
         "id": "5268851",
@@ -239,7 +283,7 @@
         "location": "Bangalore",
         "base": 21.5,
         "total": 29.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE I"
     },
     {
         "id": "5268701",
@@ -248,9 +292,20 @@
         "role": "SDE-1",
         "yoe": 2,
         "location": "Bangalore",
-        "base": 12.0,
+        "base": 11.0,
         "total": 13.0,
         "mapped_role": "SDE I"
+    },
+    {
+        "id": "5268625",
+        "creation_date": "2024-06-06",
+        "company": "Uber",
+        "role": "SDE-2 (L4)",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 46.05,
+        "total": 73.25,
+        "mapped_role": "SDE III"
     },
     {
         "id": "5268550",
@@ -270,9 +325,9 @@
         "role": "MTS, IC2",
         "yoe": 4,
         "location": "Bangalore",
-        "base": 15.25,
+        "base": 25.9,
         "total": 39.3,
-        "mapped_role": "SDE I"
+        "mapped_role": "MTS, IC2"
     },
     {
         "id": "5264823",
@@ -286,191 +341,15 @@
         "mapped_role": "SDE II"
     },
     {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Google",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "NCR",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Microsoft",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "NCR",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Adobe",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "NCR",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Zomato",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "NCR",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Blinkit",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "NCR",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Amazon",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "NCR",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Deel",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "Remote/WFH",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Gemini",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "N/A",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Coinbase",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "Remote/WFH",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Apollo.io",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "Remote/WFH",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Airbnb",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "Remote/WFH",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Rubrik",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "N/A",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Github",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "Remote/WFH",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Salesforce",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "Remote/WFH",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5264530",
-        "creation_date": "2024-06-05",
-        "company": "Atlassian",
-        "role": "SDE",
-        "yoe": 4,
-        "location": "Remote/WFH",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5263888",
-        "creation_date": "2024-06-05",
-        "company": "Cisco",
-        "role": "SDE G4",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 14.5,
-        "total": 19.82,
-        "mapped_role": "SDE I"
-    },
-    {
         "id": "5263673",
         "creation_date": "2024-06-05",
         "company": "Rtcamp",
-        "role": "SDE ( PHP Web Developer )",
+        "role": "SDE (PHP Web Developer)",
         "yoe": 0,
         "location": "Remote/WFH",
-        "base": 12.0,
-        "total": 15.0,
-        "mapped_role": "SDE I"
+        "base": 12.5,
+        "total": 95.0,
+        "mapped_role": "SDE (PHP Web Developer)"
     },
     {
         "id": "5262878",
@@ -490,7 +369,7 @@
         "role": "Senior Software Engineer",
         "yoe": 4,
         "location": "Bangalore",
-        "base": 22.0,
+        "base": 32.4,
         "total": 36.0,
         "mapped_role": "SDE II"
     },
@@ -498,12 +377,12 @@
         "id": "5259934",
         "creation_date": "2024-06-05",
         "company": "Microsoft",
-        "role": "SWE1 (L60)",
+        "role": "Software Dev. I (L60)",
         "yoe": 2,
         "location": "Hyderabad",
         "base": 24.0,
         "total": 44.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Software Dev. I (L60)"
     },
     {
         "id": "5259557",
@@ -517,28 +396,6 @@
         "mapped_role": "SDE II"
     },
     {
-        "id": "5258563",
-        "creation_date": "2024-06-04",
-        "company": "Salesforce",
-        "role": "SMTS",
-        "yoe": 5,
-        "location": "Bangalore",
-        "base": 55.0,
-        "total": 77.4,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "5258563",
-        "creation_date": "2024-06-04",
-        "company": "PhonePe",
-        "role": "Software Engineer",
-        "yoe": 5,
-        "location": "Bangalore",
-        "base": 55.0,
-        "total": 77.25,
-        "mapped_role": "SDE I"
-    },
-    {
         "id": "5258560",
         "creation_date": "2024-06-04",
         "company": "Amazon",
@@ -547,7 +404,7 @@
         "location": "Bangalore",
         "base": 20.0,
         "total": 24.6,
-        "mapped_role": "Others"
+        "mapped_role": "System Development Engineer L4"
     },
     {
         "id": "5258429",
@@ -558,7 +415,7 @@
         "location": "Hyderabad",
         "base": 29.0,
         "total": 34.5,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE-2 Frontend developer"
     },
     {
         "id": "5257317",
@@ -568,8 +425,8 @@
         "yoe": 4,
         "location": "Bangalore",
         "base": 31.5,
-        "total": 34.55,
-        "mapped_role": "SDE I"
+        "total": 34.45,
+        "mapped_role": "MTS I"
     },
     {
         "id": "5256796",
@@ -579,8 +436,8 @@
         "yoe": 3,
         "location": "Hyderabad",
         "base": 9.2,
-        "total": 10.58,
-        "mapped_role": "SDE I"
+        "total": 10.38,
+        "mapped_role": "SDE-1 | React | Frontend"
     },
     {
         "id": "5256359",
@@ -589,7 +446,7 @@
         "role": "SDE - 1",
         "yoe": 2,
         "location": "NCR",
-        "base": 22.0,
+        "base": 20.0,
         "total": 30.0,
         "mapped_role": "SDE I"
     },
@@ -601,8 +458,19 @@
         "yoe": 4,
         "location": "Bangalore",
         "base": 42.0,
-        "total": 111.0,
-        "mapped_role": "SDE III"
+        "total": 121.0,
+        "mapped_role": "MTS 4"
+    },
+    {
+        "id": "5250443",
+        "creation_date": "2024-06-03",
+        "company": "MoneyView",
+        "role": "Software engineer - 1",
+        "yoe": 0,
+        "location": "Bangalore",
+        "base": 13.0,
+        "total": 16.0,
+        "mapped_role": "SDE I"
     },
     {
         "id": "5247908",
@@ -613,18 +481,7 @@
         "location": "India",
         "base": 40.0,
         "total": 59.0,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "5247521",
-        "creation_date": "2024-06-02",
-        "company": "Google",
-        "role": "L5",
-        "yoe": 8,
-        "location": "Hyderabad",
-        "base": 60.5,
-        "total": 14.9,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE2, L62"
     },
     {
         "id": "5244315",
@@ -633,9 +490,9 @@
         "role": "System Engineer",
         "yoe": 0,
         "location": "Mysore",
-        "base": 3.6,
-        "total": 3.7,
-        "mapped_role": "SDE I"
+        "base": 36.0,
+        "total": 37.0,
+        "mapped_role": "System Engineer"
     },
     {
         "id": "5239339",
@@ -657,7 +514,7 @@
         "location": "Bangalore",
         "base": 37.6,
         "total": 80.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE III"
     },
     {
         "id": "5238122",
@@ -668,51 +525,51 @@
         "location": "Remote/WFH",
         "base": 8.0,
         "total": 8.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5235304",
-        "creation_date": "2024-05-31",
-        "company": "SSE Diamanti",
-        "role": "(Remote - 3 YOE)",
-        "yoe": 3,
-        "location": "N/A",
-        "base": 32.0,
-        "total": 34.2,
-        "mapped_role": "(remote - 3 yoe)"
-    },
-    {
-        "id": "5233908",
-        "creation_date": "2024-05-31",
-        "company": "Tekion",
-        "role": "SE2",
-        "yoe": 5,
-        "location": "Bangalore",
-        "base": 30.0,
-        "total": 39.5,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "5230607",
-        "creation_date": "2024-05-30",
-        "company": "Amazon",
-        "role": "SDE 2",
-        "yoe": 2,
-        "location": "N/A",
-        "base": 42.0,
-        "total": 59.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDET"
     },
     {
         "id": "5230607",
         "creation_date": "2024-05-30",
         "company": "Microsoft",
-        "role": "L61",
+        "role": "SDE 2",
         "yoe": 2,
         "location": "N/A",
         "base": 33.0,
         "total": 64.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "5230252",
+        "creation_date": "2024-05-30",
+        "company": "Microsoft",
+        "role": "software engineer (L61)",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 25.0,
+        "total": 35.8,
+        "mapped_role": "software engineer (L61)"
+    },
+    {
+        "id": "5230252",
+        "creation_date": "2024-05-30",
+        "company": "Avalara",
+        "role": "senior software engineer (SSE)",
+        "yoe": 4,
+        "location": "Pune",
+        "base": 29.0,
+        "total": 31.9,
+        "mapped_role": "senior software engineer (SSE)"
+    },
+    {
+        "id": "5225164",
+        "creation_date": "2024-05-29",
+        "company": "Walmart",
+        "role": "SDE3 / IN3",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 22.0,
+        "total": 22.0,
+        "mapped_role": "SDE3 / IN3"
     },
     {
         "id": "5224231",
@@ -723,7 +580,7 @@
         "location": "N/A",
         "base": 65.0,
         "total": 75.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "SE3 Offer"
     },
     {
         "id": "5222859",
@@ -762,12 +619,23 @@
         "id": "5219586",
         "creation_date": "2024-05-28",
         "company": "Microsoft",
-        "role": "SDE2 (L62)",
+        "role": "Software Engineer II",
         "yoe": 4,
         "location": "Hyderabad",
         "base": 40.0,
         "total": 60.0,
         "mapped_role": "SDE II"
+    },
+    {
+        "id": "5217519",
+        "creation_date": "2024-05-27",
+        "company": "Kotak Mahindra Bank",
+        "role": "Data Engineer I",
+        "yoe": 1,
+        "location": "N/A",
+        "base": 21.5,
+        "total": 21.5,
+        "mapped_role": "Data Engineer I"
     },
     {
         "id": "5217150",
@@ -781,6 +649,39 @@
         "mapped_role": "SDE III"
     },
     {
+        "id": "5215322",
+        "creation_date": "2024-05-27",
+        "company": "Salesforce",
+        "role": "AMTS",
+        "yoe": 0,
+        "location": "India",
+        "base": 18.0,
+        "total": 29.0,
+        "mapped_role": "AMTS"
+    },
+    {
+        "id": "5215322",
+        "creation_date": "2024-05-27",
+        "company": "PayPal",
+        "role": "SDE-1",
+        "yoe": 0,
+        "location": "Bangalore/India",
+        "base": 15.0,
+        "total": 25.0,
+        "mapped_role": "SDE I"
+    },
+    {
+        "id": "5215322",
+        "creation_date": "2024-05-27",
+        "company": "Flipkart",
+        "role": "SDE-1",
+        "yoe": 0,
+        "location": "Bangalore/India",
+        "base": 18.0,
+        "total": 23.0,
+        "mapped_role": "SDE I"
+    },
+    {
         "id": "5214139",
         "creation_date": "2024-05-27",
         "company": "Sigmoid India",
@@ -789,18 +690,18 @@
         "location": "Bangalore",
         "base": 50.0,
         "total": 52.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "Technical Lead"
     },
     {
         "id": "5210990",
         "creation_date": "2024-05-26",
         "company": "OkCredit",
-        "role": "SDE-1(Backend)",
+        "role": "SDE 1(Backend)",
         "yoe": 1,
-        "location": "Remote/WFH",
+        "location": "N/A",
         "base": 10.0,
         "total": 23.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "SDE 1(Backend)"
     },
     {
         "id": "5205822",
@@ -822,18 +723,7 @@
         "location": "Bangalore",
         "base": 36.0,
         "total": 51.8,
-        "mapped_role": "SDE III"
-    },
-    {
-        "id": "5203353",
-        "creation_date": "2024-05-25",
-        "company": "Birdeye",
-        "role": "Software Frontend Engineer",
-        "yoe": 3,
-        "location": "NCR",
-        "base": 20.0,
-        "total": 20.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "MTS III"
     },
     {
         "id": "5202155",
@@ -855,18 +745,18 @@
         "location": "Bangalore",
         "base": 40.0,
         "total": 46.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE III"
     },
     {
-        "id": "5200378",
+        "id": "5201299",
         "creation_date": "2024-05-24",
-        "company": "Microsoft",
-        "role": "L62",
-        "yoe": 5,
-        "location": "NCR",
-        "base": 40.0,
-        "total": 59.0,
-        "mapped_role": "SDE II"
+        "company": "Bank of america",
+        "role": "Team Leader",
+        "yoe": 0,
+        "location": "Hyderabad",
+        "base": 9.15,
+        "total": 10.15,
+        "mapped_role": "Team Leader"
     },
     {
         "id": "5198402",
@@ -888,7 +778,7 @@
         "location": "Bangalore",
         "base": 35.0,
         "total": 40.5,
-        "mapped_role": "SDE III"
+        "mapped_role": "Software Engineer - P2"
     },
     {
         "id": "5197521",
@@ -916,7 +806,7 @@
         "id": "5197290",
         "creation_date": "2024-05-23",
         "company": "Viacom18",
-        "role": "Senior Software Engineer | Python",
+        "role": "Senior Software Engineer",
         "yoe": 7,
         "location": "Bangalore",
         "base": 51.0,
@@ -932,7 +822,7 @@
         "location": "Bangalore",
         "base": 41.0,
         "total": 62.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Software Developer [Flat Hierarchy]"
     },
     {
         "id": "5194500",
@@ -943,7 +833,7 @@
         "location": "N/A",
         "base": 32.0,
         "total": 36.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "L61 Offer"
     },
     {
         "id": "5194095",
@@ -952,31 +842,20 @@
         "role": "SDE II",
         "yoe": 4,
         "location": "Bangalore",
-        "base": 52.7,
-        "total": 54.7,
+        "base": 53.7,
+        "total": 53.7,
         "mapped_role": "SDE II"
     },
     {
         "id": "5194083",
         "creation_date": "2024-05-22",
-        "company": "Viacom18",
+        "company": "Viacom 18",
         "role": "SDE 2 - NodeJS",
         "yoe": 2,
         "location": "Bangalore",
         "base": 27.25,
         "total": 31.0,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "5192990",
-        "creation_date": "2024-05-22",
-        "company": "Arcesium",
-        "role": "Software Engineer",
-        "yoe": 3,
-        "location": "Bangalore",
-        "base": 27.0,
-        "total": 29.5,
-        "mapped_role": "SDE I"
+        "mapped_role": "SDE 2 - NodeJS"
     },
     {
         "id": "5192445",
@@ -995,10 +874,10 @@
         "company": "Microsoft",
         "role": "SDE II (L61)",
         "yoe": 5,
-        "location": "Hyderabad",
+        "location": "N/A",
         "base": 29.53,
         "total": 60.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE II (L61)"
     },
     {
         "id": "5190111",
@@ -1019,8 +898,30 @@
         "yoe": 3,
         "location": "Bangalore",
         "base": 37.6,
-        "total": 51.34,
-        "mapped_role": "SDE II"
+        "total": 42.6,
+        "mapped_role": "SDE III"
+    },
+    {
+        "id": "5185462",
+        "creation_date": "2024-05-20",
+        "company": "Google",
+        "role": "L4",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 37.6,
+        "total": 43.6,
+        "mapped_role": "SDE III"
+    },
+    {
+        "id": "5179370",
+        "creation_date": "2024-05-19",
+        "company": "Publicis Sapient",
+        "role": "Senior Associate, Data Engineering Level 2",
+        "yoe": 6,
+        "location": "N/A",
+        "base": 28.0,
+        "total": 28.0,
+        "mapped_role": "Associate"
     },
     {
         "id": "5178946",
@@ -1031,7 +932,7 @@
         "location": "Hyderabad",
         "base": 32.0,
         "total": 32.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Software Engineer(React)"
     },
     {
         "id": "5178905",
@@ -1040,7 +941,7 @@
         "role": "SDE2",
         "yoe": 3,
         "location": "NCR",
-        "base": 22.0,
+        "base": 26.0,
         "total": 29.0,
         "mapped_role": "SDE II"
     },
@@ -1048,12 +949,12 @@
         "id": "5175536",
         "creation_date": "2024-05-18",
         "company": "PayU",
-        "role": "Associate Software Engineer- Java",
+        "role": "Associate Software Engineer - Java",
         "yoe": 0,
         "location": "NCR",
         "base": 13.0,
         "total": 14.3,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "5173558",
@@ -1064,7 +965,7 @@
         "location": "Bangalore",
         "base": 35.0,
         "total": 41.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE III"
     },
     {
         "id": "5171528",
@@ -1085,19 +986,8 @@
         "yoe": 3,
         "location": "Hyderabad",
         "base": 25.0,
-        "total": 38.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5171084",
-        "creation_date": "2024-05-17",
-        "company": "Microsoft",
-        "role": "L60",
-        "yoe": 2,
-        "location": "Bangalore",
-        "base": 23.0,
-        "total": 27.3,
-        "mapped_role": "SDE I"
+        "total": 38.5,
+        "mapped_role": "Offer Evaluation - ServiceNow"
     },
     {
         "id": "5170144",
@@ -1107,19 +997,19 @@
         "yoe": 6,
         "location": "NCR",
         "base": 23.0,
-        "total": 32.5,
-        "mapped_role": "SDE II"
+        "total": 33.5,
+        "mapped_role": "Engineer II"
     },
     {
         "id": "5170144",
         "creation_date": "2024-05-17",
-        "company": "Ukg noida",
+        "company": "Ukg",
         "role": "Lead Software Engineer",
         "yoe": 6,
         "location": "NCR",
         "base": 23.0,
-        "total": 25.3,
-        "mapped_role": "SDE II"
+        "total": 25.84,
+        "mapped_role": "SDE III"
     },
     {
         "id": "5169410",
@@ -1133,14 +1023,14 @@
         "mapped_role": "SDE III"
     },
     {
-        "id": "5169166",
+        "id": "5169009",
         "creation_date": "2024-05-17",
-        "company": "Microsoft",
-        "role": "L61",
-        "yoe": 5,
+        "company": "Blinkit",
+        "role": "SDE-1",
+        "yoe": 0,
         "location": "NCR",
-        "base": 34.5,
-        "total": 39.5,
+        "base": 24.0,
+        "total": 29.0,
         "mapped_role": "SDE I"
     },
     {
@@ -1149,9 +1039,31 @@
         "company": "Flexport",
         "role": "SDE-2",
         "yoe": 4,
-        "location": "Bangalore/India",
+        "location": "Bangalore",
         "base": 58.0,
         "total": 68.8,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "5168799",
+        "creation_date": "2024-05-17",
+        "company": "Quince",
+        "role": "SDE-2",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 30.0,
+        "total": 67.5,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "5168799",
+        "creation_date": "2024-05-17",
+        "company": "Games24x7",
+        "role": "SDE-2",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 33.0,
+        "total": 36.96,
         "mapped_role": "SDE II"
     },
     {
@@ -1163,7 +1075,7 @@
         "location": "Bangalore",
         "base": 37.6,
         "total": 43.1,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE III"
     },
     {
         "id": "5166148",
@@ -1173,19 +1085,19 @@
         "yoe": 2,
         "location": "India",
         "base": 32.0,
-        "total": 36.0,
-        "mapped_role": "SDE I"
+        "total": 62.4,
+        "mapped_role": "SDE II"
     },
     {
-        "id": "5165433",
+        "id": "5164025",
         "creation_date": "2024-05-16",
-        "company": "Viacom18",
-        "role": "SDE2",
-        "yoe": 2,
-        "location": "Bangalore",
-        "base": 21.0,
-        "total": 24.0,
-        "mapped_role": "SDE II"
+        "company": "Barclays",
+        "role": "SDE",
+        "yoe": 3,
+        "location": "Pune",
+        "base": 29.5,
+        "total": 29.5,
+        "mapped_role": "SDE I"
     },
     {
         "id": "5163587",
@@ -1196,7 +1108,7 @@
         "location": "Bangalore",
         "base": 50.0,
         "total": 57.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "E3"
     },
     {
         "id": "5162067",
@@ -1207,18 +1119,7 @@
         "location": "NCR",
         "base": 13.0,
         "total": 15.6,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "5161897",
-        "creation_date": "2024-05-15",
-        "company": "Swimlane",
-        "role": "Associate Software Engineer",
-        "yoe": 0,
-        "location": "Hyderabad",
-        "base": 14.0,
-        "total": 31.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Software Engineer 2 Frontend UI Expert"
     },
     {
         "id": "5161790",
@@ -1243,15 +1144,48 @@
         "mapped_role": "SDE I"
     },
     {
+        "id": "5160528",
+        "creation_date": "2024-05-15",
+        "company": "Microsoft",
+        "role": "SDE2",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 25.0,
+        "total": 30.8,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "5160528",
+        "creation_date": "2024-05-15",
+        "company": "Flipkart",
+        "role": "SDE2",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 28.0,
+        "total": 40.8,
+        "mapped_role": "SDE II"
+    },
+    {
         "id": "5159972",
         "creation_date": "2024-05-15",
         "company": "Nielsen",
-        "role": "MTS-1",
+        "role": "Member of Technical Staff -1",
         "yoe": 1,
         "location": "Bangalore/Mumbai/NCR",
         "base": 20.0,
         "total": 20.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Member of Technical Staff -1"
+    },
+    {
+        "id": "5159297",
+        "creation_date": "2024-05-15",
+        "company": "One.app",
+        "role": "Engineer",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 5.0,
+        "total": 53.0,
+        "mapped_role": "Engineer"
     },
     {
         "id": "5158079",
@@ -1273,7 +1207,7 @@
         "location": "Hyderabad",
         "base": 14.0,
         "total": 31.3,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "5156641",
@@ -1301,12 +1235,45 @@
         "id": "5156292",
         "creation_date": "2024-05-14",
         "company": "Microsoft",
-        "role": "L62 and Kotak SDE 2",
+        "role": "L62 position and Kotak SDE 2",
         "yoe": 4,
         "location": "Hyderabad",
         "base": 39.0,
         "total": 70.0,
+        "mapped_role": "L62 position and Kotak SDE 2"
+    },
+    {
+        "id": "5156292",
+        "creation_date": "2024-05-14",
+        "company": "Kotak Mahindra Bank",
+        "role": "SDE 2",
+        "yoe": 4,
+        "location": "Hyderabad",
+        "base": 50.0,
+        "total": 60.0,
         "mapped_role": "SDE II"
+    },
+    {
+        "id": "5155298",
+        "creation_date": "2024-05-14",
+        "company": "ServiceNow",
+        "role": "ServiceNow (Hyderabad)",
+        "yoe": 4,
+        "location": "Hyderabad",
+        "base": 30.5,
+        "total": 31.51,
+        "mapped_role": "ServiceNow (Hyderabad)"
+    },
+    {
+        "id": "5155298",
+        "creation_date": "2024-05-14",
+        "company": "Booking.com",
+        "role": "Booking.com (Bangalore)",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 30.1,
+        "total": 30.11,
+        "mapped_role": "Booking.com (Bangalore)"
     },
     {
         "id": "5155022",
@@ -1342,32 +1309,21 @@
         "mapped_role": "SDE II"
     },
     {
-        "id": "5152963",
-        "creation_date": "2024-05-13",
-        "company": "Arista Networks",
-        "role": "SDE-2",
-        "yoe": 3,
-        "location": "N/A",
-        "base": 21.0,
-        "total": 25.0,
-        "mapped_role": "SDE II"
-    },
-    {
         "id": "5151611",
         "creation_date": "2024-05-13",
         "company": "Walmart",
         "role": "SDE III (Android)",
         "yoe": 2,
         "location": "Bangalore",
-        "base": 18.0,
+        "base": 18.86,
         "total": 23.96,
-        "mapped_role": "SDE III"
+        "mapped_role": "SDE III (Android)"
     },
     {
         "id": "5150972",
         "creation_date": "2024-05-13",
         "company": "Arcesium",
-        "role": "Software Engineer",
+        "role": "SDE1",
         "yoe": 2,
         "location": "Hyderabad",
         "base": 21.0,
@@ -1386,17 +1342,6 @@
         "mapped_role": "SDE I"
     },
     {
-        "id": "5143572",
-        "creation_date": "2024-05-11",
-        "company": "Avalara",
-        "role": "Software Engineer",
-        "yoe": 2,
-        "location": "N/A",
-        "base": 13.3,
-        "total": 20.0,
-        "mapped_role": "SDE I"
-    },
-    {
         "id": "5143311",
         "creation_date": "2024-05-11",
         "company": "Beepkart",
@@ -1405,18 +1350,7 @@
         "location": "Bangalore",
         "base": 8.0,
         "total": 10.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5143146",
-        "creation_date": "2024-05-11",
-        "company": "Postman",
-        "role": "SWE 2",
-        "yoe": 3,
-        "location": "N/A",
-        "base": 32.0,
-        "total": 40.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Backend Developer"
     },
     {
         "id": "5142377",
@@ -1427,7 +1361,7 @@
         "location": "Bangalore",
         "base": 24.0,
         "total": 28.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "5142377",
@@ -1438,7 +1372,7 @@
         "location": "Bangalore",
         "base": 25.0,
         "total": 28.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Assoicate (601)"
     },
     {
         "id": "5142316",
@@ -1460,7 +1394,7 @@
         "location": "Bangalore",
         "base": 42.0,
         "total": 71.62,
-        "mapped_role": "SDE I"
+        "mapped_role": "SDE1, G5 (exp)"
     },
     {
         "id": "5136793",
@@ -1482,18 +1416,7 @@
         "location": "NCR",
         "base": 23.4,
         "total": 28.35,
-        "mapped_role": "Associate Software Engineer"
-    },
-    {
-        "id": "5131068",
-        "creation_date": "2024-05-08",
-        "company": "Microsoft",
-        "role": "L63",
-        "yoe": 7,
-        "location": "NCR/Hyderabad/Bangalore",
-        "base": 48.0,
-        "total": 115.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "Associate"
     },
     {
         "id": "5126823",
@@ -1504,7 +1427,7 @@
         "location": "Bangalore",
         "base": 27.0,
         "total": 41.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "MTS II"
     },
     {
         "id": "5125932",
@@ -1518,15 +1441,26 @@
         "mapped_role": "SDE II"
     },
     {
+        "id": "5125029",
+        "creation_date": "2024-05-07",
+        "company": "Cvent",
+        "role": "SDE-2",
+        "yoe": 2,
+        "location": "N/A",
+        "base": 7.0,
+        "total": 7.0,
+        "mapped_role": "SDE II"
+    },
+    {
         "id": "5124773",
         "creation_date": "2024-05-07",
         "company": "Microsoft",
         "role": "62",
         "yoe": 4,
         "location": "Hyderabad",
-        "base": 29.5,
+        "base": 36.0,
         "total": 70.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "62"
     },
     {
         "id": "5124516",
@@ -1570,7 +1504,7 @@
         "location": "Remote/WFH",
         "base": 39.0,
         "total": 57.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "P3"
     },
     {
         "id": "5119996",
@@ -1581,7 +1515,7 @@
         "location": "Bangalore",
         "base": 21.0,
         "total": 25.02,
-        "mapped_role": "SDE I"
+        "mapped_role": "Graduate Software Engineer Trainee (GSET)"
     },
     {
         "id": "5119970",
@@ -1592,18 +1526,7 @@
         "location": "Bangalore",
         "base": 31.0,
         "total": 55.0,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "5116157",
-        "creation_date": "2024-05-05",
-        "company": "Google",
-        "role": "L5",
-        "yoe": 10,
-        "location": "Hyderabad",
-        "base": 61.0,
-        "total": 144.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Software Engineer II - L61"
     },
     {
         "id": "5115817",
@@ -1614,7 +1537,7 @@
         "location": "Bangalore",
         "base": 42.0,
         "total": 68.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE III"
     },
     {
         "id": "5114383",
@@ -1669,13 +1592,13 @@
         "location": "Bangalore",
         "base": 26.0,
         "total": 30.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "Software Developer 3 (MTS)"
     },
     {
         "id": "5105016",
         "creation_date": "2024-05-03",
         "company": "Boku Inc",
-        "role": "SDE-2",
+        "role": "SDE - 2",
         "yoe": 3,
         "location": "Mumbai",
         "base": 27.0,
@@ -1702,7 +1625,7 @@
         "location": "Kolkata",
         "base": 23.0,
         "total": 26.8,
-        "mapped_role": "Data Scientist"
+        "mapped_role": "Consultant - Data Scientist"
     },
     {
         "id": "5103733",
@@ -1716,6 +1639,17 @@
         "mapped_role": "SDE I"
     },
     {
+        "id": "5102303",
+        "creation_date": "2024-05-02",
+        "company": "Microsoft",
+        "role": "L60",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 19.0,
+        "total": 22.0,
+        "mapped_role": "SDE I"
+    },
+    {
         "id": "5101786",
         "creation_date": "2024-05-02",
         "company": "Target",
@@ -1723,8 +1657,8 @@
         "yoe": 4,
         "location": "Bangalore",
         "base": 23.0,
-        "total": 25.3,
-        "mapped_role": "SDE II"
+        "total": 27.5,
+        "mapped_role": "Senior Engineer"
     },
     {
         "id": "5100686",
@@ -1757,7 +1691,7 @@
         "location": "Hyderabad",
         "base": 58.0,
         "total": 83.4,
-        "mapped_role": "SDE III"
+        "mapped_role": "Sr. ML Engineer - L64"
     },
     {
         "id": "5096497",
@@ -1768,7 +1702,7 @@
         "location": "Bangalore",
         "base": 12.8,
         "total": 14.3,
-        "mapped_role": "SDE I"
+        "mapped_role": "Developer - Consultant"
     },
     {
         "id": "5096259",
@@ -1779,7 +1713,7 @@
         "location": "N/A",
         "base": 37.0,
         "total": 78.5,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE III"
     },
     {
         "id": "5096179",
@@ -1790,18 +1724,18 @@
         "location": "Bangalore",
         "base": 42.0,
         "total": 72.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "MTS II"
     },
     {
         "id": "5095635",
         "creation_date": "2024-05-01",
-        "company": "Gemini crypto",
+        "company": "Gemini",
         "role": "Staff Engineer",
         "yoe": 10,
         "location": "NCR",
         "base": 65.0,
         "total": 74.0,
-        "mapped_role": "Staff SDE"
+        "mapped_role": "Staff Engineer"
     },
     {
         "id": "5094548",
@@ -1812,18 +1746,18 @@
         "location": "Bangalore",
         "base": 70.0,
         "total": 100.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "Senior Software Engineer - L7"
     },
     {
         "id": "5091314",
         "creation_date": "2024-04-30",
-        "company": "JP Morgan Chase",
+        "company": "Jpmorgan",
         "role": "SE-3 backend",
         "yoe": 6,
         "location": "N/A",
         "base": 35.0,
         "total": 35.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "SE-3 backend"
     },
     {
         "id": "5091279",
@@ -1834,7 +1768,18 @@
         "location": "Bangalore",
         "base": 17.0,
         "total": 56.45,
-        "mapped_role": "SDE I"
+        "mapped_role": "New Grad Software Engineer"
+    },
+    {
+        "id": "5090549",
+        "creation_date": "2024-04-30",
+        "company": "Microsoft",
+        "role": "SSE - L63",
+        "yoe": 8,
+        "location": "Bangalore",
+        "base": 48.0,
+        "total": 85.0,
+        "mapped_role": "SDE III"
     },
     {
         "id": "5089213",
@@ -1844,8 +1789,8 @@
         "yoe": 6,
         "location": "Bangalore",
         "base": 56.0,
-        "total": 96.0,
-        "mapped_role": "SDE III"
+        "total": 60.0,
+        "mapped_role": "Tech Lead 2"
     },
     {
         "id": "5089140",
@@ -1854,7 +1799,7 @@
         "role": "SDE-2",
         "yoe": 3,
         "location": "Bangalore",
-        "base": 24.5,
+        "base": 29.0,
         "total": 36.25,
         "mapped_role": "SDE II"
     },
@@ -1862,7 +1807,7 @@
         "id": "5088905",
         "creation_date": "2024-04-29",
         "company": "Dell Technologies",
-        "role": "Software Engineer 2 (Frontend)",
+        "role": "Software Engineer 2",
         "yoe": 3,
         "location": "Bangalore",
         "base": 18.75,
@@ -1878,7 +1823,7 @@
         "location": "NCR",
         "base": 11.5,
         "total": 13.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "SDE-1 React"
     },
     {
         "id": "5086998",
@@ -1900,7 +1845,7 @@
         "location": "NCR",
         "base": 65.0,
         "total": 67.0,
-        "mapped_role": "Staff SDE"
+        "mapped_role": "Staff Engineer"
     },
     {
         "id": "5081256",
@@ -1909,8 +1854,8 @@
         "role": "Software Engineer",
         "yoe": 3,
         "location": "Bangalore",
-        "base": 32.0,
-        "total": 43.0,
+        "base": 43.0,
+        "total": 89.0,
         "mapped_role": "SDE I"
     },
     {
@@ -1933,7 +1878,29 @@
         "location": "Bangalore",
         "base": 37.0,
         "total": 42.7,
-        "mapped_role": "SDE III"
+        "mapped_role": "Sr. Engineer"
+    },
+    {
+        "id": "5078166",
+        "creation_date": "2024-04-27",
+        "company": "Google",
+        "role": "L3",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 22.0,
+        "total": 47.0,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "5078059",
+        "creation_date": "2024-04-27",
+        "company": "ServiceNow",
+        "role": "Software Engineer IC2",
+        "yoe": 2,
+        "location": "Hyderabad",
+        "base": 32.0,
+        "total": 32.0,
+        "mapped_role": "SDE I"
     },
     {
         "id": "5077989",
@@ -1942,9 +1909,9 @@
         "role": "SDE2 (L5)",
         "yoe": 3,
         "location": "Bangalore",
-        "base": 22.0,
-        "total": 42.0,
-        "mapped_role": "SDE II"
+        "base": 42.0,
+        "total": 60.0,
+        "mapped_role": "SDE III"
     },
     {
         "id": "5076163",
@@ -1955,18 +1922,7 @@
         "location": "NCR",
         "base": 35.0,
         "total": 43.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5075875",
-        "creation_date": "2024-04-26",
-        "company": "Qualcomm",
-        "role": "Senior Engineer",
-        "yoe": 3,
-        "location": "Hyderabad",
-        "base": 22.0,
-        "total": 46.34,
-        "mapped_role": "SDE II"
+        "mapped_role": "Backend Engineer"
     },
     {
         "id": "5075119",
@@ -1977,13 +1933,24 @@
         "location": "NCR",
         "base": 32.0,
         "total": 55.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Computer Scientist - 1"
+    },
+    {
+        "id": "5075080",
+        "creation_date": "2024-04-26",
+        "company": "Microsoft",
+        "role": "SDE 2 (L61)",
+        "yoe": 4,
+        "location": "Hyderabad",
+        "base": 32.0,
+        "total": 60.0,
+        "mapped_role": "SDE II"
     },
     {
         "id": "5074621",
         "creation_date": "2024-04-26",
         "company": "Microsoft",
-        "role": "L61(SDE 2)",
+        "role": "SDE 2",
         "yoe": 2,
         "location": "Hyderabad",
         "base": 28.0,
@@ -1999,7 +1966,7 @@
         "location": "Bangalore",
         "base": 23.5,
         "total": 47.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Software Engineer II (L3)"
     },
     {
         "id": "5073935",
@@ -2008,7 +1975,7 @@
         "role": "Software Engineer 1",
         "yoe": 2,
         "location": "Bangalore",
-        "base": 17.5,
+        "base": 26.0,
         "total": 26.0,
         "mapped_role": "SDE I"
     },
@@ -2019,20 +1986,75 @@
         "role": "Software Engineer II",
         "yoe": 2,
         "location": "Bangalore",
-        "base": 28.0,
+        "base": 17.5,
         "total": 30.0,
         "mapped_role": "SDE II"
+    },
+    {
+        "id": "5072530",
+        "creation_date": "2024-04-25",
+        "company": "Zoho Corporation",
+        "role": "Member Technical Staff",
+        "yoe": 0,
+        "location": "N/A",
+        "base": 7.0,
+        "total": 7.0,
+        "mapped_role": "Member Technical Staff"
+    },
+    {
+        "id": "5072530",
+        "creation_date": "2024-04-25",
+        "company": "Vassar labs",
+        "role": "R&D Engineer",
+        "yoe": 0,
+        "location": "N/A",
+        "base": 9.0,
+        "total": 9.0,
+        "mapped_role": "R&D Engineer"
+    },
+    {
+        "id": "5072530",
+        "creation_date": "2024-04-25",
+        "company": "Cosgrid networks",
+        "role": "Full-Stack Developer",
+        "yoe": 0,
+        "location": "N/A",
+        "base": 8.0,
+        "total": 8.0,
+        "mapped_role": "Others"
+    },
+    {
+        "id": "5072045",
+        "creation_date": "2024-04-25",
+        "company": "Flipkart",
+        "role": "n/a",
+        "yoe": 3,
+        "location": "N/A",
+        "base": 35.0,
+        "total": 35.0,
+        "mapped_role": "N/A"
+    },
+    {
+        "id": "5072045",
+        "creation_date": "2024-04-25",
+        "company": "Nutanix",
+        "role": "n/a",
+        "yoe": 3,
+        "location": "N/A",
+        "base": 38.0,
+        "total": 38.0,
+        "mapped_role": "N/A"
     },
     {
         "id": "5070616",
         "creation_date": "2024-04-25",
         "company": "Walmart",
-        "role": "IN-3 or SE-3 (SDE 2)",
+        "role": "IN-3 or SE-3 (actual: SDE 2)",
         "yoe": 4,
         "location": "Bangalore",
         "base": 28.82,
         "total": 36.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "IN-3 or SE-3 (actual: SDE 2)"
     },
     {
         "id": "5070578",
@@ -2041,9 +2063,9 @@
         "role": "MTS 2",
         "yoe": 4,
         "location": "Bangalore",
-        "base": 28.0,
+        "base": 31.0,
         "total": 54.5,
-        "mapped_role": "SDE II"
+        "mapped_role": "MTS II"
     },
     {
         "id": "5070550",
@@ -2054,7 +2076,7 @@
         "location": "NCR",
         "base": 28.0,
         "total": 36.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE-2 Android"
     },
     {
         "id": "5067926",
@@ -2065,18 +2087,18 @@
         "location": "Bangalore",
         "base": 30.0,
         "total": 33.5,
-        "mapped_role": "SDE II"
+        "mapped_role": "MTS II"
     },
     {
         "id": "5067138",
         "creation_date": "2024-04-24",
         "company": "Google",
-        "role": "L4 - Application Engineer",
+        "role": "Application Engineer (L4)",
         "yoe": 8,
         "location": "Hyderabad",
         "base": 31.4,
         "total": 62.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Application Engineer (L4)"
     },
     {
         "id": "5066825",
@@ -2099,6 +2121,28 @@
         "base": 19.0,
         "total": 20.0,
         "mapped_role": "Data Engineer"
+    },
+    {
+        "id": "5065912",
+        "creation_date": "2024-04-24",
+        "company": "Flipkart",
+        "role": "Software Development Engineer II - Fulfillment Services Group (FSG)",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 26.0,
+        "total": 32.0,
+        "mapped_role": "Software Development Engineer II - Fulfillment Services Group (FSG)"
+    },
+    {
+        "id": "5065912",
+        "creation_date": "2024-04-24",
+        "company": "Microsoft",
+        "role": "Software Engineer II(L61) - Consumer Identity Experiences Team",
+        "yoe": 2,
+        "location": "Hyderabad",
+        "base": 26.0,
+        "total": 44.0,
+        "mapped_role": "Software Engineer II(L61) - Consumer Identity Experiences Team"
     },
     {
         "id": "5065387",
@@ -2131,29 +2175,18 @@
         "location": "Bangalore",
         "base": 40.5,
         "total": 47.5,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "5062683",
-        "creation_date": "2024-04-23",
-        "company": "Microsoft",
-        "role": "Data Scientist 2",
-        "yoe": 3,
-        "location": "Bangalore",
-        "base": 32.0,
-        "total": 46.2,
-        "mapped_role": "Data Scientist"
+        "mapped_role": "SDE III"
     },
     {
         "id": "5062678",
         "creation_date": "2024-04-23",
         "company": "Microsoft",
         "role": "L60 SDE1",
-        "yoe": 1,
+        "yoe": 2,
         "location": "Hyderabad",
         "base": 19.5,
-        "total": 19.67,
-        "mapped_role": "SDE I"
+        "total": 43.67,
+        "mapped_role": "L60 SDE1"
     },
     {
         "id": "5059079",
@@ -2175,7 +2208,7 @@
         "location": "Bangalore",
         "base": 32.52,
         "total": 38.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "MTS II"
     },
     {
         "id": "5058364",
@@ -2191,7 +2224,7 @@
     {
         "id": "5058364",
         "creation_date": "2024-04-22",
-        "company": "Citrix (cloud software group)",
+        "company": "Citrix",
         "role": "n/a",
         "yoe": 2,
         "location": "Bangalore",
@@ -2219,7 +2252,7 @@
         "location": "Hyderabad",
         "base": 30.0,
         "total": 55.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Software Engineer - ICT3"
     },
     {
         "id": "5056212",
@@ -2229,8 +2262,8 @@
         "yoe": 1,
         "location": "Bangalore",
         "base": 19.17,
-        "total": 26.42,
-        "mapped_role": "SDE I"
+        "total": 26.41,
+        "mapped_role": "Software Development Engineer 1 (SDE-1)"
     },
     {
         "id": "5056093",
@@ -2244,15 +2277,15 @@
         "mapped_role": "Analyst"
     },
     {
-        "id": "5055789",
+        "id": "5053540",
         "creation_date": "2024-04-21",
-        "company": "JP Morgan Chase",
-        "role": "Software Engineer III (AVP)",
-        "yoe": 10,
+        "company": "NetApp",
+        "role": "Member of Technical Staff 2 (MTS-2)",
+        "yoe": 0,
         "location": "Bangalore",
-        "base": 40.0,
-        "total": 45.0,
-        "mapped_role": "SDE III"
+        "base": 17.6,
+        "total": 19.1,
+        "mapped_role": "Member of Technical Staff 2 (MTS-2)"
     },
     {
         "id": "5050978",
@@ -2288,17 +2321,6 @@
         "mapped_role": "SDE I"
     },
     {
-        "id": "5046145",
-        "creation_date": "2024-04-19",
-        "company": "Nutanix",
-        "role": "MTS-3",
-        "yoe": 4,
-        "location": "Bangalore",
-        "base": 40.0,
-        "total": 55.1,
-        "mapped_role": "SDE III"
-    },
-    {
         "id": "5046134",
         "creation_date": "2024-04-19",
         "company": "Microsoft",
@@ -2307,18 +2329,18 @@
         "location": "Hyderabad",
         "base": 32.0,
         "total": 62.15,
-        "mapped_role": "SDE I"
+        "mapped_role": "SDE II"
     },
     {
         "id": "5045806",
         "creation_date": "2024-04-19",
         "company": "PayPal",
-        "role": "Sr. Software Engineer (T24)",
+        "role": "Sr. Software Engineer",
         "yoe": 5,
         "location": "Bangalore",
         "base": 29.0,
         "total": 44.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "Sr. Software Engineer"
     },
     {
         "id": "5045467",
@@ -2332,6 +2354,17 @@
         "mapped_role": "SDE II"
     },
     {
+        "id": "5044736",
+        "creation_date": "2024-04-19",
+        "company": "Alteryx",
+        "role": "Associate Software Development Engineer / SDE-1",
+        "yoe": 1,
+        "location": "Bangalore",
+        "base": 21.0,
+        "total": 22.26,
+        "mapped_role": "Associate"
+    },
+    {
         "id": "5044166",
         "creation_date": "2024-04-19",
         "company": "Oracle",
@@ -2340,16 +2373,16 @@
         "location": "Hyderabad",
         "base": 18.0,
         "total": 18.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Application Developer (IC-2)"
     },
     {
         "id": "5042984",
         "creation_date": "2024-04-19",
         "company": "Mastercard",
         "role": "Software Engineer I",
-        "yoe": 2,
+        "yoe": 1,
         "location": "Pune",
-        "base": 9.0,
+        "base": 15.5,
         "total": 16.27,
         "mapped_role": "SDE I"
     },
@@ -2362,7 +2395,7 @@
         "location": "Hyderabad",
         "base": 10.0,
         "total": 10.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "5042354",
@@ -2384,7 +2417,7 @@
         "location": "Pune",
         "base": 16.0,
         "total": 18.92,
-        "mapped_role": "Software engineer (i2)"
+        "mapped_role": "Software Engineer (I2)"
     },
     {
         "id": "5036657",
@@ -2395,7 +2428,7 @@
         "location": "Bangalore",
         "base": 26.0,
         "total": 28.3,
-        "mapped_role": "SDE II"
+        "mapped_role": "Senior Application Engineer"
     },
     {
         "id": "5036548",
@@ -2407,39 +2440,6 @@
         "base": 15.79,
         "total": 17.0,
         "mapped_role": "SDE I"
-    },
-    {
-        "id": "5035880",
-        "creation_date": "2024-04-17",
-        "company": "Amazon",
-        "role": "Business Intelligence Engineer",
-        "yoe": 2,
-        "location": "N/A",
-        "base": 35.0,
-        "total": 35.0,
-        "mapped_role": "Data Engineer"
-    },
-    {
-        "id": "5035880",
-        "creation_date": "2024-04-17",
-        "company": "Moody's",
-        "role": "Senior Data Scientist",
-        "yoe": 2,
-        "location": "N/A",
-        "base": 30.0,
-        "total": 30.0,
-        "mapped_role": "Data Scientist"
-    },
-    {
-        "id": "5035880",
-        "creation_date": "2024-04-17",
-        "company": "Tvs credit",
-        "role": "Data Scientist",
-        "yoe": 2,
-        "location": "N/A",
-        "base": 26.0,
-        "total": 26.0,
-        "mapped_role": "Data Scientist"
     },
     {
         "id": "5035670",
@@ -2460,7 +2460,7 @@
         "yoe": 3,
         "location": "Bangalore",
         "base": 42.0,
-        "total": 75.1,
+        "total": 116.85,
         "mapped_role": "SDE I"
     },
     {
@@ -2482,7 +2482,7 @@
         "yoe": 4,
         "location": "Bangalore",
         "base": 21.0,
-        "total": 25.5,
+        "total": 21.0,
         "mapped_role": "Data Engineer"
     },
     {
@@ -2505,7 +2505,7 @@
         "location": "N/A",
         "base": 28.0,
         "total": 28.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Senior AI developer"
     },
     {
         "id": "5028660",
@@ -2516,7 +2516,7 @@
         "location": "Bangalore",
         "base": 18.0,
         "total": 26.1,
-        "mapped_role": "SDE III"
+        "mapped_role": "SDE-III"
     },
     {
         "id": "5028426",
@@ -2527,7 +2527,7 @@
         "location": "Remote/WFH",
         "base": 23.0,
         "total": 23.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Front End Developer (React + JS)"
     },
     {
         "id": "5028299",
@@ -2549,7 +2549,7 @@
         "location": "Mumbai",
         "base": 5.5,
         "total": 5.5,
-        "mapped_role": "SDE I"
+        "mapped_role": "Developer Trainee"
     },
     {
         "id": "5022481",
@@ -2560,7 +2560,7 @@
         "location": "NCR",
         "base": 24.0,
         "total": 24.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Java Backend Developer"
     },
     {
         "id": "5021932",
@@ -2571,24 +2571,13 @@
         "location": "Hyderabad",
         "base": 13.0,
         "total": 19.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "5021678",
-        "creation_date": "2024-04-14",
-        "company": "Tesco",
-        "role": "SDE 2",
-        "yoe": 3,
-        "location": "N/A",
-        "base": 34.0,
-        "total": 37.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Analyst"
     },
     {
         "id": "5021299",
         "creation_date": "2024-04-14",
         "company": "Blinkit",
-        "role": "Data Analyst-22 Fixed",
+        "role": "Data Analyst",
         "yoe": 3,
         "location": "N/A",
         "base": 22.0,
@@ -2614,8 +2603,8 @@
         "yoe": 4,
         "location": "Bangalore",
         "base": 35.0,
-        "total": 45.0,
-        "mapped_role": "SDE I"
+        "total": 80.0,
+        "mapped_role": "SSE-1 frontend (web)"
     },
     {
         "id": "5014744",
@@ -2626,17 +2615,6 @@
         "location": "NCR",
         "base": 33.0,
         "total": 35.0,
-        "mapped_role": "SDE III"
-    },
-    {
-        "id": "5014274",
-        "creation_date": "2024-04-13",
-        "company": "Google",
-        "role": "Software Engineer - Level 3",
-        "yoe": 2,
-        "location": "Bangalore",
-        "base": 15.0,
-        "total": 20.5,
         "mapped_role": "SDE III"
     },
     {
@@ -2659,18 +2637,7 @@
         "location": "Bangalore",
         "base": 18.31,
         "total": 67.47,
-        "mapped_role": "Mts (software developer 2)"
-    },
-    {
-        "id": "5010394",
-        "creation_date": "2024-04-12",
-        "company": "Accenture india",
-        "role": "Java Developer",
-        "yoe": 1,
-        "location": "Bangalore",
-        "base": 7.2,
-        "total": 7.2,
-        "mapped_role": "SDE I"
+        "mapped_role": "MTS (Software Developer 2)"
     },
     {
         "id": "5010220",
@@ -2681,12 +2648,12 @@
         "location": "Pune",
         "base": 7.2,
         "total": 8.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Trainee Software Engineer"
     },
     {
         "id": "5009746",
         "creation_date": "2024-04-12",
-        "company": "Ernst & young",
+        "company": "Ernst & Young",
         "role": "Senior Software Engineer",
         "yoe": 2,
         "location": "Kolkata",
@@ -2703,40 +2670,40 @@
         "location": "Bangalore",
         "base": 12.0,
         "total": 12.0,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "5009324",
-        "creation_date": "2024-04-12",
-        "company": "Samsung R&D",
-        "role": "Software Engineer",
-        "yoe": 0,
-        "location": "Bangalore/India",
-        "base": 12.31,
-        "total": 15.4,
-        "mapped_role": "SDE I"
+        "mapped_role": "Senior Software Developer"
     },
     {
         "id": "5007514",
         "creation_date": "2024-04-11",
         "company": "DE Shaw",
-        "role": "SMTS",
+        "role": "Senior Member of Technical Staff (SMTS)",
         "yoe": 5,
         "location": "Hyderabad",
         "base": 40.0,
         "total": 44.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Senior Member of Technical Staff (SMTS)"
+    },
+    {
+        "id": "5006166",
+        "creation_date": "2024-04-11",
+        "company": "Mallow technologies",
+        "role": "n/a",
+        "yoe": 0,
+        "location": "Karur",
+        "base": 4.2,
+        "total": 4.2,
+        "mapped_role": "N/A"
     },
     {
         "id": "5005949",
         "creation_date": "2024-04-11",
         "company": "AQR Capital Management",
-        "role": "Software Dev(Analyst)",
+        "role": "Software Dev (Analyst)",
         "yoe": 2,
         "location": "Bangalore",
         "base": 26.0,
         "total": 33.2,
-        "mapped_role": "SDE I"
+        "mapped_role": "Analyst"
     },
     {
         "id": "5005310",
@@ -2758,7 +2725,7 @@
         "location": "Bangalore",
         "base": 21.0,
         "total": 33.6,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE I"
     },
     {
         "id": "5004206",
@@ -2772,15 +2739,37 @@
         "mapped_role": "SDE I"
     },
     {
-        "id": "5002901",
+        "id": "5001972",
         "creation_date": "2024-04-10",
-        "company": "Walmart",
-        "role": "SDE 3",
+        "company": "Saviynt",
+        "role": "Engineer 2 - UI",
         "yoe": 3,
         "location": "Bangalore",
-        "base": 24.78,
-        "total": 34.68,
-        "mapped_role": "SDE III"
+        "base": 18.0,
+        "total": 18.0,
+        "mapped_role": "Engineer 2 - UI"
+    },
+    {
+        "id": "5001972",
+        "creation_date": "2024-04-10",
+        "company": "Razorpay",
+        "role": "Product Development Engineer 2 - Frontend",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 15.0,
+        "total": 16.0,
+        "mapped_role": "Product Development Engineer 2 - Frontend"
+    },
+    {
+        "id": "5001588",
+        "creation_date": "2024-04-10",
+        "company": "Uber",
+        "role": "Software Engineer - 2",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 42.0,
+        "total": 61.0,
+        "mapped_role": "SDE II"
     },
     {
         "id": "5000467",
@@ -2800,7 +2789,7 @@
         "role": "Software Engineer",
         "yoe": 2,
         "location": "N/A",
-        "base": 12.0,
+        "base": 12.6,
         "total": 12.6,
         "mapped_role": "SDE I"
     },
@@ -2813,25 +2802,47 @@
         "location": "Chennai",
         "base": 15.5,
         "total": 21.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Engineer 2"
+    },
+    {
+        "id": "4998137",
+        "creation_date": "2024-04-09",
+        "company": "Tekion",
+        "role": "Senior Software Engineer (UI)",
+        "yoe": 5,
+        "location": "Bangalore",
+        "base": 48.0,
+        "total": 52.0,
+        "mapped_role": "Senior Software Engineer (UI)"
+    },
+    {
+        "id": "4998137",
+        "creation_date": "2024-04-09",
+        "company": "Nutanix",
+        "role": "MTS 3 (Full Stack - Frontend Heavy)",
+        "yoe": 5,
+        "location": "Bangalore",
+        "base": 37.0,
+        "total": 48.0,
+        "mapped_role": "MTS 3 (Full Stack - Frontend Heavy)"
     },
     {
         "id": "4998028",
         "creation_date": "2024-04-09",
         "company": "Cencora",
-        "role": "IT Engineer trainee",
+        "role": "Associate Software engineer",
         "yoe": 0,
         "location": "Pune",
         "base": 7.0,
         "total": 7.6,
-        "mapped_role": "SDE I"
+        "mapped_role": "Associate"
     },
     {
         "id": "4997489",
         "creation_date": "2024-04-09",
         "company": "Walmart",
         "role": "SDE II",
-        "yoe": 0,
+        "yoe": 1,
         "location": "Bangalore",
         "base": 15.8,
         "total": 20.0,
@@ -2840,13 +2851,13 @@
     {
         "id": "4996496",
         "creation_date": "2024-04-09",
-        "company": "Oracle health and ai (cerner)",
+        "company": "Oracle",
         "role": "Software developer 3",
         "yoe": 4,
         "location": "Bangalore",
         "base": 34.0,
         "total": 43.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "Software developer 3"
     },
     {
         "id": "4993924",
@@ -2893,15 +2904,15 @@
         "mapped_role": "SDE II"
     },
     {
-        "id": "4989820",
+        "id": "4992462",
         "creation_date": "2024-04-08",
-        "company": "Microsoft",
-        "role": "SDE-2",
-        "yoe": 4,
-        "location": "Hyderabad",
-        "base": 31.6,
-        "total": 34.0,
-        "mapped_role": "SDE II"
+        "company": "Xenonstack",
+        "role": "B-Tech CS/IT | Mohali",
+        "yoe": 0,
+        "location": "Mohali",
+        "base": 7.5,
+        "total": 7.5,
+        "mapped_role": "B-Tech CS/IT | Mohali"
     },
     {
         "id": "4989815",
@@ -2915,50 +2926,6 @@
         "mapped_role": "Analyst"
     },
     {
-        "id": "4987973",
-        "creation_date": "2024-04-07",
-        "company": "Equifax",
-        "role": "Senior SDET",
-        "yoe": 29,
-        "location": "N/A",
-        "base": 32.5,
-        "total": 35.75,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "4987973",
-        "creation_date": "2024-04-07",
-        "company": "EPAM Systems",
-        "role": "Senior SDET",
-        "yoe": 29,
-        "location": "N/A",
-        "base": 34.0,
-        "total": 37.4,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "4987973",
-        "creation_date": "2024-04-07",
-        "company": "Icertis",
-        "role": "Senior SDET",
-        "yoe": 29,
-        "location": "N/A",
-        "base": 34.0,
-        "total": 37.4,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "4987973",
-        "creation_date": "2024-04-07",
-        "company": "Logicmonitor",
-        "role": "Senior SDET",
-        "yoe": 29,
-        "location": "N/A",
-        "base": 34.0,
-        "total": 35.9,
-        "mapped_role": "SDE II"
-    },
-    {
         "id": "4986580",
         "creation_date": "2024-04-07",
         "company": "TCS",
@@ -2967,7 +2934,7 @@
         "location": "Hyderabad",
         "base": 7.1,
         "total": 8.1,
-        "mapped_role": "SDE I"
+        "mapped_role": "Systems Engineer"
     },
     {
         "id": "4985378",
@@ -2978,7 +2945,7 @@
         "location": "Bangalore",
         "base": 49.0,
         "total": 75.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "IC4"
     },
     {
         "id": "4985367",
@@ -2998,7 +2965,7 @@
         "role": "L3",
         "yoe": 7,
         "location": "Bangalore",
-        "base": 44.0,
+        "base": 30.0,
         "total": 46.0,
         "mapped_role": "SDE II"
     },
@@ -3011,7 +2978,7 @@
         "location": "N/A",
         "base": 34.25,
         "total": 42.25,
-        "mapped_role": "SDE II"
+        "mapped_role": "MTS II"
     },
     {
         "id": "4983296",
@@ -3022,18 +2989,7 @@
         "location": "NCR",
         "base": 21.34,
         "total": 22.84,
-        "mapped_role": "Data Engineer"
-    },
-    {
-        "id": "4982744",
-        "creation_date": "2024-04-06",
-        "company": "Zoho Corporation",
-        "role": "Software Developer (Internship + PPO for Member of Technical Staff)",
-        "yoe": 0,
-        "location": "Chennai",
-        "base": 7.0,
-        "total": 8.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Data Engineer Consultant"
     },
     {
         "id": "4982559",
@@ -3044,7 +3000,7 @@
         "location": "Pune",
         "base": 22.0,
         "total": 22.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Associate"
     },
     {
         "id": "4978798",
@@ -3056,17 +3012,6 @@
         "base": 20.0,
         "total": 32.0,
         "mapped_role": "SDE II"
-    },
-    {
-        "id": "4977385",
-        "creation_date": "2024-04-05",
-        "company": "Amazon",
-        "role": "Cloud Support Engineer 1",
-        "yoe": 4,
-        "location": "Hyderabad",
-        "base": 19.2,
-        "total": 25.2,
-        "mapped_role": "SDE I"
     },
     {
         "id": "4975176",
@@ -3096,10 +3041,10 @@
         "company": "Microsoft",
         "role": "Validation Engineer - L61",
         "yoe": 6,
-        "location": "Bangalore",
+        "location": "Hyderabad",
         "base": 28.8,
         "total": 45.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Validation Engineer - L61"
     },
     {
         "id": "4973866",
@@ -3110,7 +3055,7 @@
         "location": "NCR",
         "base": 23.5,
         "total": 26.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4973016",
@@ -3121,7 +3066,7 @@
         "location": "Bangalore",
         "base": 20.0,
         "total": 20.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Others"
     },
     {
         "id": "4973016",
@@ -3132,18 +3077,7 @@
         "location": "Bangalore",
         "base": 18.0,
         "total": 18.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "4971651",
-        "creation_date": "2024-04-04",
-        "company": "Poshmark",
-        "role": "SDE Intern",
-        "yoe": 0,
-        "location": "Chennai",
-        "base": 30.0,
-        "total": 30.0,
-        "mapped_role": "Intern"
+        "mapped_role": "Others"
     },
     {
         "id": "4971402",
@@ -3154,18 +3088,18 @@
         "location": "Hyderabad",
         "base": 15.5,
         "total": 31.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Others"
     },
     {
-        "id": "4971002",
+        "id": "4968866",
         "creation_date": "2024-04-04",
-        "company": "Uber",
-        "role": "Software Engineer - 1 (L3 Fresher)",
-        "yoe": 0,
+        "company": "Flipkart",
+        "role": "SDE 2",
+        "yoe": 4,
         "location": "Bangalore",
-        "base": 23.0,
-        "total": 38.35,
-        "mapped_role": "SDE I"
+        "base": 27.0,
+        "total": 42.8,
+        "mapped_role": "SDE II"
     },
     {
         "id": "4968661",
@@ -3201,14 +3135,14 @@
         "mapped_role": "SDE II"
     },
     {
-        "id": "4962984",
+        "id": "4963671",
         "creation_date": "2024-04-02",
-        "company": "Amazon",
-        "role": "Software Development Engineer",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 19.17,
-        "total": 29.15,
+        "company": "JP Morgan Chase",
+        "role": "SDE-1",
+        "yoe": 2,
+        "location": "N/A",
+        "base": 19.0,
+        "total": 21.0,
         "mapped_role": "SDE I"
     },
     {
@@ -3220,7 +3154,7 @@
         "location": "Hyderabad",
         "base": 35.0,
         "total": 59.8,
-        "mapped_role": "SDE II"
+        "mapped_role": "ICT-3"
     },
     {
         "id": "4957689",
@@ -3242,18 +3176,7 @@
         "location": "Bangalore",
         "base": 16.0,
         "total": 27.0,
-        "mapped_role": "SDE III"
-    },
-    {
-        "id": "4955273",
-        "creation_date": "2024-04-01",
-        "company": "Walmart",
-        "role": "SDE-3",
-        "yoe": 3,
-        "location": "Bangalore",
-        "base": 24.0,
-        "total": 36.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "Others"
     },
     {
         "id": "4954586",
@@ -3275,18 +3198,7 @@
         "location": "Bangalore",
         "base": 15.25,
         "total": 27.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "4951942",
-        "creation_date": "2024-03-31",
-        "company": "Flipkart",
-        "role": "SDE 1",
-        "yoe": 1,
-        "location": "Bangalore",
-        "base": 18.0,
-        "total": 32.57,
-        "mapped_role": "SDE I"
+        "mapped_role": "MTS 1 (SWE1)"
     },
     {
         "id": "4950612",
@@ -3296,41 +3208,41 @@
         "yoe": 5,
         "location": "Bangalore",
         "base": 16.0,
-        "total": 17.6,
+        "total": 16.0,
         "mapped_role": "SDE I"
     },
     {
         "id": "4949381",
         "creation_date": "2024-03-31",
         "company": "FedEx",
-        "role": "Java Full Stack Developer -I",
+        "role": "Java Full Stack Developer - I",
         "yoe": 1,
         "location": "Hyderabad",
         "base": 10.25,
         "total": 10.25,
-        "mapped_role": "SDE I"
+        "mapped_role": "Others"
     },
     {
         "id": "4949381",
         "creation_date": "2024-03-31",
         "company": "Beyond Square Solution",
-        "role": "Java Full Stack Developer -I",
+        "role": "Java Full Stack Developer - I",
         "yoe": 1,
         "location": "Bangalore",
         "base": 10.25,
         "total": 10.75,
-        "mapped_role": "SDE I"
+        "mapped_role": "Others"
     },
     {
         "id": "4948624",
         "creation_date": "2024-03-31",
-        "company": "Oracle cloud oci",
+        "company": "Oracle",
         "role": "SMTS",
         "yoe": 4,
         "location": "Bangalore",
         "base": 42.0,
         "total": 66.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "MTS II"
     },
     {
         "id": "4945800",
@@ -3341,7 +3253,7 @@
         "location": "Mysore",
         "base": 93.6,
         "total": 93.6,
-        "mapped_role": "SDE I"
+        "mapped_role": "Others"
     },
     {
         "id": "4945534",
@@ -3363,7 +3275,7 @@
         "location": "Bangalore",
         "base": 24.0,
         "total": 44.4,
-        "mapped_role": "SDE I"
+        "mapped_role": "Salesforce developer"
     },
     {
         "id": "4945075",
@@ -3374,7 +3286,7 @@
         "location": "Bangalore",
         "base": 31.0,
         "total": 39.6,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4944826",
@@ -3388,37 +3300,15 @@
         "mapped_role": "SDE II"
     },
     {
-        "id": "4943729",
+        "id": "4944754",
         "creation_date": "2024-03-30",
-        "company": "Shopee",
-        "role": "Software Engineer",
+        "company": "Coinbase",
+        "role": "Software Engineer - IC3",
         "yoe": 0,
-        "location": "Singapore",
-        "base": 74.4,
-        "total": 100.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "4943342",
-        "creation_date": "2024-03-29",
-        "company": "Google",
-        "role": "SWE III - ML (L4)",
-        "yoe": 4,
-        "location": "Hyderabad",
-        "base": 38.0,
-        "total": 75.86,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "4943140",
-        "creation_date": "2024-03-29",
-        "company": "Expedia Group",
-        "role": "SDE 2",
-        "yoe": 6,
         "location": "Bangalore",
-        "base": 27.31,
-        "total": 27.31,
-        "mapped_role": "SDE II"
+        "base": 26.75,
+        "total": 46.0,
+        "mapped_role": "Software Engineer - IC3"
     },
     {
         "id": "4942578",
@@ -3432,15 +3322,26 @@
         "mapped_role": "SDE I"
     },
     {
+        "id": "4942340",
+        "creation_date": "2024-03-29",
+        "company": "OnlineSales.ai",
+        "role": "Management Trainee",
+        "yoe": 0,
+        "location": "Pune",
+        "base": 40.0,
+        "total": 43.57,
+        "mapped_role": "Management Trainee"
+    },
+    {
         "id": "4939965",
         "creation_date": "2024-03-29",
         "company": "Walmart",
-        "role": "n/a",
+        "role": "IN3",
         "yoe": 5,
         "location": "Chennai",
-        "base": 18.0,
+        "base": 24.0,
         "total": 34.0,
-        "mapped_role": "N/A"
+        "mapped_role": "IN3"
     },
     {
         "id": "4939058",
@@ -3451,7 +3352,7 @@
         "location": "Hyderabad/Bangalore",
         "base": 21.0,
         "total": 37.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Software Dev. I (L3)"
     },
     {
         "id": "4939044",
@@ -3462,18 +3363,7 @@
         "location": "Bangalore",
         "base": 33.0,
         "total": 33.0,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "4938846",
-        "creation_date": "2024-03-28",
-        "company": "Qualcomm",
-        "role": "Software Engineer-1",
-        "yoe": 1,
-        "location": "Hyderabad",
-        "base": 18.0,
-        "total": 30.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "SDE-2 (backend)"
     },
     {
         "id": "4937610",
@@ -3482,8 +3372,19 @@
         "role": "SDE-2",
         "yoe": 3,
         "location": "Remote/WFH/India",
-        "base": 20.8,
+        "base": 22.7,
         "total": 25.0,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "4937260",
+        "creation_date": "2024-03-28",
+        "company": "JP Morgan Chase",
+        "role": "SDE-2",
+        "yoe": 2,
+        "location": "Hyderabad",
+        "base": 21.0,
+        "total": 23.0,
         "mapped_role": "SDE II"
     },
     {
@@ -3498,21 +3399,10 @@
         "mapped_role": "SDE II"
     },
     {
-        "id": "4930179",
-        "creation_date": "2024-03-27",
-        "company": "Samsung r&d institute india-bangalore (sri-b)",
-        "role": "Research Intern",
-        "yoe": 1,
-        "location": "Bangalore",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "Intern"
-    },
-    {
         "id": "4929637",
         "creation_date": "2024-03-27",
         "company": "PocketFM",
-        "role": "Senior Software Engineer(Python)",
+        "role": "Senior Software Engineer",
         "yoe": 4,
         "location": "Remote/WFH",
         "base": 29.0,
@@ -3526,9 +3416,9 @@
         "role": "Associate",
         "yoe": 4,
         "location": "Bangalore",
-        "base": 30.0,
+        "base": 34.0,
         "total": 41.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4929120",
@@ -3550,7 +3440,7 @@
         "location": "Bangalore",
         "base": 9.55,
         "total": 11.55,
-        "mapped_role": "SDE III"
+        "mapped_role": "Others"
     },
     {
         "id": "4928118",
@@ -3561,7 +3451,7 @@
         "location": "Bangalore",
         "base": 9.55,
         "total": 11.09,
-        "mapped_role": "SDE III"
+        "mapped_role": "Others"
     },
     {
         "id": "4927613",
@@ -3572,7 +3462,7 @@
         "location": "N/A",
         "base": 14.5,
         "total": 19.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4927560",
@@ -3583,7 +3473,7 @@
         "location": "Bangalore",
         "base": 41.0,
         "total": 48.0,
-        "mapped_role": "Java technical lead"
+        "mapped_role": "Java Technical Lead"
     },
     {
         "id": "4927473",
@@ -3605,7 +3495,7 @@
         "location": "Bangalore",
         "base": 29.0,
         "total": 34.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SMTS ~ Software Engineer 2"
     },
     {
         "id": "4924662",
@@ -3615,30 +3505,19 @@
         "yoe": 2,
         "location": "NCR",
         "base": 26.0,
-        "total": 39.0,
+        "total": 39.5,
         "mapped_role": "SDE II"
     },
     {
         "id": "4923693",
         "creation_date": "2024-03-25",
         "company": "Walmart",
-        "role": "SDE-3",
+        "role": "Software engineer 3",
         "yoe": 4,
         "location": "Bangalore",
         "base": 16.8,
         "total": 24.0,
         "mapped_role": "SDE III"
-    },
-    {
-        "id": "4922827",
-        "creation_date": "2024-03-25",
-        "company": "Delivery hero",
-        "role": "Senior Software Engineer",
-        "yoe": 6,
-        "location": "Berlin",
-        "base": 85.0,
-        "total": 100.0,
-        "mapped_role": "SDE II"
     },
     {
         "id": "4922094",
@@ -3647,9 +3526,9 @@
         "role": "Associate Software Engineer",
         "yoe": 0,
         "location": "Kolkata",
-        "base": 50.0,
-        "total": 54.0,
-        "mapped_role": "Associate Software Engineer"
+        "base": 5.0,
+        "total": 5.4,
+        "mapped_role": "Associate"
     },
     {
         "id": "4921481",
@@ -3666,12 +3545,12 @@
         "id": "4919354",
         "creation_date": "2024-03-24",
         "company": "Netradyne",
-        "role": "Cloud Software Engineer (SDE 1)",
+        "role": "Cloud Software Engineer",
         "yoe": 0,
         "location": "Bangalore",
         "base": 18.0,
         "total": 21.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Cloud Software Engineer"
     },
     {
         "id": "4918607",
@@ -3693,18 +3572,18 @@
         "location": "NCR",
         "base": 50.0,
         "total": 55.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SSE (A3)"
     },
     {
         "id": "4917528",
         "creation_date": "2024-03-24",
         "company": "SAP Labs",
-        "role": "Developer Associate",
+        "role": "Developer Associate (T1.2)",
         "yoe": 2,
         "location": "Bangalore",
         "base": 91.0,
         "total": 103.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Associate"
     },
     {
         "id": "4916827",
@@ -3726,18 +3605,18 @@
         "location": "Hyderabad",
         "base": 12.5,
         "total": 12.5,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4915947",
         "creation_date": "2024-03-24",
         "company": "Oracle",
-        "role": "SMTS",
+        "role": "IC3 | SMTS",
         "yoe": 6,
         "location": "Bangalore",
         "base": 41.0,
         "total": 67.5,
-        "mapped_role": "SDE II"
+        "mapped_role": "IC3 | SMTS"
     },
     {
         "id": "4915852",
@@ -3757,9 +3636,20 @@
         "role": "Staff Software Engineer",
         "yoe": 4,
         "location": "Bangalore",
-        "base": 26.0,
+        "base": 28.0,
         "total": 28.0,
-        "mapped_role": "Staff SDE"
+        "mapped_role": "Staff Software Engineer"
+    },
+    {
+        "id": "4915190",
+        "creation_date": "2024-03-23",
+        "company": "Salesforce",
+        "role": "Software Dev. I",
+        "yoe": 0,
+        "location": "Seattle",
+        "base": 13.3,
+        "total": 17.5,
+        "mapped_role": "Software Dev. I"
     },
     {
         "id": "4914392",
@@ -3770,13 +3660,13 @@
         "location": "Pune",
         "base": 31.0,
         "total": 38.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "SDE (i-level)"
     },
     {
         "id": "4910492",
         "creation_date": "2024-03-22",
         "company": "JP Morgan Chase",
-        "role": "SDE-3",
+        "role": "Software Engineer III",
         "yoe": 3,
         "location": "Bangalore",
         "base": 29.0,
@@ -3784,21 +3674,10 @@
         "mapped_role": "SDE III"
     },
     {
-        "id": "4910058",
-        "creation_date": "2024-03-22",
-        "company": "Finbourne technology",
-        "role": "Graduate Software Engineer",
-        "yoe": 0,
-        "location": "London",
-        "base": 34.0,
-        "total": 34.0,
-        "mapped_role": "SDE I"
-    },
-    {
         "id": "4909153",
         "creation_date": "2024-03-22",
         "company": "BP",
-        "role": "Software Engineer I Grade",
+        "role": "Software Engineer",
         "yoe": 9,
         "location": "Pune",
         "base": 37.0,
@@ -3825,7 +3704,7 @@
         "location": "Indore",
         "base": 10.85,
         "total": 10.85,
-        "mapped_role": "SDE I"
+        "mapped_role": "Solution Engineer"
     },
     {
         "id": "4907815",
@@ -3839,15 +3718,15 @@
         "mapped_role": "SDE II"
     },
     {
-        "id": "4907589",
+        "id": "4907582",
         "creation_date": "2024-03-22",
-        "company": "Walmart",
-        "role": "SDE-3",
+        "company": "ClearTax",
+        "role": "Software Engineer Backend - 1",
         "yoe": 2,
         "location": "Bangalore",
-        "base": 18.5,
-        "total": 22.0,
-        "mapped_role": "SDE III"
+        "base": 17.0,
+        "total": 27.0,
+        "mapped_role": "Software Engineer Backend - 1"
     },
     {
         "id": "4907151",
@@ -3855,43 +3734,10 @@
         "company": "Sophos",
         "role": "SSE-Level2",
         "yoe": 9,
-        "location": "Remote/WFH/India",
+        "location": "Remote/WFH",
         "base": 50.0,
         "total": 60.0,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "4906917",
-        "creation_date": "2024-03-21",
-        "company": "Fancode",
-        "role": "SDE-1 Frontend",
-        "yoe": 2,
-        "location": "Mumbai",
-        "base": 15.0,
-        "total": 17.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "4906917",
-        "creation_date": "2024-03-21",
-        "company": "Razorpay",
-        "role": "Product Development Engineer 2 - Frontend",
-        "yoe": 2,
-        "location": "Bangalore",
-        "base": 15.0,
-        "total": 16.0,
-        "mapped_role": "Product development engineer 2 - frontend"
-    },
-    {
-        "id": "4902855",
-        "creation_date": "2024-03-20",
-        "company": "Cred",
-        "role": "Software Engineer Backend",
-        "yoe": 4,
-        "location": "Bangalore",
-        "base": 41.0,
-        "total": 51.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SSE-Level2"
     },
     {
         "id": "4901346",
@@ -3913,7 +3759,7 @@
         "location": "Bangalore/Mumbai/NCR",
         "base": 8.0,
         "total": 11.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4898399",
@@ -3924,7 +3770,7 @@
         "location": "Mumbai",
         "base": 29.0,
         "total": 32.48,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE III"
     },
     {
         "id": "4897786",
@@ -3935,7 +3781,7 @@
         "location": "N/A",
         "base": 6.0,
         "total": 8.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4896191",
@@ -3946,7 +3792,7 @@
         "location": "Hyderabad",
         "base": 24.6,
         "total": 34.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE I"
     },
     {
         "id": "4894652",
@@ -3956,7 +3802,7 @@
         "yoe": 3,
         "location": "Remote/WFH",
         "base": 20.0,
-        "total": 22.0,
+        "total": 22.02,
         "mapped_role": "SDE II"
     },
     {
@@ -3968,40 +3814,29 @@
         "location": "India",
         "base": 8.5,
         "total": 9.0,
-        "mapped_role": "Associate Software Engineer"
-    },
-    {
-        "id": "4893373",
-        "creation_date": "2024-03-18",
-        "company": "Emis",
-        "role": "Graduate Trainee",
-        "yoe": 0,
-        "location": "Tamil nadu",
-        "base": 5.0,
-        "total": 5.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Analyst"
     },
     {
         "id": "4893373",
         "creation_date": "2024-03-18",
         "company": "Emis",
         "role": "Junior software developer",
-        "yoe": 0,
-        "location": "N/A",
+        "yoe": 2,
+        "location": "Tamil nadu",
         "base": 6.5,
         "total": 6.5,
-        "mapped_role": "SDE I"
+        "mapped_role": "Junior software developer"
     },
     {
         "id": "4893373",
         "creation_date": "2024-03-18",
         "company": "Emis",
         "role": "Junior software developer",
-        "yoe": 0,
-        "location": "N/A",
+        "yoe": 2,
+        "location": "Tamil nadu",
         "base": 7.5,
         "total": 7.5,
-        "mapped_role": "SDE I"
+        "mapped_role": "Junior software developer"
     },
     {
         "id": "4893214",
@@ -4012,7 +3847,7 @@
         "location": "Hyderabad",
         "base": 30.0,
         "total": 44.5,
-        "mapped_role": "SDE II"
+        "mapped_role": "Senior Software Engineer (IC3)"
     },
     {
         "id": "4889764",
@@ -4033,8 +3868,8 @@
         "yoe": 0,
         "location": "Hyderabad",
         "base": 12.5,
-        "total": 14.0,
-        "mapped_role": "Associate Software Engineer"
+        "total": 140.0,
+        "mapped_role": "Associate"
     },
     {
         "id": "4887649",
@@ -4045,7 +3880,7 @@
         "location": "Hyderabad",
         "base": 17.0,
         "total": 28.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "Others"
     },
     {
         "id": "4887511",
@@ -4070,17 +3905,6 @@
         "mapped_role": "SDE II"
     },
     {
-        "id": "4886100",
-        "creation_date": "2024-03-17",
-        "company": "Google",
-        "role": "Senior SWE (L5)",
-        "yoe": 10,
-        "location": "Boston",
-        "base": 20.5,
-        "total": 37.5,
-        "mapped_role": "SDE II"
-    },
-    {
         "id": "4885215",
         "creation_date": "2024-03-17",
         "company": "Google",
@@ -4100,7 +3924,7 @@
         "location": "NCR",
         "base": 12.0,
         "total": 15.5,
-        "mapped_role": "SDE I"
+        "mapped_role": "Engineer-1"
     },
     {
         "id": "4882856",
@@ -4144,7 +3968,7 @@
         "location": "Hyderabad",
         "base": 22.0,
         "total": 25.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "System Software Engineer"
     },
     {
         "id": "4878105",
@@ -4164,7 +3988,7 @@
         "role": "SDE2",
         "yoe": 3,
         "location": "Bangalore",
-        "base": 17.0,
+        "base": 30.0,
         "total": 44.0,
         "mapped_role": "SDE II"
     },
@@ -4186,42 +4010,75 @@
         "role": "Software Engineer 3",
         "yoe": 3,
         "location": "Bangalore",
-        "base": 28.0,
+        "base": 21.59,
         "total": 28.0,
         "mapped_role": "SDE III"
     },
     {
-        "id": "4875572",
+        "id": "4875942",
         "creation_date": "2024-03-14",
-        "company": "Capital one",
-        "role": "Assoc SWE (TDP)",
+        "company": "Cisco",
+        "role": "Data Engineer",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 14.0,
+        "total": 16.0,
+        "mapped_role": "Data Engineer"
+    },
+    {
+        "id": "4875792",
+        "creation_date": "2024-03-14",
+        "company": "Swiggy",
+        "role": "SDE 2",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 42.0,
+        "total": 49.5,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "4875647",
+        "creation_date": "2024-03-14",
+        "company": "Flipkart",
+        "role": "Software Development Engineer 1",
         "yoe": 0,
-        "location": "Mclean",
-        "base": 12.7,
-        "total": 15.0,
-        "mapped_role": "Associate Software Engineer"
+        "location": "Bangalore",
+        "base": 18.0,
+        "total": 32.57,
+        "mapped_role": "SDE I"
+    },
+    {
+        "id": "4875198",
+        "creation_date": "2024-03-14",
+        "company": "Oracle",
+        "role": "Application Developer",
+        "yoe": 0,
+        "location": "Gandhinagar",
+        "base": 14.0,
+        "total": 18.0,
+        "mapped_role": "Others"
     },
     {
         "id": "4874672",
         "creation_date": "2024-03-14",
-        "company": "Service Based",
+        "company": "Service based company",
         "role": "Associate Software Engineer",
         "yoe": 2,
         "location": "Ahmedabad",
         "base": 3.75,
-        "total": 4.5,
-        "mapped_role": "Associate Software Engineer"
+        "total": 3.75,
+        "mapped_role": "Associate"
     },
     {
         "id": "4874619",
         "creation_date": "2024-03-14",
         "company": "Google",
-        "role": "application engineer",
+        "role": "L3",
         "yoe": 4,
         "location": "Hyderabad",
         "base": 19.7,
-        "total": 22.7,
-        "mapped_role": "SDE I"
+        "total": 27.7,
+        "mapped_role": "SDE II"
     },
     {
         "id": "4873807",
@@ -4230,20 +4087,9 @@
         "role": "SDE-2 frontend",
         "yoe": 2,
         "location": "Bangalore",
-        "base": 29.5,
-        "total": 38.0,
+        "base": 36.0,
+        "total": 37.0,
         "mapped_role": "SDE II"
-    },
-    {
-        "id": "4873406",
-        "creation_date": "2024-03-14",
-        "company": "Accenture",
-        "role": "Packaged App Development Associate / 12",
-        "yoe": 0,
-        "location": "Pune",
-        "base": 38.3,
-        "total": 46.07,
-        "mapped_role": "Packaged app development associate / 12"
     },
     {
         "id": "4871541",
@@ -4253,8 +4099,8 @@
         "yoe": 1,
         "location": "Hyderabad",
         "base": 18.0,
-        "total": 40.93,
-        "mapped_role": "SDE I"
+        "total": 40.92,
+        "mapped_role": "Engineer (Software)"
     },
     {
         "id": "4871070",
@@ -4276,7 +4122,7 @@
         "location": "NCR",
         "base": 16.62,
         "total": 23.29,
-        "mapped_role": "Others"
+        "mapped_role": "System Development Engineer I/L4"
     },
     {
         "id": "4865822",
@@ -4293,12 +4139,12 @@
         "id": "4864925",
         "creation_date": "2024-03-12",
         "company": "Walmart",
-        "role": "Senior Software Engineer - Level H - Building Experience",
+        "role": "Senior Software Engineer - Level H - \"Building Experience\"",
         "yoe": 8,
         "location": "Bangalore",
         "base": 29.0,
         "total": 42.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Senior Software Engineer - Level H - \"Building Experience\""
     },
     {
         "id": "4861505",
@@ -4309,14 +4155,14 @@
         "location": "Hyderabad",
         "base": 4.0,
         "total": 5.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4861349",
         "creation_date": "2024-03-12",
         "company": "Citi Bank",
         "role": "SDE 2",
-        "yoe": 6,
+        "yoe": 5,
         "location": "India",
         "base": 26.5,
         "total": 30.0,
@@ -4353,13 +4199,13 @@
         "location": "Hyderabad",
         "base": 16.67,
         "total": 16.67,
-        "mapped_role": "SDE I"
+        "mapped_role": "Applications Engineer (IC2)"
     },
     {
         "id": "4854703",
         "creation_date": "2024-03-10",
         "company": "Intuit",
-        "role": "SDE-2",
+        "role": "SDE II",
         "yoe": 3,
         "location": "Bangalore",
         "base": 35.0,
@@ -4397,7 +4243,7 @@
         "location": "India",
         "base": 13.5,
         "total": 13.5,
-        "mapped_role": "Assistant manager (supply chain management)"
+        "mapped_role": "Assistant Manager (Supply Chain Management)"
     },
     {
         "id": "4853807",
@@ -4408,7 +4254,18 @@
         "location": "India",
         "base": 12.0,
         "total": 12.0,
-        "mapped_role": "Data Engineer"
+        "mapped_role": "Analyst"
+    },
+    {
+        "id": "4848276",
+        "creation_date": "2024-03-09",
+        "company": "Google",
+        "role": "SWE III (L4)",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 39.8,
+        "total": 80.0,
+        "mapped_role": "SWE III (L4)"
     },
     {
         "id": "4848214",
@@ -4419,7 +4276,7 @@
         "location": "Pune",
         "base": 37.25,
         "total": 52.0,
-        "mapped_role": "Sde (3-5yrs)"
+        "mapped_role": "SDE (3-5yrs)"
     },
     {
         "id": "4846067",
@@ -4433,26 +4290,37 @@
         "mapped_role": "SDE III"
     },
     {
-        "id": "4843296",
+        "id": "4843679",
         "creation_date": "2024-03-08",
-        "company": "Microsoft",
-        "role": "SDE1",
-        "yoe": 3,
+        "company": "Google",
+        "role": "SDE2 or L4 or SWE III",
+        "yoe": 8,
         "location": "Hyderabad",
-        "base": 15.0,
-        "total": 24.5,
+        "base": 37.0,
+        "total": 42.5,
+        "mapped_role": "SDE2 or L4 or SWE III"
+    },
+    {
+        "id": "4842571",
+        "creation_date": "2024-03-08",
+        "company": "LinkedIn",
+        "role": "Software Engineer",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 37.0,
+        "total": 57.0,
         "mapped_role": "SDE I"
     },
     {
-        "id": "4841618",
+        "id": "4839106",
         "creation_date": "2024-03-08",
-        "company": "Amazon",
-        "role": "Applied Scientist Intern",
+        "company": "Edtech based startup",
+        "role": "Full stack developer",
         "yoe": 1,
         "location": "Bangalore",
-        "base": 12.0,
-        "total": 12.0,
-        "mapped_role": "Intern"
+        "base": 18.0,
+        "total": 20.8,
+        "mapped_role": "Others"
     },
     {
         "id": "4838004",
@@ -4463,6 +4331,17 @@
         "location": "NCR",
         "base": 58.0,
         "total": 68.0,
+        "mapped_role": "Senior Chief Engineer"
+    },
+    {
+        "id": "4837440",
+        "creation_date": "2024-03-07",
+        "company": "Microsoft",
+        "role": "SDE 2",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 28.0,
+        "total": 38.0,
         "mapped_role": "SDE II"
     },
     {
@@ -4499,28 +4378,6 @@
         "mapped_role": "SDE I"
     },
     {
-        "id": "4830731",
-        "creation_date": "2024-03-06",
-        "company": "Paytm Payments Bank",
-        "role": "Data Science Intern",
-        "yoe": 0,
-        "location": "NCR",
-        "base": 20.0,
-        "total": 20.0,
-        "mapped_role": "Intern"
-    },
-    {
-        "id": "4829120",
-        "creation_date": "2024-03-06",
-        "company": "Blinkit",
-        "role": "SDE - 1",
-        "yoe": 2,
-        "location": "N/A",
-        "base": 25.0,
-        "total": 30.0,
-        "mapped_role": "SDE I"
-    },
-    {
         "id": "4827685",
         "creation_date": "2024-03-05",
         "company": "Microsoft",
@@ -4529,7 +4386,18 @@
         "location": "Bangalore",
         "base": 33.0,
         "total": 60.0,
-        "mapped_role": "L62 ml roles"
+        "mapped_role": "L62 ML roles"
+    },
+    {
+        "id": "4827672",
+        "creation_date": "2024-03-05",
+        "company": "Google",
+        "role": "SWE-II / L3",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 22.8,
+        "total": 47.98,
+        "mapped_role": "SWE-II / L3"
     },
     {
         "id": "4827427",
@@ -4539,19 +4407,41 @@
         "yoe": 2,
         "location": "India",
         "base": 21.2,
-        "total": 31.4,
+        "total": 31.45,
         "mapped_role": "SDE II"
     },
     {
-        "id": "4821073",
+        "id": "4822627",
         "creation_date": "2024-03-04",
-        "company": "Google",
-        "role": "L3",
-        "yoe": 2,
+        "company": "Kotak Mahindra Bank",
+        "role": "SDE 1",
+        "yoe": 1,
         "location": "Bangalore",
-        "base": 21.2,
-        "total": 31.2,
+        "base": 26.5,
+        "total": 28.5,
+        "mapped_role": "SDE I"
+    },
+    {
+        "id": "4822627",
+        "creation_date": "2024-03-04",
+        "company": "Ind money",
+        "role": "Senior Software Engineer",
+        "yoe": 1,
+        "location": "Bangalore",
+        "base": 26.5,
+        "total": 28.5,
         "mapped_role": "SDE II"
+    },
+    {
+        "id": "4822627",
+        "creation_date": "2024-03-04",
+        "company": "Pay with rings (kissht)",
+        "role": "Software Development Engineer 1",
+        "yoe": 1,
+        "location": "Mumbai",
+        "base": 26.5,
+        "total": 28.5,
+        "mapped_role": "SDE I"
     },
     {
         "id": "4820553",
@@ -4573,7 +4463,7 @@
         "location": "Bangalore",
         "base": 24.0,
         "total": 25.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Software Dev Level T2"
     },
     {
         "id": "4820535",
@@ -4582,8 +4472,8 @@
         "role": "SDE",
         "yoe": 2,
         "location": "Bangalore",
-        "base": 6.45,
-        "total": 6.45,
+        "base": 64.5,
+        "total": 64.5,
         "mapped_role": "SDE I"
     },
     {
@@ -4595,7 +4485,7 @@
         "location": "Bangalore",
         "base": 60.0,
         "total": 92.0,
-        "mapped_role": "Staff SDE"
+        "mapped_role": "PMTS"
     },
     {
         "id": "4820527",
@@ -4606,18 +4496,7 @@
         "location": "NCR",
         "base": 7.0,
         "total": 9.25,
-        "mapped_role": "Technical support consultant (ppo)"
-    },
-    {
-        "id": "4820524",
-        "creation_date": "2024-03-04",
-        "company": "Amazon",
-        "role": "Software Development Engineer Intern",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 11.0,
-        "total": 11.0,
-        "mapped_role": "Intern"
+        "mapped_role": "Technical Support Consultant (PPO)"
     },
     {
         "id": "4820523",
@@ -4640,17 +4519,6 @@
         "base": 16.5,
         "total": 34.0,
         "mapped_role": "SDE II"
-    },
-    {
-        "id": "4817530",
-        "creation_date": "2024-03-03",
-        "company": "BNY Mellon",
-        "role": "SDE intern",
-        "yoe": 0,
-        "location": "Pune",
-        "base": 75.0,
-        "total": 75.0,
-        "mapped_role": "Intern"
     },
     {
         "id": "4815513",
@@ -4683,7 +4551,7 @@
         "location": "Hyderabad",
         "base": 28.0,
         "total": 41.2,
-        "mapped_role": "Data Engineer"
+        "mapped_role": "Cloud Data Engineer"
     },
     {
         "id": "4809543",
@@ -4694,7 +4562,7 @@
         "location": "Bangalore",
         "base": 19.5,
         "total": 32.0,
-        "mapped_role": "Software engineer (swe-i)"
+        "mapped_role": "Software Engineer (SWE-I)"
     },
     {
         "id": "4809451",
@@ -4705,29 +4573,7 @@
         "location": "India",
         "base": 13.0,
         "total": 15.67,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "4808746",
-        "creation_date": "2024-03-02",
-        "company": "Wabtec Corporation",
-        "role": "Engineering Intern",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 40.0,
-        "total": 40.0,
-        "mapped_role": "Intern"
-    },
-    {
-        "id": "4808727",
-        "creation_date": "2024-03-02",
-        "company": "Dover Digital",
-        "role": "Senior Software Engineer",
-        "yoe": 3,
-        "location": "Bangalore",
-        "base": 20.0,
-        "total": 24.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Site Reliability Engineer"
     },
     {
         "id": "4807087",
@@ -4748,25 +4594,25 @@
         "yoe": 4,
         "location": "N/A",
         "base": 25.0,
-        "total": 30.0,
+        "total": 26.0,
         "mapped_role": "SDE III"
     },
     {
         "id": "4803993",
         "creation_date": "2024-03-01",
-        "company": "British petroleum",
+        "company": "British petroleum (bp)",
         "role": "SDE",
         "yoe": 4,
         "location": "N/A",
         "base": 28.0,
-        "total": 34.0,
+        "total": 32.0,
         "mapped_role": "SDE I"
     },
     {
         "id": "4803993",
         "creation_date": "2024-03-01",
         "company": "Detect Technologies",
-        "role": "senior software engineer",
+        "role": "Senior Software Engineer",
         "yoe": 4,
         "location": "N/A",
         "base": 34.0,
@@ -4777,7 +4623,7 @@
         "id": "4803993",
         "creation_date": "2024-03-01",
         "company": "EPAM Systems",
-        "role": "Senior Software engineer",
+        "role": "Senior Software Engineer",
         "yoe": 4,
         "location": "N/A",
         "base": 34.0,
@@ -4787,13 +4633,35 @@
     {
         "id": "4803797",
         "creation_date": "2024-03-01",
-        "company": "Walmart",
-        "role": "SDE III",
+        "company": "Quince",
+        "role": "SDE2",
         "yoe": 3,
         "location": "Bangalore",
-        "base": 24.0,
+        "base": 32.0,
         "total": 34.8,
-        "mapped_role": "SDE III"
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "4803344",
+        "creation_date": "2024-03-01",
+        "company": "Morgan stanley",
+        "role": "Manager(Backend engineer)",
+        "yoe": 3,
+        "location": "N/A",
+        "base": 25.0,
+        "total": 28.75,
+        "mapped_role": "Manager(Backend engineer)"
+    },
+    {
+        "id": "4803344",
+        "creation_date": "2024-03-01",
+        "company": "Quince",
+        "role": "SDE 2(Backend Engineer)",
+        "yoe": 3,
+        "location": "N/A",
+        "base": 33.0,
+        "total": 35.0,
+        "mapped_role": "SDE 2(Backend Engineer)"
     },
     {
         "id": "4803196",
@@ -4804,7 +4672,18 @@
         "location": "NCR",
         "base": 27.0,
         "total": 40.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "4801868",
+        "creation_date": "2024-03-01",
+        "company": "Air India",
+        "role": "Mathematics Analyst",
+        "yoe": 0,
+        "location": "NCR/Kochi",
+        "base": 15.5,
+        "total": 20.0,
+        "mapped_role": "Analyst"
     },
     {
         "id": "4801863",
@@ -4821,12 +4700,12 @@
         "id": "4801860",
         "creation_date": "2024-03-01",
         "company": "Air India",
-        "role": "SDE",
+        "role": "Software Engineering",
         "yoe": 0,
         "location": "NCR",
         "base": 15.5,
         "total": 20.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Software Engineering"
     },
     {
         "id": "4801828",
@@ -4835,19 +4714,8 @@
         "role": "SDE",
         "yoe": 0,
         "location": "Bangalore",
-        "base": 29.9,
-        "total": 41.9,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "4801825",
-        "creation_date": "2024-03-01",
-        "company": "Google",
-        "role": "SDE",
-        "yoe": 0,
-        "location": "Hyderabad",
-        "base": 29.9,
-        "total": 31.8,
+        "base": 90.9,
+        "total": 128.5,
         "mapped_role": "SDE I"
     },
     {
@@ -4859,18 +4727,7 @@
         "location": "Hyderabad",
         "base": 24.0,
         "total": 34.0,
-        "mapped_role": "Software engineer (engineer level - 3)"
-    },
-    {
-        "id": "4801795",
-        "creation_date": "2024-03-01",
-        "company": "Apple",
-        "role": "Cellular Software Engineer",
-        "yoe": 0,
-        "location": "Hyderabad",
-        "base": 21.0,
-        "total": 35.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Software Engineer (Engineer Level - 3)"
     },
     {
         "id": "4801787",
@@ -4880,8 +4737,8 @@
         "yoe": 0,
         "location": "Bangalore",
         "base": 15.0,
-        "total": 38.0,
-        "mapped_role": "SDE I"
+        "total": 38.5,
+        "mapped_role": "Software Development Engineer"
     },
     {
         "id": "4800788",
@@ -4892,6 +4749,17 @@
         "location": "Hyderabad",
         "base": 20.55,
         "total": 24.0,
+        "mapped_role": "Application Engineer"
+    },
+    {
+        "id": "4798142",
+        "creation_date": "2024-02-29",
+        "company": "Appventurez Mobitech",
+        "role": "Software Developer",
+        "yoe": 0,
+        "location": "NCR",
+        "base": 6.0,
+        "total": 6.0,
         "mapped_role": "SDE I"
     },
     {
@@ -4909,12 +4777,23 @@
         "id": "4796344",
         "creation_date": "2024-02-28",
         "company": "Zscaler",
-        "role": "Software Development Engineer (SDE II)",
+        "role": "Senior Software Development Engineer (SDE II)",
         "yoe": 2,
         "location": "Bangalore",
         "base": 30.0,
         "total": 37.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Senior Software Development Engineer (SDE II)"
+    },
+    {
+        "id": "4795971",
+        "creation_date": "2024-02-28",
+        "company": "Qualcomm",
+        "role": "PROGRAMMER ANALYST",
+        "yoe": 4,
+        "location": "Hyderabad",
+        "base": 18.0,
+        "total": 21.3,
+        "mapped_role": "Analyst"
     },
     {
         "id": "4793685",
@@ -4953,12 +4832,12 @@
         "id": "4791488",
         "creation_date": "2024-02-28",
         "company": "Oracle",
-        "role": "SDE2 ~SMTS ~IC3",
+        "role": "SMTS ~ Software Engineer 2",
         "yoe": 4,
         "location": "Bangalore",
         "base": 36.0,
         "total": 45.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SMTS ~ Software Engineer 2"
     },
     {
         "id": "4790182",
@@ -4983,15 +4862,26 @@
         "mapped_role": "SDE I"
     },
     {
-        "id": "4789442",
+        "id": "4788621",
         "creation_date": "2024-02-27",
-        "company": "Quest global",
-        "role": "Trainee Engineer",
-        "yoe": 0,
+        "company": "Intuit",
+        "role": "SDE 2",
+        "yoe": 3,
         "location": "Bangalore",
-        "base": 4.0,
-        "total": 4.0,
-        "mapped_role": "SDE I"
+        "base": 31.0,
+        "total": 43.65,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "4788621",
+        "creation_date": "2024-02-27",
+        "company": "Microsoft",
+        "role": "SDE 2 (L61)",
+        "yoe": 3,
+        "location": "Hyderabad",
+        "base": 31.0,
+        "total": 55.0,
+        "mapped_role": "SDE II"
     },
     {
         "id": "4787230",
@@ -5002,7 +4892,7 @@
         "location": "Bangalore",
         "base": 28.0,
         "total": 40.3,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4786019",
@@ -5024,29 +4914,18 @@
         "location": "Hyderabad",
         "base": 16.5,
         "total": 19.5,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4783511",
         "creation_date": "2024-02-26",
-        "company": "Accolite Digital",
+        "company": "Acclite",
         "role": "Software Engineer",
         "yoe": 0,
         "location": "Bangalore",
         "base": 8.0,
         "total": 11.0,
         "mapped_role": "SDE I"
-    },
-    {
-        "id": "4780715",
-        "creation_date": "2024-02-25",
-        "company": "Junglee games",
-        "role": "SDE-2",
-        "yoe": 2,
-        "location": "N/A",
-        "base": 20.0,
-        "total": 20.0,
-        "mapped_role": "SDE II"
     },
     {
         "id": "4778648",
@@ -5060,6 +4939,28 @@
         "mapped_role": "SDE I"
     },
     {
+        "id": "4778507",
+        "creation_date": "2024-02-25",
+        "company": "Oracle",
+        "role": "Senior Software Engineer (SMTS)",
+        "yoe": 5,
+        "location": "Bangalore",
+        "base": 25.83,
+        "total": 42.0,
+        "mapped_role": "Senior Software Engineer (SMTS)"
+    },
+    {
+        "id": "4778475",
+        "creation_date": "2024-02-25",
+        "company": "BigBinary",
+        "role": "Software Engineer",
+        "yoe": 4,
+        "location": "Remote/WFH",
+        "base": 28.0,
+        "total": 28.0,
+        "mapped_role": "SDE I"
+    },
+    {
         "id": "4777415",
         "creation_date": "2024-02-24",
         "company": "PlaySimple Games",
@@ -5068,18 +4969,18 @@
         "location": "Bangalore",
         "base": 13.0,
         "total": 16.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4775126",
         "creation_date": "2024-02-24",
         "company": "Juniper Networks",
-        "role": "SDE3",
+        "role": "SE3",
         "yoe": 5,
         "location": "Bangalore",
         "base": 18.0,
         "total": 28.6,
-        "mapped_role": "SDE III"
+        "mapped_role": "SE3"
     },
     {
         "id": "4774888",
@@ -5090,29 +4991,18 @@
         "location": "Bangalore",
         "base": 15.0,
         "total": 18.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Engineer Design and Development"
     },
     {
         "id": "4771966",
         "creation_date": "2024-02-23",
         "company": "Google",
-        "role": "Software Engineer, University Graduate",
+        "role": "Software Engineer",
         "yoe": 3,
         "location": "Bangalore",
         "base": 20.9,
         "total": 37.0,
         "mapped_role": "SDE I"
-    },
-    {
-        "id": "4771867",
-        "creation_date": "2024-02-23",
-        "company": "Ultimate kronos group",
-        "role": "SDE Intern",
-        "yoe": 0,
-        "location": "NCR",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "Intern"
     },
     {
         "id": "4767653",
@@ -5145,7 +5035,7 @@
         "location": "Bangalore",
         "base": 36.0,
         "total": 56.5,
-        "mapped_role": "SDE I"
+        "mapped_role": "SWE"
     },
     {
         "id": "4763681",
@@ -5162,28 +5052,17 @@
         "id": "4762283",
         "creation_date": "2024-02-21",
         "company": "Informatica",
-        "role": "Senior Software Engineer",
+        "role": "SSE (Frontend)",
         "yoe": 3,
         "location": "N/A",
         "base": 18.0,
         "total": 28.5,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "4760417",
-        "creation_date": "2024-02-21",
-        "company": "Accolite Digital",
-        "role": "SDE Intern",
-        "yoe": 0,
-        "location": "Bangalore/NCR/Hyderabad",
-        "base": 8.0,
-        "total": 11.0,
-        "mapped_role": "Intern"
+        "mapped_role": "SSE (Frontend)"
     },
     {
         "id": "4758858",
         "creation_date": "2024-02-20",
-        "company": "Accolite Digital",
+        "company": "Acclolite",
         "role": "SDE1",
         "yoe": 0,
         "location": "Bangalore/Mumbai/NCR",
@@ -5200,7 +5079,7 @@
         "location": "Bangalore",
         "base": 37.0,
         "total": 37.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "Senior Engineer II"
     },
     {
         "id": "4755156",
@@ -5211,7 +5090,18 @@
         "location": "Bangalore",
         "base": 51.0,
         "total": 87.01,
-        "mapped_role": "SDE III"
+        "mapped_role": "Senior Software Engineer/L63"
+    },
+    {
+        "id": "4754802",
+        "creation_date": "2024-02-20",
+        "company": "UiPath",
+        "role": "SDE 2",
+        "yoe": 5,
+        "location": "Bangalore",
+        "base": 31.0,
+        "total": 31.0,
+        "mapped_role": "SDE II"
     },
     {
         "id": "4751520",
@@ -5219,7 +5109,7 @@
         "company": "Angel One",
         "role": "SDE 2 - Frontend",
         "yoe": 4,
-        "location": "Bangalore/India",
+        "location": "Bangalore",
         "base": 35.0,
         "total": 38.5,
         "mapped_role": "SDE II"
@@ -5244,7 +5134,7 @@
         "location": "Bangalore",
         "base": 23.0,
         "total": 42.05,
-        "mapped_role": "SDE II"
+        "mapped_role": "SWE-II"
     },
     {
         "id": "4745534",
@@ -5255,7 +5145,7 @@
         "location": "N/A",
         "base": 9.0,
         "total": 9.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "INE Hiring 2024"
     },
     {
         "id": "4745417",
@@ -5266,7 +5156,29 @@
         "location": "Bangalore",
         "base": 27.0,
         "total": 31.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "MTS II"
+    },
+    {
+        "id": "4742928",
+        "creation_date": "2024-02-17",
+        "company": "Google",
+        "role": "L5",
+        "yoe": 9,
+        "location": "India",
+        "base": 65.0,
+        "total": 80.0,
+        "mapped_role": "SDE III"
+    },
+    {
+        "id": "4737046",
+        "creation_date": "2024-02-16",
+        "company": "Jpmc(jpmorgan)",
+        "role": "Software Engineer 3 / SDE2",
+        "yoe": 5,
+        "location": "Hyderabad",
+        "base": 29.0,
+        "total": 29.0,
+        "mapped_role": "Software Engineer 3 / SDE2"
     },
     {
         "id": "4736966",
@@ -5291,21 +5203,10 @@
         "mapped_role": "SDE I"
     },
     {
-        "id": "4732899",
-        "creation_date": "2024-02-15",
-        "company": "CME Group",
-        "role": "Software Engineer 2",
-        "yoe": 0,
-        "location": "Belfast",
-        "base": 33.0,
-        "total": 33.3,
-        "mapped_role": "SDE II"
-    },
-    {
         "id": "4728670",
         "creation_date": "2024-02-15",
         "company": "JP Morgan Chase",
-        "role": "SDE2",
+        "role": "SDE 2",
         "yoe": 3,
         "location": "India",
         "base": 26.0,
@@ -5343,7 +5244,7 @@
         "location": "NCR",
         "base": 25.0,
         "total": 30.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Trainee IT"
     },
     {
         "id": "4726679",
@@ -5357,17 +5258,6 @@
         "mapped_role": "SDE III"
     },
     {
-        "id": "4726323",
-        "creation_date": "2024-02-14",
-        "company": "Merck group",
-        "role": "SDE Intern",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 25.0,
-        "total": 4.0,
-        "mapped_role": "Intern"
-    },
-    {
         "id": "4725025",
         "creation_date": "2024-02-14",
         "company": "Media.net",
@@ -5379,15 +5269,26 @@
         "mapped_role": "SDE I"
     },
     {
+        "id": "4722853",
+        "creation_date": "2024-02-14",
+        "company": "Google",
+        "role": "L4",
+        "yoe": 6,
+        "location": "Warsaw",
+        "base": 57.0,
+        "total": 110.0,
+        "mapped_role": "SDE III"
+    },
+    {
         "id": "4722002",
         "creation_date": "2024-02-13",
         "company": "Oracle",
         "role": "Associate Consultant",
         "yoe": 1,
         "location": "Chennai",
-        "base": 8.1,
+        "base": 8.88,
         "total": 8.88,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4720644",
@@ -5409,7 +5310,7 @@
         "location": "Pune/Bangalore/Hyderabad",
         "base": 16.75,
         "total": 28.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "System Software Engineer"
     },
     {
         "id": "4720268",
@@ -5420,7 +5321,7 @@
         "location": "Bangalore",
         "base": 33.0,
         "total": 38.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "DRE-II"
     },
     {
         "id": "4719893",
@@ -5431,7 +5332,7 @@
         "location": "Bangalore",
         "base": 29.6,
         "total": 40.4,
-        "mapped_role": "SDE I"
+        "mapped_role": "iOS Developer"
     },
     {
         "id": "4719893",
@@ -5439,10 +5340,10 @@
         "company": "Oracle",
         "role": "iOS Developer",
         "yoe": 4,
-        "location": "N/A",
+        "location": "Permanent work from home",
         "base": 36.0,
         "total": 47.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "iOS Developer"
     },
     {
         "id": "4718763",
@@ -5453,7 +5354,18 @@
         "location": "Hyderabad",
         "base": 31.0,
         "total": 48.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "4718345",
+        "creation_date": "2024-02-13",
+        "company": "Polygon labs",
+        "role": "Senior Software Engineer",
+        "yoe": 8,
+        "location": "Nyc",
+        "base": 20.0,
+        "total": 22.0,
+        "mapped_role": "SDE II"
     },
     {
         "id": "4715737",
@@ -5464,18 +5376,7 @@
         "location": "Hyderabad",
         "base": 37.0,
         "total": 46.0,
-        "mapped_role": "Associate Software Engineer"
-    },
-    {
-        "id": "4715155",
-        "creation_date": "2024-02-12",
-        "company": "Expedia Group",
-        "role": "SDE-2",
-        "yoe": 2,
-        "location": "NCR",
-        "base": 24.0,
-        "total": 31.3,
-        "mapped_role": "SDE II"
+        "mapped_role": "Associate"
     },
     {
         "id": "4714354",
@@ -5485,6 +5386,17 @@
         "yoe": 3,
         "location": "Hyderabad",
         "base": 17.75,
+        "total": 20.5,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "4714354",
+        "creation_date": "2024-02-12",
+        "company": "NCR Corporation",
+        "role": "Software Engineer 2",
+        "yoe": 3,
+        "location": "Hyderabad",
+        "base": 20.0,
         "total": 23.0,
         "mapped_role": "SDE II"
     },
@@ -5497,7 +5409,7 @@
         "location": "Bangalore",
         "base": 50.0,
         "total": 95.5,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE 2 (L2)"
     },
     {
         "id": "4704368",
@@ -5508,7 +5420,7 @@
         "location": "India",
         "base": 53.0,
         "total": 76.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "MTS II"
     },
     {
         "id": "4698463",
@@ -5519,7 +5431,7 @@
         "location": "Hyderabad",
         "base": 48.5,
         "total": 79.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE III"
     },
     {
         "id": "4698460",
@@ -5541,7 +5453,7 @@
         "location": "Bangalore",
         "base": 30.0,
         "total": 47.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4696833",
@@ -5558,12 +5470,12 @@
         "id": "4696037",
         "creation_date": "2024-02-08",
         "company": "Deutsche Telekom Digital Labs",
-        "role": "Senior Lead Engineer",
+        "role": "Senior Technical Lead",
         "yoe": 9,
         "location": "NCR",
         "base": 68.0,
         "total": 71.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Senior Technical Lead"
     },
     {
         "id": "4694234",
@@ -5580,23 +5492,12 @@
         "id": "4688824",
         "creation_date": "2024-02-07",
         "company": "Oracle",
-        "role": "IC-2 / SDE-2",
+        "role": "SDE-2",
         "yoe": 2,
         "location": "Bangalore",
         "base": 26.0,
         "total": 36.62,
         "mapped_role": "SDE II"
-    },
-    {
-        "id": "4687926",
-        "creation_date": "2024-02-06",
-        "company": "Cradlepoint",
-        "role": "SDE Intern + Full time SDE-I",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 44.0,
-        "total": 44.0,
-        "mapped_role": "SDE I"
     },
     {
         "id": "4686759",
@@ -5607,7 +5508,7 @@
         "location": "Bangalore",
         "base": 17.0,
         "total": 25.6,
-        "mapped_role": "SDE I"
+        "mapped_role": "IN2"
     },
     {
         "id": "4686473",
@@ -5626,10 +5527,21 @@
         "company": "Accenture",
         "role": "Advance Application Engineer",
         "yoe": 0,
-        "location": "Multiple Locations",
+        "location": "India",
         "base": 10.89,
         "total": 11.89,
-        "mapped_role": "SDE I"
+        "mapped_role": "Advance Application Engineer"
+    },
+    {
+        "id": "4685705",
+        "creation_date": "2024-02-06",
+        "company": "Deutsche Bank",
+        "role": "Graduate Analyst",
+        "yoe": 0,
+        "location": "Pune",
+        "base": 15.0,
+        "total": 19.63,
+        "mapped_role": "Analyst"
     },
     {
         "id": "4685634",
@@ -5640,7 +5552,7 @@
         "location": "Bangalore",
         "base": 22.0,
         "total": 31.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "SWE 3"
     },
     {
         "id": "4685519",
@@ -5687,17 +5599,6 @@
         "mapped_role": "SDE I"
     },
     {
-        "id": "4681273",
-        "creation_date": "2024-02-05",
-        "company": "",
-        "role": "Intern",
-        "yoe": 0,
-        "location": "Ahmadabad",
-        "base": 10.0,
-        "total": 10.0,
-        "mapped_role": "Intern"
-    },
-    {
         "id": "4680926",
         "creation_date": "2024-02-05",
         "company": "BNY Mellon",
@@ -5706,7 +5607,7 @@
         "location": "Pune",
         "base": 17.0,
         "total": 21.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Software Development Engineer"
     },
     {
         "id": "4680133",
@@ -5716,14 +5617,14 @@
         "yoe": 0,
         "location": "Bangalore",
         "base": 10.5,
-        "total": 16.45,
-        "mapped_role": "SDE I"
+        "total": 11.5,
+        "mapped_role": "QA Engineer"
     },
     {
         "id": "4676453",
         "creation_date": "2024-02-04",
         "company": "OfBusiness",
-        "role": "SDE-2",
+        "role": "Software Engineer 2",
         "yoe": 2,
         "location": "NCR",
         "base": 14.0,
@@ -5742,6 +5643,17 @@
         "mapped_role": "SDE II"
     },
     {
+        "id": "4671310",
+        "creation_date": "2024-02-03",
+        "company": "Juspay",
+        "role": "Product Engineer",
+        "yoe": 0,
+        "location": "Bangalore",
+        "base": 14.0,
+        "total": 16.0,
+        "mapped_role": "Product Engineer"
+    },
+    {
         "id": "4670751",
         "creation_date": "2024-02-03",
         "company": "MakeMyTrip",
@@ -5750,7 +5662,18 @@
         "location": "Bangalore",
         "base": 32.0,
         "total": 32.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SSE2 ~ SDE2"
+    },
+    {
+        "id": "4669604",
+        "creation_date": "2024-02-03",
+        "company": "Amazon",
+        "role": "SDE - I",
+        "yoe": 0,
+        "location": "Bangalore",
+        "base": 19.0,
+        "total": 19.0,
+        "mapped_role": "SDE I"
     },
     {
         "id": "4667089",
@@ -5761,7 +5684,7 @@
         "location": "NCR",
         "base": 33.0,
         "total": 35.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Java Software Engineer"
     },
     {
         "id": "4666215",
@@ -5783,7 +5706,7 @@
         "location": "Hyderabad",
         "base": 18.0,
         "total": 72.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4665902",
@@ -5794,7 +5717,7 @@
         "location": "Hyderabad",
         "base": 29.0,
         "total": 45.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "SDE II"
     },
     {
         "id": "4665295",
@@ -5811,12 +5734,12 @@
         "id": "4663245",
         "creation_date": "2024-02-02",
         "company": "ShareChat",
-        "role": "SDE - 1 (Web / Frontend)",
+        "role": "SDE - 1",
         "yoe": 0,
         "location": "Bangalore",
         "base": 21.0,
         "total": 34.0,
-        "mapped_role": "Sde - 1 (web / frontend)"
+        "mapped_role": "SDE I"
     },
     {
         "id": "4662054",
@@ -5827,7 +5750,7 @@
         "location": "Bangalore",
         "base": 37.0,
         "total": 48.42,
-        "mapped_role": "SDE III"
+        "mapped_role": "MTS III"
     },
     {
         "id": "4659774",
@@ -5838,7 +5761,7 @@
         "location": "N/A",
         "base": 6.5,
         "total": 8.5,
-        "mapped_role": "SDE I"
+        "mapped_role": "Machine Learning Engineer"
     },
     {
         "id": "4658710",
@@ -5849,7 +5772,18 @@
         "location": "Bangalore",
         "base": 38.0,
         "total": 83.4,
-        "mapped_role": "SDE II"
+        "mapped_role": "L4 - SWE III"
+    },
+    {
+        "id": "4657554",
+        "creation_date": "2024-02-01",
+        "company": "Amazon",
+        "role": "Support Engineer III",
+        "yoe": 0,
+        "location": "Bangalore",
+        "base": 11.0,
+        "total": 33.5,
+        "mapped_role": "Support Engineer III"
     },
     {
         "id": "4654211",
@@ -5866,7 +5800,7 @@
         "id": "4654145",
         "creation_date": "2024-01-31",
         "company": "Microsoft",
-        "role": "L62 SDE II",
+        "role": "SDE II",
         "yoe": 4,
         "location": "Hyderabad",
         "base": 37.0,
@@ -5874,26 +5808,15 @@
         "mapped_role": "SDE II"
     },
     {
-        "id": "4653916",
-        "creation_date": "2024-01-31",
-        "company": "Natwest group",
-        "role": "TI Intern",
-        "yoe": 0,
-        "location": "NCR",
-        "base": 45.0,
-        "total": 45.0,
-        "mapped_role": "Intern"
-    },
-    {
         "id": "4653762",
         "creation_date": "2024-01-31",
         "company": "Google",
-        "role": "SWE  L4",
+        "role": "SWE3 (L4)",
         "yoe": 4,
         "location": "Bangalore",
         "base": 38.0,
         "total": 85.5,
-        "mapped_role": "SDE II"
+        "mapped_role": "SWE3 (L4)"
     },
     {
         "id": "4652810",
@@ -5904,7 +5827,7 @@
         "location": "Bangalore",
         "base": 26.0,
         "total": 40.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "IN3"
     },
     {
         "id": "4652473",
@@ -5915,7 +5838,7 @@
         "location": "Pune",
         "base": 9.0,
         "total": 12.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "AEH role"
     },
     {
         "id": "4652178",
@@ -5932,12 +5855,12 @@
         "id": "4649454",
         "creation_date": "2024-01-30",
         "company": "Walmart",
-        "role": "Software Engineer - 2",
+        "role": "SDE-1",
         "yoe": 3,
         "location": "Chennai",
         "base": 26.1,
         "total": 33.4,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE I"
     },
     {
         "id": "4649454",
@@ -5957,9 +5880,9 @@
         "role": "Lead Software Engineer",
         "yoe": 8,
         "location": "NCR",
-        "base": 39.0,
+        "base": 55.0,
         "total": 55.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE III"
     },
     {
         "id": "4647478",
@@ -5981,18 +5904,7 @@
         "location": "Hyderabad",
         "base": 12.0,
         "total": 14.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "4644077",
-        "creation_date": "2024-01-29",
-        "company": "EPAM Systems",
-        "role": "Software Engineer JAVA + DSA",
-        "yoe": 6,
-        "location": "Bangalore",
-        "base": 45.0,
-        "total": 50.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE1/L9"
     },
     {
         "id": "4644009",
@@ -6006,15 +5918,15 @@
         "mapped_role": "SDE II"
     },
     {
-        "id": "4643614",
+        "id": "4643647",
         "creation_date": "2024-01-29",
-        "company": "Microsoft",
-        "role": "L63",
-        "yoe": 8,
-        "location": "India",
-        "base": 47.0,
-        "total": 85.0,
-        "mapped_role": "SDE III"
+        "company": "Salesforce",
+        "role": "SMTS",
+        "yoe": 5,
+        "location": "Hyderabad",
+        "base": 49.0,
+        "total": 82.0,
+        "mapped_role": "MTS II"
     },
     {
         "id": "4643356",
@@ -6025,7 +5937,7 @@
         "location": "Bengluru/Hyderabad",
         "base": 22.0,
         "total": 22.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4641665",
@@ -6036,29 +5948,18 @@
         "location": "Bangalore",
         "base": 16.5,
         "total": 16.5,
-        "mapped_role": "SDE I"
+        "mapped_role": "Graduate Engineer"
     },
     {
         "id": "4641654",
         "creation_date": "2024-01-29",
         "company": "Deutsche Bank",
-        "role": "Graduate Analyst (SDE I)",
+        "role": "Full Time - Graduate Analyst (SDE-I)",
         "yoe": 0,
         "location": "Pune/Bangalore",
         "base": 15.0,
-        "total": 20.63,
+        "total": 19.63,
         "mapped_role": "Analyst"
-    },
-    {
-        "id": "4629575",
-        "creation_date": "2024-01-26",
-        "company": "Zomato",
-        "role": "Software Dev. Engineer I",
-        "yoe": 2,
-        "location": "NCR",
-        "base": 26.0,
-        "total": 33.0,
-        "mapped_role": "SDE II"
     },
     {
         "id": "4626095",
@@ -6070,6 +5971,28 @@
         "base": 25.0,
         "total": 25.0,
         "mapped_role": "SDE III"
+    },
+    {
+        "id": "4625715",
+        "creation_date": "2024-01-25",
+        "company": "Eightfold.AI",
+        "role": "Technical Support Engineer-1",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 15.0,
+        "total": 19.0,
+        "mapped_role": "Technical Support Engineer-1"
+    },
+    {
+        "id": "4624160",
+        "creation_date": "2024-01-25",
+        "company": "StatusNeo",
+        "role": "Remote opportunity",
+        "yoe": 6,
+        "location": "Remote/WFH",
+        "base": 50.0,
+        "total": 50.0,
+        "mapped_role": "Remote opportunity"
     },
     {
         "id": "4621559",
@@ -6089,9 +6012,9 @@
         "role": "Chief Engineer",
         "yoe": 5,
         "location": "Bangalore",
-        "base": 35.14,
+        "base": 35.13,
         "total": 46.28,
-        "mapped_role": "Chief engineer"
+        "mapped_role": "Chief Engineer"
     },
     {
         "id": "4618551",
@@ -6116,21 +6039,10 @@
         "mapped_role": "SDE II"
     },
     {
-        "id": "4615523",
-        "creation_date": "2024-01-23",
-        "company": "Juniper Networks",
-        "role": "Software Engineer 3",
-        "yoe": 3,
-        "location": "Bangalore",
-        "base": 23.0,
-        "total": 26.0,
-        "mapped_role": "SDE III"
-    },
-    {
         "id": "4614975",
         "creation_date": "2024-01-23",
         "company": "Amazon",
-        "role": "SDE - 1",
+        "role": "Software Development Engineer 1",
         "yoe": 0,
         "location": "Bangalore",
         "base": 19.17,
@@ -6146,7 +6058,7 @@
         "location": "Bangalore",
         "base": 35.0,
         "total": 50.5,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE 2 (MTS)"
     },
     {
         "id": "4613504",
@@ -6168,62 +6080,18 @@
         "location": "NCR",
         "base": 37.0,
         "total": 55.2,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE 2 (Vice President)"
     },
     {
-        "id": "4609137",
-        "creation_date": "2024-01-22",
-        "company": "Probo",
+        "id": "4612419",
+        "creation_date": "2024-01-23",
+        "company": "Microsoft",
         "role": "Software Engineer",
-        "yoe": 2,
-        "location": "NCR",
-        "base": 18.0,
-        "total": 28.0,
+        "yoe": 1,
+        "location": "Seattle",
+        "base": 12.8,
+        "total": 17.8,
         "mapped_role": "SDE I"
-    },
-    {
-        "id": "4609137",
-        "creation_date": "2024-01-22",
-        "company": "OLX",
-        "role": "SDE 1",
-        "yoe": 2,
-        "location": "NCR",
-        "base": 17.2,
-        "total": 19.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "4609137",
-        "creation_date": "2024-01-22",
-        "company": "KreditBee",
-        "role": "SDE 2",
-        "yoe": 2,
-        "location": "Bangalore",
-        "base": 19.0,
-        "total": 19.0,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "4609137",
-        "creation_date": "2024-01-22",
-        "company": "SMC Global Securities",
-        "role": "Software Engineer",
-        "yoe": 2,
-        "location": "NCR",
-        "base": 17.0,
-        "total": 17.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "4608770",
-        "creation_date": "2024-01-22",
-        "company": "Dell Technologies",
-        "role": "Intern",
-        "yoe": 0,
-        "location": "Hyderabad",
-        "base": 35.0,
-        "total": 35.0,
-        "mapped_role": "Intern"
     },
     {
         "id": "4607646",
@@ -6240,7 +6108,7 @@
         "id": "4601962",
         "creation_date": "2024-01-21",
         "company": "Cogoport",
-        "role": "SDE 1",
+        "role": "SDE1",
         "yoe": 0,
         "location": "Mumbai",
         "base": 9.0,
@@ -6252,7 +6120,7 @@
         "creation_date": "2024-01-20",
         "company": "Amazon",
         "role": "Software Development Engineer 1",
-        "yoe": 0,
+        "yoe": 1,
         "location": "NCR",
         "base": 19.0,
         "total": 27.0,
@@ -6261,7 +6129,7 @@
     {
         "id": "4598026",
         "creation_date": "2024-01-20",
-        "company": "Technodysis",
+        "company": "Amazon",
         "role": "Senior Software Engineer",
         "yoe": 2,
         "location": "Bangalore",
@@ -6281,6 +6149,17 @@
         "mapped_role": "SDE II"
     },
     {
+        "id": "4593722",
+        "creation_date": "2024-01-19",
+        "company": "Microsoft",
+        "role": "L63",
+        "yoe": 7,
+        "location": "NCR",
+        "base": 45.0,
+        "total": 82.75,
+        "mapped_role": "SDE III"
+    },
+    {
         "id": "4591797",
         "creation_date": "2024-01-19",
         "company": "Finastra Software Solution",
@@ -6289,7 +6168,7 @@
         "location": "Bangalore",
         "base": 49.0,
         "total": 65.5,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4590752",
@@ -6303,17 +6182,6 @@
         "mapped_role": "SDE I"
     },
     {
-        "id": "4585905",
-        "creation_date": "2024-01-18",
-        "company": "E2E Networks",
-        "role": "SDE INTERN",
-        "yoe": 0,
-        "location": "NCR",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "Intern"
-    },
-    {
         "id": "4585515",
         "creation_date": "2024-01-18",
         "company": "Optum Global Solution",
@@ -6322,7 +6190,7 @@
         "location": "Hyderabad",
         "base": 12.27,
         "total": 14.49,
-        "mapped_role": "SDE II"
+        "mapped_role": "Software Engineer or TDP-II / Full Stack Developer"
     },
     {
         "id": "4584213",
@@ -6344,17 +6212,28 @@
         "location": "Hyderabad",
         "base": 90.0,
         "total": 124.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "SDE 3 (L6)"
     },
     {
         "id": "4583238",
         "creation_date": "2024-01-17",
         "company": "Amazon",
-        "role": "SDE - 1",
+        "role": "Software Development Engineer 1",
         "yoe": 0,
         "location": "NCR",
         "base": 19.0,
         "total": 27.0,
+        "mapped_role": "SDE I"
+    },
+    {
+        "id": "4581071",
+        "creation_date": "2024-01-17",
+        "company": "Ellucian",
+        "role": "SDE - 1",
+        "yoe": 0,
+        "location": "Remote/WFH",
+        "base": 8.5,
+        "total": 9.0,
         "mapped_role": "SDE I"
     },
     {
@@ -6391,15 +6270,15 @@
         "mapped_role": "SDE II"
     },
     {
-        "id": "4574942",
-        "creation_date": "2024-01-16",
-        "company": "Lendingkart",
-        "role": "Software Developer Intern",
-        "yoe": 0,
+        "id": "4578953",
+        "creation_date": "2024-01-17",
+        "company": "Walmart",
+        "role": "Software Engineer III (Level H)",
+        "yoe": 5,
         "location": "Bangalore",
-        "base": 25.0,
-        "total": 25.0,
-        "mapped_role": "Intern"
+        "base": 27.5,
+        "total": 34.7,
+        "mapped_role": "Software Engineer III (Level H)"
     },
     {
         "id": "4574667",
@@ -6415,7 +6294,7 @@
     {
         "id": "4574324",
         "creation_date": "2024-01-16",
-        "company": "Early Age Startup Related to AdTech",
+        "company": "Early age startup",
         "role": "SDE1",
         "yoe": 2,
         "location": "NCR",
@@ -6424,47 +6303,25 @@
         "mapped_role": "SDE I"
     },
     {
-        "id": "4570709",
-        "creation_date": "2024-01-15",
-        "company": "Openinapp",
-        "role": "Backend Engineer Intern",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 35.0,
-        "total": 35.0,
-        "mapped_role": "Intern"
-    },
-    {
         "id": "4569785",
         "creation_date": "2024-01-15",
         "company": "Viacom18",
         "role": "SDE 2 - Frontend",
         "yoe": 4,
         "location": "Bangalore",
-        "base": 22.0,
-        "total": 30.5,
+        "base": 30.5,
+        "total": 33.5,
         "mapped_role": "SDE II"
-    },
-    {
-        "id": "4569414",
-        "creation_date": "2024-01-15",
-        "company": "Cropin",
-        "role": "AI Intern",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 50.0,
-        "total": 50.0,
-        "mapped_role": "Intern"
     },
     {
         "id": "4568541",
         "creation_date": "2024-01-15",
         "company": "Amazon",
-        "role": "Software Development Engineer I",
+        "role": "Software Engineer",
         "yoe": 0,
         "location": "N/A",
         "base": 19.17,
-        "total": 41.72,
+        "total": 26.29,
         "mapped_role": "SDE I"
     },
     {
@@ -6476,7 +6333,7 @@
         "location": "India",
         "base": 33.6,
         "total": 33.6,
-        "mapped_role": "SDE I"
+        "mapped_role": "Assistant Systems Engineer - Trainee"
     },
     {
         "id": "4565816",
@@ -6485,7 +6342,7 @@
         "role": "SDE 2 - Frontend",
         "yoe": 4,
         "location": "Bangalore",
-        "base": 22.0,
+        "base": 29.0,
         "total": 34.0,
         "mapped_role": "SDE II"
     },
@@ -6498,7 +6355,7 @@
         "location": "Bangalore",
         "base": 43.0,
         "total": 43.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE III"
     },
     {
         "id": "4561802",
@@ -6509,7 +6366,7 @@
         "location": "Austin",
         "base": 88.0,
         "total": 130.0,
-        "mapped_role": "SDE III"
+        "mapped_role": "Software Test Engineer"
     },
     {
         "id": "4561651",
@@ -6520,18 +6377,18 @@
         "location": "Remote/WFH",
         "base": 22.0,
         "total": 25.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Senior Software Engineer (Backend)"
     },
     {
         "id": "4561018",
         "creation_date": "2024-01-14",
         "company": "NVIDIA",
         "role": "Sr CAD Engineer",
-        "yoe": 9,
+        "yoe": 10,
         "location": "Bangalore",
-        "base": 50.0,
+        "base": 53.0,
         "total": 78.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "Sr CAD Engineer"
     },
     {
         "id": "4559951",
@@ -6542,7 +6399,7 @@
         "location": "Mumbai/Hyderabad/Chennai",
         "base": 12.0,
         "total": 16.15,
-        "mapped_role": "SDE I"
+        "mapped_role": "Software Developer Engineer"
     },
     {
         "id": "4556714",
@@ -6553,7 +6410,7 @@
         "location": "Bangalore",
         "base": 30.0,
         "total": 38.0,
-        "mapped_role": "SDE II"
+        "mapped_role": "SDE III"
     },
     {
         "id": "4556520",
@@ -6565,17 +6422,6 @@
         "base": 15.0,
         "total": 49.0,
         "mapped_role": "SDE I"
-    },
-    {
-        "id": "4556464",
-        "creation_date": "2024-01-13",
-        "company": "QuillBot",
-        "role": "Senior Software Engineer",
-        "yoe": 7,
-        "location": "Remote/WFH",
-        "base": 60.0,
-        "total": 78.45,
-        "mapped_role": "SDE II"
     },
     {
         "id": "4551034",
@@ -6603,7 +6449,7 @@
         "id": "4548168",
         "creation_date": "2024-01-12",
         "company": "Ola",
-        "role": "SDE2",
+        "role": "sde2",
         "yoe": 4,
         "location": "Bangalore",
         "base": 33.0,
@@ -6614,7 +6460,7 @@
         "id": "4547882",
         "creation_date": "2024-01-11",
         "company": "Tesco",
-        "role": "SDE 2",
+        "role": "SDE2",
         "yoe": 4,
         "location": "Bangalore",
         "base": 34.0,
@@ -6628,9 +6474,20 @@
         "role": "SDE-2",
         "yoe": 3,
         "location": "Bangalore",
-        "base": 20.0,
+        "base": 30.0,
         "total": 35.0,
         "mapped_role": "SDE II"
+    },
+    {
+        "id": "4546987",
+        "creation_date": "2024-01-11",
+        "company": "Thrive Now",
+        "role": "Senior Fontend Engineer",
+        "yoe": 4,
+        "location": "Remote/WFH",
+        "base": 37.0,
+        "total": 37.0,
+        "mapped_role": "Senior Fontend Engineer"
     },
     {
         "id": "4545803",
@@ -6641,7 +6498,7 @@
         "location": "Mysore",
         "base": 62.5,
         "total": 62.5,
-        "mapped_role": "SDE I"
+        "mapped_role": "Digital Specialist Engineer"
     },
     {
         "id": "4545515",
@@ -6663,7 +6520,7 @@
         "location": "NCR",
         "base": 16.5,
         "total": 19.6,
-        "mapped_role": "SDE I"
+        "mapped_role": "Software Dev (Backend)"
     },
     {
         "id": "4542984",
@@ -6683,9 +6540,9 @@
         "role": "Software Engineer - Web",
         "yoe": 3,
         "location": "Bangalore",
-        "base": 22.0,
+        "base": 25.0,
         "total": 32.5,
-        "mapped_role": "SDE III"
+        "mapped_role": "Software Engineer - Web"
     },
     {
         "id": "4540332",
@@ -6696,18 +6553,18 @@
         "location": "Bangalore",
         "base": 22.0,
         "total": 22.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Full Stack Develooper"
     },
     {
-        "id": "4539168",
-        "creation_date": "2024-01-10",
-        "company": "Meta",
-        "role": "E4",
-        "yoe": 2,
-        "location": "Seattle",
-        "base": 18.0,
-        "total": 31.3,
-        "mapped_role": "SDE III"
+        "id": "4536032",
+        "creation_date": "2024-01-09",
+        "company": "ZS Associates",
+        "role": "Business Technology Solutions Associate",
+        "yoe": 0,
+        "location": "Pune/NCR",
+        "base": 13.65,
+        "total": 13.65,
+        "mapped_role": "Associate"
     },
     {
         "id": "4535584",
@@ -6719,17 +6576,6 @@
         "base": 10.0,
         "total": 12.0,
         "mapped_role": "SDE I"
-    },
-    {
-        "id": "4535043",
-        "creation_date": "2024-01-09",
-        "company": "Coding Blocks",
-        "role": "Product Engineer & Instructor",
-        "yoe": 1,
-        "location": "NCR",
-        "base": 7.0,
-        "total": 8.0,
-        "mapped_role": "Product engineer & instructor"
     },
     {
         "id": "4534376",
@@ -6765,28 +6611,6 @@
         "mapped_role": "SDE III"
     },
     {
-        "id": "4521475",
-        "creation_date": "2024-01-07",
-        "company": "Artisan ai",
-        "role": "Senior Frontend Engineer",
-        "yoe": 3,
-        "location": "Remote/WFH/India",
-        "base": 46.5,
-        "total": 56.0,
-        "mapped_role": "SDE II"
-    },
-    {
-        "id": "4520629",
-        "creation_date": "2024-01-07",
-        "company": "Julo finance",
-        "role": "SDE-I | Backend",
-        "yoe": 0,
-        "location": "N/A",
-        "base": 16.0,
-        "total": 20.5,
-        "mapped_role": "SDE I"
-    },
-    {
         "id": "4517683",
         "creation_date": "2024-01-06",
         "company": "Microsoft",
@@ -6795,7 +6619,7 @@
         "location": "NCR",
         "base": 28.0,
         "total": 52.6,
-        "mapped_role": "SDE I"
+        "mapped_role": "SDE II"
     },
     {
         "id": "4516976",
@@ -6817,18 +6641,29 @@
         "location": "India",
         "base": 42.5,
         "total": 45.0,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
+    },
+    {
+        "id": "4515854",
+        "creation_date": "2024-01-06",
+        "company": "Google",
+        "role": "New Grad SWE",
+        "yoe": 0,
+        "location": "Bangalore",
+        "base": 21.0,
+        "total": 39.5,
+        "mapped_role": "New Grad SWE"
     },
     {
         "id": "4515357",
         "creation_date": "2024-01-06",
-        "company": "Google india",
+        "company": "Google",
         "role": "Software Engineer-III (L4)",
         "yoe": 2,
         "location": "Bangalore",
         "base": 40.0,
         "total": 79.3,
-        "mapped_role": "SDE III"
+        "mapped_role": "Software Engineer-III (L4)"
     },
     {
         "id": "4515332",
@@ -6839,51 +6674,18 @@
         "location": "Hyderabad",
         "base": 17.8,
         "total": 34.1,
-        "mapped_role": "SDE I"
+        "mapped_role": "Applications Developer - 1"
     },
     {
         "id": "4514020",
         "creation_date": "2024-01-06",
-        "company": "Zoho corp",
+        "company": "Zoho Corporation",
         "role": "MTS",
         "yoe": 2,
         "location": "Chennai",
         "base": 8.4,
         "total": 9.6,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "4511449",
-        "creation_date": "2024-01-05",
-        "company": "Oracle",
-        "role": "Member Technical Staff",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 18.0,
-        "total": 64.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "4511087",
-        "creation_date": "2024-01-05",
-        "company": "Valuelabs",
-        "role": "software Engineering specialist",
-        "yoe": 0,
-        "location": "Hyderabad",
-        "base": 6.0,
-        "total": 8.0,
-        "mapped_role": "SDE III"
-    },
-    {
-        "id": "4510096",
-        "creation_date": "2024-01-05",
-        "company": "Rakuten india",
-        "role": "Technical Intern (Data Science and Analytics Department)",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 35.0,
-        "total": 35.0,
-        "mapped_role": "Intern"
+        "mapped_role": "MTS I"
     },
     {
         "id": "4510027",
@@ -6905,7 +6707,7 @@
         "location": "Bangalore",
         "base": 32.0,
         "total": 39.2,
-        "mapped_role": "SDE I"
+        "mapped_role": "MTS I"
     },
     {
         "id": "4509525",
@@ -6916,17 +6718,17 @@
         "location": "Bangalore",
         "base": 34.0,
         "total": 45.4,
-        "mapped_role": "SDE I"
+        "mapped_role": "MTS I"
     },
     {
-        "id": "4503700",
+        "id": "4506724",
         "creation_date": "2024-01-04",
-        "company": "Microchip",
-        "role": "SDE-1",
+        "company": "Datalabs",
+        "role": "Software Engineer",
         "yoe": 0,
-        "location": "Bangalore",
-        "base": 9.5,
-        "total": 14.0,
+        "location": "Milan",
+        "base": 28.0,
+        "total": 28.0,
         "mapped_role": "SDE I"
     },
     {
@@ -6938,40 +6740,18 @@
         "location": "India",
         "base": 4.5,
         "total": 4.6,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4501091",
         "creation_date": "2024-01-04",
         "company": "Carwale",
-        "role": "ASDE",
+        "role": "n/a",
         "yoe": 0,
         "location": "Mumbai",
-        "base": 7.5,
+        "base": 9.0,
         "total": 9.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "4498477",
-        "creation_date": "2024-01-03",
-        "company": "NXP Semiconductors",
-        "role": "Software Intern",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 40.0,
-        "total": 40.0,
-        "mapped_role": "Intern"
-    },
-    {
-        "id": "4497087",
-        "creation_date": "2024-01-03",
-        "company": "Tata 1MG",
-        "role": "SDE-1",
-        "yoe": 0,
-        "location": "NCR/Bangalore",
-        "base": 14.0,
-        "total": 18.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "N/A"
     },
     {
         "id": "4494746",
@@ -6985,17 +6765,6 @@
         "mapped_role": "SDE I"
     },
     {
-        "id": "4494045",
-        "creation_date": "2024-01-02",
-        "company": "Titan (directi)",
-        "role": "SDE Intern",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 60.0,
-        "total": 60.0,
-        "mapped_role": "Intern"
-    },
-    {
         "id": "4493991",
         "creation_date": "2024-01-02",
         "company": "Salesforce",
@@ -7004,7 +6773,7 @@
         "location": "Bangalore",
         "base": 17.0,
         "total": 27.7,
-        "mapped_role": "Associate Software Engineer"
+        "mapped_role": "Associate"
     },
     {
         "id": "4493204",
@@ -7015,29 +6784,18 @@
         "location": "N/A",
         "base": 34.0,
         "total": 49.5,
-        "mapped_role": "SDE III"
+        "mapped_role": "MTS III"
     },
     {
         "id": "4492552",
         "creation_date": "2024-01-02",
-        "company": "Azure",
-        "role": "L61 at Azure",
+        "company": "Oci",
+        "role": "IC3",
         "yoe": 5,
         "location": "Bangalore",
-        "base": 40.0,
-        "total": 57.0,
-        "mapped_role": "SDE I"
-    },
-    {
-        "id": "4492184",
-        "creation_date": "2024-01-02",
-        "company": "Tata Elxsi",
-        "role": "Engineer",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 35.0,
-        "total": 35.0,
-        "mapped_role": "SDE I"
+        "base": 57.0,
+        "total": 69.0,
+        "mapped_role": "SDE II"
     },
     {
         "id": "4491507",
@@ -7051,32 +6809,10 @@
         "mapped_role": "SDE I"
     },
     {
-        "id": "4491219",
-        "creation_date": "2024-01-02",
-        "company": "Talent Serve",
-        "role": "Full Stack Intern",
-        "yoe": 0,
-        "location": "Remote/WFH",
-        "base": 15.0,
-        "total": 30.0,
-        "mapped_role": "Intern"
-    },
-    {
-        "id": "4491197",
-        "creation_date": "2024-01-02",
-        "company": "Eventhq",
-        "role": "Software Engineer Intern",
-        "yoe": 0,
-        "location": "Bangalore",
-        "base": 20.0,
-        "total": 20.0,
-        "mapped_role": "Intern"
-    },
-    {
         "id": "4491175",
         "creation_date": "2024-01-02",
         "company": "Bitqit",
-        "role": "Software Developer (SDE)",
+        "role": "SDE",
         "yoe": 0,
         "location": "NCR",
         "base": 4.0,
@@ -7092,13 +6828,13 @@
         "location": "Hyderabad",
         "base": 3.5,
         "total": 4.0,
-        "mapped_role": "SDE I"
+        "mapped_role": "Others"
     },
     {
         "id": "4491130",
         "creation_date": "2024-01-02",
         "company": "Libsys",
-        "role": "Software Developer",
+        "role": "SDE",
         "yoe": 0,
         "location": "NCR",
         "base": 4.5,
@@ -7117,15 +6853,15 @@
         "mapped_role": "SDE II"
     },
     {
-        "id": "4487104",
+        "id": "4488393",
         "creation_date": "2024-01-01",
-        "company": "CoreValue Technologies",
-        "role": "SDE intern",
-        "yoe": 0,
-        "location": "NCR/Remote/WFH",
-        "base": 20.0,
-        "total": 20.0,
-        "mapped_role": "Intern"
+        "company": "Qube Cinema Technologies",
+        "role": "SDE-1",
+        "yoe": 1,
+        "location": "Chennai",
+        "base": 14.0,
+        "total": 14.0,
+        "mapped_role": "SDE I"
     },
     {
         "id": "4487068",
@@ -7139,25 +6875,25 @@
         "mapped_role": "SDE I"
     },
     {
+        "id": "4486879",
+        "creation_date": "2024-01-01",
+        "company": "Servicenow bangalore",
+        "role": "Senior Software Engineer",
+        "yoe": 8,
+        "location": "Bangalore",
+        "base": 47.0,
+        "total": 47.0,
+        "mapped_role": "SDE II"
+    },
+    {
         "id": "4485855",
         "creation_date": "2024-01-01",
         "company": "Akamai",
-        "role": "SDE1",
+        "role": "SDE-I",
         "yoe": 1,
         "location": "Bangalore",
         "base": 13.0,
         "total": 15.0,
         "mapped_role": "SDE I"
-    },
-    {
-        "id": "4485472",
-        "creation_date": "2024-01-01",
-        "company": "BharatPe",
-        "role": "SDE-2",
-        "yoe": 2,
-        "location": "NCR",
-        "base": 18.5,
-        "total": 24.25,
-        "mapped_role": "SDE II"
     }
 ]
