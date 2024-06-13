@@ -21,7 +21,7 @@ function capitalize(str) {
 }
 
 function statsStr(data) {
-   
+
     const nRecs = data.length;
     const startDate = data[0].creation_date;
     const endDate = data[nRecs - 1].creation_date;
@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         const startIndex = (page - 1) * offersPerPage;
         const endIndex = startIndex + offersPerPage;
         const paginatedOffers = filteredOffers.slice(startIndex, endIndex);
-    
+
         const table = document.createElement('table');
         table.classList.add('table');
         const emptyRow = table.insertRow();
@@ -257,13 +257,13 @@ document.addEventListener('DOMContentLoaded', async function () {
         const yoeHeader = headerRow.insertCell();
         yoeHeader.innerHTML = `<b style="font-size: 13px;" data-column="yoe"> Yoe ${getSortArrow('yoe')}</b>`;
         const salaryHeader = headerRow.insertCell();
-    
+
         salaryHeader.innerHTML = `
         <p class="text-end" style="margin-bottom: 0px;">
         <b style="font-size: 13px;" data-column="total">${getSortArrow('total')} Total <br>
         <span class="text-secondary">Base</span></b></p>
         `;
-    
+
         // Add event listeners to headers for sorting
         headerRow.querySelectorAll('b[data-column]').forEach(header => {
             header.addEventListener('click', () => {
@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', async function () {
                 }
             });
         });
-    
+
         paginatedOffers.forEach((offer, index) => {
             const row = table.insertRow();
             const indexCell = row.insertCell();
@@ -307,13 +307,11 @@ document.addEventListener('DOMContentLoaded', async function () {
             ${formatSalaryInINR(offer.base)}</span></p>
             `;
         });
-    
+
         const container = document.getElementById('offersTable');
         container.innerHTML = '';
         container.appendChild(table);
     }
-    
-    
     // Function to remove sorting
     function removeSorting() {
         console.log("#");
@@ -321,11 +319,11 @@ document.addEventListener('DOMContentLoaded', async function () {
         filteredOffers.sort((a, b) => b.id - a.id);
         displayOffers(currentPage);
     }
-    
+
     function getSortArrow(column) {
         const svgWidth = 16; // to be adjusted
         const svgHeight = 18; // to be adjusted
-        
+
         if (currentSort.column === column) {
             return currentSort.order === 'asc' ?
                 `<svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 32 32">
@@ -335,27 +333,46 @@ document.addEventListener('DOMContentLoaded', async function () {
                     <path d="M23.91 11.413A1 1 0 0 1 23 12h-3v17a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V12H9a1 1 0 0 1-.752-1.658l7-8a1.03 1.03 0 0 1 1.504 0l7 8a1 1 0 0 1 .159 1.071z" style="fill:#262628"/>
                 </svg>`;
         }
-        return '';
+        // Default state (no sorting)
+        return `<svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24">
+                <path d="M6 9l6-6 6 6z M18 15l-6 6-6-6z" fill="#000" />
+            </svg>`;
     }
-    
+
     function sortOffers(column) {
-        const order = currentSort.column === column && currentSort.order === 'asc' ? 'desc' : 'asc';
-        currentSort = { column, order };
-    
-        filteredOffers.sort((a, b) => {
-            if (a[column] < b[column]) {
-                return order === 'asc' ? -1 : 1;
-            } else if (a[column] > b[column]) {
-                return order === 'asc' ? 1 : -1;
+        if (currentSort.column === column) {
+            // Toggle order: asc -> desc -> no sorting
+            if (currentSort.order === 'asc') {
+                currentSort.order = 'desc';
+            } else if (currentSort.order === 'desc') {
+                currentSort.column = null;
+                currentSort.order = 'asc'; // Set order to asc after desc
             } else {
-                return 0;
+                currentSort.order = 'asc'; // Default to asc when no sorting
             }
-        });
-    
+        } else {
+            // Set new column and default to ascending order
+            currentSort.column = column;
+            currentSort.order = 'asc';
+        }
+
+        // Sort filteredOffers based on currentSort
+        if (currentSort.column) {
+            filteredOffers.sort((a, b) => {
+                if (a[currentSort.column] < b[currentSort.column]) {
+                    return currentSort.order === 'asc' ? -1 : 1;
+                } else if (a[currentSort.column] > b[currentSort.column]) {
+                    return currentSort.order === 'asc' ? 1 : -1;
+                } else {
+                    return 0;
+                }
+            });
+        } else {
+            // Default sorting by id in descending order when no column is selected
+            filteredOffers.sort((a, b) => b.id - a.id);
+        }
         displayOffers(currentPage);
     }
-    
-
     document.getElementById('prevPage').addEventListener('click', () => {
         if (currentPage > 1) {
             currentPage--;
@@ -391,8 +408,6 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         statsInfo = statsStr(filteredOffers);
         document.getElementById('statsStr').textContent = statsInfo;
-    
-
     }
 
     // Search by button
