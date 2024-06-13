@@ -205,14 +205,13 @@ function plotBoxPlot(jsonData, baseOrTotal, docId, roleOrCompany, validItems) {
 document.addEventListener('DOMContentLoaded', async function () {
     let currentPage = 1;
     let offers = [];
-    let filteredOffers = []; // New variable to hold filtered data
+    let filteredOffers = [];
+    let currentSort = { column: null, order: 'asc' };
 
-    // Fetch your JSONL data converted to JSON array
     async function fetchOffers() {
         const response = await fetch('data/parsed_comps.json');
         const data = await response.json();
         offers = data;
-
         filteredOffers = [...offers];
         displayOffers(currentPage);
     }
@@ -248,19 +247,29 @@ document.addEventListener('DOMContentLoaded', async function () {
         idHeader.innerHTML = '<b style="font-size: 13px;">ID</b>';
         const companyHeader = headerRow.insertCell();
         companyHeader.innerHTML = `
-        <b style="font-size: 13px;">Company<br>
+        <b style="font-size: 13px;" data-column="company">Company<br>
         <span class="text-secondary">Location | Date</span></b>
         `;
         const roleHeader = headerRow.insertCell();
-        roleHeader.innerHTML = '<b style="font-size: 13px;">Role</b>';
+        roleHeader.innerHTML = '<b style="font-size: 13px;" data-column="mapped_role">Role</b>';
         const yoeHeader = headerRow.insertCell();
-        yoeHeader.innerHTML = '<b style="font-size: 13px;">Yoe</b>';
+        yoeHeader.innerHTML = `<b style="font-size: 13px;" data-column="yoe">Yoe ${getSortArrow('yoe')}</b>`;
         const salaryHeader = headerRow.insertCell();
         salaryHeader.innerHTML = `
         <p class="text-end" style="margin-bottom: 0px;">
-        <b style="font-size: 13px;">Total<br>
+        <b style="font-size: 13px;" data-column="total">Total ${getSortArrow('total')}<br>
         <span class="text-secondary">Base</span></b></p>
         `;
+
+        // Add event listeners to headers for sorting
+        headerRow.querySelectorAll('b[data-column]').forEach(header => {
+            header.addEventListener('click', () => {
+                const column = header.getAttribute('data-column');
+                if (column) {
+                    sortOffers(column);
+                }
+            });
+        });
 
         paginatedOffers.forEach((offer, index) => {
             const row = table.insertRow();
@@ -299,6 +308,30 @@ document.addEventListener('DOMContentLoaded', async function () {
         container.appendChild(table);
     }
 
+    function getSortArrow(column) {
+        if (currentSort.column === column) {
+            return currentSort.order === 'asc' ? '↑' : '↓';
+        }
+        return '';
+    }
+
+    function sortOffers(column) {
+        const order = currentSort.column === column && currentSort.order === 'asc' ? 'desc' : 'asc';
+        currentSort = { column, order };
+
+        filteredOffers.sort((a, b) => {
+            if (a[column] < b[column]) {
+                return order === 'asc' ? -1 : 1;
+            } else if (a[column] > b[column]) {
+                return order === 'asc' ? 1 : -1;
+            } else {
+                return 0;
+            }
+        });
+
+        displayOffers(currentPage);
+    }
+
     document.getElementById('prevPage').addEventListener('click', () => {
         if (currentPage > 1) {
             currentPage--;
@@ -307,7 +340,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
 
     document.getElementById('nextPage').addEventListener('click', () => {
-        if ((currentPage * offersPerPage) < offers.length) {
+        if ((currentPage * offersPerPage) < filteredOffers.length) {
             currentPage++;
             displayOffers(currentPage);
         }
@@ -315,6 +348,8 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     // Function to filter offers by company name
     function filterOffersByCompany(companyName) {
+        currentSort = { column: null, order: 'asc' };
+
         if (companyName.trim() === '') {
             filteredOffers = [...offers]; // Reset filteredOffers to all data if search input is empty
         } else {
