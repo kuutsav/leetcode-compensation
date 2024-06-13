@@ -67,6 +67,7 @@ uv pip install -r requirements.txt  # Install from a requirements.txt file.
 > Make sure you have completed the steps above and are in a venv
 
 ```bash
+$ export PYTHONPATH=.
 $ python leetcomp/refresh.py
 $ python leetcomp/parse.py
 ```
