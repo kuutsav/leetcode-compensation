@@ -79,4 +79,4 @@ $ python leetcomp/parse.py
 
 ## Contributions
 
-PRs as welcome but please go through [CONTRIBUTING.md](CONTRIBUTING.md) before raising a PR.
+PRs are welcome but please go through [CONTRIBUTING.md](CONTRIBUTING.md) before raising a PR.
