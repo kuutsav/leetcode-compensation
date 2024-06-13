@@ -21,9 +21,11 @@ function capitalize(str) {
 }
 
 function statsStr(data) {
+   
     const nRecs = data.length;
-    startDate = data[0].creation_date;
-    endDate = data[nRecs - 1].creation_date;
+    const startDate = data[0].creation_date;
+    const endDate = data[nRecs - 1].creation_date;
+
     return `
     Based on ${nRecs} recs parsed between ${startDate} and ${endDate}
     (only includes posts that were parsed successfully and had non negative votes)
@@ -218,7 +220,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     await fetchOffers();
 
-    let statsInfo = statsStr(offers);
+    let statsInfo = statsStr(filteredOffers);
 
     document.getElementById('statsStr').textContent = statsInfo;
     plotHistogram(filteredOffers, 'total');
@@ -230,7 +232,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         const startIndex = (page - 1) * offersPerPage;
         const endIndex = startIndex + offersPerPage;
         const paginatedOffers = filteredOffers.slice(startIndex, endIndex);
-
+    
         const table = document.createElement('table');
         table.classList.add('table');
         const emptyRow = table.insertRow();
@@ -242,35 +244,38 @@ document.addEventListener('DOMContentLoaded', async function () {
         const headerRow = table.insertRow();
         headerRow.style.border = 'none';
         const indexHeader = headerRow.insertCell();
-        indexHeader.innerHTML = '<b style="font-size: 13px;">#</b>';
+        indexHeader.innerHTML = '<b style="font-size: 13px;" data-column="#">#</b>';
         const idHeader = headerRow.insertCell();
         idHeader.innerHTML = '<b style="font-size: 13px;">ID</b>';
         const companyHeader = headerRow.insertCell();
         companyHeader.innerHTML = `
-        <b style="font-size: 13px;" data-column="company">Company<br>
+        <b style="font-size: 13px;" >Company<br>
         <span class="text-secondary">Location | Date</span></b>
         `;
         const roleHeader = headerRow.insertCell();
-        roleHeader.innerHTML = '<b style="font-size: 13px;" data-column="mapped_role">Role</b>';
+        roleHeader.innerHTML = '<b style="font-size: 13px;" >Role</b>';
         const yoeHeader = headerRow.insertCell();
-        yoeHeader.innerHTML = `<b style="font-size: 13px;" data-column="yoe">Yoe ${getSortArrow('yoe')}</b>`;
+        yoeHeader.innerHTML = `<b style="font-size: 13px;" data-column="yoe"> Yoe ${getSortArrow('yoe')}</b>`;
         const salaryHeader = headerRow.insertCell();
+    
         salaryHeader.innerHTML = `
         <p class="text-end" style="margin-bottom: 0px;">
-        <b style="font-size: 13px;" data-column="total">Total ${getSortArrow('total')}<br>
+        <b style="font-size: 13px;" data-column="total">${getSortArrow('total')} Total <br>
         <span class="text-secondary">Base</span></b></p>
         `;
-
+    
         // Add event listeners to headers for sorting
         headerRow.querySelectorAll('b[data-column]').forEach(header => {
             header.addEventListener('click', () => {
                 const column = header.getAttribute('data-column');
-                if (column) {
+                if (column === '#') {
+                    removeSorting();
+                } else if (column) {
                     sortOffers(column);
                 }
             });
         });
-
+    
         paginatedOffers.forEach((offer, index) => {
             const row = table.insertRow();
             const indexCell = row.insertCell();
@@ -302,23 +307,41 @@ document.addEventListener('DOMContentLoaded', async function () {
             ${formatSalaryInINR(offer.base)}</span></p>
             `;
         });
-
+    
         const container = document.getElementById('offersTable');
         container.innerHTML = '';
         container.appendChild(table);
     }
-
+    
+    
+    // Function to remove sorting
+    function removeSorting() {
+        console.log("#");
+        currentSort = { column: 'id', order: 'desc' };
+        filteredOffers.sort((a, b) => b.id - a.id);
+        displayOffers(currentPage);
+    }
+    
     function getSortArrow(column) {
+        const svgWidth = 16; // to be adjusted
+        const svgHeight = 18; // to be adjusted
+        
         if (currentSort.column === column) {
-            return currentSort.order === 'asc' ? '↑' : '↓';
+            return currentSort.order === 'asc' ?
+                `<svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 32 32">
+                    <path d="M23.91 11.413A1 1 0 0 1 23 12h-3v17a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V12H9a1 1 0 0 1-.752-1.658l7-8a1.03 1.03 0 0 1 1.504 0l7 8a1 1 0 0 1 .159 1.071z" style="fill:#262628"/>
+                </svg>` :
+                `<svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 32 32" style="transform: rotate(180deg);">
+                    <path d="M23.91 11.413A1 1 0 0 1 23 12h-3v17a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V12H9a1 1 0 0 1-.752-1.658l7-8a1.03 1.03 0 0 1 1.504 0l7 8a1 1 0 0 1 .159 1.071z" style="fill:#262628"/>
+                </svg>`;
         }
         return '';
     }
-
+    
     function sortOffers(column) {
         const order = currentSort.column === column && currentSort.order === 'asc' ? 'desc' : 'asc';
         currentSort = { column, order };
-
+    
         filteredOffers.sort((a, b) => {
             if (a[column] < b[column]) {
                 return order === 'asc' ? -1 : 1;
@@ -328,9 +351,10 @@ document.addEventListener('DOMContentLoaded', async function () {
                 return 0;
             }
         });
-
+    
         displayOffers(currentPage);
     }
+    
 
     document.getElementById('prevPage').addEventListener('click', () => {
         if (currentPage > 1) {
@@ -364,6 +388,11 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         // Update offers table with filtered data
         displayOffers(currentPage);
+
+        statsInfo = statsStr(filteredOffers);
+        document.getElementById('statsStr').textContent = statsInfo;
+    
+
     }
 
     // Search by button
