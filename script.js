@@ -25,8 +25,9 @@ function capitalize(str) {
 
 function statsStr(data) {
     const nRecs = data.length;
-    startDate = data[0].creation_date;
-    endDate = data[nRecs - 1].creation_date;
+    const startDate = data[0].creation_date;
+    const endDate = data[nRecs - 1].creation_date;
+
     return `
     Based on ${nRecs} recs parsed between ${startDate} and ${endDate}
     (only includes posts that were parsed successfully and had non negative votes)
@@ -208,21 +209,20 @@ function plotBoxPlot(jsonData, baseOrTotal, docId, roleOrCompany, validItems) {
 document.addEventListener('DOMContentLoaded', async function () {
     let currentPage = 1;
     let offers = [];
-    let filteredOffers = []; // New variable to hold filtered data
+    let filteredOffers = [];
+    let currentSort = { column: null, order: 'asc' };
 
-    // Fetch your JSONL data converted to JSON array
     async function fetchOffers() {
         const response = await fetch('data/parsed_comps.json');
         const data = await response.json();
         offers = data;
-
         filteredOffers = [...offers];
         displayOffers(currentPage);
     }
 
     await fetchOffers();
 
-    let statsInfo = statsStr(offers);
+    let statsInfo = statsStr(filteredOffers);
 
     document.getElementById('statsStr').textContent = statsInfo;
     plotHistogram(filteredOffers, 'total');
@@ -246,24 +246,37 @@ document.addEventListener('DOMContentLoaded', async function () {
         const headerRow = table.insertRow();
         headerRow.style.border = 'none';
         const indexHeader = headerRow.insertCell();
-        indexHeader.innerHTML = '<b style="font-size: 13px;">#</b>';
+        indexHeader.innerHTML = '<b style="font-size: 13px;" data-column="#">#</b>';
         const idHeader = headerRow.insertCell();
         idHeader.innerHTML = '<b style="font-size: 13px;">ID</b>';
         const companyHeader = headerRow.insertCell();
         companyHeader.innerHTML = `
-        <b style="font-size: 13px;">Company<br>
+        <b style="font-size: 13px;" >Company<br>
         <span class="text-secondary">Location | Date</span></b>
         `;
         const roleHeader = headerRow.insertCell();
-        roleHeader.innerHTML = '<b style="font-size: 13px;">Role</b>';
+        roleHeader.innerHTML = '<b style="font-size: 13px;" >Role</b>';
         const yoeHeader = headerRow.insertCell();
-        yoeHeader.innerHTML = '<b style="font-size: 13px;">Yoe</b>';
+        yoeHeader.innerHTML = `<b style="font-size: 13px;" data-column="yoe" role="button"> Yoe ${getSortArrow('yoe')}</b>`;
         const salaryHeader = headerRow.insertCell();
+
         salaryHeader.innerHTML = `
         <p class="text-end" style="margin-bottom: 0px;">
-        <b style="font-size: 13px;">Total<br>
+        <b style="font-size: 13px;" data-column="total" role="button">${getSortArrow('total')} Total <br>
         <span class="text-secondary">Base</span></b></p>
         `;
+
+        // Add event listeners to headers for sorting
+        headerRow.querySelectorAll('b[data-column]').forEach(header => {
+            header.addEventListener('click', () => {
+                const column = header.getAttribute('data-column');
+                if (column === '#') {
+                    removeSorting();
+                } else if (column) {
+                    sortOffers(column);
+                }
+            });
+        });
 
         paginatedOffers.forEach((offer, index) => {
             const row = table.insertRow();
@@ -301,7 +314,63 @@ document.addEventListener('DOMContentLoaded', async function () {
         container.innerHTML = '';
         container.appendChild(table);
     }
+    // Function to remove sorting
+    function removeSorting() {
+        console.log("#");
+        currentSort = { column: 'id', order: 'desc' };
+        filteredOffers.sort((a, b) => b.id - a.id);
+        displayOffers(currentPage);
+    }
 
+    function getSortArrow(column) {
+        const svgWidth = 16; // to be adjusted
+        const svgHeight = 18; // to be adjusted
+
+        if (currentSort.column === column) {
+            return currentSort.order === 'asc' ?
+                `<svg width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6V18M12 6L7 11M12 6L17 11" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>` :
+                `<svg width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6V18M12 18L7 13M12 18L17 13" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>`;
+        }
+        // Default state (no sorting)
+        return `<svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24">
+                <path d="M6 9l6-6 6 6z M18 15l-6 6-6-6z" fill="#000" />
+            </svg>`;
+    }
+
+    function sortOffers(column) {
+        if (currentSort.column === column) {
+            // Toggle order: asc -> desc -> no sorting
+            if (currentSort.order === 'asc') {
+                currentSort.column = null;
+                currentSort.order = 'desc';
+            } else if (currentSort.order === 'desc') {
+                currentSort.order = 'asc'; // Set order to asc after desc
+            } else {
+                currentSort.order = 'desc'; // Default to asc when no sorting
+            }
+        } else {
+            // Set new column and default to ascending order
+            currentSort.column = column;
+            currentSort.order = 'desc';
+        }
+
+        // Sort filteredOffers based on currentSort
+        if (currentSort.column) {
+            filteredOffers.sort((a, b) => {
+                if (a[currentSort.column] < b[currentSort.column]) {
+                    return currentSort.order === 'asc' ? -1 : 1;
+                } else if (a[currentSort.column] > b[currentSort.column]) {
+                    return currentSort.order === 'asc' ? 1 : -1;
+                } else {
+                    return 0;
+                }
+            });
+        } else {
+            // Default sorting by id in descending order when no column is selected
+            filteredOffers.sort((a, b) => b.id - a.id);
+        }
+        displayOffers(currentPage);
+    }
     document.getElementById('prevPage').addEventListener('click', () => {
         if (currentPage > 1) {
             currentPage--;
@@ -310,7 +379,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
 
     document.getElementById('nextPage').addEventListener('click', () => {
-        if ((currentPage * offersPerPage) < offers.length) {
+        if ((currentPage * offersPerPage) < filteredOffers.length) {
             currentPage++;
             displayOffers(currentPage);
         }
@@ -318,6 +387,8 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     // Function to filter offers by company name
     function filterOffersByCompany(companyName) {
+        currentSort = { column: null, order: 'asc' };
+
         if (companyName.trim() === '') {
             filteredOffers = [...offers]; // Reset filteredOffers to all data if search input is empty
         } else {
@@ -332,6 +403,9 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         // Update offers table with filtered data
         displayOffers(currentPage);
+
+        statsInfo = statsStr(filteredOffers);
+        document.getElementById('statsStr').textContent = statsInfo;
     }
 
     // Search by button
