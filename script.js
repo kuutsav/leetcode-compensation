@@ -21,7 +21,6 @@ function capitalize(str) {
 }
 
 function statsStr(data) {
-
     const nRecs = data.length;
     const startDate = data[0].creation_date;
     const endDate = data[nRecs - 1].creation_date;
@@ -255,12 +254,12 @@ document.addEventListener('DOMContentLoaded', async function () {
         const roleHeader = headerRow.insertCell();
         roleHeader.innerHTML = '<b style="font-size: 13px;" >Role</b>';
         const yoeHeader = headerRow.insertCell();
-        yoeHeader.innerHTML = `<b style="font-size: 13px;" data-column="yoe"> Yoe ${getSortArrow('yoe')}</b>`;
+        yoeHeader.innerHTML = `<b style="font-size: 13px;" data-column="yoe" role="button"> Yoe ${getSortArrow('yoe')}</b>`;
         const salaryHeader = headerRow.insertCell();
 
         salaryHeader.innerHTML = `
         <p class="text-end" style="margin-bottom: 0px;">
-        <b style="font-size: 13px;" data-column="total">${getSortArrow('total')} Total <br>
+        <b style="font-size: 13px;" data-column="total" role="button">${getSortArrow('total')} Total <br>
         <span class="text-secondary">Base</span></b></p>
         `;
 
@@ -326,12 +325,8 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         if (currentSort.column === column) {
             return currentSort.order === 'asc' ?
-                `<svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 32 32">
-                    <path d="M23.91 11.413A1 1 0 0 1 23 12h-3v17a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V12H9a1 1 0 0 1-.752-1.658l7-8a1.03 1.03 0 0 1 1.504 0l7 8a1 1 0 0 1 .159 1.071z" style="fill:#262628"/>
-                </svg>` :
-                `<svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 32 32" style="transform: rotate(180deg);">
-                    <path d="M23.91 11.413A1 1 0 0 1 23 12h-3v17a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V12H9a1 1 0 0 1-.752-1.658l7-8a1.03 1.03 0 0 1 1.504 0l7 8a1 1 0 0 1 .159 1.071z" style="fill:#262628"/>
-                </svg>`;
+                `<svg width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6V18M12 6L7 11M12 6L17 11" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>` :
+                `<svg width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6V18M12 18L7 13M12 18L17 13" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>`;
         }
         // Default state (no sorting)
         return `<svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24">
@@ -343,17 +338,17 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (currentSort.column === column) {
             // Toggle order: asc -> desc -> no sorting
             if (currentSort.order === 'asc') {
+                currentSort.column = null;
                 currentSort.order = 'desc';
             } else if (currentSort.order === 'desc') {
-                currentSort.column = null;
                 currentSort.order = 'asc'; // Set order to asc after desc
             } else {
-                currentSort.order = 'asc'; // Default to asc when no sorting
+                currentSort.order = 'desc'; // Default to asc when no sorting
             }
         } else {
             // Set new column and default to ascending order
             currentSort.column = column;
-            currentSort.order = 'asc';
+            currentSort.order = 'desc';
         }
 
         // Sort filteredOffers based on currentSort
