@@ -347,8 +347,8 @@
         "role": "SDE (PHP Web Developer)",
         "yoe": 0,
         "location": "Remote/WFH",
-        "base": 12.5,
-        "total": 95.0,
+        "base": 15.0,
+        "total": 15.0,
         "mapped_role": "SDE (PHP Web Developer)"
     },
     {
@@ -458,7 +458,7 @@
         "yoe": 4,
         "location": "Bangalore",
         "base": 42.0,
-        "total": 121.0,
+        "total": 61.0,
         "mapped_role": "MTS 4"
     },
     {
@@ -2915,17 +2915,6 @@
         "mapped_role": "B-Tech CS/IT | Mohali"
     },
     {
-        "id": "4989815",
-        "creation_date": "2024-04-08",
-        "company": "Morgan stanley",
-        "role": "Summer Technology Analyst",
-        "yoe": 0,
-        "location": "Mumbai",
-        "base": 87.0,
-        "total": 87.0,
-        "mapped_role": "Analyst"
-    },
-    {
         "id": "4986580",
         "creation_date": "2024-04-07",
         "company": "TCS",
@@ -3581,8 +3570,8 @@
         "role": "Developer Associate (T1.2)",
         "yoe": 2,
         "location": "Bangalore",
-        "base": 91.0,
-        "total": 103.0,
+        "base": 13.0,
+        "total": 13.0,
         "mapped_role": "Associate"
     },
     {
@@ -3868,7 +3857,7 @@
         "yoe": 0,
         "location": "Hyderabad",
         "base": 12.5,
-        "total": 140.0,
+        "total": 14.0,
         "mapped_role": "Associate"
     },
     {
@@ -4714,8 +4703,8 @@
         "role": "SDE",
         "yoe": 0,
         "location": "Bangalore",
-        "base": 90.9,
-        "total": 128.5,
+        "base": 20.9,
+        "total": 28.5,
         "mapped_role": "SDE I"
     },
     {
@@ -5705,7 +5694,7 @@
         "yoe": 0,
         "location": "Hyderabad",
         "base": 18.0,
-        "total": 72.0,
+        "total": 23.0,
         "mapped_role": "Associate"
     },
     {
@@ -6356,17 +6345,6 @@
         "base": 43.0,
         "total": 43.0,
         "mapped_role": "SDE III"
-    },
-    {
-        "id": "4561802",
-        "creation_date": "2024-01-14",
-        "company": "Visa",
-        "role": "Software Test Engineer",
-        "yoe": 0,
-        "location": "Austin",
-        "base": 88.0,
-        "total": 130.0,
-        "mapped_role": "Software Test Engineer"
     },
     {
         "id": "4561651",
