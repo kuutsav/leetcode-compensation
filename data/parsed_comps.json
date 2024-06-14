@@ -1,5 +1,93 @@
 [
     {
+        "id": "5313964",
+        "creation_date": "2024-06-14",
+        "company": "Allen digital",
+        "role": "SDE-1",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 18.0,
+        "total": 20.0,
+        "mapped_role": "SDE I"
+    },
+    {
+        "id": "5313877",
+        "creation_date": "2024-06-14",
+        "company": "Google",
+        "role": "Software Engineer | L3",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 23.45,
+        "total": 41.8,
+        "mapped_role": "Software Engineer | L3"
+    },
+    {
+        "id": "5313445",
+        "creation_date": "2024-06-14",
+        "company": "Zepto",
+        "role": "SDE 3",
+        "yoe": 6,
+        "location": "Bangalore",
+        "base": 70.0,
+        "total": 90.0,
+        "mapped_role": "SDE III"
+    },
+    {
+        "id": "5313445",
+        "creation_date": "2024-06-14",
+        "company": "Uber",
+        "role": "SDE 2",
+        "yoe": 6,
+        "location": "Bangalore",
+        "base": 46.0,
+        "total": 81.0,
+        "mapped_role": "SDE II"
+    },
+    {
+        "id": "5313207",
+        "creation_date": "2024-06-14",
+        "company": "PubMatic",
+        "role": "SDET-2",
+        "yoe": 3,
+        "location": "Pune",
+        "base": 22.0,
+        "total": 26.4,
+        "mapped_role": "SDET-2"
+    },
+    {
+        "id": "5313207",
+        "creation_date": "2024-06-14",
+        "company": "Druva",
+        "role": "Staff SDET (Equivalent to SDET-2)",
+        "yoe": 3,
+        "location": "Pune",
+        "base": 23.0,
+        "total": 27.2,
+        "mapped_role": "Staff SDET (Equivalent to SDET-2)"
+    },
+    {
+        "id": "5311642",
+        "creation_date": "2024-06-14",
+        "company": "Cloudera",
+        "role": "Staff Software Engineer",
+        "yoe": 10,
+        "location": "Bangalore",
+        "base": 57.0,
+        "total": 66.5,
+        "mapped_role": "Staff Software Engineer"
+    },
+    {
+        "id": "5310610",
+        "creation_date": "2024-06-14",
+        "company": "Urbint",
+        "role": "Associate Software Engineer",
+        "yoe": 0,
+        "location": "Bangalore",
+        "base": 7.0,
+        "total": 8.5,
+        "mapped_role": "Associate"
+    },
+    {
         "id": "5306482",
         "creation_date": "2024-06-13",
         "company": "Google",
