@@ -407,8 +407,6 @@ function displayOffers(page) {
     container.appendChild(table);
     renderPageOptions(); // Render page options
 
-    // set pagination info
-    setPaginationInfo();
 }
 
 function getSortArrow(column) {
@@ -470,19 +468,6 @@ function sortOffers(column) {
     }
     displayOffers(currentPage);
 }
-
-/**
- * use this to set pagination info
- */
-function setPaginationInfo(){
-    const element = document.getElementById("pagination-info");
-    const startCount = (currentPage-1) * offersPerPage;
-    const _endCount = (currentPage*offersPerPage); 
-    const endCount  = _endCount<filteredOffers.length ? _endCount:filteredOffers.length;
-    const paginationInfo = `${(startCount>0?startCount:1)} - ${endCount} of ${filteredOffers.length}`;
-    element.innerText = paginationInfo;
-}
-
 function renderPageOptions() {
     const pageSelect = document.getElementById('pageSelect');
     pageSelect.innerHTML = '';
