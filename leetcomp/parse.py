@@ -4,7 +4,7 @@ import re
 from datetime import datetime
 from typing import Any, Generator
 
-from leetcomp.consts import PARSING_PROMPT
+from leetcomp.prompts import PARSING_PROMPT
 from leetcomp.utils import (
     config,
     get_model_predict,

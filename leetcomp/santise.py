@@ -1,7 +1,7 @@
 import json
 from typing import Any
 
-from leetcomp.consts import COMPANY_CLUSTER_PROMPT, ROLE_CLUSTER_PROMPT
+from leetcomp.prompts import COMPANY_CLUSTER_PROMPT, ROLE_CLUSTER_PROMPT
 from leetcomp.utils import config
 
 
