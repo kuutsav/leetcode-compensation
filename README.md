@@ -76,7 +76,7 @@ $ python leetcomp/parse.py
 
 - [x] ~~Sort by Compensation and Yoe~~
 - [ ] ~~Search for Companies~~ and Roles
-- [ ] Add pagination
+- [x] ~~Add pagination~~
 - [ ] Filters for Yoe, Date, Compensation, Location
 
 ## Contributions
