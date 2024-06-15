@@ -1,12 +1,19 @@
 // Min Data points for box plot
 const minDataPointsForBoxPlot = 2;
-
+const minDataPoints = 3;
 // Set of roles to display in the box plot
 const validYoeBucket = new Set([
     "Entry (0-1)", "Mid (2-6)", "Senior (7-10)", "Senior + (10+)"
 ]);
 
 const offersPerPage = 10;
+
+let currentPage = 1;
+let offers = [];
+let filteredOffers = [];
+let currentSort = { column: null, order: 'asc' };
+let columnChartClicked = false;
+let totalPages = 0;
 
 // Utility function to capitalize the first letter of a string
 function capitalize(str) {
@@ -72,10 +79,32 @@ function initializeHistogramChart(chartData, baseOrTotal) {
         plotOptions: {
             series: {
                 borderWidth: 0,
-                dataLabels: { enabled: true, format: '{point.y}' }
+                // add cursor to column chart
+                cursor: 'pointer',
+                dataLabels: { enabled: true, format: '{point.y}' },
+                point: {
+                    events: {
+                        click: function () {
+                            const rangeString = this?.name;
+                            const [start,end] = rangeString.split("-").map(r=>parseInt(r));
+                            const filteredCompensation =  offers.filter(compensation=>{
+                                return compensation.total >=start && compensation.total <= end 
+                           });
+                            // make reset CTA visible
+                            setResetButtonVisibility(true);
+                            // set filtered data for offer table
+                           filteredOffers = filteredCompensation
+                           // display offer tab
+                           displayOffers(1);
+                           // scroll to offers table
+                           document.getElementById("offersTable").scrollIntoView();
+                        }
+                    }
+                }
             }
         },
-        series: [{ name: 'Total', data: chartData, color: '#55b17f' }]
+        series: [{ name: 'Total', data: chartData, color: '#55b17f' }],
+     
     });
 }
 
@@ -196,12 +225,20 @@ function plotBoxPlot(jsonData, baseOrTotal, docId, roleOrCompany, validItems) {
     initializeBoxPlotChart(docId, boxPlotData, baseOrTotal, roleOrCompany);
 }
 
+// used to set visibility of reset button
+function setResetButtonVisibility(isVisible){
+    document.getElementById("resetButton").style.visibility=isVisible?"visible":"hidden";
+}
+
+
+
 document.addEventListener('DOMContentLoaded', async function () {
-    let currentPage = 1;
-    let offers = [];
-    let filteredOffers = [];
-    let totalPages = 0;
-    let currentSort = { column: null, order: 'asc' };
+    setResetButtonVisibility(false)
+    document.getElementById("resetButton").addEventListener("click",()=>{
+        filteredOffers = offers;
+        displayOffers(1);
+        setResetButtonVisibility(false);
+    })
 
     async function fetchOffers() {
         const response = await fetch('data/parsed_comps.json');
@@ -222,165 +259,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     plotBoxPlot(filteredOffers, 'total', 'companyBoxPlot', 'company', new Set([]));
     plotBoxPlot(filteredOffers, 'total', 'yoeBucketBoxPlot', 'mapped_yoe', validYoeBucket);
 
-    function displayOffers(page) {
-        const startIndex = (page - 1) * offersPerPage;
-        const endIndex = startIndex + offersPerPage;
-        const paginatedOffers = filteredOffers.slice(startIndex, endIndex);
-
-        const table = document.createElement('table');
-        table.classList.add('table');
-        const emptyRow = table.insertRow();
-        emptyRow.innerHTML = `
-        <th style="width: 5%"></th><th style="width: 15%"></th>
-        <th style="width: 30%"></th><th style="width: 25%"></th>
-        <th style="width: 5%"></th><th style="width: 20%"></th>
-        `;
-        const headerRow = table.insertRow();
-        headerRow.style.border = 'none';
-        const indexHeader = headerRow.insertCell();
-        indexHeader.innerHTML = '<b style="font-size: 13px;" data-column="#">#</b>';
-        const idHeader = headerRow.insertCell();
-        idHeader.innerHTML = '<b style="font-size: 13px;">ID</b>';
-        const companyHeader = headerRow.insertCell();
-        companyHeader.innerHTML = `
-        <b style="font-size: 13px;" >Company<br>
-        <span class="text-secondary">Location | Date</span></b>
-        `;
-        const roleHeader = headerRow.insertCell();
-        roleHeader.innerHTML = '<b style="font-size: 13px;" >Role</b>';
-        const yoeHeader = headerRow.insertCell();
-        yoeHeader.innerHTML = `<b style="font-size: 13px;" data-column="yoe" role="button"> Yoe ${getSortArrow('yoe')}</b>`;
-        const salaryHeader = headerRow.insertCell();
-
-        salaryHeader.innerHTML = `
-        <p class="text-end" style="margin-bottom: 0px;">
-        <b style="font-size: 13px;" data-column="total" role="button">${getSortArrow('total')} Total <br>
-        <span class="text-secondary">Base</span></b></p>
-        `;
-
-        // Add event listeners to headers for sorting
-        headerRow.querySelectorAll('b[data-column]').forEach(header => {
-            header.addEventListener('click', () => {
-                const column = header.getAttribute('data-column');
-                if (column === '#') {
-                    removeSorting();
-                } else if (column) {
-                    sortOffers(column);
-                }
-            });
-        });
-
-        paginatedOffers.forEach((offer, index) => {
-            const row = table.insertRow();
-            const indexCell = row.insertCell();
-            indexCell.innerHTML = `<p>${startIndex + index + 1}</p>`;
-            const idCell = row.insertCell();
-            idCell.innerHTML = `
-            <p><abbr title="attribute">
-            <a class="link-secondary" href="https://leetcode.com/discuss/compensation/${offer.id}">
-            ${offer.id}
-            </a></abbr></p>
-            `;
-            const companyCell = row.insertCell();
-            companyCell.innerHTML = `
-            <b style="font-size: 13px;">${offer.company}</b>
-            <br><span class="text-secondary">
-            ${offer.location} | ${offer.creation_date}
-            </span>`;
-            const roleCell = row.insertCell();
-            roleCell.innerHTML = `
-            <b style="font-size: 13px;">${offer.mapped_role}</b>
-            <br><span class="text-secondary">${offer.role}</span>`;
-            const yoeCell = row.insertCell();
-            yoeCell.textContent = offer.yoe;
-            const salaryCell = row.insertCell();
-            salaryCell.innerHTML = `
-            <p class="text-end" style="margin-bottom: 0px;">
-            <b style="font-size: 13px;">${formatSalaryInINR(offer.total)}</b>
-            <br><span class="text-secondary" style="font-size: 13px;">
-            ${formatSalaryInINR(offer.base)}</span></p>
-            `;
-        });
-
-        const container = document.getElementById('offersTable');
-        container.innerHTML = '';
-        container.appendChild(table);
-
-        renderPageOptions(); // Render page options
-    }
-
-    // Function to remove sorting
-    function removeSorting() {
-        currentSort = { column: 'id', order: 'desc' };
-        filteredOffers.sort((a, b) => b.id - a.id);
-        displayOffers(currentPage);
-    }
-
-    function getSortArrow(column) {
-        const svgWidth = 16; // to be adjusted
-        const svgHeight = 18; // to be adjusted
-
-        if (currentSort.column === column) {
-            return currentSort.order === 'asc' ?
-                `<svg width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6V18M12 6L7 11M12 6L17 11" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>` :
-                `<svg width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6V18M12 18L7 13M12 18L17 13" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>`;
-        }
-        // Default state (no sorting)
-        return `<svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24">
-                <path d="M6 9l6-6 6 6z M18 15l-6 6-6-6z" fill="#000" />
-            </svg>`;
-    }
-
-    function sortOffers(column) {
-        if (currentSort.column === column) {
-            // Toggle order: asc -> desc -> no sorting
-            if (currentSort.order === 'asc') {
-                currentSort.column = null;
-                currentSort.order = 'desc';
-            } else if (currentSort.order === 'desc') {
-                currentSort.order = 'asc'; // Set order to asc after desc
-            } else {
-                currentSort.order = 'desc'; // Default to asc when no sorting
-            }
-        } else {
-            // Set new column and default to ascending order
-            currentSort.column = column;
-            currentSort.order = 'desc';
-        }
-
-        // Sort filteredOffers based on currentSort
-        if (currentSort.column) {
-            filteredOffers.sort((a, b) => {
-                if (a[currentSort.column] < b[currentSort.column]) {
-                    return currentSort.order === 'asc' ? -1 : 1;
-                } else if (a[currentSort.column] > b[currentSort.column]) {
-                    return currentSort.order === 'asc' ? 1 : -1;
-                } else {
-                    return 0;
-                }
-            });
-        } else {
-            // Default sorting by id in descending order when no column is selected
-            filteredOffers.sort((a, b) => b.id - a.id);
-        }
-        displayOffers(currentPage);
-    }
-
-    function renderPageOptions() {
-        const pageSelect = document.getElementById('pageSelect');
-        pageSelect.innerHTML = '';
-
-        for (let i = 1; i <= totalPages; i++) {
-            const option = document.createElement('option');
-            option.value = i;
-            option.textContent = i;
-            if (i === currentPage) {
-                option.selected = true;
-            }
-            pageSelect.appendChild(option);
-        }
-    }
-
     document.getElementById('prevPage').addEventListener('click', () => {
         if (currentPage > 1) {
             currentPage--;
@@ -400,6 +278,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         currentPage = parseInt(event.target.value);
         displayOffers(currentPage);
     });
+
+
 
     // Function to filter offers by company name
     function filterOffersByCompany(companyName) {
@@ -441,3 +321,179 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
     });
 });
+
+function displayOffers(page) {
+    const startIndex = (page - 1) * offersPerPage;
+    const endIndex = startIndex + offersPerPage;
+    const paginatedOffers = filteredOffers.slice(startIndex, endIndex);
+
+    const table = document.createElement('table');
+    table.classList.add('table');
+    const emptyRow = table.insertRow();
+    emptyRow.innerHTML = `
+    <th style="width: 5%"></th><th style="width: 15%"></th>
+    <th style="width: 30%"></th><th style="width: 25%"></th>
+    <th style="width: 5%"></th><th style="width: 20%"></th>
+    `;
+    const headerRow = table.insertRow();
+    headerRow.style.border = 'none';
+    const indexHeader = headerRow.insertCell();
+    indexHeader.innerHTML = '<b style="font-size: 13px;" data-column="#">#</b>';
+    const idHeader = headerRow.insertCell();
+    idHeader.innerHTML = '<b style="font-size: 13px;">ID</b>';
+    const companyHeader = headerRow.insertCell();
+    companyHeader.innerHTML = `
+    <b style="font-size: 13px;" >Company<br>
+    <span class="text-secondary">Location | Date</span></b>
+    `;
+    const roleHeader = headerRow.insertCell();
+    roleHeader.innerHTML = '<b style="font-size: 13px;" >Role</b>';
+    const yoeHeader = headerRow.insertCell();
+    yoeHeader.innerHTML = `<b style="font-size: 13px;" data-column="yoe" role="button"> Yoe ${getSortArrow('yoe')}</b>`;
+    const salaryHeader = headerRow.insertCell();
+
+    salaryHeader.innerHTML = `
+    <p class="text-end" style="margin-bottom: 0px;">
+    <b style="font-size: 13px;" data-column="total" role="button">${getSortArrow('total')} Total <br>
+    <span class="text-secondary">Base</span></b></p>
+    `;
+
+    // Add event listeners to headers for sorting
+    headerRow.querySelectorAll('b[data-column]').forEach(header => {
+        header.addEventListener('click', () => {
+            const column = header.getAttribute('data-column');
+            if (column === '#') {
+                removeSorting();
+            } else if (column) {
+                sortOffers(column);
+            }
+        });
+    });
+
+    paginatedOffers.forEach((offer, index) => {
+        const row = table.insertRow();
+        const indexCell = row.insertCell();
+        indexCell.innerHTML = `<p>${startIndex + index + 1}</p>`;
+        const idCell = row.insertCell();
+        idCell.innerHTML = `
+        <p><abbr title="attribute">
+        <a class="link-secondary" href="https://leetcode.com/discuss/compensation/${offer.id}">
+        ${offer.id}
+        </a></abbr></p>
+        `;
+        const companyCell = row.insertCell();
+        companyCell.innerHTML = `
+        <b style="font-size: 13px;">${offer.company}</b>
+        <br><span class="text-secondary">
+        ${offer.location} | ${offer.creation_date}
+        </span>`;
+        const roleCell = row.insertCell();
+        roleCell.innerHTML = `
+        <b style="font-size: 13px;">${offer.mapped_role}</b>
+        <br><span class="text-secondary">${offer.role}</span>`;
+        const yoeCell = row.insertCell();
+        yoeCell.textContent = offer.yoe;
+        const salaryCell = row.insertCell();
+        salaryCell.innerHTML = `
+        <p class="text-end" style="margin-bottom: 0px;">
+        <b style="font-size: 13px;">${formatSalaryInINR(offer.total)}</b>
+        <br><span class="text-secondary" style="font-size: 13px;">
+        ${formatSalaryInINR(offer.base)}</span></p>
+        `;
+    });
+
+    const container = document.getElementById('offersTable');
+    container.innerHTML = '';
+    container.appendChild(table);
+    renderPageOptions(); // Render page options
+
+    // set pagination info
+    setPaginationInfo();
+}
+
+function getSortArrow(column) {
+    const svgWidth = 16; // to be adjusted
+    const svgHeight = 18; // to be adjusted
+
+    if (currentSort.column === column) {
+        return currentSort.order === 'asc' ?
+            `<svg width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6V18M12 6L7 11M12 6L17 11" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>` :
+            `<svg width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6V18M12 18L7 13M12 18L17 13" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>`;
+    }
+    // Default state (no sorting)
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24">
+            <path d="M6 9l6-6 6 6z M18 15l-6 6-6-6z" fill="#000" />
+        </svg>`;
+}
+
+   // Function to remove sorting
+   function removeSorting() {
+    console.log("#");
+    currentSort = { column: 'id', order: 'desc' };
+    filteredOffers.sort((a, b) => b.id - a.id);
+    displayOffers(currentPage,filteredOffers);
+}
+
+
+
+function sortOffers(column) {
+    if (currentSort.column === column) {
+        // Toggle order: asc -> desc -> no sorting
+        if (currentSort.order === 'asc') {
+            currentSort.column = null;
+            currentSort.order = 'desc';
+        } else if (currentSort.order === 'desc') {
+            currentSort.order = 'asc'; // Set order to asc after desc
+        } else {
+            currentSort.order = 'desc'; // Default to asc when no sorting
+        }
+    } else {
+        // Set new column and default to ascending order
+        currentSort.column = column;
+        currentSort.order = 'desc';
+    }
+
+    // Sort filteredOffers based on currentSort
+    if (currentSort.column) {
+        filteredOffers.sort((a, b) => {
+            if (a[currentSort.column] < b[currentSort.column]) {
+                return currentSort.order === 'asc' ? -1 : 1;
+            } else if (a[currentSort.column] > b[currentSort.column]) {
+                return currentSort.order === 'asc' ? 1 : -1;
+            } else {
+                return 0;
+            }
+        });
+    } else {
+        // Default sorting by id in descending order when no column is selected
+        filteredOffers.sort((a, b) => b.id - a.id);
+    }
+    displayOffers(currentPage);
+}
+
+/**
+ * use this to set pagination info
+ */
+function setPaginationInfo(){
+    const element = document.getElementById("pagination-info");
+    const startCount = (currentPage-1) * offersPerPage;
+    const _endCount = (currentPage*offersPerPage); 
+    const endCount  = _endCount<filteredOffers.length ? _endCount:filteredOffers.length;
+    const paginationInfo = `${(startCount>0?startCount:1)} - ${endCount} of ${filteredOffers.length}`;
+    element.innerText = paginationInfo;
+}
+
+function renderPageOptions() {
+    const pageSelect = document.getElementById('pageSelect');
+    pageSelect.innerHTML = '';
+
+    for (let i = 1; i <= totalPages; i++) {
+        const option = document.createElement('option');
+        option.value = i;
+        option.textContent = i;
+        if (i === currentPage) {
+            option.selected = true;
+        }
+        pageSelect.appendChild(option);
+    }
+}
