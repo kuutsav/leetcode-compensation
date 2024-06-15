@@ -210,6 +210,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     let currentPage = 1;
     let offers = [];
     let filteredOffers = [];
+    let totalPages = 0;
     let currentSort = { column: null, order: 'asc' };
 
     async function fetchOffers() {
@@ -217,6 +218,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         const data = await response.json();
         offers = data;
         filteredOffers = [...offers];
+        totalPages = Math.ceil(filteredOffers.length / offersPerPage);
         displayOffers(currentPage);
     }
 
@@ -313,10 +315,12 @@ document.addEventListener('DOMContentLoaded', async function () {
         const container = document.getElementById('offersTable');
         container.innerHTML = '';
         container.appendChild(table);
+
+        renderPageOptions(); // Render page options
     }
+
     // Function to remove sorting
     function removeSorting() {
-        console.log("#");
         currentSort = { column: 'id', order: 'desc' };
         filteredOffers.sort((a, b) => b.id - a.id);
         displayOffers(currentPage);
@@ -371,6 +375,22 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
         displayOffers(currentPage);
     }
+
+    function renderPageOptions() {
+        const pageSelect = document.getElementById('pageSelect');
+        pageSelect.innerHTML = '';
+
+        for (let i = 1; i <= totalPages; i++) {
+            const option = document.createElement('option');
+            option.value = i;
+            option.textContent = i;
+            if (i === currentPage) {
+                option.selected = true;
+            }
+            pageSelect.appendChild(option);
+        }
+    }
+
     document.getElementById('prevPage').addEventListener('click', () => {
         if (currentPage > 1) {
             currentPage--;
@@ -385,6 +405,12 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
     });
 
+    // Event listener for page dropdown
+    document.getElementById('pageSelect').addEventListener('change', (event) => {
+        currentPage = parseInt(event.target.value);
+        displayOffers(currentPage);
+    });
+
     // Function to filter offers by company name
     function filterOffersByCompany(companyName) {
         currentSort = { column: null, order: 'asc' };
@@ -394,6 +420,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         } else {
             filteredOffers = offers.filter(offer => offer.company.toLowerCase().includes(companyName.toLowerCase()));
         }
+
+        totalPages = Math.ceil(filteredOffers.length / offersPerPage); // Update total pages
+        currentPage = 1; // Reset to the first page after filtering
 
         // Update graphs with filtered data
         plotHistogram(filteredOffers, 'total');
