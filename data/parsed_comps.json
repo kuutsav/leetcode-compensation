@@ -9,7 +9,7 @@
         "base": 43.0,
         "total": 45.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5315674",
@@ -21,7 +21,7 @@
         "base": 42.0,
         "total": 45.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5315450",
@@ -33,7 +33,7 @@
         "base": 50.0,
         "total": 52.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5313964",
@@ -45,7 +45,7 @@
         "base": 18.0,
         "total": 20.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5313877",
@@ -57,7 +57,7 @@
         "base": 23.5,
         "total": 41.8,
         "mapped_role": "Software Engineer | L3",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5313445",
@@ -69,7 +69,7 @@
         "base": 70.0,
         "total": 90.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5313445",
@@ -81,7 +81,7 @@
         "base": 46.0,
         "total": 81.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5313207",
@@ -93,7 +93,7 @@
         "base": 22.0,
         "total": 26.4,
         "mapped_role": "SDET-2",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5313207",
@@ -105,7 +105,7 @@
         "base": 23.0,
         "total": 27.2,
         "mapped_role": "Staff SDET (Equivalent to SDET-2)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5311642",
@@ -117,7 +117,7 @@
         "base": 57.0,
         "total": 66.5,
         "mapped_role": "Staff Software Engineer",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5311261",
@@ -129,7 +129,7 @@
         "base": 16.5,
         "total": 18.0,
         "mapped_role": "Developer-1",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5311261",
@@ -141,7 +141,7 @@
         "base": 16.5,
         "total": 18.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5310610",
@@ -153,7 +153,7 @@
         "base": 7.0,
         "total": 8.5,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5306482",
@@ -165,7 +165,7 @@
         "base": 23.0,
         "total": 39.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5306158",
@@ -177,7 +177,7 @@
         "base": 20.0,
         "total": 34.05,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5305742",
@@ -189,7 +189,7 @@
         "base": 18.5,
         "total": 30.83,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5303661",
@@ -201,7 +201,7 @@
         "base": 70.0,
         "total": 95.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5303661",
@@ -213,7 +213,7 @@
         "base": 48.0,
         "total": 78.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5303387",
@@ -225,7 +225,7 @@
         "base": 29.0,
         "total": 35.4,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5303258",
@@ -237,7 +237,7 @@
         "base": 58.0,
         "total": 58.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5303082",
@@ -249,7 +249,7 @@
         "base": 42.0,
         "total": 45.36,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5302460",
@@ -261,7 +261,7 @@
         "base": 15.5,
         "total": 17.5,
         "mapped_role": "Research Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5301743",
@@ -273,7 +273,7 @@
         "base": 20.0,
         "total": 39.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5296309",
@@ -285,7 +285,7 @@
         "base": 18.0,
         "total": 18.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5291219",
@@ -297,7 +297,7 @@
         "base": 28.0,
         "total": 40.0,
         "mapped_role": "MTS I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5291219",
@@ -309,7 +309,7 @@
         "base": 28.0,
         "total": 41.0,
         "mapped_role": "MTS I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5285854",
@@ -321,7 +321,7 @@
         "base": 36.0,
         "total": 69.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior +"
+        "mapped_yoe": "Senior + (10+)"
     },
     {
         "id": "5285039",
@@ -333,7 +333,7 @@
         "base": 32.0,
         "total": 32.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5283025",
@@ -345,7 +345,7 @@
         "base": 5.5,
         "total": 5.5,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5282240",
@@ -357,7 +357,7 @@
         "base": 6.45,
         "total": 15.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5281550",
@@ -369,7 +369,7 @@
         "base": 20.0,
         "total": 22.6,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5281182",
@@ -381,7 +381,7 @@
         "base": 20.0,
         "total": 21.0,
         "mapped_role": "Data Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5281182",
@@ -393,7 +393,7 @@
         "base": 16.0,
         "total": 18.0,
         "mapped_role": "Data Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5281182",
@@ -405,7 +405,7 @@
         "base": 18.0,
         "total": 20.0,
         "mapped_role": "Data Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5281182",
@@ -417,7 +417,7 @@
         "base": 15.0,
         "total": 16.0,
         "mapped_role": "Data Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5281046",
@@ -429,7 +429,7 @@
         "base": 38.0,
         "total": 58.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5278733",
@@ -441,7 +441,7 @@
         "base": 19.0,
         "total": 26.0,
         "mapped_role": "Advanced Developer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5278359",
@@ -453,7 +453,7 @@
         "base": 55.0,
         "total": 150.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5278203",
@@ -465,7 +465,7 @@
         "base": 18.0,
         "total": 22.0,
         "mapped_role": "Software Engineer - DevOps",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5277324",
@@ -477,7 +477,7 @@
         "base": 60.0,
         "total": 118.0,
         "mapped_role": "SSE L64",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5268851",
@@ -489,7 +489,7 @@
         "base": 17.5,
         "total": 18.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5268805",
@@ -501,7 +501,7 @@
         "base": 21.5,
         "total": 29.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5268701",
@@ -513,7 +513,7 @@
         "base": 11.0,
         "total": 13.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5268550",
@@ -525,7 +525,7 @@
         "base": 6.8,
         "total": 6.8,
         "mapped_role": "Analyst",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5266837",
@@ -537,7 +537,7 @@
         "base": 25.9,
         "total": 39.3,
         "mapped_role": "MTS, IC2",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5264823",
@@ -549,7 +549,7 @@
         "base": 21.0,
         "total": 22.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5264064",
@@ -561,7 +561,7 @@
         "base": 34.0,
         "total": 66.4,
         "mapped_role": "Software Engineer II/L61",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5263888",
@@ -573,7 +573,7 @@
         "base": 14.5,
         "total": 19.82,
         "mapped_role": "SDE G4",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5262878",
@@ -585,7 +585,7 @@
         "base": 53.0,
         "total": 97.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5262878",
@@ -597,7 +597,7 @@
         "base": 53.0,
         "total": 97.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5262618",
@@ -609,7 +609,7 @@
         "base": 32.4,
         "total": 36.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5259934",
@@ -621,7 +621,7 @@
         "base": 24.0,
         "total": 44.0,
         "mapped_role": "Software Dev. I (L60)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5259557",
@@ -633,7 +633,7 @@
         "base": 42.0,
         "total": 38.1,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5258563",
@@ -645,7 +645,7 @@
         "base": 55.0,
         "total": 77.4,
         "mapped_role": "MTS II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5258563",
@@ -657,7 +657,7 @@
         "base": 55.0,
         "total": 77.25,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5258560",
@@ -669,7 +669,7 @@
         "base": 20.0,
         "total": 24.6,
         "mapped_role": "System Development Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5258429",
@@ -681,7 +681,7 @@
         "base": 29.0,
         "total": 34.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5257449",
@@ -693,7 +693,7 @@
         "base": 90.0,
         "total": 170.0,
         "mapped_role": "SMTS (Sr. Staff ML Scientist)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5257317",
@@ -705,7 +705,7 @@
         "base": 31.5,
         "total": 31.5,
         "mapped_role": "MTS I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5256796",
@@ -717,7 +717,7 @@
         "base": 13.8,
         "total": 14.5,
         "mapped_role": "React JS",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5256796",
@@ -729,7 +729,7 @@
         "base": 11.5,
         "total": 12.7,
         "mapped_role": "N/A",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5256359",
@@ -741,7 +741,7 @@
         "base": 20.0,
         "total": 30.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5250443",
@@ -753,7 +753,7 @@
         "base": 13.0,
         "total": 16.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5247908",
@@ -765,7 +765,7 @@
         "base": 40.0,
         "total": 59.0,
         "mapped_role": "SDE2, L62",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5247521",
@@ -777,7 +777,7 @@
         "base": 60.5,
         "total": 149.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5244315",
@@ -789,7 +789,7 @@
         "base": 3.6,
         "total": 3.7,
         "mapped_role": "System Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5238122",
@@ -801,7 +801,7 @@
         "base": 8.0,
         "total": 8.0,
         "mapped_role": "SDET",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5233908",
@@ -813,7 +813,7 @@
         "base": 30.0,
         "total": 32.0,
         "mapped_role": "SE2",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5230607",
@@ -825,7 +825,7 @@
         "base": 33.0,
         "total": 64.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5230252",
@@ -837,7 +837,7 @@
         "base": 25.0,
         "total": 35.8,
         "mapped_role": "software engineer (L61)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5230252",
@@ -849,7 +849,7 @@
         "base": 29.0,
         "total": 31.9,
         "mapped_role": "senior software engineer (SSE)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5224231",
@@ -861,7 +861,7 @@
         "base": 65.0,
         "total": 75.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5222859",
@@ -873,7 +873,7 @@
         "base": 44.0,
         "total": 50.0,
         "mapped_role": "Senior-SDE",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5222838",
@@ -885,7 +885,7 @@
         "base": 50.0,
         "total": 59.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5220357",
@@ -897,7 +897,7 @@
         "base": 30.0,
         "total": 37.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5219586",
@@ -909,7 +909,7 @@
         "base": 40.0,
         "total": 60.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5217150",
@@ -921,7 +921,7 @@
         "base": 30.0,
         "total": 33.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5217044",
@@ -933,7 +933,7 @@
         "base": 36.0,
         "total": 41.6,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5217044",
@@ -945,7 +945,7 @@
         "base": 38.0,
         "total": 45.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5215322",
@@ -957,7 +957,7 @@
         "base": 18.0,
         "total": 29.0,
         "mapped_role": "AMTS",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5215322",
@@ -969,7 +969,7 @@
         "base": 15.0,
         "total": 25.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5215322",
@@ -981,7 +981,7 @@
         "base": 18.0,
         "total": 23.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5214139",
@@ -993,7 +993,7 @@
         "base": 50.0,
         "total": 52.0,
         "mapped_role": "Technical Lead",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5210990",
@@ -1005,7 +1005,7 @@
         "base": 18.0,
         "total": 23.0,
         "mapped_role": "SDE 1(Backend)",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5205822",
@@ -1017,7 +1017,7 @@
         "base": 33.0,
         "total": 47.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5203596",
@@ -1029,7 +1029,7 @@
         "base": 36.0,
         "total": 51.8,
         "mapped_role": "MTS III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5203353",
@@ -1041,7 +1041,7 @@
         "base": 20.0,
         "total": 20.0,
         "mapped_role": "Software Frontend Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5202155",
@@ -1053,7 +1053,7 @@
         "base": 40.0,
         "total": 52.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5202111",
@@ -1065,7 +1065,7 @@
         "base": 40.0,
         "total": 46.0,
         "mapped_role": "Senior Software Engineer (JL4)",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5201299",
@@ -1077,7 +1077,7 @@
         "base": 9.15,
         "total": 9.15,
         "mapped_role": "Team Leader",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5198402",
@@ -1089,7 +1089,7 @@
         "base": 18.0,
         "total": 21.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5197731",
@@ -1101,7 +1101,7 @@
         "base": 35.0,
         "total": 40.5,
         "mapped_role": "Software Engineer - P2",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5197521",
@@ -1113,7 +1113,7 @@
         "base": 50.0,
         "total": 74.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5197507",
@@ -1125,7 +1125,7 @@
         "base": 52.0,
         "total": 58.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5197290",
@@ -1137,7 +1137,7 @@
         "base": 51.0,
         "total": 54.0,
         "mapped_role": "Senior Software Engineer | Python",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5197066",
@@ -1149,7 +1149,7 @@
         "base": 41.0,
         "total": 62.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5194095",
@@ -1161,7 +1161,7 @@
         "base": 52.0,
         "total": 57.2,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5194083",
@@ -1173,7 +1173,7 @@
         "base": 27.9,
         "total": 31.0,
         "mapped_role": "SDE 2 - NodeJS",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5192990",
@@ -1185,7 +1185,7 @@
         "base": 27.0,
         "total": 29.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5192445",
@@ -1197,7 +1197,7 @@
         "base": 40.0,
         "total": 42.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5190264",
@@ -1209,7 +1209,7 @@
         "base": 33.0,
         "total": 60.0,
         "mapped_role": "SDE II (L61)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5190111",
@@ -1221,7 +1221,7 @@
         "base": 28.0,
         "total": 29.4,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5185462",
@@ -1233,7 +1233,7 @@
         "base": 37.6,
         "total": 37.6,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5178946",
@@ -1245,7 +1245,7 @@
         "base": 32.0,
         "total": 32.0,
         "mapped_role": "Software Engineer(React)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5178905",
@@ -1257,7 +1257,7 @@
         "base": 26.0,
         "total": 29.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5175536",
@@ -1269,7 +1269,7 @@
         "base": 13.0,
         "total": 14.3,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5173558",
@@ -1281,7 +1281,7 @@
         "base": 35.0,
         "total": 41.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5171528",
@@ -1293,7 +1293,7 @@
         "base": 30.0,
         "total": 42.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5171374",
@@ -1305,7 +1305,7 @@
         "base": 25.0,
         "total": 38.0,
         "mapped_role": "N/A",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5171084",
@@ -1317,7 +1317,7 @@
         "base": 23.0,
         "total": 35.3,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5169410",
@@ -1329,7 +1329,7 @@
         "base": 50.0,
         "total": 85.5,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5169009",
@@ -1341,7 +1341,7 @@
         "base": 24.0,
         "total": 29.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5168979",
@@ -1353,7 +1353,7 @@
         "base": 58.0,
         "total": 68.8,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5168799",
@@ -1365,7 +1365,7 @@
         "base": 30.0,
         "total": 30.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5168799",
@@ -1377,7 +1377,7 @@
         "base": 33.0,
         "total": 33.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5166975",
@@ -1389,7 +1389,7 @@
         "base": 37.6,
         "total": 37.6,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5166148",
@@ -1401,7 +1401,7 @@
         "base": 32.0,
         "total": 62.4,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5165433",
@@ -1413,7 +1413,7 @@
         "base": 21.0,
         "total": 24.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5163587",
@@ -1425,7 +1425,7 @@
         "base": 50.0,
         "total": 57.0,
         "mapped_role": "E3",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5162067",
@@ -1437,7 +1437,7 @@
         "base": 13.0,
         "total": 15.6,
         "mapped_role": "Software Engineer 2 Frontend UI Expert",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5161897",
@@ -1449,7 +1449,7 @@
         "base": 14.0,
         "total": 31.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5161786",
@@ -1461,7 +1461,7 @@
         "base": 17.0,
         "total": 17.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5161786",
@@ -1473,7 +1473,7 @@
         "base": 17.0,
         "total": 17.0,
         "mapped_role": "N/A",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5160528",
@@ -1485,7 +1485,7 @@
         "base": 25.0,
         "total": 35.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5160528",
@@ -1497,7 +1497,7 @@
         "base": 28.0,
         "total": 34.2,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5159972",
@@ -1509,7 +1509,7 @@
         "base": 20.0,
         "total": 20.0,
         "mapped_role": "Member of Technical Staff -1",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5159972",
@@ -1521,7 +1521,7 @@
         "base": 20.0,
         "total": 20.0,
         "mapped_role": "Member of Technical Staff -1",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5159972",
@@ -1533,7 +1533,7 @@
         "base": 20.0,
         "total": 20.0,
         "mapped_role": "Member of Technical Staff -1",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5159297",
@@ -1545,7 +1545,7 @@
         "base": 50.0,
         "total": 53.0,
         "mapped_role": "Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5158079",
@@ -1557,7 +1557,7 @@
         "base": 27.0,
         "total": 27.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5158077",
@@ -1569,7 +1569,7 @@
         "base": 14.0,
         "total": 31.3,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5157810",
@@ -1581,7 +1581,7 @@
         "base": 32.0,
         "total": 40.0,
         "mapped_role": "SDE 2 / Data Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5157810",
@@ -1593,7 +1593,7 @@
         "base": 27.0,
         "total": 35.0,
         "mapped_role": "Data Engineer- II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5157810",
@@ -1605,7 +1605,7 @@
         "base": 28.0,
         "total": 28.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5156641",
@@ -1617,7 +1617,7 @@
         "base": 21.9,
         "total": 51.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5156338",
@@ -1629,7 +1629,7 @@
         "base": 45.0,
         "total": 45.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5156292",
@@ -1641,7 +1641,7 @@
         "base": 39.0,
         "total": 70.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5156292",
@@ -1653,7 +1653,7 @@
         "base": 50.0,
         "total": 60.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5155298",
@@ -1665,7 +1665,7 @@
         "base": 21.0,
         "total": 30.5,
         "mapped_role": "N/A",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5155298",
@@ -1677,7 +1677,7 @@
         "base": 27.5,
         "total": 33.1,
         "mapped_role": "N/A",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5155022",
@@ -1689,7 +1689,7 @@
         "base": 11.5,
         "total": 15.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5155022",
@@ -1701,7 +1701,7 @@
         "base": 11.5,
         "total": 15.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5153604",
@@ -1713,7 +1713,7 @@
         "base": 10.0,
         "total": 12.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5153050",
@@ -1725,7 +1725,7 @@
         "base": 42.0,
         "total": 57.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5151611",
@@ -1737,7 +1737,7 @@
         "base": 18.0,
         "total": 23.96,
         "mapped_role": "SDE III (Android)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5150972",
@@ -1749,7 +1749,7 @@
         "base": 21.0,
         "total": 27.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5148235",
@@ -1761,7 +1761,7 @@
         "base": 14.0,
         "total": 18.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5143572",
@@ -1773,7 +1773,7 @@
         "base": 17.7,
         "total": 20.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5143311",
@@ -1785,7 +1785,7 @@
         "base": 8.0,
         "total": 10.0,
         "mapped_role": "Backend Developer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5143146",
@@ -1797,7 +1797,7 @@
         "base": 32.0,
         "total": 40.0,
         "mapped_role": "SWE 2",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5142377",
@@ -1809,7 +1809,7 @@
         "base": 24.0,
         "total": 28.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5142377",
@@ -1821,7 +1821,7 @@
         "base": 25.0,
         "total": 28.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5142316",
@@ -1833,7 +1833,7 @@
         "base": 17.5,
         "total": 20.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5139147",
@@ -1845,7 +1845,7 @@
         "base": 42.0,
         "total": 71.62,
         "mapped_role": "SDE1, G5",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5136793",
@@ -1857,7 +1857,7 @@
         "base": 30.0,
         "total": 38.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5136336",
@@ -1869,7 +1869,7 @@
         "base": 23.4,
         "total": 28.35,
         "mapped_role": "Associate",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5131068",
@@ -1881,7 +1881,7 @@
         "base": 53.0,
         "total": 115.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5128141",
@@ -1893,7 +1893,7 @@
         "base": 14.0,
         "total": 26.5,
         "mapped_role": "Developer C/C++ , Java Developer, API Developer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5128141",
@@ -1905,7 +1905,7 @@
         "base": 14.0,
         "total": 26.5,
         "mapped_role": "Developer C/C++ , Java Developer, API Developer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5128141",
@@ -1917,7 +1917,7 @@
         "base": 14.0,
         "total": 26.5,
         "mapped_role": "Developer C/C++ , Java Developer, API Developer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5126823",
@@ -1929,7 +1929,7 @@
         "base": 27.0,
         "total": 41.0,
         "mapped_role": "MTS II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5125932",
@@ -1941,7 +1941,7 @@
         "base": 37.0,
         "total": 46.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5124773",
@@ -1953,7 +1953,7 @@
         "base": 36.0,
         "total": 70.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5124516",
@@ -1965,7 +1965,7 @@
         "base": 30.0,
         "total": 50.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5122326",
@@ -1977,7 +1977,7 @@
         "base": 25.0,
         "total": 25.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5122326",
@@ -1989,7 +1989,7 @@
         "base": 28.0,
         "total": 28.0,
         "mapped_role": "N/A",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5121092",
@@ -2001,7 +2001,7 @@
         "base": 30.0,
         "total": 33.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5119996",
@@ -2013,7 +2013,7 @@
         "base": 21.0,
         "total": 25.02,
         "mapped_role": "Graduate Software Engineer Trainee (GSET)",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5119970",
@@ -2025,7 +2025,7 @@
         "base": 31.0,
         "total": 55.0,
         "mapped_role": "Software Engineer II - L61",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5116157",
@@ -2037,7 +2037,7 @@
         "base": 61.0,
         "total": 145.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5115817",
@@ -2049,7 +2049,7 @@
         "base": 42.0,
         "total": 68.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5114383",
@@ -2061,7 +2061,7 @@
         "base": 20.0,
         "total": 25.3,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5110862",
@@ -2073,7 +2073,7 @@
         "base": 28.0,
         "total": 45.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5109829",
@@ -2085,7 +2085,7 @@
         "base": 24.0,
         "total": 30.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5107677",
@@ -2097,7 +2097,7 @@
         "base": 11.5,
         "total": 12.65,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5105038",
@@ -2109,7 +2109,7 @@
         "base": 26.0,
         "total": 30.0,
         "mapped_role": "Software Developer 3 - Member of Technical Staff",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5105016",
@@ -2121,7 +2121,7 @@
         "base": 27.0,
         "total": 29.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5104967",
@@ -2133,7 +2133,7 @@
         "base": 16.0,
         "total": 16.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5104558",
@@ -2145,7 +2145,7 @@
         "base": 23.0,
         "total": 26.8,
         "mapped_role": "Consultant Data Scientist",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5103733",
@@ -2157,7 +2157,7 @@
         "base": 26.0,
         "total": 28.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5101786",
@@ -2169,7 +2169,7 @@
         "base": 25.0,
         "total": 27.5,
         "mapped_role": "Senior Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5100686",
@@ -2181,7 +2181,7 @@
         "base": 23.0,
         "total": 35.8,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5096595",
@@ -2193,7 +2193,7 @@
         "base": 58.0,
         "total": 83.4,
         "mapped_role": "Sr. Machine Learning Engineer L64",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5096497",
@@ -2205,7 +2205,7 @@
         "base": 12.8,
         "total": 14.3,
         "mapped_role": "Developer - Consultant",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5096259",
@@ -2217,7 +2217,7 @@
         "base": 37.0,
         "total": 78.5,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5096179",
@@ -2229,7 +2229,7 @@
         "base": 42.0,
         "total": 72.0,
         "mapped_role": "MTS II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5094548",
@@ -2241,7 +2241,7 @@
         "base": 70.0,
         "total": 100.0,
         "mapped_role": "Senior Software Engineer - L7",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5091279",
@@ -2253,7 +2253,7 @@
         "base": 17.0,
         "total": 56.45,
         "mapped_role": "New Grad Software Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5089213",
@@ -2265,7 +2265,7 @@
         "base": 56.0,
         "total": 60.0,
         "mapped_role": "Tech Lead 2",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5089140",
@@ -2277,7 +2277,7 @@
         "base": 29.0,
         "total": 36.25,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5088905",
@@ -2289,7 +2289,7 @@
         "base": 18.75,
         "total": 18.75,
         "mapped_role": "Software Engineer 2 (Frontend)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5088752",
@@ -2301,7 +2301,7 @@
         "base": 11.5,
         "total": 13.5,
         "mapped_role": "SDE-1 React",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5086998",
@@ -2313,7 +2313,7 @@
         "base": 13.65,
         "total": 14.31,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5080284",
@@ -2325,7 +2325,7 @@
         "base": 69.0,
         "total": 84.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5079255",
@@ -2337,7 +2337,7 @@
         "base": 37.0,
         "total": 42.7,
         "mapped_role": "Sr. Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5078166",
@@ -2349,7 +2349,7 @@
         "base": 22.0,
         "total": 47.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5077989",
@@ -2361,7 +2361,7 @@
         "base": 42.0,
         "total": 60.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5076163",
@@ -2373,7 +2373,7 @@
         "base": 35.0,
         "total": 43.0,
         "mapped_role": "Backend Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5075875",
@@ -2385,7 +2385,7 @@
         "base": 30.0,
         "total": 46.34,
         "mapped_role": "Senior Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5075119",
@@ -2397,7 +2397,7 @@
         "base": 32.0,
         "total": 55.0,
         "mapped_role": "Computer Scientist - 1",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5075080",
@@ -2409,7 +2409,7 @@
         "base": 32.0,
         "total": 60.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5074621",
@@ -2421,7 +2421,7 @@
         "base": 28.0,
         "total": 47.5,
         "mapped_role": "L61(SDE 2)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5074115",
@@ -2433,7 +2433,7 @@
         "base": 23.5,
         "total": 47.0,
         "mapped_role": "Software Engineer II (L3)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5073935",
@@ -2445,7 +2445,7 @@
         "base": 26.0,
         "total": 26.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5073911",
@@ -2457,7 +2457,7 @@
         "base": 28.0,
         "total": 30.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5072530",
@@ -2469,7 +2469,7 @@
         "base": 6.0,
         "total": 7.0,
         "mapped_role": "Member Technical Staff",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5072530",
@@ -2481,7 +2481,7 @@
         "base": 9.0,
         "total": 9.0,
         "mapped_role": "R&D Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5072530",
@@ -2493,7 +2493,7 @@
         "base": 8.0,
         "total": 8.0,
         "mapped_role": "Others",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5070616",
@@ -2505,7 +2505,7 @@
         "base": 28.82,
         "total": 36.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5070578",
@@ -2517,7 +2517,7 @@
         "base": 33.2,
         "total": 54.5,
         "mapped_role": "MTS II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5070550",
@@ -2529,7 +2529,7 @@
         "base": 32.4,
         "total": 36.0,
         "mapped_role": "SDE-2 Android",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5067138",
@@ -2541,7 +2541,7 @@
         "base": 31.4,
         "total": 62.0,
         "mapped_role": "L4 - Application Engineer",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5066825",
@@ -2553,7 +2553,7 @@
         "base": 30.0,
         "total": 58.18,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5066780",
@@ -2565,7 +2565,7 @@
         "base": 19.0,
         "total": 20.0,
         "mapped_role": "Data Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5065912",
@@ -2577,7 +2577,7 @@
         "base": 26.0,
         "total": 32.0,
         "mapped_role": "Software Development Engineer II - Fulfillment Services Group (FSG)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5065912",
@@ -2589,7 +2589,7 @@
         "base": 26.0,
         "total": 44.0,
         "mapped_role": "Software Engineer II(L61) \u2013 Consumer Identity Experiences Team",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5064870",
@@ -2601,7 +2601,7 @@
         "base": 25.0,
         "total": 33.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5063688",
@@ -2613,7 +2613,7 @@
         "base": 40.5,
         "total": 47.5,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5062683",
@@ -2625,7 +2625,7 @@
         "base": 32.0,
         "total": 46.2,
         "mapped_role": "Data Scientist 2",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5059079",
@@ -2637,7 +2637,7 @@
         "base": 25.0,
         "total": 49.67,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5058626",
@@ -2649,7 +2649,7 @@
         "base": 32.51,
         "total": 38.0,
         "mapped_role": "MTS II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5058364",
@@ -2661,7 +2661,7 @@
         "base": 19.5,
         "total": 19.5,
         "mapped_role": "N/A",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5058364",
@@ -2673,7 +2673,7 @@
         "base": 19.5,
         "total": 23.25,
         "mapped_role": "N/A",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5058364",
@@ -2685,7 +2685,7 @@
         "base": 21.0,
         "total": 25.5,
         "mapped_role": "N/A",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5057971",
@@ -2697,7 +2697,7 @@
         "base": 30.0,
         "total": 55.0,
         "mapped_role": "Software Engineer - ICT3",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5057019",
@@ -2709,7 +2709,7 @@
         "base": 9.6,
         "total": 12.54,
         "mapped_role": "Software Developer 1",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5056212",
@@ -2721,7 +2721,7 @@
         "base": 19.17,
         "total": 26.42,
         "mapped_role": "Software Development Engineer 1 (SDE-1)",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5056093",
@@ -2733,7 +2733,7 @@
         "base": 12.0,
         "total": 13.0,
         "mapped_role": "Analyst",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5055789",
@@ -2745,7 +2745,7 @@
         "base": 40.0,
         "total": 40.0,
         "mapped_role": "Software Engineer III ( AVP )",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5050978",
@@ -2757,7 +2757,7 @@
         "base": 23.0,
         "total": 39.25,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5048751",
@@ -2769,7 +2769,7 @@
         "base": 6.5,
         "total": 7.5,
         "mapped_role": "Data Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5047983",
@@ -2781,7 +2781,7 @@
         "base": 16.0,
         "total": 16.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5046145",
@@ -2793,7 +2793,7 @@
         "base": 40.0,
         "total": 52.5,
         "mapped_role": "MTS III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5046134",
@@ -2805,7 +2805,7 @@
         "base": 32.0,
         "total": 51.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5045806",
@@ -2817,7 +2817,7 @@
         "base": 29.0,
         "total": 44.0,
         "mapped_role": "Senior Software Engineer (T24)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5045467",
@@ -2829,7 +2829,7 @@
         "base": 30.0,
         "total": 56.48,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5044736",
@@ -2841,7 +2841,7 @@
         "base": 21.0,
         "total": 22.26,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5044166",
@@ -2853,7 +2853,7 @@
         "base": 18.0,
         "total": 18.0,
         "mapped_role": "Application Developer (IC-2)",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5042984",
@@ -2865,7 +2865,7 @@
         "base": 15.5,
         "total": 16.27,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5042867",
@@ -2877,7 +2877,7 @@
         "base": 10.0,
         "total": 10.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5041945",
@@ -2889,7 +2889,7 @@
         "base": 15.54,
         "total": 18.92,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5040197",
@@ -2901,7 +2901,7 @@
         "base": 26.5,
         "total": 30.5,
         "mapped_role": "Senior Software Engineer, Backend",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5036548",
@@ -2913,7 +2913,7 @@
         "base": 15.79,
         "total": 17.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5035880",
@@ -2925,7 +2925,7 @@
         "base": 22.0,
         "total": 35.0,
         "mapped_role": "Business Intelligence Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5035880",
@@ -2937,7 +2937,7 @@
         "base": 22.5,
         "total": 30.0,
         "mapped_role": "Senior Data Scientist",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5035880",
@@ -2949,7 +2949,7 @@
         "base": 24.0,
         "total": 26.0,
         "mapped_role": "Data Scientist",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5035670",
@@ -2961,7 +2961,7 @@
         "base": 38.0,
         "total": 38.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5034301",
@@ -2973,7 +2973,7 @@
         "base": 42.0,
         "total": 75.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5032331",
@@ -2985,7 +2985,7 @@
         "base": 23.0,
         "total": 33.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5030873",
@@ -2997,7 +2997,7 @@
         "base": 37.0,
         "total": 71.11,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5030502",
@@ -3009,7 +3009,7 @@
         "base": 28.0,
         "total": 28.0,
         "mapped_role": "Senior AI developer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5028660",
@@ -3021,7 +3021,7 @@
         "base": 18.0,
         "total": 26.1,
         "mapped_role": "SDE-III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5028426",
@@ -3033,7 +3033,7 @@
         "base": 23.0,
         "total": 23.0,
         "mapped_role": "Front End Developer (React + JS)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5028016",
@@ -3045,7 +3045,7 @@
         "base": 5.5,
         "total": 5.5,
         "mapped_role": "Developer Trainee",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5027869",
@@ -3057,7 +3057,7 @@
         "base": 61.0,
         "total": 109.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "5022481",
@@ -3069,7 +3069,7 @@
         "base": 24.0,
         "total": 24.0,
         "mapped_role": "Java Backend Developer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5021932",
@@ -3081,7 +3081,7 @@
         "base": 13.0,
         "total": 19.0,
         "mapped_role": "Analyst",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5017774",
@@ -3093,7 +3093,7 @@
         "base": 50.0,
         "total": 75.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5016040",
@@ -3105,7 +3105,7 @@
         "base": 35.0,
         "total": 80.0,
         "mapped_role": "SSE-1 frontend (web)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5014744",
@@ -3117,7 +3117,7 @@
         "base": 33.0,
         "total": 35.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5014274",
@@ -3129,7 +3129,7 @@
         "base": 15.0,
         "total": 20.5,
         "mapped_role": "Software Engineer - Level 3",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5013550",
@@ -3141,7 +3141,7 @@
         "base": 27.0,
         "total": 41.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5011542",
@@ -3153,7 +3153,7 @@
         "base": 18.31,
         "total": 67.47,
         "mapped_role": "MTS I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5010394",
@@ -3165,7 +3165,7 @@
         "base": 7.2,
         "total": 7.2,
         "mapped_role": "Java Developer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5010220",
@@ -3177,7 +3177,7 @@
         "base": 7.2,
         "total": 8.0,
         "mapped_role": "Trainee Software Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "5009746",
@@ -3189,7 +3189,7 @@
         "base": 13.0,
         "total": 14.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5007514",
@@ -3201,7 +3201,7 @@
         "base": 40.0,
         "total": 46.0,
         "mapped_role": "Senior Member of Technical Staff (SMTS)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5005949",
@@ -3213,7 +3213,7 @@
         "base": 26.0,
         "total": 33.2,
         "mapped_role": "Analyst",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5005310",
@@ -3225,7 +3225,7 @@
         "base": 18.5,
         "total": 31.35,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5004998",
@@ -3237,7 +3237,7 @@
         "base": 21.0,
         "total": 33.6,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5002901",
@@ -3249,7 +3249,7 @@
         "base": 23.3,
         "total": 33.8,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5001972",
@@ -3261,7 +3261,7 @@
         "base": 18.0,
         "total": 18.0,
         "mapped_role": "Engineer 2 - UI",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5001972",
@@ -3273,7 +3273,7 @@
         "base": 15.0,
         "total": 16.0,
         "mapped_role": "Product Development Engineer 2 - Frontend",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5001588",
@@ -3285,7 +3285,7 @@
         "base": 42.0,
         "total": 61.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5000467",
@@ -3297,7 +3297,7 @@
         "base": 29.0,
         "total": 36.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4998285",
@@ -3309,7 +3309,7 @@
         "base": 12.0,
         "total": 12.6,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4998224",
@@ -3321,7 +3321,7 @@
         "base": 15.5,
         "total": 21.0,
         "mapped_role": "Engineer 2",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4998028",
@@ -3333,7 +3333,7 @@
         "base": 7.0,
         "total": 7.6,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4997489",
@@ -3345,7 +3345,7 @@
         "base": 15.8,
         "total": 20.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4996496",
@@ -3357,7 +3357,7 @@
         "base": 34.0,
         "total": 43.0,
         "mapped_role": "Software developer 3",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4993924",
@@ -3369,7 +3369,7 @@
         "base": 37.0,
         "total": 53.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4993904",
@@ -3381,7 +3381,7 @@
         "base": 42.0,
         "total": 47.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4993406",
@@ -3393,7 +3393,7 @@
         "base": 28.0,
         "total": 40.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4992921",
@@ -3405,7 +3405,7 @@
         "base": 33.0,
         "total": 42.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4992865",
@@ -3417,7 +3417,7 @@
         "base": 70.0,
         "total": 145.0,
         "mapped_role": "Senior Applied Scientist (L64)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4989820",
@@ -3429,7 +3429,7 @@
         "base": 32.0,
         "total": 32.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4986580",
@@ -3441,7 +3441,7 @@
         "base": 7.1,
         "total": 7.7,
         "mapped_role": "Systems Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4985378",
@@ -3453,7 +3453,7 @@
         "base": 49.0,
         "total": 75.0,
         "mapped_role": "IC4",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4985367",
@@ -3465,7 +3465,7 @@
         "base": 20.0,
         "total": 21.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4985361",
@@ -3477,7 +3477,7 @@
         "base": 30.0,
         "total": 46.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4983296",
@@ -3489,7 +3489,7 @@
         "base": 21.34,
         "total": 22.84,
         "mapped_role": "Data Engineer Consultant",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4982559",
@@ -3501,7 +3501,7 @@
         "base": 22.0,
         "total": 22.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4978798",
@@ -3513,7 +3513,7 @@
         "base": 20.0,
         "total": 32.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4977385",
@@ -3525,7 +3525,7 @@
         "base": 19.2,
         "total": 25.2,
         "mapped_role": "Associate",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4975176",
@@ -3537,7 +3537,7 @@
         "base": 30.0,
         "total": 48.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4974452",
@@ -3549,7 +3549,7 @@
         "base": 23.84,
         "total": 48.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4974043",
@@ -3561,7 +3561,7 @@
         "base": 28.8,
         "total": 45.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4973866",
@@ -3573,7 +3573,7 @@
         "base": 23.5,
         "total": 26.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4973016",
@@ -3585,7 +3585,7 @@
         "base": 20.0,
         "total": 20.0,
         "mapped_role": "Others",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4973016",
@@ -3597,7 +3597,7 @@
         "base": 18.0,
         "total": 18.0,
         "mapped_role": "Others",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4971402",
@@ -3609,7 +3609,7 @@
         "base": 15.5,
         "total": 31.0,
         "mapped_role": "Others",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4971002",
@@ -3621,7 +3621,7 @@
         "base": 23.0,
         "total": 38.35,
         "mapped_role": "Software Engineer 1 (L3)",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4969202",
@@ -3633,7 +3633,7 @@
         "base": 71.0,
         "total": 106.0,
         "mapped_role": "MTS III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4968866",
@@ -3645,7 +3645,7 @@
         "base": 27.0,
         "total": 27.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4968661",
@@ -3657,7 +3657,7 @@
         "base": 32.0,
         "total": 40.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4966918",
@@ -3669,7 +3669,7 @@
         "base": 50.0,
         "total": 57.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4966889",
@@ -3681,7 +3681,7 @@
         "base": 43.0,
         "total": 64.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4963671",
@@ -3693,7 +3693,7 @@
         "base": 19.0,
         "total": 21.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4962984",
@@ -3705,7 +3705,7 @@
         "base": 19.17,
         "total": 31.8,
         "mapped_role": "Software Development Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4959221",
@@ -3717,7 +3717,7 @@
         "base": 35.0,
         "total": 59.8,
         "mapped_role": "ICT 3",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4957689",
@@ -3729,7 +3729,7 @@
         "base": 23.0,
         "total": 43.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4956551",
@@ -3741,7 +3741,7 @@
         "base": 16.0,
         "total": 27.0,
         "mapped_role": "Software Quality Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4955273",
@@ -3753,7 +3753,7 @@
         "base": 24.0,
         "total": 36.0,
         "mapped_role": "SDE-3 (IN3)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4954586",
@@ -3765,7 +3765,7 @@
         "base": 37.0,
         "total": 43.5,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4953338",
@@ -3777,7 +3777,7 @@
         "base": 15.25,
         "total": 27.0,
         "mapped_role": "Member of Technical Staff (MTS/SWE)",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4951942",
@@ -3789,7 +3789,7 @@
         "base": 18.0,
         "total": 32.57,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4949381",
@@ -3801,7 +3801,7 @@
         "base": 10.25,
         "total": 10.25,
         "mapped_role": "Others",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4949381",
@@ -3813,7 +3813,7 @@
         "base": 10.25,
         "total": 10.75,
         "mapped_role": "Others",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4948624",
@@ -3825,7 +3825,7 @@
         "base": 42.0,
         "total": 66.0,
         "mapped_role": "MTS II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4946616",
@@ -3837,7 +3837,7 @@
         "base": 58.0,
         "total": 76.0,
         "mapped_role": "Senior SDET",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4946616",
@@ -3849,7 +3849,7 @@
         "base": 65.0,
         "total": 65.0,
         "mapped_role": "QA Automation Engineer",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4945800",
@@ -3861,7 +3861,7 @@
         "base": 9.36,
         "total": 9.36,
         "mapped_role": "Others",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4945534",
@@ -3873,7 +3873,7 @@
         "base": 24.0,
         "total": 31.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4945177",
@@ -3885,7 +3885,7 @@
         "base": 24.0,
         "total": 44.4,
         "mapped_role": "Salesforce developer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4945075",
@@ -3897,7 +3897,7 @@
         "base": 31.0,
         "total": 39.6,
         "mapped_role": "Associate",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4944826",
@@ -3909,7 +3909,7 @@
         "base": 52.0,
         "total": 52.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4944826",
@@ -3921,7 +3921,7 @@
         "base": 54.0,
         "total": 54.0,
         "mapped_role": "N/A",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4944754",
@@ -3933,7 +3933,7 @@
         "base": 26.75,
         "total": 46.0,
         "mapped_role": "Software Engineer - IC3",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4943342",
@@ -3945,7 +3945,7 @@
         "base": 38.0,
         "total": 75.86,
         "mapped_role": "SWE III - ML (L4)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4942578",
@@ -3957,7 +3957,7 @@
         "base": 8.0,
         "total": 8.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4942340",
@@ -3969,7 +3969,7 @@
         "base": 4.0,
         "total": 4.36,
         "mapped_role": "Management Trainee",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4939965",
@@ -3981,7 +3981,7 @@
         "base": 24.0,
         "total": 34.0,
         "mapped_role": "IN3",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4939058",
@@ -3993,7 +3993,7 @@
         "base": 21.0,
         "total": 37.0,
         "mapped_role": "Software Dev. I (L3)",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4939044",
@@ -4005,7 +4005,7 @@
         "base": 33.0,
         "total": 33.0,
         "mapped_role": "SDE-2 (backend)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4938846",
@@ -4017,7 +4017,7 @@
         "base": 18.0,
         "total": 30.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4937610",
@@ -4029,7 +4029,7 @@
         "base": 22.7,
         "total": 25.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4937260",
@@ -4041,7 +4041,7 @@
         "base": 21.0,
         "total": 23.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4937260",
@@ -4053,7 +4053,7 @@
         "base": 15.0,
         "total": 15.6,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4932337",
@@ -4065,7 +4065,7 @@
         "base": 32.0,
         "total": 40.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4929637",
@@ -4077,7 +4077,7 @@
         "base": 29.0,
         "total": 32.8,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4929164",
@@ -4089,7 +4089,7 @@
         "base": 34.0,
         "total": 41.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4929120",
@@ -4101,7 +4101,7 @@
         "base": 17.5,
         "total": 18.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4928146",
@@ -4113,7 +4113,7 @@
         "base": 9.55,
         "total": 11.55,
         "mapped_role": "Others",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4928118",
@@ -4125,7 +4125,7 @@
         "base": 9.55,
         "total": 11.09,
         "mapped_role": "Others",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4927613",
@@ -4137,7 +4137,7 @@
         "base": 14.5,
         "total": 19.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4927560",
@@ -4149,7 +4149,7 @@
         "base": 41.0,
         "total": 48.0,
         "mapped_role": "Java Technical Lead",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4927473",
@@ -4161,7 +4161,7 @@
         "base": 38.0,
         "total": 80.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4925605",
@@ -4173,7 +4173,7 @@
         "base": 29.0,
         "total": 34.0,
         "mapped_role": "SMTS ~ Software Engineer 2",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4924662",
@@ -4185,7 +4185,7 @@
         "base": 26.0,
         "total": 43.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4923693",
@@ -4197,7 +4197,7 @@
         "base": 16.8,
         "total": 24.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4922094",
@@ -4209,7 +4209,7 @@
         "base": 5.0,
         "total": 5.4,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4921481",
@@ -4221,7 +4221,7 @@
         "base": 28.0,
         "total": 57.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4919354",
@@ -4233,7 +4233,7 @@
         "base": 18.0,
         "total": 21.0,
         "mapped_role": "Cloud Software Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4918607",
@@ -4245,7 +4245,7 @@
         "base": 32.0,
         "total": 51.7,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4918102",
@@ -4257,7 +4257,7 @@
         "base": 50.0,
         "total": 55.0,
         "mapped_role": "SSE (A3)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4916827",
@@ -4269,7 +4269,7 @@
         "base": 18.0,
         "total": 32.57,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4915947",
@@ -4281,7 +4281,7 @@
         "base": 41.0,
         "total": 67.5,
         "mapped_role": "MTS II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4915852",
@@ -4293,7 +4293,7 @@
         "base": 10.5,
         "total": 12.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4914392",
@@ -4305,7 +4305,7 @@
         "base": 31.0,
         "total": 38.0,
         "mapped_role": "SDE (i-level)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4910492",
@@ -4317,7 +4317,7 @@
         "base": 29.0,
         "total": 33.35,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4909153",
@@ -4329,7 +4329,7 @@
         "base": 37.0,
         "total": 49.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4908319",
@@ -4341,7 +4341,7 @@
         "base": 40.0,
         "total": 50.0,
         "mapped_role": "IN4",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4907827",
@@ -4353,7 +4353,7 @@
         "base": 10.85,
         "total": 10.85,
         "mapped_role": "Solution Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4907815",
@@ -4365,7 +4365,7 @@
         "base": 18.0,
         "total": 28.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4907589",
@@ -4377,7 +4377,7 @@
         "base": 18.5,
         "total": 18.5,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4907582",
@@ -4389,7 +4389,7 @@
         "base": 17.0,
         "total": 27.0,
         "mapped_role": "Software Engineer Backend - 1",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4907151",
@@ -4401,7 +4401,7 @@
         "base": 50.0,
         "total": 60.0,
         "mapped_role": "SSE-Level2",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4906917",
@@ -4413,7 +4413,7 @@
         "base": 15.0,
         "total": 15.0,
         "mapped_role": "SDE-1 Frontend",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4906917",
@@ -4425,7 +4425,7 @@
         "base": 15.0,
         "total": 15.0,
         "mapped_role": "Product Development Engineer 2 - Frontend",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4902855",
@@ -4437,7 +4437,7 @@
         "base": 41.0,
         "total": 141.0,
         "mapped_role": "SDE II Backend",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4901346",
@@ -4449,7 +4449,7 @@
         "base": 27.0,
         "total": 36.2,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4900427",
@@ -4461,7 +4461,7 @@
         "base": 8.0,
         "total": 11.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4900427",
@@ -4473,7 +4473,7 @@
         "base": 8.0,
         "total": 11.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4900427",
@@ -4485,7 +4485,7 @@
         "base": 8.0,
         "total": 11.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4898399",
@@ -4497,7 +4497,7 @@
         "base": 29.0,
         "total": 32.48,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4897786",
@@ -4509,7 +4509,7 @@
         "base": 6.0,
         "total": 8.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4896191",
@@ -4521,7 +4521,7 @@
         "base": 24.6,
         "total": 34.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4893694",
@@ -4533,7 +4533,7 @@
         "base": 8.5,
         "total": 9.0,
         "mapped_role": "Analyst",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4893373",
@@ -4545,7 +4545,7 @@
         "base": 5.0,
         "total": 5.0,
         "mapped_role": "Graduate Trainee",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4893373",
@@ -4557,7 +4557,7 @@
         "base": 6.5,
         "total": 6.5,
         "mapped_role": "Junior software developer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4893373",
@@ -4569,7 +4569,7 @@
         "base": 7.5,
         "total": 7.5,
         "mapped_role": "Junior software developer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4893214",
@@ -4581,7 +4581,7 @@
         "base": 30.0,
         "total": 44.5,
         "mapped_role": "Senior Software Engineer (IC3)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4892265",
@@ -4593,7 +4593,7 @@
         "base": 15.0,
         "total": 30.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4892265",
@@ -4605,7 +4605,7 @@
         "base": 15.0,
         "total": 30.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4892265",
@@ -4617,7 +4617,7 @@
         "base": 15.0,
         "total": 30.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4889764",
@@ -4629,7 +4629,7 @@
         "base": 27.0,
         "total": 38.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4887839",
@@ -4641,7 +4641,7 @@
         "base": 12.5,
         "total": 14.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4887649",
@@ -4653,7 +4653,7 @@
         "base": 17.0,
         "total": 28.0,
         "mapped_role": "Software Quality Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4887511",
@@ -4665,7 +4665,7 @@
         "base": 7.0,
         "total": 7.2,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4887128",
@@ -4677,7 +4677,7 @@
         "base": 7.0,
         "total": 8.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4885215",
@@ -4689,7 +4689,7 @@
         "base": 26.3,
         "total": 55.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4884365",
@@ -4701,7 +4701,7 @@
         "base": 12.0,
         "total": 15.5,
         "mapped_role": "Engineer-1",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4882856",
@@ -4713,7 +4713,7 @@
         "base": 11.5,
         "total": 12.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4881760",
@@ -4725,7 +4725,7 @@
         "base": 20.0,
         "total": 32.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4881109",
@@ -4737,7 +4737,7 @@
         "base": 20.0,
         "total": 24.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4879763",
@@ -4749,7 +4749,7 @@
         "base": 22.0,
         "total": 25.0,
         "mapped_role": "System Software Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4878105",
@@ -4761,7 +4761,7 @@
         "base": 14.0,
         "total": 18.37,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4877848",
@@ -4773,7 +4773,7 @@
         "base": 30.0,
         "total": 44.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4877356",
@@ -4785,7 +4785,7 @@
         "base": 22.0,
         "total": 22.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4876291",
@@ -4797,7 +4797,7 @@
         "base": 21.5,
         "total": 28.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4875792",
@@ -4809,7 +4809,7 @@
         "base": 42.0,
         "total": 49.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4875647",
@@ -4821,7 +4821,7 @@
         "base": 18.0,
         "total": 32.57,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4875209",
@@ -4833,7 +4833,7 @@
         "base": 7.0,
         "total": 7.6,
         "mapped_role": "Systems Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4874672",
@@ -4845,7 +4845,7 @@
         "base": 3.75,
         "total": 3.75,
         "mapped_role": "Associate",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4873406",
@@ -4857,7 +4857,7 @@
         "base": 3.83,
         "total": 4.61,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4871541",
@@ -4869,7 +4869,7 @@
         "base": 18.0,
         "total": 40.93,
         "mapped_role": "Engineer (Software)",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4871070",
@@ -4881,7 +4881,7 @@
         "base": 4.0,
         "total": 4.25,
         "mapped_role": "Analyst",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4871070",
@@ -4893,7 +4893,7 @@
         "base": 5.25,
         "total": 5.25,
         "mapped_role": "Analyst",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4871070",
@@ -4905,7 +4905,7 @@
         "base": 7.25,
         "total": 7.25,
         "mapped_role": "Analyst",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4868040",
@@ -4917,7 +4917,7 @@
         "base": 16.62,
         "total": 23.29,
         "mapped_role": "System Development Engineer I/L4",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4865822",
@@ -4929,7 +4929,7 @@
         "base": 51.0,
         "total": 80.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4864925",
@@ -4941,7 +4941,7 @@
         "base": 28.0,
         "total": 42.0,
         "mapped_role": "Senior Software Engineer - Level H - \"Building Experience\"",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4861505",
@@ -4953,7 +4953,7 @@
         "base": 4.0,
         "total": 5.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4861349",
@@ -4965,7 +4965,7 @@
         "base": 26.5,
         "total": 30.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4857766",
@@ -4977,7 +4977,7 @@
         "base": 4.8,
         "total": 4.8,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4857181",
@@ -4989,7 +4989,7 @@
         "base": 42.0,
         "total": 63.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4856125",
@@ -5001,7 +5001,7 @@
         "base": 16.67,
         "total": 16.67,
         "mapped_role": "Application Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4854703",
@@ -5013,7 +5013,7 @@
         "base": 35.0,
         "total": 46.6,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4854571",
@@ -5025,7 +5025,7 @@
         "base": 40.0,
         "total": 57.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4854493",
@@ -5037,7 +5037,7 @@
         "base": 40.0,
         "total": 40.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4853825",
@@ -5049,7 +5049,7 @@
         "base": 13.5,
         "total": 13.5,
         "mapped_role": "Assistant Manager (Supply Chain Management)",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4853807",
@@ -5061,7 +5061,7 @@
         "base": 12.0,
         "total": 12.0,
         "mapped_role": "Analyst",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4848276",
@@ -5073,7 +5073,7 @@
         "base": 38.0,
         "total": 80.0,
         "mapped_role": "SWE III (L4)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4848214",
@@ -5085,7 +5085,7 @@
         "base": 37.25,
         "total": 52.0,
         "mapped_role": "SDE (3-5yrs)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4846067",
@@ -5097,7 +5097,7 @@
         "base": 48.0,
         "total": 98.1,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4843533",
@@ -5109,7 +5109,7 @@
         "base": 23.0,
         "total": 40.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4842571",
@@ -5121,7 +5121,7 @@
         "base": 37.0,
         "total": 57.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4839106",
@@ -5133,7 +5133,7 @@
         "base": 18.0,
         "total": 20.8,
         "mapped_role": "Others",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4838004",
@@ -5145,7 +5145,7 @@
         "base": 58.0,
         "total": 68.0,
         "mapped_role": "Sr Chief Engineer",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4837057",
@@ -5157,7 +5157,7 @@
         "base": 25.0,
         "total": 25.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4833402",
@@ -5169,7 +5169,7 @@
         "base": 20.5,
         "total": 28.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4829120",
@@ -5181,7 +5181,7 @@
         "base": 25.0,
         "total": 30.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4827672",
@@ -5193,7 +5193,7 @@
         "base": 22.8,
         "total": 47.98,
         "mapped_role": "SWE-II / L3",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4827427",
@@ -5205,7 +5205,7 @@
         "base": 21.2,
         "total": 21.2,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4822627",
@@ -5217,7 +5217,7 @@
         "base": 26.0,
         "total": 28.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4822627",
@@ -5229,7 +5229,7 @@
         "base": 26.5,
         "total": 29.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4822627",
@@ -5241,7 +5241,7 @@
         "base": 26.5,
         "total": 28.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4820553",
@@ -5253,7 +5253,7 @@
         "base": 37.0,
         "total": 50.0,
         "mapped_role": "Data Scientist",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4820553",
@@ -5265,7 +5265,7 @@
         "base": 27.0,
         "total": 40.0,
         "mapped_role": "Data Scientist",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4820539",
@@ -5277,7 +5277,7 @@
         "base": 24.0,
         "total": 25.0,
         "mapped_role": "Software Dev Level T2",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4820535",
@@ -5289,7 +5289,7 @@
         "base": 6.45,
         "total": 6.45,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4820530",
@@ -5301,7 +5301,7 @@
         "base": 60.0,
         "total": 92.0,
         "mapped_role": "PMTS",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4820527",
@@ -5313,7 +5313,7 @@
         "base": 7.0,
         "total": 9.25,
         "mapped_role": "Technical Support Consultant",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4820523",
@@ -5325,7 +5325,7 @@
         "base": 17.0,
         "total": 28.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4815513",
@@ -5337,7 +5337,7 @@
         "base": 12.0,
         "total": 15.3,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4815477",
@@ -5349,7 +5349,7 @@
         "base": 21.0,
         "total": 25.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4809543",
@@ -5361,7 +5361,7 @@
         "base": 19.5,
         "total": 32.0,
         "mapped_role": "Software Engineer (SWE-I)",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4809451",
@@ -5373,7 +5373,7 @@
         "base": 13.0,
         "total": 15.68,
         "mapped_role": "Site Reliability Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4808727",
@@ -5385,7 +5385,7 @@
         "base": 20.0,
         "total": 24.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4807087",
@@ -5397,7 +5397,7 @@
         "base": 25.0,
         "total": 38.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4803993",
@@ -5409,7 +5409,7 @@
         "base": 25.0,
         "total": 36.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4803993",
@@ -5421,7 +5421,7 @@
         "base": 28.0,
         "total": 34.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4803993",
@@ -5433,7 +5433,7 @@
         "base": 34.0,
         "total": 34.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4803993",
@@ -5445,7 +5445,7 @@
         "base": 34.0,
         "total": 36.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4803797",
@@ -5457,7 +5457,7 @@
         "base": 32.0,
         "total": 35.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4803344",
@@ -5469,7 +5469,7 @@
         "base": 25.0,
         "total": 28.75,
         "mapped_role": "Manager (Backend engineer)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4803344",
@@ -5481,7 +5481,7 @@
         "base": 33.0,
         "total": 35.0,
         "mapped_role": "SDE 2 (Backend Engineer)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4803196",
@@ -5493,7 +5493,7 @@
         "base": 27.0,
         "total": 40.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4801868",
@@ -5505,7 +5505,7 @@
         "base": 15.5,
         "total": 20.0,
         "mapped_role": "Analyst",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4801868",
@@ -5517,7 +5517,7 @@
         "base": 15.5,
         "total": 20.0,
         "mapped_role": "Analyst",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4801863",
@@ -5529,7 +5529,7 @@
         "base": 15.5,
         "total": 20.0,
         "mapped_role": "Data Scientist",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4801863",
@@ -5541,7 +5541,7 @@
         "base": 15.5,
         "total": 20.0,
         "mapped_role": "Data Scientist",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4801860",
@@ -5553,7 +5553,7 @@
         "base": 15.5,
         "total": 20.0,
         "mapped_role": "Software Engineering",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4801828",
@@ -5565,7 +5565,7 @@
         "base": 20.9,
         "total": 28.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4801825",
@@ -5577,7 +5577,7 @@
         "base": 20.9,
         "total": 28.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4801803",
@@ -5589,7 +5589,7 @@
         "base": 24.0,
         "total": 34.0,
         "mapped_role": "Software Engineer (Engineer Level \u2013 3)",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4801795",
@@ -5601,7 +5601,7 @@
         "base": 21.0,
         "total": 35.0,
         "mapped_role": "Cellular Software Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4801787",
@@ -5613,7 +5613,7 @@
         "base": 15.0,
         "total": 30.0,
         "mapped_role": "Software Development Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4800788",
@@ -5625,7 +5625,7 @@
         "base": 20.55,
         "total": 24.0,
         "mapped_role": "Application Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4796543",
@@ -5637,7 +5637,7 @@
         "base": 35.0,
         "total": 42.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4796344",
@@ -5649,7 +5649,7 @@
         "base": 30.0,
         "total": 37.0,
         "mapped_role": "Senior Software Development Engineer (SDE II)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4793685",
@@ -5661,7 +5661,7 @@
         "base": 30.0,
         "total": 39.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4793206",
@@ -5673,7 +5673,7 @@
         "base": 18.3,
         "total": 26.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4791982",
@@ -5685,7 +5685,7 @@
         "base": 18.45,
         "total": 19.45,
         "mapped_role": "Consultant",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4791488",
@@ -5697,7 +5697,7 @@
         "base": 36.0,
         "total": 45.0,
         "mapped_role": "SDE2 ~SMTS ~IC3",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4790182",
@@ -5709,7 +5709,7 @@
         "base": 25.0,
         "total": 40.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4789600",
@@ -5721,7 +5721,7 @@
         "base": 19.0,
         "total": 27.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4789442",
@@ -5733,7 +5733,7 @@
         "base": 4.0,
         "total": 4.0,
         "mapped_role": "Trainee Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4788621",
@@ -5745,7 +5745,7 @@
         "base": 31.0,
         "total": 43.65,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4788621",
@@ -5757,7 +5757,7 @@
         "base": 31.0,
         "total": 55.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4787230",
@@ -5769,7 +5769,7 @@
         "base": 28.0,
         "total": 40.3,
         "mapped_role": "Associate",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4786019",
@@ -5781,7 +5781,7 @@
         "base": 34.0,
         "total": 63.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4786016",
@@ -5793,7 +5793,7 @@
         "base": 16.5,
         "total": 19.5,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4783511",
@@ -5805,7 +5805,7 @@
         "base": 8.0,
         "total": 11.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4778862",
@@ -5817,7 +5817,7 @@
         "base": 21.2,
         "total": 46.38,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4778648",
@@ -5829,7 +5829,7 @@
         "base": 6.5,
         "total": 6.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4778507",
@@ -5841,7 +5841,7 @@
         "base": 25.83,
         "total": 42.0,
         "mapped_role": "Senior Software Engineer (SMTS)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4777415",
@@ -5853,7 +5853,7 @@
         "base": 13.0,
         "total": 16.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4775126",
@@ -5865,7 +5865,7 @@
         "base": 24.0,
         "total": 28.6,
         "mapped_role": "SE3",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4774888",
@@ -5877,7 +5877,7 @@
         "base": 15.0,
         "total": 18.0,
         "mapped_role": "Engineer Design and Development",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4771966",
@@ -5889,7 +5889,7 @@
         "base": 20.9,
         "total": 37.0,
         "mapped_role": "Software Engineer (L3)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4767375",
@@ -5901,7 +5901,7 @@
         "base": 35.0,
         "total": 61.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4763681",
@@ -5913,7 +5913,7 @@
         "base": 18.67,
         "total": 29.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4763025",
@@ -5925,7 +5925,7 @@
         "base": 14.0,
         "total": 26.0,
         "mapped_role": "Developer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4762283",
@@ -5937,7 +5937,7 @@
         "base": 18.0,
         "total": 28.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4758858",
@@ -5949,7 +5949,7 @@
         "base": 8.0,
         "total": 8.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4758858",
@@ -5961,7 +5961,7 @@
         "base": 8.0,
         "total": 8.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4758858",
@@ -5973,7 +5973,7 @@
         "base": 8.0,
         "total": 8.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4758109",
@@ -5985,7 +5985,7 @@
         "base": 37.0,
         "total": 37.0,
         "mapped_role": "Senior Engineer II",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4755156",
@@ -5997,7 +5997,7 @@
         "base": 51.0,
         "total": 87.0,
         "mapped_role": "Senior Software Engineer/L63",
-        "mapped_yoe": "Senior +"
+        "mapped_yoe": "Senior + (10+)"
     },
     {
         "id": "4754802",
@@ -6009,7 +6009,7 @@
         "base": 31.0,
         "total": 31.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4751520",
@@ -6021,7 +6021,7 @@
         "base": 35.0,
         "total": 38.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4749709",
@@ -6033,7 +6033,7 @@
         "base": 42.0,
         "total": 42.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4749695",
@@ -6045,7 +6045,7 @@
         "base": 23.0,
         "total": 42.05,
         "mapped_role": "SWE-II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4745534",
@@ -6057,7 +6057,7 @@
         "base": 9.0,
         "total": 9.0,
         "mapped_role": "N/A",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4745417",
@@ -6069,7 +6069,7 @@
         "base": 27.0,
         "total": 31.0,
         "mapped_role": "MTS II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4742928",
@@ -6081,7 +6081,7 @@
         "base": 65.0,
         "total": 90.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4737046",
@@ -6093,7 +6093,7 @@
         "base": 29.0,
         "total": 29.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4736966",
@@ -6105,7 +6105,7 @@
         "base": 30.0,
         "total": 44.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4736904",
@@ -6117,7 +6117,7 @@
         "base": 23.0,
         "total": 47.6,
         "mapped_role": "L60 SDE1",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4728670",
@@ -6129,7 +6129,7 @@
         "base": 26.0,
         "total": 26.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4728628",
@@ -6141,7 +6141,7 @@
         "base": 30.0,
         "total": 30.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4728609",
@@ -6153,7 +6153,7 @@
         "base": 20.0,
         "total": 28.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4728315",
@@ -6165,7 +6165,7 @@
         "base": 3.0,
         "total": 3.0,
         "mapped_role": "Trainee IT",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4726679",
@@ -6177,7 +6177,7 @@
         "base": 21.0,
         "total": 31.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4725025",
@@ -6189,7 +6189,7 @@
         "base": 18.0,
         "total": 26.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4722002",
@@ -6201,7 +6201,7 @@
         "base": 8.1,
         "total": 8.88,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4720644",
@@ -6213,7 +6213,7 @@
         "base": 23.0,
         "total": 44.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4720604",
@@ -6225,7 +6225,7 @@
         "base": 16.75,
         "total": 23.0,
         "mapped_role": "System Software Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4720604",
@@ -6237,7 +6237,7 @@
         "base": 16.75,
         "total": 23.0,
         "mapped_role": "System Software Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4720604",
@@ -6249,7 +6249,7 @@
         "base": 16.75,
         "total": 23.0,
         "mapped_role": "System Software Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4720268",
@@ -6261,7 +6261,7 @@
         "base": 33.0,
         "total": 38.0,
         "mapped_role": "DRE-II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4719893",
@@ -6273,7 +6273,7 @@
         "base": 29.6,
         "total": 40.4,
         "mapped_role": "iOS Developer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4719893",
@@ -6285,7 +6285,7 @@
         "base": 36.0,
         "total": 47.0,
         "mapped_role": "iOS Developer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4718763",
@@ -6297,7 +6297,7 @@
         "base": 31.0,
         "total": 48.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4718692",
@@ -6309,7 +6309,7 @@
         "base": 2.9,
         "total": 4.25,
         "mapped_role": "Graduate Engineer Trainee",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4715737",
@@ -6321,7 +6321,7 @@
         "base": 37.0,
         "total": 46.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4714354",
@@ -6333,7 +6333,7 @@
         "base": 17.75,
         "total": 20.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4714354",
@@ -6345,7 +6345,7 @@
         "base": 20.0,
         "total": 23.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4706280",
@@ -6357,7 +6357,7 @@
         "base": 50.0,
         "total": 95.5,
         "mapped_role": "SDE 2 (L2)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4704368",
@@ -6369,7 +6369,7 @@
         "base": 53.0,
         "total": 76.0,
         "mapped_role": "MTS II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4698463",
@@ -6381,7 +6381,7 @@
         "base": 48.5,
         "total": 79.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4698460",
@@ -6393,7 +6393,7 @@
         "base": 15.0,
         "total": 21.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4697405",
@@ -6405,7 +6405,7 @@
         "base": 30.0,
         "total": 47.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4696833",
@@ -6417,7 +6417,7 @@
         "base": 20.0,
         "total": 21.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4696037",
@@ -6429,7 +6429,7 @@
         "base": 68.0,
         "total": 71.0,
         "mapped_role": "Senior Technical Lead",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4694234",
@@ -6441,7 +6441,7 @@
         "base": 36.0,
         "total": 41.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4694234",
@@ -6453,7 +6453,7 @@
         "base": 36.0,
         "total": 41.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4688824",
@@ -6465,7 +6465,7 @@
         "base": 26.0,
         "total": 36.62,
         "mapped_role": "IC2 / SDE-2",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4686759",
@@ -6477,7 +6477,7 @@
         "base": 17.8,
         "total": 25.6,
         "mapped_role": "IN2",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4686473",
@@ -6489,7 +6489,7 @@
         "base": 28.0,
         "total": 52.6,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4685729",
@@ -6501,7 +6501,7 @@
         "base": 10.89,
         "total": 11.89,
         "mapped_role": "Advance Application Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4685634",
@@ -6513,7 +6513,7 @@
         "base": 22.0,
         "total": 31.0,
         "mapped_role": "SWE 3",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4685519",
@@ -6525,7 +6525,7 @@
         "base": 16.0,
         "total": 27.3,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4684985",
@@ -6537,7 +6537,7 @@
         "base": 14.0,
         "total": 31.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4683565",
@@ -6549,7 +6549,7 @@
         "base": 18.0,
         "total": 23.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4681670",
@@ -6561,7 +6561,7 @@
         "base": 12.0,
         "total": 13.88,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4680926",
@@ -6573,7 +6573,7 @@
         "base": 17.0,
         "total": 21.0,
         "mapped_role": "Software Development Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4680133",
@@ -6585,7 +6585,7 @@
         "base": 10.5,
         "total": 11.75,
         "mapped_role": "QA Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4676453",
@@ -6597,7 +6597,7 @@
         "base": 14.0,
         "total": 19.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4674413",
@@ -6609,7 +6609,7 @@
         "base": 29.0,
         "total": 48.6,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4671310",
@@ -6621,7 +6621,7 @@
         "base": 14.0,
         "total": 16.0,
         "mapped_role": "Product Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4670751",
@@ -6633,7 +6633,7 @@
         "base": 32.0,
         "total": 32.0,
         "mapped_role": "SSE2 ~ SDE2",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4667089",
@@ -6645,7 +6645,7 @@
         "base": 33.0,
         "total": 35.0,
         "mapped_role": "Java Software Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4666215",
@@ -6657,7 +6657,7 @@
         "base": 36.0,
         "total": 50.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4666151",
@@ -6669,7 +6669,7 @@
         "base": 18.0,
         "total": 18.0,
         "mapped_role": "AMTS",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4665902",
@@ -6681,7 +6681,7 @@
         "base": 29.0,
         "total": 45.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4665295",
@@ -6693,7 +6693,7 @@
         "base": 15.0,
         "total": 17.25,
         "mapped_role": "Software Dev. I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4663245",
@@ -6705,7 +6705,7 @@
         "base": 21.0,
         "total": 34.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4662054",
@@ -6717,7 +6717,7 @@
         "base": 37.0,
         "total": 48.42,
         "mapped_role": "MTS III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4659774",
@@ -6729,7 +6729,7 @@
         "base": 6.5,
         "total": 8.5,
         "mapped_role": "Machine Learning Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4658710",
@@ -6741,7 +6741,7 @@
         "base": 39.8,
         "total": 83.4,
         "mapped_role": "L4 - SWE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4657554",
@@ -6753,7 +6753,7 @@
         "base": 11.0,
         "total": 33.5,
         "mapped_role": "Support Engineer III",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4654570",
@@ -6765,7 +6765,7 @@
         "base": 34.2,
         "total": 81.0,
         "mapped_role": "Data Engineer",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4654211",
@@ -6777,7 +6777,7 @@
         "base": 47.0,
         "total": 69.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4653762",
@@ -6789,7 +6789,7 @@
         "base": 38.0,
         "total": 85.5,
         "mapped_role": "SWE3 (L4)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4652810",
@@ -6801,7 +6801,7 @@
         "base": 26.0,
         "total": 40.0,
         "mapped_role": "IN3",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4652473",
@@ -6813,7 +6813,7 @@
         "base": 9.0,
         "total": 12.0,
         "mapped_role": "AEH role",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4652178",
@@ -6825,7 +6825,7 @@
         "base": 32.0,
         "total": 32.0,
         "mapped_role": "Data Scientist",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4649454",
@@ -6837,7 +6837,7 @@
         "base": 26.1,
         "total": 33.4,
         "mapped_role": "IN3",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4649454",
@@ -6849,7 +6849,7 @@
         "base": 24.0,
         "total": 31.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4648240",
@@ -6861,7 +6861,7 @@
         "base": 15.0,
         "total": 17.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4648186",
@@ -6873,7 +6873,7 @@
         "base": 55.0,
         "total": 55.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4647744",
@@ -6885,7 +6885,7 @@
         "base": 25.0,
         "total": 35.0,
         "mapped_role": "IN3 - Quality Engineer III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4647744",
@@ -6897,7 +6897,7 @@
         "base": 19.0,
         "total": 30.0,
         "mapped_role": "SDET 2",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4647744",
@@ -6909,7 +6909,7 @@
         "base": 22.0,
         "total": 25.0,
         "mapped_role": "SDET",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4647478",
@@ -6921,7 +6921,7 @@
         "base": 12.0,
         "total": 14.2,
         "mapped_role": "Analyst",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4646525",
@@ -6933,7 +6933,7 @@
         "base": 12.0,
         "total": 14.0,
         "mapped_role": "SDE1/ L9",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4644077",
@@ -6945,7 +6945,7 @@
         "base": 45.0,
         "total": 50.0,
         "mapped_role": "Software Engineer JAVA + DSA",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4644009",
@@ -6957,7 +6957,7 @@
         "base": 20.9,
         "total": 37.54,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4643647",
@@ -6969,7 +6969,7 @@
         "base": 49.0,
         "total": 82.0,
         "mapped_role": "MTS II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4643614",
@@ -6981,7 +6981,7 @@
         "base": 47.0,
         "total": 90.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4641665",
@@ -6993,7 +6993,7 @@
         "base": 16.5,
         "total": 16.5,
         "mapped_role": "Graduate Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4641654",
@@ -7005,7 +7005,7 @@
         "base": 15.0,
         "total": 20.0,
         "mapped_role": "Analyst",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4640350",
@@ -7017,7 +7017,7 @@
         "base": 95.0,
         "total": 170.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4629575",
@@ -7029,7 +7029,7 @@
         "base": 26.0,
         "total": 33.0,
         "mapped_role": "Software Dev. Engineer I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4625715",
@@ -7041,7 +7041,7 @@
         "base": 15.0,
         "total": 19.0,
         "mapped_role": "Technical Support Engineer-1",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4624160",
@@ -7053,7 +7053,7 @@
         "base": 50.0,
         "total": 50.0,
         "mapped_role": "N/A",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4621559",
@@ -7065,7 +7065,7 @@
         "base": 35.0,
         "total": 35.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4619511",
@@ -7077,7 +7077,7 @@
         "base": 35.14,
         "total": 46.28,
         "mapped_role": "Chief Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4618551",
@@ -7089,7 +7089,7 @@
         "base": 44.0,
         "total": 77.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4615650",
@@ -7101,7 +7101,7 @@
         "base": 22.0,
         "total": 41.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4615523",
@@ -7113,7 +7113,7 @@
         "base": 23.0,
         "total": 26.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4614975",
@@ -7125,7 +7125,7 @@
         "base": 19.17,
         "total": 27.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4613504",
@@ -7137,7 +7137,7 @@
         "base": 35.0,
         "total": 50.5,
         "mapped_role": "SDE 2 (MTS)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4613504",
@@ -7149,7 +7149,7 @@
         "base": 31.0,
         "total": 47.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4613504",
@@ -7161,7 +7161,7 @@
         "base": 37.0,
         "total": 55.2,
         "mapped_role": "SDE 2 (Vice President)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4609137",
@@ -7173,7 +7173,7 @@
         "base": 18.0,
         "total": 28.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4609137",
@@ -7185,7 +7185,7 @@
         "base": 17.2,
         "total": 19.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4609137",
@@ -7197,7 +7197,7 @@
         "base": 19.0,
         "total": 19.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4609137",
@@ -7209,7 +7209,7 @@
         "base": 17.0,
         "total": 17.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4605201",
@@ -7221,7 +7221,7 @@
         "base": 19.17,
         "total": 27.92,
         "mapped_role": "Software Development Engineer I/L4",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4601962",
@@ -7233,7 +7233,7 @@
         "base": 9.0,
         "total": 14.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4598788",
@@ -7245,7 +7245,7 @@
         "base": 19.0,
         "total": 27.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4598459",
@@ -7257,7 +7257,7 @@
         "base": 26.0,
         "total": 30.7,
         "mapped_role": "Software Development Engineer II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4598026",
@@ -7269,7 +7269,7 @@
         "base": 35.0,
         "total": 40.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4596477",
@@ -7281,7 +7281,7 @@
         "base": 40.0,
         "total": 40.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4593722",
@@ -7293,7 +7293,7 @@
         "base": 45.0,
         "total": 82.75,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4591797",
@@ -7305,7 +7305,7 @@
         "base": 5.88,
         "total": 6.51,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4590913",
@@ -7317,7 +7317,7 @@
         "base": 7.0,
         "total": 7.0,
         "mapped_role": "Digital",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4590913",
@@ -7329,7 +7329,7 @@
         "base": 9.0,
         "total": 9.0,
         "mapped_role": "Innovator (Bachelors)",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4590913",
@@ -7341,7 +7341,7 @@
         "base": 11.5,
         "total": 11.5,
         "mapped_role": "Innovator (Masters)",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4590752",
@@ -7353,7 +7353,7 @@
         "base": 26.0,
         "total": 37.4,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4585515",
@@ -7365,7 +7365,7 @@
         "base": 10.25,
         "total": 14.5,
         "mapped_role": "Software Engineer or TDP-II (Full Stack Developer)",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4584213",
@@ -7377,7 +7377,7 @@
         "base": 24.0,
         "total": 24.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4583617",
@@ -7389,7 +7389,7 @@
         "base": 90.0,
         "total": 124.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4583238",
@@ -7401,7 +7401,7 @@
         "base": 19.0,
         "total": 27.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4581071",
@@ -7413,7 +7413,7 @@
         "base": 8.5,
         "total": 9.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4580531",
@@ -7425,7 +7425,7 @@
         "base": 12.0,
         "total": 13.88,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4579261",
@@ -7437,7 +7437,7 @@
         "base": 24.0,
         "total": 24.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4579261",
@@ -7449,7 +7449,7 @@
         "base": 24.3,
         "total": 27.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4574667",
@@ -7461,7 +7461,7 @@
         "base": 12.0,
         "total": 14.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4574324",
@@ -7473,7 +7473,7 @@
         "base": 22.7,
         "total": 29.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4569785",
@@ -7485,7 +7485,7 @@
         "base": 30.5,
         "total": 33.5,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4568541",
@@ -7497,7 +7497,7 @@
         "base": 19.17,
         "total": 19.17,
         "mapped_role": "Software Development Engineer I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4566641",
@@ -7509,7 +7509,7 @@
         "base": 3.36,
         "total": 3.36,
         "mapped_role": "Assistant Systems Engineer - Trainee",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4565816",
@@ -7521,7 +7521,7 @@
         "base": 29.0,
         "total": 34.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4561018",
@@ -7533,7 +7533,7 @@
         "base": 50.0,
         "total": 78.0,
         "mapped_role": "Sr CAD Engineer",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4559951",
@@ -7545,7 +7545,7 @@
         "base": 12.0,
         "total": 16.15,
         "mapped_role": "Software Developer Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4556714",
@@ -7557,7 +7557,7 @@
         "base": 30.0,
         "total": 38.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4556520",
@@ -7569,7 +7569,7 @@
         "base": 15.0,
         "total": 49.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4556520",
@@ -7581,7 +7581,7 @@
         "base": 15.0,
         "total": 49.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4556520",
@@ -7593,7 +7593,7 @@
         "base": 15.0,
         "total": 49.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4551034",
@@ -7605,7 +7605,7 @@
         "base": 67.0,
         "total": 83.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4550986",
@@ -7617,7 +7617,7 @@
         "base": 80.0,
         "total": 92.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4548168",
@@ -7629,7 +7629,7 @@
         "base": 33.0,
         "total": 34.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4547882",
@@ -7641,7 +7641,7 @@
         "base": 34.0,
         "total": 38.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4547243",
@@ -7653,7 +7653,7 @@
         "base": 30.0,
         "total": 35.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4545803",
@@ -7665,7 +7665,7 @@
         "base": 6.25,
         "total": 6.25,
         "mapped_role": "Digital Specialist Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4545515",
@@ -7677,7 +7677,7 @@
         "base": 5.15,
         "total": 5.43,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4545100",
@@ -7689,7 +7689,7 @@
         "base": 16.5,
         "total": 19.6,
         "mapped_role": "Software Dev (Backend)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4544488",
@@ -7701,7 +7701,7 @@
         "base": 10.5,
         "total": 16.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4542983",
@@ -7713,7 +7713,7 @@
         "base": 25.0,
         "total": 32.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4540736",
@@ -7725,7 +7725,7 @@
         "base": 8.08,
         "total": 9.5,
         "mapped_role": "Specialist Programmer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4536032",
@@ -7737,7 +7737,7 @@
         "base": 8.5,
         "total": 13.66,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4536032",
@@ -7749,7 +7749,7 @@
         "base": 8.5,
         "total": 13.66,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4535584",
@@ -7761,7 +7761,7 @@
         "base": 10.0,
         "total": 12.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4535043",
@@ -7773,7 +7773,7 @@
         "base": 7.0,
         "total": 8.0,
         "mapped_role": "Product Engineer and Instructor",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4534376",
@@ -7785,7 +7785,7 @@
         "base": 32.0,
         "total": 48.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4529886",
@@ -7797,7 +7797,7 @@
         "base": 34.0,
         "total": 34.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4523492",
@@ -7809,7 +7809,7 @@
         "base": 30.0,
         "total": 32.5,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior"
+        "mapped_yoe": "Senior (7-10)"
     },
     {
         "id": "4521475",
@@ -7821,7 +7821,7 @@
         "base": 29.7,
         "total": 46.5,
         "mapped_role": "Senior Frontend Engineer",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4520629",
@@ -7833,7 +7833,7 @@
         "base": 16.0,
         "total": 20.5,
         "mapped_role": "SDE-I Backend",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4517683",
@@ -7845,7 +7845,7 @@
         "base": 28.0,
         "total": 52.6,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4516976",
@@ -7857,7 +7857,7 @@
         "base": 17.0,
         "total": 25.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4516811",
@@ -7869,7 +7869,7 @@
         "base": 4.25,
         "total": 4.5,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4515357",
@@ -7881,7 +7881,7 @@
         "base": 40.0,
         "total": 79.3,
         "mapped_role": "Software Engineer-III (L4)",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4515332",
@@ -7893,7 +7893,7 @@
         "base": 17.8,
         "total": 34.1,
         "mapped_role": "Applications Developer - 1",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4514020",
@@ -7905,7 +7905,7 @@
         "base": 8.4,
         "total": 9.6,
         "mapped_role": "MTS I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4511449",
@@ -7917,7 +7917,7 @@
         "base": 18.0,
         "total": 64.0,
         "mapped_role": "Member Technical Staff",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4511087",
@@ -7929,7 +7929,7 @@
         "base": 6.0,
         "total": 8.0,
         "mapped_role": "software Engineering specialist",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4509525",
@@ -7941,7 +7941,7 @@
         "base": 34.0,
         "total": 45.4,
         "mapped_role": "MTS I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4508941",
@@ -7953,7 +7953,7 @@
         "base": 26.0,
         "total": 29.0,
         "mapped_role": "Associate",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4503700",
@@ -7965,7 +7965,7 @@
         "base": 9.5,
         "total": 14.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4502508",
@@ -7977,7 +7977,7 @@
         "base": 4.5,
         "total": 4.61,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4501091",
@@ -7989,7 +7989,7 @@
         "base": 7.5,
         "total": 9.0,
         "mapped_role": "ASDE",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4497087",
@@ -8001,7 +8001,7 @@
         "base": 14.0,
         "total": 18.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4494746",
@@ -8013,7 +8013,7 @@
         "base": 20.0,
         "total": 21.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4494358",
@@ -8025,7 +8025,7 @@
         "base": 14.0,
         "total": 20.5,
         "mapped_role": "SDE-1 PPO",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4493991",
@@ -8037,7 +8037,7 @@
         "base": 17.0,
         "total": 27.7,
         "mapped_role": "Associate",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4492184",
@@ -8049,7 +8049,7 @@
         "base": 3.5,
         "total": 3.5,
         "mapped_role": "Engineer",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4491507",
@@ -8061,7 +8061,7 @@
         "base": 15.0,
         "total": 16.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4491175",
@@ -8073,7 +8073,7 @@
         "base": 4.0,
         "total": 4.5,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4491149",
@@ -8085,7 +8085,7 @@
         "base": 3.5,
         "total": 4.0,
         "mapped_role": "Others",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4491130",
@@ -8097,7 +8097,7 @@
         "base": 4.5,
         "total": 5.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4490725",
@@ -8109,7 +8109,7 @@
         "base": 23.0,
         "total": 42.0,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "4488393",
@@ -8121,7 +8121,7 @@
         "base": 14.0,
         "total": 14.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4487068",
@@ -8133,7 +8133,7 @@
         "base": 9.0,
         "total": 11.63,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4485855",
@@ -8145,7 +8145,7 @@
         "base": 13.0,
         "total": 15.0,
         "mapped_role": "SDE I",
-        "mapped_yoe": "Entry"
+        "mapped_yoe": "Entry (0-1)"
     },
     {
         "id": "4485472",
@@ -8157,6 +8157,6 @@
         "base": 18.5,
         "total": 24.25,
         "mapped_role": "SDE II",
-        "mapped_yoe": "Mid"
+        "mapped_yoe": "Mid (2-6)"
     }
 ]

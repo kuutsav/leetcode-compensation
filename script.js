@@ -3,7 +3,7 @@ const minDataPointsForBoxPlot = 2;
 
 // Set of roles to display in the box plot
 const validYoeBucket = new Set([
-    "Entry", "Mid", "Senior", "Senior +"
+    "Entry (0-1)", "Mid (2-6)", "Senior (7-10)", "Senior + (10+)"
 ]);
 
 const offersPerPage = 10;

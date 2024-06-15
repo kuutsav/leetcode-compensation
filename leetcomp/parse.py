@@ -17,10 +17,10 @@ from leetcomp.utils import (
 llm_predict = get_model_predict(config["app"]["llm_predictor"])
 
 yoe_map: dict[tuple[int, int], str] = {
-    (0, 1): "Entry",
-    (2, 6): "Mid",
-    (7, 10): "Senior",
-    (10, 30): "Senior +",
+    (0, 1): "Entry (0-1)",
+    (2, 6): "Mid (2-6)",
+    (7, 10): "Senior (7-10)",
+    (10, 30): "Senior + (10+)",
 }
 
 
