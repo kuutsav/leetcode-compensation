@@ -1,19 +1,9 @@
 // Min Data points for box plot
-const minDataPoints = 3;
+const minDataPointsForBoxPlot = 2;
 
 // Set of roles to display in the box plot
-const validRoles = new Set([
-    'SDE I',
-    'SDE II',
-    'SDE III',
-    "Staff Engineer",
-    "MTS I",
-    "MTS II",
-    "MTS III",
-    "Data Scientist",
-    "Data Engineer",
-    "Associate Software Engineer",
-    "Analyst",
+const validYoeBucket = new Set([
+    "Entry", "Mid", "Senior", "Senior +"
 ]);
 
 const offersPerPage = 10;
@@ -163,7 +153,7 @@ function groupSalariesBy(jsonData, groupBy, valueKey) {
 }
 
 // Function to calculate the five-number summary for each group
-function calculateBoxPlotData(salariesByGroup, validItems, minDataPoints = 3) {
+function calculateBoxPlotData(salariesByGroup, validItems, minDataPoints = minDataPointsForBoxPlot) {
     return Object.keys(salariesByGroup)
         .filter(key => salariesByGroup[key].length >= minDataPoints && (validItems.size === 0 || validItems.has(key)))
         .map(key => {
@@ -230,7 +220,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     plotHistogram(filteredOffers, 'total');
     mostOfferCompanies(filteredOffers);
     plotBoxPlot(filteredOffers, 'total', 'companyBoxPlot', 'company', new Set([]));
-    plotBoxPlot(filteredOffers, 'total', 'roleBoxPlot', 'mapped_role', validRoles);
+    plotBoxPlot(filteredOffers, 'total', 'yoeBucketBoxPlot', 'mapped_yoe', validYoeBucket);
 
     function displayOffers(page) {
         const startIndex = (page - 1) * offersPerPage;
@@ -428,7 +418,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         plotHistogram(filteredOffers, 'total');
         mostOfferCompanies(filteredOffers);
         plotBoxPlot(filteredOffers, 'total', 'companyBoxPlot', 'company', new Set([]));
-        plotBoxPlot(filteredOffers, 'total', 'roleBoxPlot', 'mapped_role', validRoles);
+        plotBoxPlot(filteredOffers, 'total', 'yoeBucketBoxPlot', 'mapped_role', validYoeBucket);
 
         // Update offers table with filtered data
         displayOffers(currentPage);

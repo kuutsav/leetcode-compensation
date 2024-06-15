@@ -16,6 +16,13 @@ from leetcomp.utils import (
 
 llm_predict = get_model_predict(config["app"]["llm_predictor"])
 
+yoe_map: dict[tuple[int, int], str] = {
+    (0, 1): "Entry",
+    (2, 6): "Mid",
+    (7, 10): "Senior",
+    (10, 30): "Senior +",
+}
+
 
 def post_should_be_parsed(post: dict[Any, Any]) -> bool:
     return (
@@ -192,6 +199,14 @@ def map_location(location: str, location_map: dict[str, str]) -> str:
     return location_map.get(location, location.capitalize())
 
 
+def map_yoe(yoe: int, yoe_map: dict[tuple[int, int], str]) -> str:
+    for (start, end), mapped_yoe in yoe_map.items():
+        if start <= yoe <= end:
+            return mapped_yoe
+
+    return "Senior +"
+
+
 def jsonl_to_json(jsonl_path: str, json_path: str) -> None:
     company_map = mapping(config["app"]["data_dir"] / "company_map.json")
     role_map = mapping(config["app"]["data_dir"] / "role_map.json")
@@ -210,6 +225,7 @@ def jsonl_to_json(jsonl_path: str, json_path: str) -> None:
                 default=record["role"],
                 extras=["analyst", "intern", "associate"],
             )
+            record["mapped_yoe"] = map_yoe(record["yoe"], yoe_map)
             record["location"] = map_location(record["location"], location_map)
             records.append(record)
 
