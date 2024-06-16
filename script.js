@@ -15,16 +15,35 @@ let globalFilterState = {
     yoeRange: [null, null], // Assuming null means no filter
     salaryRange: [null, null],
 };
+// add more properties from source object to make the searchable from search input
+const GLOBAL_ALLOWED_FILTERS=["company","location"];
 
 // Utility Functions
 function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+/**
+ * 
+ * @param {any[]} data 
+ * @param {string} searchTerm 
+ * @param {string[]} searchKeys 
+ */
+function filterCompensationsByKeys(data,searchTerm,searchKeys){
+    const fuseOptions = {
+        threshold: 0.2,
+        // keys to be searched 
+        keys: searchKeys
+    };
+    const fuse = new Fuse(data, fuseOptions);
+    const result = fuse.search(searchTerm);
+    return result.map(r=>r.item);
+}
+
 function setStatsStr(data) {
     const nRecs = data.length;
-    const startDate = data[0].creation_date;
-    const endDate = data[nRecs - 1].creation_date;
+    const startDate = data[0]?.creation_date;
+    const endDate = data[nRecs - 1]?.creation_date;
     let statsStr = `Based on ${nRecs} recs parsed between ${startDate} and ${endDate} (only includes posts that were parsed successfully and had non negative votes)`;
     document.getElementById('statsStr').textContent = statsStr;
 }
@@ -387,9 +406,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         // Filter by company name if applicable
         if (globalFilterState.companyName.trim() !== '') {
-            tempFilteredOffers = tempFilteredOffers.filter(offer =>
-                offer.company.toLowerCase().includes(globalFilterState.companyName.toLowerCase())
-            );
+            tempFilteredOffers = filterCompensationsByKeys(tempFilteredOffers,globalFilterState.companyName,GLOBAL_ALLOWED_FILTERS)
         }
 
         // Filter by YOE if applicable
