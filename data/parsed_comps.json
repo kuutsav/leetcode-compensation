@@ -1,5 +1,41 @@
 [
     {
+        "id": "5318167",
+        "creation_date": "2024-06-15",
+        "company": "Tesco",
+        "role": "SDE-II",
+        "yoe": 5,
+        "location": "Bangalore",
+        "base": 45.0,
+        "total": 45.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5317606",
+        "creation_date": "2024-06-15",
+        "company": "PhonePe",
+        "role": "Software Engineer",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 38.0,
+        "total": 38.0,
+        "mapped_role": "SDE I",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5317210",
+        "creation_date": "2024-06-15",
+        "company": "Microsoft",
+        "role": "SDE - II",
+        "yoe": 4,
+        "location": "NCR",
+        "base": 28.0,
+        "total": 48.8,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
         "id": "5315704",
         "creation_date": "2024-06-15",
         "company": "Kindred",
