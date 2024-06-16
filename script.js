@@ -1,13 +1,12 @@
 // Min Data points for box plot
 const minDataPointsForBoxPlot = 2;
-const minDataPoints = 3;
+
 // Set of roles to display in the box plot
 const validYoeBucket = new Set([
     "Entry (0-1)", "Mid (2-6)", "Senior (7-10)", "Senior + (10+)"
 ]);
 
 const offersPerPage = 10;
-
 let currentPage = 1;
 let offers = [];
 let filteredOffers = [];
@@ -88,7 +87,7 @@ function initializeHistogramChart(chartData, baseOrTotal) {
                             const rangeString = this?.name;
                             const [start,end] = rangeString.split("-").map(r=>parseInt(r));
                             const filteredCompensation =  offers.filter(compensation=>{
-                                return compensation.total >=start && compensation.total <= end 
+                                return compensation.total >=start && compensation.total <= end
                            });
                             // make reset CTA visible
                             setResetButtonVisibility(true);
@@ -104,7 +103,7 @@ function initializeHistogramChart(chartData, baseOrTotal) {
             }
         },
         series: [{ name: 'Total', data: chartData, color: '#55b17f' }],
-     
+
     });
 }
 
