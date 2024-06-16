@@ -1,46 +1,37 @@
-// Min Data points for box plot
+// Constants and Variables
 const minDataPointsForBoxPlot = 2;
-
-// Set of roles to display in the box plot
-const validYoeBucket = new Set([
-    "Entry (0-1)", "Mid (2-6)", "Senior (7-10)", "Senior + (10+)"
-]);
-
+const validYoeBucket = new Set(["Entry (0-1)", "Mid (2-6)", "Senior (7-10)", "Senior + (10+)"]);
 const offersPerPage = 10;
 let currentPage = 1;
 let offers = [];
 let filteredOffers = [];
 let currentSort = { column: null, order: 'asc' };
-let columnChartClicked = false;
 let totalPages = 0;
+const svgWidth = 16;
+const svgHeight = 16;
 
-// Utility function to capitalize the first letter of a string
+const resetSvg = `<svg width=${svgWidth} height=${svgHeight} fill="#000000" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style> .cls-1 { fill: none; } </style> </defs> <path d="M22.5,9A7.4522,7.4522,0,0,0,16,12.792V8H14v8h8V14H17.6167A5.4941,5.4941,0,1,1,22.5,22H22v2h.5a7.5,7.5,0,0,0,0-15Z"></path> <path d="M26,6H4V9.171l7.4142,7.4143L12,17.171V26h4V24h2v2a2,2,0,0,1-2,2H12a2,2,0,0,1-2-2V18L2.5858,10.5853A2,2,0,0,1,2,9.171V6A2,2,0,0,1,4,4H26Z"></path> <rect id="_Transparent_Rectangle_" data-name="<Transparent Rectangle>" class="cls-1" width="32" height="32"></rect> </g></svg>`;
+
+// Utility Functions
 function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-function statsStr(data) {
+function setStatsStr(data) {
     const nRecs = data.length;
     const startDate = data[0].creation_date;
     const endDate = data[nRecs - 1].creation_date;
-
-    return `
-    Based on ${nRecs} recs parsed between ${startDate} and ${endDate}
-    (only includes posts that were parsed successfully and had non negative votes)
-    `;
+    let statsStr = `Based on ${nRecs} recs parsed between ${startDate} and ${endDate} (only includes posts that were parsed successfully and had non negative votes)`;
+    document.getElementById('statsStr').textContent = statsStr;
 }
 
 function formatSalaryInINR(lpa) {
-    // Convert LPA to total rupees
     const totalRupees = Math.ceil(lpa * 100000);
     let rupeesStr = totalRupees.toString();
     let lastThree = rupeesStr.substring(rupeesStr.length - 3);
     const otherNumbers = rupeesStr.substring(0, rupeesStr.length - 3);
-    if (otherNumbers != '') {
-        lastThree = ',' + lastThree;
-    }
-    let formattedSalary = otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
-    return `₹${formattedSalary}`;
+    if (otherNumbers != '') lastThree = ',' + lastThree;
+    return `₹${otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree}`;
 }
 
 function extractValues(data, key) {
@@ -56,14 +47,13 @@ function calculateFrequencies(values) {
 }
 
 function prepareChartData(frequencies) {
-    return Object.entries(frequencies)
-        .sort(([a], [b]) => a - b)
-        .map(([bin, count]) => ({
-            name: `${bin * 10}-${bin * 10 + 9}`,
-            y: count
-        }));
+    return Object.entries(frequencies).sort(([a], [b]) => a - b).map(([bin, count]) => ({
+        name: `${bin * 10}-${bin * 10 + 9}`,
+        y: count
+    }));
 }
 
+// Highcharts Initialization Functions
 function initializeHistogramChart(chartData, baseOrTotal) {
     Highcharts.chart('salaryBarPlot', {
         chart: { type: 'column' },
@@ -78,25 +68,21 @@ function initializeHistogramChart(chartData, baseOrTotal) {
         plotOptions: {
             series: {
                 borderWidth: 0,
-                // add cursor to column chart
                 cursor: 'pointer',
                 dataLabels: { enabled: true, format: '{point.y}' },
                 point: {
                     events: {
                         click: function () {
                             const rangeString = this?.name;
-                            const [start,end] = rangeString.split("-").map(r=>parseInt(r));
-                            const filteredCompensation =  offers.filter(compensation=>{
-                                return compensation.total >=start && compensation.total <= end
-                           });
-                            // make reset CTA visible
-                            setResetButtonVisibility(true);
-                            // set filtered data for offer table
-                           filteredOffers = filteredCompensation
-                           // display offer tab
-                           displayOffers(1);
-                           // scroll to offers table
-                           document.getElementById("offersTable").scrollIntoView();
+                            const [start, end] = rangeString.split("-").map(r => parseInt(r));
+                            const filteredCompensation = filteredOffers.filter(compensation => {
+                                return compensation.total >= start && compensation.total <= end;
+                            });
+                            setResetButtonVisibility(true, rangeString);
+                            filteredOffers = filteredCompensation; // Use filteredOffers to maintain any existing search filters
+                            setStatsStr(filteredOffers);
+                            displayOffers(1);
+                            document.getElementById("offersTable").scrollIntoView();
                         }
                     }
                 }
@@ -105,31 +91,6 @@ function initializeHistogramChart(chartData, baseOrTotal) {
         series: [{ name: 'Total', data: chartData, color: '#55b17f' }],
 
     });
-}
-
-function mostOfferCompanies(jsonData) {
-    const companyCounts = countCompanies(jsonData);
-    let [categories, counts] = sortAndSliceData(companyCounts);
-
-    initializeBarChart(categories, counts);
-}
-
-function countCompanies(data) {
-    return data.reduce((acc, { company }) => {
-        acc[company] = (acc[company] || 0) + 1;
-        return acc;
-    }, {});
-}
-
-function sortAndSliceData(companyCounts) {
-    const sortedData = Object.entries(companyCounts)
-        .sort(([, a], [, b]) => b - a)
-        .slice(0, 10);
-
-    const categories = sortedData.map(([company]) => company);
-    const counts = sortedData.map(([, count]) => count);
-
-    return [categories, counts];
 }
 
 function initializeBarChart(categories, counts) {
@@ -150,49 +111,6 @@ function initializeBarChart(categories, counts) {
         legend: { enabled: false },
         series: [{ name: 'Offers', data: counts, color: '#55b17f' }]
     });
-}
-
-function plotHistogram(jsonData, baseOrTotal) {
-    const totalValues = extractValues(jsonData, baseOrTotal);
-    const totalFrequencies = calculateFrequencies(totalValues);
-    const chartData = prepareChartData(totalFrequencies);
-
-    initializeHistogramChart(chartData, baseOrTotal);
-}
-
-// Helper function to calculate quantiles
-function quantile(arr, q) {
-    const sorted = arr.slice().sort((a, b) => a - b);
-    const pos = (sorted.length - 1) * q;
-    const base = Math.floor(pos);
-    const rest = pos - base;
-    return sorted[base + 1] !== undefined ? sorted[base] + rest * (sorted[base + 1] - sorted[base]) : sorted[base];
-}
-
-// Function to group salary values by role or company
-function groupSalariesBy(jsonData, groupBy, valueKey) {
-    return jsonData.reduce((acc, item) => {
-        const key = item[groupBy];
-        const value = item[valueKey];
-        if (!acc[key]) acc[key] = [];
-        acc[key].push(value);
-        return acc;
-    }, {});
-}
-
-// Function to calculate the five-number summary for each group
-function calculateBoxPlotData(salariesByGroup, validItems, minDataPoints = minDataPointsForBoxPlot) {
-    return Object.keys(salariesByGroup)
-        .filter(key => salariesByGroup[key].length >= minDataPoints && (validItems.size === 0 || validItems.has(key)))
-        .map(key => {
-            const values = salariesByGroup[key];
-            return {
-                name: key,
-                data: [[Math.min(...values), quantile(values, 0.25), quantile(values, 0.5), quantile(values, 0.75), Math.max(...values)]]
-            };
-        })
-        .sort((a, b) => b.data[0][2] - a.data[0][2]) // Sort by median value
-        .slice(0, 20); // Keep only the top 20
 }
 
 // Function to initialize the Highcharts chart for box plot
@@ -218,109 +136,60 @@ function initializeBoxPlotChart(docId, boxPlotData, baseOrTotal, roleOrCompany) 
     });
 }
 
+// Data Processing Functions
+function quantile(arr, q) {
+    const sorted = arr.slice().sort((a, b) => a - b);
+    const pos = (sorted.length - 1) * q;
+    const base = Math.floor(pos);
+    const rest = pos - base;
+    return sorted[base + 1] !== undefined ? sorted[base] + rest * (sorted[base + 1] - sorted[base]) : sorted[base];
+}
+
+function groupSalariesBy(jsonData, groupBy, valueKey) {
+    return jsonData.reduce((acc, item) => {
+        const key = item[groupBy];
+        const value = item[valueKey];
+        if (!acc[key]) acc[key] = [];
+        acc[key].push(value);
+        return acc;
+    }, {});
+}
+
+function calculateBoxPlotData(salariesByGroup, validItems, minDataPoints = minDataPointsForBoxPlot) {
+    return Object.keys(salariesByGroup).filter(key => salariesByGroup[key].length >= minDataPoints && (validItems.size === 0 || validItems.has(key))).map(key => {
+        const values = salariesByGroup[key];
+        return {
+            name: key,
+            data: [[Math.min(...values), quantile(values, 0.25), quantile(values, 0.5), quantile(values, 0.75), Math.max(...values)]]
+        };
+    }).sort((a, b) => b.data[0][2] - a.data[0][2]).slice(0, 20);
+}
+
+// Plotting Functions
+function plotHistogram(jsonData, baseOrTotal) {
+    const totalValues = extractValues(jsonData, baseOrTotal);
+    const totalFrequencies = calculateFrequencies(totalValues);
+    const chartData = prepareChartData(totalFrequencies);
+    initializeHistogramChart(chartData, baseOrTotal);
+}
+
 function plotBoxPlot(jsonData, baseOrTotal, docId, roleOrCompany, validItems) {
     const salariesByGroup = groupSalariesBy(jsonData, roleOrCompany, baseOrTotal);
     const boxPlotData = calculateBoxPlotData(salariesByGroup, validItems);
     initializeBoxPlotChart(docId, boxPlotData, baseOrTotal, roleOrCompany);
 }
 
-// used to set visibility of reset button
-function setResetButtonVisibility(isVisible){
-    document.getElementById("resetButton").style.visibility=isVisible?"visible":"hidden";
+function getSortArrow(column) {
+    if (currentSort.column === column) {
+        return currentSort.order === 'asc' ?
+            `<svg width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6V18M12 6L7 11M12 6L17 11" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>` :
+            `<svg width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6V18M12 18L7 13M12 18L17 13" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>`;
+    }
+    // Default state (no sorting)
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24"><path d="M6 9l6-6 6 6z M18 15l-6 6-6-6z" fill="#000" /></svg>`;
 }
 
-
-
-document.addEventListener('DOMContentLoaded', async function () {
-    setResetButtonVisibility(false)
-    document.getElementById("resetButton").addEventListener("click",()=>{
-        filteredOffers = offers;
-        displayOffers(1);
-        setResetButtonVisibility(false);
-    })
-
-    async function fetchOffers() {
-        const response = await fetch('data/parsed_comps.json');
-        const data = await response.json();
-        offers = data;
-        filteredOffers = [...offers];
-        totalPages = Math.ceil(filteredOffers.length / offersPerPage);
-        displayOffers(currentPage);
-    }
-
-    await fetchOffers();
-
-    let statsInfo = statsStr(filteredOffers);
-
-    document.getElementById('statsStr').textContent = statsInfo;
-    plotHistogram(filteredOffers, 'total');
-    mostOfferCompanies(filteredOffers);
-    plotBoxPlot(filteredOffers, 'total', 'companyBoxPlot', 'company', new Set([]));
-    plotBoxPlot(filteredOffers, 'total', 'yoeBucketBoxPlot', 'mapped_yoe', validYoeBucket);
-
-    document.getElementById('prevPage').addEventListener('click', () => {
-        if (currentPage > 1) {
-            currentPage--;
-            displayOffers(currentPage);
-        }
-    });
-
-    document.getElementById('nextPage').addEventListener('click', () => {
-        if ((currentPage * offersPerPage) < filteredOffers.length) {
-            currentPage++;
-            displayOffers(currentPage);
-        }
-    });
-
-    // Event listener for page dropdown
-    document.getElementById('pageSelect').addEventListener('change', (event) => {
-        currentPage = parseInt(event.target.value);
-        displayOffers(currentPage);
-    });
-
-
-
-    // Function to filter offers by company name
-    function filterOffersByCompany(companyName) {
-        currentSort = { column: null, order: 'asc' };
-
-        if (companyName.trim() === '') {
-            filteredOffers = [...offers]; // Reset filteredOffers to all data if search input is empty
-        } else {
-            filteredOffers = offers.filter(offer => offer.company.toLowerCase().includes(companyName.toLowerCase()));
-        }
-
-        totalPages = Math.ceil(filteredOffers.length / offersPerPage); // Update total pages
-        currentPage = 1; // Reset to the first page after filtering
-
-        // Update graphs with filtered data
-        plotHistogram(filteredOffers, 'total');
-        mostOfferCompanies(filteredOffers);
-        plotBoxPlot(filteredOffers, 'total', 'companyBoxPlot', 'company', new Set([]));
-        plotBoxPlot(filteredOffers, 'total', 'yoeBucketBoxPlot', 'mapped_role', validYoeBucket);
-
-        // Update offers table with filtered data
-        displayOffers(currentPage);
-
-        statsInfo = statsStr(filteredOffers);
-        document.getElementById('statsStr').textContent = statsInfo;
-    }
-
-    // Search by button
-    document.getElementById('searchButton').addEventListener('click', () => {
-        const searchInput = document.getElementById('searchInput').value;
-        filterOffersByCompany(searchInput);
-    });
-
-    // Search By enter
-    document.getElementById('searchInput').addEventListener('keypress', (event) => {
-        if (event.key === 'Enter') {
-            const searchInput = document.getElementById('searchInput').value;
-            filterOffersByCompany(searchInput);
-        }
-    });
-});
-
+// Display and Sorting Functions
 function displayOffers(page) {
     const startIndex = (page - 1) * offersPerPage;
     const endIndex = startIndex + offersPerPage;
@@ -408,34 +277,9 @@ function displayOffers(page) {
 
 }
 
-function getSortArrow(column) {
-    const svgWidth = 16; // to be adjusted
-    const svgHeight = 18; // to be adjusted
-
-    if (currentSort.column === column) {
-        return currentSort.order === 'asc' ?
-            `<svg width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6V18M12 6L7 11M12 6L17 11" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>` :
-            `<svg width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6V18M12 18L7 13M12 18L17 13" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>`;
-    }
-    // Default state (no sorting)
-    return `<svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 24 24">
-            <path d="M6 9l6-6 6 6z M18 15l-6 6-6-6z" fill="#000" />
-        </svg>`;
-}
-
-   // Function to remove sorting
-   function removeSorting() {
-    console.log("#");
-    currentSort = { column: 'id', order: 'desc' };
-    filteredOffers.sort((a, b) => b.id - a.id);
-    displayOffers(currentPage,filteredOffers);
-}
-
-
-
 function sortOffers(column) {
     if (currentSort.column === column) {
-        // Toggle order: asc -> desc -> no sorting
+        // Toggle order: desc -> asc -> no sorting
         if (currentSort.order === 'asc') {
             currentSort.column = null;
             currentSort.order = 'desc';
@@ -467,6 +311,7 @@ function sortOffers(column) {
     }
     displayOffers(currentPage);
 }
+
 function renderPageOptions() {
     const pageSelect = document.getElementById('pageSelect');
     pageSelect.innerHTML = '';
@@ -481,3 +326,127 @@ function renderPageOptions() {
         pageSelect.appendChild(option);
     }
 }
+
+// Used to set visibility of reset button
+function setResetButtonVisibility(isVisible, filterString = ""){
+    if (isVisible) {
+        filterString = `${resetSvg} ${filterString} (₹ LPA)`;
+        document.getElementById("resetButton").innerHTML = filterString;
+    }
+    document.getElementById("resetButton").style.visibility=isVisible?"visible":"hidden";
+}
+
+function mostOfferCompanies(jsonData) {
+    const companyCounts = countCompanies(jsonData);
+    let [categories, counts] = sortAndSliceData(companyCounts);
+
+    initializeBarChart(categories, counts);
+}
+
+function countCompanies(data) {
+    return data.reduce((acc, { company }) => {
+        acc[company] = (acc[company] || 0) + 1;
+        return acc;
+    }, {});
+}
+
+function sortAndSliceData(companyCounts) {
+    const sortedData = Object.entries(companyCounts)
+        .sort(([, a], [, b]) => b - a)
+        .slice(0, 10);
+
+    const categories = sortedData.map(([company]) => company);
+    const counts = sortedData.map(([, count]) => count);
+
+    return [categories, counts];
+}
+
+// Event Listeners and Initial Setup
+document.addEventListener('DOMContentLoaded', async function () {
+    // Set initial visibility of the reset button
+    setResetButtonVisibility(false);
+
+    // Reset button event listener
+    document.getElementById("resetButton").addEventListener("click", () => {
+        filteredOffers = offers;
+        setStatsStr(filteredOffers);
+        displayOffers(1);
+        setResetButtonVisibility(false);
+    });
+
+    // Fetch and display offers
+    async function fetchOffers() {
+        const response = await fetch('data/parsed_comps.json');
+        const data = await response.json();
+        offers = data;
+        filteredOffers = [...offers];
+        totalPages = Math.ceil(filteredOffers.length / offersPerPage);
+        displayOffers(currentPage);
+    }
+
+    await fetchOffers();
+
+    // Initialize charts and stats
+    setStatsStr(filteredOffers);
+    plotHistogram(filteredOffers, 'total');
+    mostOfferCompanies(filteredOffers);
+    plotBoxPlot(filteredOffers, 'total', 'companyBoxPlot', 'company', new Set([]));
+    plotBoxPlot(filteredOffers, 'total', 'yoeBucketBoxPlot', 'mapped_yoe', validYoeBucket);
+
+    // Pagination event listeners
+    document.getElementById('prevPage').addEventListener('click', () => {
+        if (currentPage > 1) {
+            currentPage--;
+            displayOffers(currentPage);
+        }
+    });
+
+    document.getElementById('nextPage').addEventListener('click', () => {
+        if ((currentPage * offersPerPage) < filteredOffers.length) {
+            currentPage++;
+            displayOffers(currentPage);
+        }
+    });
+
+    // Page selection dropdown event listener
+    document.getElementById('pageSelect').addEventListener('change', (event) => {
+        currentPage = parseInt(event.target.value);
+        displayOffers(currentPage);
+    });
+
+    // Filter offers by company name
+    function filterOffersByCompany(companyName) {
+        currentSort = { column: null, order: 'asc' };
+
+        if (companyName.trim() === '') {
+            filteredOffers = [...offers]; // Reset filteredOffers to all data if search input is empty
+        } else {
+            filteredOffers = offers.filter(offer => offer.company.toLowerCase().includes(companyName.toLowerCase()));
+        }
+
+        totalPages = Math.ceil(filteredOffers.length / offersPerPage); // Update total pages
+        currentPage = 1; // Reset to the first page after filtering
+
+        // Update graphs and offers table with filtered data
+        setStatsStr(filteredOffers);
+        plotHistogram(filteredOffers, 'total');
+        mostOfferCompanies(filteredOffers);
+        plotBoxPlot(filteredOffers, 'total', 'companyBoxPlot', 'company', new Set([]));
+        plotBoxPlot(filteredOffers, 'total', 'yoeBucketBoxPlot', 'mapped_yoe', validYoeBucket);
+        displayOffers(currentPage);
+    }
+
+    // Search button event listener
+    document.getElementById('searchButton').addEventListener('click', () => {
+        const searchInput = document.getElementById('searchInput').value;
+        filterOffersByCompany(searchInput);
+    });
+
+    // Search input "Enter" key event listener
+    document.getElementById('searchInput').addEventListener('keypress', (event) => {
+        if (event.key === 'Enter') {
+            const searchInput = document.getElementById('searchInput').value;
+            filterOffersByCompany(searchInput);
+        }
+    });
+});
