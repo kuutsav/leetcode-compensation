@@ -7,6 +7,7 @@ let offers = [];
 let filteredOffers = [];
 let currentSort = { column: null, order: 'asc' };
 let totalPages = 0;
+let barChartFilterIsSet = false;
 const svgWidth = 16;
 const svgHeight = 16;
 
@@ -73,16 +74,21 @@ function initializeHistogramChart(chartData, baseOrTotal) {
                 point: {
                     events: {
                         click: function () {
+                            if (barChartFilterIsSet) {
+                                alert("Please reset the previous filter first or refresh the page")
+                                return;
+                            }
                             const rangeString = this?.name;
                             const [start, end] = rangeString.split("-").map(r => parseInt(r));
                             const filteredCompensation = filteredOffers.filter(compensation => {
                                 return compensation.total >= start && compensation.total <= end;
                             });
                             setResetButtonVisibility(true, rangeString);
-                            filteredOffers = filteredCompensation; // Use filteredOffers to maintain any existing search filters
+                            filteredOffers = filteredCompensation;
                             setStatsStr(filteredOffers);
                             displayOffers(1);
                             document.getElementById("offersTable").scrollIntoView();
+                            barChartFilterIsSet = true;
                         }
                     }
                 }
@@ -372,6 +378,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         setStatsStr(filteredOffers);
         displayOffers(1);
         setResetButtonVisibility(false);
+        barChartFilterIsSet = false;
     });
 
     // Fetch and display offers
