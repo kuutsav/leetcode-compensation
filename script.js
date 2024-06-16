@@ -10,6 +10,12 @@ let totalPages = 0;
 const svgWidth = 16;
 const svgHeight = 16;
 
+let globalFilterState = {
+    companyName: '',
+    yoeRange: [null, null], // Assuming null means no filter
+    salaryRange: [null, null],
+};
+
 // Utility Functions
 function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
@@ -373,20 +379,38 @@ document.addEventListener('DOMContentLoaded', async function () {
         displayOffers(currentPage);
     });
 
-    // Filter offers by company name
-    function filterOffersByCompany(companyName) {
+    function filterOffers() {
         currentSort = { column: null, order: 'asc' };
 
-        if (companyName.trim() === '') {
-            filteredOffers = [...offers]; // Reset filteredOffers to all data if search input is empty
-        } else {
-            filteredOffers = offers.filter(offer => offer.company.toLowerCase().includes(companyName.toLowerCase()));
+        // Start with all offers
+        let tempFilteredOffers = [...offers];
+
+        // Filter by company name if applicable
+        if (globalFilterState.companyName.trim() !== '') {
+            tempFilteredOffers = tempFilteredOffers.filter(offer =>
+                offer.company.toLowerCase().includes(globalFilterState.companyName.toLowerCase())
+            );
         }
 
-        totalPages = Math.ceil(filteredOffers.length / offersPerPage); // Update total pages
-        currentPage = 1; // Reset to the first page after filtering
+        // Filter by YOE if applicable
+        if (globalFilterState.yoeRange[0] !== null && globalFilterState.yoeRange[1] !== null) {
+            tempFilteredOffers = tempFilteredOffers.filter(offer =>
+                offer.yoe >= globalFilterState.yoeRange[0] && offer.yoe <= globalFilterState.yoeRange[1]
+            );
+        }
 
-        // Update graphs and offers table with filtered data
+        // Filter by salary if applicable
+        if (globalFilterState.salaryRange[0] !== null && globalFilterState.salaryRange[1] !== null) {
+            tempFilteredOffers = tempFilteredOffers.filter(offer =>
+                offer.total >= globalFilterState.salaryRange[0] && offer.total <= globalFilterState.salaryRange[1]
+            );
+        }
+
+        filteredOffers = tempFilteredOffers;
+        totalPages = Math.ceil(filteredOffers.length / offersPerPage);
+        currentPage = 1;
+
+        // Update UI
         setStatsStr(filteredOffers);
         plotHistogram(filteredOffers, 'total');
         mostOfferCompanies(filteredOffers);
@@ -395,10 +419,30 @@ document.addEventListener('DOMContentLoaded', async function () {
         displayOffers(currentPage);
     }
 
+    function filterOffersByCompany(companyName) {
+        globalFilterState.companyName = companyName;
+        filterOffers(); // Call the unified filter function
+    }
+
+    function filterOffersByYoeAndSalary(yoeRange, salaryRange) {
+        globalFilterState.yoeRange = yoeRange;
+        globalFilterState.salaryRange = salaryRange;
+        filterOffers(); // Call the unified filter function
+    }
+
     // Search button event listener
     document.getElementById('searchButton').addEventListener('click', () => {
         const searchInput = document.getElementById('searchInput').value;
         filterOffersByCompany(searchInput);
+    });
+
+    // Search button event listener
+    document.getElementById('filter').addEventListener('click', () => {
+        const yoeMin = document.getElementById('yoeMin').value;
+        const yoeMax = document.getElementById('yoeMax').value;
+        const salaryMin = document.getElementById('salaryMin').value;
+        const salaryMax = document.getElementById('salaryMax').value;
+        filterOffersByYoeAndSalary([yoeMin, yoeMax], [salaryMin, salaryMax]);
     });
 
     // Search input "Enter" key event listener
