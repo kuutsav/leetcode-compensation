@@ -11,12 +11,12 @@ const svgWidth = 16;
 const svgHeight = 16;
 
 let globalFilterState = {
-    companyName: '',
+    searchString: '',
     yoeRange: [null, null], // Assuming null means no filter
     salaryRange: [null, null],
 };
-// add more properties from source object to make the searchable from search input
-const GLOBAL_ALLOWED_FILTERS=["company","location"];
+
+const GLOBAL_ALLOWED_FILTERS=["company", "location"];
 
 // Utility Functions
 function capitalize(str) {
@@ -24,15 +24,13 @@ function capitalize(str) {
 }
 
 /**
- * 
- * @param {any[]} data 
- * @param {string} searchTerm 
- * @param {string[]} searchKeys 
+ * @param {any[]} data
+ * @param {string} searchTerm
+ * @param {string[]} searchKeys
  */
-function filterCompensationsByKeys(data,searchTerm,searchKeys){
+function filterCompensationsByKeys(data, searchTerm, searchKeys){
     const fuseOptions = {
         threshold: 0.2,
-        // keys to be searched 
         keys: searchKeys
     };
     const fuse = new Fuse(data, fuseOptions);
@@ -404,9 +402,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         // Start with all offers
         let tempFilteredOffers = [...offers];
 
-        // Filter by company name if applicable
-        if (globalFilterState.companyName.trim() !== '') {
-            tempFilteredOffers = filterCompensationsByKeys(tempFilteredOffers,globalFilterState.companyName,GLOBAL_ALLOWED_FILTERS)
+        // Filter by search string if applicable
+        if (globalFilterState.searchString.trim() !== '') {
+            tempFilteredOffers = filterCompensationsByKeys(tempFilteredOffers, globalFilterState.searchString, GLOBAL_ALLOWED_FILTERS)
         }
 
         // Filter by YOE if applicable
@@ -437,7 +435,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
     function filterOffersByCompany(companyName) {
-        globalFilterState.companyName = companyName;
+        globalFilterState.searchString = companyName;
         filterOffers(); // Call the unified filter function
     }
 
