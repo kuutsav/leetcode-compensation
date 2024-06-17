@@ -2,7 +2,7 @@ name: automatic-data-update
 
 on:
   schedule:
-    - cron: '00 22 * * *'
+    - cron: '00 22 * * 3,6'
 
 jobs:
   automatic-data-update:

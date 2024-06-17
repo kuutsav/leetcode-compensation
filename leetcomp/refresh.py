@@ -1,6 +1,6 @@
 import json
 from dataclasses import asdict, dataclass
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Any, Iterator
 
 import requests  # type: ignore
@@ -94,14 +94,20 @@ def parsed_posts(skip: int, first: int) -> Iterator[LeetCodePost]:
         )
 
 
-def get_latest_posts(comps_path: str, till_date: datetime) -> None:
+def get_latest_posts(
+    comps_path: str, start_date: datetime, till_date: datetime
+) -> None:
     skip, first = 0, 50
     has_crossed_till_date = False
-    fetched_posts = 0
+    fetched_posts, skips_due_to_lag = 0, 0
 
     with open(comps_path, "a") as f:
         while not has_crossed_till_date:
             for post in parsed_posts(skip, first):  # type: ignore[unused-ignore]
+                if post.creation_date > start_date:
+                    skips_due_to_lag += 1
+                    continue
+
                 if post.creation_date <= till_date:
                     has_crossed_till_date = True
                     break
@@ -120,6 +126,7 @@ def get_latest_posts(comps_path: str, till_date: datetime) -> None:
 
             skip += first
 
+        print(f"Skipped {skips_due_to_lag} posts due to lag...")
         print(f"{post.creation_date} Fetched {fetched_posts} posts in total!")
 
 
@@ -150,5 +157,6 @@ if __name__ == "__main__":
 
     print(f"Fetching posts till {till_date}...")
 
-    get_latest_posts(args.comps_path, till_date)
+    start_date = datetime.now() - timedelta(days=config["app"]["lag_days"])
+    get_latest_posts(args.comps_path, start_date, till_date)
     sort_and_truncate(args.comps_path, truncate=True)

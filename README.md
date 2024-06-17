@@ -8,7 +8,8 @@
 https://kuutsav.github.io/leetcode-compensation/
 
 Analysing compensations mentioned on the Leetcode forums (only supports posts from `India` at the moment).
-The data is refreshed daily using a github action that raises a PR with the latest data.
+- The data is updated bi-weekly via a GitHub action that creates a PR with the latest data.
+- A 2-day forced lag in data refresh allows time for votes, filtering out posts with negative votes.
 
 The `leetcomp` directory contains scripts to fetch new posts from [https://leetcode.com/discuss/compensation](https://leetcode.com/discuss/compensation).<br>We use LLMs to parse structured information from the scraped posts, which is then sanitised and aggregated.
 
