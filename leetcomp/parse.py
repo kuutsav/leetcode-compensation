@@ -20,7 +20,7 @@ yoe_map: dict[tuple[int, int], str] = {
     (0, 1): "Entry (0-1)",
     (2, 6): "Mid (2-6)",
     (7, 10): "Senior (7-10)",
-    (10, 30): "Senior + (10+)",
+    (11, 30): "Senior + (10+)",
 }
 
 
