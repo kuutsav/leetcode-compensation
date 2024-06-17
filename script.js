@@ -1,6 +1,6 @@
 // Constants and Variables
 const minDataPointsForBoxPlot = 2;
-const validYoeBucket = new Set(["Entry (0-1)", "Mid (2-6)", "Senior (7-10)", "Senior + (10+)"]);
+const validYoeBucket = new Set(["Entry (0-1)", "Mid (2-6)", "Senior (7-10)", "Senior + (11+)"]);
 const offersPerPage = 10;
 let currentPage = 1;
 let offers = [];
