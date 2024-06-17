@@ -1,5 +1,29 @@
 [
     {
+        "id": "5321423",
+        "creation_date": "2024-06-16",
+        "company": "Chargebee",
+        "role": "SDE 1",
+        "yoe": 1,
+        "location": "Bangalore",
+        "base": 20.0,
+        "total": 20.0,
+        "mapped_role": "SDE I",
+        "mapped_yoe": "Entry (0-1)"
+    },
+    {
+        "id": "5320654",
+        "creation_date": "2024-06-16",
+        "company": "Google",
+        "role": "L4 Hardware Engineer",
+        "yoe": 10,
+        "location": "Hyderabad",
+        "base": 38.0,
+        "total": 76.3,
+        "mapped_role": "SDE III",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
         "id": "5318167",
         "creation_date": "2024-06-15",
         "company": "Tesco",
@@ -357,7 +381,7 @@
         "base": 36.0,
         "total": 69.0,
         "mapped_role": "SDE III",
-        "mapped_yoe": "Senior + (10+)"
+        "mapped_yoe": "Senior + (11+)"
     },
     {
         "id": "5285039",
@@ -6033,7 +6057,7 @@
         "base": 51.0,
         "total": 87.0,
         "mapped_role": "Senior Software Engineer/L63",
-        "mapped_yoe": "Senior + (10+)"
+        "mapped_yoe": "Senior + (11+)"
     },
     {
         "id": "4754802",

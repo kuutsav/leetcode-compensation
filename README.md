@@ -64,7 +64,7 @@ uv pip install -r requirements.txt  # Install from a requirements.txt file.
 
 ## Updating data
 
-> Make sure you have completed the steps above and are in a venv
+> Make sure you are in a venv with all the packages installed and have llm inference setup (look at the llms section of config.toml) using any of the supported options like ollama(local), vllm(local), openrouter(api)
 
 ```bash
 $ export PYTHONPATH=.
@@ -77,7 +77,7 @@ $ python leetcomp/parse.py
 - [x] ~~Sort by Compensation and Yoe~~
 - [ ] ~~Search for Companies~~ and Roles
 - [x] ~~Add pagination~~
-- [x] ~~Filters for Yoe, Compensation,~~
+- [x] ~~Filters for Yoe, Compensation~~
 
 ## Contributions
 
