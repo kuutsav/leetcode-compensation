@@ -16,7 +16,7 @@ let globalFilterState = {
     salaryRange: [null, null],
 };
 
-const GLOBAL_ALLOWED_FILTERS=["company", "location"];
+const GLOBAL_ALLOWED_FILTERS=["company", "location", "mapped_role"];
 
 // Utility Functions
 function capitalize(str) {
