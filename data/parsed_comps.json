@@ -1,5 +1,53 @@
 [
     {
+        "id": "5329164",
+        "creation_date": "2024-06-17",
+        "company": "Agoda",
+        "role": "SSE",
+        "yoe": 4,
+        "location": "Bangkok",
+        "base": 63.0,
+        "total": 67.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5326265",
+        "creation_date": "2024-06-17",
+        "company": "Microsoft",
+        "role": "SDE-2 L61",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 31.0,
+        "total": 48.7,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5326251",
+        "creation_date": "2024-06-17",
+        "company": "Cloudera",
+        "role": "Senior Software Engineer",
+        "yoe": 3,
+        "location": "N/A",
+        "base": 33.0,
+        "total": 42.6,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5325847",
+        "creation_date": "2024-06-17",
+        "company": "Goldman Sachs",
+        "role": "Associate",
+        "yoe": 5,
+        "location": "Hyderabad",
+        "base": 21.0,
+        "total": 21.0,
+        "mapped_role": "Associate",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
         "id": "5321423",
         "creation_date": "2024-06-16",
         "company": "Chargebee",
@@ -20,7 +68,7 @@
         "location": "Hyderabad",
         "base": 38.0,
         "total": 76.3,
-        "mapped_role": "SDE III",
+        "mapped_role": "L4 Hardware Engineer",
         "mapped_yoe": "Senior (7-10)"
     },
     {
