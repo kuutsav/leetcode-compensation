@@ -20,6 +20,8 @@
 - Excludes negatively voted posts with a 2-day data refresh delay for vote accumulation.
 - Uses LLMs for parsing and sanitizing structured data from posts, followed by aggregation.
 
+Visit https://kuutsav.github.io/leetcode-compensation/.
+
 ## Getting Started
 
 Install uv from [Standalone Installers](https://github.com/astral-sh/uv) or from [PyPI](https://pypi.org/project/uv/):
