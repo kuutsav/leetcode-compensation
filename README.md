@@ -1,26 +1,22 @@
-<p align="center">
-<img src="./assets/leetcomp.png">
-</p>
+<h1 align="center">LeetCode Compensation</h1>
 
 <p align="center">
-<a href="https://github.com/kuutsav/leetcode-compensation/actions/workflows/data-refresh.yaml">
-    <img src="https://github.com/kuutsav/leetcode-compensation/actions/workflows/data-refresh.yaml/badge.svg" alt="automatic-data-update">
-</a>
-<a href="https://github.com/kuutsav/leetcode-compensation/actions/workflows/pages/pages-build-deployment">
-    <img src="https://github.com/kuutsav/leetcode-compensation/actions/workflows/pages/pages-build-deployment/badge.svg" alt="pages-build-deployment">
-</a>
-<a href="http://mypy-lang.org/">
-    <img src="http://www.mypy-lang.org/static/mypy_badge.svg" alt="Checked with mypy">
-</a>
+<a href="https://github.com/kuutsav/leetcode-compensation/actions/workflows/data-refresh.yaml"><img src="https://github.com/kuutsav/leetcode-compensation/actions/workflows/data-refresh.yaml/badge.svg" alt="automatic-data-update"/ ></a>
+<a href="https://github.com/kuutsav/leetcode-compensation/actions/workflows/pages/pages-build-deployment"><img src="https://github.com/kuutsav/leetcode-compensation/actions/workflows/pages/pages-build-deployment/badge.svg" alt="pages-build-deployment" /></a>
+<a href="http://mypy-lang.org/"><img src="http://www.mypy-lang.org/static/mypy_badge.svg" alt="Checked with mypy" /></a>
 </p>
 
-**leetcode compensation** is a tool that:
+**LeetCode Compensation** is a tool that:
 - Fetches compensation data from Leetcode forums, currently limited to India.
 - Updates Bi-weekly through GitHub action PRs.
 - Excludes negatively voted posts with a 2-day data refresh delay for vote accumulation.
 - Uses LLMs for parsing and sanitizing structured data from posts, followed by aggregation.
 
 Visit https://kuutsav.github.io/leetcode-compensation/.
+
+<p align="center">
+<img src="./assets/leetcomp.png">
+</p>
 
 ## Getting Started
 
