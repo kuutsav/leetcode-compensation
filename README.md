@@ -1,47 +1,28 @@
-# leetcode compensation
+<p align="center">
+<kbd><img src="./assets/leetcomp.png" width="60%"></kbd>
+</p>
 
-[![automatic-data-update](https://github.com/kuutsav/leetcode-compensation/actions/workflows/data-refresh.yaml/badge.svg)](https://github.com/kuutsav/leetcode-compensation/actions/workflows/data-refresh.yaml)
-[![pages-build-deployment](https://github.com/kuutsav/leetcode-compensation/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kuutsav/leetcode-compensation/actions/workflows/pages/pages-build-deployment)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
+<p align="center">
+<a href="https://github.com/kuutsav/leetcode-compensation/actions/workflows/data-refresh.yaml">
+    <img src="https://github.com/kuutsav/leetcode-compensation/actions/workflows/data-refresh.yaml/badge.svg" alt="automatic-data-update">
+</a>
+<a href="https://github.com/kuutsav/leetcode-compensation/actions/workflows/pages/pages-build-deployment">
+    <img src="https://github.com/kuutsav/leetcode-compensation/actions/workflows/pages/pages-build-deployment/badge.svg" alt="pages-build-deployment">
+</a>
+<a href="http://mypy-lang.org/">
+    <img src="http://www.mypy-lang.org/static/mypy_badge.svg" alt="Checked with mypy">
+</a>
+</p>
 
-https://kuutsav.github.io/leetcode-compensation/
-
-Analysing compensations mentioned on the Leetcode forums (only supports posts from `India` at the moment).
-
-- The data is updated bi-weekly via a GitHub action that creates a PR with the latest data.
-- We filter out posts with negative votes so we add a 2-day lag in data refresh to allow votes to come in.
-- The `leetcomp` directory contains scripts to fetch new posts from [leetcode.com/discuss/compensation](https://leetcode.com/discuss/compensation).
-- We use LLMs to parse structured information from the scraped posts, which is then sanitised and aggregated.
-
----
-
-![image info](./assets/leetcomp.png)
+[leetcode compensation](https://kuutsav.github.io/leetcode-compensation) is a tool that:
+- Fetches compensation data from Leetcode forums, currently limited to India.
+- Updates Bi-weekly through GitHub action PRs.
+- Excludes negatively voted posts with a 2-day data refresh delay for vote accumulation.
+- Uses LLMs for parsing and sanitizing structured data from posts, followed by aggregation.
 
 ## Getting Started
 
-Install uv with our standalone installers, or from [PyPI](https://pypi.org/project/uv/):
-
-```shell
-# On macOS and Linux.
-curl -LsSf https://astral.sh/uv/install.sh | sh
-
-# On Windows.
-powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
-
-# For a specific version.
-curl -LsSf https://astral.sh/uv/0.2.9/install.sh | sh
-powershell -c "irm https://astral.sh/uv/0.2.9/install.ps1 | iex"
-
-# With pip.
-pip install uv
-
-# With pipx.
-pipx install uv
-
-# With Homebrew.
-brew install uv
-```
+Install uv from [Standalone Installers](https://github.com/astral-sh/uv) or from [PyPI](https://pypi.org/project/uv/):
 
 To create a virtual environment:
 
@@ -67,6 +48,7 @@ uv pip install -r requirements.txt  # Install from a requirements.txt file.
 
 ## Updating data
 
+> [!NOTE]
 > Make sure you are in a venv with all the packages installed and have llm inference setup (look at the llms section of config.toml) using any of the supported options like ollama(local), vllm(local), openrouter(api)
 
 ```bash
@@ -78,9 +60,9 @@ $ python leetcomp/parse.py
 ## Roadmap
 
 - [x] Sort by Compensation and Yoe
-- [x] Filters for Yoe, Compensation
 - [x] Add pagination
-- [x] Search for Companies and Locaations
+- [x] Filters for Yoe, Compensation
+- [x] Search for Companies and Locations
 
 ## Contributions
 
