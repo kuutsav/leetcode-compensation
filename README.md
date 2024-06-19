@@ -14,7 +14,7 @@
 </a>
 </p>
 
-[leetcode compensation](https://kuutsav.github.io/leetcode-compensation) is a tool that:
+**leetcode compensation** is a tool that:
 - Fetches compensation data from Leetcode forums, currently limited to India.
 - Updates Bi-weekly through GitHub action PRs.
 - Excludes negatively voted posts with a 2-day data refresh delay for vote accumulation.
