@@ -1,13 +1,25 @@
 [
     {
-        "id": "5329164",
+        "id": "5329225",
         "creation_date": "2024-06-17",
-        "company": "Agoda",
-        "role": "SSE",
+        "company": "Microsoft",
+        "role": "L61",
         "yoe": 4,
-        "location": "Bangkok",
-        "base": 63.0,
-        "total": 67.0,
+        "location": "NCR",
+        "base": 30.0,
+        "total": 53.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5329026",
+        "creation_date": "2024-06-17",
+        "company": "Microsoft",
+        "role": "L61",
+        "yoe": 3,
+        "location": "N/A",
+        "base": 26.0,
+        "total": 45.3,
         "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
@@ -36,15 +48,15 @@
         "mapped_yoe": "Mid (2-6)"
     },
     {
-        "id": "5325847",
+        "id": "5325526", 
         "creation_date": "2024-06-17",
-        "company": "Goldman Sachs",
-        "role": "Associate",
-        "yoe": 5,
-        "location": "Hyderabad",
-        "base": 21.0,
-        "total": 21.0,
-        "mapped_role": "Associate",
+        "company": "Siemens",
+        "role": "SMTS",
+        "yoe": 4,
+        "location": "NCR",
+        "base": 22.0,
+        "total": 30.0,
+        "mapped_role": "MTS II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
