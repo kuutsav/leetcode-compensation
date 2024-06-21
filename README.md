@@ -9,11 +9,13 @@
 <a href="http://mypy-lang.org/"><img src="http://www.mypy-lang.org/static/mypy_badge.svg" alt="Checked with mypy" /></a>
 </p>
 
-**[LeetCode Compensation](https://kuutsav.github.io/leetcode-compensation)** is a tool that:
-- Fetches compensation data from Leetcode forums, currently limited to India.
-- Updates Bi-weekly through GitHub action PRs.
-- Excludes negatively voted posts with a 2-day data refresh delay for vote accumulation.
-- Uses LLMs for parsing and sanitizing structured data from posts, followed by aggregation.
+**[LeetCode Compensation](https://kuutsav.github.io/leetcode-compensation)** is a tool that helps you find **Software Engineer Salary in India** by:
+- Fetching compensation data from Leetcode forums.
+- Updating Bi-weekly through GitHub action PRs.
+- Using LLMs for parsing and sanitizing structured data from posts, followed by aggregation.
+
+> [!WARNING]
+> We filter out posts with negative votes. To that end, we have added a 2-day data refresh delay to allow the votes to accumulate.
 
 ## Getting Started
 
