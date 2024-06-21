@@ -1,5 +1,6 @@
 <p align="center">
 <img src="./assets/leetcomp_banner.png">
+<sub>https://kuutsav.github.io/leetcode-compensation</sub>
 </p>
 
 <p align="center">
@@ -8,13 +9,11 @@
 <a href="http://mypy-lang.org/"><img src="http://www.mypy-lang.org/static/mypy_badge.svg" alt="Checked with mypy" /></a>
 </p>
 
-**LeetCode Compensation** is a tool that:
+**[LeetCode Compensation](https://kuutsav.github.io/leetcode-compensation)** is a tool that:
 - Fetches compensation data from Leetcode forums, currently limited to India.
 - Updates Bi-weekly through GitHub action PRs.
 - Excludes negatively voted posts with a 2-day data refresh delay for vote accumulation.
 - Uses LLMs for parsing and sanitizing structured data from posts, followed by aggregation.
-
-Visit https://kuutsav.github.io/leetcode-compensation/.
 
 ## Getting Started
 
