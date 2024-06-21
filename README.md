@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./assets/leetcomp.png">
+<img src="./assets/leetcomp_banner.png">
 </p>
 
 <p align="center">
