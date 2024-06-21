@@ -1,4 +1,6 @@
-<h1 align="center">LeetCode Compensation</h1>
+<p align="center">
+<img src="./assets/leetcomp.png">
+</p>
 
 <p align="center">
 <a href="https://github.com/kuutsav/leetcode-compensation/actions/workflows/data-refresh.yaml"><img src="https://github.com/kuutsav/leetcode-compensation/actions/workflows/data-refresh.yaml/badge.svg" alt="automatic-data-update"/ ></a>
@@ -13,10 +15,6 @@
 - Uses LLMs for parsing and sanitizing structured data from posts, followed by aggregation.
 
 Visit https://kuutsav.github.io/leetcode-compensation/.
-
-<p align="center">
-<img src="./assets/leetcomp.png">
-</p>
 
 ## Getting Started
 
