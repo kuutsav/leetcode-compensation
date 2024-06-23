@@ -4,8 +4,6 @@ import re
 from datetime import datetime
 from typing import Any, Generator
 
-
-
 from leetcomp.prompts import PARSING_PROMPT
 from leetcomp.utils import (
     config,
@@ -25,6 +23,7 @@ yoe_map: dict[tuple[int, int], str] = {
     (11, 30): "Senior + (11+)",
 }
 
+
 def post_should_be_parsed(post: dict[Any, Any]) -> bool:
     return (
         "title" in post
@@ -32,6 +31,7 @@ def post_should_be_parsed(post: dict[Any, Any]) -> bool:
         and "vote_count" in post
         and post["vote_count"] >= 0
     )
+
 
 def has_crossed_till_date(
     creation_date: str, till_date: datetime | None = None
@@ -42,10 +42,12 @@ def has_crossed_till_date(
     dt = datetime.strptime(creation_date, config["app"]["date_fmt"])
     return dt <= till_date
 
+
 def comps_posts_iter(comps_path: str) -> Generator[dict[Any, Any], None, None]:
     with open(comps_path, "r") as f:
         for line in f:
             yield json.loads(line)
+
 
 def parsed_content_is_valid(parsed_content: list[dict[Any, Any]]) -> bool:
     if not isinstance(parsed_content, list) or not parsed_content:
@@ -80,10 +82,14 @@ def parsed_content_is_valid(parsed_content: list[dict[Any, Any]]) -> bool:
 
     return True  # Parsed content is valid if no assertions fail
 
+
 def extract_interview_exp(content: str) -> str:
-    match = re.search(r"https://leetcode.com/discuss/interview-experience/\S+", content)
+    match = re.search(
+        r"https://leetcode.com/discuss/interview-experience/\S+", content
+    )
     print(match)
     return match.group(0) if match else "NA"
+
 
 def get_parsed_posts(
     raw_post: dict[Any, Any], parsed_content: list[dict[Any, Any]]
@@ -107,10 +113,12 @@ def get_parsed_posts(
         for item in parsed_content
     ]
 
+
 def fill_yoe(parsed_content: list[dict[Any, Any]]) -> None:
     if len(parsed_content) > 1:
         for item in parsed_content[1:]:
             item["yoe"] = parsed_content[0]["yoe"]
+
 
 def parse_posts(
     in_comps_path: str,
@@ -146,9 +154,11 @@ def parse_posts(
         else:
             n_skips += 1
 
+
 def get_parsed_ids(out_comps_path: str) -> set[int]:
     with open(out_comps_path, "r") as f:
         return {json.loads(line)["id"] for line in f}
+
 
 def cleanup_record(record: dict[Any, Any]) -> None:
     record.pop("vote_count", None)
@@ -163,6 +173,7 @@ def cleanup_record(record: dict[Any, Any]) -> None:
     record.pop("base_offer", None)
     record.pop("total_offer", None)
 
+
 def mapped_record(
     item: str,
     mapping: dict[str, str],
@@ -176,6 +187,7 @@ def mapped_record(
                 return role_str.capitalize()
 
     return mapping.get(item, default or item.capitalize())
+
 
 def map_location(location: str, location_map: dict[str, str]) -> str:
     location = location.lower()
@@ -196,12 +208,14 @@ def map_location(location: str, location_map: dict[str, str]) -> str:
 
     return location_map.get(location, location.capitalize())
 
+
 def map_yoe(yoe: int, yoe_map: dict[tuple[int, int], str]) -> str:
     for (start, end), mapped_yoe in yoe_map.items():
         if start <= yoe <= end:
             return mapped_yoe
 
     return "Senior +"
+
 
 def jsonl_to_json(jsonl_path: str, json_path: str) -> None:
     company_map = mapping(config["app"]["data_dir"] / "company_map.json")
@@ -229,6 +243,7 @@ def jsonl_to_json(jsonl_path: str, json_path: str) -> None:
         json.dump(records, file, indent=4)
 
     print(f"Converted {len(records)} records!")
+
 
 if __name__ == "__main__":
     import argparse

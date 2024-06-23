@@ -20,7 +20,7 @@ let globalFilterState = {
     searchString: '',
     yoeRange: [null, null], // Assuming null means no filter
     salaryRange: [null, null],
-    includeInterviewExp: false  
+    includeInterviewExp: false
 };
 
 const GLOBAL_ALLOWED_FILTERS=["company", "location", "mapped_role"];
@@ -52,7 +52,7 @@ function setStatsStr(data) {
     let statsStr = `Based on ${nRecs} recs parsed between ${startDate} and ${endDate} (only includes posts that were parsed successfully and had non-negative votes)`;
 
     const legendStr = `<div style="text-align: center; margin-top: 10px;">${starSVG} Posts with Interview Experience</div>`;
-    
+
     // Wrap the stats string and the legend
     const content = `<div style="text-align: center;">${statsStr}</div>${legendStr}`;
 
@@ -295,7 +295,7 @@ function displayOffers(page) {
     const container = document.getElementById('offersTable');
     container.innerHTML = '';
     container.appendChild(table);
-    renderPageOptions(); 
+    renderPageOptions();
 
 }
 
@@ -375,7 +375,7 @@ function sortAndSliceData(companyCounts) {
 }
 
 document.addEventListener('DOMContentLoaded', async function () {
-    
+
     async function fetchOffers() {
         const response = await fetch('data/parsed_comps.json');
         const data = await response.json();
@@ -416,39 +416,39 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
     function filterOffers() {
         currentSort = { column: null, order: 'asc' };
-    
+
         let tempFilteredOffers = [...offers];
-    
+
         // Apply search string filter if applicable
         if (globalFilterState.searchString.trim() !== '') {
             tempFilteredOffers = filterCompensationsByKeys(tempFilteredOffers, globalFilterState.searchString, GLOBAL_ALLOWED_FILTERS);
         }
-    
+
         // Apply YOE range filter if applicable
         if (globalFilterState.yoeRange[0] !== null && globalFilterState.yoeRange[1] !== null) {
             tempFilteredOffers = tempFilteredOffers.filter(offer =>
                 offer.yoe >= globalFilterState.yoeRange[0] && offer.yoe <= globalFilterState.yoeRange[1]
             );
         }
-    
+
         // Apply salary range filter if applicable
         if (globalFilterState.salaryRange[0] !== null && globalFilterState.salaryRange[1] !== null) {
             tempFilteredOffers = tempFilteredOffers.filter(offer =>
                 offer.total >= globalFilterState.salaryRange[0] && offer.total <= globalFilterState.salaryRange[1]
             );
         }
-    
+
         // Apply interview experience filter if specified
         if (globalFilterState.includeInterviewExp) {
             tempFilteredOffers = tempFilteredOffers.filter(offer =>
                 offer.interview_exp !== "NA"
             );
         }
-    
+
         filteredOffers = tempFilteredOffers;
         totalPages = Math.ceil(filteredOffers.length / offersPerPage);
         currentPage = 1;
-    
+
         // Update UI elements
         setStatsStr(filteredOffers);
         plotHistogram(filteredOffers, 'total');
@@ -457,7 +457,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         plotBoxPlot(filteredOffers, 'total', 'yoeBucketBoxPlot', 'mapped_yoe', validYoeBucket);
         displayOffers(currentPage);
     }
-    
+
 
     function filterOffersByCompany(companyName) {
         globalFilterState.searchString = companyName;
