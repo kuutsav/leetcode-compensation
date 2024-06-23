@@ -28,11 +28,11 @@
         "creation_date": "2024-06-20",
         "company": "PhonePe",
         "role": "Software Engineer",
-        "yoe": 0.83,
+        "yoe": 1,
         "location": "Bangalore",
         "base": 23.0,
         "total": 30.0,
-        "mapped_role": "Software Engineer",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Entry (0-1)"
     },
     {
