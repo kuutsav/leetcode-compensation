@@ -1,15 +1,15 @@
 [
     {
-        "id": "5343321",
+        "id": "5343608",
         "creation_date": "2024-06-20",
-        "company": "Razorpay",
-        "role": "Product Developer Engineer - 1",
-        "yoe": 1,
+        "company": "Microsoft",
+        "role": "SDE2 - L61",
+        "yoe": 2,
         "location": "Bangalore",
-        "base": 29.56,
-        "total": 29.56,
-        "mapped_role": "Product Developer Engineer - 1",
-        "mapped_yoe": "Entry (0-1)"
+        "base": 30.0,
+        "total": 45.45,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
     },
     {
         "id": "5343042",
@@ -20,7 +20,43 @@
         "location": "Hyderabad",
         "base": 28.0,
         "total": 31.0,
-        "mapped_role": "Senior Data Scientist A3",
+        "mapped_role": "Data Scientist",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5342955",
+        "creation_date": "2024-06-20",
+        "company": "PhonePe",
+        "role": "Software Engineer",
+        "yoe": 0.83,
+        "location": "Bangalore",
+        "base": 23.0,
+        "total": 30.0,
+        "mapped_role": "Software Engineer",
+        "mapped_yoe": "Entry (0-1)"
+    },
+    {
+        "id": "5340578",
+        "creation_date": "2024-06-20",
+        "company": "RazorPay",
+        "role": "PDE-1",
+        "yoe": 3,
+        "location": "n/a",
+        "base": 11.0,
+        "total": 11.0,
+        "mapped_role": "PDE-1",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5340578",
+        "creation_date": "2024-06-20",
+        "company": "Accenture",
+        "role": "Software Developer Senior Analyst",
+        "yoe": 3,
+        "location": "n/a",
+        "base": 11.0,
+        "total": 11.0,
+        "mapped_role": "Senior Analyst",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -30,9 +66,21 @@
         "role": "SDE-2",
         "yoe": 2,
         "location": "Chennai",
-        "base": 27.0,
-        "total": 38.0,
+        "base": 20.0,
+        "total": 27.0,
         "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5339773",
+        "creation_date": "2024-06-20",
+        "company": "DE Shaw",
+        "role": "Senior Member of Technical Staff",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 45.0,
+        "total": 60.0,
+        "mapped_role": "MTS II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -44,7 +92,7 @@
         "location": "Mumbai",
         "base": 8.0,
         "total": 9.5,
-        "mapped_role": "Analyst",
+        "mapped_role": "Trainee Analyst",
         "mapped_yoe": "Entry (0-1)"
     },
     {
@@ -56,7 +104,19 @@
         "location": "Hyderabad",
         "base": 28.0,
         "total": 31.0,
-        "mapped_role": "Software Engineer (P2)",
+        "mapped_role": "SDE I",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5336779",
+        "creation_date": "2024-06-19",
+        "company": "Mimecast",
+        "role": "Senior Software Engineer (SDE3)",
+        "yoe": 4,
+        "location": "n/a",
+        "base": 42.5,
+        "total": 50.0,
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -65,7 +125,7 @@
         "company": "Microsoft",
         "role": "SDE 2",
         "yoe": 5,
-        "location": "N/A",
+        "location": "n/a",
         "base": 39.0,
         "total": 73.0,
         "mapped_role": "SDE II",
@@ -77,7 +137,7 @@
         "company": "Project44",
         "role": "SSE",
         "yoe": 5,
-        "location": "N/A",
+        "location": "n/a",
         "base": 53.0,
         "total": 86.0,
         "mapped_role": "SDE II",
@@ -92,7 +152,7 @@
         "location": "Bangalore",
         "base": 16.74,
         "total": 27.0,
-        "mapped_role": "Software Engineer (M1)",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Entry (0-1)"
     },
     {
@@ -122,7 +182,7 @@
     {
         "id": "5335623",
         "creation_date": "2024-06-19",
-        "company": "Lowe's india",
+        "company": "Lowe's India",
         "role": "SDE",
         "yoe": 3,
         "location": "Bangalore",
@@ -144,17 +204,29 @@
         "mapped_yoe": "Mid (2-6)"
     },
     {
+        "id": "5331156",
+        "creation_date": "2024-06-18",
+        "company": "Microsoft",
+        "role": "L60",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 25.5,
+        "total": 50.0,
+        "mapped_role": "SDE I",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
         "id": "5329847",
         "creation_date": "2024-06-18",
         "company": "Microsoft",
         "role": "SDE 1 L60",
-        "yoe": 0,
+        "yoe": 1,
         "location": "Bangalore",
         "base": 22.0,
         "total": 41.7,
         "mapped_role": "SDE I",
         "mapped_yoe": "Entry (0-1)"
-    },
+    }
     {
         "id": "5329225",
         "creation_date": "2024-06-17",
@@ -236,7 +308,7 @@
         "location": "Hyderabad",
         "base": 38.0,
         "total": 76.3,
-        "mapped_role": "L4 Hardware Engineer",
+        "mapped_role": "SDE III",
         "mapped_yoe": "Senior (7-10)"
     },
     {
