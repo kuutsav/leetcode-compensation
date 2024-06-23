@@ -15,7 +15,7 @@
 - Using LLMs for parsing and sanitizing structured data from posts, followed by aggregation.
 
 > [!WARNING]
-> We filter out posts with negative votes. To that end, we have added a 2-day data refresh delay to allow the votes to accumulate.
+> A 2-day data refresh delay allows the votes to accumulate, after that posts with negative votes are dropped.
 
 ## Getting Started
 
@@ -46,12 +46,11 @@ uv pip install -r requirements.txt  # Install from a requirements.txt file.
 ## Updating data
 
 > [!NOTE]
-> Make sure you are in a venv with all the packages installed and have llm inference setup (look at the llms section of config.toml) using any of the supported options like ollama(local), vllm(local), openrouter(api)
+> Make sure you have llm inference setup (llms section of config.toml) using ollama (local), vllm (local), or openrouter (api)
 
 ```bash
 $ export PYTHONPATH=.
-$ python leetcomp/refresh.py
-$ python leetcomp/parse.py
+$ python leetcomp/refresh.py && python leetcomp/parse.py
 ```
 
 ## Roadmap
