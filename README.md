@@ -46,7 +46,7 @@ uv pip install -r requirements.txt  # Install from a requirements.txt file.
 ## Updating data
 
 > [!NOTE]
-> Make sure you have llm inference setup (config.toml: llms) using `local: ollama, vllm`, or `api: openrouter`
+> You'll need llm inference setup (config.toml: llms) using `local: ollama, vllm`, or `api: openrouter`
 
 ```bash
 $ export PYTHONPATH=.
