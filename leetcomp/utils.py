@@ -29,7 +29,6 @@ def ollama_predict(prompt: str) -> str:
     )
     return response["message"]["content"]  # type: ignore
 
-
 def openrouter_predict(prompt: str) -> str:
     response = requests.post(
         url=config["llms"]["openrouter_url"],
