@@ -49,9 +49,16 @@ function setStatsStr(data) {
     const nRecs = data.length;
     const startDate = data[0]?.creation_date;
     const endDate = data[nRecs - 1]?.creation_date;
-    let statsStr = `Based on ${nRecs} recs parsed between ${startDate} and ${endDate} (only includes posts that were parsed successfully and had non negative votes)`;
-    document.getElementById('statsStr').textContent = statsStr;
+    let statsStr = `Based on ${nRecs} recs parsed between ${startDate} and ${endDate} (only includes posts that were parsed successfully and had non-negative votes)`;
+
+    const legendStr = `<div style="text-align: center; margin-top: 10px;">${svgCode} Posts with Interview Experience</div>`;
+    
+    // Wrap the stats string and the legend
+    const content = `<div style="text-align: center;">${statsStr}</div>${legendStr}`;
+
+    document.getElementById('statsStr').innerHTML = content;
 }
+
 
 function formatSalaryInINR(lpa) {
     const totalRupees = Math.ceil(lpa * 100000);
