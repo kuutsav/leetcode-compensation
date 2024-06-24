@@ -23,7 +23,7 @@ let globalFilterState = {
     includeInterviewExp: false
 };
 
-const GLOBAL_ALLOWED_FILTERS=["company", "location", "mapped_role"];
+const GLOBAL_ALLOWED_FILTERS = ["company", "location", "mapped_role"];
 
 // Utility Functions
 function capitalize(str) {
@@ -35,14 +35,14 @@ function capitalize(str) {
  * @param {string} searchTerm
  * @param {string[]} searchKeys
  */
-function filterCompensationsByKeys(data, searchTerm, searchKeys){
+function filterCompensationsByKeys(data, searchTerm, searchKeys) {
     const fuseOptions = {
         threshold: 0.2,
         keys: searchKeys
     };
     const fuse = new Fuse(data, fuseOptions);
     const result = fuse.search(searchTerm);
-    return result.map(r=>r.item);
+    return result.map(r => r.item);
 }
 
 function setStatsStr(data) {
@@ -265,7 +265,7 @@ function displayOffers(page) {
                     <a class="link-secondary" href="https://leetcode.com/discuss/compensation/${offer.id}">
                         ${offer.id}
                     </a>
-                    ${offer.interview_exp !== 'NA' ?
+                    ${'interview_exp' in offer && offer.interview_exp !== 'NA' ?
                         `<span class="star-icon" style="cursor: pointer; margin-left: 5px;" onclick="window.open('${offer.interview_exp}', '_blank')">${starSVG}</span>` :
                         ''}
                 </abbr>
