@@ -25,6 +25,7 @@
             "seniorsoftwareengineer",
             "softwareengineer2",
             "sse",
+            "sse1",
             "sdeii",
             "softwareengineerii",
             "sde2frontend",
@@ -35,7 +36,8 @@
             "sde2l61",
             "l61",
             "l62",
-            "ic3"
+            "ic3",
+            "l62sde2"
         ]
     },
     {
@@ -52,13 +54,15 @@
             "l5",
             "sde2l5",
             "l63",
-            "ssel63"
+            "ssel63",
+            "seniorsoftwareengineerl63"
         ]
     },
     {
         "cluster_name": "Staff Engineer",
         "cluster": [
-            "staffengineer"
+            "staffengineer",
+            "staffsoftwareengineer"
         ]
     },
     {
