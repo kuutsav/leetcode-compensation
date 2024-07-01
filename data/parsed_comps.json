@@ -1,5 +1,65 @@
 [
     {
+        "id": "5384612",
+        "creation_date": "2024-06-29",
+        "company": "Google",
+        "role": "L4",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 35.0,
+        "total": 80.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5384154",
+        "creation_date": "2024-06-28",
+        "company": "Microsoft",
+        "role": "Software engineer II (L61)",
+        "yoe": 3,
+        "location": "Hyderabad",
+        "base": 32.0,
+        "total": 61.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5379559",
+        "creation_date": "2024-06-28",
+        "company": "Coindcx",
+        "role": "SSE-1",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 47.0,
+        "total": 49.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5378811",
+        "creation_date": "2024-06-27",
+        "company": "Walmart",
+        "role": "IN4",
+        "yoe": 8,
+        "location": "Bangalore",
+        "base": 34.0,
+        "total": 46.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5378781",
+        "creation_date": "2024-06-27",
+        "company": "Microsoft",
+        "role": "L61",
+        "yoe": 4,
+        "location": "Hyderabad",
+        "base": 34.0,
+        "total": 47.6,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
         "id": "5379559",
         "creation_date": "2024-06-27",
         "company": "Coindcx",
@@ -332,7 +392,7 @@
         "location": "Hyderabad",
         "base": 35.0,
         "total": 85.5,
-        "mapped_role": "SDE III",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -884,7 +944,7 @@
         "location": "Bangalore",
         "base": 23.0,
         "total": 39.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -1040,7 +1100,7 @@
         "location": "Bangalore",
         "base": 36.0,
         "total": 69.0,
-        "mapped_role": "SDE III",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Senior + (11+)"
     },
     {
@@ -1280,7 +1340,7 @@
         "location": "NCR",
         "base": 34.0,
         "total": 66.4,
-        "mapped_role": "Software Engineer II/L61",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -1952,7 +2012,7 @@
         "location": "Bangalore",
         "base": 37.6,
         "total": 37.6,
-        "mapped_role": "SDE III",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -2108,7 +2168,7 @@
         "location": "Bangalore",
         "base": 37.6,
         "total": 37.6,
-        "mapped_role": "SDE III",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -2336,7 +2396,7 @@
         "location": "N/A",
         "base": 21.9,
         "total": 51.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -2744,7 +2804,7 @@
         "location": "Bangalore",
         "base": 31.0,
         "total": 55.0,
-        "mapped_role": "Software Engineer II - L61",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -2936,7 +2996,7 @@
         "location": "N/A",
         "base": 37.0,
         "total": 78.5,
-        "mapped_role": "SDE III",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -3068,7 +3128,7 @@
         "location": "Bangalore",
         "base": 22.0,
         "total": 47.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -4196,7 +4256,7 @@
         "location": "Bangalore",
         "base": 30.0,
         "total": 46.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Senior (7-10)"
     },
     {
@@ -4232,7 +4292,7 @@
         "location": "Bangalore",
         "base": 20.0,
         "total": 32.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -5060,7 +5120,7 @@
         "location": "Bangalore",
         "base": 40.0,
         "total": 50.0,
-        "mapped_role": "IN4",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -5408,7 +5468,7 @@
         "location": "Bangalore",
         "base": 26.3,
         "total": 55.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -5924,7 +5984,7 @@
         "location": "India",
         "base": 21.2,
         "total": 21.2,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -6932,7 +6992,7 @@
         "location": "Bangalore",
         "base": 23.0,
         "total": 44.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -8828,7 +8888,7 @@
         "location": "Bangalore",
         "base": 23.0,
         "total": 42.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
