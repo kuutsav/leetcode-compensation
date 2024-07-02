@@ -83,9 +83,18 @@ def parsed_content_is_valid(parsed_content: list[dict[Any, Any]]) -> bool:
     return True  # Parsed content is valid if no assertions fail
 
 
+def extract_interview_exp(content: str) -> str:
+    match = re.search(
+        r"https://leetcode.com/discuss/interview-experience/\S+", content
+    )
+    print(match)
+    return match.group(0) if match else "NA"
+
+
 def get_parsed_posts(
     raw_post: dict[Any, Any], parsed_content: list[dict[Any, Any]]
 ) -> list[dict[Any, Any]]:
+    interview_exp = extract_interview_exp(raw_post["content"])
     return [
         {
             "id": raw_post["id"],
@@ -99,6 +108,7 @@ def get_parsed_posts(
             "base_offer": item["base_offer"],
             "total_offer": item["total_offer"],
             "location": item.get("location", "n/a"),
+            "interview_exp": interview_exp,
         }
         for item in parsed_content
     ]
@@ -139,8 +149,8 @@ def parse_posts(
             fill_yoe(parsed_content)
             parsed_posts = get_parsed_posts(post, parsed_content)
             with open(out_comps_path, "a") as f:
-                for post in parsed_posts:
-                    f.write(json.dumps(post) + "\n")
+                for parsed_post in parsed_posts:
+                    f.write(json.dumps(parsed_post) + "\n")
         else:
             n_skips += 1
 
