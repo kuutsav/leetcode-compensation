@@ -10,13 +10,20 @@ let totalPages = 0;
 const svgWidth = 16;
 const svgHeight = 16;
 
+const starSVG = `
+    <svg fill="#000000" width="14px" height="14px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="icon">
+        <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"/>
+    </svg>
+`;
+
 let globalFilterState = {
     searchString: '',
     yoeRange: [null, null], // Assuming null means no filter
     salaryRange: [null, null],
+    includeInterviewExp: false
 };
 
-const GLOBAL_ALLOWED_FILTERS=["company", "location", "mapped_role"];
+const GLOBAL_ALLOWED_FILTERS = ["company", "location", "mapped_role"];
 
 // Utility Functions
 function capitalize(str) {
@@ -28,23 +35,29 @@ function capitalize(str) {
  * @param {string} searchTerm
  * @param {string[]} searchKeys
  */
-function filterCompensationsByKeys(data, searchTerm, searchKeys){
+function filterCompensationsByKeys(data, searchTerm, searchKeys) {
     const fuseOptions = {
         threshold: 0.2,
         keys: searchKeys
     };
     const fuse = new Fuse(data, fuseOptions);
     const result = fuse.search(searchTerm);
-    return result.map(r=>r.item);
+    return result.map(r => r.item);
 }
 
 function setStatsStr(data) {
     const nRecs = data.length;
     const startDate = data[0]?.creation_date;
     const endDate = data[nRecs - 1]?.creation_date;
-    let statsStr = `Based on ${nRecs} recs parsed between ${startDate} and ${endDate} (only includes posts that were parsed successfully and had non negative votes)`;
-    document.getElementById('statsStr').textContent = statsStr;
+    let statsStr = `Based on ${nRecs} recs parsed between ${startDate} and ${endDate} (only includes posts that were parsed successfully and had non-negative votes)`;
+
+    const legendStr = `<div style="text-align: center; margin-top: 10px;">${starSVG} Posts with Interview Experience</div>`;
+
+    const content = `<div style="text-align: center;">${statsStr}</div>${legendStr}`;
+
+    document.getElementById('statsStr').innerHTML = content;
 }
+
 
 function formatSalaryInINR(lpa) {
     const totalRupees = Math.ceil(lpa * 100000);
@@ -246,10 +259,16 @@ function displayOffers(page) {
         indexCell.innerHTML = `<p>${startIndex + index + 1}</p>`;
         const idCell = row.insertCell();
         idCell.innerHTML = `
-        <p><abbr title="attribute">
-        <a class="link-secondary" target="_blank" href="https://leetcode.com/discuss/compensation/${offer.id}">
-        ${offer.id}
-        </a></abbr></p>
+            <p>
+                <abbr title="attribute">
+                    <a class="link-secondary" target="_blank" href="https://leetcode.com/discuss/compensation/${offer.id}">
+                        ${offer.id}
+                    </a>
+                    ${'interview_exp' in offer && offer.interview_exp !== 'NA' ?
+                        `<span class="star-icon" style="cursor: pointer; margin-left: 5px;" onclick="window.open('${offer.interview_exp}', '_blank')">${starSVG}</span>` :
+                        ''}
+                </abbr>
+            </p>
         `;
         const companyCell = row.insertCell();
         companyCell.innerHTML = `
@@ -275,7 +294,7 @@ function displayOffers(page) {
     const container = document.getElementById('offersTable');
     container.innerHTML = '';
     container.appendChild(table);
-    renderPageOptions(); // Render page options
+    renderPageOptions();
 
 }
 
@@ -354,9 +373,8 @@ function sortAndSliceData(companyCounts) {
     return [categories, counts];
 }
 
-// Event Listeners and Initial Setup
 document.addEventListener('DOMContentLoaded', async function () {
-    // Fetch and display offers
+
     async function fetchOffers() {
         const response = await fetch('data/parsed_comps.json');
         const data = await response.json();
@@ -395,29 +413,31 @@ document.addEventListener('DOMContentLoaded', async function () {
         currentPage = parseInt(event.target.value);
         displayOffers(currentPage);
     });
-
     function filterOffers() {
         currentSort = { column: null, order: 'asc' };
 
-        // Start with all offers
         let tempFilteredOffers = [...offers];
+        // Applying search filters if applicable
 
-        // Filter by search string if applicable
         if (globalFilterState.searchString.trim() !== '') {
-            tempFilteredOffers = filterCompensationsByKeys(tempFilteredOffers, globalFilterState.searchString, GLOBAL_ALLOWED_FILTERS)
+            tempFilteredOffers = filterCompensationsByKeys(tempFilteredOffers, globalFilterState.searchString, GLOBAL_ALLOWED_FILTERS);
         }
 
-        // Filter by YOE if applicable
         if (globalFilterState.yoeRange[0] !== null && globalFilterState.yoeRange[1] !== null) {
             tempFilteredOffers = tempFilteredOffers.filter(offer =>
                 offer.yoe >= globalFilterState.yoeRange[0] && offer.yoe <= globalFilterState.yoeRange[1]
             );
         }
 
-        // Filter by salary if applicable
         if (globalFilterState.salaryRange[0] !== null && globalFilterState.salaryRange[1] !== null) {
             tempFilteredOffers = tempFilteredOffers.filter(offer =>
                 offer.total >= globalFilterState.salaryRange[0] && offer.total <= globalFilterState.salaryRange[1]
+            );
+        }
+
+        if (globalFilterState.includeInterviewExp) {
+            tempFilteredOffers = tempFilteredOffers.filter(offer =>
+                offer.interview_exp !== "NA"
             );
         }
 
@@ -425,7 +445,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         totalPages = Math.ceil(filteredOffers.length / offersPerPage);
         currentPage = 1;
 
-        // Update UI
+        // Update UI elements
         setStatsStr(filteredOffers);
         plotHistogram(filteredOffers, 'total');
         mostOfferCompanies(filteredOffers);
@@ -434,14 +454,17 @@ document.addEventListener('DOMContentLoaded', async function () {
         displayOffers(currentPage);
     }
 
+
     function filterOffersByCompany(companyName) {
         globalFilterState.searchString = companyName;
         filterOffers(); // Call the unified filter function
     }
 
-    function filterOffersByYoeAndSalary(yoeRange, salaryRange) {
+    function filterMenu(yoeRange, salaryRange, includeInterviewExp) {
         globalFilterState.yoeRange = yoeRange;
         globalFilterState.salaryRange = salaryRange;
+        globalFilterState.includeInterviewExp = includeInterviewExp;
+
         filterOffers(); // Call the unified filter function
     }
 
@@ -457,7 +480,34 @@ document.addEventListener('DOMContentLoaded', async function () {
         const yoeMax = document.getElementById('yoeMax').value;
         const salaryMin = document.getElementById('salaryMin').value;
         const salaryMax = document.getElementById('salaryMax').value;
-        filterOffersByYoeAndSalary([yoeMin, yoeMax], [salaryMin, salaryMax]);
+        const includeInterviewExp = document.getElementById('interviewExpFilterCheckbox').checked;
+
+        filterMenu([yoeMin, yoeMax], [salaryMin, salaryMax], includeInterviewExp);
+    });
+
+
+    document.getElementById('clearFiltersButton').addEventListener('click', () => {
+        // Clear YOE range inputs
+        document.getElementById('yoeMin').value = 0;
+        document.getElementById('yoeMax').value = 30;
+
+        // Clear salary range inputs
+        document.getElementById('salaryMin').value = 1;
+        document.getElementById('salaryMax').value = 200;
+
+        // Uncheck interview experience filter checkbox, if it exists
+        const interviewExpCheckbox = document.getElementById('interviewExpFilterCheckbox');
+        if (interviewExpCheckbox) {
+            interviewExpCheckbox.checked = false;
+        }
+
+        // Reset global filter state
+        globalFilterState.yoeRange = [null, null];
+        globalFilterState.salaryRange = [null, null];
+        globalFilterState.includeInterviewExp = false;
+
+        // Apply filter function with cleared filters
+        filterOffers();
     });
 
     // Search input "Enter" key event listener
