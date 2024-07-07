@@ -49,13 +49,8 @@ function setStatsStr(data) {
     const nRecs = data.length;
     const startDate = data[0]?.creation_date;
     const endDate = data[nRecs - 1]?.creation_date;
-    let statsStr = `Based on ${nRecs} recs parsed between ${startDate} and ${endDate} (only includes posts that were parsed successfully and had non-negative votes)`;
-
-    const legendStr = `<div style="text-align: center; margin-top: 10px;">${starSVG} Posts with Interview Experience</div>`;
-
-    const content = `<div style="text-align: center;">${statsStr}</div>${legendStr}`;
-
-    document.getElementById('statsStr').innerHTML = content;
+    let statsStr = `Based on ${nRecs} recs parsed between ${startDate} and ${endDate} (★ = Posts that incl. Interview Experience)`;
+    document.getElementById('statsStr').innerHTML = statsStr;
 }
 
 
@@ -259,16 +254,18 @@ function displayOffers(page) {
         indexCell.innerHTML = `<p>${startIndex + index + 1}</p>`;
         const idCell = row.insertCell();
         idCell.innerHTML = `
-            <p>
-                <abbr title="attribute">
-                    <a class="link-secondary" target="_blank" href="https://leetcode.com/discuss/compensation/${offer.id}">
-                        ${offer.id}
-                    </a>
-                    ${'interview_exp' in offer && offer.interview_exp !== 'NA' ?
-                        `<span class="star-icon" style="cursor: pointer; margin-left: 5px;" onclick="window.open('${offer.interview_exp}', '_blank')">${starSVG}</span>` :
-                        ''}
-                </abbr>
-            </p>
+        <p>
+            <abbr title="attribute">
+                <a class="link-secondary" target="_blank" href="https://leetcode.com/discuss/compensation/${offer.id}">
+                    ${offer.id}
+                </a>
+            </abbr>
+            ${'interview_exp' in offer && offer.interview_exp !== 'N/A' ?
+                `<span style="margin-left: 4px;">
+                <a class="link-secondary" target="_blank" style="text-decoration: none;" href='${offer.interview_exp}'>★</a>
+                </span>` :
+            ''}
+        </p>
         `;
         const companyCell = row.insertCell();
         companyCell.innerHTML = `
@@ -437,7 +434,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         if (globalFilterState.includeInterviewExp) {
             tempFilteredOffers = tempFilteredOffers.filter(offer =>
-                offer.interview_exp !== "NA"
+                offer.interview_exp !== "N/A"
             );
         }
 

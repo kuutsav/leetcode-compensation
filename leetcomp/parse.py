@@ -18,7 +18,6 @@ interview_exp_pattern = re.compile(
     r"https://leetcode.com/discuss/interview-experience/\S+"
 )
 
-
 llm_predict = get_model_predict(config["app"]["llm_predictor"])
 
 yoe_map: dict[tuple[int, int], str] = {
@@ -90,13 +89,12 @@ def parsed_content_is_valid(parsed_content: list[dict[Any, Any]]) -> bool:
 
 def extract_interview_exp(content: str) -> str:
     match = interview_exp_pattern.search(content)
-    return match.group(0) if match else "NA"
+    return match.group(0) if match else "N/A"
 
 
 def get_parsed_posts(
     raw_post: dict[Any, Any], parsed_content: list[dict[Any, Any]]
 ) -> list[dict[Any, Any]]:
-    interview_exp = extract_interview_exp(raw_post["content"])
     return [
         {
             "id": raw_post["id"],
@@ -110,7 +108,7 @@ def get_parsed_posts(
             "base_offer": item["base_offer"],
             "total_offer": item["total_offer"],
             "location": item.get("location", "n/a"),
-            "interview_exp": interview_exp,
+            "interview_exp": extract_interview_exp(raw_post["content"]),
         }
         for item in parsed_content
     ]
