@@ -1,5 +1,713 @@
 [
     {
+        "id": "5417735",
+        "creation_date": "2024-07-04",
+        "company": "Avalara",
+        "role": "SSE(I3)",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 35.0,
+        "total": 43.5,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5416333",
+        "creation_date": "2024-07-04",
+        "company": "Salesforce",
+        "role": "MTS",
+        "yoe": 5,
+        "location": "Hyderabad",
+        "base": 37.5,
+        "total": 54.0,
+        "mapped_role": "MTS I",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5415777",
+        "creation_date": "2024-07-04",
+        "company": "Wayfair",
+        "role": "L2",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 40.0,
+        "total": 42.0,
+        "mapped_role": "SDE I",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5412612",
+        "creation_date": "2024-07-04",
+        "company": "Uber",
+        "role": "SDE2 (Level 4)",
+        "yoe": 3,
+        "location": "Hyderabad",
+        "base": 40.0,
+        "total": 56.75,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5410277",
+        "creation_date": "2024-07-03",
+        "company": "Wayfair",
+        "role": "L2",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 42.0,
+        "total": 42.0,
+        "mapped_role": "SDE I",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5407730",
+        "creation_date": "2024-07-03",
+        "company": "Microsoft",
+        "role": "L61",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 33.0,
+        "total": 57.9,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5406270",
+        "creation_date": "2024-07-03",
+        "company": "DP World",
+        "role": "SDE-2",
+        "yoe": 5,
+        "location": "Bangalore",
+        "base": 50.16,
+        "total": 57.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5406270",
+        "creation_date": "2024-07-03",
+        "company": "BP",
+        "role": "SSE",
+        "yoe": 5,
+        "location": "Pune",
+        "base": 45.58,
+        "total": 53.9,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5404409",
+        "creation_date": "2024-07-02",
+        "company": "Okta",
+        "role": "n/a",
+        "yoe": 7,
+        "location": "N/A",
+        "base": 55.0,
+        "total": 75.0,
+        "mapped_role": "N/A",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5404409",
+        "creation_date": "2024-07-02",
+        "company": "Wayfair",
+        "role": "n/a",
+        "yoe": 7,
+        "location": "N/A",
+        "base": 65.0,
+        "total": 75.0,
+        "mapped_role": "N/A",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5404409",
+        "creation_date": "2024-07-02",
+        "company": "Coupang",
+        "role": "n/a",
+        "yoe": 7,
+        "location": "N/A",
+        "base": 55.0,
+        "total": 125.0,
+        "mapped_role": "N/A",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5404175",
+        "creation_date": "2024-07-02",
+        "company": "Innovacer",
+        "role": "SDE-2",
+        "yoe": 5.5,
+        "location": "NCR",
+        "base": 30.0,
+        "total": 32.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5404122",
+        "creation_date": "2024-07-02",
+        "company": "Oracle",
+        "role": "SE2 (MTS)",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 25.0,
+        "total": 34.0,
+        "mapped_role": "MTS II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5404122",
+        "creation_date": "2024-07-02",
+        "company": "Goldman Sachs",
+        "role": "Associate Software Engineer (AWM Division)",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 31.0,
+        "total": 37.0,
+        "mapped_role": "Associate",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5403945",
+        "creation_date": "2024-07-02",
+        "company": "Microsoft",
+        "role": "SDE-2",
+        "yoe": 4.3,
+        "location": "Hyderabad",
+        "base": 41.5,
+        "total": 62.34,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5403691",
+        "creation_date": "2024-07-02",
+        "company": "Wipro GE Healthcare",
+        "role": "Staff Software Engineer",
+        "yoe": 8.75,
+        "location": "Bangalore",
+        "base": 38.5,
+        "total": 46.0,
+        "mapped_role": "Staff Engineer",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5401621",
+        "creation_date": "2024-07-02",
+        "company": "Oracle",
+        "role": "Member Technical Staff (IC2)",
+        "yoe": 2,
+        "location": "N/A",
+        "base": 17.3,
+        "total": 41.2,
+        "mapped_role": "MTS I",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5396934",
+        "creation_date": "2024-07-01",
+        "company": "Microsoft",
+        "role": "SDE-2",
+        "yoe": 3.8,
+        "location": "Bangalore",
+        "base": 36.0,
+        "total": 59.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5393754",
+        "creation_date": "2024-07-01",
+        "company": "Walmart",
+        "role": "Senior Software Engineer (IN4)",
+        "yoe": 7.11,
+        "location": "Bangalore",
+        "base": 28.7,
+        "total": 40.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5392836",
+        "creation_date": "2024-06-30",
+        "company": "Intuit",
+        "role": "SDE 2",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 33.0,
+        "total": 45.6,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5392826",
+        "creation_date": "2024-06-30",
+        "company": "Rippling",
+        "role": "SDE 2",
+        "yoe": 2.8,
+        "location": "Bangalore",
+        "base": 50.0,
+        "total": 57.5,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5392815",
+        "creation_date": "2024-06-30",
+        "company": "Zepto",
+        "role": "SE2 Backend",
+        "yoe": 2.8,
+        "location": "Bangalore",
+        "base": 55.0,
+        "total": 75.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5391006",
+        "creation_date": "2024-06-30",
+        "company": "Google",
+        "role": "L4",
+        "yoe": 5.5,
+        "location": "Pune",
+        "base": 35.0,
+        "total": 85.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5384612",
+        "creation_date": "2024-06-29",
+        "company": "Google",
+        "role": "L4",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 35.0,
+        "total": 80.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5384154",
+        "creation_date": "2024-06-28",
+        "company": "Microsoft",
+        "role": "Software engineer II (L61)",
+        "yoe": 3,
+        "location": "Hyderabad",
+        "base": 32.0,
+        "total": 61.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5379559",
+        "creation_date": "2024-06-28",
+        "company": "Coindcx",
+        "role": "SSE-1",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 47.0,
+        "total": 49.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5378811",
+        "creation_date": "2024-06-27",
+        "company": "Walmart",
+        "role": "IN4",
+        "yoe": 8,
+        "location": "Bangalore",
+        "base": 34.0,
+        "total": 46.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5378781",
+        "creation_date": "2024-06-27",
+        "company": "Microsoft",
+        "role": "L61",
+        "yoe": 4,
+        "location": "Hyderabad",
+        "base": 34.0,
+        "total": 47.6,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5379559",
+        "creation_date": "2024-06-27",
+        "company": "Coindcx",
+        "role": "SSE-1",
+        "yoe": 4,
+        "location": "Bangalore",
+        "base": 47.0,
+        "total": 49.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5378811",
+        "creation_date": "2024-06-27",
+        "company": "Walmart",
+        "role": "Senior Software Engineer",
+        "yoe": 8,
+        "location": "Bangalore",
+        "base": 34.0,
+        "total": 46.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5378781",
+        "creation_date": "2024-06-27",
+        "company": "Microsoft",
+        "role": "L61",
+        "yoe": 4,
+        "location": "Hyderabad",
+        "base": 34.0,
+        "total": 47.6,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5377493",
+        "creation_date": "2024-06-27",
+        "company": "JP Morgan Chase",
+        "role": "SDE-3",
+        "yoe": 5,
+        "location": "Bangalore",
+        "base": 43.0,
+        "total": 51.45,
+        "mapped_role": "SDE III",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5376966",
+        "creation_date": "2024-06-27",
+        "company": "Pay2DC",
+        "role": "SSE",
+        "yoe": 6,
+        "location": "NCR",
+        "base": 65.0,
+        "total": 70.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5375491",
+        "creation_date": "2024-06-27",
+        "company": "Goldman Sachs",
+        "role": "Associate",
+        "yoe": 4,
+        "location": "Hyderabad",
+        "base": 32.0,
+        "total": 38.0,
+        "mapped_role": "Associate",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5375077",
+        "creation_date": "2024-06-27",
+        "company": "Oracle",
+        "role": "SDE3",
+        "yoe": 6,
+        "location": "N/A",
+        "base": 35.0,
+        "total": 47.5,
+        "mapped_role": "SDE III",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5374961",
+        "creation_date": "2024-06-27",
+        "company": "Microsoft",
+        "role": "Senior Software Engineer L63",
+        "yoe": 9,
+        "location": "Bangalore",
+        "base": 53.0,
+        "total": 81.0,
+        "mapped_role": "SDE III",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5373727",
+        "creation_date": "2024-06-26",
+        "company": "Arcesium",
+        "role": "SSE - Java - I3",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 28.0,
+        "total": 33.3,
+        "mapped_role": "SSE - Java - I3",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5373191",
+        "creation_date": "2024-06-26",
+        "company": "Morgan stanley",
+        "role": "Technology Apprenticeship Program",
+        "yoe": 0,
+        "location": "Mumbai",
+        "base": 0.87,
+        "total": 0.87,
+        "mapped_role": "Technology Apprenticeship Program",
+        "mapped_yoe": "Entry (0-1)"
+    },
+    {
+        "id": "5371191",
+        "creation_date": "2024-06-26",
+        "company": "Microsoft",
+        "role": "L60",
+        "yoe": 2,
+        "location": "NCR",
+        "base": 24.0,
+        "total": 44.0,
+        "mapped_role": "SDE I",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5369390",
+        "creation_date": "2024-06-25",
+        "company": "Tekion",
+        "role": "Software Engineer - 1",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 24.25,
+        "total": 28.0,
+        "mapped_role": "SDE I",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5369212",
+        "creation_date": "2024-06-25",
+        "company": "Avalara",
+        "role": "SSE - Java - I3",
+        "yoe": 3,
+        "location": "Pune",
+        "base": 28.0,
+        "total": 33.3,
+        "mapped_role": "SSE - Java - I3",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5368638",
+        "creation_date": "2024-06-25",
+        "company": "Yellow AI",
+        "role": "MLE",
+        "yoe": 0,
+        "location": "N/A",
+        "base": 15.0,
+        "total": 15.0,
+        "mapped_role": "MLE",
+        "mapped_yoe": "Entry (0-1)"
+    },
+    {
+        "id": "5367548",
+        "creation_date": "2024-06-25",
+        "company": "Microsoft",
+        "role": "SDE 2",
+        "yoe": 7,
+        "location": "N/A",
+        "base": 28.0,
+        "total": 55.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5362338",
+        "creation_date": "2024-06-24",
+        "company": "PhonePe",
+        "role": "SDE-2",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 38.0,
+        "total": 51.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5362032",
+        "creation_date": "2024-06-24",
+        "company": "PocketFM",
+        "role": "Staff Engineer",
+        "yoe": 9,
+        "location": "Bangalore",
+        "base": 67.0,
+        "total": 75.31,
+        "mapped_role": "Staff Engineer",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5361770",
+        "creation_date": "2024-06-24",
+        "company": "Microsoft",
+        "role": "L62 (SDE 2)",
+        "yoe": 5,
+        "location": "N/A",
+        "base": 40.5,
+        "total": 62.5,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5360928",
+        "creation_date": "2024-06-24",
+        "company": "Cloudera",
+        "role": "Staff Software Engineer",
+        "yoe": 10,
+        "location": "N/A",
+        "base": 60.0,
+        "total": 69.8,
+        "mapped_role": "Staff Engineer",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5360483",
+        "creation_date": "2024-06-24",
+        "company": "Microsoft",
+        "role": "L62",
+        "yoe": 3,
+        "location": "N/A",
+        "base": 41.5,
+        "total": 64.45,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5360397",
+        "creation_date": "2024-06-24",
+        "company": "Oracle",
+        "role": "MTS",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 20.0,
+        "total": 24.0,
+        "mapped_role": "MTS I",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5357935",
+        "creation_date": "2024-06-23",
+        "company": "Junglee games",
+        "role": "SDE1",
+        "yoe": 0,
+        "location": "Bangalore",
+        "base": 14.0,
+        "total": 17.0,
+        "mapped_role": "SDE I",
+        "mapped_yoe": "Entry (0-1)"
+    },
+    {
+        "id": "5357893",
+        "creation_date": "2024-06-23",
+        "company": "Flipkart",
+        "role": "UI Engineer 1",
+        "yoe": 1,
+        "location": "Bangalore",
+        "base": 18.0,
+        "total": 24.8,
+        "mapped_role": "UI Engineer 1",
+        "mapped_yoe": "Entry (0-1)"
+    },
+    {
+        "id": "5357684",
+        "creation_date": "2024-06-23",
+        "company": "Rippling",
+        "role": "SDE 3",
+        "yoe": 8,
+        "location": "Bangalore",
+        "base": 75.0,
+        "total": 120.0,
+        "mapped_role": "SDE III",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5352113",
+        "creation_date": "2024-06-22",
+        "company": "PhonePe",
+        "role": "SDE",
+        "yoe": 0,
+        "location": "Bangalore",
+        "base": 19.25,
+        "total": 32.75,
+        "mapped_role": "SDE I",
+        "mapped_yoe": "Entry (0-1)"
+    },
+    {
+        "id": "5352083",
+        "creation_date": "2024-06-22",
+        "company": "Telstra",
+        "role": "Associate Software Engineer",
+        "yoe": 0,
+        "location": "Bangalore",
+        "base": 9.43,
+        "total": 10.0,
+        "mapped_role": "Associate",
+        "mapped_yoe": "Entry (0-1)"
+    },
+    {
+        "id": "5349130",
+        "creation_date": "2024-06-21",
+        "company": "DE Shaw",
+        "role": "SDE",
+        "yoe": 1,
+        "location": "Hyderabad",
+        "base": 30.0,
+        "total": 42.0,
+        "mapped_role": "SDE I",
+        "mapped_yoe": "Entry (0-1)"
+    },
+    {
+        "id": "5348790",
+        "creation_date": "2024-06-21",
+        "company": "Google",
+        "role": "L4",
+        "yoe": 4,
+        "location": "Hyderabad",
+        "base": 35.0,
+        "total": 85.5,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5348763",
+        "creation_date": "2024-06-21",
+        "company": "Rippling",
+        "role": "SDE-II",
+        "yoe": 5,
+        "location": "Bangalore",
+        "base": 50.0,
+        "total": 76.25,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5347842",
+        "creation_date": "2024-06-21",
+        "company": "Narvar",
+        "role": "SDE 2",
+        "yoe": 2,
+        "location": "Bangalore",
+        "base": 30.0,
+        "total": 41.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5347759",
+        "creation_date": "2024-06-21",
+        "company": "Mercari",
+        "role": "MG2 (SSE) Frontend",
+        "yoe": 3,
+        "location": "Bangalore",
+        "base": 24.5,
+        "total": 27.7,
+        "mapped_role": "MG2 (SSE) Frontend",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
         "id": "5343608",
         "creation_date": "2024-06-20",
         "company": "Microsoft",
@@ -20,7 +728,7 @@
         "location": "Hyderabad",
         "base": 28.0,
         "total": 31.0,
-        "mapped_role": "Data Scientist",
+        "mapped_role": "Senior Data Scientist A3",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -38,7 +746,7 @@
     {
         "id": "5340578",
         "creation_date": "2024-06-20",
-        "company": "RazorPay",
+        "company": "Razorpay",
         "role": "PDE-1",
         "yoe": 3,
         "location": "N/A",
@@ -56,7 +764,7 @@
         "location": "N/A",
         "base": 11.0,
         "total": 11.0,
-        "mapped_role": "Senior Analyst",
+        "mapped_role": "Analyst",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -84,6 +792,18 @@
         "mapped_yoe": "Mid (2-6)"
     },
     {
+        "id": "5336779",
+        "creation_date": "2024-06-19",
+        "company": "Mimecast",
+        "role": "Senior Software Engineer (SDE3)",
+        "yoe": 4,
+        "location": "N/A",
+        "base": 42.5,
+        "total": 50.0,
+        "mapped_role": "Senior Software Engineer (SDE3)",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
         "id": "5337620",
         "creation_date": "2024-06-19",
         "company": "Wissen Technology",
@@ -92,7 +812,7 @@
         "location": "Mumbai",
         "base": 8.0,
         "total": 9.5,
-        "mapped_role": "Trainee Analyst",
+        "mapped_role": "Analyst",
         "mapped_yoe": "Entry (0-1)"
     },
     {
@@ -104,19 +824,7 @@
         "location": "Hyderabad",
         "base": 28.0,
         "total": 31.0,
-        "mapped_role": "SDE I",
-        "mapped_yoe": "Mid (2-6)"
-    },
-    {
-        "id": "5336779",
-        "creation_date": "2024-06-19",
-        "company": "Mimecast",
-        "role": "Senior Software Engineer (SDE3)",
-        "yoe": 4,
-        "location": "N/A",
-        "base": 42.5,
-        "total": 50.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "Software Engineer (P2)",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -152,7 +860,7 @@
         "location": "Bangalore",
         "base": 16.74,
         "total": 27.0,
-        "mapped_role": "SDE I",
+        "mapped_role": "Software Engineer (M1)",
         "mapped_yoe": "Entry (0-1)"
     },
     {
@@ -182,7 +890,7 @@
     {
         "id": "5335623",
         "creation_date": "2024-06-19",
-        "company": "Lowe's India",
+        "company": "Lowe's india",
         "role": "SDE",
         "yoe": 3,
         "location": "Bangalore",
@@ -220,7 +928,7 @@
         "creation_date": "2024-06-18",
         "company": "Microsoft",
         "role": "SDE 1 L60",
-        "yoe": 1,
+        "yoe": 0,
         "location": "Bangalore",
         "base": 22.0,
         "total": 41.7,
@@ -464,7 +1172,7 @@
         "location": "Bangalore",
         "base": 57.0,
         "total": 66.5,
-        "mapped_role": "Staff Software Engineer",
+        "mapped_role": "Staff Engineer",
         "mapped_yoe": "Senior (7-10)"
     },
     {
@@ -512,7 +1220,7 @@
         "location": "Bangalore",
         "base": 23.0,
         "total": 39.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -668,7 +1376,7 @@
         "location": "Bangalore",
         "base": 36.0,
         "total": 69.0,
-        "mapped_role": "SDE III",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Senior + (11+)"
     },
     {
@@ -908,7 +1616,7 @@
         "location": "NCR",
         "base": 34.0,
         "total": 66.4,
-        "mapped_role": "Software Engineer II/L61",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -1580,7 +2288,7 @@
         "location": "Bangalore",
         "base": 37.6,
         "total": 37.6,
-        "mapped_role": "SDE III",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -1736,7 +2444,7 @@
         "location": "Bangalore",
         "base": 37.6,
         "total": 37.6,
-        "mapped_role": "SDE III",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -1964,7 +2672,7 @@
         "location": "N/A",
         "base": 21.9,
         "total": 51.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -2372,7 +3080,7 @@
         "location": "Bangalore",
         "base": 31.0,
         "total": 55.0,
-        "mapped_role": "Software Engineer II - L61",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -2564,7 +3272,7 @@
         "location": "N/A",
         "base": 37.0,
         "total": 78.5,
-        "mapped_role": "SDE III",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -2696,7 +3404,7 @@
         "location": "Bangalore",
         "base": 22.0,
         "total": 47.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -3824,7 +4532,7 @@
         "location": "Bangalore",
         "base": 30.0,
         "total": 46.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Senior (7-10)"
     },
     {
@@ -3860,7 +4568,7 @@
         "location": "Bangalore",
         "base": 20.0,
         "total": 32.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -4688,7 +5396,7 @@
         "location": "Bangalore",
         "base": 40.0,
         "total": 50.0,
-        "mapped_role": "IN4",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -5036,7 +5744,7 @@
         "location": "Bangalore",
         "base": 26.3,
         "total": 55.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -5552,7 +6260,7 @@
         "location": "India",
         "base": 21.2,
         "total": 21.2,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -6344,7 +7052,7 @@
         "location": "Bangalore",
         "base": 51.0,
         "total": 87.0,
-        "mapped_role": "Senior Software Engineer/L63",
+        "mapped_role": "SDE III",
         "mapped_yoe": "Senior + (11+)"
     },
     {
@@ -6560,7 +7268,7 @@
         "location": "Bangalore",
         "base": 23.0,
         "total": 44.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -8456,7 +9164,7 @@
         "location": "Bangalore",
         "base": 23.0,
         "total": 42.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Mid (2-6)"
     },
     {

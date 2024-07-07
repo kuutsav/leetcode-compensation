@@ -572,6 +572,12 @@
         ]
     },
     {
+        "cluster_name": "Gap Inc",
+        "cluster": [
+            "gap inc."
+        ]
+    },
+    {
         "cluster_name": "GE Healthcare",
         "cluster": [
             "ge healthcare"
@@ -821,6 +827,12 @@
         ]
     },
     {
+        "cluster_name": "Mercari",
+        "cluster": [
+            "mercari india"
+        ]
+    },
+    {
         "cluster_name": "Merck Group's Indian Subsidiary",
         "cluster": [
             "merck group's indian subsidiary"
@@ -1018,6 +1030,7 @@
             "oracle cerner (ohai)",
             "oracle financial services software",
             "oracle health",
+            "oracle health & ai",
             "oracle india",
             "oracle non oci",
             "oracle oci",
@@ -1589,6 +1602,12 @@
         "cluster_name": "Wissen Technology",
         "cluster": [
             "wissen technology"
+        ]
+    },
+    {
+        "cluster_name": "Yellow AI",
+        "cluster": [
+            "yellow-ai"
         ]
     },
     {
