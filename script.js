@@ -247,7 +247,7 @@ function displayOffers(page) {
         const idCell = row.insertCell();
         idCell.innerHTML = `
         <p><abbr title="attribute">
-        <a class="link-secondary" href="https://leetcode.com/discuss/compensation/${offer.id}">
+        <a class="link-secondary" target="_blank" href="https://leetcode.com/discuss/compensation/${offer.id}">
         ${offer.id}
         </a></abbr></p>
         `;
