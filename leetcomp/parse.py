@@ -14,6 +14,11 @@ from leetcomp.utils import (
     sort_and_truncate,
 )
 
+interview_exp_pattern = re.compile(
+    r"https://leetcode.com/discuss/interview-experience/\S+"
+)
+
+
 llm_predict = get_model_predict(config["app"]["llm_predictor"])
 
 yoe_map: dict[tuple[int, int], str] = {
@@ -84,10 +89,7 @@ def parsed_content_is_valid(parsed_content: list[dict[Any, Any]]) -> bool:
 
 
 def extract_interview_exp(content: str) -> str:
-    match = re.search(
-        r"https://leetcode.com/discuss/interview-experience/\S+", content
-    )
-    print(match)
+    match = interview_exp_pattern.search(content)
     return match.group(0) if match else "NA"
 
 
