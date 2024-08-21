@@ -14,8 +14,8 @@ min_base_offer = 2
 min_total_offer = 3
 
 [llms]
-ollama_model = "llama3:8b-instruct-q5_K_M"
-openrouter_model = "meta-llama/llama-3-8b-instruct:free"
+ollama_model = "llama3.1:8b-instruct-q5_K_M"
+openrouter_model = "google/gemma-2-9b-it:free"
 openrouter_req_per_min = 20
 openrouter_url = "https://openrouter.ai/api/v1/chat/completions"
 vllm_model = "meta-llama/Meta-Llama-3-8B-Instruct"
