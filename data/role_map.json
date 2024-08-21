@@ -16,7 +16,8 @@
             "sde1l60",
             "l60",
             "ic2",
-            "softwareengineeric2"
+            "softwareengineeric2",
+            "developer"
         ]
     },
     {
@@ -32,9 +33,13 @@
             "sde2frontend",
             "softwaredevelopmentengineer2",
             "l4",
+            "l4hardwareengineer",
+            "seniorsoftwareengineerl4",
+            "sde2l4",
             "swe2l3",
             "sde1l3",
             "sde2l61",
+            "se|l61",
             "softwareengineeriil61",
             "l61",
             "l62",
@@ -50,9 +55,6 @@
             "softwareengineer3",
             "leadsoftwareengineer",
             "softwareengineeriii",
-            "l4hardwareengineer",
-            "seniorsoftwareengineerl4",
-            "sde2l4",
             "l5",
             "sde2l5",
             "l63",
@@ -112,6 +114,7 @@
         "cluster_name": "Others",
         "cluster": [
             "fullstackdeveloper",
+            "fullstackengineer",
             "applicationdeveloper",
             "technologydevelopermts",
             "softwareengineerspecialist",

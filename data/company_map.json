@@ -610,7 +610,8 @@
     {
         "cluster_name": "Goldman Sachs",
         "cluster": [
-            "goldman sachs"
+            "goldman sachs",
+            "goldman sach"
         ]
     },
     {
@@ -1242,17 +1243,21 @@
         ]
     },
     {
-        "cluster_name": "Samsung Electronics",
+        "cluster_name": "Samsung",
         "cluster": [
+            "samsung",
+            "samsung electronics",
             "samsung electronics delhi"
         ]
     },
     {
         "cluster_name": "Samsung R&D",
         "cluster": [
+            "samsung r&d",
             "samsung research bangalore",
             "samsung research india - bangalore (srib)",
             "samsung r & d institute delhi",
+            "samsung research institute bangalore",
             "samsung research institute bangalore || srib"
         ]
     },
