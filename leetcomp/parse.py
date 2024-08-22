@@ -29,12 +29,19 @@ yoe_map: dict[tuple[int, int], str] = {
 
 
 def post_should_be_parsed(post: dict[Any, Any]) -> bool:
-    return (
-        "title" in post
-        and "|" in post["title"]
-        and "vote_count" in post
-        and post["vote_count"] >= 0
-    )
+    if "title" not in post:
+        print(f" x skipping {post['id']}; no title")
+        return False
+    if "|" not in post["title"]:
+        print(f" x skipping {post['id']}; | not in title")
+        return False
+    if "vote_count" not in post:
+        print(f" x skipping {post['id']}; no vote_count")
+        return False
+    if post["vote_count"] < 0:
+        print(f" x skipping {post['id']}; negative vote_count")
+        return False
+    return True
 
 
 def has_crossed_till_date(
@@ -53,35 +60,47 @@ def comps_posts_iter(comps_path: str) -> Generator[dict[Any, Any], None, None]:
             yield json.loads(line)
 
 
-def parsed_content_is_valid(parsed_content: list[dict[Any, Any]]) -> bool:
+def parsed_content_is_valid(
+    post_id: str, parsed_content: list[dict[Any, Any]]
+) -> bool:
     if not isinstance(parsed_content, list) or not parsed_content:
         return False
 
     for item in parsed_content:
         try:
-            assert isinstance(item, dict)
-            assert isinstance(item["base_offer"], (int, float))
+            assert isinstance(item, dict), "item is not a dict"
+
+            assert isinstance(
+                item["base_offer"], (int, float)
+            ), "base_offer is not a number"
+
             assert (
                 config["parsing"]["min_base_offer"]
                 <= item["base_offer"]
                 <= config["parsing"]["max_base_offer"]
-            )
-            assert isinstance(item["total_offer"], (int, float))
+            ), "base_offer out of range"
+
+            assert isinstance(
+                item["total_offer"], (int, float)
+            ), "total_offer is not a number"
+
             assert (
                 config["parsing"]["min_total_offer"]
                 <= item["total_offer"]
                 <= config["parsing"]["max_total_offer"]
-            )
-            assert isinstance(item["company"], str)
-            assert isinstance(item["role"], str)
-            assert isinstance(item["yoe"], (int, float))
+            ), "total_offer out of range"
+
+            assert isinstance(item["company"], str), "company is not a string"
+            assert isinstance(item["role"], str), "role is not a string"
+            assert isinstance(item["yoe"], (int, float)), "yoe is not a number"
 
             if "non_indian" in item:
-                assert item["non_indian"] != "yes"
+                assert item["non_indian"] != "yes", "non_indian is yes"
 
             # offers as amounts are per month, need a modified prompt for these
-            assert "intern" not in item["role"].lower()
-        except (KeyError, AssertionError):
+            assert "intern" not in item["role"].lower(), "intern in role"
+        except (KeyError, AssertionError) as e:
+            print(f" x skipping {post_id}; invalid content: {str(e)}")
             return False
 
     return True  # Parsed content is valid if no assertions fail
@@ -145,7 +164,7 @@ def parse_posts(
         response = llm_predict(prompt)
         parsed_content = parse_json_markdown(response)
 
-        if parsed_content_is_valid(parsed_content):
+        if parsed_content_is_valid(post["id"], parsed_content):
             fill_yoe(parsed_content)
             parsed_posts = get_parsed_posts(post, parsed_content)
             with open(out_comps_path, "a") as f:
