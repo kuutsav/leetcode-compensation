@@ -17,7 +17,7 @@ Each dictionary must include the following keys with their respective values:
   For example, "3130000" should be represented as 31.3. Avoid scientific notation.
   Salary in crores like "1.18 cr" should be converted to LPA (1.18 * 100 = 118).
 - location (str): The location of the job. Only output the city name (e.g., "Bangalore" instead of "Bangalore, India").
-- non_indian (optional str): If the offer is outside of India, set this value to "yes"; otherwise, omit this key.
+- non_indian (optional str): If the post mentions a location outside of india or the currency is not in INR set this key to "yes"; otherwise omit this key.
 
 ## Instructions
 - If a key is not present in the post, set its value to "n/a".
