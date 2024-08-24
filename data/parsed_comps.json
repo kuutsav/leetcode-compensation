@@ -1,5 +1,83 @@
 [
     {
+        "id": "5667362",
+        "creation_date": "2024-08-21",
+        "company": "Razorpay",
+        "role": "Engineering Manager",
+        "yoe": 8,
+        "location": "Bangalore",
+        "interview_exp": "N/A",
+        "base": 64.8,
+        "total": 78.75,
+        "mapped_role": "Engineering Manager",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5666418",
+        "creation_date": "2024-08-20",
+        "company": "Jp morgan chase & co",
+        "role": "QR Research Analyst",
+        "yoe": 1,
+        "location": "Bangalore",
+        "interview_exp": "N/A",
+        "base": 25.5,
+        "total": 35.5,
+        "mapped_role": "Analyst",
+        "mapped_yoe": "Entry (0-1)"
+    },
+    {
+        "id": "5664308",
+        "creation_date": "2024-08-20",
+        "company": "Salesforce",
+        "role": "MTS",
+        "yoe": 3,
+        "location": "Bangalore",
+        "interview_exp": "N/A",
+        "base": 31.5,
+        "total": 47.3,
+        "mapped_role": "MTS I",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
+        "id": "5663696",
+        "creation_date": "2024-08-20",
+        "company": "Google",
+        "role": "L4",
+        "yoe": 9,
+        "location": "Bangalore",
+        "interview_exp": "N/A",
+        "base": 40.0,
+        "total": 75.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5663696",
+        "creation_date": "2024-08-20",
+        "company": "Google",
+        "role": "L4",
+        "yoe": 9,
+        "location": "Bangalore",
+        "interview_exp": "N/A",
+        "base": 37.6,
+        "total": 81.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Senior (7-10)"
+    },
+    {
+        "id": "5663478",
+        "creation_date": "2024-08-20",
+        "company": "Microsoft",
+        "role": "SDE-2 (L61)",
+        "yoe": 4,
+        "location": "Bangalore",
+        "interview_exp": "N/A",
+        "base": 32.0,
+        "total": 53.0,
+        "mapped_role": "SDE II",
+        "mapped_yoe": "Mid (2-6)"
+    },
+    {
         "id": "5660127",
         "creation_date": "2024-08-19",
         "company": "Atlassian",
@@ -9,7 +87,7 @@
         "interview_exp": "N/A",
         "base": 65.0,
         "total": 103.0,
-        "mapped_role": "SDE II",
+        "mapped_role": "P50, Senior Software Engineer",
         "mapped_yoe": "Senior (7-10)"
     },
     {
