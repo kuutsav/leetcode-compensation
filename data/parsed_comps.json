@@ -48,7 +48,7 @@
         "interview_exp": "N/A",
         "base": 37.0,
         "total": 52.0,
-        "mapped_role": "MTS (Mulesoft)",
+        "mapped_role": "MTS",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -61,7 +61,7 @@
         "interview_exp": "N/A",
         "base": 37.0,
         "total": 59.0,
-        "mapped_role": "SDE 3/SSE (Hired for new product at initial stage)",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -74,7 +74,7 @@
         "interview_exp": "N/A",
         "base": 65.0,
         "total": 72.0,
-        "mapped_role": "SSE (L5)",
+        "mapped_role": "SDE II",
         "mapped_yoe": "Mid (2-6)"
     },
     {
@@ -152,7 +152,7 @@
         "interview_exp": "N/A",
         "base": 60.0,
         "total": 68.0,
-        "mapped_role": "Software Engineer 3 / L3",
+        "mapped_role": "SDE III",
         "mapped_yoe": "Senior (7-10)"
     },
     {
@@ -243,7 +243,7 @@
         "interview_exp": "N/A",
         "base": 24.5,
         "total": 39.0,
-        "mapped_role": "Software Engineer(ZP1)",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Entry (0-1)"
     },
     {
@@ -256,7 +256,7 @@
         "interview_exp": "N/A",
         "base": 21.0,
         "total": 28.0,
-        "mapped_role": "Software Development Engineer",
+        "mapped_role": "SDE I",
         "mapped_yoe": "Entry (0-1)"
     },
     {
@@ -360,7 +360,7 @@
         "interview_exp": "N/A",
         "base": 65.0,
         "total": 103.0,
-        "mapped_role": "P50, Senior Software Engineer",
+        "mapped_role": "SDE III",
         "mapped_yoe": "Senior (7-10)"
     },
     {
