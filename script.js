@@ -210,8 +210,9 @@ function displayOffers(page) {
     const emptyRow = table.insertRow();
     emptyRow.innerHTML = `
     <th style="width: 5%"></th><th style="width: 15%"></th>
-    <th style="width: 30%"></th><th style="width: 25%"></th>
-    <th style="width: 5%"></th><th style="width: 20%"></th>
+    <th style="width: 25%"></th><th style="width: 25%"></th>
+    <th style="width: 5%"></th><th style="width: 15%"></th>
+    <th style="width: 10%"></th>
     `;
     const headerRow = table.insertRow();
     headerRow.style.border = 'none';
@@ -235,6 +236,11 @@ function displayOffers(page) {
     <b style="font-size: 13px;" data-column="total" role="button">${getSortArrow('total')} Total <br>
     <span class="text-secondary">Base</span></b></p>
     `;
+
+    const datePostedHeader = headerRow.insertCell();
+    datePostedHeader.innerHTML = `
+    <p class="text-end" style="margin-bottom: 0px;">
+    <b style="font-size: 13px;" data-column="creation_date" role="button"> ${getSortArrow('creation_date')} Date Posted</b></p>`;
 
     // Add event listeners to headers for sorting
     headerRow.querySelectorAll('b[data-column]').forEach(header => {
@@ -285,6 +291,11 @@ function displayOffers(page) {
         <b style="font-size: 13px;">${formatSalaryInINR(offer.total)}</b>
         <br><span class="text-secondary" style="font-size: 13px;">
         ${formatSalaryInINR(offer.base)}</span></p>
+        `;
+        const datePostedCell = row.insertCell();
+        datePostedCell.innerHTML = `
+        <p class="text-end" style="margin-bottom: 0px;">
+        ${offer.creation_date}</p>
         `;
     });
 
