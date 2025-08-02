@@ -56,11 +56,64 @@ def post_content(post_id: int) -> str:
             f"Invalid response data for post_id={post_id}"
         )
 
-    return str(data["topic"]["post"]["content"])
+    topic = data.get("topic")
+    if not topic:
+        raise FetchContentException(
+            f"No topic found for post_id={post_id}. Response: {data}"
+        )
+    
+    post = topic.get("post")
+    if not post:
+        raise FetchContentException(
+            f"No post found in topic for post_id={post_id}. Topic: {topic}"
+        )
+    
+    content = post.get("content")
+    if content is None:
+        print(f"Warning: Post {post_id} has no content")
+        return ""
+    
+    return str(content)
 
 
 @retry_with_exp_backoff(retries=config["app"]["n_api_retries"])  # type: ignore
 def parsed_posts(skip: int, first: int) -> Iterator[LeetCodePost]:
+    query = get_posts_query(skip, first)
+    response = requests.post(config["app"]["leetcode_graphql_url"], json=query)
+
+    if response.status_code != 200:
+        raise FetchPostsException(
+            f"Failed to fetch content for skip={skip}, first={first}): {response.text}"
+        )
+
+    data = response.json().get("data")
+    if not data:
+        raise FetchPostsException(
+            f"Invalid response data for skip={skip}, first={first}"
+        )
+
+    posts = data["categoryTopicList"]["edges"]
+
+    if skip == 0:
+        posts = posts[1:]  # Skip pinned post
+
+    for post in posts:
+        try:
+            content = post_content(post["node"]["id"])
+            yield LeetCodePost(
+                id=post["node"]["id"],
+                title=post["node"]["title"],
+                content=content,
+                vote_count=post["node"]["post"]["voteCount"],
+                comment_count=post["node"]["commentCount"],
+                view_count=post["node"]["viewCount"],
+                creation_date=datetime.fromtimestamp(
+                    post["node"]["post"]["creationDate"]
+                ),
+            )
+        except FetchContentException as e:
+            print(f"Warning: Skipping post {post['node']['id']} due to error: {e}")
+            continue  # Skip this post and continue with the next one
     query = get_posts_query(skip, first)
     response = requests.post(config["app"]["leetcode_graphql_url"], json=query)
 
