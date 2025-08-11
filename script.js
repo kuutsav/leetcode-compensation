@@ -372,7 +372,31 @@ function sortAndSliceData(companyCounts) {
 
 document.addEventListener('DOMContentLoaded', async function () {
 
-    async function fetchOffers() {
+    async function fetchLastUpdatedPhrase() {
+        const span = document.getElementById('lastUpdatedPhrase');
+        if (!span) return;
+        const url = 'https://api.github.com/repos/kuutsav/leetcode-compensation/commits?sha=master&path=data&per_page=1';
+        try {
+          const res = await fetch(url, { headers: { Accept: 'application/vnd.github+json' } });
+          if (!res.ok) throw new Error();
+          const commit = (await res.json())[0];
+          const date = commit?.commit?.committer?.date || commit?.commit?.author?.date;
+          span.textContent = `updated ${date ? formatTimeAgo(new Date(date)) : 'recently'} ↺`;
+        } catch {
+          span.textContent = 'updated recently ↺';
+        }
+      }
+
+      function formatTimeAgo(date) {
+        const mins = Math.floor((Date.now() - date) / 60000);
+        const rtf = Intl?.RelativeTimeFormat && new Intl.RelativeTimeFormat(undefined, { numeric: 'auto' });
+        const fmt = (v, u) => rtf ? rtf.format(-v, u) : `${v} ${u}${v !== 1 ? 's' : ''} ago`;
+        if (mins < 60) return fmt(mins, 'minute');
+        const hrs = Math.floor(mins / 60);
+        if (hrs < 24) return fmt(hrs, 'hour');
+        return fmt(Math.floor(hrs / 24), 'day');
+      }
+        async function fetchOffers() {
         const response = await fetch('data/parsed_comps.json');
         const data = await response.json();
         offers = data;
@@ -382,7 +406,8 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
     await fetchOffers();
-
+    // Fetch and show last updated phrase
+    fetchLastUpdatedPhrase();
     // Initialize charts and stats
     setStatsStr(filteredOffers);
     plotHistogram(filteredOffers, 'total');
