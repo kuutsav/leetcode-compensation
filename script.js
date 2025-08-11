@@ -293,6 +293,8 @@ function displayOffers(page) {
     container.innerHTML = '';
     container.appendChild(table);
     renderPageOptions();
+    renderShowingText();
+    updatePrevNextDisabledState();
 
 }
 
@@ -333,14 +335,18 @@ function sortOffers(column) {
 
 function computeTotalPages() {
     const pageSizeSelect = document.getElementById('pageSizeSelect');
-    const selected = pageSizeSelect ? pageSizeSelect.value : String(pageSize);
+    let selected = pageSizeSelect ? pageSizeSelect.value : String(pageSize);
+    if (!selected) {
+        selected = String(pageSize || 10);
+    }
     if (selected === 'all') {
         pageSize = 'all';
         offersPerPage = filteredOffers.length || 1;
         totalPages = 1;
         currentPage = 1;
     } else {
-        pageSize = parseInt(selected);
+        const parsed = parseInt(selected, 10);
+        pageSize = Number.isNaN(parsed) || parsed <= 0 ? 10 : parsed;
         offersPerPage = pageSize;
         totalPages = Math.ceil(filteredOffers.length / offersPerPage) || 1;
         if (currentPage > totalPages) currentPage = totalPages;
@@ -349,18 +355,46 @@ function computeTotalPages() {
 }
 
 function renderPageOptions() {
-    const pageSelect = document.getElementById('pageSelect');
-    pageSelect.innerHTML = '';
-
-    for (let i = 1; i <= totalPages; i++) {
-        const option = document.createElement('option');
-        option.value = i;
-        option.textContent = i;
-        if (i === currentPage) {
-            option.selected = true;
-        }
-        pageSelect.appendChild(option);
+    // Ensure rows-per-page options exist and reflect current selection
+    const pageSizeSelect = document.getElementById('pageSizeSelect');
+    if (!pageSizeSelect) return;
+    if (pageSizeSelect.options.length === 0) {
+        [10, 20, 50, 100].forEach(size => {
+            const opt = document.createElement('option');
+            opt.value = String(size);
+            opt.textContent = String(size);
+            pageSizeSelect.appendChild(opt);
+        });
+        const allOpt = document.createElement('option');
+        allOpt.value = 'all';
+        allOpt.textContent = 'All';
+        pageSizeSelect.appendChild(allOpt);
     }
+    // Set selected
+    Array.from(pageSizeSelect.options).forEach(opt => {
+        opt.selected = (opt.value === String(pageSize));
+    });
+}
+
+function renderShowingText() {
+    const showingTextEl = document.getElementById('showingText');
+    if (!showingTextEl) return;
+    const total = filteredOffers.length;
+    if (total === 0) {
+        showingTextEl.textContent = 'Showing 0–0 of 0';
+        return;
+    }
+    const start = (currentPage - 1) * offersPerPage + 1;
+    const end = Math.min(currentPage * offersPerPage, total);
+    showingTextEl.textContent = `Showing ${start}–${end} of ${total}`;
+}
+
+function updatePrevNextDisabledState() {
+    const prevBtn = document.getElementById('prevPage');
+    const nextBtn = document.getElementById('nextPage');
+    if (!prevBtn || !nextBtn) return;
+    prevBtn.disabled = currentPage <= 1;
+    nextBtn.disabled = currentPage >= totalPages || (currentPage * offersPerPage) >= filteredOffers.length;
 }
 
 function mostOfferCompanies(jsonData) {
@@ -395,6 +429,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         const data = await response.json();
         offers = data;
         filteredOffers = [...offers];
+        renderPageOptions();
         computeTotalPages();
         displayOffers(currentPage);
     }
@@ -423,11 +458,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
     });
 
-    // Page selection dropdown event listener
-    document.getElementById('pageSelect').addEventListener('change', (event) => {
-        currentPage = parseInt(event.target.value);
-        displayOffers(currentPage);
-    });
+    // no page number dropdown in the UI
 
     // Page size dropdown event listener
     document.getElementById('pageSizeSelect').addEventListener('change', () => {
