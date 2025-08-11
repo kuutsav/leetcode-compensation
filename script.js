@@ -1,7 +1,8 @@
 // Constants and Variables
 const minDataPointsForBoxPlot = 2;
 const validYoeBucket = new Set(["Entry (0-1)", "Mid (2-6)", "Senior (7-10)", "Senior + (11+)"]);
-const offersPerPage = 10;
+let offersPerPage = 10;
+let pageSize = 10;
 let currentPage = 1;
 let offers = [];
 let filteredOffers = [];
@@ -330,6 +331,23 @@ function sortOffers(column) {
     displayOffers(currentPage);
 }
 
+function computeTotalPages() {
+    const pageSizeSelect = document.getElementById('pageSizeSelect');
+    const selected = pageSizeSelect ? pageSizeSelect.value : String(pageSize);
+    if (selected === 'all') {
+        pageSize = 'all';
+        offersPerPage = filteredOffers.length || 1;
+        totalPages = 1;
+        currentPage = 1;
+    } else {
+        pageSize = parseInt(selected);
+        offersPerPage = pageSize;
+        totalPages = Math.ceil(filteredOffers.length / offersPerPage) || 1;
+        if (currentPage > totalPages) currentPage = totalPages;
+        if (currentPage < 1) currentPage = 1;
+    }
+}
+
 function renderPageOptions() {
     const pageSelect = document.getElementById('pageSelect');
     pageSelect.innerHTML = '';
@@ -377,7 +395,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         const data = await response.json();
         offers = data;
         filteredOffers = [...offers];
-        totalPages = Math.ceil(filteredOffers.length / offersPerPage);
+        computeTotalPages();
         displayOffers(currentPage);
     }
 
@@ -410,6 +428,12 @@ document.addEventListener('DOMContentLoaded', async function () {
         currentPage = parseInt(event.target.value);
         displayOffers(currentPage);
     });
+
+    // Page size dropdown event listener
+    document.getElementById('pageSizeSelect').addEventListener('change', () => {
+        computeTotalPages();
+        displayOffers(currentPage);
+    });
     function filterOffers() {
         currentSort = { column: null, order: 'asc' };
 
@@ -439,8 +463,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
 
         filteredOffers = tempFilteredOffers;
-        totalPages = Math.ceil(filteredOffers.length / offersPerPage);
-        currentPage = 1;
+        computeTotalPages();
 
         // Update UI elements
         setStatsStr(filteredOffers);
