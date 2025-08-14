@@ -56,7 +56,26 @@ def post_content(post_id: int) -> str:
             f"Invalid response data for post_id={post_id}"
         )
 
-    return str(data["topic"]["post"]["content"])
+    # Check if topic exists and has a post
+    topic = data.get("topic")
+    if not topic:
+        raise FetchContentException(
+            f"Topic not found for post_id={post_id}"
+        )
+    
+    post = topic.get("post")
+    if not post:
+        raise FetchContentException(
+            f"Post content not available for post_id={post_id} (post may be deleted or private)"
+        )
+    
+    content = post.get("content")
+    if content is None:
+        raise FetchContentException(
+            f"Post content is null for post_id={post_id}"
+        )
+
+    return str(content)
 
 
 @retry_with_exp_backoff(retries=config["app"]["n_api_retries"])  # type: ignore
@@ -81,10 +100,16 @@ def parsed_posts(skip: int, first: int) -> Iterator[LeetCodePost]:
         posts = posts[1:]  # Skip pinned post
 
     for post in posts:
+        try:
+            content = str(post_content(post["node"]["id"]))
+        except FetchContentException as e:
+            print(f"Warning: Skipping post {post['node']['id']} - {e}")
+            continue
+        
         yield LeetCodePost(
             id=post["node"]["id"],
             title=post["node"]["title"],
-            content=str(post_content(post["node"]["id"])),
+            content=content,
             vote_count=post["node"]["post"]["voteCount"],
             comment_count=post["node"]["commentCount"],
             view_count=post["node"]["viewCount"],
