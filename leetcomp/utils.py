@@ -96,7 +96,9 @@ def latest_parsed_date(comps_path: str) -> datetime:
     with open(comps_path, "r") as f:
         top_line = json.loads(f.readline())
 
-    return datetime.strptime(top_line["creation_date"], config["app"]["date_fmt"])
+    return datetime.strptime(
+        top_line["creation_date"], config["app"]["date_fmt"]
+    )
 
 
 def parse_json_markdown(json_string: str) -> list[dict[Any, Any]]:
@@ -128,7 +130,9 @@ def sort_and_truncate(comps_path: str, truncate: bool = False) -> None:
         records = [json.loads(line) for line in file]
 
     records.sort(
-        key=lambda x: datetime.strptime(x["creation_date"], config["app"]["date_fmt"]),
+        key=lambda x: datetime.strptime(
+            x["creation_date"], config["app"]["date_fmt"]
+        ),
         reverse=True,
     )
 

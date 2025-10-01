@@ -44,7 +44,9 @@ def post_should_be_parsed(post: dict[Any, Any]) -> bool:
     return True
 
 
-def has_crossed_till_date(creation_date: str, till_date: datetime | None = None) -> bool:
+def has_crossed_till_date(
+    creation_date: str, till_date: datetime | None = None
+) -> bool:
     if till_date is None:
         return False
 
@@ -58,7 +60,9 @@ def comps_posts_iter(comps_path: str) -> Generator[dict[Any, Any], None, None]:
             yield json.loads(line)
 
 
-def parsed_content_is_valid(post_id: str, parsed_content: list[dict[Any, Any]]) -> bool:
+def parsed_content_is_valid(
+    post_id: str, parsed_content: list[dict[Any, Any]]
+) -> bool:
     if not isinstance(parsed_content, list) or not parsed_content:
         return False
 
@@ -66,9 +70,9 @@ def parsed_content_is_valid(post_id: str, parsed_content: list[dict[Any, Any]]) 
         try:
             assert isinstance(item, dict), "item is not a dict"
 
-            assert isinstance(item["base_offer"], (int, float)), (
-                "base_offer is not a number"
-            )
+            assert isinstance(
+                item["base_offer"], (int, float)
+            ), "base_offer is not a number"
 
             assert (
                 config["parsing"]["min_base_offer"]
@@ -76,9 +80,9 @@ def parsed_content_is_valid(post_id: str, parsed_content: list[dict[Any, Any]]) 
                 <= config["parsing"]["max_base_offer"]
             ), "base_offer out of range"
 
-            assert isinstance(item["total_offer"], (int, float)), (
-                "total_offer is not a number"
-            )
+            assert isinstance(
+                item["total_offer"], (int, float)
+            ), "total_offer is not a number"
 
             assert (
                 config["parsing"]["min_total_offer"]
@@ -263,7 +267,9 @@ def jsonl_to_json(jsonl_path: str, json_path: str) -> None:
 if __name__ == "__main__":
     import argparse
 
-    parser = argparse.ArgumentParser(description="Parse LeetCode Compensations posts.")
+    parser = argparse.ArgumentParser(
+        description="Parse LeetCode Compensations posts."
+    )
     parser.add_argument(
         "--in_comps_path",
         type=str,

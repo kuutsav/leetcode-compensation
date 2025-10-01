@@ -1,4 +1,5 @@
-COMP_POSTS_QUERY = """
+# legacy query
+COMP_POSTS_QUERY_LEGACY = """
 query categoryTopicList($categories: [String!]!, $first: Int!, $orderBy: TopicSortingOption, $skip: Int, $query: String, $tags: [String!]) {
   categoryTopicList(categories: $categories, orderBy: $orderBy, skip: $skip, query: $query, first: $first, tags: $tags) {
     ...TopicsList
@@ -79,10 +80,9 @@ fragment CoinReward on ScoreNode {
 }
 """
 
-
-COMP_POSTS_DATA_QUERY = {
+COMP_POSTS_DATA_QUERY_LEGACY = {
     "operationName": "categoryTopicList",
-    "query": COMP_POSTS_QUERY,
+    "query": COMP_POSTS_QUERY_LEGACY,
     "variables": {
         "orderBy": "newest_to_oldest",
         "query": "",
@@ -90,6 +90,87 @@ COMP_POSTS_DATA_QUERY = {
         "first": 50,
         "tags": [],
         "categories": ["compensation"],
+    },
+}
+
+# new query
+COMP_POSTS_QUERY = """
+query discussPostItems($orderBy: ArticleOrderByEnum, $keywords: [String]!, $tagSlugs: [String!], $skip: Int, $first: Int) {
+  ugcArticleDiscussionArticles(
+    orderBy: $orderBy
+    keywords: $keywords
+    tagSlugs: $tagSlugs
+    skip: $skip
+    first: $first
+  ) {
+    totalNum
+    pageInfo {
+      hasNextPage
+    }
+    edges {
+      node {
+        uuid
+        title
+        slug
+        summary
+        author {
+          realName
+          userAvatar
+          userSlug
+          userName
+          nameColor
+          certificationLevel
+          activeBadge {
+            icon
+            displayName
+          }
+        }
+        isOwner
+        isAnonymous
+        isSerialized
+        scoreInfo {
+          scoreCoefficient
+        }
+        articleType
+        thumbnail
+        createdAt
+        updatedAt
+        status
+        isLeetcode
+        canSee
+        canEdit
+        isMyFavorite
+        myReactionType
+        topicId
+        hitCount
+        reactions {
+          count
+          reactionType
+        }
+        tags {
+          name
+          slug
+          tagType
+        }
+        topic {
+          id
+          topLevelCommentCount
+        }
+      }
+    }
+  }
+}
+"""
+
+COMP_POSTS_DATA_QUERY = {
+    "operationName": "discussPostItems",
+    "query": COMP_POSTS_QUERY,
+    "variables": {
+        "orderBy": "MOST_RECENT",
+        "keywords": [""],
+        "tagSlugs": ["compensation"],
+        "skip": 0,
+        "first": 50,
     },
 }
 
@@ -157,7 +238,6 @@ fragment CoinReward on ScoreNode {
   __typename
 }
 """
-
 
 COMP_POST_CONTENT_DATA_QUERY = {
     "operationName": "DiscussTopic",
