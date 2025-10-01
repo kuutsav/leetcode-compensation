@@ -10,7 +10,7 @@ Each dictionary must include the following keys with their respective values:
 - company (str): The name of the company offering the job.
 - role (str): The job title or role being offered.
 - yoe (float): The years of experience of the candidate receiving the offer.
-- base_offer (float): The base salary component of the offer, in LPA (INR).
+- base_offer (float): The base salary component of the offer, in LPA (INR), which is also called as fixed salary.
   For example, "29.5 LPA" should be represented as 29.5. Avoid scientific notation.
   Salary in crores like "1.18 cr" should be converted to LPA (1.18 * 100 = 118).
 - total_offer (float): The total compensation offered, in LPA (INR).
