@@ -15,6 +15,7 @@ min_total_offer = 3
 
 [llms]
 ollama_model = "gemma3:12b"
+ollama_num_ctx = 8192
 openrouter_model = "meta-llama/llama-3.1-8b-instruct:free"
 openrouter_req_per_min = 20
 openrouter_url = "https://openrouter.ai/api/v1/chat/completions"
