@@ -26,6 +26,7 @@ def ollama_predict(prompt: str) -> str:
     response = ollama.chat(
         model=config["llms"]["ollama_model"],
         messages=[{"role": "user", "content": prompt}],
+        options={"num_ctx": int(config["llms"].get("ollama_num_ctx", 8192))},
     )
     return response["message"]["content"]  # type: ignore
 
