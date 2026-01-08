@@ -1,132 +1,119 @@
-[
-    {
-        "cluster_name": "SDE I",
-        "cluster": [
-            "sde1",
-            "softwareengineer",
-            "sde",
-            "softwaredevelopmentengineer1",
-            "softwareengineer1",
-            "softwaredeveloper",
-            "sdei",
-            "softwareengineeri",
-            "l2",
-            "l3",
-            "softwareengineerl2",
-            "sde1l60",
-            "l60",
-            "ic2",
-            "softwareengineeric2",
-            "developer"
-        ]
-    },
-    {
-        "cluster_name": "SDE II",
-        "cluster": [
-            "sde2",
-            "seniorsoftwareengineer",
-            "softwareengineer2",
-            "sse",
-            "sse1",
-            "sdeii",
-            "softwareengineerii",
-            "sde2frontend",
-            "softwaredevelopmentengineer2",
-            "l4",
-            "l4hardwareengineer",
-            "seniorsoftwareengineerl4",
-            "sde2l4",
-            "swe2l3",
-            "sde1l3",
-            "sde2l61",
-            "se|l61",
-            "softwareengineeriil61",
-            "l61",
-            "l62",
-            "ic3",
-            "l62sde2",
-            "in4"
-        ]
-    },
-    {
-        "cluster_name": "SDE III",
-        "cluster": [
-            "sde3",
-            "softwareengineer3",
-            "leadsoftwareengineer",
-            "softwareengineeriii",
-            "l5",
-            "sde2l5",
-            "l63",
-            "ssel63",
-            "seniorsoftwareengineerl63"
-        ]
-    },
-    {
-        "cluster_name": "Staff Engineer",
-        "cluster": [
-            "staffengineer",
-            "staffsoftwareengineer"
-        ]
-    },
-    {
-        "cluster_name": "MTS I",
-        "cluster": [
-            "mts",
-            "mts1",
-            "mtsi",
-            "memberoftechnicalstaff"
-        ]
-    },
-    {
-        "cluster_name": "MTS II",
-        "cluster": [
-            "smts",
-            "mts2",
-            "mtsii",
-            "seniormemberoftechnicalstaff"
-        ]
-    },
-    {
-        "cluster_name": "MTS III",
-        "cluster": [
-            "lmts",
-            "mts3",
-            "mtsiii",
-            "leadmemberoftechnicalstaff"
-        ]
-    },
-    {
-        "cluster_name": "Data Scientist",
-        "cluster": [
-            "datascientist"
-        ]
-    },
-    {
-        "cluster_name": "Data Engineer",
-        "cluster": [
-            "dataengineer",
-            "dataengineer2",
-            "dataengineer3"
-        ]
-    },
-    {
-        "cluster_name": "Others",
-        "cluster": [
-            "fullstackdeveloper",
-            "fullstackengineer",
-            "applicationdeveloper",
-            "technologydevelopermts",
-            "softwareengineerspecialist",
-            "backenddev",
-            "javafullstackdeveloperi",
-            "softwarequalityengineeric2"
-        ]
-    },
-    {
-        "cluster_name": "N/A",
-        "cluster": [
-            "na"
-        ]
-    }
-]
+{
+    "ai engineer": "AI Engineer",
+    "amts": "AMTS",
+    "analyst": "Analyst",
+    "analyst sde 1": "Analyst SDE 1",
+    "android developer": "Android Developer",
+    "application developer cloud fullstack": "Application Developer Cloud Full Stack",
+    "application engineer": "Application Engineer",
+    "associate": "Associate",
+    "associate engineer": "Associate Engineer",
+    "associate software engineer": "Associate Software Engineer",
+    "backend": "Backend Engineer",
+    "backend developer": "Backend Engineer",
+    "backend engineer": "Backend Engineer",
+    "consultant": "Consultant",
+    "data engineer": "Data Engineer",
+    "data engineer ii": "Data Engineer 2",
+    "data scientist": "Data Scientist",
+    "dot net full stack developer": "Dot Net Full Stack Developer",
+    "engineer": "Engineer",
+    "engineer l4": "Engineer L4",
+    "frontend": "Frontend Developer",
+    "frontend developer": "Frontend Developer",
+    "full stack developer": "Full Stack Developer",
+    "full stack engineer": "Full Stack Developer",
+    "full stack intern": "Full Stack Intern",
+    "ic 2": "IC2",
+    "ic2": "IC2",
+    "ic3": "IC3",
+    "ic4": "IC4",
+    "java backend": "Java Backend Engineer",
+    "java backend developer": "Java Backend Engineer",
+    "l3": "L3",
+    "l4": "L4",
+    "l5": "L5",
+    "l5a": "L5A",
+    "l60": "L60",
+    "l60 role": "L60",
+    "l61": "L61",
+    "l62": "L62",
+    "lead developer": "Lead Developer",
+    "lead engineer": "Lead Engineer",
+    "lead software engineer": "Lead Software Engineer",
+    "lmts": "LMTS",
+    "member technical": "Member Technical",
+    "ml scientist iii": "ML Scientist 3",
+    "mle": "MLE",
+    "mle ii": "MLE 2",
+    "mts 1": "MTS 1",
+    "mts 2": "MTS 2",
+    "mts ii": "MTS 2",
+    "mts 3": "MTS 3",
+    "mts3": "MTS 3",
+    "mts 4": "MTS 4",
+    "mts": "MTS",
+    "pmts": "PMTS",
+    "principal associate": "Principal Associate",
+    "principal engineer": "Principal Engineer",
+    "principal software engineer": "Principal Software Engineer",
+    "principle software engineer": "Principal Software Engineer",
+    "p40": "P40",
+    "sde 1": "SDE 1",
+    "sde i": "SDE 1",
+    "software engineer 1": "SDE 1",
+    "se 1": "SDE 1",
+    "sde 2": "SDE 2",
+    "sde ii": "SDE 2",
+    "sde 2 backend": "SDE 2",
+    "sde 2 data engineer": "SDE 2",
+    "sde 2 frontend": "SDE 2",
+    "software engineer 2": "SDE 2",
+    "swe 2": "SDE 2",
+    "se 2": "SDE 2",
+    "sdet 2": "SDE 2",
+    "sde 3": "SDE 3",
+    "sde iii": "SDE 3",
+    "sde 3 frontend": "SDE 3",
+    "software engineer 3": "SDE 3",
+    "swe 3": "SDE 3",
+    "sde 4": "SDE 4",
+    "sde": "SDE",
+    "se": "SDE",
+    "sdet": "SDE",
+    "software engineer": "SDE",
+    "swe": "SDE",
+    "sse 1": "SSE 1",
+    "sse 2": "SSE 2",
+    "senior engineer iii": "SSE 3",
+    "sse": "SSE",
+    "senior software engineer": "SSE",
+    "senior software developer": "SSE",
+    "senior sde": "SSE",
+    "senior engineer": "SSE",
+    "senior software engineer i": "SSE",
+    "senior software engineer ii": "SSE",
+    "sre 2": "SRE 2",
+    "sre": "SRE",
+    "smts": "SMTS",
+    "smt": "SMTS",
+    "smt s": "SMTS",
+    "smts ic3": "SMTS",
+    "smts(senior member of technical staff)": "SMTS",
+    "qa automation engineer": "QA Automation Engineer",
+    "solution advisor": "Solution Advisor",
+    "tech lead": "Tech Lead",
+    "staff engineer": "Staff Engineer",
+    "staff software engineer": "Staff Engineer",
+    "system software engineer": "System Software Engineer",
+    "senior data engineer": "Senior Data Engineer",
+    "senior backend engineer": "Senior Backend Engineer",
+    "senior platform engineer": "Senior Platform Engineer",
+    "senior data scientist": "Senior Data Scientist",
+    "senior ai applications engineer": "Senior AI Applications Engineer",
+    "senior application engineer": "Senior Application Engineer",
+    "senior applications engineer": "Senior Applications Engineer",
+    "senior full stack developer": "Senior Full Stack Developer",
+    "senior member of technical staff": "SMTS",
+    "vp": "VP"
+}
