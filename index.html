@@ -56,6 +56,12 @@
             align-items: center;
             gap: 0;
         }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
         
         h1 {
             display: flex;
@@ -517,6 +523,13 @@
                 width: 100%;
             }
 
+            .header-right {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+                width: 100%;
+            }
+
             .container {
                 padding: 0 20px 30px 20px;
             }
@@ -584,13 +597,15 @@
     <header>
         <div class="header-left">
             <h1><img src="assets/leetcomp.png" alt="LeetComp"></h1>
+        </div>
+        <div class="header-right">
             <div class="stats">
                 <span id="stats">Loading...</span>
             </div>
-        </div>
-        <div class="github-section">
-            <a href="https://github.com/kuutsav/leetcode-compensation" target="_blank" rel="noopener noreferrer" class="github-link">GitHub</a>
-            <div class="github-stars" id="github-stars"></div>
+            <div class="github-section">
+                <a href="https://github.com/kuutsav/leetcode-compensation" target="_blank" rel="noopener noreferrer" class="github-link">GitHub</a>
+                <div class="github-stars" id="github-stars"></div>
+            </div>
         </div>
     </header>
     <div class="container">
