@@ -1,5 +1,25 @@
 [
   {
+    "id": 7479039,
+    "date": "2026-01-08T19:56:39.939757+00:00",
+    "location": "",
+    "company": "Yugabyte",
+    "role": "Staff Sdet I",
+    "yoe": null,
+    "base": 52,
+    "total": 52
+  },
+  {
+    "id": 7478989,
+    "date": "2026-01-08T19:23:41.381590+00:00",
+    "location": "Remote",
+    "company": "Sibros",
+    "role": "SDE 2",
+    "yoe": 4,
+    "base": 38,
+    "total": 38
+  },
+  {
     "id": 7477684,
     "date": "2026-01-08T10:47:14.775824+00:00",
     "location": "",
@@ -2666,8 +2686,8 @@
     "company": "Atlassian",
     "role": "Principal Engineer",
     "yoe": 10,
-    "base": 12,
-    "total": 20
+    "base": 120,
+    "total": 200
   },
   {
     "id": 7319323,

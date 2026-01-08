@@ -361,6 +361,98 @@
             font-size: 14px;
         }
 
+        .search-controls {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .search-controls select {
+            padding: 10px 14px;
+            border: 1px solid #d0d0d0;
+            border-radius: 6px;
+            background: white;
+            color: #1a1a1a;
+            font-family: "Berkeley Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: 14px;
+            cursor: pointer;
+            min-width: 120px;
+        }
+
+        .search-controls select:hover {
+            border-color: #bbb;
+        }
+
+        .search-controls select:focus {
+            outline: none;
+            border-color: #55b17f;
+        }
+
+        .search-input-wrapper {
+            flex: 1;
+            max-width: 400px;
+            position: relative;
+        }
+
+        .search-input-wrapper input {
+            width: 100%;
+            padding: 10px 14px;
+            padding-left: 38px;
+            border: 1px solid #d0d0d0;
+            border-radius: 6px;
+            background: white;
+            color: #1a1a1a;
+            font-family: "Berkeley Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: 14px;
+        }
+
+        .search-input-wrapper input:hover {
+            border-color: #bbb;
+        }
+
+        .search-input-wrapper input:focus {
+            outline: none;
+            border-color: #55b17f;
+        }
+
+        .search-input-wrapper input::placeholder {
+            color: #999;
+        }
+
+        .search-input-wrapper .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #999;
+            font-size: 14px;
+            pointer-events: none;
+        }
+
+        .search-results-info {
+            font-size: 13px;
+            color: #666;
+            margin-left: auto;
+        }
+
+        .clear-search {
+            background: none;
+            border: 1px solid #d0d0d0;
+            border-radius: 6px;
+            padding: 10px 14px;
+            font-family: "Berkeley Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: 14px;
+            color: #666;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+
+        .clear-search:hover {
+            border-color: #bbb;
+            color: #1a1a1a;
+        }
+
         .charts-section {
             margin-bottom: 40px;
         }
@@ -445,6 +537,22 @@
                 gap: 12px;
             }
 
+            .search-controls {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .search-input-wrapper {
+                width: 100%;
+                max-width: none;
+                order: -1;
+            }
+
+            .search-results-info {
+                width: 100%;
+                margin-left: 0;
+            }
+
             .pagination {
                 flex-wrap: wrap;
                 gap: 8px;
@@ -495,6 +603,20 @@
                 <div class="chart-container wide" id="company-chart"></div>
                 <div class="chart-container narrow" id="top-companies-chart"></div>
             </div>
+        </div>
+
+        <div class="search-controls">
+            <select id="search-field">
+                <option value="company">Company</option>
+                <option value="role">Role</option>
+                <option value="location">Location</option>
+            </select>
+            <div class="search-input-wrapper">
+                <span class="search-icon">⌕</span>
+                <input type="text" id="search-input" placeholder="Search by company...">
+            </div>
+            <button class="clear-search" id="clear-search">Clear</button>
+            <span class="search-results-info" id="search-results-info"></span>
         </div>
 
         <div class="table-container">
@@ -558,6 +680,7 @@
         let currentPage = 1;
         let totalPages = 1;
         let currentSort = { column: null, direction: 'asc' };
+        let currentSearch = { field: 'company', query: '' };
 
         async function loadData() {
             try {
@@ -571,6 +694,7 @@
                 renderPage(1);
                 updatePaginationControls();
                 setupSortListeners();
+                setupSearchListeners();
             } catch (error) {
                 document.getElementById('table-body').innerHTML =
                     '<tr><td colspan="6" class="loading">Error loading data. Please run the conversion script first.</td></tr>';
@@ -594,6 +718,83 @@
                     sortData(sortColumn);
                 });
             });
+        }
+
+        function setupSearchListeners() {
+            const searchInput = document.getElementById('search-input');
+            const searchField = document.getElementById('search-field');
+            const clearSearch = document.getElementById('clear-search');
+
+            // Update placeholder when field changes
+            searchField.addEventListener('change', () => {
+                currentSearch.field = searchField.value;
+                const fieldLabels = {
+                    'company': 'company',
+                    'role': 'role',
+                    'location': 'location'
+                };
+                searchInput.placeholder = `Search by ${fieldLabels[currentSearch.field]}...`;
+                
+                // Re-filter if there's a query
+                if (currentSearch.query) {
+                    filterData();
+                }
+            });
+
+            // Filter on input
+            searchInput.addEventListener('input', () => {
+                currentSearch.query = searchInput.value.trim();
+                filterData();
+            });
+
+            // Clear search
+            clearSearch.addEventListener('click', () => {
+                searchInput.value = '';
+                currentSearch.query = '';
+                filterData();
+            });
+        }
+
+        function filterData() {
+            const query = currentSearch.query.toLowerCase();
+            
+            if (!query) {
+                displayData = [...allData];
+                document.getElementById('search-results-info').textContent = '';
+            } else {
+                displayData = allData.filter(entry => {
+                    const fieldValue = entry[currentSearch.field];
+                    if (fieldValue === null || fieldValue === undefined) return false;
+                    return fieldValue.toLowerCase().includes(query);
+                });
+                document.getElementById('search-results-info').textContent = 
+                    `${displayData.length} result${displayData.length !== 1 ? 's' : ''} found`;
+            }
+
+            // Re-apply current sort if active
+            if (currentSort.column) {
+                displayData.sort((a, b) => {
+                    let valA = a[currentSort.column];
+                    let valB = b[currentSort.column];
+
+                    if (valA === null || valA === undefined) return 1;
+                    if (valB === null || valB === undefined) return -1;
+
+                    valA = Number(valA);
+                    valB = Number(valB);
+
+                    if (currentSort.direction === 'asc') {
+                        return valA - valB;
+                    } else {
+                        return valB - valA;
+                    }
+                });
+            }
+
+            totalPages = Math.ceil(displayData.length / itemsPerPage) || 1;
+            currentPage = 1;
+            renderPage(1);
+            updatePaginationControls();
         }
 
         function sortData(column) {
