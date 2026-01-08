@@ -10,9 +10,6 @@ A tool that helps you find **Software Engineer Salary in India** by:
 - Updating bi-weekly through GitHub action PRs.
 - Using LLMs for parsing and sanitizing structured data from posts, followed by aggregation.
 
-> [!WARNING]
-> A 2-day data refresh delay allows the votes to accumulate, after that posts with negative votes are dropped.
-
 ## Getting Started
 
 Install uv from [Standalone Installers](https://docs.astral.sh/uv/getting-started/installation/) or from [PyPI](https://pypi.org/project/uv/):
@@ -22,9 +19,6 @@ uv sync  # Install all dependencies from pyproject.toml
 ```
 
 ## Updating Data
-
-> [!NOTE]
-> You'll need LLM inference setup (config.toml: llms) using `local: ollama`, `vllm`, or `api: openrouter`
 
 The project uses **LM Studio** by default with the `openai/gpt-oss-20b` model for:
 
