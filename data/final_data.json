@@ -14,7 +14,7 @@
     "date": "2026-01-10T05:54:42.085560+00:00",
     "location": "",
     "company": "Arista Networks",
-    "role": null,
+    "role": "",
     "yoe": 4.5,
     "base": 35,
     "total": 50
@@ -3823,7 +3823,7 @@
     "id": 7279352,
     "date": "2025-10-16T09:02:46.948009+00:00",
     "location": "Remote",
-    "company": "US based org",
+    "company": "Us Based Org",
     "role": "SDE",
     "yoe": 3.5,
     "base": 40,
