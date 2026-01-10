@@ -1,4 +1,4 @@
-## leetcode compensation
+## Leetcode Compensation
 
 [https://kuutsav.github.io/leetcode-compensation/](https://kuutsav.github.io/leetcode-compensation/)
 
