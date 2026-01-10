@@ -14,7 +14,7 @@
     "date": "2026-01-10T05:54:42.085560+00:00",
     "location": "",
     "company": "Arista Networks",
-    "role": "",
+    "role": null,
     "yoe": 4.5,
     "base": 35,
     "total": 50
