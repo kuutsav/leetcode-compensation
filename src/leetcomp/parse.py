@@ -116,7 +116,6 @@ def write_parsed_rec(parsed_post: dict) -> None:
 def prepend_to_parsed_posts(temp_file: str, parsed_posts_file: str) -> None:
     if not os.path.exists(temp_file):
         return
-
     if not os.path.exists(parsed_posts_file):
         shutil.move(temp_file, parsed_posts_file)
         return

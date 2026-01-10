@@ -4,7 +4,6 @@ import json
 import os
 
 from leetcomp import (
-    PARSED_FILE,
     NormalizedEntity,
     COMPANY_MAP_FILE,
     ROLE_MAP_FILE,
@@ -225,27 +224,6 @@ def normalize_new_entities(
     return new_mappings
 
 
-def normalize_and_save(file_path: str, till_id: int | None) -> None:
-    for entity_type in [
-        NormalizedEntity.COMPANY,
-        NormalizedEntity.ROLE,
-        NormalizedEntity.LOCATION,
-    ]:
-        map_file = get_entity_map_file(entity_type)
-        existing_mapping = load_mapping(map_file)
-
-        new_mappings = normalize_new_entities(
-            file_path, entity_type, till_id, existing_mapping
-        )
-
-        if new_mappings:
-            existing_mapping.update(new_mappings)
-            save_mapping(map_file, existing_mapping)
-            print(f"Added {len(new_mappings)} new {entity_type} mappings\n")
-        else:
-            print(f"No new mappings for {entity_type}\n")
-
-
 def normalized_entity_mapping(
     file_path: str, entity_type: NormalizedEntity, batch_size: int = 4
 ):
@@ -264,18 +242,30 @@ def normalized_entity_mapping(
     return mapped_entities
 
 
-def normalize_all_entities(file_path: str = PARSED_FILE):
+def normalize_and_save(file_path: str, till_id: int | None) -> None:
     for entity_type in [
         NormalizedEntity.COMPANY,
         NormalizedEntity.ROLE,
         NormalizedEntity.LOCATION,
     ]:
-        entity = entity_type.split("-")[0]
-        entity_file_path = f"data/{entity}_map.json"
-        if not os.path.exists(entity_file_path):
+        map_file = get_entity_map_file(entity_type)
+
+        if not os.path.exists(map_file):
+            # generate mappings from scratch when file doesn't exist
+            print(f"Mapping file not found for {entity_type}, generating from scratch...")
             mapped_entities = normalized_entity_mapping(file_path, entity_type)
-            with open(f"data/{entity}_map.json", "w") as f:
-                json.dump(mapped_entities, f)
-            print(f"Saved {len(mapped_entities)} {entity} mapping\n")
+            save_mapping(map_file, mapped_entities)
+            print(f"Created {len(mapped_entities)} {entity_type} mappings\n")
         else:
-            print(f"Skipped {entity}; Mapping exists already")
+            # incremental update for existing mappings
+            existing_mapping = load_mapping(map_file)
+            new_mappings = normalize_new_entities(
+                file_path, entity_type, till_id, existing_mapping
+            )
+
+            if new_mappings:
+                existing_mapping.update(new_mappings)
+                save_mapping(map_file, existing_mapping)
+                print(f"Added {len(new_mappings)} new {entity_type} mappings\n")
+            else:
+                print(f"No new mappings for {entity_type}\n")
