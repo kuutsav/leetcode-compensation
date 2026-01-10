@@ -1,26 +1,40 @@
+"""
+The final transform step that helps create the "ready-to-consume" data for the ui.
+Does a little filtering, capitalization and basic processing of the llm parsed data
+(PARSED_FILE; data/parsed_posts.jsonl) so that the records are easy to consume in the
+client facing ui (index.html).
+"""
+
+from enum import StrEnum
 import json
 
-from leetcomp import PARSED_FILE, FINAL_DATA_FILE
+from leetcomp import DATA_DIR, PARSED_FILE, FINAL_DATA_FILE
 
 
-def load_entity_mappings():
-    with open("data/company_map.json", "r") as f:
-        company_map = json.load(f)
-    with open("data/role_map.json", "r") as f:
-        role_map = json.load(f)
-    with open("data/location_map.json", "r") as f:
-        location_map = json.load(f)
-    return company_map, role_map, location_map
+class InvalidRecReason(StrEnum):
+    NON_COMP = "Non Comp"
+    NON_INR = "Non INR"
+    MISSING_FIELDS = "Misssing Fields"
+
+
+def load_entity_mappings(entities: list[str]) -> dict[str, dict[str, str]]:
+    entity_map = {}
+    for entity in entities:
+        with open(f"{DATA_DIR}/{entity}_map.json", "r") as f:
+            entity_map[entity] = json.load(f)
+    return entity_map
 
 
 def capitalize_role(role: str) -> str:
+    # for example; sse -> SSE, sdet -> SDET
     if len(role) <= 4 and " " not in role:
         return role.upper()
 
+    # for example; smts 1 -> SMTS 1, ic 4 -> IC 4
     parts = role.split()
     if len(parts) == 2:
         word, num = parts
-        if 3 <= len(word) <= 4 and num.isdigit():
+        if 2 <= len(word) <= 4 and num.isdigit():
             return f"{word.upper()} {num}"
 
     return role.title()
@@ -28,26 +42,31 @@ def capitalize_role(role: str) -> str:
 
 def is_valid_record(rec: dict) -> tuple[bool, str]:
     if not rec.get("compensation-post", False):
-        return False, "non_comp"
+        return False, InvalidRecReason.NON_COMP
 
+    # TODO: We need to preserve the remote offers for India in EUR or USD
     if rec.get("currency") != "INR":
-        return False, "non_inr"
+        return False, InvalidRecReason.NON_INR
 
     required = ["id", "created_at", "company-normalized", "role-normalized"]
     if not all(key in rec for key in required):
-        return False, "missing_fields"
+        return False, InvalidRecReason.MISSING_FIELDS
 
     return True, ""
 
 
-def transform_record(rec: dict, company_map: dict, role_map: dict, location_map: dict) -> dict:
+def transform_record(rec: dict, entity_map: dict[str, dict[str, str]]) -> dict:
     company_raw = rec.get("company-normalized", "")
     role_raw = rec.get("role-normalized", "")
     location_raw = rec.get("location", "")
 
-    company = company_map.get(company_raw, company_raw).title()
-    role = role_map.get(role_raw, capitalize_role(role_raw))
-    location = location_map.get(location_raw, location_raw).title() if location_raw else ""
+    company = entity_map["company"].get(company_raw, company_raw).title()
+    role = entity_map["role"].get(role_raw, capitalize_role(role_raw))
+    location = (
+        entity_map["location"].get(location_raw, location_raw).title()
+        if location_raw
+        else ""
+    )
 
     return {
         "id": rec["id"],
@@ -61,26 +80,39 @@ def transform_record(rec: dict, company_map: dict, role_map: dict, location_map:
     }
 
 
-def print_stats(total: int, processed: int, non_comp: int, non_inr: int, missing: int):
-    dropped = non_comp + non_inr + missing
-    print("\n" + "=" * 50)
-    print("PROCESSING STATISTICS")
-    print("=" * 50)
+def print_stats(stats: dict) -> None:
+    total = stats["total"]
+    processed = stats["processed"]
+    dropped = sum(stats[reason] for reason in InvalidRecReason)
+
+    print("Processing Stats...")
     print(f"Total posts processed: {total}")
-    print(f"✓ Successfully included: {processed}")
+    print(f"Successfully included: {processed}")
     print("\nDropped posts breakdown:")
-    print(f"  • Non-compensation related: {non_comp} ({non_comp / total * 100:.1f}%)")
-    print(f"  • Non-INR currency: {non_inr} ({non_inr / total * 100:.1f}%)")
-    print(f"  • Missing required fields: {missing} ({missing / total * 100:.1f}%)")
+
+    for reason in InvalidRecReason:
+        count = stats[reason]
+        print(f" ⤷ {reason}: {count} ({count / total * 100:.1f}%)")
+
     print(f"\nTotal dropped: {dropped} ({dropped / total * 100:.1f}%)")
-    print("=" * 50)
 
 
 def create_final_data(parsed_file: str = PARSED_FILE, output_file: str = FINAL_DATA_FILE):
-    print("Loading entity mappings...")
-    company_map, role_map, location_map = load_entity_mappings()
+    """
+    Creates final data for the ui by only keeping the records of interest for the table
+    and charts in the ui as well as maps the entities like companies, roles, etc. to
+    sanitized and normalized values based on data normalization done by processing
+    these raw entities in bulk in the past.
+    """
 
-    stats = {"total": 0, "processed": 0, "non_comp": 0, "non_inr": 0, "missing": 0}
+    print("Loading entity mappings...")
+    entity_map = load_entity_mappings(["company", "role", "location"])
+
+    stats = {
+        "total": 0,
+        "processed": 0,
+        **{reason: 0 for reason in InvalidRecReason},
+    }
     final_data = []
 
     print(f"Processing {parsed_file}...")
@@ -91,29 +123,14 @@ def create_final_data(parsed_file: str = PARSED_FILE, output_file: str = FINAL_D
 
             valid, reason = is_valid_record(rec)
             if not valid:
-                if reason == "non_comp":
-                    stats["non_comp"] += 1
-                elif reason == "non_inr":
-                    stats["non_inr"] += 1
-                else:
-                    stats["missing"] += 1
+                stats[reason] += 1
                 continue
 
-            final_data.append(transform_record(rec, company_map, role_map, location_map))
+            final_data.append(transform_record(rec, entity_map))
             stats["processed"] += 1
 
     with open(output_file, "w") as f:
         json.dump(final_data, f, indent=2)
 
-    print_stats(
-        stats["total"],
-        stats["processed"],
-        stats["non_comp"],
-        stats["non_inr"],
-        stats["missing"],
-    )
-    print(f"✓ Final data saved to {output_file}")
-
-
-if __name__ == "__main__":
-    create_final_data()
+    print_stats(stats)
+    print(f"Final data saved to {output_file}")

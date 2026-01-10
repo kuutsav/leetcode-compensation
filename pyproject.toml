@@ -3,11 +3,7 @@ build-backend = "hatchling.build"
 requires = ["hatchling"]
 
 [project]
-dependencies = [
-  "httpx",
-  "openai>=2.14.0",
-  "pydantic>=2.12.5",
-]
+dependencies = ["httpx", "openai>=2.14.0", "pydantic>=2.12.5"]
 description = "Add your description here"
 name = "leetcode-comp"
 readme = "README.md"
@@ -15,9 +11,7 @@ requires-python = ">=3.13"
 version = "0.1.0"
 
 [project.optional-dependencies]
-dev = [
-  "pytest>=8.0.0",
-]
+dev = ["pytest>=8.0.0"]
 
 [project.scripts]
 leetcomp-sync = "leetcomp.sync:sync"
@@ -26,7 +20,7 @@ leetcomp-sync = "leetcomp.sync:sync"
 packages = ["src/leetcomp"]
 
 [tool.ruff]
-line-length = 120
+line-length = 90
 
 [tool.ruff.format]
 line-ending = "auto"

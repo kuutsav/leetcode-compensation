@@ -1,5 +1,135 @@
 [
   {
+    "id": 7481871,
+    "date": "2026-01-09T21:06:18.020577+00:00",
+    "location": "",
+    "company": "Moengage",
+    "role": "SDE 1",
+    "yoe": 2.6,
+    "base": 31,
+    "total": 31
+  },
+  {
+    "id": 7481871,
+    "date": "2026-01-09T21:06:18.020577+00:00",
+    "location": "",
+    "company": "Dp World",
+    "role": "SDE 1",
+    "yoe": 2.6,
+    "base": 35,
+    "total": 35
+  },
+  {
+    "id": 7481871,
+    "date": "2026-01-09T21:06:18.020577+00:00",
+    "location": "Remote",
+    "company": "Joveo",
+    "role": "SDE 1",
+    "yoe": 2.6,
+    "base": 30,
+    "total": 30
+  },
+  {
+    "id": 7481871,
+    "date": "2026-01-09T21:06:18.020577+00:00",
+    "location": "",
+    "company": "Mmt",
+    "role": "SSE 1",
+    "yoe": 2.6,
+    "base": 24,
+    "total": 24
+  },
+  {
+    "id": 7481871,
+    "date": "2026-01-09T21:06:18.020577+00:00",
+    "location": "",
+    "company": "Another Similar Company",
+    "role": "SSE 1",
+    "yoe": 2.6,
+    "base": 27,
+    "total": 27
+  },
+  {
+    "id": 7481806,
+    "date": "2026-01-09T20:20:21.655739+00:00",
+    "location": "Bengaluru",
+    "company": "Oracle",
+    "role": "SDE",
+    "yoe": 4.5,
+    "base": 38,
+    "total": 63
+  },
+  {
+    "id": 7481679,
+    "date": "2026-01-09T19:13:21.134142+00:00",
+    "location": "",
+    "company": "Bitgo",
+    "role": "E2 Role",
+    "yoe": 3.2,
+    "base": 35,
+    "total": 59.22
+  },
+  {
+    "id": 7481440,
+    "date": "2026-01-09T17:30:26.879603+00:00",
+    "location": "",
+    "company": "Zynga",
+    "role": "SSE",
+    "yoe": 7,
+    "base": 45,
+    "total": 61
+  },
+  {
+    "id": 7481096,
+    "date": "2026-01-09T15:20:39.251156+00:00",
+    "location": "Bengaluru",
+    "company": "Nike",
+    "role": "SDE 1",
+    "yoe": 3.5,
+    "base": 13,
+    "total": 15.3
+  },
+  {
+    "id": 7481096,
+    "date": "2026-01-09T15:20:39.251156+00:00",
+    "location": "",
+    "company": "Deloitte",
+    "role": "Consultant",
+    "yoe": 3.5,
+    "base": null,
+    "total": 15
+  },
+  {
+    "id": 7480811,
+    "date": "2026-01-09T13:35:50.340126+00:00",
+    "location": "Bengaluru",
+    "company": "Amazon",
+    "role": "SDE 2",
+    "yoe": 3.8,
+    "base": 43,
+    "total": 65
+  },
+  {
+    "id": 7480811,
+    "date": "2026-01-09T13:35:50.340126+00:00",
+    "location": "Bengaluru",
+    "company": "Adobe",
+    "role": "MTS 2",
+    "yoe": 3.8,
+    "base": 28,
+    "total": 45
+  },
+  {
+    "id": 7479461,
+    "date": "2026-01-09T03:48:53.272416+00:00",
+    "location": "Bengaluru",
+    "company": "Smartsheet",
+    "role": "SSE",
+    "yoe": 5,
+    "base": 37,
+    "total": 40.5
+  },
+  {
     "id": 7479039,
     "date": "2026-01-08T19:56:39.939757+00:00",
     "location": "",
@@ -524,7 +654,7 @@
     "date": "2025-12-26T07:32:34.558618+00:00",
     "location": "",
     "company": "Adobe",
-    "role": "Cs 2",
+    "role": "CS 2",
     "yoe": 9,
     "base": 55,
     "total": 100
@@ -5044,7 +5174,7 @@
     "date": "2025-09-13T09:38:58.675530+00:00",
     "location": "Bengaluru",
     "company": "Netapp",
-    "role": "Se 3",
+    "role": "SE 3",
     "yoe": 7,
     "base": 41.8,
     "total": 51.24
@@ -6234,7 +6364,7 @@
     "date": "2025-08-21T17:01:16.871660+00:00",
     "location": "Bengaluru",
     "company": "Netapp",
-    "role": "Se 3",
+    "role": "SE 3",
     "yoe": 7.2,
     "base": 41.8,
     "total": 45.1
@@ -11724,7 +11854,7 @@
     "date": "2025-05-13T11:35:06.395134+00:00",
     "location": "Bengaluru",
     "company": "Swiggy",
-    "role": "Ds 1",
+    "role": "DS 1",
     "yoe": 0.5,
     "base": 20,
     "total": 30
@@ -11734,7 +11864,7 @@
     "date": "2025-05-13T10:29:58.753336+00:00",
     "location": "Bengaluru",
     "company": "Flipkart",
-    "role": "Ds 2",
+    "role": "DS 2",
     "yoe": 0.5,
     "base": 30,
     "total": 48
@@ -11934,7 +12064,7 @@
     "date": "2025-05-09T12:27:00.423139+00:00",
     "location": "Bengaluru",
     "company": "Super.Money Flipkart",
-    "role": "Ui 2",
+    "role": "UI 2",
     "yoe": 3.5,
     "base": 35,
     "total": 35.0
@@ -12784,7 +12914,7 @@
     "date": "2025-04-27T14:19:11.892623+00:00",
     "location": "Noida",
     "company": "Adobe",
-    "role": "Cs 2",
+    "role": "CS 2",
     "yoe": 7,
     "base": 49,
     "total": 87
@@ -14174,7 +14304,7 @@
     "date": "2025-04-02T17:22:55.748891+00:00",
     "location": "Hyderabad",
     "company": "Lloyds Banking Group",
-    "role": "De 2",
+    "role": "DE 2",
     "yoe": 2.5,
     "base": 20,
     "total": 21
@@ -15504,7 +15634,7 @@
     "date": "2025-03-13T13:59:27.621186+00:00",
     "location": "Noida",
     "company": "Adobe",
-    "role": "Cs 1",
+    "role": "CS 1",
     "yoe": 4.5,
     "base": 35,
     "total": 58
@@ -16674,7 +16804,7 @@
     "date": "2025-02-26T20:33:00.114133+00:00",
     "location": "Hyderabad",
     "company": "Microsoft",
-    "role": "Se 21",
+    "role": "SE 21",
     "yoe": 4.8,
     "base": 31,
     "total": 62.55
@@ -17804,7 +17934,7 @@
     "date": "2025-02-10T15:08:30.464780+00:00",
     "location": "",
     "company": "Rapido",
-    "role": "Pe 2",
+    "role": "PE 2",
     "yoe": null,
     "base": 30,
     "total": 35
@@ -18194,7 +18324,7 @@
     "date": "2025-02-05T06:44:33.707511+00:00",
     "location": "Bengaluru",
     "company": "Saviynt",
-    "role": "Se 3",
+    "role": "SE 3",
     "yoe": 10,
     "base": 65,
     "total": null
@@ -18784,7 +18914,7 @@
     "date": "2025-01-27T17:00:40.787023+00:00",
     "location": "Bengaluru",
     "company": "Walmart",
-    "role": "Se 3",
+    "role": "SE 3",
     "yoe": 2.6,
     "base": 25,
     "total": 34

@@ -1,1 +1,21 @@
-{"Bangalore": "Bengaluru", "BLR": "Bengaluru", "Bengaluru": "Bengaluru", "Chennai": "Chennai", "Delhi": "Delhi", "Gurgaon": "Gurugram", "Gurugram": "Gurugram", "Hybrid": "Hyderabad", "Hyd": "Hyderabad", "Hyderabad": "Hyderabad", "India": "India", "Kolkata": "Kolkata", "Mumbai": "Mumbai", "Noida": "Noida", "Pan India": "Pan India", "Pune": "Pune", "Raipur": "Raipur", "Remote": "Remote"}
+{
+  "BLR": "Bengaluru",
+  "Bangalore": "Bengaluru",
+  "Bengaluru": "Bengaluru",
+  "Chennai": "Chennai",
+  "Delhi": "Delhi",
+  "Gurgaon": "Gurugram",
+  "Gurugram": "Gurugram",
+  "Hometown": "Hometown",
+  "Hybrid": "Hyderabad",
+  "Hyd": "Hyderabad",
+  "Hyderabad": "Hyderabad",
+  "India": "India",
+  "Kolkata": "Kolkata",
+  "Mumbai": "Mumbai",
+  "Noida": "Noida",
+  "Pan India": "Pan India",
+  "Pune": "Pune",
+  "Raipur": "Raipur",
+  "Remote": "Remote"
+}

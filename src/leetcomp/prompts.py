@@ -835,22 +835,103 @@ Don't put the output inside backticks ``` or any other wrapper, just pure text p
 """
 
 
-def get_normalization_prompt(entity_type: str, grouped_data: str) -> str:
-    rules_map = {
+NORMALIZATION_WITH_CONTEXT_PROMPT = """You are a {entity_type} normalization specialist tasked with creating canonical mappings for NEW {entity_type} variations.
+
+## Task
+Analyze the NEW {entity_type} variations and create normalized mappings. Use the existing mappings as reference for consistent naming conventions.
+
+## Input Format
+Each line contains a comma-separated list of {entity_type} variations with their occurrence counts in brackets.
+Example: 'amazon [139]', 'amazon india [2]'
+
+{rules}
+
+## Output Format
+Return ONLY the mappings for NEW entities, one per line, in this format:
+```
+variation1|variation2|variation3:canonical_name
+```
+
+**Requirements:**
+- Group ALL variations that map to the same canonical name on a single line
+- Separate variations with pipe character (|)
+- Use colon (:) before the canonical name
+- **PRESERVE exact spelling** - do not introduce typos or arbitrary changes
+- **PRESERVE formatting** - keep dots, spaces, hyphens as they appear in the original
+- Do not include explanations, headers, counts, or any additional text
+- Output only the mappings for NEW entities
+- **Accuracy is critical** - when uncertain if two names are the same entity, keep them separate
+- **Use existing mappings as reference** - if a new entity is a variation of an existing one, map it to the same canonical name
+
+{examples}
+
+## Entity Type
+{entity_type}
+
+## Existing Mappings (for reference - DO NOT include these in output)
+{context}
+
+## NEW Data to Normalize
+
+{grouped_data}
+
+## Output
+Provide ONLY the mappings for NEW entities in the specified format, nothing else.
+Don't put the output inside backticks ``` or any other wrapper, just pure text please.
+"""
+
+
+def get_normalization_prompt(entity_type: NormalizedEntity, grouped_data: str) -> str:
+    rules_map: dict[NormalizedEntity, str] = {
         NormalizedEntity.COMPANY: COMPANY_RULES,
         NormalizedEntity.ROLE: ROLE_RULES,
         NormalizedEntity.LOCATION: LOCATION_RULES,
     }
 
-    examples_map = {
+    examples_map: dict[NormalizedEntity, str] = {
         NormalizedEntity.COMPANY: COMPANY_EXAMPLES,
         NormalizedEntity.ROLE: ROLE_EXAMPLES,
         NormalizedEntity.LOCATION: LOCATION_EXAMPLES,
     }
 
-    rules = rules_map.get(entity_type.lower(), COMPANY_RULES)
-    examples = examples_map.get(entity_type.lower(), COMPANY_EXAMPLES)
+    rules = rules_map.get(entity_type, COMPANY_RULES)
+    examples = examples_map.get(entity_type, COMPANY_EXAMPLES)
 
     return NORMALIZATION_MAPPING_PROMPT.format(
         entity_type=entity_type, rules=rules, examples=examples, grouped_data=grouped_data
+    )
+
+
+def get_normalization_prompt_with_context(
+    entity_type: NormalizedEntity, grouped_data: str, context: str
+) -> str:
+    rules_map: dict[NormalizedEntity, str] = {
+        NormalizedEntity.COMPANY: COMPANY_RULES,
+        NormalizedEntity.ROLE: ROLE_RULES,
+        NormalizedEntity.LOCATION: LOCATION_RULES,
+    }
+
+    examples_map: dict[NormalizedEntity, str] = {
+        NormalizedEntity.COMPANY: COMPANY_EXAMPLES,
+        NormalizedEntity.ROLE: ROLE_EXAMPLES,
+        NormalizedEntity.LOCATION: LOCATION_EXAMPLES,
+    }
+
+    rules = rules_map.get(entity_type, COMPANY_RULES)
+    examples = examples_map.get(entity_type, COMPANY_EXAMPLES)
+
+    if not context:
+        return NORMALIZATION_MAPPING_PROMPT.format(
+            entity_type=entity_type,
+            rules=rules,
+            examples=examples,
+            grouped_data=grouped_data,
+        )
+
+    return NORMALIZATION_WITH_CONTEXT_PROMPT.format(
+        entity_type=entity_type,
+        rules=rules,
+        examples=examples,
+        context=context,
+        grouped_data=grouped_data,
     )

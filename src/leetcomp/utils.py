@@ -12,40 +12,16 @@ class Provider(StrEnum):
 
 
 LM_STUDIO_URL = "http://localhost:1234/v1/chat/completions"
+LM_STUDIO_MODEL = "openai/gpt-oss-20b"
 GITHUB_MODELS_URL = "https://models.github.ai/inference"
-
-
-def get_llm_output(prompt: str, provider: Provider = Provider.LM_STUDIO) -> str | None:
-    if provider == Provider.LM_STUDIO:
-        # TODO: Need to set the thinking budget here; thinks for really long at times :/
-        payload = {
-            "model": "openai/gpt-oss-20b",
-            "temperature": 0.3,
-            "messages": [{"role": "user", "content": prompt}],
-        }
-        with httpx.Client(timeout=120.0) as client:
-            response = client.post(LM_STUDIO_URL, json=payload)
-            response.raise_for_status()
-            result = response.json()
-            return result["choices"][0]["message"]["content"]
-    elif provider == Provider.GITHUB_MODELS:
-        client = OpenAI(base_url=GITHUB_MODELS_URL, api_key=os.environ["GITHUB_TOKEN"])
-        response = client.chat.completions.create(
-            model="openai/gpt-4o",
-            temperature=0.3,
-            max_tokens=4096,
-            top_p=1,
-            messages=[
-                {"role": "system", "content": ""},
-                {"role": "user", "content": prompt},
-            ],
-        )
-        return response.choices[0].message.content
-
-    raise KeyError(f"Unkown provider {provider}")
+GITHUB_MODELS_MODEL = "openai/gpt-4o"
 
 
 def last_fetched_id(file_with_ids: str) -> int | None:
+    """
+    Used to fetch the last processed id from jsonl records (raw and processed).
+    This heelps in avoiding processing or parsing of the same ids across runs.
+    """
     if not os.path.exists(file_with_ids):
         return None
 
@@ -58,5 +34,36 @@ def last_fetched_id(file_with_ids: str) -> int | None:
     return _last_id
 
 
-# if __name__ == "__main__":
-#     print(get_llm_output("1+1=", Provider.GITHUB_MODELS))
+def get_llm_output(prompt: str, provider: Provider = Provider.LM_STUDIO) -> str | None:
+    """
+    LLM based processing for data parsing and sanitization from leetcode comp posts.
+    Uses LM Studio for processing data in bulk when syncing for the first time.
+    Uses Github Models (free tier credits) to parse the new data during sync operations.
+    """
+    if provider == Provider.GITHUB_MODELS:
+        client = OpenAI(base_url=GITHUB_MODELS_URL, api_key=os.environ["GITHUB_TOKEN"])
+        response = client.chat.completions.create(
+            model=GITHUB_MODELS_MODEL,
+            temperature=0.3,
+            max_tokens=4096,
+            top_p=1,
+            messages=[
+                {"role": "system", "content": ""},
+                {"role": "user", "content": prompt},
+            ],
+        )
+        return response.choices[0].message.content
+    elif provider == Provider.LM_STUDIO:
+        # TODO: Need to set the thinking budget here; thinks for really long at times :/
+        payload = {
+            "model": LM_STUDIO_MODEL,
+            "temperature": 0.3,
+            "messages": [{"role": "user", "content": prompt}],
+        }
+        with httpx.Client(timeout=120.0) as client:
+            response = client.post(LM_STUDIO_URL, json=payload)
+            response.raise_for_status()
+            result = response.json()
+            return result["choices"][0]["message"]["content"]
+
+    raise KeyError(f"Unkown provider {provider}")

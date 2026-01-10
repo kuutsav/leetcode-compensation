@@ -1,3 +1,8 @@
+"""
+Parses the raw records from leetcode compensation posts using llm.
+Post -> LLM -> XML -> JSON -> PARSED_FILE (data/parsed_posts.jsonl)
+"""
+
 import json
 import os
 import shutil
@@ -85,10 +90,15 @@ def _parse_xml_block(xml_content: str) -> list[dict]:
 
 
 def should_parse_post(post: dict) -> bool:
-    if post["downvotes"] > post["upvotes"]:
-        return False
+    return post["downvotes"] <= post["upvotes"]
 
-    return True
+
+def should_stop_parsing(post: dict, till_id: int | None) -> bool:
+    return till_id is not None and post["id"] == till_id
+
+
+def post_content_to_parse(post: dict) -> str:
+    return post["title"] + "\n---\n" + post["content"]
 
 
 def posts_to_parse(posts_file: str):
@@ -120,24 +130,13 @@ def prepend_to_parsed_posts(temp_file: str, parsed_posts_file: str) -> None:
         parsed_f.write(old_content)
 
 
-def prev_parsed_ids(parsed_posts_file: str) -> set[str]:
-    if not os.path.exists(parsed_posts_file):
-        return set()
-
-    parsed_ids = set()
-    with open(parsed_posts_file, "r") as f:
-        for line in f:
-            parsed_ids.add(json.loads(line)["id"])
-    return parsed_ids
-
-
 def parse_posts_with_llm(posts_file: str, till_id: int | None) -> None:
     if os.path.exists(PARSED_TEMP_FILE):
         os.remove(PARSED_TEMP_FILE)
 
     parsed, skip = 0, 0
     for post in posts_to_parse(posts_file):
-        if till_id and post["id"] == till_id:
+        if should_stop_parsing(post, till_id):
             print(f"Exiting; Found a prev parsed id: {till_id}")
             break
         elif not should_parse_post(post):
@@ -148,7 +147,7 @@ def parse_posts_with_llm(posts_file: str, till_id: int | None) -> None:
             continue
 
         try:
-            text_to_parse = post["title"] + "\n---\n" + post["content"]
+            text_to_parse = post_content_to_parse(post)
             result = parse_compensation_post(text_to_parse)
             if not result:
                 continue
