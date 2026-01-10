@@ -1,0 +1,85 @@
+name: Sync Data
+
+on:
+  schedule:
+    # 12:30 PM IST = 07:00 UTC (IST is UTC+5:30)
+    # Runs on Wednesday and Saturday
+    - cron: '0 7 * * 3,6'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        run: uv python install 3.13
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run sync
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          LLM_PROVIDER: github_models
+        run: uv run leetcomp-sync
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet data/; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Configure git
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Create branch name with timestamp
+          BRANCH_NAME="data-update"
+          DATE=$(date +'%Y-%m-%d')
+
+          # Delete remote branch if it exists (to start fresh)
+          git push origin --delete $BRANCH_NAME 2>/dev/null || true
+
+          # Create and switch to the branch
+          git checkout -B $BRANCH_NAME
+
+          # Stage and commit changes
+          git add data/
+          git commit -m "Data sync: $DATE"
+
+          # Push the branch
+          git push -u origin $BRANCH_NAME --force
+
+          # Create PR with sync report as body (using file input for proper escaping)
+          gh pr create \
+            --title "Data Sync: $DATE" \
+            --body-file data/sync_report.md \
+            --base master \
+            --head $BRANCH_NAME
+
+      - name: No changes detected
+        if: steps.check_changes.outputs.has_changes == 'false'
+        run: echo "No new data to sync"

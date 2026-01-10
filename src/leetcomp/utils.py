@@ -17,6 +17,13 @@ GITHUB_MODELS_URL = "https://models.github.ai/inference"
 GITHUB_MODELS_MODEL = "openai/gpt-4o"
 
 
+def get_default_provider() -> Provider:
+    provider_env = os.environ.get("LLM_PROVIDER", "").lower()
+    if provider_env == "github_models":
+        return Provider.GITHUB_MODELS
+    return Provider.LM_STUDIO
+
+
 def last_fetched_id(file_with_ids: str) -> int | None:
     """
     Used to fetch the last processed id from jsonl records (raw and processed).
@@ -34,12 +41,15 @@ def last_fetched_id(file_with_ids: str) -> int | None:
     return _last_id
 
 
-def get_llm_output(prompt: str, provider: Provider = Provider.LM_STUDIO) -> str | None:
+def get_llm_output(prompt: str, provider: Provider | None = None) -> str | None:
     """
     LLM based processing for data parsing and sanitization from leetcode comp posts.
     Uses LM Studio for processing data in bulk when syncing for the first time.
     Uses Github Models (free tier credits) to parse the new data during sync operations.
     """
+    if provider is None:
+        provider = get_default_provider()
+
     if provider == Provider.GITHUB_MODELS:
         client = OpenAI(base_url=GITHUB_MODELS_URL, api_key=os.environ["GITHUB_TOKEN"])
         response = client.chat.completions.create(

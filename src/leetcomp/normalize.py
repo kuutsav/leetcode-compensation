@@ -13,7 +13,7 @@ from leetcomp.prompts import (
     get_normalization_prompt,
     get_normalization_prompt_with_context,
 )
-from leetcomp.utils import get_llm_output, Provider
+from leetcomp.utils import get_llm_output
 
 
 def get_entity_map_file(entity_type: NormalizedEntity) -> str:
@@ -134,7 +134,7 @@ def _llm_mapped_output(
     entity_type: NormalizedEntity, batched_group: list[str]
 ) -> dict[str, str]:
     normalization_prompt = get_normalization_prompt(entity_type, "\n".join(batched_group))
-    llm_output = get_llm_output(normalization_prompt, Provider.LM_STUDIO)
+    llm_output = get_llm_output(normalization_prompt)
 
     if not llm_output:
         return {}
@@ -169,7 +169,7 @@ def _llm_mapped_output_with_context(
     normalization_prompt = get_normalization_prompt_with_context(
         entity_type, grouped_data, context
     )
-    llm_output = get_llm_output(normalization_prompt, Provider.LM_STUDIO)
+    llm_output = get_llm_output(normalization_prompt)
 
     if not llm_output:
         return {}
