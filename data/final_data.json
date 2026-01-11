@@ -96,7 +96,7 @@
     "company": "MoEngage",
     "role": "SDE 1",
     "yoe": 2.6,
-    "base": "N/A",
+    "base": null,
     "total": 31
   },
   {
@@ -106,7 +106,7 @@
     "company": "DP World",
     "role": "SDE 1",
     "yoe": 2.6,
-    "base": "N/A",
+    "base": null,
     "total": 35
   },
   {
@@ -116,7 +116,7 @@
     "company": "Joveo",
     "role": "SDE 1",
     "yoe": 2.6,
-    "base": "N/A",
+    "base": null,
     "total": 30
   },
   {
@@ -126,7 +126,7 @@
     "company": "MakeMyTrip",
     "role": "SSE",
     "yoe": 2.6,
-    "base": "N/A",
+    "base": null,
     "total": 24
   },
   {
@@ -136,7 +136,7 @@
     "company": "Another Similar Company",
     "role": "SSE",
     "yoe": 2.6,
-    "base": "N/A",
+    "base": null,
     "total": 27
   },
   {
@@ -186,7 +186,7 @@
     "company": "Deloitte",
     "role": "Consultant",
     "yoe": 3.5,
-    "base": "N/A",
+    "base": null,
     "total": 15
   },
   {
@@ -225,7 +225,7 @@
     "location": "",
     "company": "Yugabyte",
     "role": "Staff Sdet I",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 52,
     "total": 52
   },
@@ -267,7 +267,7 @@
     "role": "SDE 3",
     "yoe": 5,
     "base": 35,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7474016,
@@ -377,7 +377,7 @@
     "role": "SDE",
     "yoe": 5,
     "base": 30,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7458714,
@@ -387,7 +387,7 @@
     "role": "SDE",
     "yoe": 5,
     "base": 28,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7458714,
@@ -397,7 +397,7 @@
     "role": "SDE",
     "yoe": 5,
     "base": 28,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7458062,
@@ -457,7 +457,7 @@
     "role": "SDE 2",
     "yoe": 3.33,
     "base": 25,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7454906,
@@ -535,7 +535,7 @@
     "location": "Pune",
     "company": "Microstrategy",
     "role": "SDE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 43,
     "total": 48.375
   },
@@ -557,7 +557,7 @@
     "role": "SSE",
     "yoe": 5,
     "base": 40,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7448154,
@@ -565,7 +565,7 @@
     "location": "Hyderabad",
     "company": "Microsoft",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 32,
     "total": 61.5
   },
@@ -575,7 +575,7 @@
     "location": "Hyderabad",
     "company": "Microsoft",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 32.0,
     "total": 61.5
   },
@@ -596,8 +596,8 @@
     "company": "A Big Mnc",
     "role": "Cyber Security Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7446168,
@@ -606,8 +606,8 @@
     "company": "Startup Seems Nice",
     "role": "Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7445087,
@@ -687,7 +687,7 @@
     "role": "Java Full Stack Dev",
     "yoe": 4.6,
     "base": 21,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7440767,
@@ -846,8 +846,8 @@
     "company": "Irage Capital",
     "role": "Sde Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7435154,
@@ -867,7 +867,7 @@
     "role": "SSE",
     "yoe": 5,
     "base": 40,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7434679,
@@ -966,8 +966,8 @@
     "company": "Even",
     "role": "Sde Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7425583,
@@ -995,9 +995,9 @@
     "location": "",
     "company": "Meesho",
     "role": "SDE 1",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 7424523,
@@ -1005,7 +1005,7 @@
     "location": "",
     "company": "Meesho",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 22,
     "total": 57
   },
@@ -1036,7 +1036,7 @@
     "company": "Ola",
     "role": "SDE 2",
     "yoe": 3,
-    "base": "N/A",
+    "base": null,
     "total": 28
   },
   {
@@ -1065,9 +1065,9 @@
     "location": "Bengaluru",
     "company": "NetApp",
     "role": "SDE 3",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 36,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7422531,
@@ -1077,7 +1077,7 @@
     "role": "Quantitative Researcher",
     "yoe": 0,
     "base": 3.6,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7422193,
@@ -1147,7 +1147,7 @@
     "role": "SDE 1",
     "yoe": 2.4,
     "base": 35,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7414206,
@@ -1167,7 +1167,7 @@
     "role": "SDE 2",
     "yoe": 4,
     "base": 45,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7414036,
@@ -1196,8 +1196,8 @@
     "company": "EPAM",
     "role": "Junior Software Test Automation",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7410193,
@@ -1207,7 +1207,7 @@
     "role": "Associate Engineer Avp",
     "yoe": 5,
     "base": 27,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7410131,
@@ -1217,7 +1217,7 @@
     "role": "L2 Position",
     "yoe": 2.5,
     "base": 31.48,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7409352,
@@ -1397,7 +1397,7 @@
     "role": "SDE 2",
     "yoe": 3.5,
     "base": 30,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7401802,
@@ -1467,7 +1467,7 @@
     "role": "Data Eng1Neer 2",
     "yoe": 2.5,
     "base": 19,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7399974,
@@ -1497,7 +1497,7 @@
     "role": "Data Scientist",
     "yoe": 5.5,
     "base": 37,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7397699,
@@ -1555,9 +1555,9 @@
     "location": "",
     "company": "Amazon",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 25,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7393220,
@@ -1597,7 +1597,7 @@
     "role": "SDE 4",
     "yoe": 3,
     "base": 18,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7392080,
@@ -1607,7 +1607,7 @@
     "role": "SDE",
     "yoe": 3,
     "base": 22,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7391662,
@@ -1677,7 +1677,7 @@
     "role": "SDE",
     "yoe": 3,
     "base": 21,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7388046,
@@ -1697,7 +1697,7 @@
     "role": "MTS 5",
     "yoe": 7.5,
     "base": 60,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7386947,
@@ -1737,7 +1737,7 @@
     "role": "SMTS",
     "yoe": 6,
     "base": 40,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7384980,
@@ -1747,7 +1747,7 @@
     "role": "Senior AI Engineer",
     "yoe": 3.5,
     "base": 33,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7384531,
@@ -1787,7 +1787,7 @@
     "role": "SSE",
     "yoe": 6.5,
     "base": 26.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7382777,
@@ -1797,7 +1797,7 @@
     "role": "SSE",
     "yoe": 4.5,
     "base": 23,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7382071,
@@ -1827,7 +1827,7 @@
     "role": "MTS 5",
     "yoe": 9,
     "base": 54.75,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7381302,
@@ -1836,8 +1836,8 @@
     "company": "Stripe",
     "role": "Software Engineer Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7381013,
@@ -1846,8 +1846,8 @@
     "company": "Zomato",
     "role": "Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7381013,
@@ -1877,7 +1877,7 @@
     "role": "MTS 5",
     "yoe": 9,
     "base": 54.6,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7379844,
@@ -1907,7 +1907,7 @@
     "role": "SDE 1",
     "yoe": 1,
     "base": 24,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7377049,
@@ -1916,7 +1916,7 @@
     "company": "Oracle",
     "role": "SDE 2",
     "yoe": 3.6,
-    "base": "N/A",
+    "base": null,
     "total": 25
   },
   {
@@ -1937,7 +1937,7 @@
     "role": "SDE 2",
     "yoe": 4.5,
     "base": 44,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7375911,
@@ -1947,7 +1947,7 @@
     "role": "SDE 2",
     "yoe": 4.5,
     "base": 37,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7375523,
@@ -2087,7 +2087,7 @@
     "role": "Senior AI Engineer",
     "yoe": 2.5,
     "base": 33,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7366482,
@@ -2097,7 +2097,7 @@
     "role": "SDE",
     "yoe": 0,
     "base": 30,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7365377,
@@ -2105,9 +2105,9 @@
     "location": "Bengaluru",
     "company": "PayPal",
     "role": "Ml Scientist",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 53,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7365377,
@@ -2115,9 +2115,9 @@
     "location": "Bengaluru",
     "company": "InMobi",
     "role": "Data Scientist",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 67,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7364327,
@@ -2137,7 +2137,7 @@
     "role": "MTS",
     "yoe": 2.4,
     "base": 33,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7363357,
@@ -2147,7 +2147,7 @@
     "role": "SDE 2",
     "yoe": 2.4,
     "base": 28,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7363225,
@@ -2187,7 +2187,7 @@
     "role": "SDE",
     "yoe": 4.5,
     "base": 41,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7360417,
@@ -2197,7 +2197,7 @@
     "role": "SDE",
     "yoe": 4.5,
     "base": 33,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7360295,
@@ -2277,7 +2277,7 @@
     "role": "SDE 1",
     "yoe": 1.6,
     "base": 11,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7358497,
@@ -2327,7 +2327,7 @@
     "role": "Associate",
     "yoe": 4.5,
     "base": 33,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7356659,
@@ -2395,7 +2395,7 @@
     "location": "Bengaluru",
     "company": "Stripe",
     "role": "L1 Swe",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 29,
     "total": 59
   },
@@ -2426,7 +2426,7 @@
     "company": "AI Startup",
     "role": "SSE",
     "yoe": 5.5,
-    "base": "N/A",
+    "base": null,
     "total": 54
   },
   {
@@ -2517,7 +2517,7 @@
     "role": "SDE 2",
     "yoe": 4.25,
     "base": 32,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7348188,
@@ -2527,7 +2527,7 @@
     "role": "SDE 2",
     "yoe": 4.25,
     "base": 44,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7348172,
@@ -2536,8 +2536,8 @@
     "company": "Whatfix",
     "role": "Sde 1 Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7347437,
@@ -2587,7 +2587,7 @@
     "role": "SDE 3",
     "yoe": 5,
     "base": 42,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7344613,
@@ -2647,7 +2647,7 @@
     "role": "SDE 2",
     "yoe": 3.4,
     "base": 26,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7341179,
@@ -2677,7 +2677,7 @@
     "role": "Senior Java Web Backend Engineer",
     "yoe": 7,
     "base": 28,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7337606,
@@ -2685,9 +2685,9 @@
     "location": "Bengaluru",
     "company": "LinkedIn",
     "role": "Sse Talent Solutions Team",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 55,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7337606,
@@ -2695,9 +2695,9 @@
     "location": "Bengaluru",
     "company": "Microsoft",
     "role": "SDE 4",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 38.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7335510,
@@ -2735,7 +2735,7 @@
     "location": "Mumbai",
     "company": "Gep Worldwide",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 18,
     "total": 20
   },
@@ -2745,9 +2745,9 @@
     "location": "",
     "company": "Morgan Stanley",
     "role": "Associate",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 28,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7328197,
@@ -2755,9 +2755,9 @@
     "location": "",
     "company": "Microsoft",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 62,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7328197,
@@ -2765,9 +2765,9 @@
     "location": "",
     "company": "Salesforce",
     "role": "MTS",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 54,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7327128,
@@ -2795,7 +2795,7 @@
     "location": "Bengaluru",
     "company": "Jlr",
     "role": "Graduate Software Engineer Trainee",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 21,
     "total": 25.02
   },
@@ -2847,7 +2847,7 @@
     "role": "SDE 1",
     "yoe": 2,
     "base": 15.6,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7321474,
@@ -2887,7 +2887,7 @@
     "role": "SDE",
     "yoe": 6,
     "base": 51,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7320064,
@@ -2915,7 +2915,7 @@
     "location": "",
     "company": "Google",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 39,
     "total": 64
   },
@@ -3047,7 +3047,7 @@
     "role": "SDE 2",
     "yoe": 5,
     "base": 43,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7313940,
@@ -3055,9 +3055,9 @@
     "location": "",
     "company": "JPMorgan Chase",
     "role": "SDE 3",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 40,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7312598,
@@ -3067,7 +3067,7 @@
     "role": "SDE 2",
     "yoe": 4.5,
     "base": 41.1,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7312327,
@@ -3086,8 +3086,8 @@
     "company": "Groww",
     "role": "Sde Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7311333,
@@ -3157,7 +3157,7 @@
     "role": "Java Full Stack Developer",
     "yoe": 7,
     "base": 39,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7307279,
@@ -3175,7 +3175,7 @@
     "location": "Bengaluru",
     "company": "Uber",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 23,
     "total": 37.5
   },
@@ -3215,7 +3215,7 @@
     "location": "",
     "company": "PhonePe",
     "role": "SDE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 40,
     "total": 58.5
   },
@@ -3225,7 +3225,7 @@
     "location": "",
     "company": "Oracle",
     "role": "SDE 3",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 42.5,
     "total": 62.5
   },
@@ -3235,7 +3235,7 @@
     "location": "",
     "company": "Kotak",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 44,
     "total": 57.9
   },
@@ -3245,7 +3245,7 @@
     "location": "",
     "company": "Quince",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 42,
     "total": 61
   },
@@ -3305,7 +3305,7 @@
     "location": "",
     "company": "Qicap.Ai",
     "role": "Quant Researcher/Trader",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 55,
     "total": 70
   },
@@ -3315,7 +3315,7 @@
     "location": "",
     "company": "MindTickle",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 31.8,
     "total": 65
   },
@@ -3325,7 +3325,7 @@
     "location": "",
     "company": "Fivetran",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 35.3,
     "total": 59.3
   },
@@ -3335,7 +3335,7 @@
     "location": "",
     "company": "Jiostar",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 33.63,
     "total": 39.67
   },
@@ -3345,7 +3345,7 @@
     "location": "",
     "company": "Hevo Data",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 32,
     "total": 49.2
   },
@@ -3365,9 +3365,9 @@
     "location": "Gurugram",
     "company": "Spinny",
     "role": "SDE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 12,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7295628,
@@ -3377,7 +3377,7 @@
     "role": "SDE 2",
     "yoe": 2.8,
     "base": 35,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7295628,
@@ -3387,7 +3387,7 @@
     "role": "SDE 2",
     "yoe": 2.8,
     "base": 35,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7295628,
@@ -3407,7 +3407,7 @@
     "role": "Ml Associate",
     "yoe": 4,
     "base": 40,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7295227,
@@ -3417,7 +3417,7 @@
     "role": "L3 Lead Engineer",
     "yoe": 6,
     "base": 50,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7294882,
@@ -3427,7 +3427,7 @@
     "role": "Se3 Backend",
     "yoe": 4,
     "base": 36,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7294820,
@@ -3455,9 +3455,9 @@
     "location": "Pan India",
     "company": "Oracle",
     "role": "Associate Software Engineer Ase",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 15.23,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7293596,
@@ -3465,7 +3465,7 @@
     "location": "Bengaluru",
     "company": "Emergents Lab",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 21,
     "total": 25
   },
@@ -3495,7 +3495,7 @@
     "location": "Bengaluru",
     "company": "Nykaa",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 30,
     "total": 33
   },
@@ -3505,7 +3505,7 @@
     "location": "Bengaluru",
     "company": "Kotak",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 32,
     "total": 35.2
   },
@@ -3577,7 +3577,7 @@
     "role": "SDE 2",
     "yoe": 2.5,
     "base": 25,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7290823,
@@ -3587,7 +3587,7 @@
     "role": "P30",
     "yoe": 2.5,
     "base": 30,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7290486,
@@ -3646,8 +3646,8 @@
     "company": "Oracle",
     "role": "Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7288006,
@@ -3666,8 +3666,8 @@
     "company": "Amazon",
     "role": "Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7286800,
@@ -3675,7 +3675,7 @@
     "location": "",
     "company": "Cyware",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 12,
     "total": 17
   },
@@ -3805,7 +3805,7 @@
     "location": "",
     "company": "Walmart",
     "role": "SDE 3",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 23,
     "total": 32.9
   },
@@ -3815,7 +3815,7 @@
     "location": "",
     "company": "Product Base Company",
     "role": "SDE 3",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 33,
     "total": 34
   },
@@ -3855,7 +3855,7 @@
     "location": "Bengaluru",
     "company": "Pre Seed Startup",
     "role": "Founding Mle",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 32,
     "total": 40
   },
@@ -3865,7 +3865,7 @@
     "location": "Remote",
     "company": "Series A Startup",
     "role": "MLE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 31,
     "total": 35
   },
@@ -3916,7 +3916,7 @@
     "company": "Expedia",
     "role": "Ml Sc1Ent1St 21",
     "yoe": 3,
-    "base": "N/A",
+    "base": null,
     "total": 61
   },
   {
@@ -3965,7 +3965,7 @@
     "location": "",
     "company": "T-Mobile",
     "role": "SDE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 20,
     "total": 33.0
   },
@@ -3996,7 +3996,7 @@
     "company": "Adobe",
     "role": "MLE 2",
     "yoe": 3,
-    "base": "N/A",
+    "base": null,
     "total": 68.5
   },
   {
@@ -4006,7 +4006,7 @@
     "company": "Pramata Solutions",
     "role": "SDE 1",
     "yoe": 1,
-    "base": "N/A",
+    "base": null,
     "total": 12
   },
   {
@@ -4017,7 +4017,7 @@
     "role": "SDE 2",
     "yoe": 4.5,
     "base": 28,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7266093,
@@ -4047,7 +4047,7 @@
     "role": "SDE 3",
     "yoe": 5,
     "base": 33,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7265688,
@@ -4077,7 +4077,7 @@
     "role": "Staff Engineer",
     "yoe": 10,
     "base": 68,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7263574,
@@ -4085,7 +4085,7 @@
     "location": "Bengaluru",
     "company": "Spotdraft",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 28,
     "total": 30
   },
@@ -4115,7 +4115,7 @@
     "location": "",
     "company": "Tekion",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 29,
     "total": 31
   },
@@ -4136,8 +4136,8 @@
     "company": "Amazon",
     "role": "Sde Internship",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7260468,
@@ -4246,8 +4246,8 @@
     "company": "Expedia",
     "role": "Sde Intern Summer Internship",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7254004,
@@ -4255,7 +4255,7 @@
     "location": "Bengaluru",
     "company": "Walmart",
     "role": "SDE 3",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 20,
     "total": 28.67
   },
@@ -4267,7 +4267,7 @@
     "role": "SSE",
     "yoe": 6.5,
     "base": 31,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7253504,
@@ -4277,7 +4277,7 @@
     "role": "SSE",
     "yoe": 6.5,
     "base": 30.45,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7249132,
@@ -4307,7 +4307,7 @@
     "role": "SDE 3",
     "yoe": 8,
     "base": 72,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7246781,
@@ -4345,7 +4345,7 @@
     "location": "Bengaluru",
     "company": "Uber",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 23,
     "total": 37.5
   },
@@ -4357,7 +4357,7 @@
     "role": "Applications Engineer",
     "yoe": 2.8,
     "base": 17.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7245456,
@@ -4385,7 +4385,7 @@
     "location": "",
     "company": "Intuit",
     "role": "Staff Engineer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 75,
     "total": 100
   },
@@ -4395,7 +4395,7 @@
     "location": "",
     "company": "Mid Startup Company",
     "role": "SDE 3",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 65,
     "total": 80
   },
@@ -4405,8 +4405,8 @@
     "location": "",
     "company": "Amazon",
     "role": "SDE 2",
-    "yoe": "N/A",
-    "base": "N/A",
+    "yoe": null,
+    "base": null,
     "total": 65
   },
   {
@@ -4417,7 +4417,7 @@
     "role": "SDE 2",
     "yoe": 4,
     "base": 29,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7244555,
@@ -4437,7 +4437,7 @@
     "role": "SDE 1",
     "yoe": 1.17,
     "base": 20,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7242896,
@@ -4597,7 +4597,7 @@
     "role": "Salesforce Lmts",
     "yoe": 7.5,
     "base": 64,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7233315,
@@ -4675,7 +4675,7 @@
     "location": "Bengaluru",
     "company": "Inflection.Io",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 24,
     "total": 41
   },
@@ -4697,7 +4697,7 @@
     "role": "Integration And Customization Engineer 2",
     "yoe": 2.7,
     "base": 11,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7225983,
@@ -4727,7 +4727,7 @@
     "role": "SDE",
     "yoe": 3,
     "base": 26,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7225049,
@@ -4745,7 +4745,7 @@
     "location": "Bengaluru",
     "company": "Zeta",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 16,
     "total": 19
   },
@@ -4917,7 +4917,7 @@
     "role": "MTS 2",
     "yoe": 4,
     "base": 22,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7205102,
@@ -4927,7 +4927,7 @@
     "role": "SDE 2",
     "yoe": 4,
     "base": 24,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7204207,
@@ -5037,7 +5037,7 @@
     "role": "Mts-3",
     "yoe": 5,
     "base": 45,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7200945,
@@ -5085,7 +5085,7 @@
     "location": "",
     "company": "Celigo",
     "role": "SSE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 44,
     "total": 44.2
   },
@@ -5117,7 +5117,7 @@
     "role": "SDE 2",
     "yoe": 4,
     "base": 28.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7197525,
@@ -5127,7 +5127,7 @@
     "role": "SDE 3",
     "yoe": 4,
     "base": 29.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7197140,
@@ -5275,7 +5275,7 @@
     "location": "",
     "company": "Oracle",
     "role": "Associate Consultant",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 9.82,
     "total": 9.82
   },
@@ -5305,7 +5305,7 @@
     "location": "Noida",
     "company": "UKG",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 14,
     "total": 16
   },
@@ -5367,7 +5367,7 @@
     "role": "SSE",
     "yoe": 10,
     "base": 68,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7181047,
@@ -5377,7 +5377,7 @@
     "role": "SSE",
     "yoe": 10,
     "base": 56,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7181047,
@@ -5387,7 +5387,7 @@
     "role": "SSE",
     "yoe": 10,
     "base": 60,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7179692,
@@ -5407,7 +5407,7 @@
     "role": "SSE",
     "yoe": 10,
     "base": 56,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7179470,
@@ -5417,7 +5417,7 @@
     "role": "SSE",
     "yoe": 10,
     "base": 60,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7179470,
@@ -5427,7 +5427,7 @@
     "role": "SSE",
     "yoe": 10,
     "base": 68,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7179109,
@@ -5457,7 +5457,7 @@
     "role": "SSE 2",
     "yoe": 5,
     "base": 35,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7176383,
@@ -5467,7 +5467,7 @@
     "role": "SWE 1",
     "yoe": 1,
     "base": 32,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7174773,
@@ -5497,7 +5497,7 @@
     "role": "IC1",
     "yoe": 0,
     "base": 15,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7172756,
@@ -5505,7 +5505,7 @@
     "location": "Bengaluru",
     "company": "Amazon",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 42,
     "total": 62.5
   },
@@ -5515,7 +5515,7 @@
     "location": "Bengaluru",
     "company": "Microsoft",
     "role": "Swe 2 L61",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 31.9,
     "total": 55.3
   },
@@ -5537,7 +5537,7 @@
     "role": "SDE",
     "yoe": 3,
     "base": 30,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7171583,
@@ -5545,7 +5545,7 @@
     "location": "Noida",
     "company": "Adobe",
     "role": "MTS2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 23,
     "total": 39
   },
@@ -5637,7 +5637,7 @@
     "role": "C++ Software Engineer",
     "yoe": 1,
     "base": 19,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7162701,
@@ -5715,9 +5715,9 @@
     "location": "",
     "company": "Rippling",
     "role": "SDE 1",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 7157085,
@@ -5787,7 +5787,7 @@
     "role": "Python Developer",
     "yoe": 6.5,
     "base": 30,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7156341,
@@ -5927,7 +5927,7 @@
     "role": "MTS 3",
     "yoe": 5,
     "base": 53,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7145444,
@@ -5935,9 +5935,9 @@
     "location": "Chennai",
     "company": "Freshworks",
     "role": "SSE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 22,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7144961,
@@ -5967,7 +5967,7 @@
     "role": "Senior Data Engineer",
     "yoe": 6.5,
     "base": 35,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7144833,
@@ -5995,7 +5995,7 @@
     "location": "",
     "company": "Consulting Company",
     "role": "SDE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 8,
     "total": 8
   },
@@ -6005,9 +6005,9 @@
     "location": "",
     "company": "Fast-Growing Saas Startup In Ai Space",
     "role": "Sde Intern",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 7140106,
@@ -6036,8 +6036,8 @@
     "company": "MindTickle",
     "role": "Sde Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7136083,
@@ -6067,7 +6067,7 @@
     "role": "SDE 1",
     "yoe": 2,
     "base": 29,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7134620,
@@ -6097,7 +6097,7 @@
     "role": "SDE 2",
     "yoe": 1.0,
     "base": 21,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7130719,
@@ -6207,7 +6207,7 @@
     "role": "SDET",
     "yoe": 2.17,
     "base": 17,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7125097,
@@ -6277,7 +6277,7 @@
     "role": "SRE",
     "yoe": 2.5,
     "base": 17,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7121202,
@@ -6327,7 +6327,7 @@
     "role": "SDE",
     "yoe": 3.67,
     "base": 26,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7119294,
@@ -6337,7 +6337,7 @@
     "role": "SDE",
     "yoe": 3.67,
     "base": 24,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7118992,
@@ -6365,7 +6365,7 @@
     "location": "Bengaluru",
     "company": "Amazon",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 1.917,
     "total": 25.5
   },
@@ -6437,7 +6437,7 @@
     "role": "SDE",
     "yoe": 4,
     "base": 19,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7108271,
@@ -6447,7 +6447,7 @@
     "role": "SDE 2",
     "yoe": 4,
     "base": 39,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7107244,
@@ -6485,9 +6485,9 @@
     "location": "Remote",
     "company": "Oracle",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 28,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7106970,
@@ -6495,9 +6495,9 @@
     "location": "Remote",
     "company": "Microsoft",
     "role": "SWE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 24,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7105617,
@@ -6667,7 +6667,7 @@
     "role": "SSE 2",
     "yoe": 4,
     "base": 39.1,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7087352,
@@ -6737,7 +6737,7 @@
     "role": "SDE",
     "yoe": 2,
     "base": 22,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7082443,
@@ -6815,7 +6815,7 @@
     "location": "Bengaluru",
     "company": "Flexport",
     "role": "SWE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 30,
     "total": 36
   },
@@ -6837,7 +6837,7 @@
     "role": "SDE 1",
     "yoe": 0,
     "base": 14.4,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7077344,
@@ -6916,7 +6916,7 @@
     "company": "Zensar",
     "role": "Senior Data Scientist",
     "yoe": 5,
-    "base": "N/A",
+    "base": null,
     "total": 36
   },
   {
@@ -6925,7 +6925,7 @@
     "location": "",
     "company": "Swiggy",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 20,
     "total": 32
   },
@@ -6947,7 +6947,7 @@
     "role": "SDE 2",
     "yoe": 3,
     "base": 45,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7065951,
@@ -7077,7 +7077,7 @@
     "role": "SDE 2",
     "yoe": 3.5,
     "base": 44,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7052356,
@@ -7125,7 +7125,7 @@
     "location": "",
     "company": "Zomato",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 24,
     "total": 29
   },
@@ -7135,7 +7135,7 @@
     "location": "",
     "company": "Amazon",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 19,
     "total": 46.5
   },
@@ -7147,7 +7147,7 @@
     "role": "SDE 1",
     "yoe": 1.08,
     "base": 23,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7045315,
@@ -7166,8 +7166,8 @@
     "company": "ServiceNow",
     "role": "Associate Software Engineer Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7043360,
@@ -7186,8 +7186,8 @@
     "company": "Calix",
     "role": "Graduate Trainee",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 7041679,
@@ -7277,7 +7277,7 @@
     "role": "Applied Scientist 1",
     "yoe": 3,
     "base": 40,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7024479,
@@ -7287,7 +7287,7 @@
     "role": "Consultant",
     "yoe": 4,
     "base": 20,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7024479,
@@ -7297,7 +7297,7 @@
     "role": "SDE 1",
     "yoe": 4,
     "base": 28,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7024479,
@@ -7307,7 +7307,7 @@
     "role": "LEAD",
     "yoe": 4,
     "base": 32,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7024479,
@@ -7317,7 +7317,7 @@
     "role": "Senior Developer",
     "yoe": 4,
     "base": 32,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7023812,
@@ -7325,7 +7325,7 @@
     "location": "",
     "company": "Zoho",
     "role": "Software Developer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 7,
     "total": 8.2
   },
@@ -7335,7 +7335,7 @@
     "location": "",
     "company": "IDFC First Bank",
     "role": "Software Developer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 12,
     "total": 13.8
   },
@@ -7395,9 +7395,9 @@
     "location": "",
     "company": "Salesforce",
     "role": "SMTS",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 52,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7015956,
@@ -7405,7 +7405,7 @@
     "location": "",
     "company": "Amazon",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 45,
     "total": 66
   },
@@ -7467,7 +7467,7 @@
     "role": "SDE 2",
     "yoe": 2,
     "base": 24,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7007140,
@@ -7495,7 +7495,7 @@
     "location": "",
     "company": "MakeMyTrip",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 36,
     "total": 36
   },
@@ -7517,7 +7517,7 @@
     "role": "Data Eng1Neer 2",
     "yoe": 3,
     "base": 29,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7000137,
@@ -7527,7 +7527,7 @@
     "role": "Contract Role",
     "yoe": 4.3,
     "base": 32,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 7000137,
@@ -7537,7 +7537,7 @@
     "role": "Full Time",
     "yoe": 4.3,
     "base": 35,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6997937,
@@ -7545,7 +7545,7 @@
     "location": "Gurugram",
     "company": "Zomato",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 24,
     "total": 29
   },
@@ -7557,7 +7557,7 @@
     "role": "SDE",
     "yoe": 5.5,
     "base": 18,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6991183,
@@ -7615,7 +7615,7 @@
     "location": "",
     "company": "Amazon",
     "role": "Sysdev",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 20,
     "total": 25.5
   },
@@ -7677,7 +7677,7 @@
     "role": "SDE 1",
     "yoe": 2,
     "base": 21,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6977511,
@@ -7737,7 +7737,7 @@
     "role": "SDE",
     "yoe": 3.5,
     "base": 22,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6973318,
@@ -7747,7 +7747,7 @@
     "role": "SDE",
     "yoe": 3.5,
     "base": 24,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6972664,
@@ -7817,7 +7817,7 @@
     "role": "Lead Engineer",
     "yoe": 3,
     "base": 30,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6967549,
@@ -7827,7 +7827,7 @@
     "role": "SDE 2",
     "yoe": 3,
     "base": 38,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6967197,
@@ -7927,7 +7927,7 @@
     "role": "SDE 1",
     "yoe": 3,
     "base": 23,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6961485,
@@ -7957,7 +7957,7 @@
     "role": "SDE",
     "yoe": 1.6,
     "base": 22,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6959379,
@@ -7986,7 +7986,7 @@
     "company": "Ust Global",
     "role": "Developer-1",
     "yoe": 1,
-    "base": "N/A",
+    "base": null,
     "total": 4.25
   },
   {
@@ -8037,7 +8037,7 @@
     "role": "SSE",
     "yoe": 4.6,
     "base": 14.35,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6946962,
@@ -8077,7 +8077,7 @@
     "role": "SDE 2",
     "yoe": 5,
     "base": 48,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6944525,
@@ -8157,7 +8157,7 @@
     "role": "SDE 2",
     "yoe": 5,
     "base": 48,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6941267,
@@ -8247,7 +8247,7 @@
     "role": "Mts 2 Frontend",
     "yoe": 2,
     "base": 26,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6937770,
@@ -8267,7 +8267,7 @@
     "role": "SDE",
     "yoe": 3.2,
     "base": 14,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6937348,
@@ -8277,7 +8277,7 @@
     "role": "SDE",
     "yoe": 3.2,
     "base": 14,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6937348,
@@ -8287,7 +8287,7 @@
     "role": "SDE",
     "yoe": 3.2,
     "base": 15,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6935435,
@@ -8367,7 +8367,7 @@
     "role": "SDE 2",
     "yoe": 4,
     "base": 40,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6926481,
@@ -8375,7 +8375,7 @@
     "location": "",
     "company": "Databricks",
     "role": "SDE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 36,
     "total": 68.35
   },
@@ -8385,7 +8385,7 @@
     "location": "",
     "company": "Google",
     "role": "SDE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 22.8,
     "total": 100.0
   },
@@ -8395,7 +8395,7 @@
     "location": "",
     "company": "D.E.Shaw",
     "role": "MTS",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 34,
     "total": 100.0
   },
@@ -8405,7 +8405,7 @@
     "location": "",
     "company": "Apple",
     "role": "SDE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 21,
     "total": 100.0
   },
@@ -8415,7 +8415,7 @@
     "location": "",
     "company": "NVIDIA",
     "role": "SDE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 17.5,
     "total": 100.0
   },
@@ -8425,7 +8425,7 @@
     "location": "",
     "company": "Bharatgen",
     "role": "Genai Ml Engineer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 33.38,
     "total": 100.0
   },
@@ -8435,7 +8435,7 @@
     "location": "",
     "company": "Motorq",
     "role": "SDE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 29,
     "total": 100.0
   },
@@ -8445,8 +8445,8 @@
     "location": "",
     "company": "SAP Labs",
     "role": "SDE",
-    "yoe": "N/A",
-    "base": "N/A",
+    "yoe": null,
+    "base": null,
     "total": 40.9
   },
   {
@@ -8455,8 +8455,8 @@
     "location": "",
     "company": "BrowserStack",
     "role": "SDE",
-    "yoe": "N/A",
-    "base": "N/A",
+    "yoe": null,
+    "base": null,
     "total": 25.28
   },
   {
@@ -8465,8 +8465,8 @@
     "location": "",
     "company": "Mathworks",
     "role": "SDE",
-    "yoe": "N/A",
-    "base": "N/A",
+    "yoe": null,
+    "base": null,
     "total": 25.92
   },
   {
@@ -8475,7 +8475,7 @@
     "location": "",
     "company": "Goldman Sachs",
     "role": "Analyst Sde-1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 23,
     "total": 36.5
   },
@@ -8506,8 +8506,8 @@
     "company": "Juspay",
     "role": "Sde Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6920442,
@@ -8575,7 +8575,7 @@
     "location": "Chennai",
     "company": "PayPal",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 25,
     "total": 33.3
   },
@@ -8607,7 +8607,7 @@
     "role": "SDE",
     "yoe": 4,
     "base": 40,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6915392,
@@ -8617,7 +8617,7 @@
     "role": "E3",
     "yoe": 8,
     "base": 70,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6913020,
@@ -8837,7 +8837,7 @@
     "role": "SMTS",
     "yoe": 7.2,
     "base": 40,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6901762,
@@ -8967,7 +8967,7 @@
     "role": "Mid-Level Engineer",
     "yoe": 4,
     "base": 33,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6892751,
@@ -9027,7 +9027,7 @@
     "role": "Lead Engineer",
     "yoe": 4.1,
     "base": 33,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6889204,
@@ -9187,7 +9187,7 @@
     "role": "Analyst",
     "yoe": 1.83,
     "base": 25,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6882470,
@@ -9227,7 +9227,7 @@
     "role": "SDE 1",
     "yoe": 0,
     "base": 19.17,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6881723,
@@ -9237,7 +9237,7 @@
     "role": "SDE",
     "yoe": 0,
     "base": 17.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6881520,
@@ -9245,7 +9245,7 @@
     "location": "Bengaluru",
     "company": "Arcesium",
     "role": "Lead Engineer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 45,
     "total": 50
   },
@@ -9255,7 +9255,7 @@
     "location": "Bengaluru",
     "company": "BitGo",
     "role": "Staff Engineer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 52,
     "total": 61
   },
@@ -9265,7 +9265,7 @@
     "location": "Bengaluru",
     "company": "Nutanix",
     "role": "MTS 4",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 55,
     "total": 73
   },
@@ -9397,7 +9397,7 @@
     "role": "SDE 1",
     "yoe": 1,
     "base": 30,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6876350,
@@ -9427,7 +9427,7 @@
     "role": "SE2",
     "yoe": 3,
     "base": 22,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6875414,
@@ -9507,7 +9507,7 @@
     "role": "Mts-2 Ui",
     "yoe": 3,
     "base": 26,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6868500,
@@ -9536,7 +9536,7 @@
     "company": "Genesys",
     "role": "Staff Data Engineer",
     "yoe": 10,
-    "base": "N/A",
+    "base": null,
     "total": 48
   },
   {
@@ -9546,7 +9546,7 @@
     "company": "American Express",
     "role": "SDE 2",
     "yoe": 10,
-    "base": "N/A",
+    "base": null,
     "total": 50
   },
   {
@@ -9556,8 +9556,8 @@
     "company": "Nomura",
     "role": "It Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6866467,
@@ -9566,8 +9566,8 @@
     "company": "Nomura",
     "role": "Cdo Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6866009,
@@ -9577,7 +9577,7 @@
     "role": "MTS",
     "yoe": 6,
     "base": 30,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6865776,
@@ -9656,8 +9656,8 @@
     "company": "Amazon",
     "role": "Sde Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6859347,
@@ -9676,8 +9676,8 @@
     "company": "Amazon",
     "role": "Amazon Sde Intern On Campus",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6858463,
@@ -9727,7 +9727,7 @@
     "role": "SDE 3",
     "yoe": 11,
     "base": 85,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6856415,
@@ -9887,7 +9887,7 @@
     "role": "SSE",
     "yoe": 5,
     "base": 46,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6847057,
@@ -9917,7 +9917,7 @@
     "role": "SDE 2",
     "yoe": 3.6,
     "base": 24,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6846232,
@@ -9987,7 +9987,7 @@
     "role": "SDET",
     "yoe": 1.92,
     "base": 27,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6840320,
@@ -10005,7 +10005,7 @@
     "location": "",
     "company": "Flipkart",
     "role": "Software Developer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 29,
     "total": 35.9
   },
@@ -10015,7 +10015,7 @@
     "location": "",
     "company": "DP World",
     "role": "Software Developer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 32.5,
     "total": 38.4
   },
@@ -10025,7 +10025,7 @@
     "location": "",
     "company": "Morgan Stanley",
     "role": "Software Developer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 29,
     "total": 33.35
   },
@@ -10107,7 +10107,7 @@
     "role": "Associate",
     "yoe": 4,
     "base": 33,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6837854,
@@ -10156,8 +10156,8 @@
     "company": "UKG",
     "role": "SDE",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6837223,
@@ -10176,8 +10176,8 @@
     "company": "Walmart",
     "role": "Sde Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6836318,
@@ -10197,7 +10197,7 @@
     "role": "SDE 2",
     "yoe": 4,
     "base": 39,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6835176,
@@ -10385,7 +10385,7 @@
     "location": "Bengaluru",
     "company": "Goldman Sachs",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 23,
     "total": 36.5
   },
@@ -10437,7 +10437,7 @@
     "role": "SDE",
     "yoe": 0.8,
     "base": 16,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6817403,
@@ -10497,7 +10497,7 @@
     "role": "Assistant Vice President",
     "yoe": 8,
     "base": 45,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6816913,
@@ -10507,7 +10507,7 @@
     "role": "SDE 2",
     "yoe": 8,
     "base": 52,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6816194,
@@ -10547,7 +10547,7 @@
     "role": "SSE",
     "yoe": 4,
     "base": 23,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6814108,
@@ -10575,7 +10575,7 @@
     "location": "Bengaluru",
     "company": "Amazon",
     "role": "Sde L4",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 18,
     "total": 39
   },
@@ -10585,7 +10585,7 @@
     "location": "Chennai",
     "company": "PayPal",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 20,
     "total": 38.5
   },
@@ -10617,7 +10617,7 @@
     "role": "SDE 2",
     "yoe": 3.5,
     "base": 28,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6813232,
@@ -10627,7 +10627,7 @@
     "role": "SDE 2",
     "yoe": 3.5,
     "base": 27,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6811730,
@@ -10687,7 +10687,7 @@
     "role": "SSE",
     "yoe": 5,
     "base": 27,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6806714,
@@ -10737,7 +10737,7 @@
     "role": "Mts-2",
     "yoe": 2.08,
     "base": 24,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6804090,
@@ -10785,7 +10785,7 @@
     "location": "",
     "company": "Amazon",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 19.17,
     "total": 46.38
   },
@@ -10817,7 +10817,7 @@
     "role": "Sr Sde",
     "yoe": 5,
     "base": 43,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6798207,
@@ -10827,7 +10827,7 @@
     "role": "Tech Lead",
     "yoe": 5,
     "base": 36,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6797725,
@@ -10935,7 +10935,7 @@
     "location": "",
     "company": "CoinDCX",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 25,
     "total": 25
   },
@@ -10955,7 +10955,7 @@
     "location": "",
     "company": "Media.Net",
     "role": "Software Engineer Android",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 32,
     "total": 36
   },
@@ -10967,7 +10967,7 @@
     "role": "SDE 2",
     "yoe": 3,
     "base": 22,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6794352,
@@ -10977,7 +10977,7 @@
     "role": "SDE 2",
     "yoe": 3,
     "base": 24,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6793409,
@@ -10995,7 +10995,7 @@
     "location": "",
     "company": "Amazon",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 19.6,
     "total": 29.35
   },
@@ -11026,7 +11026,7 @@
     "company": "Amazon",
     "role": "SDE 1",
     "yoe": 3,
-    "base": "N/A",
+    "base": null,
     "total": 28
   },
   {
@@ -11075,7 +11075,7 @@
     "location": "",
     "company": "Gs Associate",
     "role": "Associate",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 29,
     "total": 36
   },
@@ -11085,7 +11085,7 @@
     "location": "",
     "company": "Amazon",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 19.17,
     "total": 46.38
   },
@@ -11127,7 +11127,7 @@
     "role": "SDE",
     "yoe": 2,
     "base": 12,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6783777,
@@ -11177,7 +11177,7 @@
     "role": "MTS 2",
     "yoe": 1.11,
     "base": 34,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6779777,
@@ -11187,7 +11187,7 @@
     "role": "SDE 1",
     "yoe": 1.11,
     "base": 25,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6779777,
@@ -11225,7 +11225,7 @@
     "location": "Pan India",
     "company": "Accenture",
     "role": "Advanced App Engineering Analyst",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 9,
     "total": 11.89
   },
@@ -11277,7 +11277,7 @@
     "role": "SDE 3",
     "yoe": 3,
     "base": 26,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6771736,
@@ -11317,7 +11317,7 @@
     "role": "SDE",
     "yoe": 2,
     "base": 20,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6770678,
@@ -11326,8 +11326,8 @@
     "company": "JPMorgan Chase",
     "role": "Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6770678,
@@ -11336,8 +11336,8 @@
     "company": "D. E. Shaw",
     "role": "Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6769504,
@@ -11415,7 +11415,7 @@
     "location": "Bengaluru",
     "company": "Goldman Sachs",
     "role": "System Engineer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 26.5,
     "total": 31.5
   },
@@ -11427,7 +11427,7 @@
     "role": "SDE 3",
     "yoe": 6.83,
     "base": 39,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6766222,
@@ -11437,7 +11437,7 @@
     "role": "SDE 3",
     "yoe": 5.92,
     "base": 33,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6764434,
@@ -11455,9 +11455,9 @@
     "location": "Bengaluru",
     "company": "Engineering Institute In Bengaluru",
     "role": "Assistant Professor",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 7.2,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6763629,
@@ -11465,9 +11465,9 @@
     "location": "Bengaluru",
     "company": "Small It Startup Near My Home",
     "role": "Software Developer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 2.4,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6763608,
@@ -11505,7 +11505,7 @@
     "location": "Bengaluru",
     "company": "Amazon",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 19.17,
     "total": 48
   },
@@ -11535,7 +11535,7 @@
     "location": "",
     "company": "Adobe Mts 2 C++ (2025)",
     "role": "Adobe Mts 2 C++",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 26,
     "total": 91.52441
   },
@@ -11555,9 +11555,9 @@
     "location": "",
     "company": "Databricks",
     "role": "Senior Se",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 70,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6760121,
@@ -11655,7 +11655,7 @@
     "location": "",
     "company": "Gs Analyst",
     "role": "Analyst",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 22,
     "total": 27
   },
@@ -11665,7 +11665,7 @@
     "location": "",
     "company": "Amazon",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 19.17,
     "total": 46.38
   },
@@ -11685,7 +11685,7 @@
     "location": "Bengaluru",
     "company": "Microsoft",
     "role": "Mobile Developer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 50,
     "total": 61.2
   },
@@ -11727,7 +11727,7 @@
     "role": "SDE 2",
     "yoe": 4.6,
     "base": 25,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6750030,
@@ -11747,7 +11747,7 @@
     "role": "L4 / Swe 3",
     "yoe": 4,
     "base": 37.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6749487,
@@ -11755,7 +11755,7 @@
     "location": "Bengaluru",
     "company": "Arista Networks",
     "role": "SDE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 37,
     "total": 60
   },
@@ -11797,7 +11797,7 @@
     "role": "SDE 2",
     "yoe": 4,
     "base": 43,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6745601,
@@ -11815,7 +11815,7 @@
     "location": "Gurugram",
     "company": "Blinkit",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 24,
     "total": 29
   },
@@ -11825,7 +11825,7 @@
     "location": "Bengaluru",
     "company": "Flipkart",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 33,
     "total": 39.8
   },
@@ -11835,7 +11835,7 @@
     "location": "Bengaluru",
     "company": "Startup (Series A)",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 40,
     "total": 44
   },
@@ -11857,7 +11857,7 @@
     "role": "SSE",
     "yoe": 8.2,
     "base": 35,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6744337,
@@ -11867,7 +11867,7 @@
     "role": "SSE",
     "yoe": 8.2,
     "base": 36,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6743031,
@@ -11965,7 +11965,7 @@
     "location": "",
     "company": "Cohesity",
     "role": "MTS 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 23,
     "total": 34.61
   },
@@ -11997,7 +11997,7 @@
     "role": "SDE 2",
     "yoe": 2,
     "base": 20,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6738005,
@@ -12025,7 +12025,7 @@
     "location": "",
     "company": "UKG",
     "role": "SSE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 18.5,
     "total": 25
   },
@@ -12035,9 +12035,9 @@
     "location": "",
     "company": "Optum",
     "role": "SSE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 21,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6734653,
@@ -12095,7 +12095,7 @@
     "location": "",
     "company": "Adobe",
     "role": "MTS 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 27.55,
     "total": 50
   },
@@ -12207,7 +12207,7 @@
     "role": "SDE 2",
     "yoe": 4,
     "base": 80,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6726260,
@@ -12315,7 +12315,7 @@
     "location": "Kolkata",
     "company": "Pwc India",
     "role": "Associate",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 10,
     "total": 11
   },
@@ -12385,9 +12385,9 @@
     "location": "",
     "company": "Amazon",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 20,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6717948,
@@ -12437,7 +12437,7 @@
     "role": "SDE 2",
     "yoe": 3,
     "base": 22,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6716545,
@@ -12447,7 +12447,7 @@
     "role": "SDE 2",
     "yoe": 3,
     "base": 23.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6716367,
@@ -12455,7 +12455,7 @@
     "location": "Bengaluru",
     "company": "Amazon",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 19.17,
     "total": 47.8
   },
@@ -12497,7 +12497,7 @@
     "role": "SSE",
     "yoe": 3.92,
     "base": 40,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6715993,
@@ -12515,7 +12515,7 @@
     "location": "",
     "company": "Amazon",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 19.17,
     "total": 35.21
   },
@@ -12547,7 +12547,7 @@
     "role": "SDE 1",
     "yoe": 2,
     "base": 25,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6713928,
@@ -12576,7 +12576,7 @@
     "company": "Uber",
     "role": "Senior",
     "yoe": 8,
-    "base": "N/A",
+    "base": null,
     "total": 14.1
   },
   {
@@ -12586,7 +12586,7 @@
     "company": "Meta",
     "role": "Senior",
     "yoe": 8,
-    "base": "N/A",
+    "base": null,
     "total": 13.0
   },
   {
@@ -12596,7 +12596,7 @@
     "company": "Coupang",
     "role": "Senior",
     "yoe": 8,
-    "base": "N/A",
+    "base": null,
     "total": 13.0
   },
   {
@@ -12606,7 +12606,7 @@
     "company": "Confluent",
     "role": "Senior",
     "yoe": 8,
-    "base": "N/A",
+    "base": null,
     "total": 12.6
   },
   {
@@ -12616,7 +12616,7 @@
     "company": "DocuSign",
     "role": "Senior",
     "yoe": 8,
-    "base": "N/A",
+    "base": null,
     "total": 10.2
   },
   {
@@ -12626,7 +12626,7 @@
     "company": "Samsara",
     "role": "Senior",
     "yoe": 8,
-    "base": "N/A",
+    "base": null,
     "total": 10.6
   },
   {
@@ -12636,7 +12636,7 @@
     "company": "Roku",
     "role": "Senior",
     "yoe": 8,
-    "base": "N/A",
+    "base": null,
     "total": 10.0
   },
   {
@@ -12655,7 +12655,7 @@
     "location": "",
     "company": "Walmart",
     "role": "Principal Engineer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 62,
     "total": 81.5
   },
@@ -12727,7 +12727,7 @@
     "role": "SDE",
     "yoe": 7.8,
     "base": 33.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6703079,
@@ -12736,8 +12736,8 @@
     "company": "Scaler",
     "role": "Scaler Ai Engineer Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6701920,
@@ -12975,7 +12975,7 @@
     "location": "Bengaluru",
     "company": "Walmart",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 22.5,
     "total": 30.6
   },
@@ -12985,7 +12985,7 @@
     "location": "Chennai",
     "company": "Tekion",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 28,
     "total": 36
   },
@@ -13047,7 +13047,7 @@
     "role": "SDE 1",
     "yoe": 1.5,
     "base": 25,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6686799,
@@ -13207,7 +13207,7 @@
     "role": "Associate Developer Experience Engineer",
     "yoe": 2,
     "base": 30.74,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6676892,
@@ -13306,7 +13306,7 @@
     "company": "Qualcomm",
     "role": "SDE 1",
     "yoe": 0,
-    "base": "N/A",
+    "base": null,
     "total": 15
   },
   {
@@ -13367,7 +13367,7 @@
     "role": "SDE",
     "yoe": 0.8333,
     "base": 24,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6666118,
@@ -13377,7 +13377,7 @@
     "role": "SDE",
     "yoe": 9,
     "base": 45,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6666118,
@@ -13387,7 +13387,7 @@
     "role": "SDE",
     "yoe": 9,
     "base": 45,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6664958,
@@ -13557,7 +13557,7 @@
     "role": "SDE 3",
     "yoe": 5,
     "base": 35,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6657168,
@@ -13615,7 +13615,7 @@
     "location": "Bengaluru",
     "company": "IBM",
     "role": "Application Developer-Cloud Fullstack",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 15,
     "total": 15.0
   },
@@ -13687,7 +13687,7 @@
     "role": "SDE 2",
     "yoe": 4,
     "base": 37,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6652765,
@@ -13727,7 +13727,7 @@
     "role": "SDE 1",
     "yoe": 2,
     "base": 51,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6650481,
@@ -13737,7 +13737,7 @@
     "role": "SDE 1",
     "yoe": 2,
     "base": 99,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6647910,
@@ -13747,7 +13747,7 @@
     "role": "ICT3",
     "yoe": 4.8,
     "base": 40,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6647577,
@@ -13755,7 +13755,7 @@
     "location": "Gurugram",
     "company": "District By Zomato",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 27,
     "total": 33
   },
@@ -13845,7 +13845,7 @@
     "location": "Noida",
     "company": "Microsoft",
     "role": "SSE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 55,
     "total": 55.8
   },
@@ -13855,7 +13855,7 @@
     "location": "Gurugram",
     "company": "Expedia",
     "role": "SSE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 71,
     "total": 72.2
   },
@@ -13867,7 +13867,7 @@
     "role": "E6",
     "yoe": 15,
     "base": 11,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6640780,
@@ -13887,7 +13887,7 @@
     "role": "SSE",
     "yoe": 5,
     "base": 46.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6640183,
@@ -13897,7 +13897,7 @@
     "role": "SDE 3",
     "yoe": 5,
     "base": 44,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6639749,
@@ -13905,9 +13905,9 @@
     "location": "Hyderabad",
     "company": "Goldman Sachs",
     "role": "Analyst",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 26.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6639641,
@@ -14036,8 +14036,8 @@
     "company": "Google",
     "role": "Sde Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6629568,
@@ -14117,7 +14117,7 @@
     "role": "MTS 1",
     "yoe": 9,
     "base": 39,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6628339,
@@ -14207,7 +14207,7 @@
     "role": "SDE 1",
     "yoe": 0,
     "base": 7,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6619602,
@@ -14327,7 +14327,7 @@
     "role": "SDE",
     "yoe": 4,
     "base": 34,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6614557,
@@ -14356,7 +14356,7 @@
     "company": "Amazon Firetv Device Os Team",
     "role": "SDE 2",
     "yoe": 5.8,
-    "base": "N/A",
+    "base": null,
     "total": 65
   },
   {
@@ -14366,7 +14366,7 @@
     "company": "Siemens Eda",
     "role": "Siemens Eda",
     "yoe": 5.8,
-    "base": "N/A",
+    "base": null,
     "total": 62
   },
   {
@@ -14407,7 +14407,7 @@
     "role": "SSE",
     "yoe": 3.9,
     "base": 29,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6607371,
@@ -14577,7 +14577,7 @@
     "role": "SDE 1",
     "yoe": 1.5,
     "base": 25,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6589709,
@@ -14655,9 +14655,9 @@
     "location": "",
     "company": "Goldman Sachs",
     "role": "Intern / Full-Time",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14665,9 +14665,9 @@
     "location": "",
     "company": "Microsoft",
     "role": "Intern / Ppo",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14675,9 +14675,9 @@
     "location": "",
     "company": "Uber",
     "role": "Intern / Ppo",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14685,9 +14685,9 @@
     "location": "",
     "company": "Google",
     "role": "Intern / Full-Time",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14695,9 +14695,9 @@
     "location": "",
     "company": "Flipkart",
     "role": "Intern / Full-Time",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14705,9 +14705,9 @@
     "location": "",
     "company": "Ey",
     "role": "Intern",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 15,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6586214,
@@ -14715,9 +14715,9 @@
     "location": "",
     "company": "Myntra",
     "role": "Intern / Full-Time",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14725,9 +14725,9 @@
     "location": "",
     "company": "Github",
     "role": "Intern",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14735,9 +14735,9 @@
     "location": "",
     "company": "Major League Hacking (Mlh)",
     "role": "Swe Fellowship",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 4,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6586214,
@@ -14745,9 +14745,9 @@
     "location": "",
     "company": "Agoda",
     "role": "Intern",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14755,9 +14755,9 @@
     "location": "",
     "company": "LinkedIn",
     "role": "Intern / Full-Time",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14765,9 +14765,9 @@
     "location": "",
     "company": "Rbi",
     "role": "Intern",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14775,9 +14775,9 @@
     "location": "",
     "company": "Mercari",
     "role": "Intern",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14785,9 +14785,9 @@
     "location": "",
     "company": "Kaust",
     "role": "Intern",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14795,9 +14795,9 @@
     "location": "",
     "company": "Atlan",
     "role": "Intern",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14805,9 +14805,9 @@
     "location": "",
     "company": "Amazon",
     "role": "Intern / Full-Time",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14815,9 +14815,9 @@
     "location": "",
     "company": "Juspay",
     "role": "Intern / Full-Time",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14825,9 +14825,9 @@
     "location": "",
     "company": "American Express",
     "role": "Intern / Full-Time",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14835,9 +14835,9 @@
     "location": "",
     "company": "Cisco",
     "role": "Intern",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14845,9 +14845,9 @@
     "location": "",
     "company": "ServiceNow",
     "role": "Intern / Full-Time",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 27.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6586214,
@@ -14855,9 +14855,9 @@
     "location": "",
     "company": "Lowe'S",
     "role": "Full-Time",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 19,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6586214,
@@ -14865,9 +14865,9 @@
     "location": "",
     "company": "Walmart",
     "role": "Intern / Full-Time",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 27,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6586214,
@@ -14875,9 +14875,9 @@
     "location": "",
     "company": "Intuit",
     "role": "Intern / Full-Time",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586214,
@@ -14885,9 +14885,9 @@
     "location": "",
     "company": "Flipkart",
     "role": "Intern",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6586211,
@@ -14917,7 +14917,7 @@
     "role": "SSE",
     "yoe": 7,
     "base": 40,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6584451,
@@ -14927,7 +14927,7 @@
     "role": "SDE 2",
     "yoe": 3.8,
     "base": 13,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6583418,
@@ -14947,7 +14947,7 @@
     "role": "SDE 1",
     "yoe": 1.5,
     "base": 24,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6583096,
@@ -15085,7 +15085,7 @@
     "location": "Bengaluru",
     "company": "Flipkart",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 28,
     "total": 34
   },
@@ -15095,7 +15095,7 @@
     "location": "",
     "company": "Oracle",
     "role": "SMTS",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 38,
     "total": 54
   },
@@ -15197,7 +15197,7 @@
     "role": "SSE",
     "yoe": 5.75,
     "base": 28,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6566296,
@@ -15235,7 +15235,7 @@
     "location": "Bengaluru",
     "company": "Saviynt",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 18,
     "total": 20
   },
@@ -15255,7 +15255,7 @@
     "location": "",
     "company": "Optum(Senior Full Stack Developer)",
     "role": "SSE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 45.3,
     "total": 57
   },
@@ -15285,7 +15285,7 @@
     "location": "",
     "company": "Flipkart",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 27,
     "total": 45
   },
@@ -15345,7 +15345,7 @@
     "location": "",
     "company": "Walmart",
     "role": "SDE 3",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 21,
     "total": 31
   },
@@ -15355,7 +15355,7 @@
     "location": "",
     "company": "Salesforce",
     "role": "MTS",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 27,
     "total": 70
   },
@@ -15405,7 +15405,7 @@
     "location": "",
     "company": "DP World",
     "role": "SDE 3",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 56.5,
     "total": 64.975
   },
@@ -15425,8 +15425,8 @@
     "location": "",
     "company": "Amazon",
     "role": "SDE 2",
-    "yoe": "N/A",
-    "base": "N/A",
+    "yoe": null,
+    "base": null,
     "total": 63
   },
   {
@@ -15435,7 +15435,7 @@
     "location": "Bengaluru",
     "company": "Uber",
     "role": "SSE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 74,
     "total": 94.6
   },
@@ -15526,7 +15526,7 @@
     "company": "Agoda",
     "role": "SSE",
     "yoe": 0.5,
-    "base": "N/A",
+    "base": null,
     "total": 72
   },
   {
@@ -15565,9 +15565,9 @@
     "location": "Bengaluru",
     "company": "Goldman Sachs",
     "role": "Sde 2 Associate",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 32,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6547657,
@@ -15585,7 +15585,7 @@
     "location": "Bengaluru",
     "company": "Goldman Sachs",
     "role": "Associate",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 32,
     "total": 40
   },
@@ -15615,7 +15615,7 @@
     "location": "Bengaluru",
     "company": "PayPal",
     "role": "SDE 3",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 33,
     "total": 45
   },
@@ -15657,7 +15657,7 @@
     "role": "Senior Software Design Engineer",
     "yoe": 3.5,
     "base": 37,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6539473,
@@ -15667,7 +15667,7 @@
     "role": "SDE 2",
     "yoe": 3.5,
     "base": 36,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6537882,
@@ -15677,7 +15677,7 @@
     "role": "SDE",
     "yoe": 2.5,
     "base": 21,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6537736,
@@ -15716,7 +15716,7 @@
     "company": "Amazon",
     "role": "SDE 2",
     "yoe": 6.8,
-    "base": "N/A",
+    "base": null,
     "total": 64.68
   },
   {
@@ -15935,7 +15935,7 @@
     "location": "Hyderabad",
     "company": "Verizon",
     "role": "Full Stack Developer 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 15.8,
     "total": 17.88
   },
@@ -15945,7 +15945,7 @@
     "location": "Hyderabad",
     "company": "Fedex",
     "role": "Full Stack Developer I",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 14.5,
     "total": 14.5
   },
@@ -15997,7 +15997,7 @@
     "role": "Java Developer",
     "yoe": 4,
     "base": 30.2,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6513068,
@@ -16035,7 +16035,7 @@
     "location": "",
     "company": "De Shaw Associate",
     "role": "Associate",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 14,
     "total": 24.55
   },
@@ -16147,7 +16147,7 @@
     "role": "SMTS",
     "yoe": 4.7,
     "base": 38,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6509451,
@@ -16157,7 +16157,7 @@
     "role": "MTS",
     "yoe": 4.7,
     "base": 30,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6507693,
@@ -16197,7 +16197,7 @@
     "role": "SDE 2",
     "yoe": 2.5,
     "base": 27.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6505658,
@@ -16207,7 +16207,7 @@
     "role": "Ml Engineer Ic2",
     "yoe": 2.5,
     "base": 27.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6505345,
@@ -16336,7 +16336,7 @@
     "company": "Unnamed Offer",
     "role": "Unspecified Role",
     "yoe": 8,
-    "base": "N/A",
+    "base": null,
     "total": 45
   },
   {
@@ -16547,7 +16547,7 @@
     "role": "VP",
     "yoe": 11,
     "base": 64,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6486054,
@@ -16566,8 +16566,8 @@
     "company": "Wayfair",
     "role": "Sde Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6481717,
@@ -16597,7 +16597,7 @@
     "role": "SDE 2",
     "yoe": 2.8,
     "base": 28,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6479923,
@@ -16625,7 +16625,7 @@
     "location": "Bengaluru",
     "company": "Amazon",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 19.17,
     "total": 36.21
   },
@@ -16637,7 +16637,7 @@
     "role": "SDE 2",
     "yoe": 2.5,
     "base": 34,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6477533,
@@ -16675,7 +16675,7 @@
     "location": "",
     "company": "Oracle",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 14.5,
     "total": 22
   },
@@ -16725,7 +16725,7 @@
     "location": "Remote",
     "company": "Qlik",
     "role": "SSE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 48,
     "total": 48
   },
@@ -16737,7 +16737,7 @@
     "role": "Senior Data Engineer",
     "yoe": 5.5,
     "base": 27,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6476300,
@@ -16747,7 +16747,7 @@
     "role": "Senior Data Engineer",
     "yoe": 5.5,
     "base": 35,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6476299,
@@ -16767,7 +16767,7 @@
     "role": "Swe 21 L4",
     "yoe": 3.5,
     "base": 37.6,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6475390,
@@ -16937,7 +16937,7 @@
     "role": "SDE 2",
     "yoe": 5.5,
     "base": 32,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6469575,
@@ -16945,7 +16945,7 @@
     "location": "",
     "company": "JPMorgan Chase",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 22,
     "total": 28.5
   },
@@ -16955,7 +16955,7 @@
     "location": "",
     "company": "Walmart",
     "role": "SDE 3",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 22,
     "total": 34.3
   },
@@ -16977,7 +16977,7 @@
     "role": "SSE",
     "yoe": 6,
     "base": 28,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6468436,
@@ -17007,7 +17007,7 @@
     "role": "Mts Devops Position",
     "yoe": 8.5,
     "base": 27,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6465823,
@@ -17077,7 +17077,7 @@
     "role": "MTS",
     "yoe": 2.8,
     "base": 29,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6462329,
@@ -17215,9 +17215,9 @@
     "location": "Bengaluru",
     "company": "Walmart",
     "role": "SDE 3",
-    "yoe": "N/A",
-    "base": "N/A",
-    "total": "N/A"
+    "yoe": null,
+    "base": null,
+    "total": null
   },
   {
     "id": 6446116,
@@ -17247,7 +17247,7 @@
     "role": "SWE 1",
     "yoe": 1.5,
     "base": 19,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6443369,
@@ -17255,8 +17255,8 @@
     "location": "Remote",
     "company": "Fairmatic",
     "role": "SSE",
-    "yoe": "N/A",
-    "base": "N/A",
+    "yoe": null,
+    "base": null,
     "total": 40
   },
   {
@@ -17317,7 +17317,7 @@
     "role": "Frontend Software Engineer",
     "yoe": 2,
     "base": 12,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6438558,
@@ -17356,7 +17356,7 @@
     "company": "C-Dot",
     "role": "Scientist-B",
     "yoe": 0,
-    "base": "N/A",
+    "base": null,
     "total": 19
   },
   {
@@ -17377,7 +17377,7 @@
     "role": "SDE 2",
     "yoe": 4.5,
     "base": 55,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6433708,
@@ -17397,7 +17397,7 @@
     "role": "SDE 2",
     "yoe": 2.5,
     "base": 28,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6432063,
@@ -17527,7 +17527,7 @@
     "role": "Staff Engineer",
     "yoe": 6,
     "base": 30,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6421852,
@@ -17567,7 +17567,7 @@
     "role": "SDE",
     "yoe": 1.9,
     "base": 10,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6420628,
@@ -17577,7 +17577,7 @@
     "role": "Tech Lead Ic3",
     "yoe": 6.5,
     "base": 38,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6420628,
@@ -17587,7 +17587,7 @@
     "role": "SSE",
     "yoe": 6.5,
     "base": 45,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6420537,
@@ -17626,8 +17626,8 @@
     "company": "Juspay",
     "role": "Sde Intern + Ppo",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6419455,
@@ -17687,7 +17687,7 @@
     "role": "SSE",
     "yoe": 10,
     "base": 65,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6418151,
@@ -17847,7 +17847,7 @@
     "role": "SSE",
     "yoe": 5.5,
     "base": 28,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6408995,
@@ -18005,7 +18005,7 @@
     "location": "",
     "company": "Razorpay",
     "role": "SSE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 30,
     "total": 37
   },
@@ -18015,7 +18015,7 @@
     "location": "",
     "company": "Swiggy",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 33,
     "total": 41
   },
@@ -18025,7 +18025,7 @@
     "location": "",
     "company": "Rapido",
     "role": "PE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 30,
     "total": 35
   },
@@ -18217,7 +18217,7 @@
     "role": "SDE 2",
     "yoe": 3,
     "base": 22,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6390800,
@@ -18327,7 +18327,7 @@
     "role": "SDE 2",
     "yoe": 3.7,
     "base": 22.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6384986,
@@ -18407,7 +18407,7 @@
     "role": "SMTS",
     "yoe": 9,
     "base": 38,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6378057,
@@ -18417,7 +18417,7 @@
     "role": "SE 3",
     "yoe": 10,
     "base": 65,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6376836,
@@ -18535,7 +18535,7 @@
     "location": "",
     "company": "HSBC",
     "role": "Data Engineer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 15,
     "total": 16.1
   },
@@ -18545,7 +18545,7 @@
     "location": "",
     "company": "Fractal",
     "role": "Data Engineer",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 15.5,
     "total": 17
   },
@@ -18555,7 +18555,7 @@
     "location": "Hyderabad",
     "company": "Apple",
     "role": "SDE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 55,
     "total": 65.5
   },
@@ -18627,7 +18627,7 @@
     "role": "SDE",
     "yoe": 0,
     "base": 36,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6363301,
@@ -18657,7 +18657,7 @@
     "role": "SSE",
     "yoe": 8,
     "base": 40,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6362732,
@@ -18667,7 +18667,7 @@
     "role": "MTS 5",
     "yoe": 8,
     "base": 50,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6361364,
@@ -18677,7 +18677,7 @@
     "role": "SDE 2",
     "yoe": 5,
     "base": 48,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6361364,
@@ -18725,9 +18725,9 @@
     "location": "",
     "company": "Pine Labs",
     "role": "SDE",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 20,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6353761,
@@ -18886,8 +18886,8 @@
     "company": "Flipkart",
     "role": "Sde Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6343628,
@@ -18895,9 +18895,9 @@
     "location": "Bengaluru",
     "company": "Tata Communication",
     "role": "SDET",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 25,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6343628,
@@ -18905,9 +18905,9 @@
     "location": "Hyderabad",
     "company": "Observe.AI",
     "role": "SDET",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 32,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6343628,
@@ -18915,9 +18915,9 @@
     "location": "Hyderabad",
     "company": "Angel One",
     "role": "SDET",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 30,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6341493,
@@ -18977,7 +18977,7 @@
     "role": "SDE 2",
     "yoe": 5,
     "base": 38,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6336951,
@@ -19127,7 +19127,7 @@
     "role": "SSE",
     "yoe": 4.5,
     "base": 29.59,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6327650,
@@ -19137,7 +19137,7 @@
     "role": "SSE",
     "yoe": 4.5,
     "base": 33,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6327650,
@@ -19147,7 +19147,7 @@
     "role": "SSE",
     "yoe": 4.5,
     "base": 33,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6327450,
@@ -19167,7 +19167,7 @@
     "role": "Consultant",
     "yoe": 3,
     "base": 12.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6326315,
@@ -19187,7 +19187,7 @@
     "role": "SSE",
     "yoe": 9,
     "base": 65,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6323001,
@@ -19267,7 +19267,7 @@
     "role": "SDE 2",
     "yoe": 3.9,
     "base": 21,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6317616,
@@ -19376,8 +19376,8 @@
     "company": "Kuku Fm",
     "role": "Sde Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6306471,
@@ -19385,7 +19385,7 @@
     "location": "",
     "company": "Headout",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 19,
     "total": 36
   },
@@ -19396,8 +19396,8 @@
     "company": "Google",
     "role": "Google Winter Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6305745,
@@ -19435,7 +19435,7 @@
     "location": "Bengaluru",
     "company": "Rupeek",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 7,
     "total": 9
   },
@@ -19616,8 +19616,8 @@
     "company": "Eaton",
     "role": "Summer Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6288687,
@@ -19636,7 +19636,7 @@
     "company": "A Us Based Remote Startup Young",
     "role": "SDE",
     "yoe": 2,
-    "base": "N/A",
+    "base": null,
     "total": 19
   },
   {
@@ -19646,7 +19646,7 @@
     "company": "Service Based",
     "role": "SDE",
     "yoe": 2,
-    "base": "N/A",
+    "base": null,
     "total": 19
   },
   {
@@ -19667,7 +19667,7 @@
     "role": "Consultant",
     "yoe": 0,
     "base": 10.6,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6285724,
@@ -19675,7 +19675,7 @@
     "location": "Bengaluru",
     "company": "Amazon",
     "role": "SDE 1",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 19.17,
     "total": 47.88
   },
@@ -19797,7 +19797,7 @@
     "role": "SDE 2",
     "yoe": 3,
     "base": 22,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6274356,
@@ -19847,7 +19847,7 @@
     "role": "SSE",
     "yoe": 3.6,
     "base": 30.5,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6272192,
@@ -19885,7 +19885,7 @@
     "location": "",
     "company": "Highspot India",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 23,
     "total": 25.055
   },
@@ -19897,7 +19897,7 @@
     "role": "SDE",
     "yoe": 0,
     "base": 3,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6266664,
@@ -19935,7 +19935,7 @@
     "location": "Bengaluru",
     "company": "Flipkart",
     "role": "SDE 2",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 27,
     "total": 43.7
   },
@@ -20095,7 +20095,7 @@
     "location": "",
     "company": "Walmart",
     "role": "SDE 3",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 25.73,
     "total": 32.67
   },
@@ -20105,7 +20105,7 @@
     "location": "",
     "company": "Maersk",
     "role": "SDE 3",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 30,
     "total": 32.8
   },
@@ -20155,9 +20155,9 @@
     "location": "",
     "company": "Capgemini",
     "role": "Analyst A4",
-    "yoe": "N/A",
+    "yoe": null,
     "base": 4,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6253973,
@@ -20177,7 +20177,7 @@
     "role": "SRE 2",
     "yoe": 3,
     "base": 13.22,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6250179,
@@ -20316,7 +20316,7 @@
     "company": "Airbase",
     "role": "SSE 2",
     "yoe": 9,
-    "base": "N/A",
+    "base": null,
     "total": 48
   },
   {
@@ -20326,8 +20326,8 @@
     "company": "Asper.Ai",
     "role": "Software Engineer Intern",
     "yoe": 0,
-    "base": "N/A",
-    "total": "N/A"
+    "base": null,
+    "total": null
   },
   {
     "id": 6241557,
@@ -20357,7 +20357,7 @@
     "role": "SDE 2",
     "yoe": 3.5,
     "base": 44,
-    "total": "N/A"
+    "total": null
   },
   {
     "id": 6228188,

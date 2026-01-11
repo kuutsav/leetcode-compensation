@@ -79,9 +79,9 @@ def transform_record(rec: dict, entity_map: dict[str, dict[str, str]]) -> dict:
         "location": location,
         "company": company or "N/A",
         "role": role or "N/A",
-        "yoe": yoe if yoe is not None else "N/A",
-        "base": base if base is not None else "N/A",
-        "total": total if total is not None else "N/A",
+        "yoe": yoe,  # Keep as null for proper sorting/charting in JS
+        "base": base,  # Keep as null for proper sorting/charting in JS
+        "total": total,  # Keep as null for proper sorting/charting in JS
     }
 
 

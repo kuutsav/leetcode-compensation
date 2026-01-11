@@ -884,6 +884,7 @@
         }
 
         function getExperienceLevel(yoe) {
+            if (yoe === null || yoe === undefined) return null;
             if (yoe <= 1) return 'Entry (0-1)';
             if (yoe <= 6) return 'Mid (2-6)';
             if (yoe <= 10) return 'Senior (7-10)';
@@ -1006,7 +1007,7 @@
             const levelLabels = ['Entry<br/>(0-1)', 'Mid<br/>(2-6)', 'Senior<br/>(7-10)', 'Senior +<br/>(11+)'];
             const boxPlotData = levels.map(level => {
                 const levelData = data
-                    .filter(entry => getExperienceLevel(entry.yoe) === level)
+                    .filter(entry => entry.yoe !== null && entry.yoe !== undefined && getExperienceLevel(entry.yoe) === level)
                     .map(entry => entry.total);
                 
                 return calculateBoxPlotStats(levelData);
@@ -1212,6 +1213,13 @@
             return Number(amount).toFixed(1);
         }
 
+        function formatYOE(yoe) {
+            if (yoe === null || yoe === undefined) {
+                return 'N/A';
+            }
+            return yoe;
+        }
+
         function renderPage(page) {
             currentPage = page;
             const startIdx = (page - 1) * itemsPerPage;
@@ -1228,7 +1236,7 @@
                         <div class="company-meta">${formatDate(entry.date)}${entry.location ? ' | ' + entry.location : ''}</div>
                     </td>
                     <td class="role-col">${entry.role}</td>
-                    <td class="yoe-col">${entry.yoe}</td>
+                    <td class="yoe-col">${formatYOE(entry.yoe)}</td>
                     <td class="total-col">
                         <div class="total-amount">${formatSalary(entry.total)}</div>
                         <div class="base-amount">${formatSalary(entry.base)}</div>
