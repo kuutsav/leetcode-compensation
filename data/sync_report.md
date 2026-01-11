@@ -1,99 +1,66 @@
-# Sync Report - 2026-01-10 07:03
+# Sync Report - 2026-01-11 07:19
 
-**11 new posts found, 7 posts with 14 offers added**
+**11 new posts found, 6 posts with 7 offers added**
 
 ---
 
-## 1. Adobe Computer Scientist 1 Offer
+## 1. Walmart SDE-3 Compensation
 
 ### Raw Content
 ```
-Hi Community, 
+Education: Tier 3 college
+Years of Experience: 4
+Current Expereince: Service Based
 
-Adobe CS1 Offer
+Current Compensation:
+CTC - 21.5L
+Base - 21L
+variable - 50K
 
-Offer Date: Dec-2025
-YOE: 4.5
+Offer Details:
+CTC - 33.6L
+Base - 25.6L
+RSU - 3L
+Variable - 5L
 
-Current Compensation at PBC, Hyderabad
-Base: 26 lakhs
-Bonus: 2 lakhs
-RSUs : 16K USD per year (Roughly 14.5 laks)
-Total CTC: 26 + 2 + 14.5 = 42.5 LPA
+Other details: No other offers in hand
 
-Adobe Bengaluru Compensation
-Base: 35 lakhs
-Bonus: 5.25 lakhs
-RSUs: 85k USD vested for 4 years : Roughly 19 LPA
-No Joining Bonus and Relocation Bonus
-Total CTC : 35 + 5.25 + 19 = 59.25 LPA
-
-Competing offer: Have another offer from Arista Networks. Arista is matching the Base and Bonus with 64K USD RSUs for 4 years
-
-Can I negotaiate and get better Base/RSUs at Adobe ?
-Do we get refresher RSUs every year at Adobe?
+Is it a lowball offer, any thoughts on this?
 ```
 
 ### Parsed Offers
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Adobe | CS 1 | 4.5 | 35 | 59.25 | Bengaluru |
-| Arista Networks | Not Mentioned | 4.5 | 35 | 50 | Not Mentioned |
+| Walmart | SDE 3 | 4 | 25.6 | 33.6 | - |
 
 ---
 
-## 2. MMT vs Joveo vs DP world
+## 2. PayPal | SDE-1 | University grad 2026
 
 ### Raw Content
 ```
-College : NIT
-Currenlty at Ecommerce with 19L
-YOE: 2.6 years
+**Position :** Software Engineer 1
+**Company :** PayPal
+**Location :** Bengaluru, Karnataka, India
+**Experience :** Summer intern (3M) at PayPal
+**Education :** NIT (2026 batch) - On campus opportunity
 
-**Offers in hand (first year compensation)**:
-• MoEngage SDE1– ₹31L TC
-• DP World Group SDE1 – ₹35L TC (Zodiac team)
- Joveo remote sde1- 30L first year comp
-• MMT sse1– ₹24L TC
-• Another similar company sse – ₹27L TC
+**Compensation Details :**
+
+**Base salary :** 16.5L
+**Joining bonus :** 5.775L(1st month) + 2.475L(13th month)
+**Relocation bonus :** 2L
+**Performance bonus :** Max. 10% of base salary = 1.65L
+**RSUs :** 13000$ over 3 years
+**PF :** 12% of basic salary
+
+**CTC :** 40.1L (Including base, bonuses and RSUs, taking 1$ = 90 INR)
+**First year compensation :** 29.82L (including base, first year bonus, performance bonus)
+
+**Additional benefits :** Standard Paypal benefits
 
 
-Coming from a very bad work culture (8:30 office login, no WFH, heavy micromanagement). I want to join a tech-first company — mainly considering MoEngage or DP World.
-
-Reviews for DP World are quite negative, so wanted to understand how bad it actually is and whether it’s team-dependent (specifically Zodiac team).
-
-Looking for honest inputs on culture, micromanagement, and survivability.
-
-Will be posting all experiences shortly
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Moengage | SDE 1 | 2.6 | - | 31 | - |
-| Dp World | SDE 1 | 2.6 | - | 35 | - |
-| Joveo | SDE 1 | 2.6 | - | 30 | Remote |
-| Mmt | SSE 1 | 2.6 | - | 24 | - |
-| Another Similar Company | SSE | 2.6 | - | 27 | - |
-
----
-
-## 3. Oracle OCI | SMST/IC3 | Bangalore
-
-### Raw Content
-```
-Years of Experience: 4.5
-Prior Experience: Software Engineer at product based startup
-Previous Compensation: 40LPA Fixed + 1 gratuity + 2 Joining Bonus + 4 Performance bonus + 5 ESOPs over 4 year
-Company: Oracle OCI
-Title/Level: Software Engineer
-Location: Bangalore, India
-Salary: 38,00,000 (INR)
-PF + Gratuity : ~2,00,000
-Stock bonus: $70k (40,30,20,10 vesting)
-Total comp (Salary + Bonus + Stock): ~63,00,000 (INR)
 
 
 ```
@@ -102,30 +69,25 @@ Total comp (Salary + Bonus + Stock): ~63,00,000 (INR)
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Oracle | SWE | 4.5 | 38 | 63 | Bengaluru |
+| Paypal | SDE 1 | - | 16.5 | 40.1 | Bengaluru |
 
 ---
 
-## 4. Bitgo | E2 Role | Compensation Details
+## 3. JPMC Applied AI/ML Associate Offer Evaluation
 
 ### Raw Content
 ```
-**YOE** - 3.2 Years
-**Current Compensation** - 26L Base
+Company: JP Morgan Chase
+Role: Applied AI/ML Associate
+Line of Business : CIB
+Salary (Fixed): ₹26 LPA
+Annual Bonus: 10 - 12%
+Stocks: no stocks
+Total comp : ~29LPA
+Benefits: Standard JPMC benefits
 
-**Offer Details**:
-- Base Salary - 35L
-- Joining Bonus - 1.5L
-- RSUs - 26.1k USD (each year 25%)
-
-Other Benifits:
-1. Daily meal zomato coupons worth 600INR
-2. Daily Commute worth 400INR
-3. Monthly Gym/Wellness worth 3000INR
-4. Snacks, Weekly Lunch, Medical/Insurances etc.
-
-Total CTC - 59,20,700 INR
-First year CTC - 40,67,676 INR (excluding benifits)
+YOE: 2 years 6 months
+Current Fixed: 17.5 LPA
 
 ```
 
@@ -133,134 +95,128 @@ First year CTC - 40,67,676 INR (excluding benifits)
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Bitgo | E2 Role | 3.2 | 35 | 59.207 | Remote |
+| Jpmorgan Chase | Applied AI/ML Associate | 2.5 | 26 | 29 | - |
 
 ---
 
-## 5. Zynga SSE1 Fullstack offer
+## 4. Oracle (OHAI) SMTS (IC3) vs LG Ads (Alphonso) SE-2 | Offer Comparison
 
 ### Raw Content
 ```
-Hi fam
-I've been interviewing for different companies
-Have managed to bag one offer until now
+Hi all, 
+I need advice for choosing between two offers & how to negotiate for Oracle Base/JB/stock increase with the LG Ads offer. (I am more inclined towards Oracle)
 
-YOE: 7+ years
-Current TC: 31 Base + Stocks 17 L = 48 Lakh
-Current Company: Oracle
+College: IIT (Non CSE)
+Experience: 3 years 6 months
+Current Comp: ₹31L (₹20L fixed + ₹11L RSUs each year)
 
+**Offers:**
 
-Offer:
-Zynga
-SSE 1 
-Base: 45 (Including PF: 2.7L)
-Stocks: 36000$ in 4 years
-Joining Bonus : 4 L
-Performance Bonus: 10% of base ~ 4.5L 
+**Company: Oracle (OHAI)**
+Title: Senior software engineer / SMTS
+Location: Bengaluru
+Work Mode: WFH
 
-1st year comp ~ 61L INR
+📦 Offer Breakdown:
 
-Is it worth leaving the stocks for this year to join Zynga? Please let me know your thoughts
-```
+Base (Fixed): ₹36L
+RSU (stocks): $39.7k (~ ₹36L) (over 4 years)
+Vesting schedule: 40% / 30% / 20% / 10%
 
-### Parsed Offers
+💰 Total Compensation (Year 1)
+= ₹36L (Fixed) + ₹14.3L (RSU)
+= ₹50.3L (approx)
 
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Zynga | SSE 1 | 7 | 45 | 61 | - |
+Vs
 
----
+**Company: LG Ads (Alphonso)**
+Title: Software Engineer - 2
+Location: Bengaluru
+Work Mode: WFO
 
-## 6. Nike (SDE 1) vs Deloitte (Retention) | 3.5 YOE | India | Need Career Advice
+📦 Offer Breakdown:
 
-### Raw Content
-```
-Education: B.Tech (Tier 2/3)
-Years of Experience: 3.5 Years
-Current Role: Senior Analyst at Service Based MNC (Deloitte)
-Current Location: Hometown (Remote/Hybrid)
-I am currently in a dilemma between joining a product-based company for better career growth vs. staying in my current service-based firm for financial stability. Please guide me.
+Base: 41.2L (₹40L Fixed + ₹1.2L Misc Allowance)
+Performance Bonus (each year): Targeted 20% of fixed (₹8L), usually given (15% -> ₹6L)
 
-Offer 1: Nike (India Technology Center)
-* Role: SDE 1
-* Location: Bangalore
-* Fixed Base: ₹13 LPA
-* Total CTC (PSP + PF + NPS): ~₹15.3 LPA
-* Pros: Brand name, "Product" company tag, Tech stack improvement.
-* Cons: Relocation to Bangalore (High COL), SDE 1 title (feels junior for 3+ YOE?), Offer seems low for standard product companies.
-
-Offer 2: Deloitte (Current Employer - Retention Offer)
-* Role: Consultant
-* Location: Hometown (Low COL)
-* Total CTC: ₹15 LPA
-* Pros: Higher in-hand savings (no rent/mess expenses), comfort of home, known environment.
-* Cons: Service-based company tag, slower technical growth, might get stuck in legacy projects.
-
-The Conflict:
-Financially, Deloitte is the clear winner. Moving to Bangalore for ₹15.3 LPA means paying rent, deposit, and higher living costs, which will drop my savings significantly.
-However, I am worried that if I stay at Deloitte, I will be pigeonholed as a "Service Company Developer" and finding product roles later will be harder.
-
-My Questions to the Community:
-1. Is ₹15.3 LPA a lowball for an SDE 1 at Nike Bangalore with 3.5 YOE? (I tried negotiating, but HR said this is final).
-2. Is it worth taking a "savings cut" to get the Nike brand name on my resume?
-3. Does the SDE 1 tag at 3.5 YOE hurt future switch prospects?
-
-Any advice on which path to choose for long-term growth would be appreciated!
-
-Edit 1:
-For reference, my current CTC is low. Nike is technically offering 100% hike here.
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Nike | SDE 1 | 3.5 | 13 | 15.3 | Bengaluru |
-| Deloitte | Consultant | 3.5 | - | 15 | Hometown |
-
----
-
-## 7. Amazon SDE2 vs Adobe MTS2
-
-### Raw Content
-```
-Hi all, need advice choosing between two offers.
-
-Background:
-
-YOE: 3.8 | College: Tier 3 | Current: Product company
-
-Amazon – SDE2(Stores)
-
-Base: 43 LPA
-Bonus: 20L (Y1) + 16L (Y2)
-RSU: 220 Amazon units
-TC: ~65L (Y1), ~65L (Y2)
-Location - Bengaluru
-
-Adobe – MTS2(AEM)
-
-Base: 28 LPA
-Bonus: 2.6L
-Joining: 1.5L
-RSU: $63k (~14L/yr)
-TC: ~45L (Y1)
-Location - Bengaluru
+💰 Total Compensation
+= ₹48L (approx)
 
 Questions:
 
-- Which offer makes more sense for long-term growth at <4 YOE?
-- Is Amazon SDE2 worth the WLB risk?
-- Is it realistic to negotiate Adobe MTS2 → CS1, or only comp within MTS2?
+1. Can someone tell me if there is a possibility to increase the base for OHAI offer. Earlier, HR told me for Base they can not go beyond 36. I am not sure if it is a Hard limit. Also, if not base, is there a possibility for JB or stock increase?
+2. What would you suggest as a better choice here? I am a bit inclined towards Oracle for its Brand & future switch options to MAANG.
 
-Thanks in advance!
 ```
 
 ### Parsed Offers
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Amazon | SDE 2 | 3.8 | 43 | 65 | Bengaluru |
-| Adobe | MTS 2 | 3.8 | 28 | 45 | Bengaluru |
+| Oracle | SMTS | 3.5 | 36 | 50.3 | Bengaluru |
+| Lg Ads | SE 2 | 3.5 | 41.2 | 48 | Bengaluru |
+
+---
+
+## 5. Uber | L5A | Bengaluru
+
+### Raw Content
+```
+Location: Bengaluru
+Years of Experience: 6
+
+Current Compensation: 58 LPA
+
+Company: Uber
+Level: L5A
+Offer date: January 2026
+Base: 73.05 + 4.26(PF) = 77.31 LPA
+Performance bonus: 14.6 LPA for meets bar rating (can be upto 2x)
+Stocks: 120k USD over 4 years: ~27 LPA
+Sign-on bonus: 5L
+Benefits: ~1.76 LPA (wellness, uber credits & phone allowance)
+
+Total compensation for 1st year: 1.2567 CR
+
+Other benefits: Uber standard
+
+Accepted the offer! :D
+
+#Uber
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Uber | L5A | 6 | 77.31 | 125.67 | Bengaluru |
+
+---
+
+## 6. Senior Backend Engineer
+
+### Raw Content
+```
+Education: B.Tech.
+Years of Experience: 5 years
+Prior Experience: Product based company 
+prev comp: 52 lpa base 
+Company: Startup (founded - 2023)
+Title/Level: Senior Backend Engineer
+Location: Gurgaon
+Salary: 60L base + 10L performance bonus
+Relocation: 0.5L
+Signing Bonus: 4L
+ESOPS bonus (paper money): 30L (vesting - 25% each yr)
+CTC = 60L (base) + 10L (PB) + 7.5L esops (per yr) + 4L (JB) = 81.5 lpa
+
+Rejected the offer.
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Startup | Senior Backend Engineer | 5 | 60 | 81.5 | Gurugram |
 
 ---
