@@ -60,23 +60,28 @@ def transform_record(rec: dict, entity_map: dict[str, dict[str, str]]) -> dict:
     role_raw = rec.get("role-normalized", "")
     location_raw = rec.get("location", "")
 
-    company = entity_map["company"].get(company_raw, company_raw).title()
-    role = entity_map["role"].get(role_raw, capitalize_role(role_raw))
+    # Use map value directly if found, otherwise apply our capitalization
+    company = entity_map["company"].get(company_raw.lower()) or company_raw.title()
+    role = entity_map["role"].get(role_raw.lower()) or capitalize_role(role_raw)
     location = (
-        entity_map["location"].get(location_raw, location_raw).title()
+        entity_map["location"].get(location_raw.lower()) or location_raw.title()
         if location_raw
         else ""
     )
+
+    yoe = rec.get("yoe")
+    base = rec.get("base")
+    total = rec.get("total") or rec.get("total-calculated")
 
     return {
         "id": rec["id"],
         "date": rec["created_at"],
         "location": location,
-        "company": company,
-        "role": role,
-        "yoe": rec.get("yoe"),
-        "base": rec.get("base"),
-        "total": rec.get("total") or rec.get("total-calculated"),
+        "company": company or "N/A",
+        "role": role or "N/A",
+        "yoe": yoe if yoe is not None else "N/A",
+        "base": base if base is not None else "N/A",
+        "total": total if total is not None else "N/A",
     }
 
 

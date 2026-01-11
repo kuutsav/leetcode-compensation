@@ -72,8 +72,8 @@ def get_new_entities(
                 break
             if entity_type in rec:
                 entity = rec[entity_type]
-                # only include if not already mapped
-                if entity not in existing_mapping:
+                # only include if not already mapped (lowercase for consistent lookup)
+                if entity.lower() not in existing_mapping:
                     new_entities.append(entity)
     return new_entities
 
@@ -158,7 +158,7 @@ def _llm_mapped_output(
         for entity in originals.split("|"):
             entity = entity.strip()
             if entity:
-                mapped_entities[entity] = final.strip()
+                mapped_entities[entity.lower()] = final.strip()
 
     return mapped_entities
 
@@ -193,7 +193,7 @@ def _llm_mapped_output_with_context(
         for entity in originals.split("|"):
             entity = entity.strip()
             if entity:
-                mapped_entities[entity] = final.strip()
+                mapped_entities[entity.lower()] = final.strip()
 
     return mapped_entities
 
