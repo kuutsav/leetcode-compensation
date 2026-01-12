@@ -4,9 +4,9 @@
 
 A tool that helps you find **Software Engineer Salary in India** by:
 
-- Fetching compensation data from Leetcode forums.
-- Updating regularly through GitHub action PRs.
-- Using LLMs for parsing and sanitizing structured data from posts, followed by aggregation.
+- Fetching compensation data from Leetcode forums
+- Updating regularly through GitHub action PRs
+- Using LLMs for parsing and sanitizing structured data from posts, followed by aggregation
 
 ## Getting Started
 
