@@ -1,5 +1,125 @@
 [
   {
+    "id": 7493330,
+    "date": "2026-01-14T05:40:01.610645+00:00",
+    "location": "Pune",
+    "company": "connectwise",
+    "role": "SSE",
+    "yoe": 3.2,
+    "base": 32,
+    "total": 37
+  },
+  {
+    "id": 7492577,
+    "date": "2026-01-13T18:04:32.420256+00:00",
+    "location": "India",
+    "company": "bloomreach",
+    "role": "SDE 3",
+    "yoe": 4.8,
+    "base": 58,
+    "total": 79.7
+  },
+  {
+    "id": 7492404,
+    "date": "2026-01-13T17:13:26.955240+00:00",
+    "location": "",
+    "company": "JPMorgan Chase",
+    "role": "SDE 2",
+    "yoe": 5.5,
+    "base": 29,
+    "total": 32.5
+  },
+  {
+    "id": 7490869,
+    "date": "2026-01-13T05:55:20.132385+00:00",
+    "location": "Bengaluru",
+    "company": "licious",
+    "role": "SDE 1",
+    "yoe": 0,
+    "base": 12,
+    "total": 14.5
+  },
+  {
+    "id": 7490212,
+    "date": "2026-01-12T20:22:36.408316+00:00",
+    "location": "Hyderabad",
+    "company": "Microsoft",
+    "role": "SDE 3",
+    "yoe": 5.5,
+    "base": 33,
+    "total": 50.75
+  },
+  {
+    "id": 7489210,
+    "date": "2026-01-12T13:59:06.199046+00:00",
+    "location": "",
+    "company": "ai strike",
+    "role": "SDE",
+    "yoe": 3,
+    "base": 38.75,
+    "total": 48
+  },
+  {
+    "id": 7488782,
+    "date": "2026-01-12T10:57:01.810471+00:00",
+    "location": "Hyderabad",
+    "company": "Morgan Stanley",
+    "role": "Not Mentioned",
+    "yoe": 6,
+    "base": 46.6,
+    "total": 59.01
+  },
+  {
+    "id": 7488782,
+    "date": "2026-01-12T10:57:01.810471+00:00",
+    "location": "Hyderabad",
+    "company": "Kotak",
+    "role": "Not Mentioned",
+    "yoe": 6,
+    "base": 50,
+    "total": 65
+  },
+  {
+    "id": 7488782,
+    "date": "2026-01-12T10:57:01.810471+00:00",
+    "location": "Hyderabad",
+    "company": "PayPal",
+    "role": "Not Mentioned",
+    "yoe": 6,
+    "base": 47,
+    "total": 60.7
+  },
+  {
+    "id": 7485995,
+    "date": "2026-01-11T10:56:03.767457+00:00",
+    "location": "Bengaluru",
+    "company": "Microsoft",
+    "role": "SDE 2",
+    "yoe": 4.5,
+    "base": 38,
+    "total": 70
+  },
+  {
+    "id": 7485995,
+    "date": "2026-01-11T10:56:03.767457+00:00",
+    "location": "Noida",
+    "company": "Adobe",
+    "role": "Computer Scientist 1",
+    "yoe": 4.5,
+    "base": 36,
+    "total": 60
+  },
+  {
+    "id": 7485995,
+    "date": "2026-01-11T10:56:03.767457+00:00",
+    "location": "Bengaluru",
+    "company": "arctic wolf",
+    "role": "SSE",
+    "yoe": 4.5,
+    "base": 56,
+    "total": 63
+  },
+  {
     "id": 7485376,
     "date": "2026-01-11T06:46:27.541019+00:00",
     "location": "",
@@ -4923,7 +5043,7 @@
     "id": 7205102,
     "date": "2025-09-19T09:32:37.326178+00:00",
     "location": "Bengaluru",
-    "company": "Licious",
+    "company": "licious",
     "role": "SDE 2",
     "yoe": 4,
     "base": 24,
