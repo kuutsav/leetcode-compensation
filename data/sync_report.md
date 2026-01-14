@@ -1,151 +1,89 @@
-# Sync Report - 2026-01-11 07:19
+# Sync Report - 2026-01-14 08:03
 
-**11 new posts found, 6 posts with 7 offers added**
+**15 new posts found, 8 posts with 12 offers added**
 
 ---
 
-## 1. Walmart SDE-3 Compensation
+## 1. ConnectWise Offer | Senior Frontend Engineer 1 | SSE1 | 2026 JAN
 
 ### Raw Content
 ```
-Education: Tier 3 college
-Years of Experience: 4
-Current Expereince: Service Based
+# Background:
+**College** - Tier 3, State College
+**Experience** - Infosys and then a StartUp | Total = 3.2 years
+**Current Compensation** - 12LPA fixed , 2lac bonus performance based
+**Notice Period** - was 90 days, negotiated down to 60 days, i did not have much project work pending we just had a major release cycle completed after a year of work so got early release approvals.
 
-Current Compensation:
-CTC - 21.5L
-Base - 21L
-variable - 50K
+# Offer:
+**Company** - ConnectWise (location pune)
+**Title** - Senior Frontend Engineer 1 | recruiter said it was on the lines of SSE1
+**Compensation offered** - Fixed - 32 LPA , Joining Bonus - 3.5 LPA , Relocatin Bonus - 1.5 LPA , Bonus Component - 0 (N/A)
+**Perks** - afternoon free meal and cab service of some sort
 
-Offer Details:
-CTC - 33.6L
-Base - 25.6L
-RSU - 3L
-Variable - 5L
+# Verdict:
+Accepted the offer, as i did not have an offer in hand. And i was not getting many offers, most companies approaching were startUps from  Gurugram/Bangalore.
 
-Other details: No other offers in hand
-
-Is it a lowball offer, any thoughts on this?
+# How i got the offer
+i negotiated really really hard they initially offered 26LPA on 90 days and then i got the early approvals.
 ```
 
 ### Parsed Offers
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Walmart | SDE 3 | 4 | 25.6 | 33.6 | - |
+| connectwise | SSE | 3.2 | 32 | 37 | Pune |
 
 ---
 
-## 2. PayPal | SDE-1 | University grad 2026
+## 2. Need help with offer for SDE 3
 
 ### Raw Content
 ```
-**Position :** Software Engineer 1
-**Company :** PayPal
-**Location :** Bengaluru, Karnataka, India
-**Experience :** Summer intern (3M) at PayPal
-**Education :** NIT (2026 batch) - On campus opportunity
+I have 4.8 years of experience with current compensation as 
+42L(Base), 4L(Variable), and 10L worth Esops in Flipkart. 
 
-**Compensation Details :**
-
-**Base salary :** 16.5L
-**Joining bonus :** 5.775L(1st month) + 2.475L(13th month)
-**Relocation bonus :** 2L
-**Performance bonus :** Max. 10% of base salary = 1.65L
-**RSUs :** 13000$ over 3 years
-**PF :** 12% of basic salary
-
-**CTC :** 40.1L (Including base, bonuses and RSUs, taking 1$ = 90 INR)
-**First year compensation :** 29.82L (including base, first year bonus, performance bonus)
-
-**Additional benefits :** Standard Paypal benefits
-
-
-
-
+Got the offer from Bloomreach as 
+58L(Base), 3L(Annual Bonus), 2L(JB), 3300 RSUs splitted over 3 years. 
+Total 1st year - 63L(including Bonus) + 1100 Units RSUs
+Location - India
+HR told 1 RSU is $17.
+Is this a good offer to join Pls help?
 ```
 
 ### Parsed Offers
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Paypal | SDE 1 | - | 16.5 | 40.1 | Bengaluru |
+| bloomreach | SDE 3 | 4.8 | 58 | 79.7 | India |
 
 ---
 
-## 3. JPMC Applied AI/ML Associate Offer Evaluation
+## 3. JPMC SDE 2 Offer
 
 ### Raw Content
 ```
-Company: JP Morgan Chase
-Role: Applied AI/ML Associate
-Line of Business : CIB
-Salary (Fixed): ₹26 LPA
-Annual Bonus: 10 - 12%
-Stocks: no stocks
-Total comp : ~29LPA
-Benefits: Standard JPMC benefits
+Hi All I recently got a SDE 2 Offer from JPMC.
+About me
+Previous comp: 16 lpa at a decent Product based company (Remote)
+Experience : 5.5 YOE
+Role: SDE-2 (Associate)
+Team : CCB
+Comp:
+• Base: ₹29 LPA 
+• Bonus: 12% (~₹3.5L)
 
-YOE: 2 years 6 months
-Current Fixed: 17.5 LPA
+1. Wanted to know if this is good comp for me, this is highest offer i got till now and i have only few weeks left in my notice period.I am looking for Remote roles but not able to find any decent job on that part.
 
-```
+2. I wanted to know culture in CCB org , stability, layoffs, working hours and learning. How is all these aspect in JPMC.
 
-### Parsed Offers
+3. Plus JPMC is very hard on office. Wanted to know if we can take few weeks wfh quarterly basis if we complete 80% attendance.
 
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Jpmorgan Chase | Applied AI/ML Associate | 2.5 | 26 | 29 | - |
+4. Is bonus paid completely at year end as mentioned or it not fix ??
 
----
 
-## 4. Oracle (OHAI) SMTS (IC3) vs LG Ads (Alphonso) SE-2 | Offer Comparison
+Anyone from JPMC can help here on above queries.
 
-### Raw Content
-```
-Hi all, 
-I need advice for choosing between two offers & how to negotiate for Oracle Base/JB/stock increase with the LG Ads offer. (I am more inclined towards Oracle)
 
-College: IIT (Non CSE)
-Experience: 3 years 6 months
-Current Comp: ₹31L (₹20L fixed + ₹11L RSUs each year)
-
-**Offers:**
-
-**Company: Oracle (OHAI)**
-Title: Senior software engineer / SMTS
-Location: Bengaluru
-Work Mode: WFH
-
-📦 Offer Breakdown:
-
-Base (Fixed): ₹36L
-RSU (stocks): $39.7k (~ ₹36L) (over 4 years)
-Vesting schedule: 40% / 30% / 20% / 10%
-
-💰 Total Compensation (Year 1)
-= ₹36L (Fixed) + ₹14.3L (RSU)
-= ₹50.3L (approx)
-
-Vs
-
-**Company: LG Ads (Alphonso)**
-Title: Software Engineer - 2
-Location: Bengaluru
-Work Mode: WFO
-
-📦 Offer Breakdown:
-
-Base: 41.2L (₹40L Fixed + ₹1.2L Misc Allowance)
-Performance Bonus (each year): Targeted 20% of fixed (₹8L), usually given (15% -> ₹6L)
-
-💰 Total Compensation
-= ₹48L (approx)
-
-Questions:
-
-1. Can someone tell me if there is a possibility to increase the base for OHAI offer. Earlier, HR told me for Base they can not go beyond 36. I am not sure if it is a Hard limit. Also, if not base, is there a possibility for JB or stock increase?
-2. What would you suggest as a better choice here? I am a bit inclined towards Oracle for its Brand & future switch options to MAANG.
 
 ```
 
@@ -153,70 +91,207 @@ Questions:
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Oracle | SMTS | 3.5 | 36 | 50.3 | Bengaluru |
-| Lg Ads | SE 2 | 3.5 | 41.2 | 48 | Bengaluru |
+| JPMorgan Chase | SDE 2 | 5.5 | 29 | 32.5 | - |
 
 ---
 
-## 5. Uber | L5A | Bengaluru
+## 4. Licious Graduate Trainee 
 
 ### Raw Content
 ```
-Location: Bengaluru
-Years of Experience: 6
+Location: Bangalore
+Company : Licious
+Years of Experience: 0 (Campus offer )
+Date of Offer : 2023
+Role: SDE 1 
 
-Current Compensation: 58 LPA
+Base: 12Lpa (including retirals)
 
-Company: Uber
-Level: L5A
-Offer date: January 2026
-Base: 73.05 + 4.26(PF) = 77.31 LPA
-Performance bonus: 14.6 LPA for meets bar rating (can be upto 2x)
-Stocks: 120k USD over 4 years: ~27 LPA
-Sign-on bonus: 5L
-Benefits: ~1.76 LPA (wellness, uber credits & phone allowance)
+Stocks: ESOPS worth 2LPA over 4 years 
 
-Total compensation for 1st year: 1.2567 CR
+Variable 1LPA 
 
-Other benefits: Uber standard
 
-Accepted the offer! :D
-
-#Uber
+Retention Bonus : 1 LPA 
 ```
 
 ### Parsed Offers
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Uber | L5A | 6 | 77.31 | 125.67 | Bengaluru |
+| licious | SDE 1 | - | 12 | 14.5 | Bengaluru |
 
 ---
 
-## 6. Senior Backend Engineer
+## 5. Offer Review | Microsoft | L61 | Hyderabad
 
 ### Raw Content
 ```
-Education: B.Tech.
-Years of Experience: 5 years
-Prior Experience: Product based company 
-prev comp: 52 lpa base 
-Company: Startup (founded - 2023)
-Title/Level: Senior Backend Engineer
-Location: Gurgaon
-Salary: 60L base + 10L performance bonus
-Relocation: 0.5L
-Signing Bonus: 4L
-ESOPS bonus (paper money): 30L (vesting - 25% each yr)
-CTC = 60L (base) + 10L (PB) + 7.5L esops (per yr) + 4L (JB) = 81.5 lpa
 
-Rejected the offer.
+
+Prior Experience: 5.5 Years (Product-based)
+
+Current CTC: ₹30.5 L Base | $30k Stocks (vested for 3 years)
+
+Microsoft Offer:
+
+    Base: ₹33 L (inclusive of PF)
+
+    Signing Bonus: ₹8 L (6+2)
+
+    Stock: $70k (vested over 4 years)
+
+    Relocation: ₹2.75 L
+
+    Variable: 0-20%
+
+I tried to negotiate but HR mentioned this is the final offer.
+
 ```
 
 ### Parsed Offers
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Startup | Senior Backend Engineer | 5 | 60 | 81.5 | Gurugram |
+| Microsoft | SDE 3 | 5.5 | 33 | 50.75 | Hyderabad |
+
+---
+
+## 6. AI STRIKE  NEW EDGE STARTUP - OFFER ACCEPTED
+
+### Raw Content
+```
+
+
+COMPENSATION FOR - SDE + MACHINE LEARNING ENGINEER
+
+
+YOE: 3 YEARS
+BASE: 37LPA
+JOINING BONUS: 4.5LPA
+PERFORMANCE BONUS: 10% of BASE
+TOTAL: 41.5+3.7= 44.8LPA 
+
+
+After negotiation[Offer Letter]:
+BASE: 38.75 LPA
+JOINING BONUS: 4.75 LPA
+PERFORMANCE BONUS : 10% to 13% of BASE [ mentioned in offer letter]
+Total: 43.25+3.875=~48LPA
+
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| ai strike | SDE | 3 | 38.75 | 48 | - |
+
+---
+
+## 7. Paypal vs Kotak vs Morgan Stanley
+
+### Raw Content
+```
+Hi All,
+I currently have offers from Morgan Stanley, Kotak, and PayPal, and I’m trying to decide which opportunity makes the most sense in the long run.
+YOE - 6+ years
+CTC - 40 LPA + 10%variable + 3 JB
+
+Offer details:
+
+Morgan Stanley
+Base: ~46.6 LPA
+Variable: ~ 10%
+Sign-on + relocation: ~8.75 LPA (one-time)
+Hybrid (3 days WFO)
+
+Kotak
+Base: ~50 LPA
+Variable: ~5.0 LPA
+Joining bonus: 7 L + 3 L (after 6 months)
+5 days WFO
+
+PayPal
+Base: ~47 LPA
+Variable: ~4.7 LPA
+Equity: ~$40k over 3 years
+No sign-on / relocation
+
+My priorities (in order):
+- Job stability
+- Work–life balance
+- Compensation 
+
+Which option would you choose given the above priorities and not regretting the decision after 1–2 years?
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Morgan Stanley | Not Mentioned | 6 | 46.6 | 59.01 | Hyderabad |
+| Kotak | Not Mentioned | 6 | 50 | 65 | Hyderabad |
+| PayPal | Not Mentioned | 6 | 47 | 60.7 | Hyderabad |
+
+---
+
+## 8. Microsoft L62 Offer
+
+### Raw Content
+```
+About me
+- PBC (Last year comp: 65lpa, dropped this year to 50lpa due to stock cliff) 
+- 4.5 YOE
+
+All offers received in Oct 2025
+
+# Offer 1 — Microsoft (Bangalore)
+
+Role: SDE-2 (L62)
+
+Comp:
+• Base: ₹38 LPA (incl. PF)
+• Bonus: 0–20% (avg ~10% → ~₹3.8L)
+• Joining Bonus: ₹5L (Y1) + ₹5L (Y2)
+• RSUs: $110K (25% yearly vesting)
+
+Year-1 CTC (approx):
+38 + 3.8 + 5 + 22.5 = ~₹70 LPA
+
+# Offer 2 — Adobe (Noida)
+
+Role: Computer Scientist-1
+
+• Base: ₹36 LPA (incl. PF)
+• Bonus: 15% → ~₹5.4L
+• RSUs: $85K (25% yearly vesting)
+
+Year-1 CTC:
+36 + 5.4 + 17.5 = ~₹60 LPA
+
+Adobe HR said they could match MS at best, but not beat it. I was already leaning toward MS, so didn’t negotiate further.
+
+# Offer 3 — Arctic Wolf (Bangalore)
+
+Role: Senior Software Engineer
+
+• Base: ₹56 LPA (incl. PF)
+• Bonus: 5% → ~₹2.8L
+• ESOPs: ₹17L total (25% yearly vesting)
+• Total CTC: ~₹63 LPA
+
+Final Decision
+
+Joined Microsoft Bangalore
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Microsoft | SDE 2 | 4.5 | 38 | 70 | Bengaluru |
+| Adobe | Computer Scientist 1 | 4.5 | 36 | 60 | Noida |
+| arctic wolf | SSE | 4.5 | 56 | 63 | Bengaluru |
 
 ---
