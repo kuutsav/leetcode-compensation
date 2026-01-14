@@ -85,7 +85,8 @@ Parse the post and extract compensation details ONLY for India-based offers. Out
    - Create separate complete XML blocks for each offer
 
 10. **Missing information**:
-   - Skip fields that are not mentioned (don't use n/a or empty tags)
+   - Skip fields that are not mentioned (don't use n/a, N/A, "Not Mentioned", or empty tags)
+   - NEVER output placeholder values like "Not Mentioned", "Unknown", "N/A" - simply omit the field entirely
 
 11. **Current vs New offer**:
    - Only extract the NEW offer being discussed
@@ -337,20 +338,26 @@ Provide ONLY the XML output, nothing else. If there are multiple offers, provide
 COMPANY_RULES = """## Company Normalization Rules
 
 1. **CRITICAL**: Only group companies you are CERTAIN are the same entity. When in doubt, keep them separate.
-2. **PRESERVE formatting**: Use the exact spelling, capitalization, and punctuation from the most common/official form
-3. **DO NOT introduce typos** or change spellings arbitrarily
-4. **Map subsidiaries/regional variants to parent company**:
-   - Examples: "amazon india" → "amazon", "uber india" → "uber", "walmart global tech" → "walmart"
+2. **CRITICAL - PROPER CASING**: Use the official/proper casing for company names:
+   - Well-known companies: Use their official brand casing (e.g., "Google", "Amazon", "LinkedIn", "PayPal", "GitHub")
+   - Acronyms: UPPERCASE (e.g., "IBM", "AMD", "NVIDIA", "HSBC", "SAP")
+   - CamelCase brands: Preserve their styling (e.g., "PhonePe", "MakeMyTrip", "BigBasket", "InMobi", "DocuSign")
+   - Standard companies: Title Case (e.g., "Goldman Sachs", "Morgan Stanley", "Arctic Wolf", "Safe Security")
+   - NEVER use all lowercase for canonical company names
+3. **PRESERVE formatting**: Use the exact spelling and punctuation from the official form
+4. **DO NOT introduce typos** or change spellings arbitrarily
+5. **Map subsidiaries/regional variants to parent company**:
+   - Examples: "amazon india" → "Amazon", "uber india" → "Uber", "walmart global tech" → "Walmart"
    - Pattern: "[Company] india", "[Company] global tech", "[Company] on campus" → always map to parent [Company]
-5. **Map different spellings/formats to standard form**:
-   - Examples: "goldman_sachs", "goldmansachs" → "goldman sachs"
-6. **Map abbreviations to full names when clear and well-known**:
-   - Examples: "jpmc", "jpmorgan" → "jpmorgan chase" (common abbreviation)
-7. **Map divisions to parent company when appropriate**:
-   - Examples: "oracle cerner", "oracle health", "oracle oci" → "oracle"
+6. **Map different spellings/formats to standard form**:
+   - Examples: "goldman_sachs", "goldmansachs" → "Goldman Sachs"
+7. **Map abbreviations to full names when clear and well-known**:
+   - Examples: "jpmc", "jpmorgan" → "JPMorgan Chase" (common abbreviation)
+8. **Map divisions to parent company when appropriate**:
+   - Examples: "oracle cerner", "oracle health", "oracle oci" → "Oracle"
    - Pattern: "[Company] [division/product]" → map to parent [Company] when division name is clearly a product/service
-8. **Use the most recognizable/official form as canonical**
-9. **DO NOT merge**: Companies with similar names that are different entities (e.g., "makemytrip" and "m2p" are completely different companies)"""
+9. **Use the most recognizable/official form as canonical**
+10. **DO NOT merge**: Companies with similar names that are different entities (e.g., "makemytrip" and "m2p" are completely different companies)"""
 
 ROLE_RULES = """## Role Normalization Rules
 
@@ -415,7 +422,7 @@ LOCATION_RULES = """## Location Normalization Rules
 
 COMPANY_EXAMPLES = """## Examples
 
-### Example 1: Regional Variants to Parent Company
+### Example 1: Regional Variants to Parent Company (Proper Casing)
 Input:
 ```
 'amazon [139]', 'amazon india [2]'
@@ -424,11 +431,11 @@ Input:
 
 Output:
 ```
-amazon|amazon india:amazon
-uber|uber india:uber
+amazon|amazon india:Amazon
+uber|uber india:Uber
 ```
 
-### Example 2: Multiple Companies with Variations
+### Example 2: Multiple Companies with Variations (Proper Casing)
 Input:
 ```
 'goldman sachs [46]', 'goldman_sachs [2]', 'goldmansachs [2]'
@@ -438,9 +445,9 @@ Input:
 
 Output:
 ```
-goldman sachs|goldman_sachs|goldmansachs:goldman sachs
-google:google
-linkedin|linked in:linkedin
+goldman sachs|goldman_sachs|goldmansachs:Goldman Sachs
+google:Google
+linkedin|linked in:LinkedIn
 ```
 
 ### Example 3: Parent Company Mapping (Divisions/Subsidiaries)
@@ -453,9 +460,9 @@ Input:
 
 Output:
 ```
-oracle|oracle cerner|oracle health|oracle oci|oracle non oci:oracle
-walmart|walmart global tech:walmart
-zeta|zeta directi:zeta
+oracle|oracle cerner|oracle health|oracle oci|oracle non oci:Oracle
+walmart|walmart global tech:Walmart
+zeta|zeta directi:Zeta
 ```
 
 ### Example 4: Abbreviations to Full Names
@@ -466,38 +473,74 @@ Input:
 
 Output:
 ```
-jpmc|jpmorgan|jpmorgan chase|jp morgan|jp morgan chase:jpmorgan chase
+jpmc|jpmorgan|jpmorgan chase|jp morgan|jp morgan chase:JPMorgan Chase
 ```
 
-### Example 5: Standalone Companies (No Variations)
+### Example 5: Standalone Companies (Proper Casing)
 Input:
 ```
 'flipkart [33]'
 'adobe [23]'
+'arctic wolf [5]'
+'bloomreach [3]'
 ```
 
 Output:
 ```
-flipkart:flipkart
-adobe:adobe
+flipkart:Flipkart
+adobe:Adobe
+arctic wolf:Arctic Wolf
+bloomreach:Bloomreach
 ```
 
-### Example 6: Preserve Formatting and Avoid Typos
+### Example 6: CamelCase and Special Casing
 Input:
 ```
-'meesho [7]'
+'phonepe [12]'
+'makemytrip [8]', 'mmt [3]'
+'bigbasket [5]'
+'docusign [7]'
+```
+
+Output:
+```
+phonepe:PhonePe
+makemytrip|mmt:MakeMyTrip
+bigbasket:BigBasket
+docusign:DocuSign
+```
+
+### Example 7: Acronyms (UPPERCASE)
+Input:
+```
+'ibm [15]', 'ibm consulting [3]'
+'amd [8]'
+'nvidia [20]'
+'hsbc [12]'
+```
+
+Output:
+```
+ibm|ibm consulting:IBM
+amd:AMD
+nvidia:NVIDIA
+hsbc:HSBC
+```
+
+### Example 8: Preserve Formatting and Special Characters
+Input:
+```
 'super.money [2]'
 'startup [7]', 'startup1 [2]'
 ```
 
 Output:
 ```
-meesho:meesho
-super.money:super.money
-startup|startup1:startup
+super.money:Super.money
+startup|startup1:Startup
 ```
 
-### Example 7: ❌ WRONG - DO NOT DO THIS
+### Example 9: ❌ WRONG - DO NOT DO THIS
 Input:
 ```
 'makemytrip [5]', 'm2p [2]'
@@ -505,16 +548,35 @@ Input:
 
 ❌ WRONG Output (these are DIFFERENT companies):
 ```
-makemytrip|m2p:makemytrip
+makemytrip|m2p:MakeMyTrip
 ```
 
 ✓ CORRECT Output:
 ```
-makemytrip:makemytrip
-m2p:m2p
+makemytrip:MakeMyTrip
+m2p:M2P
 ```
 
-Note: MakeMyTrip is a travel booking company. M2P is a fintech company. Do not merge them!"""
+Note: MakeMyTrip is a travel booking company. M2P is a fintech company. Do not merge them!
+
+### Example 10: ❌ WRONG - Never use lowercase for canonical names
+Input:
+```
+'connectwise [4]'
+'licious [3]'
+```
+
+❌ WRONG Output:
+```
+connectwise:connectwise
+licious:licious
+```
+
+✓ CORRECT Output:
+```
+connectwise:ConnectWise
+licious:Licious
+```"""
 
 ROLE_EXAMPLES = """## Examples
 
@@ -814,6 +876,12 @@ variation1|variation2|variation3:canonical_name
   - Abbreviations: UPPERCASE (SDE, SSE, MLE, SRE, SMTS, MTS, IC2, L60, VP, PMTS, LMTS, AMTS)
   - Full role titles: Title Case (Senior Data Engineer, Data Scientist, Backend Engineer, Lead Developer, Principal Software Engineer)
   - Examples: "senior data engineer" → "Senior Data Engineer", "backend engineer" → "Backend Engineer", "sde 2" → "SDE 2"
+- **CRITICAL - PROPER CASING FOR COMPANIES**:
+  - Well-known companies: Use official brand casing (e.g., "Google", "Amazon", "LinkedIn", "PayPal")
+  - Acronyms: UPPERCASE (e.g., "IBM", "AMD", "NVIDIA", "HSBC")
+  - CamelCase brands: Preserve styling (e.g., "PhonePe", "MakeMyTrip", "BigBasket", "DocuSign")
+  - Standard companies: Title Case (e.g., "Goldman Sachs", "Arctic Wolf", "Safe Security")
+  - NEVER use all lowercase for canonical company names
 - **PRESERVE exact spelling** - do not introduce typos or arbitrary changes
 - **PRESERVE formatting** - keep dots, spaces, hyphens as they appear in the original
 - Do not include explanations, headers, counts, or any additional text
@@ -856,6 +924,15 @@ variation1|variation2|variation3:canonical_name
 - Group ALL variations that map to the same canonical name on a single line
 - Separate variations with pipe character (|)
 - Use colon (:) before the canonical name
+- **CRITICAL - PROPER CASING FOR ROLES**:
+  - Abbreviations: UPPERCASE (SDE, SSE, MLE, SRE, SMTS, MTS, IC2, L60, VP, PMTS, LMTS, AMTS)
+  - Full role titles: Title Case (Senior Data Engineer, Data Scientist, Backend Engineer, Lead Developer)
+- **CRITICAL - PROPER CASING FOR COMPANIES**:
+  - Well-known companies: Use official brand casing (e.g., "Google", "Amazon", "LinkedIn", "PayPal")
+  - Acronyms: UPPERCASE (e.g., "IBM", "AMD", "NVIDIA", "HSBC")
+  - CamelCase brands: Preserve styling (e.g., "PhonePe", "MakeMyTrip", "BigBasket", "DocuSign")
+  - Standard companies: Title Case (e.g., "Goldman Sachs", "Arctic Wolf", "Safe Security")
+  - NEVER use all lowercase for canonical company names
 - **PRESERVE exact spelling** - do not introduce typos or arbitrary changes
 - **PRESERVE formatting** - keep dots, spaces, hyphens as they appear in the original
 - Do not include explanations, headers, counts, or any additional text
