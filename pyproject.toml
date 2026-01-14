@@ -19,6 +19,10 @@ leetcomp-sync = "leetcomp.sync:sync"
 [tool.hatch.build.targets.wheel]
 packages = ["src/leetcomp"]
 
+[[tool.uv.index]]
+url = "https://pypi.org/simple"
+default = true
+
 [tool.ruff]
 line-length = 90
 
