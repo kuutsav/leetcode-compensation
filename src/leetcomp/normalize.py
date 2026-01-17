@@ -67,18 +67,22 @@ def get_new_entities(
     new_entities = []
     with open(file_path, "r") as f:
         for line in f:
-            rec = json.loads(line)
-            # stop when we reach already-processed records by id
-            if till_id is not None and rec.get("id") == till_id:
-                break
-            # stop when we pass the timestamp (posts are ordered by most recent first)
-            if till_timestamp is not None and rec.get("created_at", "") < till_timestamp:
-                break
-            if entity_type in rec:
-                entity = rec[entity_type]
-                # only include if not already mapped (lowercase for consistent lookup)
-                if entity.lower() not in existing_mapping:
-                    new_entities.append(entity)
+            try:
+                rec = json.loads(line)
+                # stop when we reach already-processed records by id
+                if till_id is not None and rec.get("id") == till_id:
+                    break
+                # stop when we pass the timestamp (posts are ordered by most recent first)
+                if till_timestamp is not None and rec.get("created_at", "") < till_timestamp:
+                    break
+                if entity_type in rec:
+                    entity = rec[entity_type]
+                    # only include if not already mapped (lowercase for consistent lookup)
+                    if entity.lower() not in existing_mapping:
+                        new_entities.append(entity)
+            except (TypeError, ValueError, KeyError) as e:
+                print(f"Warning: Skipping invalid record in {file_path}: {e}")
+                continue
     return new_entities
 
 

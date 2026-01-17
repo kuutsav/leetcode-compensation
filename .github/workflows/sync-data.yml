@@ -35,7 +35,8 @@ jobs:
       - name: Run sync
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          LLM_PROVIDER: github_models
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
+          LLM_PROVIDER: zai # github_models
         run: uv run leetcomp-sync
 
       - name: Check for changes
