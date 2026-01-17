@@ -1,89 +1,21 @@
-# Sync Report - 2026-01-14 08:03
+# Sync Report - 2026-01-17 15:14
 
-**15 new posts found, 8 posts with 12 offers added**
-
----
-
-## 1. ConnectWise Offer | Senior Frontend Engineer 1 | SSE1 | 2026 JAN
-
-### Raw Content
-```
-# Background:
-**College** - Tier 3, State College
-**Experience** - Infosys and then a StartUp | Total = 3.2 years
-**Current Compensation** - 12LPA fixed , 2lac bonus performance based
-**Notice Period** - was 90 days, negotiated down to 60 days, i did not have much project work pending we just had a major release cycle completed after a year of work so got early release approvals.
-
-# Offer:
-**Company** - ConnectWise (location pune)
-**Title** - Senior Frontend Engineer 1 | recruiter said it was on the lines of SSE1
-**Compensation offered** - Fixed - 32 LPA , Joining Bonus - 3.5 LPA , Relocatin Bonus - 1.5 LPA , Bonus Component - 0 (N/A)
-**Perks** - afternoon free meal and cab service of some sort
-
-# Verdict:
-Accepted the offer, as i did not have an offer in hand. And i was not getting many offers, most companies approaching were startUps from  Gurugram/Bangalore.
-
-# How i got the offer
-i negotiated really really hard they initially offered 26LPA on 90 days and then i got the early approvals.
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| connectwise | SSE | 3.2 | 32 | 37 | Pune |
+**33 new posts found, 13 posts with 14 offers added**
 
 ---
 
-## 2. Need help with offer for SDE 3
+## 1. ServiceNow | Software Development Intern (2 Months) | Hyderabad
 
 ### Raw Content
 ```
-I have 4.8 years of experience with current compensation as 
-42L(Base), 4L(Variable), and 10L worth Esops in Flipkart. 
+Stipend – ₹89K/month
+Joining Bonus – ₹50K 
 
-Got the offer from Bloomreach as 
-58L(Base), 3L(Annual Bonus), 2L(JB), 3300 RSUs splitted over 3 years. 
-Total 1st year - 63L(including Bonus) + 1100 Units RSUs
-Location - India
-HR told 1 RSU is $17.
-Is this a good offer to join Pls help?
-```
+full-time conversion offer:
+CTC: ₹44L
 
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| bloomreach | SDE 3 | 4.8 | 58 | 79.7 | India |
-
----
-
-## 3. JPMC SDE 2 Offer
-
-### Raw Content
-```
-Hi All I recently got a SDE 2 Offer from JPMC.
-About me
-Previous comp: 16 lpa at a decent Product based company (Remote)
-Experience : 5.5 YOE
-Role: SDE-2 (Associate)
-Team : CCB
-Comp:
-• Base: ₹29 LPA 
-• Bonus: 12% (~₹3.5L)
-
-1. Wanted to know if this is good comp for me, this is highest offer i got till now and i have only few weeks left in my notice period.I am looking for Remote roles but not able to find any decent job on that part.
-
-2. I wanted to know culture in CCB org , stability, layoffs, working hours and learning. How is all these aspect in JPMC.
-
-3. Plus JPMC is very hard on office. Wanted to know if we can take few weeks wfh quarterly basis if we complete 80% attendance.
-
-4. Is bonus paid completely at year end as mentioned or it not fix ??
-
-
-Anyone from JPMC can help here on above queries.
-
-
+Footnote:
+This is not a job or internship posting; the details are shared purely for informational purposes.
 
 ```
 
@@ -91,93 +23,58 @@ Anyone from JPMC can help here on above queries.
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| JPMorgan Chase | SDE 2 | 5.5 | 29 | 32.5 | - |
+| ServiceNow | SDE | - | 44 | 44 | Hyderabad |
 
 ---
 
-## 4. Licious Graduate Trainee 
+## 2. Offer Review | Microsoft SSE L63 | India
 
 ### Raw Content
 ```
-Location: Bangalore
-Company : Licious
-Years of Experience: 0 (Campus offer )
-Date of Offer : 2023
-Role: SDE 1 
+Hey folks, can you please review this offer and tell me if this is a good offer for L63?
 
-Base: 12Lpa (including retirals)
+Current(Amazon SDE2):
+Base: 46L
+Bonus: 17L
+RSUs: USD 90,000(With 15% vesting this year, remaining 40-40% for next 2 years)
+YOE: ~8.5
 
-Stocks: ESOPS worth 2LPA over 4 years 
-
-Variable 1LPA 
-
-
-Retention Bonus : 1 LPA 
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| licious | SDE 1 | - | 12 | 14.5 | Bengaluru |
-
----
-
-## 5. Offer Review | Microsoft | L61 | Hyderabad
-
-### Raw Content
-```
-
-
-Prior Experience: 5.5 Years (Product-based)
-
-Current CTC: ₹30.5 L Base | $30k Stocks (vested for 3 years)
 
 Microsoft Offer:
+Level: SSE(L63)
+Base: 51L
+Annual Bonus: 0-30% -> 15% on an average
+SignOn Bonus: 8.5L
+RSUs: $120,000, 4 Year Vesting Period
 
-    Base: ₹33 L (inclusive of PF)
-
-    Signing Bonus: ₹8 L (6+2)
-
-    Stock: $70k (vested over 4 years)
-
-    Relocation: ₹2.75 L
-
-    Variable: 0-20%
-
-I tried to negotiate but HR mentioned this is the final offer.
-
+These are the original numbers. Please suggest room for negotiations.
 ```
 
 ### Parsed Offers
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Microsoft | SDE 3 | 5.5 | 33 | 50.75 | Hyderabad |
+| Microsoft | SSE | 8.5 | 51 | 71.75 | India |
 
 ---
 
-## 6. AI STRIKE  NEW EDGE STARTUP - OFFER ACCEPTED
+## 3. Which offer to choose? EPAM vs Startup
 
 ### Raw Content
 ```
+Current 
+- Company: TCS
+- Comp: 10 LPA
+- Exp: 2 YOE
+- Role: GenAI Dev
+- LWD: Feb End
 
+Offers:
+- Startup: 16 LPA (15+1) - REMOTE (Clinical Trials)
+- EPAM   : 16 LPA (fixed, includes gratuity) - BANGALORE (No Project as of now)
 
-COMPENSATION FOR - SDE + MACHINE LEARNING ENGINEER
+People working in EPAM, would love your thoughts.
 
-
-YOE: 3 YEARS
-BASE: 37LPA
-JOINING BONUS: 4.5LPA
-PERFORMANCE BONUS: 10% of BASE
-TOTAL: 41.5+3.7= 44.8LPA 
-
-
-After negotiation[Offer Letter]:
-BASE: 38.75 LPA
-JOINING BONUS: 4.75 LPA
-PERFORMANCE BONUS : 10% to 13% of BASE [ mentioned in offer letter]
-Total: 43.25+3.875=~48LPA
 
 ```
 
@@ -185,113 +82,344 @@ Total: 43.25+3.875=~48LPA
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| ai strike | SDE | 3 | 38.75 | 48 | - |
+| Startup | GenAI Dev | 2 | 15 | 16 | Remote |
+| EPAM | GenAI Dev | 2 | 16 | 16 | Bengaluru |
 
 ---
 
-## 7. Paypal vs Kotak vs Morgan Stanley
+## 4. Exiting from TCS
 
 ### Raw Content
 ```
-Hi All,
-I currently have offers from Morgan Stanley, Kotak, and PayPal, and I’m trying to decide which opportunity makes the most sense in the long run.
-YOE - 6+ years
-CTC - 40 LPA + 10%variable + 3 JB
+**Current Company: TCS**
+- Role: SE (Digital)
+- Experience: 2.5 YoE (2023 Passout)
+- Tech Stack: React.js (Frontend)
+- CTC: 7.85 (6 Fixed)
+- Location: Kolkata
 
-Offer details:
+***Offers in Hand**-*
 
-Morgan Stanley
-Base: ~46.6 LPA
-Variable: ~ 10%
-Sign-on + relocation: ~8.75 LPA (one-time)
-Hybrid (3 days WFO)
+**HashedIn By Deloitte**:
+- Reached to recruiter after seeing their post on LinkedIn.
+- Offer Date: December (First Week)
+- Role: UI Expert (1-3 Years)
+- CTC: 10 (8.6 Fixed + 1.43 Perf + appraisal twice a year + other benefits)
+- CTC doesn't includes Gratuity
+- Tech Stack: Js,React (Frontend)
+- Location: Kolkata
 
-Kotak
-Base: ~50 LPA
-Variable: ~5.0 LPA
-Joining bonus: 7 L + 3 L (after 6 months)
-5 days WFO
+**Aaxis Digital**:
+- Cold messaged recruiter on LinkedIn.
+- Offer Date: December (First Week)
+- Role: Software Engineer (Frontend focused)
+- CTC: 14 (13 Fixed (including PF + Gratuity) + 1 Variable)
+- Tech Stack: Js,React (Frontend)
+- Location: Pune
 
-PayPal
-Base: ~47 LPA
-Variable: ~4.7 LPA
-Equity: ~$40k over 3 years
-No sign-on / relocation
+---
+Which one will be good for long term?
+Preference: (Work + Pay) > WLB > Location
 
-My priorities (in order):
-- Job stability
-- Work–life balance
-- Compensation 
+Would love to hear from the community.
 
-Which option would you choose given the above priorities and not regretting the decision after 1–2 years?
+
+
 ```
 
 ### Parsed Offers
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Morgan Stanley | Not Mentioned | 6 | 46.6 | 59.01 | Hyderabad |
-| Kotak | Not Mentioned | 6 | 50 | 65 | Hyderabad |
-| PayPal | Not Mentioned | 6 | 47 | 60.7 | Hyderabad |
+| Aaxis Digital | SDE | 2.5 | - | 14 | Pune |
 
 ---
 
-## 8. Microsoft L62 Offer
+## 5. Meta Blr E4 Offer
 
 ### Raw Content
 ```
-About me
-- PBC (Last year comp: 65lpa, dropped this year to 50lpa due to stock cliff) 
-- 4.5 YOE
+Current TC - top MNC, 82 lpa(because of stock appreciation), 4.5 yoe
 
-All offers received in Oct 2025
+Meta offer:- 
 
-# Offer 1 — Microsoft (Bangalore)
+45 base + 160k USD stocks + 7l Joining bonus ~ 88 lpa for first year
 
-Role: SDE-2 (L62)
-
-Comp:
-• Base: ₹38 LPA (incl. PF)
-• Bonus: 0–20% (avg ~10% → ~₹3.8L)
-• Joining Bonus: ₹5L (Y1) + ₹5L (Y2)
-• RSUs: $110K (25% yearly vesting)
-
-Year-1 CTC (approx):
-38 + 3.8 + 5 + 22.5 = ~₹70 LPA
-
-# Offer 2 — Adobe (Noida)
-
-Role: Computer Scientist-1
-
-• Base: ₹36 LPA (incl. PF)
-• Bonus: 15% → ~₹5.4L
-• RSUs: $85K (25% yearly vesting)
-
-Year-1 CTC:
-36 + 5.4 + 17.5 = ~₹60 LPA
-
-Adobe HR said they could match MS at best, but not beat it. I was already leaning toward MS, so didn’t negotiate further.
-
-# Offer 3 — Arctic Wolf (Bangalore)
-
-Role: Senior Software Engineer
-
-• Base: ₹56 LPA (incl. PF)
-• Bonus: 5% → ~₹2.8L
-• ESOPs: ₹17L total (25% yearly vesting)
-• Total CTC: ~₹63 LPA
-
-Final Decision
-
-Joined Microsoft Bangalore
+I have a competing offer from a startup for 60 + 20 lpa.
+Seems like a lowball to me. I have seen 1cr+ offers for Meta Blr E4 on the internet, but the recruiter is not budging.
 ```
 
 ### Parsed Offers
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Microsoft | SDE 2 | 4.5 | 38 | 70 | Bengaluru |
-| Adobe | Computer Scientist 1 | 4.5 | 36 | 60 | Noida |
-| arctic wolf | SSE | 4.5 | 56 | 63 | Bengaluru |
+| Meta | E4 | 4.5 | 45 | 88 | Bengaluru |
+
+---
+
+## 6. Atlassian P40 | India
+
+### Raw Content
+```
+# Offer:
+**Level**: P40 (SDE2)
+**Time of offer**: Nov 2025
+**Base**: 57L
+**Annual Bonus**: 15% (8.55L)
+**Joining Bonus**: 7L
+**RSU**: 100k$ over 4 years (22.27L/yr)
+**Other benefits**: PF 2.7L, Misc bonus: 1L, equity refreshers
+**TC**: 99L for 1st year, 92L year 2 onwards
+
+**Current**:
+**TC:** 70L (faang)
+**YOE:** 6 years
+
+Accepted the offer
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Atlassian | SDE 2 | 6 | 57 | 99 | Bengaluru |
+
+---
+
+## 7. Meesho SDE3 | India
+
+### Raw Content
+```
+# Offer:
+**Level**: SDE3
+**Time of offer**: Sept 2025
+**Base**: 61L
+**Annual Bonus**: 0
+**Joining Bonus**: 0 
+**ESOPs**: 57L across 4 years (pre IPO valuation)
+**TC**: 75L (pre IPO) / 90L (post IPO)
+
+**Current**:
+**TC:** 65L (faang)
+**YOE:** 6 years
+
+Rejected as it was 5 days WFO and I had similar offers. 
+
+[Interview Exp](https://leetcode.com/discuss/post/7496727/meesho-sde3-interview-india-got-offer-by-v59z/)
+
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Meesho | SDE 3 | 6 | 61 | 75 | India |
+
+---
+
+## 8. NetApp | Software Engineer - 3 Offer
+
+### Raw Content
+```
+Education: B.Tech, Computer Science, Tier 2 College 
+Experience: 4.5 Years 
+Current Company: Product based Mid-Size MNC
+Current Compensation: 40 LPA (incl RSUs)
+
+## NetApp Offer 
+Base: 43
+RSU: 24K USD (Vested over three years)
+Total CTC first year: 53-56 LPA 
+
+Is this a good offer? How is the work culture at NetApp? 
+They also have some ICP in the CTC, can someone from NetApp comment how much % of ICP is usually given on an average 
+
+
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| NetApp | SDE 3 | 4.5 | 43 | 55 | - |
+
+---
+
+## 9. Microsoft SSE L63 | India
+
+### Raw Content
+```
+# Offer:
+**Level**: SSE(L63)
+**Base**: 56L
+**Annual Bonus:** 0-30% -> 15% on an average
+**SignOn Bonus**: 12L (paid in 2 parts and paid fully after 1 year)
+**RSUs**: $170,000, 4 Year Vesting Period, 1 Year Cliff Period
+
+
+# Current:
+**Base**: 77L
+**Annual Bonus** 15%
+**RSUs**: USD 210,000 (includes refreshers, joining RSUs $170,000)
+**YOE**: ~9
+
+
+Have negotiated on RSUs and Level w/ Microsoft as i was not okay with level downgrade, waiting on them to comeback
+
+Interview: https://leetcode.com/discuss/post/7425597/microsoft-interview-by-anonymous_user-zysz/
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Microsoft | SSE | 9 | 56 | 84.5 | Remote |
+
+---
+
+## 10. Yugabyte offer [Need help to evaluate] | offer |
+
+### Raw Content
+```
+Current Role:
+exp: 6+
+Senior SDET at a large enterprise product company
+
+Current comp: 44 LPA base + 4.5 LPA variable + ESOPs on paper (private company)
+
+Offer on the Table:
+
+Staff SDET I at Yugabyte
+
+Base: 52 LPA, no variable, ESOPs on paper (potential upside if IPO / funding) some 25k 
+
+Can you helpm we evaluate this offer 
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Yugabyte | SDET | 6 | 52 | - | - |
+
+---
+
+## 11. Microsoft Offer Discussion - L62
+
+### Raw Content
+```
+Hi everyone,
+
+I recently received an offer from Microsoft and would like to get community opinions on whether it’s a good move.
+
+```
+YOE: 6.5 years
+Current Location: Bengaluru
+Offer Location: Hyderabad
+```
+
+```
+Current Compensation (Bengaluru)
+
+Base: ₹43 LPA
+
+Approx TC: ~₹55–58 LPA (market dependent)
+
+Microsoft Offer (L62 – Hyderabad)
+
+Level: L62
+
+Base: ₹41 LPA (includes employer PF contribution)
+
+Bonus: Up to 20% (target-based)
+
+Joining Bonus: ₹8 L total over 2 years
+
+RSUs: $100k over 4 years
+
+Year-1 TC (approx): ~₹72–75 LPA (depending on stock price & bonus payout)
+
+```
+**My Questions**
+- Is L62 a fair level for 6.5 YOE at Microsoft India?
+
+- How does this offer compare to market for Hyderabad vs Bengaluru?
+- Is the base being lower than current base (but higher total comp) a concern?
+
+- Would this be considered a good long-term move assuming 3–4 years at Microsoft?
+
+- Any advice on whether light negotiation (RSUs / sign-on) is still worth trying?
+
+Would really appreciate inputs from folks who have seen or experienced Microsoft India offers. As i have joining in few weeks.
+
+Thanks in advance!
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Microsoft | SDE 4 | 6.5 | 41 | 72.16 | Hyderabad |
+
+---
+
+## 12. Urgent: Salesforce Compensation - MTS
+
+### Raw Content
+```
+Current company - Walmart India, Bangalore
+YOE - 4.5
+Current Designation: SDE3 Frontend
+Current CTC: 24.4L(Including Employer PF) + 20% Bonus(~4.6L) + 7-8L RSUs
+        which is total around: ~29LPA + 7-8L RSUs
+
+Interviewed in last 30days, recruiter reached out directly.
+
+Offer: Salesforce MTS, Hyderabad
+Team: Platform Team hiring for Front end engineer.
+Verbal CTC: 30L-32L MAX Base (Including Employer PF) + 10% Bonus(3L) + 7-8L RSUs yearly + Relocation of 1.5L
+which is total around 33-35LPA + 7-8L RSUs yearly + Relocation of 1.5L
+
+This is not even 20% Hike plus relocation is required.
+What should I do? I am a female with no friends in Hyderabad.
+
+
+
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Salesforce | MTS | 4.5 | 32 | 42.25 | Hyderabad |
+
+---
+
+## 13. Offer Review | Booking Holdings | Full Stack Engineer II | Bengaluru
+
+### Raw Content
+```
+Current company
+
+
+Overall TC: ~80 LPA
+
+Base: ~69 LPA including PF
+RSUs: $20k USD vested over 3 years
+Joining bonus: 5 Lakh
+Annual bonus: 15% of base salary
+
+Previously worked in Remote based company
+
+YOE: 14 years
+
+The offer was lower than my expectations, but I accepted it anyway after coming from a toxic culture in my previous organization.
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Booking Holdings | Full Stack Engineer 2 | 14 | 69 | 84.35 | Bengaluru |
 
 ---
