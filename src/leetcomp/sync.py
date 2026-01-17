@@ -148,6 +148,9 @@ def sync() -> None:
 
     # normalize entities (only new ones)
     print("\nNormalizing entities...")
+    from leetcomp.utils import get_provider_info
+    provider, url, model = get_provider_info()
+    print(f"Using LLM provider: {provider}, model: {model}")
     normalize_and_save(PARSED_FILE, fetch_till_post_id, fetch_till_timestamp)
 
     # create final data for UI

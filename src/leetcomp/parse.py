@@ -137,6 +137,10 @@ def prepend_to_parsed_posts(temp_file: str, parsed_posts_file: str) -> None:
 
 
 def parse_posts_with_llm(posts_file: str, till_id: int | None = None, till_timestamp: str | None = None) -> None:
+    from leetcomp.utils import get_provider_info
+    provider, url, model = get_provider_info()
+    print(f"Using LLM provider: {provider}, model: {model}")
+
     if os.path.exists(PARSED_TEMP_FILE):
         os.remove(PARSED_TEMP_FILE)
 
