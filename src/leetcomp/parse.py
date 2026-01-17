@@ -93,8 +93,15 @@ def should_parse_post(post: dict) -> bool:
     return post["downvotes"] <= post["upvotes"]
 
 
-def should_stop_parsing(post: dict, till_id: int | None) -> bool:
-    return till_id is not None and post["id"] == till_id
+def should_stop_parsing(post: dict, till_id: int | None, till_timestamp: str | None = None) -> bool:
+    # Stop if we found the exact post ID
+    if till_id is not None and post["id"] == till_id:
+        return True
+    # Stop if we passed the timestamp (posts are ordered by most recent first)
+    # This is a fallback in case the till_id post was deleted
+    if till_timestamp is not None and post["created_at"] < till_timestamp:
+        return True
+    return False
 
 
 def post_content_to_parse(post: dict) -> str:
@@ -129,14 +136,15 @@ def prepend_to_parsed_posts(temp_file: str, parsed_posts_file: str) -> None:
         parsed_f.write(old_content)
 
 
-def parse_posts_with_llm(posts_file: str, till_id: int | None) -> None:
+def parse_posts_with_llm(posts_file: str, till_id: int | None = None, till_timestamp: str | None = None) -> None:
     if os.path.exists(PARSED_TEMP_FILE):
         os.remove(PARSED_TEMP_FILE)
 
     parsed, skip = 0, 0
     for post in posts_to_parse(posts_file):
-        if should_stop_parsing(post, till_id):
-            print(f"Exiting; Found a prev parsed id: {till_id}")
+        if should_stop_parsing(post, till_id, till_timestamp):
+            stop_reason = f"Found prev parsed id: {till_id}" if till_id else f"Passed timestamp: {till_timestamp}"
+            print(f"Exiting; {stop_reason}")
             break
         elif not should_parse_post(post):
             skip += 1

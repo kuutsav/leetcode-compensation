@@ -60,15 +60,19 @@ def get_all_entities(file_path: str, entity_type: str) -> list[str]:
 def get_new_entities(
     file_path: str,
     entity_type: NormalizedEntity,
-    till_id: int | None,
-    existing_mapping: dict[str, str],
+    till_id: int | None = None,
+    till_timestamp: str | None = None,
+    existing_mapping: dict[str, str] | None = None,
 ) -> list[str]:
     new_entities = []
     with open(file_path, "r") as f:
         for line in f:
             rec = json.loads(line)
-            # stop when we reach already-processed records
+            # stop when we reach already-processed records by id
             if till_id is not None and rec.get("id") == till_id:
+                break
+            # stop when we pass the timestamp (posts are ordered by most recent first)
+            if till_timestamp is not None and rec.get("created_at", "") < till_timestamp:
                 break
             if entity_type in rec:
                 entity = rec[entity_type]
@@ -201,10 +205,13 @@ def _llm_mapped_output_with_context(
 def normalize_new_entities(
     file_path: str,
     entity_type: NormalizedEntity,
-    till_id: int | None,
-    existing_mapping: dict[str, str],
+    till_id: int | None = None,
+    till_timestamp: str | None = None,
+    existing_mapping: dict[str, str] | None = None,
 ) -> dict[str, str]:
-    new_entities = get_new_entities(file_path, entity_type, till_id, existing_mapping)
+    if existing_mapping is None:
+        existing_mapping = {}
+    new_entities = get_new_entities(file_path, entity_type, till_id, till_timestamp, existing_mapping)
 
     if not new_entities:
         print(f"No new {entity_type} entities to normalize")
@@ -242,7 +249,7 @@ def normalized_entity_mapping(
     return mapped_entities
 
 
-def normalize_and_save(file_path: str, till_id: int | None) -> None:
+def normalize_and_save(file_path: str, till_id: int | None = None, till_timestamp: str | None = None) -> None:
     for entity_type in [
         NormalizedEntity.COMPANY,
         NormalizedEntity.ROLE,
@@ -260,7 +267,7 @@ def normalize_and_save(file_path: str, till_id: int | None) -> None:
             # incremental update for existing mappings
             existing_mapping = load_mapping(map_file)
             new_mappings = normalize_new_entities(
-                file_path, entity_type, till_id, existing_mapping
+                file_path, entity_type, till_id, existing_mapping, till_timestamp
             )
 
             if new_mappings:

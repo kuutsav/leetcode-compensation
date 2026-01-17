@@ -24,21 +24,24 @@ def get_default_provider() -> Provider:
     return Provider.LM_STUDIO
 
 
-def last_fetched_id(file_with_ids: str) -> int | None:
+def last_fetched_info(file_with_ids: str) -> tuple[int | None, str | None]:
     """
-    Used to fetch the last processed id from jsonl records (raw and processed).
-    This heelps in avoiding processing or parsing of the same ids across runs.
+    Used to fetch the last processed id and its timestamp from jsonl records.
+    Returns a tuple of (id, created_at). Returns (None, None) if file doesn't exist.
     """
     if not os.path.exists(file_with_ids):
-        return None
+        return None, None
 
     _last_id = None
+    _created_at = None
     with open(file_with_ids, "r") as f:
         for line in f:
-            _last_id = json.loads(line)["id"]
+            data = json.loads(line)
+            _last_id = data.get("id")
+            _created_at = data.get("created_at")
             break
 
-    return _last_id
+    return _last_id, _created_at
 
 
 def get_llm_output(prompt: str, provider: Provider | None = None) -> str | None:

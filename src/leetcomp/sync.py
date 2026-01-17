@@ -20,7 +20,7 @@ from leetcomp.transform import (
     transform_record,
     load_entity_mappings,
 )
-from leetcomp.utils import last_fetched_id
+from leetcomp.utils import last_fetched_info
 
 
 def cleanup_temp_files():
@@ -130,21 +130,25 @@ def generate_sync_report(till_id: int | None) -> str | None:
 def sync() -> None:
     # fetch new posts (till the latest fetched id)
     print("Syncing posts...")
-    fetch_till_post_id = last_fetched_id(POSTS_FILE)
+    fetch_till_post_id, fetch_till_timestamp = last_fetched_info(POSTS_FILE)
     if fetch_till_post_id:
         print(f"Fetching till post id: {fetch_till_post_id}")
-    asyncio.run(fetch_posts_in_bulk(till_id=fetch_till_post_id))
+    if fetch_till_timestamp:
+        print(f"Or till timestamp: {fetch_till_timestamp}")
+    asyncio.run(fetch_posts_in_bulk(till_id=fetch_till_post_id, till_timestamp=fetch_till_timestamp))
 
     # enrich and normalise the posts (for ui)
     print("\nParsing posts...")
-    fetch_till_post_id = last_fetched_id(PARSED_FILE)
+    fetch_till_post_id, fetch_till_timestamp = last_fetched_info(PARSED_FILE)
     if fetch_till_post_id:
         print(f"Parsing till post id: {fetch_till_post_id}")
-    parse_posts_with_llm(POSTS_FILE, fetch_till_post_id)
+    if fetch_till_timestamp:
+        print(f"Or till timestamp: {fetch_till_timestamp}")
+    parse_posts_with_llm(POSTS_FILE, fetch_till_post_id, fetch_till_timestamp)
 
     # normalize entities (only new ones)
     print("\nNormalizing entities...")
-    normalize_and_save(PARSED_FILE, fetch_till_post_id)
+    normalize_and_save(PARSED_FILE, fetch_till_post_id, fetch_till_timestamp)
 
     # create final data for UI
     print("\nCreating final data...")
