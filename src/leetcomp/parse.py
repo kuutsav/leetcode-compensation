@@ -9,7 +9,7 @@ import shutil
 import xml.etree.ElementTree as ET
 
 from leetcomp import PARSED_FILE, PARSED_TEMP_FILE
-from leetcomp.utils import get_llm_output
+from leetcomp.utils import get_llm_output, get_provider_info
 from leetcomp.prompts import COMPENSATION_PARSING_PROMPT
 
 
@@ -93,7 +93,9 @@ def should_parse_post(post: dict) -> bool:
     return post["downvotes"] <= post["upvotes"]
 
 
-def should_stop_parsing(post: dict, till_id: int | None, till_timestamp: str | None = None) -> bool:
+def should_stop_parsing(
+    post: dict, till_id: int | None, till_timestamp: str | None = None
+) -> bool:
     # Stop if we found the exact post ID
     if till_id is not None and post["id"] == till_id:
         return True
@@ -136,8 +138,9 @@ def prepend_to_parsed_posts(temp_file: str, parsed_posts_file: str) -> None:
         parsed_f.write(old_content)
 
 
-def parse_posts_with_llm(posts_file: str, till_id: int | None = None, till_timestamp: str | None = None) -> None:
-    from leetcomp.utils import get_provider_info
+def parse_posts_with_llm(
+    posts_file: str, till_id: int | None = None, till_timestamp: str | None = None
+) -> None:
     provider, url, model = get_provider_info()
     print(f"Using LLM provider: {provider}, model: {model}")
 
@@ -147,7 +150,11 @@ def parse_posts_with_llm(posts_file: str, till_id: int | None = None, till_times
     parsed, skip = 0, 0
     for post in posts_to_parse(posts_file):
         if should_stop_parsing(post, till_id, till_timestamp):
-            stop_reason = f"Found prev parsed id: {till_id}" if till_id else f"Passed timestamp: {till_timestamp}"
+            stop_reason = (
+                f"Found prev parsed id: {till_id}"
+                if till_id
+                else f"Passed timestamp: {till_timestamp}"
+            )
             print(f"Exiting; {stop_reason}")
             break
         elif not should_parse_post(post):

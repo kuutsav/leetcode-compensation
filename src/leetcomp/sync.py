@@ -20,7 +20,7 @@ from leetcomp.transform import (
     transform_record,
     load_entity_mappings,
 )
-from leetcomp.utils import last_fetched_info
+from leetcomp.utils import last_fetched_info, get_provider_info
 
 
 def cleanup_temp_files():
@@ -135,7 +135,11 @@ def sync() -> None:
         print(f"Fetching till post id: {fetch_till_post_id}")
     if fetch_till_timestamp:
         print(f"Or till timestamp: {fetch_till_timestamp}")
-    asyncio.run(fetch_posts_in_bulk(till_id=fetch_till_post_id, till_timestamp=fetch_till_timestamp))
+    asyncio.run(
+        fetch_posts_in_bulk(
+            till_id=fetch_till_post_id, till_timestamp=fetch_till_timestamp
+        )
+    )
 
     # enrich and normalise the posts (for ui)
     print("\nParsing posts...")
@@ -148,7 +152,6 @@ def sync() -> None:
 
     # normalize entities (only new ones)
     print("\nNormalizing entities...")
-    from leetcomp.utils import get_provider_info
     provider, url, model = get_provider_info()
     print(f"Using LLM provider: {provider}, model: {model}")
     normalize_and_save(PARSED_FILE, fetch_till_post_id, fetch_till_timestamp)

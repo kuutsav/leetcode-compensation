@@ -73,7 +73,10 @@ def get_new_entities(
                 if till_id is not None and rec.get("id") == till_id:
                     break
                 # stop when we pass the timestamp (posts are ordered by most recent first)
-                if till_timestamp is not None and rec.get("created_at", "") < till_timestamp:
+                if (
+                    till_timestamp is not None
+                    and rec.get("created_at", "") < till_timestamp
+                ):
                     break
                 if entity_type in rec:
                     entity = rec[entity_type]
@@ -215,7 +218,9 @@ def normalize_new_entities(
 ) -> dict[str, str]:
     if existing_mapping is None:
         existing_mapping = {}
-    new_entities = get_new_entities(file_path, entity_type, till_id, till_timestamp, existing_mapping)
+    new_entities = get_new_entities(
+        file_path, entity_type, till_id, till_timestamp, existing_mapping
+    )
 
     if not new_entities:
         print(f"No new {entity_type} entities to normalize")
@@ -253,7 +258,9 @@ def normalized_entity_mapping(
     return mapped_entities
 
 
-def normalize_and_save(file_path: str, till_id: int | None = None, till_timestamp: str | None = None) -> None:
+def normalize_and_save(
+    file_path: str, till_id: int | None = None, till_timestamp: str | None = None
+) -> None:
     for entity_type in [
         NormalizedEntity.COMPANY,
         NormalizedEntity.ROLE,
@@ -271,7 +278,7 @@ def normalize_and_save(file_path: str, till_id: int | None = None, till_timestam
             # incremental update for existing mappings
             existing_mapping = load_mapping(map_file)
             new_mappings = normalize_new_entities(
-                file_path, entity_type, till_id, existing_mapping, till_timestamp
+                file_path, entity_type, till_id, till_timestamp, existing_mapping
             )
 
             if new_mappings:
