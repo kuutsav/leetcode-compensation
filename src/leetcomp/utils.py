@@ -12,21 +12,37 @@ class Provider(StrEnum):
     ZAI = "zai"
 
 
-LM_STUDIO_URL = "http://localhost:1234/v1/chat/completions"
-LM_STUDIO_MODEL = "openai/gpt-oss-20b"
-GITHUB_MODELS_URL = "https://models.github.ai/inference"
-GITHUB_MODELS_MODEL = "openai/gpt-4o"
-ZAI_MODELS_URL = "https://api.z.ai/api/coding/paas/v4"
-ZAI_MODEL = "glm-4.6"
+_PROVIDER_CONFIG = {
+    Provider.GITHUB_MODELS: {
+        "url": "https://models.github.ai/inference",
+        "model": "openai/gpt-4o",
+        "api_key_env": "GITHUB_TOKEN",
+    },
+    Provider.LM_STUDIO: {
+        "url": "http://localhost:1234/v1/chat/completions",
+        "model": "openai/gpt-oss-20b",
+        "api_key_env": None,
+    },
+    Provider.ZAI: {
+        "url": "https://api.z.ai/api/coding/paas/v4",
+        "model": "glm-4.6",
+        "api_key_env": "ZAI_API_KEY",
+    },
+}
 
 
 def get_provider_info() -> tuple[Provider, str, str]:
     provider_env = os.environ.get("LLM_PROVIDER", "").lower()
-    if provider_env == "github_models":
-        return Provider.GITHUB_MODELS, GITHUB_MODELS_URL, GITHUB_MODELS_MODEL
-    elif provider_env == "zai":
-        return Provider.ZAI, ZAI_MODELS_URL, ZAI_MODEL
-    return Provider.LM_STUDIO, LM_STUDIO_URL, LM_STUDIO_MODEL
+    match provider_env:
+        case Provider.GITHUB_MODELS.value:
+            provider = Provider.GITHUB_MODELS
+        case Provider.ZAI.value:
+            provider = Provider.ZAI
+        case _:
+            provider = Provider.LM_STUDIO
+
+    config = _PROVIDER_CONFIG[provider]
+    return provider, config["url"], config["model"]
 
 
 def last_fetched_info(file_with_ids: str) -> tuple[int | None, str | None]:
@@ -56,40 +72,39 @@ def get_llm_output(prompt: str) -> str | None:
     Uses Github Models (free tier credits) to parse the new data during sync operations.
     """
     provider, url, model = get_provider_info()
+    config = _PROVIDER_CONFIG[provider]
 
-    if provider == Provider.GITHUB_MODELS or provider == Provider.ZAI:
-        api_key = (
-            os.environ["GITHUB_TOKEN"]
-            if provider == Provider.GITHUB_MODELS
-            else os.environ["ZAI_API_KEY"]
-        )
-        client = OpenAI(base_url=url, api_key=api_key)
-        response = client.chat.completions.create(
-            model=model,
-            temperature=0.3,
-            max_tokens=4096,
-            top_p=1,
-            messages=[
-                {
-                    "role": "system",
-                    "content": "You are expert at parsing compenstaion related posts from leetcode discuss forum.",
-                },
-                {"role": "user", "content": prompt},
-            ],
-            reasoning_effort="none",
-        )
-        return response.choices[0].message.content
-    elif provider == Provider.LM_STUDIO:
-        # TODO: Need to set the thinking budget here; thinks for really long at times :/
-        payload = {
-            "model": model,
-            "temperature": 0.3,
-            "messages": [{"role": "user", "content": prompt}],
-        }
-        with httpx.Client(timeout=120.0) as client:
-            response = client.post(url, json=payload)
-            response.raise_for_status()
-            result = response.json()
-            return result["choices"][0]["message"]["content"]
+    match provider:
+        case Provider.LM_STUDIO:
+            # TODO: Need to set the thinking budget here; thinks for really long at times :/
+            payload = {
+                "model": model,
+                "temperature": 0.3,
+                "messages": [{"role": "user", "content": prompt}],
+            }
+            with httpx.Client(timeout=120.0) as client:
+                response = client.post(url, json=payload)
+                response.raise_for_status()
+                result = response.json()
+                return result["choices"][0]["message"]["content"]
 
-    raise KeyError(f"Unkown provider {provider}")
+        case Provider.GITHUB_MODELS | Provider.ZAI:
+            api_key = os.environ[config["api_key_env"]]
+            client = OpenAI(base_url=url, api_key=api_key)
+            response = client.chat.completions.create(
+                model=model,
+                temperature=0.3,
+                max_tokens=4096,
+                top_p=1,
+                messages=[
+                    {
+                        "role": "system",
+                        "content": "You are expert at parsing compensation related posts from leetcode discuss forum.",
+                    },
+                    {"role": "user", "content": prompt},
+                ],
+                reasoning_effort="none",
+            )
+            return response.choices[0].message.content
+
+    raise KeyError(f"Unknown provider {provider}")
