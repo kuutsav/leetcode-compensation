@@ -1,5 +1,45 @@
 [
   {
+    "id": 7505317,
+    "date": "2026-01-18T17:18:08.742204+00:00",
+    "location": "Remote",
+    "company": "Acquia",
+    "role": "SDE 2",
+    "yoe": 3.5,
+    "base": 33.5,
+    "total": 35
+  },
+  {
+    "id": 7504422,
+    "date": "2026-01-18T10:02:34.535009+00:00",
+    "location": "Kolkata",
+    "company": "Cognizant",
+    "role": "Associate",
+    "yoe": 4.7,
+    "base": 15.5,
+    "total": 16
+  },
+  {
+    "id": 7504421,
+    "date": "2026-01-18T10:02:29.220809+00:00",
+    "location": "Kolkata",
+    "company": "Cognizant",
+    "role": "Associate",
+    "yoe": 4.7,
+    "base": 15.5,
+    "total": 16
+  },
+  {
+    "id": 7504085,
+    "date": "2026-01-18T07:23:31.112809+00:00",
+    "location": "Mumbai",
+    "company": "Neosoft",
+    "role": "SDE",
+    "yoe": 4.4,
+    "base": 10,
+    "total": 11
+  },
+  {
     "id": 7501763,
     "date": "2026-01-17T10:35:24.540135+00:00",
     "location": "Hyderabad",
@@ -8954,7 +8994,7 @@
     "date": "2025-07-02T05:11:00.736480+00:00",
     "location": "",
     "company": "Doordash",
-    "role": "E4",
+    "role": "SDE 2",
     "yoe": 4,
     "base": 41,
     "total": 53
