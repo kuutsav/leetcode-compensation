@@ -1,5 +1,135 @@
 [
   {
+    "id": 7509547,
+    "date": "2026-01-20T10:57:55.280260+00:00",
+    "location": "Hyderabad",
+    "company": "Microsoft",
+    "role": "SDE 2",
+    "yoe": 3.5,
+    "base": 43,
+    "total": 72
+  },
+  {
+    "id": 7509230,
+    "date": "2026-01-20T08:09:27.663078+00:00",
+    "location": "",
+    "company": "BCG",
+    "role": "SDE",
+    "yoe": 2.5,
+    "base": 19,
+    "total": 22
+  },
+  {
+    "id": 7507695,
+    "date": "2026-01-19T16:57:33.261905+00:00",
+    "location": "",
+    "company": "Elsevier",
+    "role": "SSE",
+    "yoe": 4.5,
+    "base": 22,
+    "total": 26.3
+  },
+  {
+    "id": 7507695,
+    "date": "2026-01-19T16:57:33.261905+00:00",
+    "location": "",
+    "company": "Freshworks",
+    "role": "SSE",
+    "yoe": 4.5,
+    "base": 26,
+    "total": 28.6
+  },
+  {
+    "id": 7506415,
+    "date": "2026-01-19T07:08:48.601867+00:00",
+    "location": "Bengaluru",
+    "company": "BNP Paribas",
+    "role": "SDE",
+    "yoe": null,
+    "base": 14,
+    "total": 18
+  },
+  {
+    "id": 7506410,
+    "date": "2026-01-19T07:06:59.776112+00:00",
+    "location": "",
+    "company": "Qualcomm",
+    "role": "SSE",
+    "yoe": 4,
+    "base": 33.4,
+    "total": 39.10600000000001
+  },
+  {
+    "id": 7506402,
+    "date": "2026-01-19T07:03:54.163723+00:00",
+    "location": "",
+    "company": "Kraftshala",
+    "role": "SDE",
+    "yoe": 2,
+    "base": 16.25,
+    "total": 18
+  },
+  {
+    "id": 7506394,
+    "date": "2026-01-19T07:00:31.685501+00:00",
+    "location": "Remote",
+    "company": "Digitalpaani",
+    "role": "SSE",
+    "yoe": 5,
+    "base": 15,
+    "total": 21
+  },
+  {
+    "id": 7506378,
+    "date": "2026-01-19T06:54:33.333234+00:00",
+    "location": "India",
+    "company": "Qualys",
+    "role": "SDE",
+    "yoe": 3,
+    "base": 13,
+    "total": 15
+  },
+  {
+    "id": 7505317,
+    "date": "2026-01-18T17:18:08.742204+00:00",
+    "location": "Remote",
+    "company": "Acquia",
+    "role": "SDE 2",
+    "yoe": 3.5,
+    "base": 33.5,
+    "total": null
+  },
+  {
+    "id": 7504422,
+    "date": "2026-01-18T10:02:34.535009+00:00",
+    "location": "Kolkata",
+    "company": "Cognizant",
+    "role": "Associate",
+    "yoe": 4.7,
+    "base": 15.5,
+    "total": 16
+  },
+  {
+    "id": 7504421,
+    "date": "2026-01-18T10:02:29.220809+00:00",
+    "location": "Kolkata",
+    "company": "Cognizant",
+    "role": "Associate",
+    "yoe": 4.7,
+    "base": 15.5,
+    "total": 16
+  },
+  {
+    "id": 7504085,
+    "date": "2026-01-18T07:23:31.112809+00:00",
+    "location": "Mumbai",
+    "company": "Neosoft",
+    "role": "SDE",
+    "yoe": 4.4,
+    "base": 10,
+    "total": 11
+  },
+  {
     "id": 7501763,
     "date": "2026-01-17T10:35:24.540135+00:00",
     "location": "Hyderabad",
@@ -8954,7 +9084,7 @@
     "date": "2025-07-02T05:11:00.736480+00:00",
     "location": "",
     "company": "Doordash",
-    "role": "E4",
+    "role": "SDE 2",
     "yoe": 4,
     "base": 41,
     "total": 53
