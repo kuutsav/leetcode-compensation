@@ -48,7 +48,8 @@ def is_valid_record(rec: dict) -> tuple[bool, str]:
     if rec.get("currency") != "INR":
         return False, InvalidRecReason.NON_INR
 
-    required = ["id", "created_at", "company-normalized", "role-normalized"]
+    # Loosened criteria: role-normalized is now optional (will default to "N/A")
+    required = ["id", "created_at", "company-normalized"]
     if not all(key in rec for key in required):
         return False, InvalidRecReason.MISSING_FIELDS
 

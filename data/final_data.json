@@ -1,5 +1,205 @@
 [
   {
+    "id": 7509136,
+    "date": "2026-01-20T07:09:47.964146+00:00",
+    "location": "",
+    "company": "Morgan Stanley",
+    "role": "P3 Director",
+    "yoe": 6,
+    "base": 46.6,
+    "total": 53.2
+  },
+  {
+    "id": 7509136,
+    "date": "2026-01-20T07:09:47.964146+00:00",
+    "location": "",
+    "company": "Kotak",
+    "role": "SDE 2",
+    "yoe": 6,
+    "base": 54,
+    "total": 59.4
+  },
+  {
+    "id": 7509136,
+    "date": "2026-01-20T07:09:47.964146+00:00",
+    "location": "",
+    "company": "PayPal",
+    "role": "SSE",
+    "yoe": 6,
+    "base": 47,
+    "total": 65
+  },
+  {
+    "id": 7508639,
+    "date": "2026-01-20T03:41:31.256928+00:00",
+    "location": "",
+    "company": "Oracle",
+    "role": "SDE 3",
+    "yoe": 3.6,
+    "base": 28.45,
+    "total": 28.45
+  },
+  {
+    "id": 7509547,
+    "date": "2026-01-20T10:57:55.280260+00:00",
+    "location": "Hyderabad",
+    "company": "Microsoft",
+    "role": "SDE 2",
+    "yoe": 3.5,
+    "base": 43,
+    "total": 72
+  },
+  {
+    "id": 7509230,
+    "date": "2026-01-20T08:09:27.663078+00:00",
+    "location": "",
+    "company": "BCG",
+    "role": "SDE",
+    "yoe": 2.5,
+    "base": 19,
+    "total": 22
+  },
+  {
+    "id": 7508760,
+    "date": "2026-01-20T04:34:06.825502+00:00",
+    "location": "Bengaluru",
+    "company": "Walmart",
+    "role": "SDE 2",
+    "yoe": 3.5,
+    "base": 23,
+    "total": 36.4
+  },
+  {
+    "id": 7508760,
+    "date": "2026-01-20T04:34:06.825502+00:00",
+    "location": "Gurugram",
+    "company": "Prism",
+    "role": "SDE 2",
+    "yoe": 3.5,
+    "base": 25,
+    "total": 30
+  },
+  {
+    "id": 7507695,
+    "date": "2026-01-19T16:57:33.261905+00:00",
+    "location": "",
+    "company": "Elsevier",
+    "role": "SSE",
+    "yoe": 4.5,
+    "base": 22,
+    "total": 26.3
+  },
+  {
+    "id": 7507695,
+    "date": "2026-01-19T16:57:33.261905+00:00",
+    "location": "",
+    "company": "Freshworks",
+    "role": "SSE",
+    "yoe": 4.5,
+    "base": 26,
+    "total": 28.6
+  },
+  {
+    "id": 7506415,
+    "date": "2026-01-19T07:08:48.601867+00:00",
+    "location": "Bengaluru",
+    "company": "BNP Paribas",
+    "role": "SDE",
+    "yoe": null,
+    "base": 14,
+    "total": 18
+  },
+  {
+    "id": 7506410,
+    "date": "2026-01-19T07:06:59.776112+00:00",
+    "location": "",
+    "company": "Qualcomm",
+    "role": "SSE",
+    "yoe": 4,
+    "base": 33.4,
+    "total": 39.10600000000001
+  },
+  {
+    "id": 7506402,
+    "date": "2026-01-19T07:03:54.163723+00:00",
+    "location": "",
+    "company": "Kraftshala",
+    "role": "SDE",
+    "yoe": 2,
+    "base": 16.25,
+    "total": 18
+  },
+  {
+    "id": 7506394,
+    "date": "2026-01-19T07:00:31.685501+00:00",
+    "location": "Remote",
+    "company": "Digitalpaani",
+    "role": "SSE",
+    "yoe": 5,
+    "base": 15,
+    "total": 21
+  },
+  {
+    "id": 7506378,
+    "date": "2026-01-19T06:54:33.333234+00:00",
+    "location": "India",
+    "company": "Qualys",
+    "role": "SDE",
+    "yoe": 3,
+    "base": 13,
+    "total": 15
+  },
+  {
+    "id": 7505317,
+    "date": "2026-01-18T17:18:08.742204+00:00",
+    "location": "Remote",
+    "company": "Acquia",
+    "role": "SDE 2",
+    "yoe": 3.5,
+    "base": 33.5,
+    "total": null
+  },
+  {
+    "id": 7504795,
+    "date": "2026-01-18T13:03:12.121132+00:00",
+    "location": "",
+    "company": "Recykal",
+    "role": "SDE",
+    "yoe": 0,
+    "base": 10,
+    "total": 18
+  },
+  {
+    "id": 7504422,
+    "date": "2026-01-18T10:02:34.535009+00:00",
+    "location": "Kolkata",
+    "company": "Cognizant",
+    "role": "Associate",
+    "yoe": 4.7,
+    "base": 15.5,
+    "total": 16
+  },
+  {
+    "id": 7504421,
+    "date": "2026-01-18T10:02:29.220809+00:00",
+    "location": "Kolkata",
+    "company": "Cognizant",
+    "role": "Associate",
+    "yoe": 4.7,
+    "base": 15.5,
+    "total": 16
+  },
+  {
+    "id": 7504085,
+    "date": "2026-01-18T07:23:31.112809+00:00",
+    "location": "Mumbai",
+    "company": "Neosoft",
+    "role": "SDE",
+    "yoe": 4.4,
+    "base": 10,
+    "total": 11
+  },
+  {
     "id": 7501763,
     "date": "2026-01-17T10:35:24.540135+00:00",
     "location": "Hyderabad",
@@ -202,7 +402,7 @@
   {
     "id": 7488782,
     "date": "2026-01-12T10:57:01.810471+00:00",
-    "location": "Hyderabad",
+    "location": "",
     "company": "Morgan Stanley",
     "role": "N/A",
     "yoe": 6,
@@ -212,7 +412,7 @@
   {
     "id": 7488782,
     "date": "2026-01-12T10:57:01.810471+00:00",
-    "location": "Hyderabad",
+    "location": "",
     "company": "Kotak",
     "role": "N/A",
     "yoe": 6,
@@ -222,7 +422,7 @@
   {
     "id": 7488782,
     "date": "2026-01-12T10:57:01.810471+00:00",
-    "location": "Hyderabad",
+    "location": "",
     "company": "PayPal",
     "role": "N/A",
     "yoe": 6,
@@ -920,6 +1120,16 @@
     "total": 91.375
   },
   {
+    "id": 7441694,
+    "date": "2025-12-26T19:41:23.087604+00:00",
+    "location": "Bengaluru",
+    "company": "Wex",
+    "role": "N/A",
+    "yoe": null,
+    "base": 60,
+    "total": 65
+  },
+  {
     "id": 7441674,
     "date": "2025-12-26T19:24:53.050937+00:00",
     "location": "",
@@ -1170,6 +1380,16 @@
     "total": 61.5
   },
   {
+    "id": 7432848,
+    "date": "2025-12-23T09:50:31.470057+00:00",
+    "location": "",
+    "company": "Oracle",
+    "role": "N/A",
+    "yoe": null,
+    "base": 42,
+    "total": 75
+  },
+  {
     "id": 7431659,
     "date": "2025-12-22T19:11:41.492285+00:00",
     "location": "",
@@ -1200,6 +1420,26 @@
     "total": 59
   },
   {
+    "id": 7430655,
+    "date": "2025-12-22T11:29:01.609364+00:00",
+    "location": "Bengaluru",
+    "company": "Oracle",
+    "role": "N/A",
+    "yoe": 5.5,
+    "base": 42,
+    "total": null
+  },
+  {
+    "id": 7430655,
+    "date": "2025-12-22T11:29:01.609364+00:00",
+    "location": "Bengaluru",
+    "company": "eBay",
+    "role": "N/A",
+    "yoe": 5.5,
+    "base": 46,
+    "total": 50.6
+  },
+  {
     "id": 7428057,
     "date": "2025-12-21T07:37:51.893887+00:00",
     "location": "Bengaluru",
@@ -1208,6 +1448,16 @@
     "yoe": 1.5,
     "base": 18,
     "total": 20.5
+  },
+  {
+    "id": 7427221,
+    "date": "2025-12-20T21:11:28.893935+00:00",
+    "location": "",
+    "company": "LinkedIn",
+    "role": "N/A",
+    "yoe": 4,
+    "base": 43,
+    "total": 78
   },
   {
     "id": 7427178,
@@ -1278,6 +1528,26 @@
     "yoe": 7,
     "base": 45,
     "total": 62.0
+  },
+  {
+    "id": 7423392,
+    "date": "2025-12-19T07:07:36.784319+00:00",
+    "location": "Remote",
+    "company": "Fintech Startup India",
+    "role": "N/A",
+    "yoe": 3.8,
+    "base": 35,
+    "total": 65
+  },
+  {
+    "id": 7423392,
+    "date": "2025-12-19T07:07:36.784319+00:00",
+    "location": "Remote",
+    "company": "Europe Startup",
+    "role": "N/A",
+    "yoe": 3.8,
+    "base": 70,
+    "total": 110
   },
   {
     "id": 7423278,
@@ -1370,6 +1640,26 @@
     "total": 49.5
   },
   {
+    "id": 7419872,
+    "date": "2025-12-17T13:30:45.264475+00:00",
+    "location": "",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 3.5,
+    "base": 15,
+    "total": 29
+  },
+  {
+    "id": 7419872,
+    "date": "2025-12-17T13:30:45.264475+00:00",
+    "location": "",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": null,
+    "base": 29,
+    "total": 48
+  },
+  {
     "id": 7419603,
     "date": "2025-12-17T10:52:52.298721+00:00",
     "location": "Bengaluru",
@@ -1390,6 +1680,16 @@
     "total": 123
   },
   {
+    "id": 7419047,
+    "date": "2025-12-17T05:51:43.340564+00:00",
+    "location": "",
+    "company": "FNZ",
+    "role": "N/A",
+    "yoe": null,
+    "base": 17,
+    "total": null
+  },
+  {
     "id": 7418513,
     "date": "2025-12-16T19:27:14.583870+00:00",
     "location": "Bengaluru",
@@ -1398,6 +1698,16 @@
     "yoe": 3.42,
     "base": 27.1,
     "total": 37.4
+  },
+  {
+    "id": 7417081,
+    "date": "2025-12-16T06:08:03.084967+00:00",
+    "location": "",
+    "company": "Mnc",
+    "role": "N/A",
+    "yoe": 1.5,
+    "base": 27,
+    "total": 44
   },
   {
     "id": 7415733,
@@ -1448,6 +1758,16 @@
     "yoe": 0,
     "base": 15,
     "total": 15
+  },
+  {
+    "id": 7411150,
+    "date": "2025-12-13T14:43:33.609508+00:00",
+    "location": "Hyderabad",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 29,
+    "total": 47.5
   },
   {
     "id": 7410368,
@@ -1590,6 +1910,36 @@
     "total": 24.4
   },
   {
+    "id": 7403975,
+    "date": "2025-12-10T05:45:24.194628+00:00",
+    "location": "Mumbai",
+    "company": "JPMorgan Chase",
+    "role": "N/A",
+    "yoe": 4.4,
+    "base": 21.5,
+    "total": null
+  },
+  {
+    "id": 7403975,
+    "date": "2025-12-10T05:45:24.194628+00:00",
+    "location": "Pune",
+    "company": "Citi",
+    "role": "N/A",
+    "yoe": 4.4,
+    "base": 24,
+    "total": null
+  },
+  {
+    "id": 7403975,
+    "date": "2025-12-10T05:45:24.194628+00:00",
+    "location": "Bengaluru",
+    "company": "Epsilon",
+    "role": "N/A",
+    "yoe": 4.4,
+    "base": 28,
+    "total": null
+  },
+  {
     "id": 7403903,
     "date": "2025-12-10T05:15:06.261301+00:00",
     "location": "",
@@ -1648,6 +1998,16 @@
     "yoe": 3.8,
     "base": 43,
     "total": 60
+  },
+  {
+    "id": 7402320,
+    "date": "2025-12-09T11:06:39.739139+00:00",
+    "location": "Bengaluru",
+    "company": "Kutumb Crafto",
+    "role": "N/A",
+    "yoe": 2.1,
+    "base": 30,
+    "total": 30.0
   },
   {
     "id": 7401802,
@@ -1757,6 +2117,26 @@
     "role": "Data Scientist",
     "yoe": 5.5,
     "base": 37,
+    "total": null
+  },
+  {
+    "id": 7397792,
+    "date": "2025-12-07T10:28:11.188051+00:00",
+    "location": "",
+    "company": "Tekion",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 52,
+    "total": null
+  },
+  {
+    "id": 7397792,
+    "date": "2025-12-07T10:28:11.188051+00:00",
+    "location": "",
+    "company": "PayPal",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 46,
     "total": null
   },
   {
@@ -2130,6 +2510,16 @@
     "total": 53.55
   },
   {
+    "id": 7380575,
+    "date": "2025-11-29T05:58:32.127503+00:00",
+    "location": "",
+    "company": "Walmart",
+    "role": "N/A",
+    "yoe": 6.8,
+    "base": 27,
+    "total": 39.05
+  },
+  {
     "id": 7380070,
     "date": "2025-11-28T22:05:55.894726+00:00",
     "location": "",
@@ -2188,6 +2578,26 @@
     "yoe": 4.5,
     "base": 41.88,
     "total": 56
+  },
+  {
+    "id": 7376293,
+    "date": "2025-11-26T18:31:05.124235+00:00",
+    "location": "",
+    "company": "Arctic Wolf",
+    "role": "N/A",
+    "yoe": 10.5,
+    "base": 103,
+    "total": 103.0
+  },
+  {
+    "id": 7376293,
+    "date": "2025-11-26T18:31:05.124235+00:00",
+    "location": "",
+    "company": "Tesco",
+    "role": "N/A",
+    "yoe": 10.5,
+    "base": 84,
+    "total": 100
   },
   {
     "id": 7375911,
@@ -2283,11 +2693,31 @@
     "id": 7373830,
     "date": "2025-11-25T14:18:08.735824+00:00",
     "location": "",
+    "company": "Kotak",
+    "role": "N/A",
+    "yoe": 4.9,
+    "base": 40,
+    "total": 54
+  },
+  {
+    "id": 7373830,
+    "date": "2025-11-25T14:18:08.735824+00:00",
+    "location": "",
     "company": "Oracle",
     "role": "SMTS",
     "yoe": 4.9,
     "base": 45,
     "total": 77
+  },
+  {
+    "id": 7373830,
+    "date": "2025-11-25T14:18:08.735824+00:00",
+    "location": "",
+    "company": "Paytm",
+    "role": "N/A",
+    "yoe": 4.9,
+    "base": 45,
+    "total": 52
   },
   {
     "id": 7371451,
@@ -2440,6 +2870,26 @@
     "total": 35.5
   },
   {
+    "id": 7362523,
+    "date": "2025-11-20T12:31:58.945434+00:00",
+    "location": "Hyderabad",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 7.5,
+    "base": 50,
+    "total": 85
+  },
+  {
+    "id": 7361183,
+    "date": "2025-11-19T18:52:26.797305+00:00",
+    "location": "",
+    "company": "Oci Smts",
+    "role": "N/A",
+    "yoe": 6.2,
+    "base": 42.6,
+    "total": null
+  },
+  {
     "id": 7360417,
     "date": "2025-11-19T13:28:12.870963+00:00",
     "location": "",
@@ -2518,6 +2968,16 @@
     "yoe": 3.5,
     "base": 22,
     "total": 32.95
+  },
+  {
+    "id": 7360138,
+    "date": "2025-11-19T11:25:03.258530+00:00",
+    "location": "",
+    "company": "Zeta",
+    "role": "N/A",
+    "yoe": 3.5,
+    "base": 26,
+    "total": 33.5
   },
   {
     "id": 7359884,
@@ -2618,6 +3078,16 @@
     "yoe": 3,
     "base": 23,
     "total": 31
+  },
+  {
+    "id": 7355975,
+    "date": "2025-11-17T18:52:16.696863+00:00",
+    "location": "",
+    "company": "PhonePe",
+    "role": "N/A",
+    "yoe": 4,
+    "base": 33,
+    "total": 44
   },
   {
     "id": 7354622,
@@ -2760,6 +3230,26 @@
     "total": 25
   },
   {
+    "id": 7348491,
+    "date": "2025-11-14T14:45:24.520516+00:00",
+    "location": "",
+    "company": "Servicechannel",
+    "role": "N/A",
+    "yoe": null,
+    "base": 13,
+    "total": 13
+  },
+  {
+    "id": 7348491,
+    "date": "2025-11-14T14:45:24.520516+00:00",
+    "location": "",
+    "company": "Nuware",
+    "role": "N/A",
+    "yoe": null,
+    "base": 18,
+    "total": 18
+  },
+  {
     "id": 7348216,
     "date": "2025-11-14T11:38:40.763487+00:00",
     "location": "Bengaluru",
@@ -2858,6 +3348,16 @@
     "yoe": 5,
     "base": 30,
     "total": 43
+  },
+  {
+    "id": 7342192,
+    "date": "2025-11-11T17:54:50.398695+00:00",
+    "location": "Remote",
+    "company": "Oracle",
+    "role": "N/A",
+    "yoe": 5,
+    "base": 55,
+    "total": null
   },
   {
     "id": 7341866,
@@ -2970,6 +3470,46 @@
     "total": 31
   },
   {
+    "id": 7334725,
+    "date": "2025-11-08T13:10:23.182929+00:00",
+    "location": "",
+    "company": "First American",
+    "role": "N/A",
+    "yoe": 6.5,
+    "base": 30,
+    "total": 33
+  },
+  {
+    "id": 7334725,
+    "date": "2025-11-08T13:10:23.182929+00:00",
+    "location": "",
+    "company": "Foodsmart",
+    "role": "N/A",
+    "yoe": 6.5,
+    "base": 35,
+    "total": 38.5
+  },
+  {
+    "id": 7334725,
+    "date": "2025-11-08T13:10:23.182929+00:00",
+    "location": "",
+    "company": "Emburse",
+    "role": "N/A",
+    "yoe": 6.5,
+    "base": 38,
+    "total": 38
+  },
+  {
+    "id": 7334725,
+    "date": "2025-11-08T13:10:23.182929+00:00",
+    "location": "",
+    "company": "Evernorth",
+    "role": "N/A",
+    "yoe": 6.5,
+    "base": 34.5,
+    "total": 40
+  },
+  {
     "id": 7334190,
     "date": "2025-11-08T07:41:28.007551+00:00",
     "location": "",
@@ -2978,6 +3518,36 @@
     "yoe": 4.5,
     "base": 40,
     "total": 76
+  },
+  {
+    "id": 7333338,
+    "date": "2025-11-07T18:18:33.555814+00:00",
+    "location": "Hyderabad",
+    "company": "Techmojo Solutions",
+    "role": "N/A",
+    "yoe": 4.4,
+    "base": 25,
+    "total": 27
+  },
+  {
+    "id": 7333338,
+    "date": "2025-11-07T18:18:33.555814+00:00",
+    "location": "Bengaluru",
+    "company": "Andor Tech",
+    "role": "N/A",
+    "yoe": 4.4,
+    "base": 31,
+    "total": 31
+  },
+  {
+    "id": 7333338,
+    "date": "2025-11-07T18:18:33.555814+00:00",
+    "location": "Bengaluru",
+    "company": "Growtharc",
+    "role": "N/A",
+    "yoe": 4.4,
+    "base": 30,
+    "total": 30.075
   },
   {
     "id": 7332015,
@@ -2998,6 +3568,26 @@
     "yoe": null,
     "base": 18,
     "total": 20
+  },
+  {
+    "id": 7331203,
+    "date": "2025-11-06T17:10:43.143396+00:00",
+    "location": "Gurugram",
+    "company": "Skeps",
+    "role": "N/A",
+    "yoe": null,
+    "base": 26,
+    "total": 27
+  },
+  {
+    "id": 7331203,
+    "date": "2025-11-06T17:10:43.143396+00:00",
+    "location": "Bengaluru",
+    "company": "EPAM",
+    "role": "N/A",
+    "yoe": null,
+    "base": 26,
+    "total": 27.5
   },
   {
     "id": 7330779,
@@ -3028,6 +3618,16 @@
     "yoe": null,
     "base": 54,
     "total": null
+  },
+  {
+    "id": 7327662,
+    "date": "2025-11-05T05:14:25.743555+00:00",
+    "location": "",
+    "company": "Morgan Stanley",
+    "role": "N/A",
+    "yoe": 8,
+    "base": 34,
+    "total": 41
   },
   {
     "id": 7327128,
@@ -3108,6 +3708,26 @@
     "yoe": 2,
     "base": 15.6,
     "total": null
+  },
+  {
+    "id": 7322633,
+    "date": "2025-11-03T05:58:14.721431+00:00",
+    "location": "",
+    "company": "Celigo",
+    "role": "N/A",
+    "yoe": 5,
+    "base": 40,
+    "total": 42
+  },
+  {
+    "id": 7322633,
+    "date": "2025-11-03T05:58:14.721431+00:00",
+    "location": "",
+    "company": "Oracle",
+    "role": "N/A",
+    "yoe": 5,
+    "base": 34,
+    "total": 36
   },
   {
     "id": 7321474,
@@ -3310,6 +3930,16 @@
     "total": null
   },
   {
+    "id": 7314038,
+    "date": "2025-10-30T17:10:01.918262+00:00",
+    "location": "",
+    "company": "Capital One",
+    "role": "N/A",
+    "yoe": null,
+    "base": 26,
+    "total": 36.5
+  },
+  {
     "id": 7313940,
     "date": "2025-10-30T16:26:43.597592+00:00",
     "location": "",
@@ -3328,6 +3958,16 @@
     "yoe": 4.5,
     "base": 41.1,
     "total": null
+  },
+  {
+    "id": 7312372,
+    "date": "2025-10-30T03:46:28.725327+00:00",
+    "location": "",
+    "company": "Us Based Series D Fintech Startup",
+    "role": "N/A",
+    "yoe": 2.4,
+    "base": 32,
+    "total": 37
   },
   {
     "id": 7312327,
@@ -3458,6 +4098,16 @@
     "yoe": 0,
     "base": 18,
     "total": 32.5
+  },
+  {
+    "id": 7303296,
+    "date": "2025-10-26T16:37:15.417649+00:00",
+    "location": "",
+    "company": "Oracle",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 36,
+    "total": null
   },
   {
     "id": 7301054,
@@ -3980,6 +4630,16 @@
     "total": 68.5
   },
   {
+    "id": 7284498,
+    "date": "2025-10-18T17:16:23.326577+00:00",
+    "location": "",
+    "company": "Salesforce",
+    "role": "N/A",
+    "yoe": 6,
+    "base": 45,
+    "total": 67.15
+  },
+  {
     "id": 7283770,
     "date": "2025-10-18T11:01:27.209097+00:00",
     "location": "Hyderabad",
@@ -4030,6 +4690,16 @@
     "total": 51.5
   },
   {
+    "id": 7283326,
+    "date": "2025-10-18T06:44:59.891551+00:00",
+    "location": "Hyderabad",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 2,
+    "base": 22.52,
+    "total": null
+  },
+  {
     "id": 7283105,
     "date": "2025-10-18T04:26:45.567945+00:00",
     "location": "",
@@ -4058,6 +4728,26 @@
     "yoe": 3.4,
     "base": 35,
     "total": 55
+  },
+  {
+    "id": 7282429,
+    "date": "2025-10-17T17:02:05.397391+00:00",
+    "location": "",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 28,
+    "total": null
+  },
+  {
+    "id": 7282429,
+    "date": "2025-10-17T17:02:05.397391+00:00",
+    "location": "",
+    "company": "Oracle",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 36,
+    "total": null
   },
   {
     "id": 7281929,
@@ -4130,6 +4820,16 @@
     "total": 35
   },
   {
+    "id": 7279446,
+    "date": "2025-10-16T09:49:47.349614+00:00",
+    "location": "Remote",
+    "company": "Emids",
+    "role": "N/A",
+    "yoe": 4,
+    "base": 40,
+    "total": null
+  },
+  {
     "id": 7279432,
     "date": "2025-10-16T09:41:18.241766+00:00",
     "location": "",
@@ -4188,6 +4888,36 @@
     "yoe": 6.5,
     "base": 42,
     "total": 85
+  },
+  {
+    "id": 7276579,
+    "date": "2025-10-15T06:32:25.341138+00:00",
+    "location": "",
+    "company": "Teradata",
+    "role": "N/A",
+    "yoe": 2.9,
+    "base": 27.5,
+    "total": 30
+  },
+  {
+    "id": 7276579,
+    "date": "2025-10-15T06:32:25.341138+00:00",
+    "location": "",
+    "company": "Outsystems",
+    "role": "N/A",
+    "yoe": 2.9,
+    "base": 28.75,
+    "total": 31.6
+  },
+  {
+    "id": 7276579,
+    "date": "2025-10-15T06:32:25.341138+00:00",
+    "location": "",
+    "company": "Series A Startup",
+    "role": "N/A",
+    "yoe": 2.9,
+    "base": 32,
+    "total": 32
   },
   {
     "id": 7276455,
@@ -4350,6 +5080,16 @@
     "total": 30
   },
   {
+    "id": 7262670,
+    "date": "2025-10-09T20:07:12.614468+00:00",
+    "location": "Bengaluru",
+    "company": "Earnin",
+    "role": "N/A",
+    "yoe": 3.5,
+    "base": 48,
+    "total": 52
+  },
+  {
     "id": 7262350,
     "date": "2025-10-09T17:47:25.343774+00:00",
     "location": "Bengaluru",
@@ -4398,6 +5138,26 @@
     "yoe": 0,
     "base": null,
     "total": null
+  },
+  {
+    "id": 7261329,
+    "date": "2025-10-09T09:45:40.739092+00:00",
+    "location": "Hyderabad",
+    "company": "ServiceNow",
+    "role": "N/A",
+    "yoe": null,
+    "base": 27,
+    "total": 37
+  },
+  {
+    "id": 7261329,
+    "date": "2025-10-09T09:45:40.739092+00:00",
+    "location": "Bengaluru",
+    "company": "Celonis",
+    "role": "N/A",
+    "yoe": null,
+    "base": 30,
+    "total": 40
   },
   {
     "id": 7260468,
@@ -4538,6 +5298,16 @@
     "yoe": 6.5,
     "base": 30.45,
     "total": null
+  },
+  {
+    "id": 7250868,
+    "date": "2025-10-05T12:16:58.476351+00:00",
+    "location": "Bengaluru",
+    "company": "B2B Saas Startup",
+    "role": "N/A",
+    "yoe": null,
+    "base": 17,
+    "total": 19
   },
   {
     "id": 7249132,
@@ -4760,6 +5530,16 @@
     "total": 109
   },
   {
+    "id": 7240590,
+    "date": "2025-10-01T18:56:59.255904+00:00",
+    "location": "Mumbai",
+    "company": "Solarsquare",
+    "role": "N/A",
+    "yoe": 4.3,
+    "base": 35,
+    "total": null
+  },
+  {
     "id": 7240581,
     "date": "2025-10-01T18:53:19.083024+00:00",
     "location": "",
@@ -4808,6 +5588,16 @@
     "yoe": 3.17,
     "base": 29,
     "total": 29
+  },
+  {
+    "id": 7238448,
+    "date": "2025-10-01T06:13:36.441535+00:00",
+    "location": "Bengaluru",
+    "company": "Jiohotstar",
+    "role": "N/A",
+    "yoe": null,
+    "base": 18,
+    "total": 28
   },
   {
     "id": 7236727,
@@ -5010,6 +5800,36 @@
     "total": 19
   },
   {
+    "id": 7222503,
+    "date": "2025-09-25T09:14:25.022206+00:00",
+    "location": "",
+    "company": "Dell Technologies",
+    "role": "N/A",
+    "yoe": 6.2,
+    "base": 31.5,
+    "total": 36.1
+  },
+  {
+    "id": 7222503,
+    "date": "2025-09-25T09:14:25.022206+00:00",
+    "location": "Bengaluru",
+    "company": "Amadeus",
+    "role": "N/A",
+    "yoe": 6.2,
+    "base": 27.5,
+    "total": 31.5
+  },
+  {
+    "id": 7222503,
+    "date": "2025-09-25T09:14:25.022206+00:00",
+    "location": "Bengaluru",
+    "company": "Siemens",
+    "role": "N/A",
+    "yoe": 6.2,
+    "base": 25,
+    "total": 26
+  },
+  {
     "id": 7222469,
     "date": "2025-09-25T09:02:31.469605+00:00",
     "location": "Remote",
@@ -5048,6 +5868,16 @@
     "yoe": 2,
     "base": 22.5,
     "total": 40
+  },
+  {
+    "id": 7221181,
+    "date": "2025-09-24T19:48:29.918873+00:00",
+    "location": "",
+    "company": "Goldman Sachs",
+    "role": "N/A",
+    "yoe": 2,
+    "base": 32,
+    "total": 37
   },
   {
     "id": 7220290,
@@ -5160,6 +5990,16 @@
     "total": 8.566639
   },
   {
+    "id": 7207805,
+    "date": "2025-09-20T09:33:58.389162+00:00",
+    "location": "",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 2,
+    "base": 22,
+    "total": null
+  },
+  {
     "id": 7206384,
     "date": "2025-09-19T18:29:20.540492+00:00",
     "location": "Remote",
@@ -5187,6 +6027,26 @@
     "role": "SDE 2",
     "yoe": 4,
     "base": 24,
+    "total": null
+  },
+  {
+    "id": 7204959,
+    "date": "2025-09-19T08:29:18.175288+00:00",
+    "location": "Bengaluru",
+    "company": "Cisco",
+    "role": "N/A",
+    "yoe": 4,
+    "base": 34,
+    "total": 41
+  },
+  {
+    "id": 7204959,
+    "date": "2025-09-19T08:29:18.175288+00:00",
+    "location": "Bengaluru",
+    "company": "Amazon",
+    "role": "N/A",
+    "yoe": 4,
+    "base": 40,
     "total": null
   },
   {
@@ -5288,6 +6148,16 @@
     "yoe": 7,
     "base": 30,
     "total": 33
+  },
+  {
+    "id": 7201629,
+    "date": "2025-09-18T07:27:01.689739+00:00",
+    "location": "Hyderabad",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 7,
+    "base": 40,
+    "total": 72.5
   },
   {
     "id": 7201532,
@@ -5410,6 +6280,36 @@
     "total": 31.5
   },
   {
+    "id": 7196240,
+    "date": "2025-09-16T12:41:17.553640+00:00",
+    "location": "Bengaluru",
+    "company": "Nielsen",
+    "role": "N/A",
+    "yoe": 2.5,
+    "base": 18,
+    "total": null
+  },
+  {
+    "id": 7196240,
+    "date": "2025-09-16T12:41:17.553640+00:00",
+    "location": "Gurugram",
+    "company": "Airtel Digital",
+    "role": "N/A",
+    "yoe": 2.5,
+    "base": 22,
+    "total": null
+  },
+  {
+    "id": 7196240,
+    "date": "2025-09-16T12:41:17.553640+00:00",
+    "location": "Gurugram",
+    "company": "Balancehero",
+    "role": "N/A",
+    "yoe": 2.5,
+    "base": 22,
+    "total": null
+  },
+  {
     "id": 7195743,
     "date": "2025-09-16T09:20:55.082246+00:00",
     "location": "Bengaluru",
@@ -5528,6 +6428,16 @@
     "yoe": 7,
     "base": 41.8,
     "total": 51.24
+  },
+  {
+    "id": 7184561,
+    "date": "2025-09-13T05:59:44.577087+00:00",
+    "location": "",
+    "company": "Nagarro",
+    "role": "N/A",
+    "yoe": 5,
+    "base": 32,
+    "total": null
   },
   {
     "id": 7183633,
@@ -5710,6 +6620,16 @@
     "total": 25.05
   },
   {
+    "id": 7178942,
+    "date": "2025-09-11T13:19:47.404305+00:00",
+    "location": "Hyderabad",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 5.5,
+    "base": 32,
+    "total": 44.82
+  },
+  {
     "id": 7177985,
     "date": "2025-09-11T07:51:32.705679+00:00",
     "location": "Bengaluru",
@@ -5738,6 +6658,16 @@
     "yoe": 1.17,
     "base": 21.4,
     "total": 40.5
+  },
+  {
+    "id": 7173212,
+    "date": "2025-09-09T17:41:35.051877+00:00",
+    "location": "",
+    "company": "Oracle",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 36,
+    "total": 50.0
   },
   {
     "id": 7173013,
@@ -5818,6 +6748,16 @@
     "yoe": 3,
     "base": 25,
     "total": 36
+  },
+  {
+    "id": 7169841,
+    "date": "2025-09-08T16:42:34.777540+00:00",
+    "location": "",
+    "company": "Cohesity",
+    "role": "N/A",
+    "yoe": null,
+    "base": 38,
+    "total": 42
   },
   {
     "id": 7169808,
@@ -6090,6 +7030,36 @@
     "total": 71.41
   },
   {
+    "id": 7152827,
+    "date": "2025-09-03T22:06:33.478720+00:00",
+    "location": "",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 5.5,
+    "base": 42,
+    "total": null
+  },
+  {
+    "id": 7152827,
+    "date": "2025-09-03T22:06:33.478720+00:00",
+    "location": "",
+    "company": "Startup Offer 1",
+    "role": "N/A",
+    "yoe": null,
+    "base": 43.5,
+    "total": 75.025
+  },
+  {
+    "id": 7152827,
+    "date": "2025-09-03T22:06:33.478720+00:00",
+    "location": "",
+    "company": "Startup Offer 2",
+    "role": "N/A",
+    "yoe": null,
+    "base": 49,
+    "total": null
+  },
+  {
     "id": 7152331,
     "date": "2025-09-03T17:58:00.856711+00:00",
     "location": "",
@@ -6130,6 +7100,16 @@
     "total": 33.7
   },
   {
+    "id": 7151455,
+    "date": "2025-09-03T13:30:50.389716+00:00",
+    "location": "Hyderabad",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 5.5,
+    "base": 32,
+    "total": null
+  },
+  {
     "id": 7148634,
     "date": "2025-09-02T15:46:32.981354+00:00",
     "location": "Chennai",
@@ -6138,6 +7118,26 @@
     "yoe": 6,
     "base": 43.5,
     "total": 45.2
+  },
+  {
+    "id": 7148600,
+    "date": "2025-09-02T15:38:47.561994+00:00",
+    "location": "Remote",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 2,
+    "base": 22,
+    "total": null
+  },
+  {
+    "id": 7148600,
+    "date": "2025-09-02T15:38:47.561994+00:00",
+    "location": "Remote",
+    "company": "Oracle",
+    "role": "N/A",
+    "yoe": 2,
+    "base": 28,
+    "total": null
   },
   {
     "id": 7147690,
@@ -6178,6 +7178,26 @@
     "yoe": 3.3,
     "base": 17.45,
     "total": 22
+  },
+  {
+    "id": 7146394,
+    "date": "2025-09-02T02:08:55.397590+00:00",
+    "location": "",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 6,
+    "base": 40,
+    "total": 62
+  },
+  {
+    "id": 7146394,
+    "date": "2025-09-02T02:08:55.397590+00:00",
+    "location": "",
+    "company": "Paypay Japan",
+    "role": "N/A",
+    "yoe": 6,
+    "base": 53.75,
+    "total": 59.13
   },
   {
     "id": 7146179,
@@ -6340,6 +7360,16 @@
     "total": 87
   },
   {
+    "id": 7134620,
+    "date": "2025-08-29T10:32:44.695887+00:00",
+    "location": "",
+    "company": "Atlassian",
+    "role": "N/A",
+    "yoe": 9,
+    "base": 70,
+    "total": 80.5
+  },
+  {
     "id": 7132645,
     "date": "2025-08-28T19:16:06.691425+00:00",
     "location": "Bengaluru",
@@ -6448,6 +7478,16 @@
     "yoe": 6,
     "base": 45,
     "total": 48
+  },
+  {
+    "id": 7126595,
+    "date": "2025-08-27T05:27:58.710425+00:00",
+    "location": "",
+    "company": "Fintech Startup",
+    "role": "N/A",
+    "yoe": 1.83,
+    "base": 27,
+    "total": 30.6
   },
   {
     "id": 7126350,
@@ -6700,6 +7740,16 @@
     "total": null
   },
   {
+    "id": 7108537,
+    "date": "2025-08-22T05:20:23.008308+00:00",
+    "location": "",
+    "company": "PhonePe",
+    "role": "N/A",
+    "yoe": 10,
+    "base": 80,
+    "total": 120
+  },
+  {
     "id": 7108271,
     "date": "2025-08-22T03:47:01.592040+00:00",
     "location": "Bengaluru",
@@ -6830,6 +7880,16 @@
     "total": 42
   },
   {
+    "id": 7099989,
+    "date": "2025-08-19T14:48:54.207889+00:00",
+    "location": "",
+    "company": "Colortokens",
+    "role": "N/A",
+    "yoe": 4.3,
+    "base": 39,
+    "total": 39
+  },
+  {
     "id": 7099708,
     "date": "2025-08-19T13:36:46.273634+00:00",
     "location": "Gurugram",
@@ -6890,6 +7950,16 @@
     "total": 22
   },
   {
+    "id": 7096893,
+    "date": "2025-08-18T20:47:26.400809+00:00",
+    "location": "",
+    "company": "Colortokens | Mts Iv",
+    "role": "N/A",
+    "yoe": 4.3,
+    "base": 39,
+    "total": 39
+  },
+  {
     "id": 7092907,
     "date": "2025-08-17T16:32:40.234206+00:00",
     "location": "",
@@ -6898,6 +7968,16 @@
     "yoe": 3.5,
     "base": 22.5,
     "total": 24.3
+  },
+  {
+    "id": 7091009,
+    "date": "2025-08-17T05:14:43.984305+00:00",
+    "location": "Bengaluru",
+    "company": "Salesforce",
+    "role": "N/A",
+    "yoe": 0,
+    "base": 16.5,
+    "total": 48.0
   },
   {
     "id": 7089856,
@@ -6990,6 +8070,26 @@
     "total": 14.3
   },
   {
+    "id": 7083282,
+    "date": "2025-08-15T08:17:29.310157+00:00",
+    "location": "",
+    "company": "Merck Msd",
+    "role": "N/A",
+    "yoe": null,
+    "base": 30,
+    "total": null
+  },
+  {
+    "id": 7083282,
+    "date": "2025-08-15T08:17:29.310157+00:00",
+    "location": "",
+    "company": "Carrier",
+    "role": "N/A",
+    "yoe": null,
+    "base": 30,
+    "total": null
+  },
+  {
     "id": 7082508,
     "date": "2025-08-15T05:12:23.224639+00:00",
     "location": "Mumbai",
@@ -7008,6 +8108,16 @@
     "yoe": 2.5,
     "base": 48,
     "total": 77.75
+  },
+  {
+    "id": 7082284,
+    "date": "2025-08-15T04:10:59.023938+00:00",
+    "location": "",
+    "company": "Zeta",
+    "role": "N/A",
+    "yoe": null,
+    "base": 46,
+    "total": 83
   },
   {
     "id": 7081485,
@@ -7038,6 +8148,26 @@
     "yoe": 3,
     "base": 18,
     "total": 20
+  },
+  {
+    "id": 7080126,
+    "date": "2025-08-14T12:50:43.315073+00:00",
+    "location": "",
+    "company": "Startup 1 Month Ago",
+    "role": "N/A",
+    "yoe": 7,
+    "base": 47,
+    "total": 55.0
+  },
+  {
+    "id": 7080126,
+    "date": "2025-08-14T12:50:43.315073+00:00",
+    "location": "",
+    "company": "Best Buy India",
+    "role": "N/A",
+    "yoe": 7,
+    "base": 46,
+    "total": 55
   },
   {
     "id": 7080121,
@@ -7160,6 +8290,16 @@
     "total": 33.5
   },
   {
+    "id": 7072046,
+    "date": "2025-08-12T15:26:01.399433+00:00",
+    "location": "Bengaluru",
+    "company": "N-Able India",
+    "role": "N/A",
+    "yoe": null,
+    "base": 4.9,
+    "total": 15.2
+  },
+  {
     "id": 7070673,
     "date": "2025-08-12T07:25:25.003454+00:00",
     "location": "Bengaluru",
@@ -7198,6 +8338,16 @@
     "yoe": 5,
     "base": 47,
     "total": 84.65
+  },
+  {
+    "id": 7069056,
+    "date": "2025-08-11T18:04:04.817253+00:00",
+    "location": "",
+    "company": "Enphase Energy",
+    "role": "N/A",
+    "yoe": 2.5,
+    "base": 26,
+    "total": 32.75
   },
   {
     "id": 7066298,
@@ -7360,6 +8510,16 @@
     "total": 40
   },
   {
+    "id": 7050750,
+    "date": "2025-08-06T10:03:31.764855+00:00",
+    "location": "Gurugram",
+    "company": "Eternal Limited",
+    "role": "N/A",
+    "yoe": 0,
+    "base": 24,
+    "total": 32
+  },
+  {
     "id": 7050434,
     "date": "2025-08-06T08:28:22.830856+00:00",
     "location": "Chennai",
@@ -7408,6 +8568,16 @@
     "yoe": 1.08,
     "base": 23,
     "total": null
+  },
+  {
+    "id": 7047513,
+    "date": "2025-08-05T13:38:22.747941+00:00",
+    "location": "",
+    "company": "Ebay India",
+    "role": "N/A",
+    "yoe": 6,
+    "base": 33,
+    "total": 36.4
   },
   {
     "id": 7045315,
@@ -7552,7 +8722,7 @@
   {
     "id": 7024479,
     "date": "2025-07-30T13:40:49.790289+00:00",
-    "location": "Hyderabad",
+    "location": "",
     "company": "Zocdoc",
     "role": "SDE 1",
     "yoe": 4,
@@ -7650,6 +8820,16 @@
     "total": 16
   },
   {
+    "id": 7018430,
+    "date": "2025-07-29T05:49:02.814105+00:00",
+    "location": "Chennai",
+    "company": "PayPal",
+    "role": "N/A",
+    "yoe": 4.6,
+    "base": 20,
+    "total": 22
+  },
+  {
     "id": 7016202,
     "date": "2025-07-28T14:30:05.003381+00:00",
     "location": "",
@@ -7720,6 +8900,46 @@
     "total": 56
   },
   {
+    "id": 7007227,
+    "date": "2025-07-26T11:40:55.276535+00:00",
+    "location": "Pune",
+    "company": "Startup",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 20,
+    "total": 33
+  },
+  {
+    "id": 7007227,
+    "date": "2025-07-26T11:40:55.276535+00:00",
+    "location": "Bengaluru",
+    "company": "HSBC",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 15,
+    "total": null
+  },
+  {
+    "id": 7007227,
+    "date": "2025-07-26T11:40:55.276535+00:00",
+    "location": "Bengaluru",
+    "company": "KPMG",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 15.7,
+    "total": 17.27
+  },
+  {
+    "id": 7007227,
+    "date": "2025-07-26T11:40:55.276535+00:00",
+    "location": "Pune",
+    "company": "Siemens",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 15,
+    "total": 16.5
+  },
+  {
     "id": 7007172,
     "date": "2025-07-26T11:20:23.188524+00:00",
     "location": "",
@@ -7748,6 +8968,36 @@
     "yoe": 4.5,
     "base": 30,
     "total": 37.5
+  },
+  {
+    "id": 7003366,
+    "date": "2025-07-25T12:00:19.348468+00:00",
+    "location": "",
+    "company": "Qualcomm",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 25,
+    "total": 30
+  },
+  {
+    "id": 7003366,
+    "date": "2025-07-25T12:00:19.348468+00:00",
+    "location": "",
+    "company": "Drdo",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 25,
+    "total": 25
+  },
+  {
+    "id": 7003366,
+    "date": "2025-07-25T12:00:19.348468+00:00",
+    "location": "",
+    "company": "Kpit",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 30,
+    "total": 35
   },
   {
     "id": 7002570,
@@ -7810,6 +9060,26 @@
     "total": 29
   },
   {
+    "id": 6994454,
+    "date": "2025-07-23T10:48:20.725638+00:00",
+    "location": "",
+    "company": "Amazon",
+    "role": "N/A",
+    "yoe": 1.83,
+    "base": 19.2,
+    "total": 34.45
+  },
+  {
+    "id": 6994454,
+    "date": "2025-07-23T10:48:20.725638+00:00",
+    "location": "",
+    "company": "Goldman Sachs",
+    "role": "N/A",
+    "yoe": 1.83,
+    "base": 25,
+    "total": 31.5
+  },
+  {
     "id": 6991412,
     "date": "2025-07-22T16:16:26.183626+00:00",
     "location": "",
@@ -7838,6 +9108,36 @@
     "yoe": 2,
     "base": 48,
     "total": 65
+  },
+  {
+    "id": 6988064,
+    "date": "2025-07-22T00:44:52.998698+00:00",
+    "location": "",
+    "company": "Deltax",
+    "role": "N/A",
+    "yoe": null,
+    "base": 7,
+    "total": 7
+  },
+  {
+    "id": 6987764,
+    "date": "2025-07-21T20:34:03.175901+00:00",
+    "location": "",
+    "company": "Adobe",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 48,
+    "total": 48
+  },
+  {
+    "id": 6987764,
+    "date": "2025-07-21T20:34:03.175901+00:00",
+    "location": "",
+    "company": "Sprinklr",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 45,
+    "total": null
   },
   {
     "id": 6987457,
@@ -7950,6 +9250,16 @@
     "total": 29.37
   },
   {
+    "id": 6976218,
+    "date": "2025-07-19T03:09:27.535458+00:00",
+    "location": "Bengaluru",
+    "company": "eBay",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 34,
+    "total": 38.5
+  },
+  {
     "id": 6974927,
     "date": "2025-07-18T16:06:09.796428+00:00",
     "location": "",
@@ -8018,6 +9328,16 @@
     "yoe": 4,
     "base": 40,
     "total": 50.0
+  },
+  {
+    "id": 6970743,
+    "date": "2025-07-17T13:15:24.231425+00:00",
+    "location": "",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 4,
+    "base": 31,
+    "total": 61.4
   },
   {
     "id": 6970631,
@@ -8108,6 +9428,36 @@
     "yoe": 7,
     "base": 77.26,
     "total": 117
+  },
+  {
+    "id": 6964828,
+    "date": "2025-07-16T04:46:21.558622+00:00",
+    "location": "Bengaluru",
+    "company": "CoinDCX",
+    "role": "N/A",
+    "yoe": 4,
+    "base": 40,
+    "total": 40.0
+  },
+  {
+    "id": 6964828,
+    "date": "2025-07-16T04:46:21.558622+00:00",
+    "location": "Remote",
+    "company": "Motive",
+    "role": "N/A",
+    "yoe": 4,
+    "base": 40,
+    "total": 45
+  },
+  {
+    "id": 6964183,
+    "date": "2025-07-15T23:34:32.074486+00:00",
+    "location": "",
+    "company": "Target",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 30,
+    "total": 33
   },
   {
     "id": 6963135,
@@ -8240,6 +9590,26 @@
     "total": 37
   },
   {
+    "id": 6958356,
+    "date": "2025-07-14T16:07:35.632970+00:00",
+    "location": "",
+    "company": "Company A",
+    "role": "N/A",
+    "yoe": null,
+    "base": 20,
+    "total": null
+  },
+  {
+    "id": 6958356,
+    "date": "2025-07-14T16:07:35.632970+00:00",
+    "location": "",
+    "company": "Company B",
+    "role": "N/A",
+    "yoe": null,
+    "base": 25,
+    "total": null
+  },
+  {
     "id": 6950565,
     "date": "2025-07-12T17:47:37.920797+00:00",
     "location": "",
@@ -8308,6 +9678,26 @@
     "yoe": 4,
     "base": 42,
     "total": 64
+  },
+  {
+    "id": 6946576,
+    "date": "2025-07-11T12:43:40.885943+00:00",
+    "location": "Remote",
+    "company": "NetApp",
+    "role": "N/A",
+    "yoe": 4.8,
+    "base": 38,
+    "total": 53
+  },
+  {
+    "id": 6946576,
+    "date": "2025-07-11T12:43:40.885943+00:00",
+    "location": "Remote",
+    "company": "Bluebeam Nemetschek",
+    "role": "N/A",
+    "yoe": 4.8,
+    "base": 46.5,
+    "total": 52
   },
   {
     "id": 6946388,
@@ -8390,6 +9780,26 @@
     "total": 23
   },
   {
+    "id": 6942088,
+    "date": "2025-07-10T08:17:43.943695+00:00",
+    "location": "",
+    "company": "OpenText",
+    "role": "N/A",
+    "yoe": 6,
+    "base": 35,
+    "total": null
+  },
+  {
+    "id": 6942088,
+    "date": "2025-07-10T08:17:43.943695+00:00",
+    "location": "",
+    "company": "Ltts",
+    "role": "N/A",
+    "yoe": 6,
+    "base": 36,
+    "total": null
+  },
+  {
     "id": 6941687,
     "date": "2025-07-10T06:19:45.742811+00:00",
     "location": "Bengaluru",
@@ -8428,6 +9838,16 @@
     "yoe": 5,
     "base": 40,
     "total": 52
+  },
+  {
+    "id": 6941032,
+    "date": "2025-07-10T02:08:57.270806+00:00",
+    "location": "Remote",
+    "company": "Cyberhaven",
+    "role": "N/A",
+    "yoe": 5,
+    "base": 57,
+    "total": 67
   },
   {
     "id": 6941032,
@@ -8750,6 +10170,16 @@
     "total": 40
   },
   {
+    "id": 6926282,
+    "date": "2025-07-06T06:36:04.978180+00:00",
+    "location": "",
+    "company": "Us Banking Company",
+    "role": "N/A",
+    "yoe": 1.8,
+    "base": 26,
+    "total": 26
+  },
+  {
     "id": 6926215,
     "date": "2025-07-06T06:20:04.833544+00:00",
     "location": "",
@@ -8954,7 +10384,7 @@
     "date": "2025-07-02T05:11:00.736480+00:00",
     "location": "",
     "company": "Doordash",
-    "role": "E4",
+    "role": "SDE 2",
     "yoe": 4,
     "base": 41,
     "total": 53
@@ -9060,6 +10490,16 @@
     "total": 25
   },
   {
+    "id": 6906715,
+    "date": "2025-07-01T10:40:22.561019+00:00",
+    "location": "",
+    "company": "Wayfair",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 40,
+    "total": null
+  },
+  {
     "id": 6903632,
     "date": "2025-06-30T16:33:15.472981+00:00",
     "location": "",
@@ -9110,6 +10550,16 @@
     "total": 40.6
   },
   {
+    "id": 6901379,
+    "date": "2025-06-30T06:01:06.459255+00:00",
+    "location": "Hyderabad",
+    "company": "Apple",
+    "role": "N/A",
+    "yoe": 7,
+    "base": 35,
+    "total": 58
+  },
+  {
     "id": 6900907,
     "date": "2025-06-30T03:34:04.305701+00:00",
     "location": "Remote",
@@ -9128,6 +10578,16 @@
     "yoe": 0,
     "base": 20,
     "total": 23.0
+  },
+  {
+    "id": 6899379,
+    "date": "2025-06-29T14:20:31.784353+00:00",
+    "location": "Bengaluru",
+    "company": "Cockroach Labs",
+    "role": "N/A",
+    "yoe": 4,
+    "base": 46,
+    "total": 47
   },
   {
     "id": 6898878,
@@ -9288,6 +10748,26 @@
     "yoe": 4.1,
     "base": 33,
     "total": null
+  },
+  {
+    "id": 6889715,
+    "date": "2025-06-26T20:09:05.755615+00:00",
+    "location": "",
+    "company": "Cadence",
+    "role": "N/A",
+    "yoe": 0,
+    "base": 15,
+    "total": 20.6
+  },
+  {
+    "id": 6889715,
+    "date": "2025-06-26T20:09:05.755615+00:00",
+    "location": "",
+    "company": "Startup",
+    "role": "N/A",
+    "yoe": 0,
+    "base": 11,
+    "total": 13
   },
   {
     "id": 6889204,
@@ -9590,6 +11070,26 @@
     "total": 36
   },
   {
+    "id": 6877780,
+    "date": "2025-06-23T19:11:26.957067+00:00",
+    "location": "",
+    "company": "Publicis Sapient",
+    "role": "N/A",
+    "yoe": 6,
+    "base": 38,
+    "total": 40
+  },
+  {
+    "id": 6877780,
+    "date": "2025-06-23T19:11:26.957067+00:00",
+    "location": "",
+    "company": "Netomi",
+    "role": "N/A",
+    "yoe": 6,
+    "base": 36,
+    "total": 36
+  },
+  {
     "id": 6877472,
     "date": "2025-06-23T17:36:32.839736+00:00",
     "location": "Bengaluru",
@@ -9860,6 +11360,36 @@
     "total": 12
   },
   {
+    "id": 6864517,
+    "date": "2025-06-20T07:04:09.465404+00:00",
+    "location": "",
+    "company": "Startup",
+    "role": "N/A",
+    "yoe": 0,
+    "base": 7.5,
+    "total": 8.5
+  },
+  {
+    "id": 6864517,
+    "date": "2025-06-20T07:04:09.465404+00:00",
+    "location": "",
+    "company": "Aerem",
+    "role": "N/A",
+    "yoe": 0,
+    "base": 12.5,
+    "total": 12.5
+  },
+  {
+    "id": 6864517,
+    "date": "2025-06-20T07:04:09.465404+00:00",
+    "location": "",
+    "company": "Startup",
+    "role": "N/A",
+    "yoe": 0,
+    "base": 11,
+    "total": 12
+  },
+  {
     "id": 6864428,
     "date": "2025-06-20T06:39:41.378143+00:00",
     "location": "",
@@ -9868,6 +11398,36 @@
     "yoe": 3,
     "base": 45,
     "total": 65.3
+  },
+  {
+    "id": 6864375,
+    "date": "2025-06-20T06:24:14.477337+00:00",
+    "location": "",
+    "company": "Morgan Stanley",
+    "role": "N/A",
+    "yoe": 8,
+    "base": 37,
+    "total": 44.55
+  },
+  {
+    "id": 6864375,
+    "date": "2025-06-20T06:24:14.477337+00:00",
+    "location": "",
+    "company": "BNP Paribas",
+    "role": "N/A",
+    "yoe": 8,
+    "base": 40,
+    "total": 46
+  },
+  {
+    "id": 6864375,
+    "date": "2025-06-20T06:24:14.477337+00:00",
+    "location": "",
+    "company": "Ibm Labs",
+    "role": "N/A",
+    "yoe": 8,
+    "base": 38,
+    "total": 43.8
   },
   {
     "id": 6863157,
@@ -9888,6 +11448,16 @@
     "yoe": 7,
     "base": 48,
     "total": 68
+  },
+  {
+    "id": 6862691,
+    "date": "2025-06-19T16:19:37.874531+00:00",
+    "location": "",
+    "company": "Big Product Based Company",
+    "role": "N/A",
+    "yoe": 4,
+    "base": 14,
+    "total": 14
   },
   {
     "id": 6862554,
@@ -10140,6 +11710,26 @@
     "total": 56.5
   },
   {
+    "id": 6849267,
+    "date": "2025-06-16T06:59:13.698431+00:00",
+    "location": "",
+    "company": "Tekion",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 38,
+    "total": 60
+  },
+  {
+    "id": 6849267,
+    "date": "2025-06-16T06:59:13.698431+00:00",
+    "location": "",
+    "company": "Jupiter Money",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 40.5,
+    "total": null
+  },
+  {
     "id": 6847469,
     "date": "2025-06-15T17:46:32.121715+00:00",
     "location": "Bengaluru",
@@ -10230,6 +11820,26 @@
     "total": 46.38
   },
   {
+    "id": 6843755,
+    "date": "2025-06-14T17:32:22.974623+00:00",
+    "location": "",
+    "company": "Publicis Sapient",
+    "role": "N/A",
+    "yoe": 6,
+    "base": 38,
+    "total": null
+  },
+  {
+    "id": 6843755,
+    "date": "2025-06-14T17:32:22.974623+00:00",
+    "location": "",
+    "company": "Grid Dynamics",
+    "role": "N/A",
+    "yoe": 6,
+    "base": 36,
+    "total": null
+  },
+  {
     "id": 6841932,
     "date": "2025-06-14T07:20:37.556088+00:00",
     "location": "Remote",
@@ -10248,6 +11858,26 @@
     "yoe": 1.92,
     "base": 27,
     "total": null
+  },
+  {
+    "id": 6841847,
+    "date": "2025-06-14T06:56:10.620170+00:00",
+    "location": "",
+    "company": "Early-Stage Startup",
+    "role": "N/A",
+    "yoe": 1.92,
+    "base": 25,
+    "total": 42
+  },
+  {
+    "id": 6840644,
+    "date": "2025-06-13T19:29:49.356730+00:00",
+    "location": "",
+    "company": "Goldman Sachs",
+    "role": "N/A",
+    "yoe": 1.33,
+    "base": 24.5,
+    "total": 29.5
   },
   {
     "id": 6840320,
@@ -10438,6 +12068,16 @@
     "yoe": 0,
     "base": null,
     "total": null
+  },
+  {
+    "id": 6836430,
+    "date": "2025-06-12T13:28:14.124725+00:00",
+    "location": "",
+    "company": "PhonePe",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 33,
+    "total": 44
   },
   {
     "id": 6836318,
@@ -10650,6 +12290,16 @@
     "total": 36.5
   },
   {
+    "id": 6825366,
+    "date": "2025-06-09T07:20:18.589622+00:00",
+    "location": "",
+    "company": "Cohesity",
+    "role": "N/A",
+    "yoe": 1.11,
+    "base": 23.32,
+    "total": 35.08
+  },
+  {
     "id": 6822789,
     "date": "2025-06-08T08:58:51.061361+00:00",
     "location": "",
@@ -10800,6 +12450,16 @@
     "total": 45
   },
   {
+    "id": 6814588,
+    "date": "2025-06-05T17:38:03.968853+00:00",
+    "location": "",
+    "company": "Goldman Sachs",
+    "role": "N/A",
+    "yoe": 4,
+    "base": 31,
+    "total": 37
+  },
+  {
     "id": 6814294,
     "date": "2025-06-05T16:07:27.045684+00:00",
     "location": "Bengaluru",
@@ -10898,6 +12558,26 @@
     "yoe": 7,
     "base": 43,
     "total": 66
+  },
+  {
+    "id": 6810797,
+    "date": "2025-06-04T14:02:02.491575+00:00",
+    "location": "",
+    "company": "Circles.Life",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 39.5,
+    "total": 56.47
+  },
+  {
+    "id": 6810797,
+    "date": "2025-06-04T14:02:02.491575+00:00",
+    "location": "",
+    "company": "Circles.Life",
+    "role": "N/A",
+    "yoe": 8,
+    "base": 48.34,
+    "total": 55.94
   },
   {
     "id": 6810677,
@@ -11100,6 +12780,26 @@
     "total": 83.5
   },
   {
+    "id": 6797725,
+    "date": "2025-05-31T06:28:26.393799+00:00",
+    "location": "Bengaluru",
+    "company": "Arista Networks",
+    "role": "N/A",
+    "yoe": 3.92,
+    "base": 24,
+    "total": 33.6
+  },
+  {
+    "id": 6797725,
+    "date": "2025-05-31T06:28:26.393799+00:00",
+    "location": "Bengaluru",
+    "company": "Salesforce",
+    "role": "N/A",
+    "yoe": 3.92,
+    "base": 31,
+    "total": 46.5
+  },
+  {
     "id": 6796515,
     "date": "2025-05-30T17:08:25.361447+00:00",
     "location": "Bengaluru",
@@ -11218,6 +12918,16 @@
     "yoe": null,
     "base": 32,
     "total": 36
+  },
+  {
+    "id": 6794482,
+    "date": "2025-05-30T04:28:30.051334+00:00",
+    "location": "",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 3.75,
+    "base": 34,
+    "total": null
   },
   {
     "id": 6794352,
@@ -11360,6 +13070,16 @@
     "total": 66.0
   },
   {
+    "id": 6789697,
+    "date": "2025-05-28T12:01:00.011888+00:00",
+    "location": "",
+    "company": "Vertafore",
+    "role": "N/A",
+    "yoe": 3.2,
+    "base": null,
+    "total": 13.5
+  },
+  {
     "id": 6789586,
     "date": "2025-05-28T11:17:16.925297+00:00",
     "location": "",
@@ -11408,6 +13128,16 @@
     "yoe": 2,
     "base": 9.0,
     "total": 10.0
+  },
+  {
+    "id": 6782891,
+    "date": "2025-05-26T11:45:20.386535+00:00",
+    "location": "",
+    "company": "JPMorgan Chase",
+    "role": "N/A",
+    "yoe": 3.7,
+    "base": 29,
+    "total": null
   },
   {
     "id": 6781819,
@@ -11528,6 +13258,16 @@
     "yoe": 0,
     "base": 18,
     "total": 29
+  },
+  {
+    "id": 6773923,
+    "date": "2025-05-23T18:25:48.334071+00:00",
+    "location": "",
+    "company": "Kaleris",
+    "role": "N/A",
+    "yoe": 2.6,
+    "base": 16,
+    "total": 17
   },
   {
     "id": 6773136,
@@ -11700,6 +13440,26 @@
     "total": null
   },
   {
+    "id": 6765990,
+    "date": "2025-05-21T07:22:50.097877+00:00",
+    "location": "",
+    "company": "Salesforce",
+    "role": "N/A",
+    "yoe": null,
+    "base": 18,
+    "total": 44
+  },
+  {
+    "id": 6765990,
+    "date": "2025-05-21T07:22:50.097877+00:00",
+    "location": "",
+    "company": "Intuit",
+    "role": "N/A",
+    "yoe": null,
+    "base": 20.5,
+    "total": 45
+  },
+  {
     "id": 6764434,
     "date": "2025-05-20T19:38:35.277117+00:00",
     "location": "",
@@ -11708,6 +13468,16 @@
     "yoe": 0,
     "base": 18,
     "total": 29.1
+  },
+  {
+    "id": 6764434,
+    "date": "2025-05-20T19:38:35.277117+00:00",
+    "location": "",
+    "company": "Eternal",
+    "role": "N/A",
+    "yoe": 0,
+    "base": 24,
+    "total": 29
   },
   {
     "id": 6763629,
@@ -11988,6 +13758,26 @@
     "yoe": 4.6,
     "base": 25,
     "total": null
+  },
+  {
+    "id": 6750117,
+    "date": "2025-05-16T12:44:51.170999+00:00",
+    "location": "",
+    "company": "PwC",
+    "role": "N/A",
+    "yoe": 5,
+    "base": 17,
+    "total": null
+  },
+  {
+    "id": 6750117,
+    "date": "2025-05-16T12:44:51.170999+00:00",
+    "location": "",
+    "company": "Infosys",
+    "role": "N/A",
+    "yoe": 5,
+    "base": 17.4,
+    "total": 20
   },
   {
     "id": 6750030,
@@ -12380,6 +14170,16 @@
     "total": 46.38
   },
   {
+    "id": 6728867,
+    "date": "2025-05-09T20:02:55.555047+00:00",
+    "location": "",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 2.8,
+    "base": 28,
+    "total": 28.015
+  },
+  {
     "id": 6728764,
     "date": "2025-05-09T19:09:32.097886+00:00",
     "location": "Mumbai",
@@ -12528,6 +14328,16 @@
     "yoe": 0.5,
     "base": 18,
     "total": 30.35
+  },
+  {
+    "id": 6724785,
+    "date": "2025-05-08T06:31:42.747529+00:00",
+    "location": "",
+    "company": "Target",
+    "role": "N/A",
+    "yoe": 3.7,
+    "base": 20,
+    "total": 21.5
   },
   {
     "id": 6724785,
@@ -12807,6 +14617,16 @@
     "role": "SDE 1",
     "yoe": 2,
     "base": 25,
+    "total": null
+  },
+  {
+    "id": 6714691,
+    "date": "2025-05-04T17:21:49.399964+00:00",
+    "location": "Bengaluru",
+    "company": "Seed Stage Startup",
+    "role": "N/A",
+    "yoe": 2,
+    "base": 14,
     "total": null
   },
   {
@@ -13280,6 +15100,16 @@
     "total": 35
   },
   {
+    "id": 6690460,
+    "date": "2025-04-27T02:31:56.566989+00:00",
+    "location": "",
+    "company": "Blackline Systems",
+    "role": "N/A",
+    "yoe": 10,
+    "base": 43,
+    "total": null
+  },
+  {
     "id": 6689833,
     "date": "2025-04-26T18:53:55.065584+00:00",
     "location": "Bengaluru",
@@ -13348,6 +15178,16 @@
     "yoe": 4,
     "base": 50,
     "total": 80
+  },
+  {
+    "id": 6685828,
+    "date": "2025-04-25T09:45:49.178848+00:00",
+    "location": "",
+    "company": "Avalara",
+    "role": "N/A",
+    "yoe": 3.75,
+    "base": 36,
+    "total": 43.1
   },
   {
     "id": 6685665,
@@ -13650,6 +15490,46 @@
     "total": null
   },
   {
+    "id": 6665030,
+    "date": "2025-04-18T20:15:14.634598+00:00",
+    "location": "Noida",
+    "company": "Paytm",
+    "role": "N/A",
+    "yoe": null,
+    "base": 33,
+    "total": 34.5
+  },
+  {
+    "id": 6665030,
+    "date": "2025-04-18T20:15:14.634598+00:00",
+    "location": "Mumbai",
+    "company": "Kissht",
+    "role": "N/A",
+    "yoe": null,
+    "base": 36,
+    "total": 40
+  },
+  {
+    "id": 6665030,
+    "date": "2025-04-18T20:15:14.634598+00:00",
+    "location": "Gurugram",
+    "company": "Park+",
+    "role": "N/A",
+    "yoe": null,
+    "base": 38,
+    "total": 38
+  },
+  {
+    "id": 6665030,
+    "date": "2025-04-18T20:15:14.634598+00:00",
+    "location": "Bengaluru",
+    "company": "Radius Agent",
+    "role": "N/A",
+    "yoe": null,
+    "base": 40,
+    "total": 40
+  },
+  {
     "id": 6664958,
     "date": "2025-04-18T19:29:00.247992+00:00",
     "location": "Bengaluru",
@@ -13880,6 +15760,16 @@
     "total": 15.0
   },
   {
+    "id": 6654292,
+    "date": "2025-04-15T18:02:40.066410+00:00",
+    "location": "",
+    "company": "BlackRock",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 28,
+    "total": 32.3
+  },
+  {
     "id": 6653228,
     "date": "2025-04-15T11:38:53.510363+00:00",
     "location": "",
@@ -13978,6 +15868,36 @@
     "yoe": 3.8333333333333335,
     "base": 45.3,
     "total": 66.5
+  },
+  {
+    "id": 6651006,
+    "date": "2025-04-14T17:12:35.298343+00:00",
+    "location": "Bengaluru",
+    "company": "Verizon",
+    "role": "N/A",
+    "yoe": 4.2,
+    "base": 16.64,
+    "total": 18.66
+  },
+  {
+    "id": 6651006,
+    "date": "2025-04-14T17:12:35.298343+00:00",
+    "location": "Pune",
+    "company": "NICE",
+    "role": "N/A",
+    "yoe": 4.2,
+    "base": 18.08,
+    "total": 19.93
+  },
+  {
+    "id": 6651006,
+    "date": "2025-04-14T17:12:35.298343+00:00",
+    "location": "Hyderabad",
+    "company": "Deloitte",
+    "role": "N/A",
+    "yoe": 4.2,
+    "base": 19,
+    "total": 20.9
   },
   {
     "id": 6650481,
@@ -14140,6 +16060,16 @@
     "total": 71
   },
   {
+    "id": 6640623,
+    "date": "2025-04-11T17:22:35.854239+00:00",
+    "location": "",
+    "company": "Blinkit",
+    "role": "N/A",
+    "yoe": 2.83,
+    "base": 36,
+    "total": 46
+  },
+  {
     "id": 6640183,
     "date": "2025-04-11T14:53:56.516194+00:00",
     "location": "Bengaluru",
@@ -14198,6 +16128,16 @@
     "yoe": 2.5,
     "base": 60,
     "total": 75
+  },
+  {
+    "id": 6637485,
+    "date": "2025-04-10T18:42:43.791435+00:00",
+    "location": "",
+    "company": "Uber",
+    "role": "N/A",
+    "yoe": 2.5,
+    "base": 50,
+    "total": 80
   },
   {
     "id": 6637048,
@@ -14360,6 +16300,36 @@
     "total": 45
   },
   {
+    "id": 6629031,
+    "date": "2025-04-08T11:15:18.805743+00:00",
+    "location": "",
+    "company": "FICO",
+    "role": "N/A",
+    "yoe": null,
+    "base": 28,
+    "total": 30.1
+  },
+  {
+    "id": 6629031,
+    "date": "2025-04-08T11:15:18.805743+00:00",
+    "location": "",
+    "company": "Walmart",
+    "role": "N/A",
+    "yoe": null,
+    "base": 25.15,
+    "total": 30.25
+  },
+  {
+    "id": 6628983,
+    "date": "2025-04-08T10:59:06.159993+00:00",
+    "location": "Bengaluru",
+    "company": "Oracle",
+    "role": "N/A",
+    "yoe": 4.8,
+    "base": 26,
+    "total": 42
+  },
+  {
     "id": 6628983,
     "date": "2025-04-08T10:59:06.159993+00:00",
     "location": "",
@@ -14388,6 +16358,16 @@
     "yoe": 9,
     "base": 85,
     "total": 131
+  },
+  {
+    "id": 6625840,
+    "date": "2025-04-07T15:03:25.647520+00:00",
+    "location": "",
+    "company": "Uber",
+    "role": "N/A",
+    "yoe": 3.5,
+    "base": 47,
+    "total": 67
   },
   {
     "id": 6625713,
@@ -14510,6 +16490,26 @@
     "total": 46.28
   },
   {
+    "id": 6618625,
+    "date": "2025-04-05T13:06:29.287157+00:00",
+    "location": "Hyderabad",
+    "company": "EPAM",
+    "role": "N/A",
+    "yoe": 3.8,
+    "base": 17,
+    "total": 18.05
+  },
+  {
+    "id": 6618625,
+    "date": "2025-04-05T13:06:29.287157+00:00",
+    "location": "Gurugram",
+    "company": "HashedIn",
+    "role": "N/A",
+    "yoe": 3.8,
+    "base": 15,
+    "total": 17.5
+  },
+  {
     "id": 6618617,
     "date": "2025-04-05T13:03:45.376934+00:00",
     "location": "",
@@ -14558,6 +16558,16 @@
     "yoe": 6,
     "base": 56,
     "total": 70
+  },
+  {
+    "id": 6616415,
+    "date": "2025-04-04T21:04:23.109337+00:00",
+    "location": "",
+    "company": "Gojek",
+    "role": "N/A",
+    "yoe": null,
+    "base": 29.2,
+    "total": 31.2
   },
   {
     "id": 6616202,
@@ -14738,6 +16748,56 @@
     "yoe": 2.8,
     "base": 36,
     "total": 46
+  },
+  {
+    "id": 6601726,
+    "date": "2025-04-01T02:46:15.953495+00:00",
+    "location": "Hyderabad",
+    "company": "EPAM",
+    "role": "N/A",
+    "yoe": 3.8,
+    "base": 13,
+    "total": 14.05
+  },
+  {
+    "id": 6601726,
+    "date": "2025-04-01T02:46:15.953495+00:00",
+    "location": "Gurugram",
+    "company": "HashedIn",
+    "role": "N/A",
+    "yoe": 3.8,
+    "base": 15,
+    "total": 17.5
+  },
+  {
+    "id": 6601117,
+    "date": "2025-03-31T19:18:10.979114+00:00",
+    "location": "Hyderabad",
+    "company": "EPAM",
+    "role": "N/A",
+    "yoe": null,
+    "base": 13,
+    "total": 14.05
+  },
+  {
+    "id": 6601117,
+    "date": "2025-03-31T19:18:10.979114+00:00",
+    "location": "Gurugram",
+    "company": "HashedIn",
+    "role": "N/A",
+    "yoe": null,
+    "base": 15,
+    "total": 17.5
+  },
+  {
+    "id": 6600509,
+    "date": "2025-03-31T15:54:32.380507+00:00",
+    "location": "",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": null,
+    "base": 28,
+    "total": null
   },
   {
     "id": 6599578,
@@ -15240,6 +17300,26 @@
     "total": 30
   },
   {
+    "id": 6579120,
+    "date": "2025-03-25T17:44:15.464863+00:00",
+    "location": "Hyderabad",
+    "company": "Ge Vernova",
+    "role": "N/A",
+    "yoe": 4.6,
+    "base": 16.5,
+    "total": 19
+  },
+  {
+    "id": 6579120,
+    "date": "2025-03-25T17:44:15.464863+00:00",
+    "location": "Pune",
+    "company": "NICE",
+    "role": "N/A",
+    "yoe": 4.6,
+    "base": 14,
+    "total": 16.5
+  },
+  {
     "id": 6577244,
     "date": "2025-03-25T09:17:24.733782+00:00",
     "location": "Bengaluru",
@@ -15338,6 +17418,16 @@
     "yoe": 5,
     "base": 27,
     "total": 32
+  },
+  {
+    "id": 6574061,
+    "date": "2025-03-24T13:22:18.631044+00:00",
+    "location": "",
+    "company": "Accolite Digital",
+    "role": "N/A",
+    "yoe": null,
+    "base": 15,
+    "total": null
   },
   {
     "id": 6573645,
@@ -15513,6 +17603,16 @@
     "id": 6564226,
     "date": "2025-03-21T18:48:37.308856+00:00",
     "location": "",
+    "company": "Oracle",
+    "role": "N/A",
+    "yoe": null,
+    "base": 38,
+    "total": 52
+  },
+  {
+    "id": 6564226,
+    "date": "2025-03-21T18:48:37.308856+00:00",
+    "location": "",
     "company": "Optum(Senior Full Stack Developer)",
     "role": "SSE",
     "yoe": null,
@@ -15568,6 +17668,16 @@
     "yoe": 2.7,
     "base": 22.5,
     "total": 30.0
+  },
+  {
+    "id": 6562095,
+    "date": "2025-03-21T07:21:41.727384+00:00",
+    "location": "",
+    "company": "Google",
+    "role": "N/A",
+    "yoe": null,
+    "base": 20,
+    "total": 35
   },
   {
     "id": 6560424,
@@ -15688,6 +17798,16 @@
     "yoe": null,
     "base": null,
     "total": 63
+  },
+  {
+    "id": 6554639,
+    "date": "2025-03-19T07:42:49.780683+00:00",
+    "location": "",
+    "company": "Capgemini",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 9.0,
+    "total": null
   },
   {
     "id": 6553692,
@@ -15980,6 +18100,26 @@
     "total": 64.68
   },
   {
+    "id": 6533424,
+    "date": "2025-03-13T17:35:35.113607+00:00",
+    "location": "Noida",
+    "company": "Astrotalk",
+    "role": "N/A",
+    "yoe": null,
+    "base": 15,
+    "total": 15
+  },
+  {
+    "id": 6533424,
+    "date": "2025-03-13T17:35:35.113607+00:00",
+    "location": "Bengaluru",
+    "company": "Boom Games",
+    "role": "N/A",
+    "yoe": null,
+    "base": 18,
+    "total": 18
+  },
+  {
     "id": 6532776,
     "date": "2025-03-13T13:59:27.621186+00:00",
     "location": "Noida",
@@ -16188,6 +18328,26 @@
     "yoe": 3.8,
     "base": 45,
     "total": 61.98
+  },
+  {
+    "id": 6518245,
+    "date": "2025-03-09T18:24:07.529654+00:00",
+    "location": "Hyderabad",
+    "company": "Factset",
+    "role": "N/A",
+    "yoe": 3.2,
+    "base": 11,
+    "total": 13
+  },
+  {
+    "id": 6518245,
+    "date": "2025-03-09T18:24:07.529654+00:00",
+    "location": "Hyderabad",
+    "company": "People Tech Group",
+    "role": "N/A",
+    "yoe": 3.2,
+    "base": 17,
+    "total": 18
   },
   {
     "id": 6517043,
@@ -16420,6 +18580,36 @@
     "total": null
   },
   {
+    "id": 6508583,
+    "date": "2025-03-07T09:22:42.679482+00:00",
+    "location": "Remote",
+    "company": "UKG",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 28,
+    "total": 32
+  },
+  {
+    "id": 6508583,
+    "date": "2025-03-07T09:22:42.679482+00:00",
+    "location": "Remote",
+    "company": "Walmart",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 26,
+    "total": 33
+  },
+  {
+    "id": 6508583,
+    "date": "2025-03-07T09:22:42.679482+00:00",
+    "location": "Remote",
+    "company": "Wayfair",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 32,
+    "total": 32
+  },
+  {
     "id": 6507693,
     "date": "2025-03-07T05:05:24.440218+00:00",
     "location": "Hyderabad",
@@ -16580,6 +18770,26 @@
     "total": 5.75
   },
   {
+    "id": 6501517,
+    "date": "2025-03-05T17:36:19.678024+00:00",
+    "location": "",
+    "company": "Wayfair",
+    "role": "N/A",
+    "yoe": null,
+    "base": 32,
+    "total": 33.9
+  },
+  {
+    "id": 6501517,
+    "date": "2025-03-05T17:36:19.678024+00:00",
+    "location": "",
+    "company": "JumpCloud",
+    "role": "N/A",
+    "yoe": null,
+    "base": 35,
+    "total": 36.7
+  },
+  {
     "id": 6500412,
     "date": "2025-03-05T13:31:26.063499+00:00",
     "location": "Bengaluru",
@@ -16710,6 +18920,26 @@
     "total": 20
   },
   {
+    "id": 6494611,
+    "date": "2025-03-04T10:16:04.337097+00:00",
+    "location": "Delhi",
+    "company": "Fractal",
+    "role": "N/A",
+    "yoe": 6,
+    "base": 21,
+    "total": 21
+  },
+  {
+    "id": 6494611,
+    "date": "2025-03-04T10:16:04.337097+00:00",
+    "location": "Delhi",
+    "company": "Publicis Sapient",
+    "role": "N/A",
+    "yoe": 6,
+    "base": 23,
+    "total": 23
+  },
+  {
     "id": 6493914,
     "date": "2025-03-04T06:58:42.539436+00:00",
     "location": "Bengaluru",
@@ -16718,6 +18948,16 @@
     "yoe": 5,
     "base": 45,
     "total": 78
+  },
+  {
+    "id": 6493714,
+    "date": "2025-03-04T06:14:16.363674+00:00",
+    "location": "",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 3.5,
+    "base": 26,
+    "total": 43.42
   },
   {
     "id": 6493571,
@@ -16748,6 +18988,16 @@
     "yoe": 2.5,
     "base": 24.5,
     "total": 37
+  },
+  {
+    "id": 6491769,
+    "date": "2025-03-03T18:18:55.760613+00:00",
+    "location": "",
+    "company": "PayPal",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 29,
+    "total": null
   },
   {
     "id": 6491214,
@@ -17110,6 +19360,16 @@
     "total": 28.7
   },
   {
+    "id": 6473526,
+    "date": "2025-02-27T09:01:59.563337+00:00",
+    "location": "",
+    "company": "PhonePe",
+    "role": "N/A",
+    "yoe": 3,
+    "base": 30,
+    "total": 38.25
+  },
+  {
     "id": 6473185,
     "date": "2025-02-27T06:53:05.364926+00:00",
     "location": "Bengaluru",
@@ -17358,6 +19618,16 @@
     "yoe": 7.11,
     "base": 33,
     "total": 33
+  },
+  {
+    "id": 6457900,
+    "date": "2025-02-23T06:20:16.679909+00:00",
+    "location": "",
+    "company": "Ubs",
+    "role": "N/A",
+    "yoe": null,
+    "base": 12.5,
+    "total": 15
   },
   {
     "id": 6456569,
@@ -17770,6 +20040,26 @@
     "total": 64.9
   },
   {
+    "id": 6422097,
+    "date": "2025-02-14T14:18:22.956384+00:00",
+    "location": "",
+    "company": "Flipkart",
+    "role": "N/A",
+    "yoe": null,
+    "base": 29,
+    "total": 36.15
+  },
+  {
+    "id": 6422097,
+    "date": "2025-02-14T14:18:22.956384+00:00",
+    "location": "",
+    "company": "Blinkit",
+    "role": "N/A",
+    "yoe": null,
+    "base": 35,
+    "total": 45
+  },
+  {
     "id": 6422085,
     "date": "2025-02-14T14:12:27.754404+00:00",
     "location": "Bengaluru",
@@ -17818,6 +20108,16 @@
     "yoe": 4,
     "base": 36,
     "total": 53
+  },
+  {
+    "id": 6421467,
+    "date": "2025-02-14T10:38:04.523957+00:00",
+    "location": "Bengaluru",
+    "company": "IBM",
+    "role": "N/A",
+    "yoe": 2.5,
+    "base": 24,
+    "total": 30.7
   },
   {
     "id": 6420694,
@@ -18138,6 +20438,26 @@
     "yoe": 1.5,
     "base": 27,
     "total": 32.7
+  },
+  {
+    "id": 6408639,
+    "date": "2025-02-11T16:06:24.345901+00:00",
+    "location": "",
+    "company": "Oracle",
+    "role": "N/A",
+    "yoe": 3.6,
+    "base": 30.5,
+    "total": 50.0
+  },
+  {
+    "id": 6408639,
+    "date": "2025-02-11T16:06:24.345901+00:00",
+    "location": "",
+    "company": "PayPal",
+    "role": "N/A",
+    "yoe": 3.6,
+    "base": null,
+    "total": null
   },
   {
     "id": 6408466,
@@ -18520,6 +20840,26 @@
     "total": 59
   },
   {
+    "id": 6388369,
+    "date": "2025-02-07T08:04:10.335263+00:00",
+    "location": "",
+    "company": "Salesforce",
+    "role": "N/A",
+    "yoe": 3.5,
+    "base": 33,
+    "total": 51
+  },
+  {
+    "id": 6388369,
+    "date": "2025-02-07T08:04:10.335263+00:00",
+    "location": "",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": 3.5,
+    "base": 33,
+    "total": null
+  },
+  {
     "id": 6386960,
     "date": "2025-02-07T00:07:21.564117+00:00",
     "location": "India",
@@ -18670,6 +21010,16 @@
     "total": null
   },
   {
+    "id": 6380067,
+    "date": "2025-02-05T14:06:54.886079+00:00",
+    "location": "Bengaluru",
+    "company": "Salesforce",
+    "role": "N/A",
+    "yoe": 9,
+    "base": 55,
+    "total": 80
+  },
+  {
     "id": 6378057,
     "date": "2025-02-05T06:44:33.707511+00:00",
     "location": "Bengaluru",
@@ -18740,6 +21090,16 @@
     "total": 138.0
   },
   {
+    "id": 6372382,
+    "date": "2025-02-04T08:01:46.198813+00:00",
+    "location": "Hyderabad",
+    "company": "Apple | Ict4",
+    "role": "N/A",
+    "yoe": 11,
+    "base": 47,
+    "total": null
+  },
+  {
     "id": 6371950,
     "date": "2025-02-04T06:45:12.304104+00:00",
     "location": "Remote",
@@ -18748,6 +21108,26 @@
     "yoe": 4,
     "base": 30,
     "total": 43
+  },
+  {
+    "id": 6371057,
+    "date": "2025-02-04T04:20:59.176279+00:00",
+    "location": "Pune",
+    "company": "HSBC",
+    "role": "N/A",
+    "yoe": null,
+    "base": 15,
+    "total": 16.1
+  },
+  {
+    "id": 6371057,
+    "date": "2025-02-04T04:20:59.176279+00:00",
+    "location": "Noida",
+    "company": "Fractal",
+    "role": "N/A",
+    "yoe": null,
+    "base": 15.5,
+    "total": 17.0
   },
   {
     "id": 6369775,
@@ -18960,6 +21340,16 @@
     "total": 57.5
   },
   {
+    "id": 6356611,
+    "date": "2025-02-01T11:26:29.783806+00:00",
+    "location": "Bengaluru",
+    "company": "Booking Holdings",
+    "role": "N/A",
+    "yoe": null,
+    "base": 50,
+    "total": 63.17
+  },
+  {
     "id": 6356350,
     "date": "2025-02-01T10:24:36.075327+00:00",
     "location": "",
@@ -19130,6 +21520,36 @@
     "total": 52
   },
   {
+    "id": 6345763,
+    "date": "2025-01-29T19:29:12.560555+00:00",
+    "location": "",
+    "company": "Tata Communication",
+    "role": "N/A",
+    "yoe": null,
+    "base": 25,
+    "total": null
+  },
+  {
+    "id": 6345763,
+    "date": "2025-01-29T19:29:12.560555+00:00",
+    "location": "",
+    "company": "Observe.AI",
+    "role": "N/A",
+    "yoe": null,
+    "base": 32,
+    "total": null
+  },
+  {
+    "id": 6345763,
+    "date": "2025-01-29T19:29:12.560555+00:00",
+    "location": "",
+    "company": "Angel One",
+    "role": "N/A",
+    "yoe": null,
+    "base": 30,
+    "total": null
+  },
+  {
     "id": 6343808,
     "date": "2025-01-29T10:43:41.931593+00:00",
     "location": "Hyderabad",
@@ -19162,7 +21582,7 @@
   {
     "id": 6343628,
     "date": "2025-01-29T09:45:27.691712+00:00",
-    "location": "Hyderabad",
+    "location": "",
     "company": "Observe.AI",
     "role": "SDET",
     "yoe": null,
@@ -19172,7 +21592,7 @@
   {
     "id": 6343628,
     "date": "2025-01-29T09:45:27.691712+00:00",
-    "location": "Hyderabad",
+    "location": "",
     "company": "Angel One",
     "role": "SDET",
     "yoe": null,
@@ -19278,6 +21698,26 @@
     "yoe": 3.5,
     "base": 21,
     "total": 30
+  },
+  {
+    "id": 6334812,
+    "date": "2025-01-27T09:06:14.568678+00:00",
+    "location": "",
+    "company": "Adobe",
+    "role": "N/A",
+    "yoe": null,
+    "base": 24,
+    "total": 85.4
+  },
+  {
+    "id": 6334812,
+    "date": "2025-01-27T09:06:14.568678+00:00",
+    "location": "",
+    "company": "Amazon",
+    "role": "N/A",
+    "yoe": null,
+    "base": 44,
+    "total": 110
   },
   {
     "id": 6334246,
@@ -19500,6 +21940,26 @@
     "total": 42
   },
   {
+    "id": 6319139,
+    "date": "2025-01-23T09:31:11.209768+00:00",
+    "location": "Hyderabad",
+    "company": "EPAM",
+    "role": "N/A",
+    "yoe": null,
+    "base": 32.5,
+    "total": 32.5
+  },
+  {
+    "id": 6319139,
+    "date": "2025-01-23T09:31:11.209768+00:00",
+    "location": "Bengaluru",
+    "company": "NetApp",
+    "role": "N/A",
+    "yoe": null,
+    "base": 34.5,
+    "total": 40.5
+  },
+  {
     "id": 6318752,
     "date": "2025-01-23T07:49:04.985045+00:00",
     "location": "",
@@ -19567,6 +22027,16 @@
     "role": "MTS 2",
     "yoe": 2.8,
     "base": 20.5,
+    "total": 33.0
+  },
+  {
+    "id": 6313968,
+    "date": "2025-01-22T06:26:57.043600+00:00",
+    "location": "Bengaluru",
+    "company": "Wayfair",
+    "role": "N/A",
+    "yoe": null,
+    "base": 33,
     "total": 33.0
   },
   {
@@ -19638,6 +22108,26 @@
     "yoe": 0,
     "base": null,
     "total": null
+  },
+  {
+    "id": 6307104,
+    "date": "2025-01-20T15:16:22.352772+00:00",
+    "location": "",
+    "company": "Oracle",
+    "role": "N/A",
+    "yoe": 1.6,
+    "base": 25,
+    "total": 30.25
+  },
+  {
+    "id": 6307104,
+    "date": "2025-01-20T15:16:22.352772+00:00",
+    "location": "",
+    "company": "Superk",
+    "role": "N/A",
+    "yoe": 1.6,
+    "base": 23,
+    "total": 27
   },
   {
     "id": 6306471,
@@ -20060,6 +22550,26 @@
     "total": null
   },
   {
+    "id": 6279057,
+    "date": "2025-01-14T12:28:22.865396+00:00",
+    "location": "Pune",
+    "company": "Autodesk",
+    "role": "N/A",
+    "yoe": 7,
+    "base": 30,
+    "total": null
+  },
+  {
+    "id": 6279057,
+    "date": "2025-01-14T12:28:22.865396+00:00",
+    "location": "Gurugram",
+    "company": "GoDaddy",
+    "role": "N/A",
+    "yoe": 7,
+    "base": 30,
+    "total": null
+  },
+  {
     "id": 6274356,
     "date": "2025-01-13T14:40:00.271443+00:00",
     "location": "Pune",
@@ -20148,6 +22658,26 @@
     "yoe": null,
     "base": 23,
     "total": 25.055
+  },
+  {
+    "id": 6270245,
+    "date": "2025-01-12T17:18:59.977256+00:00",
+    "location": "",
+    "company": "NatWest Group",
+    "role": "N/A",
+    "yoe": null,
+    "base": 13,
+    "total": 15
+  },
+  {
+    "id": 6267962,
+    "date": "2025-01-12T06:27:33.018472+00:00",
+    "location": "Bengaluru",
+    "company": "Oracle",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 36,
+    "total": 55
   },
   {
     "id": 6267555,
@@ -20308,6 +22838,16 @@
     "yoe": 3.5,
     "base": 34,
     "total": 48.4
+  },
+  {
+    "id": 6259715,
+    "date": "2025-01-10T11:42:25.542992+00:00",
+    "location": "",
+    "company": "Walmart",
+    "role": "N/A",
+    "yoe": 6,
+    "base": 39.8,
+    "total": 51
   },
   {
     "id": 6257300,
@@ -20528,6 +23068,16 @@
     "yoe": 6,
     "base": 45,
     "total": 51
+  },
+  {
+    "id": 6247443,
+    "date": "2025-01-08T04:55:54.062133+00:00",
+    "location": "Bengaluru",
+    "company": "Oracle",
+    "role": "N/A",
+    "yoe": 4.5,
+    "base": 36,
+    "total": 60
   },
   {
     "id": 6246095,

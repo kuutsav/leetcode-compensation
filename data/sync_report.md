@@ -1,21 +1,66 @@
-# Sync Report - 2026-01-17 15:14
+# Sync Report - 2026-01-21 07:30
 
-**33 new posts found, 13 posts with 14 offers added**
+**32 new posts found, 12 posts with 13 offers added**
 
 ---
 
-## 1. ServiceNow | Software Development Intern (2 Months) | Hyderabad
+## 1. Microsoft | SWE-2 L62 | IC3 | Hyderabad
 
 ### Raw Content
 ```
-Stipend – ₹89K/month
-Joining Bonus – ₹50K 
+Education: B.Tech CSE (Tier 1) + Master’s
+Years of Experience: 3.5 years full-time (post Master’s)
+Prior Role: SDE 3 at a mid-sized startup
+Prior Compensation: 45 LPA (39 fixed + 6 variable)
+Company: Microsoft Role / Level: Software Engineer II (L62)
+Current Location: Bangalore, India
+Offer Date: December 2025
 
-full-time conversion offer:
-CTC: ₹44L
+Compensation Breakdown:
 
-Footnote:
-This is not a job or internship posting; the details are shared purely for informational purposes.
+Base Salary: 43 LPA (including PF)
+Annual Bonus: Up to 20% of base (8.15L max, 10–15% typical)
+Joining Bonus: 6L total (4L in Year 1 + 2L in Year 2)
+Relocation Bonus: 2.6L (Tax-paid by Microsoft)
+RSUs: $80,000 USD over 4 years (25% vest in Year 1, remaining vested quarterly)
+Total First-Year Compensation: ~71–73 LPA (Base + Bonus + RSUs + Joining Bonus + Relocation)
+
+Benefits:
+Standard Microsoft India benefits
+Health insurance, life & accident cover
+Transportation & food
+Learning / tuition assistance
+Wellness benefits
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Microsoft | SDE 2 | 3.5 | 43 | 72 | Hyderabad |
+
+---
+
+## 2. BCG X | Software Engineer | Compensation | 2.5 YOE
+
+### Raw Content
+```
+Background:
+Education - Btech CSE, Tier 3 college
+Compensation 
+Base - 11.2 LPA
+Bonus - 1 LPA
+Total - ~13 LPA (including PF)
+YOE - 2.5
+Company - Product based MNC (FMCG)
+
+Offer Details:
+Title - Software Engineer
+Base + PF - 19 LPA
+Annual Bonus - 16% Base (3LPA)
+Total CTC - ~22 LPA
+
+Others Benefits: standard benefits like insurance, lunch, health reimbursement etc
 
 ```
 
@@ -23,403 +68,466 @@ This is not a job or internship posting; the details are shared purely for infor
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| ServiceNow | SDE | - | 44 | 44 | Hyderabad |
+| BCG | SDE | 2.5 | 19 | 22 | - |
 
 ---
 
-## 2. Offer Review | Microsoft SSE L63 | India
-
-### Raw Content
-```
-Hey folks, can you please review this offer and tell me if this is a good offer for L63?
-
-Current(Amazon SDE2):
-Base: 46L
-Bonus: 17L
-RSUs: USD 90,000(With 15% vesting this year, remaining 40-40% for next 2 years)
-YOE: ~8.5
-
-
-Microsoft Offer:
-Level: SSE(L63)
-Base: 51L
-Annual Bonus: 0-30% -> 15% on an average
-SignOn Bonus: 8.5L
-RSUs: $120,000, 4 Year Vesting Period
-
-These are the original numbers. Please suggest room for negotiations.
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Microsoft | SSE | 8.5 | 51 | 71.75 | India |
-
----
-
-## 3. Which offer to choose? EPAM vs Startup
-
-### Raw Content
-```
-Current 
-- Company: TCS
-- Comp: 10 LPA
-- Exp: 2 YOE
-- Role: GenAI Dev
-- LWD: Feb End
-
-Offers:
-- Startup: 16 LPA (15+1) - REMOTE (Clinical Trials)
-- EPAM   : 16 LPA (fixed, includes gratuity) - BANGALORE (No Project as of now)
-
-People working in EPAM, would love your thoughts.
-
-
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Startup | GenAI Dev | 2 | 15 | 16 | Remote |
-| EPAM | GenAI Dev | 2 | 16 | 16 | Bengaluru |
-
----
-
-## 4. Exiting from TCS
-
-### Raw Content
-```
-**Current Company: TCS**
-- Role: SE (Digital)
-- Experience: 2.5 YoE (2023 Passout)
-- Tech Stack: React.js (Frontend)
-- CTC: 7.85 (6 Fixed)
-- Location: Kolkata
-
-***Offers in Hand**-*
-
-**HashedIn By Deloitte**:
-- Reached to recruiter after seeing their post on LinkedIn.
-- Offer Date: December (First Week)
-- Role: UI Expert (1-3 Years)
-- CTC: 10 (8.6 Fixed + 1.43 Perf + appraisal twice a year + other benefits)
-- CTC doesn't includes Gratuity
-- Tech Stack: Js,React (Frontend)
-- Location: Kolkata
-
-**Aaxis Digital**:
-- Cold messaged recruiter on LinkedIn.
-- Offer Date: December (First Week)
-- Role: Software Engineer (Frontend focused)
-- CTC: 14 (13 Fixed (including PF + Gratuity) + 1 Variable)
-- Tech Stack: Js,React (Frontend)
-- Location: Pune
-
----
-Which one will be good for long term?
-Preference: (Work + Pay) > WLB > Location
-
-Would love to hear from the community.
-
-
-
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Aaxis Digital | SDE | 2.5 | - | 14 | Pune |
-
----
-
-## 5. Meta Blr E4 Offer
-
-### Raw Content
-```
-Current TC - top MNC, 82 lpa(because of stock appreciation), 4.5 yoe
-
-Meta offer:- 
-
-45 base + 160k USD stocks + 7l Joining bonus ~ 88 lpa for first year
-
-I have a competing offer from a startup for 60 + 20 lpa.
-Seems like a lowball to me. I have seen 1cr+ offers for Meta Blr E4 on the internet, but the recruiter is not budging.
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Meta | E4 | 4.5 | 45 | 88 | Bengaluru |
-
----
-
-## 6. Atlassian P40 | India
-
-### Raw Content
-```
-# Offer:
-**Level**: P40 (SDE2)
-**Time of offer**: Nov 2025
-**Base**: 57L
-**Annual Bonus**: 15% (8.55L)
-**Joining Bonus**: 7L
-**RSU**: 100k$ over 4 years (22.27L/yr)
-**Other benefits**: PF 2.7L, Misc bonus: 1L, equity refreshers
-**TC**: 99L for 1st year, 92L year 2 onwards
-
-**Current**:
-**TC:** 70L (faang)
-**YOE:** 6 years
-
-Accepted the offer
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Atlassian | SDE 2 | 6 | 57 | 99 | Bengaluru |
-
----
-
-## 7. Meesho SDE3 | India
-
-### Raw Content
-```
-# Offer:
-**Level**: SDE3
-**Time of offer**: Sept 2025
-**Base**: 61L
-**Annual Bonus**: 0
-**Joining Bonus**: 0 
-**ESOPs**: 57L across 4 years (pre IPO valuation)
-**TC**: 75L (pre IPO) / 90L (post IPO)
-
-**Current**:
-**TC:** 65L (faang)
-**YOE:** 6 years
-
-Rejected as it was 5 days WFO and I had similar offers. 
-
-[Interview Exp](https://leetcode.com/discuss/post/7496727/meesho-sde3-interview-india-got-offer-by-v59z/)
-
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Meesho | SDE 3 | 6 | 61 | 75 | India |
-
----
-
-## 8. NetApp | Software Engineer - 3 Offer
-
-### Raw Content
-```
-Education: B.Tech, Computer Science, Tier 2 College 
-Experience: 4.5 Years 
-Current Company: Product based Mid-Size MNC
-Current Compensation: 40 LPA (incl RSUs)
-
-## NetApp Offer 
-Base: 43
-RSU: 24K USD (Vested over three years)
-Total CTC first year: 53-56 LPA 
-
-Is this a good offer? How is the work culture at NetApp? 
-They also have some ICP in the CTC, can someone from NetApp comment how much % of ICP is usually given on an average 
-
-
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| NetApp | SDE 3 | 4.5 | 43 | 55 | - |
-
----
-
-## 9. Microsoft SSE L63 | India
-
-### Raw Content
-```
-# Offer:
-**Level**: SSE(L63)
-**Base**: 56L
-**Annual Bonus:** 0-30% -> 15% on an average
-**SignOn Bonus**: 12L (paid in 2 parts and paid fully after 1 year)
-**RSUs**: $170,000, 4 Year Vesting Period, 1 Year Cliff Period
-
-
-# Current:
-**Base**: 77L
-**Annual Bonus** 15%
-**RSUs**: USD 210,000 (includes refreshers, joining RSUs $170,000)
-**YOE**: ~9
-
-
-Have negotiated on RSUs and Level w/ Microsoft as i was not okay with level downgrade, waiting on them to comeback
-
-Interview: https://leetcode.com/discuss/post/7425597/microsoft-interview-by-anonymous_user-zysz/
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Microsoft | SSE | 9 | 56 | 84.5 | Remote |
-
----
-
-## 10. Yugabyte offer [Need help to evaluate] | offer |
-
-### Raw Content
-```
-Current Role:
-exp: 6+
-Senior SDET at a large enterprise product company
-
-Current comp: 44 LPA base + 4.5 LPA variable + ESOPs on paper (private company)
-
-Offer on the Table:
-
-Staff SDET I at Yugabyte
-
-Base: 52 LPA, no variable, ESOPs on paper (potential upside if IPO / funding) some 25k 
-
-Can you helpm we evaluate this offer 
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Yugabyte | SDET | 6 | 52 | - | - |
-
----
-
-## 11. Microsoft Offer Discussion - L62
+## 3. URGENT || Senior SWE offer decision: Elsevier vs Freshworks 
 
 ### Raw Content
 ```
 Hi everyone,
 
-I recently received an offer from Microsoft and would like to get community opinions on whether it’s a good move.
+Looking for some advice on a career decision.
 
-```
-YOE: 6.5 years
-Current Location: Bengaluru
-Offer Location: Hyderabad
-```
+**Background**
 
-```
-Current Compensation (Bengaluru)
+* Current company: MNC, product-based
+* Current CTC: ~12 LPA
+* Experience: 4.5 years
+* Have been working fully remotely in all my roles so far
 
-Base: ₹43 LPA
+**Offers**
 
-Approx TC: ~₹55–58 LPA (market dependent)
+**Elsevier – Senior Software Engineer (Full-stack, backend-heavy)**
 
-Microsoft Offer (L62 – Hyderabad)
+* Base: 22 LPA
+* 15% fixed bonus
+* ~1 LPA employer PF
+* Total CTC: ~26.3 LPA
+* Flexible work model, possible remote
+* Mature product company
 
-Level: L62
+**Freshworks – Senior Software Engineer (Backend)**
 
-Base: ₹41 LPA (includes employer PF contribution)
+* Base: 26 LPA
+* 5–10% bonus on top
+* Total CTC: 28.6 LPA
+* Hybrid work model (3 days/week office)
+* Fast-growing SaaS product company
 
-Bonus: Up to 20% (target-based)
+I enjoy learning in fast-paced teams while also valuing work-life balance and long-term job security. Since I’ve mostly worked remotely so far, I sometimes feel I might be missing out on in-office learning and collaboration, though I do prefer remote work overall.
 
-Joining Bonus: ₹8 L total over 2 years
+If anyone currently works at or has worked with Elsevier or Freshworks, I’d really appreciate your inputs on team culture, learning opportunities, work-life balance, and long-term growth.
 
-RSUs: $100k over 4 years
-
-Year-1 TC (approx): ~₹72–75 LPA (depending on stock price & bonus payout)
-
-```
-**My Questions**
-- Is L62 a fair level for 6.5 YOE at Microsoft India?
-
-- How does this offer compare to market for Hyderabad vs Bengaluru?
-- Is the base being lower than current base (but higher total comp) a concern?
-
-- Would this be considered a good long-term move assuming 3–4 years at Microsoft?
-
-- Any advice on whether light negotiation (RSUs / sign-on) is still worth trying?
-
-Would really appreciate inputs from folks who have seen or experienced Microsoft India offers. As i have joining in few weeks.
-
-Thanks in advance!
+Thanks in advance for your help.
 ```
 
 ### Parsed Offers
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Microsoft | SDE 4 | 6.5 | 41 | 72.16 | Hyderabad |
+| Elsevier | SSE | 4.5 | 22 | 26.3 | - |
+| Freshworks | SSE | 4.5 | 26 | 28.6 | - |
 
 ---
 
-## 12. Urgent: Salesforce Compensation - MTS
+## 4. BNP Paribas – Software Engineer Compensation (Bengaluru)
 
 ### Raw Content
 ```
-Current company - Walmart India, Bangalore
-YOE - 4.5
-Current Designation: SDE3 Frontend
-Current CTC: 24.4L(Including Employer PF) + 20% Bonus(~4.6L) + 7-8L RSUs
-        which is total around: ~29LPA + 7-8L RSUs
+Sharing compensation details for BNP Paribas (India) for folks evaluating or negotiating offers. Posting clear structure (no monthly breakup).
 
-Interviewed in last 30days, recruiter reached out directly.
+Company: BNP Paribas
+Role: Software Engineer
+Location: Bengaluru
+Work Mode: Hybrid (3 days WFO)
 
-Offer: Salesforce MTS, Hyderabad
-Team: Platform Team hiring for Front end engineer.
-Verbal CTC: 30L-32L MAX Base (Including Employer PF) + 10% Bonus(3L) + 7-8L RSUs yearly + Relocation of 1.5L
-which is total around 33-35LPA + 7-8L RSUs yearly + Relocation of 1.5L
+💰 Compensation Breakdown
 
-This is not even 20% Hike plus relocation is required.
-What should I do? I am a female with no friends in Hyderabad.
+Total Compensation:
 
+~₹18 LPA
 
+Fixed Pay:
 
+₹14 LPA
+
+Paid monthly
+
+Includes standard components (basic, HRA, allowances, etc.)
+
+Variable Pay:
+
+₹2 LPA
+
+Performance-based
+
+Typically paid annually (depends on individual + org performance)
+
+🎁 Joining Bonus
+
+₹2 LPA
+
+One-time payout (paid after joining / as per company policy)
+
+🧾 Notes
+
+Stable MNC / banking tech environment
+
+Good balance of fixed vs variable
+
+Hybrid setup with predictable office days
+
+Suitable for folks prioritizing stability + WLB
+
+Hope this helps anyone considering an offer from BNP Paribas.
+Happy to answer general questions
 ```
 
 ### Parsed Offers
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Salesforce | MTS | 4.5 | 32 | 42.25 | Hyderabad |
+| BNP Paribas | SDE | - | 14 | 18 | Bengaluru |
 
 ---
 
-## 13. Offer Review | Booking Holdings | Full Stack Engineer II | Bengaluru
+## 5. Qualcomm | Senior Engineer
 
 ### Raw Content
 ```
-Current company
+Prev Compensation - 25 LPA fixed
+YOE - 4
+
+Education - Btech CS NIT
 
 
-Overall TC: ~80 LPA
+Offer Details - 
 
-Base: ~69 LPA including PF
-RSUs: $20k USD vested over 3 years
-Joining bonus: 5 Lakh
-Annual bonus: 15% of base salary
+Base + PF - 33.4 LPA
+Stocks - 30K USD over 3 years
+Bonus - targeted 9% of base
 
-Previously worked in Remote based company
+one time - 
+JB - 5 Lakh
+Relocation - 3.7 Lakh
 
-YOE: 14 years
 
-The offer was lower than my expectations, but I accepted it anyway after coming from a toxic culture in my previous organization.
+Offer Accepted
+
 ```
 
 ### Parsed Offers
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Booking Holdings | Full Stack Engineer 2 | 14 | 69 | 84.35 | Bengaluru |
+| Qualcomm | SSE | 4 | 33.4 | 39.10600000000001 | - |
+
+---
+
+## 6. Kraftshala – Full Stack Software Engineer Compensation (India)
+
+### Raw Content
+```
+Sharing compensation details for Kraftshala (India) to help others evaluating offers. Numbers are shared in rounded ranges / structure, not exact monthly breakdowns.
+
+Company: Kraftshala
+Role: Full Stack Developer
+Location: India
+Experience: Early–Mid level
+
+💰 Compensation Breakdown
+
+Total CTC:
+
+~₹18 LPA
+
+Pay Structure:
+
+90% Fixed
+
+10% Variable (performance-based)
+
+Fixed Pay:
+
+~₹16–16.5 LPA
+
+Paid monthly
+
+Includes standard components like basic, allowances, etc.
+
+Variable Pay:
+
+~₹1.5–2 LPA
+
+Linked to individual / company performance
+
+Typically paid annually or semi-annually (as per policy)
+
+🧾 Notes
+
+No ESOPs / stock component
+
+Clean and simple salary structure
+
+Variable is relatively low-risk due to high fixed ratio
+
+Startup / growth-stage environment with learning opportunities
+
+Hope this helps anyone considering or negotiating an offer from Kraftshala.
+Happy to answer general questions
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Kraftshala | SDE | 2 | 16.25 | 18 | - |
+
+---
+
+## 7. DigitalPaani – Senior Software Engineer Compensation (India)
+
+### Raw Content
+```
+Sharing compensation details for DigitalPaani (India). All figures are shared in ranges / rounded values for anonymity.
+
+Company: DigitalPaani
+Role: Senior Software Engineer
+Location: India
+Experience: ~4–6 YOE
+
+💰 Compensation Breakdown
+
+Base / Fixed Pay:
+
+~₹14–16 LPA
+
+Structure:
+
+Basic: ~40–45% of fixed
+
+HRA: ~50% of basic
+
+Remaining as special allowance
+
+In-hand (Take Home):
+
+~₹12–13 LPA after statutory deductions (PF, LWF, etc.)
+
+🎁 Joining Bonus
+
+₹2,00,000 (one-time, typically paid after joining / probation as per policy)
+
+📈 Equity (ESOPs)
+
+~₹4,00,000 worth of stock options
+
+Standard startup vesting:
+
+4-year vesting
+
+1-year cliff
+
+Monthly vesting thereafter
+
+Exercise price = FMV at grant
+
+🧾 Employer Benefits (Included in CTC)
+
+Employer PF contribution
+
+Gratuity
+
+Paid leave / leave encashment component
+
+Small annual ex-gratia or performance-linked bonus
+
+📌 Notes
+
+Mostly fixed-pay heavy structure
+
+ESOPs add long-term upside
+
+Suitable for folks looking for startup exposure with predictable monthly pay
+
+Hope this helps anyone considering or negotiating an offer from DigitalPaani.
+Happy to answer general questions
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Digitalpaani | SSE | 5 | 15 | 21 | Remote |
+
+---
+
+## 8. Qualys – Software Engineer Compensation (India)
+
+### Raw Content
+```
+Sharing my compensation details for Qualys (India) to help others benchmarking offers. Posting anonymized figures (ranges, not exact).
+
+Role: Software Engineer
+Location: India
+Experience: Early–Mid level (around 2–4 YOE)
+
+💰 Compensation Breakdown
+
+Base Salary (Fixed):
+
+~₹12–14 LPA
+
+Structure:
+
+Basic: ~40% of base
+
+HRA: ~40% of basic
+
+Remaining as other allowances
+
+LTA included (claim-based)
+
+Employer PF:
+
+~12% of basic (included in CTC)
+
+Total CTC:
+
+~₹13–15 LPA
+
+🎁 Joining Bonus
+
+₹2,00,000 (one-time, paid after joining / as per policy)
+
+📈 Equity (ESOPs)
+
+Stock options worth a few hundred shares
+
+Standard 4-year vesting
+
+25% after 1 year (cliff)
+
+Monthly vesting thereafter
+
+Exercise price = FMV at grant
+
+🧾 Notes
+
+No variable/performance bonus component
+
+Equity is a nice long-term upside, but base-heavy structure
+
+Good WLB and stable product company vibes
+
+Hope this helps anyone considering or negotiating an offer from Qualys.
+Happy to answer general questions (can’t share exact numbers).
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Qualys | SDE | 3 | 13 | 15 | India |
+
+---
+
+## 9. Acquia | Software Engineer (SDE-2) | 3.5 YOE 
+
+### Raw Content
+```
+YOE - 3.5 Years
+Current Compensation - 26L Base + 4L ESOPS at a early stage startup in BLR
+
+Offer Details:
+
+Base Salary - 33.5L
+PF - 1.5L
+RSUs - NA
+Location: Remote
+Other Benifits: 20k INR for WFH setup
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Acquia | SDE 2 | 3.5 | 33.5 | - | Remote |
+
+---
+
+## 10. Cognizant | 4.7 YOE | Associate | Offer | Kolkata 2025
+
+### Raw Content
+```
+Education: BTech Tier - 1
+Years of Experience: 4.7 Years
+Date of the Offer: December 2025
+Company: Cognizant
+Title/Level: Associate
+Location: Kolkata
+Salary: 15.5 LPA (Fixed)
+Bonus: 45K (Annually)
+Total Comp: INR 16 LPA
+
+Is this offer good or Am I being lowballed?
+I asked for Senior Associate and higher pay but this was the best they can do.
+Any suggestions will be highly appreciated.
+
+Current : 12.25 LPA (MNC - Service based)
+Stack: Java, Springboot, MS (Backend)
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Cognizant | Associate | 4.7 | 15.5 | 16 | Kolkata |
+
+---
+
+## 11. Cognizant | 4.7 YOE | Associate | Offer | Kolkata 2025
+
+### Raw Content
+```
+Education: BTech Tier - 1
+Years of Experience: 4.7 Years
+Date of the Offer: December 2025
+Company: Cognizant
+Title/Level: Associate
+Location: Kolkata
+Salary: 15.5 LPA (Fixed)
+Bonus: 45K (Annually)
+Total Comp: INR 16 LPA
+
+Is this offer good or Am I being lowballed?
+I asked for Senior Associate and higher pay but this was the best they can do.
+Any suggestions will be highly appreciated.
+
+Current : 12.25 LPA (MNC - Service based)
+Stack: Java, Springboot, MS (Backend)
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Cognizant | Associate | 4.7 | 15.5 | 16 | Kolkata |
+
+---
+
+## 12. NeoSoft | Software Engineer | Mumbai
+
+### Raw Content
+```
+- Education: MCA
+- Years of Experience: 4.4 Years
+- Date of the Offer: December 2025
+- Company: NeoSoft
+- Title/Level: Software Engineer
+- Location: Mumbai
+- Salary: INR 10 LPA
+- Bonus: Retention bonus 10% of salary
+- Total Comp: INR 11 LPA
+- Benefits: 18 paid leaves + 12 paid holidays
+```
+
+### Parsed Offers
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Neosoft | SDE | 4.4 | 10 | 11 | Mumbai |
 
 ---
