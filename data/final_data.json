@@ -1,5 +1,125 @@
 [
   {
+    "id": 7518122,
+    "date": "2026-01-23T16:10:47.686231+00:00",
+    "location": "Bengaluru",
+    "company": "Microsoft",
+    "role": "SDE 2",
+    "yoe": 3.5,
+    "base": 34,
+    "total": 75
+  },
+  {
+    "id": 7517433,
+    "date": "2026-01-23T10:05:03.718495+00:00",
+    "location": "Remote",
+    "company": "Teachmint",
+    "role": "SDE 2",
+    "yoe": 1.5,
+    "base": 26,
+    "total": 27.75
+  },
+  {
+    "id": 7517370,
+    "date": "2026-01-23T09:34:43.192178+00:00",
+    "location": "Mumbai",
+    "company": "Barclays",
+    "role": "AVP",
+    "yoe": 5,
+    "base": 50,
+    "total": 50
+  },
+  {
+    "id": 7517065,
+    "date": "2026-01-23T06:51:33.480432+00:00",
+    "location": "Bengaluru",
+    "company": "Super.money",
+    "role": "SDE 2",
+    "yoe": 1.8,
+    "base": 25,
+    "total": 28
+  },
+  {
+    "id": 7514987,
+    "date": "2026-01-22T10:35:10.510551+00:00",
+    "location": "Bengaluru",
+    "company": "Nielson",
+    "role": "MTS 2",
+    "yoe": 3.5,
+    "base": 35,
+    "total": 35.8
+  },
+  {
+    "id": 7513534,
+    "date": "2026-01-21T18:54:36.836796+00:00",
+    "location": "Bengaluru",
+    "company": "DP World",
+    "role": "SDE 1",
+    "yoe": 1.8,
+    "base": 26.4,
+    "total": 30
+  },
+  {
+    "id": 7513017,
+    "date": "2026-01-21T16:00:31.503676+00:00",
+    "location": "Hyderabad",
+    "company": "Microsoft",
+    "role": "SDE 1",
+    "yoe": 3.5,
+    "base": 28,
+    "total": 49.25
+  },
+  {
+    "id": 7511971,
+    "date": "2026-01-21T08:05:15.007296+00:00",
+    "location": "",
+    "company": "Celonis",
+    "role": "N/A",
+    "yoe": 2.5,
+    "base": 26.5,
+    "total": 32.75
+  },
+  {
+    "id": 7511044,
+    "date": "2026-01-20T21:04:55.361436+00:00",
+    "location": "",
+    "company": "Coupang",
+    "role": "SSE",
+    "yoe": null,
+    "base": 50,
+    "total": 75
+  },
+  {
+    "id": 7509547,
+    "date": "2026-01-20T10:57:55.280260+00:00",
+    "location": "Hyderabad",
+    "company": "Microsoft",
+    "role": "SDE 2",
+    "yoe": 3.5,
+    "base": 43,
+    "total": 71.5
+  },
+  {
+    "id": 7509504,
+    "date": "2026-01-20T10:35:50.554608+00:00",
+    "location": "",
+    "company": "Freshworks",
+    "role": "SSE",
+    "yoe": 4.5,
+    "base": 26,
+    "total": 28.6
+  },
+  {
+    "id": 7509230,
+    "date": "2026-01-20T08:09:27.663078+00:00",
+    "location": "",
+    "company": "BCG X",
+    "role": "SDE",
+    "yoe": 2.5,
+    "base": 19,
+    "total": 22
+  },
+  {
     "id": 7509136,
     "date": "2026-01-20T07:09:47.964146+00:00",
     "location": "",
@@ -12674,7 +12794,7 @@
     "date": "2025-06-02T15:40:06.014753+00:00",
     "location": "Noida",
     "company": "Adobe",
-    "role": "Mts-2",
+    "role": "MTS 2",
     "yoe": 2.08,
     "base": 24,
     "total": null
