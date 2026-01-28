@@ -1,449 +1,646 @@
-# Sync Report - 2026-01-24 07:20
+# Sync Report - 2026-01-28 15:15
 
-**31 new posts found, 12 posts with 12 offers added**
+**26 new posts found, 16 posts with 21 offers added**
+
+*Note: Some LLM-parsed totals have been manually corrected.*
 
 ---
 
-## 1. Microsoft | SDE-2 | L61
+## 1. HEADOUT SDE 2 
 
 ### Raw Content
 ```
-YOE: 3.5
-Current Company - PBC
-Current Comp ~ 45LPA (Base- 34.5L)
+YOE: 2.5
+COLLEGE : BITS 
+Current Company - DREAM11
+Current Comp ~ 34 BASE 
 
-Microsft Offer:
+HEADOUT Offer:
 
-Base: 34LPA
-Stocks: 140k $ over 4 years
+Base: 40 LPA
+
 Joining: 12L (6+6)
 Perfomance Bonus : 10-20% of base
 
-1st Year Comp - (34+31+6+3.4) ~ 75L
+1st Year Comp ~ 56
 
-Standard MS benefits
+Standard  benefits
 
-Interview Experience:- https://leetcode.com/discuss/post/7518104/microsoft-sde-2-interview-by-anonymous_u-831k/
 
 ```
 
-### Parsed Offers
+### Parsed Offers (Corrected)
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Microsoft | SDE 2 | 3.5 | 34 | 75 | Bengaluru |
+| Headout | SDE 2 | 2.5 | 40 | 56 | - |
 
 ---
 
-## 2. Need advice choosing between two offers (current job vs fintech vs edtech)
+## 2. Google | L4 | SWE 3 | India | 3.5 YOE
+
+### Raw Content
+```
+## Google Offer – Compensation Details (Anonymous)
+
+| Item | Details |
+|-----|--------|
+| Education | Computer Science Engineering (Tier-3 college) |
+| Company | **Google** |
+| Role / Level | Software Engineer (L4) |
+| Offer Date | Nov 2025 |
+| Joining Date | Jan 2026 |
+| Location | Bangalore |
+| Experience | **~3.5** YOE |
+| Base Salary | ₹39.1 LPA |
+| Performance Bonus (15% of base) | ₹5.86 LPA |
+| Stocks Grant | $80,000 (vested over 4 years) |
+| Benefits | ₹3.14 LPA (standard benefits) |
+| **Total Compensation (Year 1)** | **~₹75 LPA** |
+| Previous Company | Large MNC |
+| Previous CTC | ~₹20–22 LPA |
+| Previous Role | Senior Software Engineer |
+
+### Additional Information
+- No sign-on bonus due to company-wide compensation revision (June 2025)
+- No relocation bonus as both previous office and Google office are in Bangalore
+- Stock vesting: **38% in Year 1**
+
+I’ll share my interview experience and preparation strategy in a follow-up post.  
+If anyone wants the detailed stock vesting breakdown for all 4 years, I can check and update.
+
+```
+
+### Parsed Offers (Corrected)
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Google | SDE | 3.5 | 39.1 | 75 | Bengaluru |
+
+---
+
+## 3. Cashfree Payments | SDE-1 (New Grad) | 2026
+
+### Raw Content
+```
+- **Company:** Cashfree Payments
+- **Role / Level:** SDE-1 (New Grad)
+- **Location:** Gurgaon
+- **Education:** Tier 1.5 (NIT)
+- **Experience:** 0 Years (Fresher)
+
+### 💰 Compensation Breakdown
+- **Base Salary:** ₹16,00,000 / year
+- **Joining Bonus:** ₹1,00,000
+- **Variable Pay:** ₹2,00,000
+- **ESOPs / Stock Grant:** ₹12,00,000 (vested over 4 years, ₹3,00,000/year)
+
+**Total CTC :** ₹31,00,000  
+**Estimated 1st Year Compensation:** ~₹22,00,000  
+
+> **Decision:** Rejected (accepted FTE offer at **Meesho**)
+
+```
+
+### Parsed Offers (Corrected)
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Cashfree | SDE 1 | - | 16 | 31 | Gurugram |
+
+---
+
+## 4. Meta Bangalore | SWE University Grad | 2026
+
+### Raw Content
+```
+Education: B.Tech CSE from Tier 2 College
+YOE: 0 (except internship)
+
+Offer
+Base: 30.87 L
+Annual Bonus: 10% of base
+RSUs: 51k USD vested equally over 4 years
+Sign-on Bonus: 3.89 L
+Relocation: standard relocation package
+
+1st year TC ~49.32 L
+Total 4 year TC ~83 L
+
+```
+
+### Parsed Offers (Corrected)
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Meta | SDE | - | 30.87 | 49.32 | Bengaluru |
+
+---
+
+## 5. SDE-1 AMAZON ON CONTRACT BASIS FOR 1 YEAR...
+
+### Raw Content
+```
+Hi folks,
+
+I’m in a bit of a dilemma and would love some advice.
+
+I got an offer from Amazon India for an SDE-1 role, but it’s a 1-year fixed-term contract. Salary is around 20 LPA, Bangalore.
+
+I’m currently working as a Data Engineer, earning around 25k/month, and this will be my first proper SDE role.
+
+I’ve heard mixed things about contract roles, so I’m worried:
+
+Are conversions really rare?
+
+Is it risky to leave a stable job for this?
+
+If conversion doesn’t happen, is this experience still valuable?
+
+Also, since I’ve mostly worked in data engineering, I’m a bit rusty with core development skills.
+
+What should I focus on preparing before joining to perform well as an SDE?
+
+Anyone with real experience, please share. It will really help me decide. Thanks!
+```
+
+### Parsed Offers (Corrected)
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Amazon | SDE 1 | - | 20 | - | Bengaluru |
+
+---
+
+## 6. Offer Evaluation | JPMC | Walmart | DP World
+
+### Raw Content
+```
+Education: B. Tech from tier II
+Years of Experience: 3 years 6 months
+Current Position: Software Engineer at Product Based MNC
+Current Salary : 16.5 fixed + 2.5 RSU
+
+
+Walmart Offer
+Title/Level: SDE-3
+Location: Bengaluru
+Salary: 23.2LPA including PF & Gratuity
+Stock bonus: 9LPA rsu fixed for band 
+Bonus: 4.4 LPA
+Total comp (Salary + Bonus + Stock): ~36L
+Benefits: Standard Walmart Benefits
+
+
+DP world Offer
+Title/Level: Group SDE - 2
+Location: Bengaluru
+Base Salary : 34lpa
+Stock bonus: NA
+Bonus: Standard performance bonus 12% of salary every year ~ 4 LPA
+Total comp (Salary + Bonus): ~38L
+
+JPMC Offer
+In discussion they are offering(even with negotiating with other offer)
+Title/Level: SDE - 2
+Location: Bengaluru
+Base Salary : 29LPA including PF & Gratuity
+Stock bonus: NA
+Bonus: Standard performance bonus 15-20% of salary every year ~ 4 LPA
+Total comp (Salary + Bonus): ~33L
+Benefits: Standard JPMC Benefits
+
+Which one to choose and will JPMC negotiate to increase as they are telling this is max they can pay ?
+
+
+
+
+```
+
+### Parsed Offers (Corrected)
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Walmart | SDE 3 | 3.5 | 23.2 | 36 | Bengaluru |
+| DP World | Group SDE 2 | 3.5 | 34 | 38 | Bengaluru |
+| JPMorgan Chase | SDE 2 | 3.5 | 29 | 33 | Bengaluru |
+
+---
+
+## 7. Google Offer Review - Customer Solutions Engineer
+
+### Raw Content
+```
+I got a offer from google for Customer Solutions Engineer role 
+
+Education
+
+B.Tech - ECE
+M.Tech - Software Systems from BITS (Work Integraded)
+
+Years of Experience - 5.5 Years.
+
+Current Compensation
+
+Base 17.82 L
+Bonus - 8% - 1.42L
+Total - 19.24 LPA
+
+I have an offer from Oracle - IC3
+
+Base - 33 L
+Bonus - NIL
+Other Benifts - 1.8L
+Stocks - 16500$(Vested over 4 years - 40%,30%,20%,10%)
+
+Google 
+
+Base - 33L
+Bonus - 15% ( 4.95 L)
+Other Benifts - 3L
+Stocks - 42000$( Vested over 4 years - 38%,32%,20%,10% )
+
+When Compared Google is the good. But I feel google is paying me less compared to the market standards , as per my research on this website. But I want to take multiple opinon. So what do you expect from google if you are in my case and how to you negotiate or how do you decide on what amount you need to ask the recruiter ?
+
+```
+
+### Parsed Offers (Corrected)
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Google | Customer Solutions Engineer | 5.5 | 33 | 40.95 | - |
+
+---
+
+## 8. CashFree | SDE-1 | 2025
+
+### Raw Content
+```
+Company: Cashfree Payments  
+Role: SDE-1 (New Grad)  
+Education: IIT  
+
+Fixed pay: 18 LPA  
+Joining bonus: 2 L  
+Variable (perf.): 2 L  
+ESOPs: worth 12 L (4-year vesting ≈ 3 L/year)  
+
+4-year CTC: 34 L  
+Year-1 total value (approx.): ~25 L  
+
+I eventually declined this offer, as I had a better one from another company.
+
+```
+
+### Parsed Offers (Corrected)
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Cashfree | SDE 1 | - | 18 | 25 | - |
+
+---
+
+## 9. Cisco FY’26 || Winter Intern + FTE  ||  Breakdown || Off campus
+
+### Raw Content
+```
+## Cisco FY’26 || Winter Intern + FTE Opportunity || Compensation & Role Breakdown
+
+Sharing the **compensation and role breakdown** for the Cisco FY’26 Winter Intern + FTE opportunity, based on the details shared during the process.  
+Posting this for transparency and to help others evaluating similar roles.
+
+
+
+---
+
+##  Internship Role Details
+- **Role:** Technical Undergraduate Intern  
+- **Grade:** Intern/099  
+- **Monthly Stipend:** ₹88,000  
+- **Accommodation Allowance:** ₹10,000  
+
+**Total Monthly Compensation:** ₹98,000  
+
+---
+
+##  Full-Time Role: Software Engineer (Bachelor)
+
+###  Fixed & Variable Components
+- **Fixed Salary:** ₹14,50,000  
+- **Provident Fund:** ₹87,000  
+- **Gratuity:** ₹34,800  
+- **Performance Bonus (on target):** ₹72,500  
+
+**Subtotal:** ₹16,44,300  
+
+---
+
+###  One-Time Benefits
+- **Sign-on Bonus:** ₹6,50,000  
+  - Paid in two equal installments  
+  - 1st installment at the end of Year 1 (13th month)  
+  - 2nd installment at the end of Year 2 (25th month)
+
+- **Relocation Bonus:** ₹1,20,833  
+  - Applicable if relocating from a different city (one-time)
+
+---
+
+### Relocation Support
+- **Movement of Goods:** ₹45,000  
+- **Food & Laundry:** ₹13,500  
+
+---
+
+###  Total Package (Excluding Insurance)
+**Total Package:** ₹24,15,133  
+
+---
+
+###  Total CTC (Including Insurance & Benefits)
+**Total CTC:** ₹24,73,633  
+
+
+---
+
+
+
+ **My Interview Experience:**  
+[Read here](https://leetcode.com/discuss/post/7526450/cisco-fy26-winter-intern-fte-detailed-in-n0hu/)
+
+
+```
+
+### Parsed Offers (Corrected)
+
+| Company | Role | YoE | Base | Total | Location |
+|---------|------|-----|------|-------|----------|
+| Cisco | SDE | - | 14.5 | 24.73 | - |
+
+---
+
+## 10. Amazon SDE 2 (L5) Offer | Need Help
 
 ### Raw Content
 ```
 
-Hi everyone,
+Education: B.Tech. CSE (IIT) 2022 Passout
+Years of Experience: 3.8
+Current Role: SDE 2
+Current Compensation: 47 LPA (37 base + 10 perf bonus)
+Offered Role: SDE 2 at Amazon
+Base: 46.5 LPA
+Sign on Bonus: 17 L for first year and 12.5 L for second year
+Stock bonus: 38 L (vested over 4 years)
+Relocation: 1.5 L
+Total comp for 1st year ~ 67 L
 
-I’m seeking guidance from the community while deciding between two offers. Would really appreciate your insights.
-
-### Current Company
-
-* Current CTC: ₹16.5 LPA base
-* Variable: ₹5 LPA
-
-  * ₹2 L performance-based
-  * ₹3 L retention bonus
-* Total experience:
-
-  * 1.5 years full-time
-  * 1 year internship (same company)
-* Graduation: 2024 batch, Tier-2 college
-
----
-
-### Offer 1: 5paisa
-
-* Role: Software Engineer
-* Base: ₹25 LPA
-* Joining bonus: ₹2 LPA
-* Performance bonus: Applicable
-* Domain: Fintech / Trading platform
-
----
-
-### Offer 2: Teachmint
-
-* Role: SDE 2
-* Base: ₹26 LPA
-* ESOPs: ₹7 L (vesting over 4 years)
-* Performance bonus: Applicable
-* Domain: EdTech / SaaS
-
----
-
-### What I’m trying to evaluate
-
-* Engineering culture and code quality
-* Learning opportunities (system design, scalability)
-* Long-term career growth
-* Stability vs growth potential
-* Brand value for future switches
-
-I’m early in my career and want to optimize for strong engineering fundamentals and long-term trajectory rather than just short-term compensation.
-
-If anyone has experience with either company or insights into fintech vs edtech from an engineering perspective, I’d really appreciate your thoughts.
-
-Thanks in advance 🙏
-
+Kindly help in evaluating how good is this offer as per current market standards and which other companies can be targerted to match this
 ```
 
-### Parsed Offers
+### Parsed Offers (Corrected)
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Teachmint | SDE 2 | 1.5 | 26 | 27.75 | Remote |
+| Amazon | SDE 2 | 3.8 | 46.5 | 67 | - |
 
 ---
 
-## 3. Barclays | AVP
+## 11. MakeMyTrip vs PayPal
 
 ### Raw Content
 ```
-Education: B.Tech from Tier 1 (NIT)
-Years of Experience: 5+ years
-Current Salary : 35 LPA
-Month of the Offer: October 2025
-Company: Barclays
-Title/Level: AVP - C++ Developer (CCR team)
-Location: Mumbai
-Offered Salary: 50LPA Base (including my PF , Gratuity)
-Joining Bonus: 0₹
-ESOPs: 0
-Total comp (Salary + Bonus + Stock): 50LPA
-```
+I have got offers from MakeMyTrip and PayPal, Help me make a decision.
 
-### Parsed Offers
+YOE: 5.5 yrs
+Current Role: Lead Software Engineer
+Current Comp: 20 Fixed + 5 Variable (25)
+Currently working in a leading product based company in Chennai.
 
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Barclays | AVP | 5 | 50 | 50 | Mumbai |
-
----
-
-## 4. SUPER.MONEY ( FLIPKART GROUP)
-
-### Raw Content
-```
-Education: B-Tech from tier 1 college 
-Years of Experience: 1.8 years
-Prior Experience: RMG,
-Company: super.money ( flipkart group)
-Title/Level: SDE2 (backend)
+MakeMyTrip,
+Role : SSE 2
+Comp : Fixed - 38 LPA
+No RSU
+No Joining Bonus
+Relocation will be reimbursed
+Standard MMT benefits
 Location: Bangalore
-Base salary: 25 Lakhs 
-Relocation/Signing Bonus: Relocation reimbursement + 2Lakhs Signing Bonus
-Bonus: 0% to 10% per year of Base Salary
-some esops of super money not flipkart 
-Total comp: ~ 27-29
-Other details: Didn't negotiate, rejected the offer. Had better offer in hand
+
+PayPal,
+Role : SSE
+Comp: Fixed - 35
+10% Variable - 3.5LPA
+$10k stocks per year
+No Relocation and joining bonus.
+Overall - 47.5 LPA
+Standard PayPal benefits.
+Location: Chennai
+
+I prefer WLB and continuous learning curve.
+
+
 ```
 
-### Parsed Offers
+### Parsed Offers (Corrected)
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Super.money | SDE 2 | 1.8 | 25 | 28 | Bengaluru |
+| MakeMyTrip | SSE 2 | 5.5 | 38 | - | Bengaluru |
+| PayPal | SSE | 5.5 | 35 | 47.5 | Chennai |
 
 ---
 
-## 5. MTS-2 | Nielson | 3.5 YOE | Java
+## 12. HackerRank – Senior Software Engineer (SDE-2) Compensation (Bengaluru)
 
 ### Raw Content
 ```
-I have been looking for job since 2 months. Currently not working.
+Sharing compensation details for HackerRank (India) to help folks benchmarking senior product-company offers.
 
-College - NIT
-CSE
+Company: HackerRank
+Role: Senior Software Engineer (SDE-2)
+Location: Bengaluru
+Work Mode: Hybrid (3 days WFO)
 
-Prev Comp -
-SDE-2 Java
-Mid Size Startup 
-Fixed - 33lacs
-Annual Bonus - 4lacs
-total - 37lpa
+💼 Background
 
+Experience: 4 years 3 months
 
-Nielson Offer
-Bangalore
-MTS-2
-Fixed - 35lacs 
-Gratuity - 84k
-total- 35.8 lpa
-3Days WFO
+Current Company Type: Product-based
 
-How is the offer? I think its fair based on current market.
-```
+Current Role: Software Engineer
 
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Nielson | MTS 2 | 3.5 | 35 | 35.8 | Bengaluru |
-
----
-
-## 6. DP World | SDE 1 
-
-### Raw Content
-```
-Offer Details
-
-Education: B.E.
-Experience: 2- years (1 year 10 months)
-Previous Role: SDE 
-
-Company: DP World
-Title: SDE 1(BE)
-Location: Banglore
-
-Compensation Breakdown:
-
-Base Salary: ₹26.4 LPA
-Annual Bonus: 12% (~₹3.6 L)
-Total Comp : 30 LPA
-
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| DP World | SDE 1 | 1.8 | 26.4 | 30 | Bengaluru |
-
----
-
-## 7. Microsoft L61 (Hyderabad) – Verbal Offer Review | Lowballed ?
-
-### Raw Content
-```
-Hi everyone,
-
-I recently received a verbal offer from Microsoft for an L61 role in Hyderabad, and I wanted to get some perspective from the community on whether this looks fair or if there’s room for negotiation.
-
-Background
-College: Tier 1
-YOE: 3.5
 Current Compensation:
-22 LPA fixed
-~10% performance bonus
-~4 LPA RSUs
 
-Offer Details (Verbal)
-Base: 28 LPA
-RSUs: 60K USD (over 4 years)
-Joining Bonus: 6 LPA(3 LPA in Year 1 + 3 LPA in Year 2)
-Performance Bonus: 0–20% (10% average)
-Relocation Bonus: Still under discussion
+Fixed: ₹20 LPA
 
-Would really appreciate insights from folks who have negotiated with Microsoft.
+Variable: ₹4 LPA
 
-Currently, I am also interviewing at other companies, and I’ll share the interview process in a different post.
+Stocks: ₹24 L worth (vested over 4 years)
 
-Thanks in advance!
+💰 Offered Compensation (HackerRank)
 
+Fixed Pay:
 
+₹46 LPA
+
+Fully fixed, paid monthly
+
+🎁 Sign-on Bonus
+
+₹5,00,000
+
+One-time joining bonus (paid as per policy)
+
+📌 Notes
+
+Very strong fixed-pay heavy offer
+
+No dependency on annual variable for cash flow
+
+Big jump from current CTC, especially on fixed component
+
+Hybrid setup with limited office days
+
+Well-suited for engineers prioritizing high cash compensation in a mature product company
 ```
 
-### Parsed Offers
+### Parsed Offers (Corrected)
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Microsoft | SDE 1 | 3.5 | 28 | 49.25 | Hyderabad |
+| HackerRank | SDE 2 | 4.25 | 46 | 57 | Bengaluru |
 
 ---
 
-## 8. Celonis
+## 13. How significant is a jump in fixed pay
 
 ### Raw Content
 ```
-Tier 3 college.
-2.5yoe 18l base and esops
+Current Compensation : 14.2 Fixed + 8LPA shares :: 22LPA
+CCTC maximum in last 2 years: 14.2 + 12LPA when share increased by 33% :: 26LPA
+Current job: Complete remote
 
-I don't know where did i apply.... 
-But recruiter approached me and setup the interview call. and the entire process was realllly smooth to be honest
-First round was screening round was desgin (shopping cart and scheduler). working code was not expected.
-2) second round was take away home assignment (there are no right, wrong answere)
-3) Third round was discussion over the assignment and it was awsome (there are no right, wrong answere)....
-4) 4th round was lld went awsome (1mg blood test desgin) working code was not really expected
-5) 5th round was director round nothing major just star pattern.
+Offers recieved:
+26LPA All fixed from Nielsen, Bglr location
+28 All fixed plus 1-2 LPA Bonus from WEX Inc.
 
-Offer letter got 
-26.5 base + 3.5 variable(30tc)+ 90 stock at valuation of 13 billion since company ain't listed yet.
 
-Status :- rejected, needed temprory wfh cause of medical situation, did'nt allow
+Does it make sense to consider these offers , since less hike on Annual CTC and non-remote job.
 
-Anytips are welcome what can i do better 
+
+
 ```
 
-### Parsed Offers
+### Parsed Offers (Corrected)
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Celonis | N/A | 2.5 | 26.5 | 32.75 | - |
+| Nielsen | N/A | - | 26 | - | Bengaluru |
+| WEX Inc. | N/A | - | 28 | - | Bengaluru |
 
 ---
 
-## 9. Coupang (SSE) vs Oracle (IC3) || Where to Join ?
+## 14. Arcesium Compensation
 
 ### Raw Content
 ```
-Hey guys, i have got two offers from Coupang and Oracle. Please guide me where to join.
+YOE : 0.6 (1 year including internship)
+Role : Software Engineer
 
-**Oracle (IC3)**
+Base : 18 Lpa
+performance bonus : 2.5 Lpa
+LTI (Given each year) : 15/4 Lpa = 3.75 Lpa
 
-Base - 42.5L
-Stocks - $92k, 40, 30, 20, 10 vesting
+total comp per year : Around 24 Lpa
 
-1st Year Comp - 75L
-2nd Year Comp - 67L
-3rd Year Comp - 59L
-4th Year Comp - 51L
+Other benefits : Free food, Cab facility for drop after 8 pm, Hybrid work policy (2 days a week, Unlimited sick leaves, 20 PTO)
 
-Considering Oracle rarely provides refreshers and hikes.
+They are not willing to pay for relocation though,only the flight ticket and stay but not for food for 2 weeks, and for cabs also. 
 
-**Coupang (SSE)**
-
-Base - 50L
-Bonus 1st year - 15L
-Perf Bonus (10% Avg) - 5L
-Stocks - 5L
-
-1st Year Comp - 75L
-2nd Year Comp - 75L
-3rd Year Comp - 75L (Bonus becomes 0 but stock increases to 20L)
-4th Year Comp - 75L (Bonus becomes 0 but stock increases to 20L)
-
+Is the offer good? 
 
 ```
 
-### Parsed Offers
+### Parsed Offers (Corrected)
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Coupang | SSE | - | 50 | 75 | - |
+| Arcesium | SDE | 0.6 | 18 | 24 | - |
 
 ---
 
-## 10. Microsoft | SWE-2 L62 | IC3 | Hyderabad
+## 15. Career Decision: Cashfree vs Highspot (Need Advice)
 
 ### Raw Content
 ```
-Education: B.Tech CSE (Tier 1) + Master’s
-Years of Experience: 3.5 years full-time (post Master’s)
-Prior Role: SDE 3 at a mid-sized startup
-Prior Compensation: 45 LPA (39 fixed + 6 variable)
-Company: Microsoft Role / Level: Software Engineer II (L62)
-Current Location: Bangalore, India
-Offer Date: December 2025
+##  Cashfree Payments | SDE-1
 
-Compensation Breakdown:
+- **Salary:** ₹19 LPA  
+- **Stocks:** ₹8L (over 4 years)
 
-Base Salary: 43 LPA (including PF)
-Annual Bonus: Up to 20% of base (8.15L max, 10–15% typical)
-Joining Bonus: 6L total (4L in Year 1 + 2L in Year 2)
-Relocation Bonus: 2.6L (Tax-paid by Microsoft)
-RSUs: $80,000 USD over 4 years (25% vest in Year 1, remaining vested quarterly)
-Total First-Year Compensation: ~71–73 LPA (Base + Bonus + RSUs + Joining Bonus + Relocation)
 
-Benefits:
-Standard Microsoft India benefits
-Health insurance, life & accident cover
-Transportation & food
-Learning / tuition assistance
-Wellness benefits
+## Highspot | SDE-1 (Hyderabad)
+
+- **Salary:** ₹20 LPA  
+- **ESOPS:** ₹10L  
 ```
 
-### Parsed Offers
+### Parsed Offers (Corrected)
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| Microsoft | SDE 2 | 3.5 | 43 | 71.5 | Hyderabad |
+| Cashfree | SDE 1 | - | 19 | 21 | - |
+| HighSpot | SDE 1 | - | 20 | - | Hyderabad |
 
 ---
 
-## 11. Seeking for careeer decision || Urgent
+## 16. JioHotstar | Software Development Engineer 2  | SDE-2 | Bangalore | Hybrid
 
 ### Raw Content
 ```
-Hi everyone,
+## Candidate & Offer Details
 
-Looking for some advice on a career decision.
-
-Background
-
-Current company: MNC, product-based
-Current CTC: ~12 LPA
-Experience: 4.5 years
-Have been working fully remotely in all my roles so far
-Offers
-
-Elsevier – Senior Software Engineer (Full-stack, backend-heavy)
-
-Base: 22 LPA
-15% fixed bonus
-~1 LPA employer PF
-Total CTC: ~26.3 LPA
-Flexible work model, possible remote
-Mature product company
-
-Freshworks – Senior Software Engineer (Backend)
-
-Base: 26 LPA
-5–10% bonus on top
-Total CTC: 28.6 LPA
-Hybrid work model (3 days/week office)
-Fast-growing SaaS product company
-
-I enjoy learning in fast-paced teams while also valuing work-life balance and long-term job security. Since I’ve mostly worked remotely so far, I sometimes feel I might be missing out on in-office learning and collaboration, thoughts I do prefer remote work overall.
-
-If anyone currently works at or has worked with Elsevier or Freshworks, I’d really appreciate your inputs on team culture, learning opportunities, work-life balance, and long-term growth.
-
-Thanks in advance for your help.
-```
-
-### Parsed Offers
-
-| Company | Role | YoE | Base | Total | Location |
-|---------|------|-----|------|-------|----------|
-| Freshworks | SSE | 4.5 | 26 | 28.6 | - |
+**YOE:** 3.5 years  
+**Current Company:** small/mid-size startup (~600 employees)  
+**Current Title:** Senior Backend Engineer  
+**Current TC:** 25 LPA fixed + 6 L ESOPs  
+**College:** Tier 1  
 
 ---
 
-## 12. BCG X | Software Engineer | Compensation | 2.5 YOE
+## Offer Details
 
-### Raw Content
+**Date of Offer:** Oct 2025  
+**Offered Title:** Software Development Engineer 2  
+
+**Compensation Breakdown:**
+- **Total CTC:** ₹40 LPA
+- **Base Salary:** ₹31L  
+- **Target Performance Bonus:** ₹2.2L (~7% of base)  
+- **PF:** ₹1.8L
+- **LTI :** ₹5 L per year (stock replacement)  
+- **Annual Bonus:** NA  
+- **Joining Bonus:** NA  
+- **Retention Bonus:** NA  
+
+**Relocation:**
+- No relocation bonus  
+- Company provides 14 days stay, flight tickets, and relocation of household goods  
+
+**Other Benfits**
+- Life Insurance cover: Rs 89L
+- Group Personal Accident cover: Rs 89L
+- Hospitalization Insurance Policy: Family floater cover of Rs 5L
+
+**Interview Experience :** https://leetcode.com/discuss/post/7529922/jiohotstar-software-development-engineer-tw7p/
+
+
 ```
-Background:
-Education - Btech CSE, Tier 3 college
-Compensation 
-Base - 11.2 LPA
-Bonus - 1 LPA
-Total - ~13 LPA (including PF)
-YOE - 2.5
-Company - Product based MNC (FMCG)
 
-Offer Details:
-Title - Software Engineer
-Base + PF - 19 LPA
-Annual Bonus - 16% Base (3LPA)
-Total CTC - ~22 LPA
-
-Others Benefits: standard benefits like insurance, lunch, health reimbursement etc
-
-```
-
-### Parsed Offers
+### Parsed Offers (Corrected)
 
 | Company | Role | YoE | Base | Total | Location |
 |---------|------|-----|------|-------|----------|
-| BCG X | SDE | 2.5 | 19 | 22 | - |
+| JioHotStar | SDE 2 | 3.5 | 31 | 40 | Bengaluru |
 
 ---

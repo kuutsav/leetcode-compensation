@@ -17,6 +17,7 @@
   "computer scientist 1": "Computer Scientist 1",
   "consultant": "Consultant",
   "cs 1": "SDE 1",
+  "customer solutions engineer": "Customer Solutions Engineer",
   "data engineer": "Data Engineer",
   "data engineer ii": "Data Engineer 2",
   "data scientist": "Data Scientist",
@@ -32,6 +33,7 @@
   "full stack engineer 2": "SDE 2",
   "full stack intern": "Intern",
   "genai dev": "GenAI Dev",
+  "group sde 2": "Group SDE 2",
   "ic 2": "SDE 2",
   "ic2": "SDE 2",
   "ic3": "SDE 3",
@@ -116,6 +118,7 @@
   "smts ic3": "SMTS",
   "smts(senior member of technical staff)": "SMTS",
   "software engineer": "SDE",
+  "software engineer (bachelor)": "SDE",
   "software engineer 1": "SDE 1",
   "software engineer 2": "SDE 2",
   "software engineer 3": "SDE 3",
@@ -132,5 +135,6 @@
   "swe 3": "SDE 3",
   "system software engineer": "SDE",
   "tech lead": "Tech Lead",
+  "technical undergraduate intern": "Technical Undergraduate Intern",
   "vp": "VP"
 }

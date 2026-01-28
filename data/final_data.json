@@ -1,5 +1,215 @@
 [
   {
+    "id": 7529982,
+    "date": "2026-01-27T18:19:27.795672+00:00",
+    "location": "Bengaluru",
+    "company": "JioHotStar",
+    "role": "SDE 2",
+    "yoe": 3.5,
+    "base": 31,
+    "total": 40
+  },
+  {
+    "id": 7529444,
+    "date": "2026-01-27T15:41:47.721746+00:00",
+    "location": "",
+    "company": "Cashfree",
+    "role": "SDE 1",
+    "yoe": null,
+    "base": 19,
+    "total": 21
+  },
+  {
+    "id": 7529444,
+    "date": "2026-01-27T15:41:47.721746+00:00",
+    "location": "Hyderabad",
+    "company": "HighSpot",
+    "role": "SDE 1",
+    "yoe": null,
+    "base": 20,
+    "total": null
+  },
+  {
+    "id": 7529226,
+    "date": "2026-01-27T14:26:49.062306+00:00",
+    "location": "",
+    "company": "Arcesium",
+    "role": "SDE",
+    "yoe": 0.6,
+    "base": 18,
+    "total": 24
+  },
+  {
+    "id": 7528601,
+    "date": "2026-01-27T10:03:45.113713+00:00",
+    "location": "Bengaluru",
+    "company": "Nielsen",
+    "role": "N/A",
+    "yoe": null,
+    "base": 26,
+    "total": null
+  },
+  {
+    "id": 7528601,
+    "date": "2026-01-27T10:03:45.113713+00:00",
+    "location": "Bengaluru",
+    "company": "WEX Inc.",
+    "role": "N/A",
+    "yoe": null,
+    "base": 28,
+    "total": null
+  },
+  {
+    "id": 7527666,
+    "date": "2026-01-26T19:45:06.016113+00:00",
+    "location": "Bengaluru",
+    "company": "HackerRank",
+    "role": "SDE 2",
+    "yoe": 4.25,
+    "base": 46,
+    "total": 57
+  },
+  {
+    "id": 7527037,
+    "date": "2026-01-26T15:36:23.932153+00:00",
+    "location": "Bengaluru",
+    "company": "MakeMyTrip",
+    "role": "SSE 2",
+    "yoe": 5.5,
+    "base": 38,
+    "total": null
+  },
+  {
+    "id": 7527037,
+    "date": "2026-01-26T15:36:23.932153+00:00",
+    "location": "Chennai",
+    "company": "PayPal",
+    "role": "SSE",
+    "yoe": 5.5,
+    "base": 35,
+    "total": 47.5
+  },
+  {
+    "id": 7526866,
+    "date": "2026-01-26T14:32:54.066672+00:00",
+    "location": "",
+    "company": "Amazon",
+    "role": "SDE 2",
+    "yoe": 3.8,
+    "base": 46.5,
+    "total": 67
+  },
+  {
+    "id": 7526449,
+    "date": "2026-01-26T12:09:09.275848+00:00",
+    "location": "",
+    "company": "Cisco",
+    "role": "SDE",
+    "yoe": null,
+    "base": 14.5,
+    "total": 24.73
+  },
+  {
+    "id": 7525774,
+    "date": "2026-01-26T07:40:06.864971+00:00",
+    "location": "",
+    "company": "Cashfree",
+    "role": "SDE 1",
+    "yoe": 0,
+    "base": 18,
+    "total": 25
+  },
+  {
+    "id": 7525668,
+    "date": "2026-01-26T07:04:42.526408+00:00",
+    "location": "",
+    "company": "Google",
+    "role": "Customer Solutions Engineer",
+    "yoe": 5.5,
+    "base": 33,
+    "total": 40.95
+  },
+  {
+    "id": 7523262,
+    "date": "2026-01-25T10:46:53.691088+00:00",
+    "location": "Bengaluru",
+    "company": "Walmart",
+    "role": "SDE 3",
+    "yoe": 3.5,
+    "base": 23.2,
+    "total": 36
+  },
+  {
+    "id": 7523262,
+    "date": "2026-01-25T10:46:53.691088+00:00",
+    "location": "Bengaluru",
+    "company": "DP World",
+    "role": "Group SDE 2",
+    "yoe": 3.5,
+    "base": 34,
+    "total": 38
+  },
+  {
+    "id": 7523262,
+    "date": "2026-01-25T10:46:53.691088+00:00",
+    "location": "Bengaluru",
+    "company": "JPMorgan Chase",
+    "role": "SDE 2",
+    "yoe": 3.5,
+    "base": 29,
+    "total": 33
+  },
+  {
+    "id": 7522876,
+    "date": "2026-01-25T08:16:51.290721+00:00",
+    "location": "Bengaluru",
+    "company": "Amazon",
+    "role": "SDE 1",
+    "yoe": null,
+    "base": 20,
+    "total": null
+  },
+  {
+    "id": 7522783,
+    "date": "2026-01-25T07:44:57.891819+00:00",
+    "location": "Bengaluru",
+    "company": "Meta",
+    "role": "SDE",
+    "yoe": 0,
+    "base": 30.87,
+    "total": 49.32
+  },
+  {
+    "id": 7522487,
+    "date": "2026-01-25T06:15:16.524140+00:00",
+    "location": "Gurugram",
+    "company": "Cashfree",
+    "role": "SDE 1",
+    "yoe": 0,
+    "base": 16,
+    "total": 31
+  },
+  {
+    "id": 7520006,
+    "date": "2026-01-24T10:15:41.574306+00:00",
+    "location": "Bengaluru",
+    "company": "Google",
+    "role": "SDE",
+    "yoe": 3.5,
+    "base": 39.1,
+    "total": 75
+  },
+  {
+    "id": 7519712,
+    "date": "2026-01-24T08:04:10.562208+00:00",
+    "location": "",
+    "company": "Headout",
+    "role": "SDE 2",
+    "yoe": 2.5,
+    "base": 40,
+    "total": 56
+  },
+  {
     "id": 7518122,
     "date": "2026-01-23T16:10:47.686231+00:00",
     "location": "Bengaluru",
@@ -5713,7 +5923,7 @@
     "id": 7238448,
     "date": "2025-10-01T06:13:36.441535+00:00",
     "location": "Bengaluru",
-    "company": "Jiohotstar",
+    "company": "JioHotStar",
     "role": "N/A",
     "yoe": null,
     "base": 18,
