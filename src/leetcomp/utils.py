@@ -1,9 +1,11 @@
 from enum import StrEnum
 import json
 import os
+import time
 
 import httpx
 from openai import OpenAI
+from openai import RateLimitError
 
 
 class Provider(StrEnum):
@@ -91,20 +93,28 @@ def get_llm_output(prompt: str) -> str | None:
         case Provider.GITHUB_MODELS | Provider.ZAI:
             api_key = os.environ[config["api_key_env"]]
             client = OpenAI(base_url=url, api_key=api_key)
-            response = client.chat.completions.create(
-                model=model,
-                temperature=0.3,
-                max_tokens=4096,
-                top_p=1,
-                messages=[
-                    {
-                        "role": "system",
-                        "content": "You are expert at parsing compensation related posts from leetcode discuss forum.",
-                    },
-                    {"role": "user", "content": prompt},
-                ],
-                reasoning_effort="none",
-            )
-            return response.choices[0].message.content
+            backoff_delays = [5, 10, 15]
+            for attempt, delay in enumerate(backoff_delays, 1):
+                try:
+                    response = client.chat.completions.create(
+                        model=model,
+                        temperature=0.3,
+                        max_tokens=4096,
+                        top_p=1,
+                        messages=[
+                            {
+                                "role": "system",
+                                "content": "You are expert at parsing compensation related posts from leetcode discuss forum.",
+                            },
+                            {"role": "user", "content": prompt},
+                        ],
+                        reasoning_effort="none",
+                    )
+                    return response.choices[0].message.content
+                except RateLimitError as e:
+                    if attempt < len(backoff_delays):
+                        time.sleep(delay)
+                    else:
+                        raise
 
     raise KeyError(f"Unknown provider {provider}")
