@@ -17,18 +17,17 @@
     "role": "SDE 2",
     "yoe": 3.5,
     "base": 43,
-    "total": null
+    "total": 63
   },
-
   {
     "id": 7563070,
     "date": "2026-02-08T11:33:50.162613+00:00",
     "location": "Hyderabad",
     "company": "Microsoft",
-    "role": "SDE",
+    "role": "SDE 2",
     "yoe": 1.5,
     "base": 21,
-    "total": null
+    "total": 25.2
   },
   {
     "id": 7561484,
@@ -97,8 +96,8 @@
     "company": "HashedIn",
     "role": "SDE 2",
     "yoe": 2.7,
-    "base": 13.5,
-    "total": null
+    "base": 11,
+    "total": 13.5
   },
   {
     "id": 7557715,
@@ -107,8 +106,8 @@
     "company": "Experian",
     "role": "Product Engineer",
     "yoe": 2.7,
-    "base": 14,
-    "total": null
+    "base": 13,
+    "total": 14
   },
   {
     "id": 7557715,
@@ -117,8 +116,8 @@
     "company": "EY",
     "role": "SDE",
     "yoe": 2.7,
-    "base": 12,
-    "total": null
+    "base": null,
+    "total": 12
   },
   {
     "id": 7557097,
@@ -170,7 +169,6 @@
     "base": 50,
     "total": 94.5
   },
-
   {
     "id": 7554851,
     "date": "2026-02-05T12:47:44.859594+00:00",
@@ -199,7 +197,7 @@
     "role": "SDE 3",
     "yoe": 4.5,
     "base": 35,
-    "total": null
+    "total": 35
   },
   {
     "id": 7554001,
@@ -248,8 +246,8 @@
     "company": "YC Startup",
     "role": "SDE 2",
     "yoe": 1.5,
-    "base": 38,
-    "total": 45
+    "base": null,
+    "total": 38
   },
   {
     "id": 7550944,
@@ -316,7 +314,7 @@
     "date": "2026-02-02T16:05:28.898062+00:00",
     "location": "Noida",
     "company": "Microsoft",
-    "role": "SDE",
+    "role": "SDE 2",
     "yoe": 1.7,
     "base": 21.4,
     "total": 27.4
@@ -398,8 +396,8 @@
     "company": "Apple",
     "role": "SDE 3",
     "yoe": 4.5,
-    "base": 54,
-    "total": null
+    "base": null,
+    "total": 54
   },
   {
     "id": 7535546,
