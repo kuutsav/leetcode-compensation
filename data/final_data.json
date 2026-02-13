@@ -1,5 +1,165 @@
 [
   {
+    "id": 7574941,
+    "date": "2026-02-12T20:55:14.964169+00:00",
+    "location": "Bengaluru",
+    "company": "Walmart",
+    "role": "SDE 3",
+    "yoe": null,
+    "base": 26,
+    "total": 34.5
+  },
+  {
+    "id": 7573851,
+    "date": "2026-02-12T12:56:02.446521+00:00",
+    "location": "",
+    "company": "Garden City Games",
+    "role": "SDE",
+    "yoe": 4.5,
+    "base": 26,
+    "total": null
+  },
+  {
+    "id": 7573764,
+    "date": "2026-02-12T12:08:50.418116+00:00",
+    "location": "Hyderabad",
+    "company": "JPMorgan Chase",
+    "role": "SDE 2",
+    "yoe": 3,
+    "base": 28,
+    "total": 32.5
+  },
+  {
+    "id": 7573722,
+    "date": "2026-02-12T11:47:48.466435+00:00",
+    "location": "",
+    "company": "Oracle",
+    "role": "SMTS",
+    "yoe": null,
+    "base": 35.3,
+    "total": 50
+  },
+  {
+    "id": 7573722,
+    "date": "2026-02-12T11:47:48.466435+00:00",
+    "location": "",
+    "company": "Kotak",
+    "role": "SDE 2",
+    "yoe": null,
+    "base": 44,
+    "total": 58.4
+  },
+  {
+    "id": 7572959,
+    "date": "2026-02-12T06:06:27.122620+00:00",
+    "location": "",
+    "company": "Oracle",
+    "role": "SSE",
+    "yoe": 4.5,
+    "base": 28,
+    "total": null
+  },
+  {
+    "id": 7572758,
+    "date": "2026-02-12T04:40:58.617698+00:00",
+    "location": "Bengaluru",
+    "company": "Walmart",
+    "role": "SDE 3",
+    "yoe": 2.5,
+    "base": 29.34,
+    "total": 46.94
+  },
+  {
+    "id": 7572525,
+    "date": "2026-02-12T02:07:53.940603+00:00",
+    "location": "",
+    "company": "D. E. Shaw",
+    "role": "SMTS",
+    "yoe": 4.5,
+    "base": 43,
+    "total": null
+  },
+  {
+    "id": 7572120,
+    "date": "2026-02-11T18:50:53.672091+00:00",
+    "location": "Bengaluru",
+    "company": "Microsoft",
+    "role": "SDE",
+    "yoe": 5.5,
+    "base": 44,
+    "total": 66.9
+  },
+  {
+    "id": 7571641,
+    "date": "2026-02-11T15:49:55.180541+00:00",
+    "location": "",
+    "company": "Salesforce",
+    "role": "N/A",
+    "yoe": 3.5,
+    "base": 28,
+    "total": null
+  },
+  {
+    "id": 7570788,
+    "date": "2026-02-11T09:14:44.509344+00:00",
+    "location": "Bengaluru",
+    "company": "Salesforce",
+    "role": "SMTS",
+    "yoe": 5.5,
+    "base": 46,
+    "total": 69.22
+  },
+  {
+    "id": 7570788,
+    "date": "2026-02-11T09:14:44.509344+00:00",
+    "location": "Bengaluru",
+    "company": "Microsoft",
+    "role": "SDE 2",
+    "yoe": 5.5,
+    "base": 34,
+    "total": 64
+  },
+  {
+    "id": 7570621,
+    "date": "2026-02-11T07:36:36.110491+00:00",
+    "location": "Hyderabad",
+    "company": "Microsoft",
+    "role": "SDE 2",
+    "yoe": null,
+    "base": 33,
+    "total": null
+  },
+  {
+    "id": 7570444,
+    "date": "2026-02-11T06:17:11.580586+00:00",
+    "location": "Hyderabad",
+    "company": "JPMorgan Chase",
+    "role": "SDE 2",
+    "yoe": 4.5,
+    "base": 28,
+    "total": null
+  },
+  {
+    "id": 7570319,
+    "date": "2026-02-11T05:17:20.108742+00:00",
+    "location": "",
+    "company": "Alteryx",
+    "role": "SDE",
+    "yoe": 2.8,
+    "base": 30,
+    "total": 34.13
+  },
+  {
+    "id": 7567605,
+    "date": "2026-02-10T06:16:22.280379+00:00",
+    "location": "",
+    "company": "Alteryx",
+    "role": "SDE 2",
+    "yoe": 3,
+    "base": 28,
+    "total": 33.652
+  },
+  {
     "id": 7565615,
     "date": "2026-02-09T11:31:50.869209+00:00",
     "location": "Bengaluru",
