@@ -1,5 +1,175 @@
 [
   {
+    "id": 7586292,
+    "date": "2026-02-17T12:38:21.831769+00:00",
+    "location": "",
+    "company": "TrueMeds",
+    "role": "SDE 2",
+    "yoe": 2,
+    "base": 27,
+    "total": 31
+  },
+  {
+    "id": 7586172,
+    "date": "2026-02-17T11:16:39.000621+00:00",
+    "location": "Hyderabad",
+    "company": "Microsoft",
+    "role": "SDE 2",
+    "yoe": 3.5,
+    "base": 33.3,
+    "total": 61.4
+  },
+  {
+    "id": 7585680,
+    "date": "2026-02-17T07:04:45.834918+00:00",
+    "location": "Bengaluru",
+    "company": "Oracle",
+    "role": "SDE 3",
+    "yoe": 5,
+    "base": 42,
+    "total": 72
+  },
+  {
+    "id": 7585588,
+    "date": "2026-02-17T06:32:19.215884+00:00",
+    "location": "Bengaluru",
+    "company": "Cisco",
+    "role": "G10",
+    "yoe": 7.8,
+    "base": 40,
+    "total": 53
+  },
+  {
+    "id": 7584728,
+    "date": "2026-02-16T18:42:26.603883+00:00",
+    "location": "Hyderabad",
+    "company": "Salesforce",
+    "role": "MTS",
+    "yoe": 2.5,
+    "base": 28,
+    "total": 43
+  },
+  {
+    "id": 7583496,
+    "date": "2026-02-16T10:19:22.698873+00:00",
+    "location": "Bengaluru",
+    "company": "PhonePe",
+    "role": "Senior Android Engineer",
+    "yoe": 6.5,
+    "base": 43,
+    "total": 89
+  },
+  {
+    "id": 7582165,
+    "date": "2026-02-15T18:43:30.054855+00:00",
+    "location": "",
+    "company": "Atlassian",
+    "role": "SSE",
+    "yoe": 4,
+    "base": 68,
+    "total": 125
+  },
+  {
+    "id": 7581850,
+    "date": "2026-02-15T16:23:41.799807+00:00",
+    "location": "",
+    "company": "EPAM",
+    "role": "SSE",
+    "yoe": 5,
+    "base": 19,
+    "total": null
+  },
+  {
+    "id": 7581850,
+    "date": "2026-02-15T16:23:41.799807+00:00",
+    "location": "",
+    "company": "Sigmoid",
+    "role": "DataOps Engineer 2",
+    "yoe": 5,
+    "base": 21,
+    "total": null
+  },
+  {
+    "id": 7581172,
+    "date": "2026-02-15T11:04:35.886776+00:00",
+    "location": "Bengaluru",
+    "company": "Cohesity",
+    "role": "SMTS 2",
+    "yoe": 3,
+    "base": 32,
+    "total": 47
+  },
+  {
+    "id": 7579830,
+    "date": "2026-02-14T22:11:14.636199+00:00",
+    "location": "",
+    "company": "Goldman Sachs",
+    "role": "SDE 1",
+    "yoe": 1.5,
+    "base": 22,
+    "total": 27.7
+  },
+  {
+    "id": 7577981,
+    "date": "2026-02-14T07:22:20.268606+00:00",
+    "location": "Hyderabad",
+    "company": "AMD",
+    "role": "Senior Software System Designer",
+    "yoe": 2.5,
+    "base": 29,
+    "total": 57
+  },
+  {
+    "id": 7577022,
+    "date": "2026-02-13T18:10:31.826500+00:00",
+    "location": "",
+    "company": "Millennium Management",
+    "role": "Platform Engineer",
+    "yoe": null,
+    "base": 45,
+    "total": null
+  },
+  {
+    "id": 7577022,
+    "date": "2026-02-13T18:10:31.826500+00:00",
+    "location": "",
+    "company": "Oracle",
+    "role": "Platform Engineer",
+    "yoe": null,
+    "base": 43,
+    "total": 55
+  },
+  {
+    "id": 7576697,
+    "date": "2026-02-13T16:05:07.384971+00:00",
+    "location": "Bengaluru",
+    "company": "Eightfold.ai",
+    "role": "SSE",
+    "yoe": 4.5,
+    "base": 51,
+    "total": 58
+  },
+  {
+    "id": 7575931,
+    "date": "2026-02-13T09:34:45.806562+00:00",
+    "location": "Pune",
+    "company": "AppDirect",
+    "role": "SSE",
+    "yoe": 5.58,
+    "base": 42,
+    "total": 46.2
+  },
+  {
+    "id": 7575606,
+    "date": "2026-02-13T07:00:24.781840+00:00",
+    "location": "",
+    "company": "Enphase",
+    "role": "N/A",
+    "yoe": 11,
+    "base": 46,
+    "total": 63
+  },
+  {
     "id": 7574941,
     "date": "2026-02-12T20:55:14.964169+00:00",
     "location": "Bengaluru",
@@ -2963,7 +3133,7 @@
     "id": 7401735,
     "date": "2025-12-09T05:58:00.396715+00:00",
     "location": "",
-    "company": "Appdirect",
+    "company": "AppDirect",
     "role": "SDE 2",
     "yoe": 3.2,
     "base": 21,
@@ -22993,7 +23163,7 @@
     "id": 6307581,
     "date": "2025-01-20T17:09:58.719922+00:00",
     "location": "Bengaluru",
-    "company": "Eightfold Ai",
+    "company": "Eightfold.ai",
     "role": "SSE",
     "yoe": 2.5,
     "base": 38,
