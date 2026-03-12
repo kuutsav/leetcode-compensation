@@ -1,6 +1,6 @@
 ## Leetcode Compensation
 
-[https://kuutsav.github.io/leetcode-compensation/](https://kuutsav.github.io/leetcode-compensation/)
+[https://0xku.github.io/leetcode-compensation/](https://0xku.github.io/leetcode-compensation/)
 
 A tool that helps you find **Software Engineer Salary in India** by:
 
