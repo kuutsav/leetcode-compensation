@@ -10,6 +10,7 @@ from openai import RateLimitError
 
 class Provider(StrEnum):
     GITHUB_MODELS = "github_models"
+    LLAMA_SERVER = "llama_server"
     LM_STUDIO = "lm_studio"
     ZAI = "zai"
 
@@ -19,6 +20,11 @@ _PROVIDER_CONFIG = {
         "url": "https://models.github.ai/inference",
         "model": "openai/gpt-4o",
         "api_key_env": "GITHUB_TOKEN",
+    },
+    Provider.LLAMA_SERVER: {
+        "url": "http://localhost:5000/v1/chat/completions",
+        "model": "unsloth/Qwen3.5-9B-GGUF",
+        "api_key_env": None,
     },
     Provider.LM_STUDIO: {
         "url": "http://localhost:1234/v1/chat/completions",
@@ -33,18 +39,31 @@ _PROVIDER_CONFIG = {
 }
 
 
+def _env_or_default(key: str, default: str) -> str:
+    value = os.environ.get(key)
+    if value is None or not value.strip():
+        return default
+    return value.strip()
+
+
 def get_provider_info() -> tuple[Provider, str, str]:
-    provider_env = os.environ.get("LLM_PROVIDER", "").lower()
-    match provider_env:
-        case Provider.GITHUB_MODELS.value:
-            provider = Provider.GITHUB_MODELS
-        case Provider.ZAI.value:
-            provider = Provider.ZAI
-        case _:
-            provider = Provider.LM_STUDIO
+    provider_env = os.environ.get("LLM_PROVIDER", "").strip().lower()
+    provider_aliases = {
+        "github": Provider.GITHUB_MODELS,
+        "github_models": Provider.GITHUB_MODELS,
+        "zai": Provider.ZAI,
+        "lmstudio": Provider.LM_STUDIO,
+        "lm_studio": Provider.LM_STUDIO,
+        "llama": Provider.LLAMA_SERVER,
+        "llama_server": Provider.LLAMA_SERVER,
+        "llama-server": Provider.LLAMA_SERVER,
+    }
+    provider = provider_aliases.get(provider_env, Provider.LM_STUDIO)
 
     config = _PROVIDER_CONFIG[provider]
-    return provider, config["url"], config["model"]
+    url = _env_or_default("LLM_BASE_URL", config["url"])
+    model = _env_or_default("LLM_MODEL", config["model"])
+    return provider, url, model
 
 
 def last_fetched_info(file_with_ids: str) -> tuple[int | None, str | None]:
@@ -77,7 +96,7 @@ def get_llm_output(prompt: str) -> str | None:
     config = _PROVIDER_CONFIG[provider]
 
     match provider:
-        case Provider.LM_STUDIO:
+        case Provider.LM_STUDIO | Provider.LLAMA_SERVER:
             # TODO: Need to set the thinking budget here; thinks for really long at times :/
             payload = {
                 "model": model,

@@ -14,7 +14,7 @@ version = "0.1.0"
 dev = ["pytest>=8.0.0"]
 
 [project.scripts]
-leetcomp-sync = "leetcomp.sync:sync"
+leetcomp-sync = "leetcomp.sync:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/leetcomp"]

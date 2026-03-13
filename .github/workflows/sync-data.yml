@@ -6,6 +6,15 @@ on:
     # Runs on Wednesday and Saturday
     - cron: '0 7 * * 3,6'
   workflow_dispatch: # Allow manual trigger
+    inputs:
+      provider:
+        description: "LLM provider (github_models, lm_studio, llama_server, zai)"
+        required: false
+        default: "github_models"
+      model:
+        description: "Optional model override"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -36,8 +45,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
-          LLM_PROVIDER: github_models
-        run: uv run leetcomp-sync
+          SYNC_PROVIDER: ${{ github.event.inputs.provider || 'github_models' }}
+          SYNC_MODEL: ${{ github.event.inputs.model || '' }}
+        run: |
+          if [ -n "$SYNC_MODEL" ]; then
+            uv run leetcomp-sync --provider "$SYNC_PROVIDER" --model "$SYNC_MODEL"
+          else
+            uv run leetcomp-sync --provider "$SYNC_PROVIDER"
+          fi
 
       - name: Check for changes
         id: check_changes

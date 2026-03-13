@@ -1,3 +1,4 @@
+import argparse
 import asyncio
 import json
 import os
@@ -127,7 +128,12 @@ def generate_sync_report(till_id: int | None) -> str | None:
     return report_path
 
 
-def sync() -> None:
+def sync(provider: str | None = None, model: str | None = None) -> None:
+    if provider:
+        os.environ["LLM_PROVIDER"] = provider
+    if model:
+        os.environ["LLM_MODEL"] = model
+
     # fetch new posts (till the latest fetched id)
     print("Syncing posts...")
     fetch_till_post_id, fetch_till_timestamp = last_fetched_info(POSTS_FILE)
@@ -167,5 +173,23 @@ def sync() -> None:
     cleanup_temp_files()
 
 
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Sync latest LeetCode compensation data")
+    parser.add_argument(
+        "--provider",
+        type=str,
+        default=None,
+        help="LLM provider (e.g. lm_studio, llama_server, github_models, zai)",
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        default=None,
+        help="LLM model name override (e.g. unsloth/Qwen3.5-9B-GGUF)",
+    )
+    args = parser.parse_args()
+    sync(provider=args.provider, model=args.model)
+
+
 if __name__ == "__main__":
-    sync()
+    main()

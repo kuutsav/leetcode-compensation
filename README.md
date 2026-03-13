@@ -18,23 +18,46 @@ uv sync  # Install all dependencies from pyproject.toml
 
 ## Updating Data
 
-The project uses **LM Studio** by default with the `openai/gpt-oss-20b` model for:
+The project uses **LM Studio** by default (`LLM_PROVIDER=lm_studio`) with the `openai/gpt-oss-20b` model for:
 
 - Parsing salaries, years of experience (YOE), and other compensation details from posts
 - Normalizing fields like companies, roles, and locations into structured format
 
-Make sure you have:
-
-- [LM Studio](https://lmstudio.ai/) installed and running
-- The `openai/gpt-oss-20b` model downloaded and loaded
-- Server running on `http://localhost:1234`
-
-Alternatively, you can use GitHub Models by setting `Provider.GITHUB_MODELS` and the `GITHUB_TOKEN` environment variable.
-
-To sync and fetch new compensation data:
+### Run sync
 
 ```bash
 uv run leetcomp-sync
+```
+
+### Choose provider/model at runtime
+
+```bash
+uv run leetcomp-sync --provider llama_server --model unsloth/Qwen3.5-9B-GGUF
+```
+
+Supported providers:
+
+- `lm_studio` (default)
+- `llama_server` (also supports alias `llama-server`)
+- `github_models` (requires `GITHUB_TOKEN`)
+- `zai` (requires `ZAI_API_KEY`)
+
+Optional env overrides:
+
+- `LLM_PROVIDER`
+- `LLM_MODEL`
+- `LLM_BASE_URL`
+
+### Example: llama.cpp server
+
+```bash
+/opt/homebrew/bin/llama-server \
+  --hf-repo unsloth/Qwen3.5-9B-GGUF \
+  --hf-file Qwen3.5-9B-Q4_K_M.gguf \
+  --port 5000 \
+  -c 65536
+
+uv run leetcomp-sync --provider llama-server --model unsloth/Qwen3.5-9B-GGUF
 ```
 
 ## LLM Assistance
