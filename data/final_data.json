@@ -13,7 +13,7 @@
     "id": 7645363,
     "date": "2026-03-13T10:51:23.554816+00:00",
     "location": "Gurugram",
-    "company": "Mobikwik",
+    "company": "MobiKwik",
     "role": "N/A",
     "yoe": 3,
     "base": 21.5,
@@ -34,7 +34,7 @@
     "date": "2026-03-12T20:01:26.146944+00:00",
     "location": "Hyderabad",
     "company": "Microsoft",
-    "role": "Ic3 (L61)",
+    "role": "IC3 (L61)",
     "yoe": 4.7,
     "base": 28,
     "total": 45
@@ -73,7 +73,7 @@
     "id": 7643995,
     "date": "2026-03-12T17:02:44.934132+00:00",
     "location": "",
-    "company": "Moody'S",
+    "company": "Moody's",
     "role": "SSE",
     "yoe": 7.5,
     "base": 42,
@@ -84,7 +84,7 @@
     "date": "2026-03-12T16:10:14.980903+00:00",
     "location": "Remote",
     "company": "Fortune 500 Service Based Company",
-    "role": "Ai Developer",
+    "role": "AI Developer",
     "yoe": 4.8,
     "base": 32,
     "total": 33.5
@@ -92,8 +92,8 @@
   {
     "id": 7643854,
     "date": "2026-03-12T16:10:14.980903+00:00",
-    "location": "Banglore",
-    "company": "Product-Based B2B Ai Startup",
+    "location": "Bangalore",
+    "company": "Product-Based B2B AI Startup",
     "role": "SSE",
     "yoe": 4.8,
     "base": 34,
@@ -113,7 +113,7 @@
     "id": 7639426,
     "date": "2026-03-10T17:24:55.061629+00:00",
     "location": "Gurugram",
-    "company": "Wio Bank (Statusneo)",
+    "company": "WIO Bank (StatusNeo)",
     "role": "SSE",
     "yoe": 6.5,
     "base": 60.0,
@@ -130,6 +130,16 @@
     "total": null
   },
   {
+    "id": 7633155,
+    "date": "2026-03-07T19:32:46.129060+00:00",
+    "location": "",
+    "company": "Sprinklr",
+    "role": "SSE",
+    "yoe": 3.8,
+    "base": 44.0,
+    "total": null
+  },
+  {
     "id": 7632537,
     "date": "2026-03-07T14:31:23.579927+00:00",
     "location": "Bengaluru",
@@ -140,34 +150,14 @@
     "total": null
   },
   {
-    "id": 7630050,
-    "date": "2026-03-06T13:36:54.386951+00:00",
-    "location": "Bengaluru",
-    "company": "52 Fixed + Year End Bonus",
-    "role": "N/A",
-    "yoe": 10.0,
-    "base": null,
-    "total": 38.0
-  },
-  {
     "id": 7630025,
     "date": "2026-03-06T13:27:27.107934+00:00",
     "location": "",
     "company": "Amazon",
     "role": "SDE 1",
-    "yoe": 2026.0,
+    "yoe": 1.8,
     "base": 19.0,
     "total": null
-  },
-  {
-    "id": 7630013,
-    "date": "2026-03-06T13:21:55.275922+00:00",
-    "location": "",
-    "company": "I Am 2.5 Yoe Backend",
-    "role": "N/A",
-    "yoe": 2.5,
-    "base": null,
-    "total": 22.0
   },
   {
     "id": 7627919,
@@ -188,16 +178,6 @@
     "yoe": 2.5,
     "base": null,
     "total": 7.85
-  },
-  {
-    "id": 7627230,
-    "date": "2026-03-05T12:49:52.278553+00:00",
-    "location": "",
-    "company": "Base: 27.5 Lpa (Including Pf) + Bonus: 2.5 Lpa",
-    "role": "N/A",
-    "yoe": null,
-    "base": 27.5,
-    "total": 30.0
   },
   {
     "id": 7625363,
@@ -227,7 +207,7 @@
     "role": "Sde-1",
     "yoe": 1.5,
     "base": 25.0,
-    "total": 14.0
+    "total": null
   },
   {
     "id": 7622800,
@@ -400,16 +380,6 @@
     "total": 19.0
   },
   {
-    "id": 7612459,
-    "date": "2026-02-27T06:39:27.670978+00:00",
-    "location": "Remote",
-    "company": "Urgent",
-    "role": "SSE",
-    "yoe": 7.5,
-    "base": null,
-    "total": 30.0
-  },
-  {
     "id": 7611869,
     "date": "2026-02-26T21:18:00.552290+00:00",
     "location": "",
@@ -428,16 +398,6 @@
     "yoe": null,
     "base": 25.0,
     "total": null
-  },
-  {
-    "id": 7610008,
-    "date": "2026-02-26T06:28:58.325127+00:00",
-    "location": "Noida",
-    "company": "Naukri Vs Brigthly",
-    "role": "SDE",
-    "yoe": 2.5,
-    "base": null,
-    "total": 8.5
   },
   {
     "id": 7607545,
@@ -530,16 +490,6 @@
     "total": 34.55
   },
   {
-    "id": 7601994,
-    "date": "2026-02-23T08:14:07.802736+00:00",
-    "location": "Bangkok, Thailand",
-    "company": "Agoda",
-    "role": "Staff Engineer",
-    "yoe": 8.5,
-    "base": 39.0,
-    "total": 3.14
-  },
-  {
     "id": 7601711,
     "date": "2026-02-23T06:16:17.472197+00:00",
     "location": "",
@@ -607,17 +557,27 @@
     "role": "SDE",
     "yoe": 1.5,
     "base": 27.5,
-    "total": 24.8
+    "total": null
   },
   {
-    "id": 7597123,
-    "date": "2026-02-21T15:26:31.114474+00:00",
-    "location": "Berlin, Germany",
-    "company": "Deutsche Bank",
-    "role": "Graduate Software Engineer",
-    "yoe": 6.0,
-    "base": 74.0,
-    "total": null
+    "id": 7596994,
+    "date": "2026-02-21T14:29:29.073764+00:00",
+    "location": "",
+    "company": "Microsoft",
+    "role": "N/A",
+    "yoe": null,
+    "base": null,
+    "total": 30.0
+  },
+  {
+    "id": 7596129,
+    "date": "2026-02-21T08:21:17.444928+00:00",
+    "location": "",
+    "company": "Microsoft",
+    "role": "SDE 2",
+    "yoe": 3.0,
+    "base": null,
+    "total": 1.0
   },
   {
     "id": 7595867,
@@ -657,7 +617,7 @@
     "role": "SDE",
     "yoe": 4.0,
     "base": 36.0,
-    "total": 30.0
+    "total": null
   },
   {
     "id": 7591228,
@@ -678,16 +638,6 @@
     "yoe": 2.6,
     "base": 19.5,
     "total": 21.0
-  },
-  {
-    "id": 7589533,
-    "date": "2026-02-18T15:07:20.876861+00:00",
-    "location": "Hyderabad",
-    "company": "Hyderabad",
-    "role": "SDE",
-    "yoe": 6.6,
-    "base": 30.0,
-    "total": null
   },
   {
     "id": 7589302,
@@ -7913,7 +7863,7 @@
     "id": 7202316,
     "date": "2025-09-18T12:46:31.276871+00:00",
     "location": "Gurugram",
-    "company": "Mobikwik",
+    "company": "MobiKwik",
     "role": "SDE 2",
     "yoe": 3,
     "base": 18,
